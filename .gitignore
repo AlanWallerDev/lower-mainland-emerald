@@ -45,3 +45,7 @@ prefabs.json
 /pokeemerald-*.png
 /pokeemerald_modern-*.png
 .porydaw/
+# Living Atlas hack: never commit ROMs
+*.gba
+*.sav
+*.bps

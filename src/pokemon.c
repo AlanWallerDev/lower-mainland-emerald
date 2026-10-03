@@ -2701,7 +2701,7 @@ static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
     u16 statValue = 0;
     u8 nature;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_LINK_IN_BATTLE || GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS)
+    if (gBattleTypeFlags & BATTLE_TYPE_LINK_IN_BATTLE || GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DISABLED)
         return 0;
 
     ivVal = GetMonData(mon, MON_DATA_HP_IV + statId, NULL);
@@ -2720,7 +2720,7 @@ void SetDeoxysStats(void)
     {
         struct Pokemon *mon = &gPlayerParty[i];
 
-        if (GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS)
+        if (GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DISABLED)
             continue;
 
         value = GetMonData(mon, MON_DATA_ATK, NULL);
@@ -2842,7 +2842,7 @@ void CalculateMonStats(struct Pokemon *mon)
 
     SetMonData(mon, MON_DATA_LEVEL, &level);
 
-    if (species == SPECIES_SHEDINJA)
+    if (species == SPECIES_DISABLED)
     {
         newMaxHP = 1;
     }
@@ -2864,7 +2864,7 @@ void CalculateMonStats(struct Pokemon *mon)
     CALC_STAT(baseSpAttack, spAttackIV, spAttackEV, STAT_SPATK, MON_DATA_SPATK)
     CALC_STAT(baseSpDefense, spDefenseIV, spDefenseEV, STAT_SPDEF, MON_DATA_SPDEF)
 
-    if (species == SPECIES_SHEDINJA)
+    if (species == SPECIES_DISABLED)
     {
         if (currentHP != 0 || oldMaxHP == 0)
             currentHP = 1;
@@ -5799,7 +5799,7 @@ u16 SpeciesToCryId(u16 species)
 // not it's the front pic.
 static void UNUSED DrawSpindaSpotsUnused(u16 species, u32 personality, u8 *dest)
 {
-    if (species == SPECIES_SPINDA
+    if (species == SPECIES_DISABLED
         && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_LEFT]
         && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_RIGHT])
         DRAW_SPINDA_SPOTS(personality, dest);
@@ -5807,7 +5807,7 @@ static void UNUSED DrawSpindaSpotsUnused(u16 species, u32 personality, u8 *dest)
 
 void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, bool8 isFrontPic)
 {
-    if (species == SPECIES_SPINDA && isFrontPic)
+    if (species == SPECIES_DISABLED && isFrontPic)
         DRAW_SPINDA_SPOTS(personality, dest);
 }
 

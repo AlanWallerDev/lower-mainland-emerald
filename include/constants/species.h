@@ -2,6 +2,8 @@
 #define GUARD_CONSTANTS_SPECIES_H
 
 #define SPECIES_NONE 0
+// Living Atlas: used in place of species that had hard-coded behavior (Shedinja HP, Deoxys forms, Spinda spots).
+#define SPECIES_DISABLED 0xFFFF
 #define SPECIES_BULBASAUR 1
 #define SPECIES_IVYSAUR 2
 #define SPECIES_VENUSAUR 3
