@@ -19,6 +19,8 @@
 #include "sound.h"
 #include "battle.h"
 #include "battle_controllers.h"
+#include "battle_main.h"
+#include "main_menu.h"
 #include "text.h"
 #include "intro.h"
 #include "main.h"
@@ -177,16 +179,29 @@ static void UpdateLinkAndCallCallbacks(void)
 }
 
 // Living Atlas: GAME SPEED option. Runs the game logic 1, 2 or 4 times per frame. Presses only
-// register on the first pass so menus don't skip; held buttons carry over. Never during link play.
+// register on the first pass so menus don't skip; held buttons carry over.
+// Only the field, the running battle and the title menu / intro speech are sped up: screen setup
+// routines (returning from the bag, map loads, transitions) step once per real frame and break if
+// run between VBlanks.
+// Centers start a background wireless listener, so gWirelessCommType alone doesn't mean link
+// play; only a connected partner, a link room or the Union Room turns the speed-up off.
+static bool8 CanSpeedUpCallback(void)
+{
+    return gMain.callback2 == CB2_Overworld || gMain.callback2 == BattleMainCB2
+        || gMain.callback2 == CB2_MainMenu;
+}
+
 static void RunExtraGameSpeedFrames(void)
 {
     static const u8 sExtraFrames[OPTIONS_GAME_SPEED_COUNT] = {0, 1, 3};
     u8 i, extra;
 
-    if (gReceivedRemoteLinkPlayers || gWirelessCommType || gSaveBlock2Ptr->optionsGameSpeed >= OPTIONS_GAME_SPEED_COUNT)
+    if (gReceivedRemoteLinkPlayers || gSaveBlock2Ptr->optionsGameSpeed >= OPTIONS_GAME_SPEED_COUNT)
+        return;
+    if (IsOverworldLinkActive() || InUnionRoom())
         return;
     extra = sExtraFrames[gSaveBlock2Ptr->optionsGameSpeed];
-    for (i = 0; i < extra; i++)
+    for (i = 0; i < extra && CanSpeedUpCallback(); i++)
     {
         gMain.newKeys = 0;
         gMain.newAndRepeatedKeys = 0;

@@ -748,6 +748,11 @@ static u8 UpdateHardwarePaletteFade(void)
     if (!gPaletteFade.active)
         return PALETTE_FADE_STATUS_DONE;
 
+    // Living Atlas: with GAME SPEED above 1x this can run more than once before the VBlank that
+    // finishes the fade. The 1-bit finishing flag would wrap back to 0 and the fade never end.
+    if (gPaletteFade.hardwareFadeFinishing)
+        return PALETTE_FADE_STATUS_ACTIVE;
+
     if (gPaletteFade.delayCounter < gPaletteFade_delay)
     {
         gPaletteFade.delayCounter++;

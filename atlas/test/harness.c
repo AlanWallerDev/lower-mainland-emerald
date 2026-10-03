@@ -2,7 +2,7 @@
 // Build: cc -O2 -o build/harness atlas/test/harness.c -lmgba
 // Usage: build/harness rom.gba script.txt [save.sav]
 // Script lines:  wait N | press KEYS [N] | hold KEYS N | repeat KEYS N | shot file.ppm
-//                savestate file | loadstate file | # comment
+//                savestate file | loadstate file | peek HEXADDR [N] | # comment
 // KEYS: A B SELECT START RIGHT LEFT UP DOWN R L joined with '+', e.g. press A, hold UP+B 30.
 #include <mgba/core/core.h>
 #include <mgba/core/config.h>
@@ -94,6 +94,13 @@ int main(int argc, char **argv) {
 			else fprintf(stderr, "loadstate failed: %s\n", arg);
 			if (f) fclose(f);
 			free(buf);
+		}
+		else if (!strcmp(cmd, "peek")) {
+			// peek ADDR N: print N 32-bit words starting at hex ADDR
+			unsigned addr = strtoul(arg, NULL, 16);
+			printf("%08x:", addr);
+			for (int i = 0; i < (got >= 3 ? n : 1); i++) printf(" %08x", core->busRead32(core, addr + i * 4));
+			printf("\n");
 		}
 		else if (!strcmp(cmd, "repeat")) {
 			// repeat KEYS N: press KEYS N times (useful for mashing through text)
