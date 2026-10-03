@@ -67,7 +67,7 @@ SSTidalRooms_Text_TakeRestOnBed:
 	.string "Let's take a rest.$"
 
 SSTidalRooms_Text_ColtonIntro:
-	.string "I often sail to LILYCOVE CITY.\p"
+	.string "I often sail to VANCOUVER.\p"
 	.string "I enjoy attending CONTESTS,\n"
 	.string "you see.$"
 
@@ -159,7 +159,8 @@ SSTidalRooms_Text_NaomiPostBattle:
 	.string "A world cruise on a luxury liner has its\n"
 	.string "charms, I must say…\p"
 	.string "But, I will admit there is an appealing\n"
-	.string "side to touring HOENN by ferry.$"
+	.string "side to touring the LOWER MAINLAND by\l"
+	.string "ferry.$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
 	.string "Uh… Hi! I… I'm not acting suspicious!\n"

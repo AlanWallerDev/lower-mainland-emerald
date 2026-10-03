@@ -378,9 +378,9 @@ Route116_Text_GoonHightailedItOutOfTunnel:
 Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Oh! It's you!\p"
 	.string "You're that person who not only helped\n"
-	.string "me in PETALBURG WOODS, but also got\l"
+	.string "me in PACIFIC SPIRIT, but also got\l"
 	.string "back my stolen package and then even\l"
-	.string "graciously delivered it to SLATEPORT!\p"
+	.string "graciously delivered it to STEVESTON!\p"
 	.string "CAPT. STERN informed us that the\n"
 	.string "package arrived, too!\p"
 	.string "I thank you very, very much!\p"
@@ -396,7 +396,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 
 Route116_Text_NewBallAvailableAtMart:
 	.string "Our new POKé BALL will be available\n"
-	.string "at the POKéMON MART in RUSTBORO.\p"
+	.string "at the POKéMON MART in BURNABY.\p"
 	.string "Please do try it out!\n"
 	.string "Thank you and bye-bye!$"
 
@@ -436,12 +436,12 @@ Route116_Text_NotWhatImLookingFor:
 	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "CENTRAL PARK\n"
+	.string "{LEFT_ARROW} BURNABY$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
+	.string "CASSIAR TUNNEL\n"
+	.string "“Linking BURNABY and LANGLEY\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 

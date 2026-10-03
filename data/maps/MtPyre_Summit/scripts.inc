@@ -437,7 +437,7 @@ MtPyre_Summit_Text_Grunt2PostBattle:
 
 MtPyre_Summit_Text_Grunt3Intro:
 	.string "You…\n"
-	.string "We saw you at MT. CHIMNEY.\p"
+	.string "We saw you at MT. GARIBALDI.\p"
 	.string "You don't belong to either TEAM,\n"
 	.string "so why would you be here?$"
 
@@ -469,12 +469,12 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
 	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
+	.string "The RED ORB preserved at MOUNTAIN\n"
+	.string "VIEW… I, ARCHIE, now have it in my\l"
+	.string "possession!\p"
 	.string "Fufufu… Now we can bring our ultimate\n"
 	.string "objective to fruition!\p"
-	.string "Okay, TEAM!\n"
-	.string "We're pulling out!$"
+	.string "Okay, TEAM! We're pulling out!$"
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Oh, no…\n"
@@ -534,15 +534,16 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "taught us that…$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
-	.string "MT. PYRE is where we calm the spirits\n"
-	.string "of POKéMON that have passed on…\p"
-	.string "This is a high place where one can\n"
-	.string "see all of HOENN…\p"
+	.string "MOUNTAIN VIEW is where we calm the\n"
+	.string "spirits of POKéMON that have passed\l"
+	.string "on…\p"
+	.string "This is a high place where one can see\n"
+	.string "all of the LOWER MAINLAND…\p"
 	.string "The disembodied spirits of POKéMON\n"
 	.string "must find solace here…\p"
 	.string "Is it coincidence that you are here…\p"
 	.string "Will you hear out my tale? A tale long\n"
-	.string "told in the HOENN region?$"
+	.string "told in the LOWER MAINLAND?$"
 
 MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "It happened long, long ago…\p"
@@ -574,12 +575,12 @@ MtPyre_Summit_Text_MaxieSilence:
 	.string "… … … … … …$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
-	.string "It is my role to pass on the legends\n"
-	.string "of HOENN to future generations.\p"
-	.string "And the crisis that just ended in\n"
-	.string "SOOTOPOLIS rewrote a legend…\p"
+	.string "It is my role to pass on the legends of\n"
+	.string "LOWER MAINLAND to future generations.\p"
+	.string "And the crisis that just ended in DEEP\n"
+	.string "COVE rewrote a legend…\p"
 	.string "Have you the time to hear the new\n"
-	.string "legend of HOENN?$"
+	.string "legend of the LOWER MAINLAND?$"
 
 MtPyre_Summit_Text_HoennTrioTale:
 	.string "It happened long, long ago…\p"

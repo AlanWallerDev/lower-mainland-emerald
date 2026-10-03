@@ -177,7 +177,7 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "Yo! How's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "SOOTOPOLIS's GYM LEADER JUAN is\n"
+	.string "DEEP COVE's GYM LEADER JUAN is\n"
 	.string "a master of WATER-type POKéMON.\p"
 	.string "And, to get to JUAN, an icy floor\n"
 	.string "will hamper your progress…\p"
@@ -187,8 +187,9 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "go for it yourself!$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
-	.string "Yow! You've beaten even JUAN, who\n"
-	.string "was supposedly the best in all HOENN!\p"
+	.string "Yow! You've beaten even JUAN, who was\n"
+	.string "supposedly the best in all the LOWER\l"
+	.string "MAINLAND!\p"
 	.string "Okay! Check out your TRAINER CARD.\p"
 	.string "If you've gotten all the BADGES, you're\n"
 	.string "set for the POKéMON LEAGUE challenge!$"
@@ -257,27 +258,29 @@ SootopolisCity_Gym_1F_Text_RegisteredJuan:
 	.string "in the POKéNAV.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
-	.string "The TRAINERS who have gathered all\n"
-	.string "the GYM BADGES of HOENN should make\l"
-	.string "way to the ultimate destination.\p"
+	.string "The TRAINERS who have gathered all the\n"
+	.string "GYM BADGES of the LOWER MAINLAND\l"
+	.string "should make way to the ultimate\l"
+	.string "destination.\p"
 	.string "The POKéMON LEAGUE.\p"
-	.string "Travel to the easternmost reaches\n"
-	.string "of HOENN, to the island EVER GRANDE.\p"
+	.string "Travel to the easternmost reaches of\n"
+	.string "LOWER MAINLAND, to the island\l"
+	.string "WHISTLER.\p"
 	.string "There, you shall find the POKéMON\n"
 	.string "LEAGUE.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "There remains but one BADGE to\n"
-	.string "obtain in HOENN.\p"
+	.string "obtain in the LOWER MAINLAND.\p"
 	.string "If you wish to challenge the POKéMON\n"
 	.string "LEAGUE, you must obtain the last\l"
-	.string "BADGE from the GYM in FORTREE.$"
+	.string "BADGE from the GYM in MAPLE RIDGE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
-	.string "SOOTOPOLIS CITY POKéMON GYM$"
+	.string "DEEP COVE POKéMON GYM$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-	.string "SOOTOPOLIS CITY POKéMON GYM\p"
+	.string "DEEP COVE POKéMON GYM\p"
 	.string "JUAN'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

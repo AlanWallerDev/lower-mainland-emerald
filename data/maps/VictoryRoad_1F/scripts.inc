@@ -189,7 +189,7 @@ VictoryRoad_1F_Text_HopePostBattle:
 	.string "becoming the CHAMPION.$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "What is the VICTORY ROAD?\n"
+	.string "What is the SEA TO SKY?\n"
 	.string "I'll tell you if you win!$"
 
 VictoryRoad_1F_Text_QuincyDefeat:

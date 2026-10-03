@@ -186,11 +186,11 @@ Route123_Text_CheckTreesWithMyGrassMon:
 	.string "POKéMON. I'm like a tree doctor.$"
 
 Route123_Text_RouteSign:
-	.string "{RIGHT_ARROW} ROUTE 123\n"
-	.string "{LEFT_ARROW} ROUTE 118$"
+	.string "{RIGHT_ARROW} KING GEORGE\n"
+	.string "{LEFT_ARROW} PITT RIVER$"
 
 Route123_Text_RouteSignMtPyre:
-	.string "{UP_ARROW} MT. PYRE\n"
+	.string "{UP_ARROW} MOUNTAIN VIEW\n"
 	.string "“Forbidden to the faint of heart.”$"
 
 Route123_Text_BerryMastersHouse:

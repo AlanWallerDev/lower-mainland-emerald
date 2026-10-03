@@ -1044,18 +1044,18 @@ Route104_Text_MrBrineysCottage:
 
 Route104_Text_RouteSignPetalburg:
 	.string "ROUTE 1O4\n"
-	.string "{RIGHT_ARROW} PETALBURG CITY$"
+	.string "{RIGHT_ARROW} RICHMOND$"
 
 Route104_Text_RouteSignRustboro:
 	.string "ROUTE 1O4\n"
-	.string "{UP_ARROW} RUSTBORO CITY$"
+	.string "{UP_ARROW} BURNABY$"
 
 Route104_Text_PrettyPetalFlowShop:
 	.string "PRETTY PETAL FLOWER SHOP$"
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "TRAINER TIPS\p"
-	.string "In the HOENN region there are pairs\n"
+	.string "In the LOWER MAINLAND there are pairs\n"
 	.string "of TRAINERS who challenge others\l"
 	.string "for 2-on-2 POKéMON battles called\l"
 	.string "DOUBLE BATTLES.\p"

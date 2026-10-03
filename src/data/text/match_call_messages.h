@@ -60,7 +60,7 @@ const u8 gText_MatchCallBeauty_Thalia_Intro2[] = _("the world on a luxury liner.
 
 const u8 gText_MatchCallBeauty_Jessica_Strategy[] = _("I'll lead you astray.");
 const u8 gText_MatchCallBeauty_Jessica_Pokemon[] = _("Cute, of course.");
-const u8 gText_MatchCallBeauty_Jessica_Intro1[] = _("I love the SAFARI ZONE.");
+const u8 gText_MatchCallBeauty_Jessica_Intro1[] = _("I love the BURNS BOG.");
 const u8 gText_MatchCallBeauty_Jessica_Intro2[] = _("I seem to end up there.");
 
 const u8 gText_MatchCallRichBoy_Winston_Strategy[] = _("Strategy? Who needs it?");
@@ -371,7 +371,7 @@ const u8 gText_MatchCallEliteFour_Sidney_Intro2[] = _("I'm one of the ELITE FOUR
 const u8 gText_MatchCallEliteFour_Phoebe_Strategy[] = _("Confuse and confound.");
 const u8 gText_MatchCallEliteFour_Phoebe_Pokemon[] = _("There's nothing definite.");
 const u8 gText_MatchCallEliteFour_Phoebe_Intro1[] = _("I wonder how my grandma at");
-const u8 gText_MatchCallEliteFour_Phoebe_Intro2[] = _("MT. PYRE is doing?");
+const u8 gText_MatchCallEliteFour_Phoebe_Intro2[] = _("MOUNTAIN VIEW is doing?");
 
 const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("I use items for help.");
 const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("Flaming passion in icy cold!");

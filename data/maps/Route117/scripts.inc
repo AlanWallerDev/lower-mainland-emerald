@@ -193,12 +193,12 @@ Route117_Text_AirIsTastyHere:
 	.string "The air is tasty here!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "FRASER HWY\n"
+	.string "{LEFT_ARROW} LANGLEY$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string "FRASER HWY\n"
+	.string "{RIGHT_ARROW} SURREY$"
 
 Route117_Text_DayCareSign:
 	.string "POKéMON DAY CARE\n"

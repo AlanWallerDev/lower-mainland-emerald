@@ -1140,11 +1140,11 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "WALLY: I'm going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
+	.string "relatives in LANGLEY.\p"
 	.string "I thought I would be lonely by myself,\n"
 	.string "so I wanted to take a POKéMON along.\p"
-	.string "But I've never caught a POKéMON before.\n"
-	.string "I don't know how…$"
+	.string "But I've never caught a POKéMON\n"
+	.string "before. I don't know how…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
 	.string "DAD: Hm. I see.$"
@@ -1194,7 +1194,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "DAD: Now…\p"
 	.string "{PLAYER}, if you want to become a\n"
 	.string "strong TRAINER, here's my advice.\p"
-	.string "Head for RUSTBORO CITY beyond this\n"
+	.string "Head for BURNABY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
 	.string "the GYM LEADER, ROXANNE.\p"
@@ -1209,7 +1209,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "DAD: Hm? Aren't you going to the\n"
-	.string "POKéMON GYM in RUSTBORO CITY?\p"
+	.string "POKéMON GYM in BURNABY?\p"
 	.string "There's no challenge for me to\n"
 	.string "battle a greenhorn TRAINER.\p"
 	.string "{PLAYER}, I want you to challenge me\n"
@@ -1219,10 +1219,10 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "DAD: I see… So, you've beaten\n"
-	.string "the GYM LEADER in RUSTBORO CITY.\p"
+	.string "the GYM LEADER in BURNABY.\p"
 	.string "But there are many more TRAINERS\n"
 	.string "who are stronger than you, {PLAYER}.\p"
-	.string "Across the sea in DEWFORD TOWN is a\n"
+	.string "Across the sea in BOWEN ISLAND is a\n"
 	.string "GYM LEADER named BRAWLY.\p"
 	.string "You should go challenge him.$"
 
@@ -1311,7 +1311,7 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "beat the awaiting TRAINERS.\p"
 	.string "Whoops! The doors in this room are\n"
 	.string "already open, so don't attack me!\p"
-	.string "The TRAINERS of PETALBURG GYM\n"
+	.string "The TRAINERS of RICHMOND GYM\n"
 	.string "use all kinds of items.\p"
 	.string "The door at the left leads to\n"
 	.string "the SPEED ROOM.\p"
@@ -1413,7 +1413,7 @@ PetalburgCity_Gym_Text_BerkePostBattle:
 
 PetalburgCity_Gym_Text_BerkePostBadge:
 	.string "Since your dad became the LEADER,\n"
-	.string "the TRAINERS of PETALBURG CITY have\l"
+	.string "the TRAINERS of RICHMOND have\l"
 	.string "become a lot tougher.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
@@ -1525,10 +1525,10 @@ PetalburgCity_Gym_Text_EnterGymLeadersRoom:
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "PETALBURG CITY POKéMON GYM$"
+	.string "RICHMOND POKéMON GYM$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "PETALBURG CITY POKéMON GYM\p"
+	.string "RICHMOND POKéMON GYM\p"
 	.string "NORMAN'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

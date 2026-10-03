@@ -252,7 +252,7 @@ SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
 	.string "If our goons didn't bungle things\n"
-	.string "in RUSTBORO, we wouldn't be here!$"
+	.string "in BURNABY, we wouldn't be here!$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
 	.string "I didn't have ¥50, so it took a long\n"
@@ -284,7 +284,7 @@ SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
 	.string "What are you doing here?\p"
 	.string "Me? I'm the TEAM AQUA member\n"
 	.string "you thumped before, remember?\l"
-	.string "Back in RUSTURF TUNNEL?\p"
+	.string "Back in CASSIAR TUNNEL?\p"
 	.string "Here, take this!\n"
 	.string "You have to forgive me!$"
 

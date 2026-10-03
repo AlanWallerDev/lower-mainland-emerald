@@ -283,17 +283,17 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKéMON.\p"
+	.string "Hey, how's it going, CHAMPION- bound\n"
+	.string "{PLAYER}?\p"
+	.string "BOWEN ISLAND's GYM LEADER BRAWLY\n"
+	.string "commands FIGHTING-type POKéMON.\p"
 	.string "Going against him with NORMAL-type\n"
 	.string "POKéMON is asking for trouble.\p"
 	.string "FIGHTING POKéMON will lay a serious\n"
-	.string "smack down on NORMAL POKéMON,\l"
-	.string "so be careful!\p"
-	.string "What's worse, the GYM is as dark as\n"
-	.string "the ocean floor.\p"
+	.string "smack down on NORMAL POKéMON, so be\l"
+	.string "careful!\p"
+	.string "What's worse, the GYM is as dark as the\n"
+	.string "ocean floor.\p"
 	.string "But it will get brighter after defeating\n"
 	.string "the TRAINERS in your way.\p"
 	.string "Hey, okay, go for it!$"
@@ -381,7 +381,7 @@ DewfordTown_Gym_Text_CristianPostBattle:
 
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "I'm BRAWLY!\n"
-	.string "DEWFORD's GYM LEADER!\p"
+	.string "BOWEN ISLAND's GYM LEADER!\p"
 	.string "I've been churned in the rough waves\n"
 	.string "of these parts, and I've grown tough\l"
 	.string "in the pitch-black cave!\p"
@@ -424,10 +424,10 @@ DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string "BOWEN ISLAND POKéMON GYM$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD TOWN POKéMON GYM\p"
+	.string "BOWEN ISLAND POKéMON GYM\p"
 	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -445,8 +445,8 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
 	.string "BRAWLY: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string "You can't see the bottom. It's just\l"
+	.string "like the sea of the LOWER MAINLAND!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "BRAWLY: A wave may draw back, but it\n"

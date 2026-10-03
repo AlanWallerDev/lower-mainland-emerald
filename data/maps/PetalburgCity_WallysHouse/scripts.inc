@@ -66,20 +66,19 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
 	end
 
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
-	.string "You're…\n"
-	.string "Ah, you must be {PLAYER}{KUN}, right?\p"
+	.string "You're… Ah, you must be {PLAYER}{KUN}, right?\p"
 	.string "Thank you for playing with WALLY a\n"
 	.string "little while ago.\p"
-	.string "He's been frail and sickly ever\n"
-	.string "since he was a baby.\p"
-	.string "We've sent him to stay with my relatives\n"
-	.string "in VERDANTURF TOWN for a while.\p"
-	.string "The air is a lot cleaner there\n"
-	.string "than it is here.\p"
-	.string "What's that? Where's WALLY?\n"
-	.string "He's already left, our WALLY.\p"
-	.string "I wonder where he could have\n"
-	.string "gotten by now?$"
+	.string "He's been frail and sickly ever since he\n"
+	.string "was a baby.\p"
+	.string "We've sent him to stay with my\n"
+	.string "relatives in LANGLEY for a while.\p"
+	.string "The air is a lot cleaner there than it is\n"
+	.string "here.\p"
+	.string "What's that? Where's WALLY? He's\n"
+	.string "already left, our WALLY.\p"
+	.string "I wonder where he could have gotten by\n"
+	.string "now?$"
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
 	.string "I wonder how our WALLY is doing?$"
@@ -88,7 +87,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "{PLAYER}{KUN}! Please excuse us for\n"
 	.string "dragging you here this way.\p"
 	.string "But our WALLY's become very healthy\n"
-	.string "since he went to VERDANTURF TOWN.\p"
+	.string "since he went to LANGLEY.\p"
 	.string "We owe it all to you!\p"
 	.string "When WALLY left town, you helped\n"
 	.string "him catch a POKéMON, right?\p"
@@ -111,7 +110,7 @@ PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
 
 PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 	.string "Oh? You met WALLY in\n"
-	.string "EVER GRANDE CITY?\p"
+	.string "WHISTLER?\p"
 	.string "Oh, {PLAYER}{KUN}, don't be silly.\p"
 	.string "He may have gotten healthy, but he\n"
 	.string "can't go somewhere far away like\l"
@@ -126,7 +125,7 @@ PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
 PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 	.string "I want you to keep this a secret\n"
 	.string "from my husband…\p"
-	.string "But our WALLY left VERDANTURF TOWN\n"
+	.string "But our WALLY left LANGLEY\n"
 	.string "without telling anyone.\p"
 	.string "You know, WALLY is frail, but\n"
 	.string "he's surprisingly strong-willed.\p"

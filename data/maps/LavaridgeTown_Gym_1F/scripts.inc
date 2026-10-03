@@ -181,14 +181,14 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 	end
 
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "LAVARIDGE's GYM LEADER FLANNERY\n"
-	.string "uses FIRE-type POKéMON.\p"
+	.string "Hey, how's it going, CHAMPION- bound\n"
+	.string "{PLAYER}?\p"
+	.string "HARRISON's GYM LEADER FLANNERY uses\n"
+	.string "FIRE-type POKéMON.\p"
 	.string "Her passion for POKéMON burns stronger\n"
 	.string "and hotter than a volcano.\p"
-	.string "Don't get too close to her--you'll burn!\n"
-	.string "Hose her down with water and then\l"
+	.string "Don't get too close to her--you'll\n"
+	.string "burn! Hose her down with water and then\l"
 	.string "go for it!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
@@ -354,13 +354,13 @@ LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 	.string "Your power reminds me of someone…\p"
 	.string "Oh! I know! You battle like NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG.$"
+	.string "the GYM LEADER of RICHMOND.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
-	.string "LAVARIDGE TOWN POKéMON GYM$"
+	.string "HARRISON POKéMON GYM$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
-	.string "LAVARIDGE TOWN POKéMON GYM\p"
+	.string "HARRISON POKéMON GYM\p"
 	.string "FLANNERY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

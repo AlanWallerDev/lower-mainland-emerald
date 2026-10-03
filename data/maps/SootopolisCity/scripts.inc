@@ -1352,13 +1352,13 @@ SootopolisCity_Movement_DestroyTask::
 	step_end
 
 SootopolisCity_Text_GymSign:
-	.string "SOOTOPOLIS CITY POKéMON GYM\n"
+	.string "DEEP COVE POKéMON GYM\n"
 	.string "LEADER: JUAN\p"
 	.string "“The GYM LEADER with the beauty\n"
 	.string "of pure water!”$"
 
 SootopolisCity_Text_CitySign:
-	.string "SOOTOPOLIS CITY\p"
+	.string "DEEP COVE\p"
 	.string "“The mystical city where history\n"
 	.string "slumbers.”$"
 
@@ -1458,14 +1458,14 @@ SootopolisCity_Text_PrettyMonCameFromSky:
 
 SootopolisCity_Text_SootopolisWillBeWrecked:
 	.string "Oh, no!\n"
-	.string "SOOTOPOLIS CITY will get wrecked!$"
+	.string "DEEP COVE will get wrecked!$"
 
 SootopolisCity_Text_SootopolisDidntGetWrecked:
-	.string "SOOTOPOLIS CITY didn't get wrecked!$"
+	.string "DEEP COVE didn't get wrecked!$"
 
 SootopolisCity_Text_NoOrdinaryTourist:
 	.string "Hm!\n"
-	.string "You've come all the way to SOOTOPOLIS?\l"
+	.string "You've come all the way to DEEP COVE?\l"
 	.string "You're no ordinary tourist.\p"
 	.string "But I suppose that doesn't make you\n"
 	.string "an extraordinary tourist, either.$"
@@ -1477,7 +1477,8 @@ SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string "Who might you be?\p"
 	.string "This is the CAVE OF ORIGIN.\p"
 	.string "The spirits of POKéMON, becalmed at\n"
-	.string "MT. PYRE, are said to be revived here.\p"
+	.string "MOUNTAIN VIEW, are said to be revived\l"
+	.string "here.\p"
 	.string "Please leave.$"
 
 SootopolisCity_Text_LeadSuperiorTrainerToCave:
@@ -1501,13 +1502,13 @@ SootopolisCity_Text_CaveOfOriginSleepsToo:
 	.string "the cave, too, shall sleep…$"
 
 SootopolisCity_Text_SootopolisSkyBeautiful:
-	.string "SOOTOPOLIS sprang up as a town in\n"
+	.string "DEEP COVE sprang up as a town in\n"
 	.string "the crater of a volcano.\p"
 	.string "If you look up at the sky, the lip of\n"
 	.string "the crater is also visible.\l"
 	.string "So, all you see is the sky in a circle.\p"
 	.string "But that's what makes the sky above\n"
-	.string "SOOTOPOLIS the most beautiful.$"
+	.string "DEEP COVE the most beautiful.$"
 
 SootopolisCity_Text_GiganticPokemonFight:
 	.string "When two POKéMON that gigantic\n"
@@ -1543,11 +1544,12 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "MAXIE: G… GROUDON…\n"
-	.string "Please! Stop what you're doing!\p"
+	.string "MAXIE: G… GROUDON… Please! Stop what\n"
+	.string "you're doing!\p"
 	.string "I know the extent of your power now!\p"
-	.string "If you keep going, all HOENN, not just\n"
-	.string "SOOTOPOLIS, will be utterly ruined!$"
+	.string "If you keep going, all the LOWER\n"
+	.string "MAINLAND, not just DEEP COVE, will be\l"
+	.string "utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "MAXIE: So the super-ancient POKéMON\n"
@@ -1569,15 +1571,14 @@ SootopolisCity_Text_KyogreCalmDown:
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: KYOGRE and GROUDON both\n"
-	.string "flew off to who knows where.\p"
-	.string "The weather in HOENN has returned\n"
-	.string "to its normal state…\p"
-	.string "Haha…\n"
-	.string "Hahaha…\p"
+	.string "ARCHIE: KYOGRE and GROUDON both flew\n"
+	.string "off to who knows where.\p"
+	.string "The weather in the LOWER MAINLAND has\n"
+	.string "returned to its normal state…\p"
+	.string "Haha… Hahaha…\p"
 	.string "Maybe what we were trying to do was\n"
-	.string "something small, even meaningless,\l"
-	.string "to POKéMON…$"
+	.string "something small, even meaningless, to\l"
+	.string "POKéMON…$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "STEVEN: Those POKéMON fighting…\n"
@@ -1615,7 +1616,7 @@ SootopolisCity_Text_KnowWhatsNeededToHelpHim:
 	.string "needed to help him…$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "STEVEN: The SKY PILLAR…\p"
+	.string "STEVEN: The STAWAMUS CHIEF…\p"
 	.string "I've never been there.\n"
 	.string "I wonder where it could be?$"
 
@@ -1627,16 +1628,16 @@ SootopolisCity_Text_SoThatsRayquaza:
 SootopolisCity_Text_MaxieArchieLeft:
 	.string "STEVEN: It looks like both MAXIE and\n"
 	.string "ARCHIE have gone away somewhere.\p"
-	.string "Perhaps they've gone to MT. PYRE to\n"
-	.string "return those ORBS…$"
+	.string "Perhaps they've gone to MOUNTAIN VIEW\n"
+	.string "to return those ORBS…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string "WALLACE: Oh?\n"
 	.string "{PLAYER}{KUN}?\p"
-	.string "Haven't you scaled the SKY PILLAR\n"
+	.string "Haven't you scaled the STAWAMUS CHIEF\n"
 	.string "yet?\p"
 	.string "I'm sure that you can make it to\n"
-	.string "the top of the SKY PILLAR…$"
+	.string "the top of the STAWAMUS CHIEF…$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "WALLACE: {PLAYER}{KUN}…\p"
@@ -1646,13 +1647,12 @@ SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "have to say for themselves.$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
-	.string "WALLACE: {PLAYER}{KUN}…\n"
-	.string "My eyes didn't deceive me.\p"
-	.string "Thanks to your help, SOOTOPOLIS…\n"
-	.string "No, all of HOENN was saved.\p"
+	.string "WALLACE: {PLAYER}{KUN}… My eyes didn't\n"
+	.string "deceive me.\p"
+	.string "Thanks to your help, DEEP COVE… No, all\n"
+	.string "of the LOWER MAINLAND was saved.\p"
 	.string "On behalf of the people, I thank you.\p"
-	.string "This is a gift from me.\n"
-	.string "Please accept it.$"
+	.string "This is a gift from me. Please accept it.$"
 
 SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "That HIDDEN MACHINE contains\n"
@@ -1663,7 +1663,7 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "And where does one get the RAIN BADGE?\n"
 	.string "You know, don't you?\p"
 	.string "That's right! You have to beat\n"
-	.string "the SOOTOPOLIS GYM LEADER.\p"
+	.string "the DEEP COVE GYM LEADER.\p"
 	.string "When you're all set to go, step through\n"
 	.string "that door.$"
 

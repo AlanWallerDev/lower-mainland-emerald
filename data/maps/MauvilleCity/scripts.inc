@@ -501,7 +501,7 @@ MauvilleCity_Text_WallyDefeat:
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
 	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to VERDANTURF…$"
+	.string "I'll go back to LANGLEY…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
 	.string "{PLAYER}, thank you.\n"
@@ -523,7 +523,7 @@ MauvilleCity_Text_UncleVisitUsSometime:
 	.string "that you must be the TRAINER who kept\l"
 	.string "an eye out for WALLY when he caught\l"
 	.string "his POKéMON.\p"
-	.string "Why don't you visit us in VERDANTURF\n"
+	.string "Why don't you visit us in LANGLEY\n"
 	.string "sometime?\l"
 	.string "I'm sure WALLY would enjoy it.$"
 
@@ -562,20 +562,20 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "That's a good thing, wahahahaha!\p"
 	.string "Fine! I've decided!\n"
 	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "MAUVILLE CITY has an underground\n"
-	.string "sector called NEW MAUVILLE.\p"
+	.string "SURREY has an underground\n"
+	.string "sector called RUSKIN DAM.\p"
 	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
 	.string "switch off the GENERATOR.\p"
 	.string "The GENERATOR has been running a bit\n"
 	.string "haywire. It's getting unsafe.\p"
 	.string "Here, this is the KEY to get into\n"
-	.string "NEW MAUVILLE.$"
+	.string "RUSKIN DAM.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "WATTSON: Don't you worry about it.\n"
 	.string "It won't be a challenge to you.\p"
-	.string "The entrance to NEW MAUVILLE is just\n"
-	.string "a short SURF away from ROUTE 110.\p"
+	.string "The entrance to RUSKIN DAM is just\n"
+	.string "a short SURF away from HWY 99.\p"
 	.string "That's it, then, you have my trust!\n"
 	.string "Wahahahaha!$"
 
@@ -614,11 +614,11 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
 	.string "wild POKéMON could jump you.$"
 
 MauvilleCity_Text_CitySign:
-	.string "MAUVILLE CITY\n"
+	.string "SURREY\n"
 	.string "“The bright and shiny city of fun!”$"
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY POKéMON GYM\n"
+	.string "SURREY POKéMON GYM\n"
 	.string "LEADER: WATTSON\l"
 	.string "“The cheerfully electrifying man!”$"
 
@@ -629,7 +629,7 @@ MauvilleCity_Text_BikeShopSign:
 
 MauvilleCity_Text_GameCornerSign:
 	.string "“The play spot for all!”\n"
-	.string "MAUVILLE GAME CORNER$"
+	.string "SURREY GAME CORNER$"
 
 MauvilleCity_Text_ExplainTV:
 	.string "Hi, do you check out TV at all?\p"

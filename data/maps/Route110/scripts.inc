@@ -715,7 +715,7 @@ Route110_Text_WeCantTalkAboutAquaActivities:
 	.string "We can't talk about them yet.$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to SLATEPORT and\n"
+	.string "I want to get going to STEVESTON and\n"
 	.string "kick up a ruckus!$"
 
 Route110_Text_MyFirstJobInAqua:
@@ -821,7 +821,7 @@ Route110_Text_BikeTechniques:
 
 Route110_Text_WhichShouldIChoose:
 	.string "Which should I choose?\p"
-	.string "Make a beeline for MAUVILLE on\n"
+	.string "Make a beeline for SURREY on\n"
 	.string "CYCLING ROAD, or take the low road\l"
 	.string "and look for POKéMON?$"
 
@@ -863,8 +863,8 @@ Route110_Text_ChallengeReactionWorst:
 
 Route110_Text_RatedForNumberOfCollisions:
 	.string "This is CYCLING ROAD.\p"
-	.string "If you were to ride from MAUVILLE to\n"
-	.string "SLATEPORT on a MACH BIKE, you would\l"
+	.string "If you were to ride from SURREY to\n"
+	.string "STEVESTON on a MACH BIKE, you would\l"
 	.string "be rated for the number of collisions\l"
 	.string "and your total time.$"
 
@@ -881,8 +881,8 @@ Route110_Text_AcroBikesDoNotQualify:
 	.string "They are easy to turn, so it's not fair.$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
-	.string "{DOWN_ARROW} SLATEPORT CITY$"
+	.string "HWY 99\n"
+	.string "{DOWN_ARROW} STEVESTON$"
 
 Route110_Text_CyclingRoadSign:
 	.string "SEASIDE CYCLING ROAD$"
@@ -895,15 +895,15 @@ Route110_Text_AquaWasHere:
 	.string "says now.$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "HWY 99\n"
+	.string "{LEFT_ARROW} BOUNDARY BAY$"
 
 Route110_Text_SeasideParkingSign:
 	.string "SEASIDE PARKING$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
-	.string "{UP_ARROW} MAUVILLE CITY$"
+	.string "HWY 99\n"
+	.string "{UP_ARROW} SURREY$"
 
 Route110_Text_TrainerTipsPrlzSleep:
 	.string "TRAINER TIPS\p"

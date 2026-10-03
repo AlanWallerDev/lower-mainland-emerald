@@ -60,7 +60,7 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "I've heard tales of your exploits.\p"
 	.string "My name is WALLACE.\p"
 	.string "I was once the GYM LEADER of\n"
-	.string "SOOTOPOLIS, but something came up.\p"
+	.string "DEEP COVE, but something came up.\p"
 	.string "So now, I've entrusted my mentor JUAN\n"
 	.string "with the GYM's operation.\p"
 	.string "… … … … … …\n"
@@ -92,7 +92,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
 	.string "where RAYQUAZA might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
-	.string "WALLACE: MT. PYRE?\p"
+	.string "WALLACE: MOUNTAIN VIEW?\p"
 	.string "But when I met the old lady there\n"
 	.string "earlier, she made no mention of it.\p"
 	.string "I very much doubt that the old lady\n"
@@ -106,9 +106,10 @@ CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
 	.string "Can't you remember somehow?$"
 
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
-	.string "WALLACE: The SKY PILLAR?\p"
-	.string "That's it!\n"
-	.string "It must be the SKY PILLAR!\p"
+	.string "WALLACE: The STAWAMUS CHIEF?\p"
+	.string "That's it! It must be the STAWAMUS\n"
+	.string "CHIEF!\p"
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
-	.string "We'll head to the SKY PILLAR right away!$"
+	.string "We'll head to the STAWAMUS CHIEF right\l"
+	.string "away!$"
 

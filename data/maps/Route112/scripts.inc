@@ -108,27 +108,27 @@ Route112_Text_YeahWeNeedMeteorite:
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
 	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to FALLARBOR.$"
+	.string "of the crew went out to ABBOTSFORD.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
 	.string "You got it. And until they come back,\n"
 	.string "we're not to let anyone pass, right.$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
-	.string "Eh, I'd like to get to MAUVILLE, but if\n"
+	.string "Eh, I'd like to get to SURREY, but if\n"
 	.string "I went down these ledges, it'd be no\l"
-	.string "easy matter to get back to LAVARIDGE.$"
+	.string "easy matter to get back to HARRISON.$"
 
 Route112_Text_MtChimneyCableCarSign:
-	.string "MT. CHIMNEY CABLE CAR\n"
+	.string "MT. GARIBALDI CABLE CAR\n"
 	.string "“A short walk {UP_ARROW} way!”$"
 
 Route112_Text_MtChimneySign:
-	.string "MT. CHIMNEY\p"
-	.string "“For LAVARIDGE TOWN or the summit,\n"
+	.string "MT. GARIBALDI\p"
+	.string "“For HARRISON or the summit,\n"
 	.string "please take the CABLE CAR.”$"
 
 Route112_Text_RouteSignLavaridge:
-	.string "ROUTE 112\n"
-	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+	.string "LOUGHEED HWY\n"
+	.string "{LEFT_ARROW} HARRISON$"
 

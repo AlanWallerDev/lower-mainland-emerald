@@ -239,7 +239,7 @@ Route118_EventScript_Deandre::
 Route118_Text_StevenQuestions:
 	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
 	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near DEWFORD.\p"
+	.string "We met in the cave near BOWEN ISLAND.\p"
 	.string "Have you met many kinds of POKéMON\n"
 	.string "since I last saw you?\p"
 	.string "There are many, many kinds of POKéMON\n"
@@ -284,10 +284,10 @@ Route118_Text_CanCrossRiversWithSurf:
 	.string "much!$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "PITT RIVER\n"
+	.string "{LEFT_ARROW} SURREY$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "PITT RIVER\n"
+	.string "{UP_ARROW} ALOUETTE RIVER$"
 

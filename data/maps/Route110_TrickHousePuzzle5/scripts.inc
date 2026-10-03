@@ -847,7 +847,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 	.string "MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "on HWY 99. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 	.string "MECHADOLL 1 QUIZ.\p"
@@ -893,7 +893,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 	.string "MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "use in RICHMOND FOREST?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
 	.string "CLICKETY-CLACK…\n"
@@ -927,7 +927,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
 	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In LAVARIDGE TOWN, were there more\n"
+	.string "In HARRISON, were there more\n"
 	.string "elderly men or elderly women?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
@@ -943,12 +943,12 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
+	.string "In STEVESTON's POKéMON FAN CLUB,\n"
 	.string "how many POKéMON were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
+	.string "In MAPLE RIDGE, how many\n"
 	.string "tree houses were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:

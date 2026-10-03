@@ -52,7 +52,7 @@ gBirchDexRatingText_LessThan90::
 	.string "Your talent is remarkable!$"
 
 gBirchDexRatingText_LessThan100::
-	.string "Have you visited the SAFARI ZONE?\p"
+	.string "Have you visited the BURNS BOG?\p"
 	.string "I hear there are some POKéMON that\n"
 	.string "can only be caught there.$"
 
@@ -75,8 +75,8 @@ gBirchDexRatingText_LessThan140::
 	.string "TRAINERS.$"
 
 gBirchDexRatingText_LessThan150::
-	.string "I had no idea that there were so\n"
-	.string "many POKéMON species in the HOENN\l"
+	.string "I had no idea that there were so many\n"
+	.string "POKéMON species in the LOWER MAINLAND\l"
 	.string "region.$"
 
 gBirchDexRatingText_LessThan160::
@@ -87,7 +87,7 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 	.string "One can get a very good idea about\n"
-	.string "the POKéMON of the HOENN region\l"
+	.string "the POKéMON of the LOWER MAINLAND\l"
 	.string "by looking through your POKéDEX.$"
 
 gBirchDexRatingText_LessThan180::

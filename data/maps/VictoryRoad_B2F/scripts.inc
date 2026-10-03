@@ -55,7 +55,7 @@ VictoryRoad_B2F_Text_OwenDefeat:
 
 VictoryRoad_B2F_Text_OwenPostBattle:
 	.string "The rumors I heard, that tough little\n"
-	.string "kid is from PETALBURG CITY.$"
+	.string "kid is from RICHMOND.$"
 
 VictoryRoad_B2F_Text_CarolineIntro:
 	.string "You must be getting a little tired.$"
@@ -64,7 +64,7 @@ VictoryRoad_B2F_Text_CarolineDefeat:
 	.string "No signs of tiring at all!$"
 
 VictoryRoad_B2F_Text_CarolinePostBattle:
-	.string "VICTORY ROAD and the POKéMON LEAGUE\n"
+	.string "SEA TO SKY and the POKéMON LEAGUE\n"
 	.string "are long and grueling challenges.\l"
 	.string "Beware of fatigue!$"
 

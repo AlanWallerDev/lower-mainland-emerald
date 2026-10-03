@@ -165,7 +165,7 @@ MossdeepCity_StevensHouse_Text_ExplainDive:
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 	.string "STEVEN: Apparently, there's an\n"
 	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
+	.string "GIBSONS and DEEP COVE.\p"
 	.string "You know, the one that CAPT. STERN\n"
 	.string "found in his submarine.$"
 

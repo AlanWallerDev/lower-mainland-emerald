@@ -91,7 +91,8 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
-	.string "POKéMON of HOENN interesting?$"
+	.string "POKéMON of the LOWER MAINLAND\l"
+	.string "interesting?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "The girl TUBERS, they're cute, hey?\n"

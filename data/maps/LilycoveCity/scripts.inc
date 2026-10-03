@@ -436,13 +436,13 @@ LilycoveCity_Text_MayWontBeBeaten:
 LilycoveCity_Text_MayDefeat:
 	.string "… … … … … … … …\p"
 	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
+	.string "{PLAYER}{KUN}, on BOUNDARY BAY.\p"
 	.string "That battle helped you become this\n"
 	.string "strong, {PLAYER}{KUN}, didn't it?$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
 	.string "MAY: I'm thinking of going back to\n"
-	.string "LITTLEROOT soon.\p"
+	.string "LADNER soon.\p"
 	.string "I've caught a decent group of POKéMON,\n"
 	.string "and my POKéDEX is coming along, so\l"
 	.string "I'm going home to show my dad.$"
@@ -504,7 +504,7 @@ LilycoveCity_Text_BrendanDefeat:
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
 	.string "BRENDAN: I…\n"
-	.string "I plan on going home to LITTLEROOT.\p"
+	.string "I plan on going home to LADNER.\p"
 	.string "You know I'm helping out my dad on his\n"
 	.string "POKéDEX. It's coming together pretty\l"
 	.string "decently, so I should go show him.$"
@@ -592,8 +592,8 @@ LilycoveCity_Text_GoingToMoveDeleterForHMs:
 	.string "and make it forget HM moves.$"
 
 LilycoveCity_Text_ImFromKanto:
-	.string "I came from KANTO.\p"
-	.string "The HOENN region is beautiful with\n"
+	.string "I came from the INTERIOR.\p"
+	.string "The LOWER MAINLAND is beautiful with\n"
 	.string "all its water and verdant nature.\p"
 	.string "Hunh? Wait a second…\p"
 	.string "Could there be rare POKéMON that live\n"
@@ -661,7 +661,7 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "have gone away for good.$"
 
 LilycoveCity_Text_CitySign:
-	.string "LILYCOVE CITY\p"
+	.string "VANCOUVER\p"
 	.string "“Where the land ends and the\n"
 	.string "sea begins.”$"
 
@@ -672,27 +672,27 @@ LilycoveCity_Text_ContestHallSign:
 LilycoveCity_Text_MotelSign:
 	.string "COVE LILY MOTEL\p"
 	.string "“Remember us as COVE LILY of\n"
-	.string "LILYCOVE.”$"
+	.string "VANCOUVER.”$"
 
 LilycoveCity_Text_MuseumSign:
-	.string "LILYCOVE MUSEUM\p"
+	.string "VANCOUVER MUSEUM\p"
 	.string "“POKéMON Masterpiece Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
-	.string "LILYCOVE MUSEUM\p"
+	.string "VANCOUVER MUSEUM\p"
 	.string "“{PLAYER}'s POKéMON Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
-	.string "LILYCOVE CITY HARBOR\p"
+	.string "VANCOUVER HARBOR\p"
 	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in SLATEPORT CITY.\p"
+	.string "construction in STEVESTON.\p"
 	.string "“Service is scheduled to begin\n"
 	.string "shortly.”$"
 
 LilycoveCity_Text_HarborSign:
-	.string "LILYCOVE CITY HARBOR\p"
+	.string "VANCOUVER HARBOR\p"
 	.string "“Enjoy a delightful cruise on\n"
 	.string "the ferry S.S. TIDAL.”$"
 
@@ -702,7 +702,7 @@ LilycoveCity_Text_TrainerFanClubSign:
 	.string "all over the sign…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
-	.string "LILYCOVE DEPARTMENT STORE\p"
+	.string "VANCOUVER DEPARTMENT STORE\p"
 	.string "“Overflowing with great merchandise\n"
 	.string "and excitement!\p"
 	.string "“A great place to find that something\n"
@@ -731,11 +731,11 @@ LilycoveCity_Text_ExplainBerryBlender:
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
 	.string "I heard there's a tower somewhere out\n"
 	.string "on the sea routes.\p"
-	.string "It's called the SKY PILLAR, I hear.$"
+	.string "It's called the STAWAMUS CHIEF, I hear.$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
 	.string "I saw this tall tower somewhere\n"
-	.string "around ROUTE 131.\p"
+	.string "around SQUAMISH SPIT.\p"
 	.string "Could that possibly be…?$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
@@ -744,7 +744,7 @@ LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 	.string "We happened to see a DRAGON-type\n"
 	.string "POKéMON flying way up in the sky.\p"
 	.string "Do cool POKéMON like that live in\n"
-	.string "the HOENN region?$"
+	.string "the LOWER MAINLAND?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "On our honeymoon, we vowed to see as\n"
