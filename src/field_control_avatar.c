@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "battle_setup.h"
 #include "bike.h"
 #include "coord_event_weather.h"
@@ -148,6 +149,10 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         return TRUE;
 
     if (TryRunOnFrameMapScript() == TRUE)
+        return TRUE;
+
+    // Living Atlas: release partners that fell under Nuzlocke rules (after any map cutscene).
+    if (Nuzlocke_TryStartRelease() == TRUE)
         return TRUE;
 
     if (input->pressedBButton && TrySetupDiveEmergeScript() == TRUE)

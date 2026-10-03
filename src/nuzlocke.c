@@ -4,6 +4,12 @@
 #include "item.h"
 #include "pokedex.h"
 #include "pokemon.h"
+#include "event_data.h"
+#include "mail.h"
+#include "main.h"
+#include "pokemon_storage_system.h"
+#include "script.h"
+#include "string_util.h"
 #include "constants/battle.h"
 #include "constants/items.h"
 
@@ -23,6 +29,15 @@ const u8 gText_Birch_Nuzlocke[] = _(
     "Partners that faint are gone for good,\n"
     "and every catch gets a nickname.\p"
     "Will you follow the NUZLOCKE code?");
+
+const u8 gText_NuzlockeReleased[] = _(
+    "{STR_VAR_1} has fallen.\n"
+    "It leaves your party for good…");
+
+const u8 gText_NuzlockeRunOver[] = _(
+    "Every partner in your party has\n"
+    "fallen…\p"
+    "Your NUZLOCKE run is over.");
 
 const u8 gText_NuzlockeNoCatch[] = _(
     "NUZLOCKE: You already met your\n"
@@ -126,4 +141,97 @@ bool8 Nuzlocke_IsBoxMonFainted(const struct BoxPokemon *mon)
 bool8 Nuzlocke_IsMonFainted(struct Pokemon *mon)
 {
     return mon->box.nuzlockeFainted;
+}
+
+// Field poison: a partner that faints on the overworld is lost too.
+void Nuzlocke_OnFieldPoisonFaint(struct Pokemon *mon)
+{
+    if (Nuzlocke_IsEnabled())
+        mon->box.nuzlockeFainted = TRUE;
+}
+
+static bool8 PartyHasFallen(void)
+{
+    s32 i;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (gPlayerParty[i].box.nuzlockeFainted && GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) != SPECIES_NONE)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+// Called from the overworld input loop, once the player has control again after a battle (and any
+// post-battle script). Starts the script that releases fallen partners.
+bool8 Nuzlocke_TryStartRelease(void)
+{
+    extern const u8 EventScript_NuzlockeRelease[];
+
+    if (!Nuzlocke_IsEnabled() || !PartyHasFallen())
+        return FALSE;
+    ScriptContext_SetupScript(EventScript_NuzlockeRelease);
+    return TRUE;
+}
+
+// special: releases one fallen partner (party first, then any left in the PC from older saves).
+// VAR_RESULT: 0 none left, 1 released one (name in STR_VAR_1), 2 every party member has fallen.
+void Nuzlocke_ReleaseNextFallen(void)
+{
+    s32 i, fallen = -1, alive = 0;
+    u8 box, pos;
+
+    gSpecialVar_Result = 0;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        struct Pokemon *mon = &gPlayerParty[i];
+
+        if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_NONE)
+            continue;
+        if (!mon->box.nuzlockeFainted)
+            alive++;
+        else if (fallen < 0)
+            fallen = i;
+    }
+    if (fallen >= 0)
+    {
+        struct Pokemon *mon = &gPlayerParty[fallen];
+
+        if (alive == 0)
+        {
+            gSpecialVar_Result = 2;
+            return;
+        }
+        GetMonData(mon, MON_DATA_NICKNAME, gStringVar1);
+        StringGet_Nickname(gStringVar1);
+        if (ItemIsMail(GetMonData(mon, MON_DATA_HELD_ITEM)))
+            TakeMailFromMon(mon);
+        ZeroMonData(mon);
+        CompactPartySlots();
+        CalculatePlayerPartyCount();
+        gSpecialVar_Result = 1;
+        return;
+    }
+    for (box = 0; box < TOTAL_BOXES_COUNT; box++)
+    {
+        for (pos = 0; pos < IN_BOX_COUNT; pos++)
+        {
+            struct BoxPokemon *mon = GetBoxedMonPtr(box, pos);
+
+            if (mon->nuzlockeFainted && GetBoxMonData(mon, MON_DATA_SPECIES) != SPECIES_NONE)
+            {
+                GetBoxMonData(mon, MON_DATA_NICKNAME, gStringVar1);
+                StringGet_Nickname(gStringVar1);
+                ZeroBoxMonData(mon);
+                gSpecialVar_Result = 1;
+                return;
+            }
+        }
+    }
+}
+
+// special: the whole party has fallen. The run ends; back to the title screen.
+void Nuzlocke_GameOver(void)
+{
+    DoSoftReset();
 }
