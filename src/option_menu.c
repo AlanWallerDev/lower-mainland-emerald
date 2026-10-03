@@ -7,6 +7,7 @@
 #include "menu.h"
 #include "palette.h"
 #include "scanline_effect.h"
+#include "sound.h"
 #include "sprite.h"
 #include "strings.h"
 #include "task.h"
@@ -15,6 +16,7 @@
 #include "window.h"
 #include "gba/m4a_internal.h"
 #include "constants/rgb.h"
+#include "constants/songs.h"
 
 #define tMenuSelection data[0]
 #define tTextSpeed data[1]
@@ -84,9 +86,9 @@ static const u16 sOptionMenuText_Pal[] = INCGFX_U16("graphics/interface/option_m
 static const u8 sEqualSignGfx[] = INCGFX_U8("graphics/interface/option_menu_equals_sign.png", ".4bpp");
 
 static const u8 sText_GameSpeed[] = _("GAME SPEED");
-static const u8 sText_GameSpeed1x[] = _("1x");
-static const u8 sText_GameSpeed2x[] = _("2x");
-static const u8 sText_GameSpeed4x[] = _("4x");
+static const u8 sText_GameSpeed1x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}1x");
+static const u8 sText_GameSpeed2x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}2x");
+static const u8 sText_GameSpeed4x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}4x");
 
 static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
 {
@@ -364,6 +366,7 @@ static void Task_OptionMenuProcessInput(u8 taskId)
         if (sArrowPressed)
         {
             sArrowPressed = FALSE;
+            PlaySE(SE_SELECT); // Living Atlas: audible feedback when an option changes
             CopyWindowToVram(WIN_OPTIONS, COPYWIN_GFX);
         }
     }
