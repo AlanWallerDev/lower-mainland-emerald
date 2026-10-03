@@ -1,0 +1,419 @@
+{
+ "types": [
+  {
+   "name": "Common",
+   "fill": "#c2b59b",
+   "text": "#1f1b14",
+   "meaning": "Generalists with no single specialty"
+  },
+  {
+   "name": "Ember",
+   "fill": "#d0492a",
+   "text": "#ffffff",
+   "meaning": "Heat, pungency, fire adaptation, red coloring"
+  },
+  {
+   "name": "Aqua",
+   "fill": "#1b7f94",
+   "text": "#ffffff",
+   "meaning": "Life in and around water"
+  },
+  {
+   "name": "Verdant",
+   "fill": "#4f8a34",
+   "text": "#ffffff",
+   "meaning": "Plants, fungi and other photosynthesizers"
+  },
+  {
+   "name": "Frost",
+   "fill": "#cfeaf1",
+   "text": "#123a45",
+   "meaning": "Cold adaptation and antifreeze"
+  },
+  {
+   "name": "Brawn",
+   "fill": "#a3263a",
+   "text": "#ffffff",
+   "meaning": "Strength, speed and physical combat"
+  },
+  {
+   "name": "Toxin",
+   "fill": "#b7c51a",
+   "text": "#1f2400",
+   "meaning": "Venom, poison, chemical defense and stimulants"
+  },
+  {
+   "name": "Soil",
+   "fill": "#7a5634",
+   "text": "#ffffff",
+   "meaning": "Burrowing, life underground, scavengers and decomposers"
+  },
+  {
+   "name": "Sky",
+   "fill": "#8ab8ef",
+   "text": "#0e2440",
+   "meaning": "Flight and gliding"
+  },
+  {
+   "name": "Mind",
+   "fill": "#4d4fb0",
+   "text": "#ffffff",
+   "meaning": "Intelligence, senses and navigation, electric organs, control of hosts"
+  },
+  {
+   "name": "Chitin",
+   "fill": "#d99a1e",
+   "text": "#241700",
+   "meaning": "Insects and other arthropods"
+  },
+  {
+   "name": "Stone",
+   "fill": "#6c7a89",
+   "text": "#ffffff",
+   "meaning": "Rock-dwellers, mineral structures, living fossils"
+  },
+  {
+   "name": "Night",
+   "fill": "#2a2c40",
+   "text": "#ffffff",
+   "meaning": "Ambush, nocturnal life, see-through bodies and camouflage, parasites and cheaters"
+  },
+  {
+   "name": "Armor",
+   "fill": "#a2b3aa",
+   "text": "#17211c",
+   "meaning": "Shells, plates and other hard parts, extreme endurance"
+  },
+  {
+   "name": "Charm",
+   "fill": "#f08aab",
+   "text": "#2b0a14",
+   "meaning": "Mutualism, display and courtship, bright color, bioluminescence"
+  }
+ ],
+ "chart": {
+  "Common": {
+   "Common": 1,
+   "Ember": 1,
+   "Aqua": 1,
+   "Verdant": 1,
+   "Frost": 1,
+   "Brawn": 1,
+   "Toxin": 1,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 1,
+   "Chitin": 1,
+   "Stone": 0.5,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Ember": {
+   "Common": 1,
+   "Ember": 0.5,
+   "Aqua": 0.5,
+   "Verdant": 2,
+   "Frost": 2,
+   "Brawn": 1,
+   "Toxin": 1,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 1,
+   "Chitin": 2,
+   "Stone": 0.5,
+   "Night": 1,
+   "Armor": 2,
+   "Charm": 1
+  },
+  "Aqua": {
+   "Common": 1,
+   "Ember": 2,
+   "Aqua": 0.5,
+   "Verdant": 0.5,
+   "Frost": 1,
+   "Brawn": 1,
+   "Toxin": 1,
+   "Soil": 2,
+   "Sky": 1,
+   "Mind": 1,
+   "Chitin": 1,
+   "Stone": 2,
+   "Night": 1,
+   "Armor": 1,
+   "Charm": 1
+  },
+  "Verdant": {
+   "Common": 1,
+   "Ember": 0.5,
+   "Aqua": 2,
+   "Verdant": 0.5,
+   "Frost": 1,
+   "Brawn": 1,
+   "Toxin": 0.5,
+   "Soil": 2,
+   "Sky": 0.5,
+   "Mind": 1,
+   "Chitin": 0.5,
+   "Stone": 2,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Frost": {
+   "Common": 1,
+   "Ember": 0.5,
+   "Aqua": 0.5,
+   "Verdant": 2,
+   "Frost": 0.5,
+   "Brawn": 1,
+   "Toxin": 1,
+   "Soil": 2,
+   "Sky": 2,
+   "Mind": 1,
+   "Chitin": 1,
+   "Stone": 2,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Brawn": {
+   "Common": 2,
+   "Ember": 1,
+   "Aqua": 1,
+   "Verdant": 1,
+   "Frost": 2,
+   "Brawn": 1,
+   "Toxin": 0.5,
+   "Soil": 1,
+   "Sky": 0.5,
+   "Mind": 0.5,
+   "Chitin": 0.5,
+   "Stone": 2,
+   "Night": 2,
+   "Armor": 2,
+   "Charm": 0.5
+  },
+  "Toxin": {
+   "Common": 1,
+   "Ember": 1,
+   "Aqua": 1,
+   "Verdant": 2,
+   "Frost": 1,
+   "Brawn": 1,
+   "Toxin": 0.5,
+   "Soil": 0.5,
+   "Sky": 1,
+   "Mind": 2,
+   "Chitin": 2,
+   "Stone": 0.5,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 2
+  },
+  "Soil": {
+   "Common": 1,
+   "Ember": 2,
+   "Aqua": 1,
+   "Verdant": 0.5,
+   "Frost": 1,
+   "Brawn": 1,
+   "Toxin": 2,
+   "Soil": 1,
+   "Sky": 0,
+   "Mind": 1,
+   "Chitin": 0.5,
+   "Stone": 2,
+   "Night": 1,
+   "Armor": 2,
+   "Charm": 1
+  },
+  "Sky": {
+   "Common": 1,
+   "Ember": 1,
+   "Aqua": 1,
+   "Verdant": 2,
+   "Frost": 1,
+   "Brawn": 2,
+   "Toxin": 1,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 1,
+   "Chitin": 2,
+   "Stone": 0.5,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Mind": {
+   "Common": 1,
+   "Ember": 1,
+   "Aqua": 2,
+   "Verdant": 1,
+   "Frost": 1,
+   "Brawn": 2,
+   "Toxin": 2,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 0.5,
+   "Chitin": 2,
+   "Stone": 1,
+   "Night": 0.5,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Chitin": {
+   "Common": 1,
+   "Ember": 0.5,
+   "Aqua": 1,
+   "Verdant": 2,
+   "Frost": 1,
+   "Brawn": 0.5,
+   "Toxin": 0.5,
+   "Soil": 1,
+   "Sky": 0.5,
+   "Mind": 1,
+   "Chitin": 1,
+   "Stone": 1,
+   "Night": 2,
+   "Armor": 0.5,
+   "Charm": 0.5
+  },
+  "Stone": {
+   "Common": 1,
+   "Ember": 2,
+   "Aqua": 1,
+   "Verdant": 1,
+   "Frost": 2,
+   "Brawn": 0.5,
+   "Toxin": 1,
+   "Soil": 0.5,
+   "Sky": 2,
+   "Mind": 1,
+   "Chitin": 2,
+   "Stone": 1,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Night": {
+   "Common": 1,
+   "Ember": 1,
+   "Aqua": 1,
+   "Verdant": 1,
+   "Frost": 1,
+   "Brawn": 0.5,
+   "Toxin": 1,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 2,
+   "Chitin": 1,
+   "Stone": 1,
+   "Night": 0.5,
+   "Armor": 1,
+   "Charm": 2
+  },
+  "Armor": {
+   "Common": 1,
+   "Ember": 0.5,
+   "Aqua": 0.5,
+   "Verdant": 1,
+   "Frost": 2,
+   "Brawn": 1,
+   "Toxin": 1,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 1,
+   "Chitin": 1,
+   "Stone": 2,
+   "Night": 1,
+   "Armor": 0.5,
+   "Charm": 1
+  },
+  "Charm": {
+   "Common": 1,
+   "Ember": 0.5,
+   "Aqua": 1,
+   "Verdant": 1,
+   "Frost": 1,
+   "Brawn": 1,
+   "Toxin": 0.5,
+   "Soil": 1,
+   "Sky": 1,
+   "Mind": 1,
+   "Chitin": 1,
+   "Stone": 1,
+   "Night": 2,
+   "Armor": 0.5,
+   "Charm": 1
+  }
+ },
+ "changes": [
+  {
+   "attack": "Toxin",
+   "defend": "Chitin",
+   "value": 2,
+   "reason": "Most plant toxins and many venoms evolved to stop insects."
+  },
+  {
+   "attack": "Toxin",
+   "defend": "Armor",
+   "value": 0.5,
+   "reason": "Armor blocks most stings and bites, but no shell makes an animal immune."
+  },
+  {
+   "attack": "Toxin",
+   "defend": "Mind",
+   "value": 2,
+   "reason": "Neurotoxins attack nervous systems, the source of Mind's senses and intelligence."
+  },
+  {
+   "attack": "Mind",
+   "defend": "Night",
+   "value": 0.5,
+   "reason": "Ambushers and parasites resist trickery, but minds can still be hijacked."
+  },
+  {
+   "attack": "Mind",
+   "defend": "Chitin",
+   "value": 2,
+   "reason": "Host manipulators like the Zombie-ant Fungus and Emerald Cockroach Wasp target insects."
+  },
+  {
+   "attack": "Chitin",
+   "defend": "Mind",
+   "value": 1,
+   "reason": "No biological reason for this advantage."
+  },
+  {
+   "attack": "Mind",
+   "defend": "Aqua",
+   "value": 2,
+   "reason": "Electric senses, like a hammerhead's or a platypus's, find prey hidden in water."
+  },
+  {
+   "attack": "Frost",
+   "defend": "Stone",
+   "value": 2,
+   "reason": "Ice ages wiped out many ancient lineages."
+  },
+  {
+   "attack": "Charm",
+   "defend": "Brawn",
+   "value": 1,
+   "reason": "Courtship displays don't beat strength."
+  },
+  {
+   "attack": "Armor",
+   "defend": "Charm",
+   "value": 1,
+   "reason": "Armor gives no edge against mutualists."
+  },
+  {
+   "attack": "Night",
+   "defend": "Charm",
+   "value": 2,
+   "reason": "Cheaters exploit partnerships: cuckoos in nests, mantises that mimic flowers."
+  }
+ ]
+}
