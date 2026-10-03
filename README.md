@@ -16,7 +16,7 @@ and the region is the Lower Mainland of British Columbia.
 | Places | Towns, routes and landmarks renamed to Lower Mainland places: Ladner, Richmond, Burnaby, Steveston, Surrey, Harrison, Vancouver, Deep Cove, Whistler, River Road, Burns Bog, Sea to Sky… |
 | Text | No Pokémon terms: organisms, partners, FIELD JOURNAL, FIELD STATION, FIELD JAR, TRAILNAV, NATURALIST, NATURE LEAGUE. Old species names in dialogue are now the organisms. |
 | Wild areas | Every route, cave and sea refilled by habitat (forest, meadow, cave, volcanic, cemetery, power plant, fresh water, sea, deep sea…). |
-| Nuzlocke | Built in, chosen once at new game: first encounter per area only (dupes and shiny clauses), partners that faint (in battle or from poison) are released after the fight, and losing your whole party ends the run, every catch is nicknamed. |
+| Nuzlocke | Built in, chosen once at new game: first encounter per area only (dupes and shiny clauses), partners that faint (in battle or from poison) are released after the fight, every catch is nicknamed, and losing your whole party ends the run. |
 | Game speed | OPTIONS → GAME SPEED 1x / 2x / 4x. Speeds up walking, battles and the intro; menus and screen transitions stay at normal speed. |
 
 ## Build
