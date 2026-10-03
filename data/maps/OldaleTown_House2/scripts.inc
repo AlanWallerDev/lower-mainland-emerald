@@ -14,7 +14,7 @@ OldaleTown_House2_Text_PokemonLevelUp:
 	.string "and become stronger.$"
 
 OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon:
-	.string "If the organism with you become\n"
+	.string "If the organisms with you become\n"
 	.string "stronger, you'll be able to go farther\l"
 	.string "away from here.$"
 

@@ -370,7 +370,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "three organisms.\p"
 	.string "The three organisms must be lined up in\n"
 	.string "the order in which they are to appear.\p"
-	.string "During battle, the organism will appear\n"
+	.string "During battle, the organisms will appear\n"
 	.string "one at a time in the preset order.\p"
 	.string "Once an organism enters battle, it must\n"
 	.string "remain out until the match is decided.\p"
@@ -499,7 +499,7 @@ BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "In the BATTLE ARENA, the order of\n"
-	.string "organism is totally important.\p"
+	.string "organisms is totally important.\p"
 	.string "For example, if your first partner has\n"
 	.string "certain type disadvantages, try making\l"
 	.string "your second organism one with moves\l"
@@ -550,7 +550,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "The Skill rating will not go up for\n"
 	.string "moves such as PROTECT and DETECT.\p"
 	.string "If the opponent used PROTECT or\n"
-	.string "DETECT, and your partners failed to hit\l"
+	.string "DETECT, and your partner failed to hit\l"
 	.string "with a move, its Skill rating will not go\l"
 	.string "down.$"
 

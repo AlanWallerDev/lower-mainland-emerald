@@ -389,6 +389,6 @@ LavaridgeTown_Text_GymSign:
 	.string "with a fiery passion that burns!”$"
 
 LavaridgeTown_Text_HerbShopSign:
-	.string "PARTNER HERB SHOP “Bitter\n"
-	.string "taste--better cure!”$"
+	.string "HERB SHOP “Bitter taste--better\n"
+	.string "cure!”$"
 

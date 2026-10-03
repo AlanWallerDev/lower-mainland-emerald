@@ -514,9 +514,10 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 	.string "Hmm…\p"
-	.string "It appears that the nature of organism\n"
-	.string "and the moves that they have been\l"
-	.string "taught are the keys to battle here.\p"
+	.string "It appears that the nature of\n"
+	.string "organisms and the moves that they have\l"
+	.string "been taught are the keys to battle\l"
+	.string "here.\p"
 	.string "To be more precise, it's how well the\n"
 	.string "moves match the nature of the\l"
 	.string "organism.\p"

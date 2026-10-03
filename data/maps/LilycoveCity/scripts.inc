@@ -412,8 +412,8 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 	.string "I bought a whole bunch of DOLLS and\n"
 	.string "POSTERS.\p"
 	.string "Of course, I've also caught a lot of\n"
-	.string "organism, and I'm raising them properly,\l"
-	.string "too.\p"
+	.string "organisms, and I'm raising them\l"
+	.string "properly, too.\p"
 	.string "Actually, I'm more worried if you're\n"
 	.string "raising organisms properly, {PLAYER}{KUN}.\p"
 	.string "I'll battle with you, so you can show me\n"
@@ -567,7 +567,7 @@ LilycoveCity_Text_DontGoNearCaveInCove:
 LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "If this whole wide world becomes ours,\n"
 	.string "TEAM AQUA's, it will be a happier place\l"
-	.string "for organism, too.$"
+	.string "for organisms, too.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
 	.string "There! WATER BUG! Leap out of the water\n"
@@ -581,7 +581,7 @@ LilycoveCity_Text_GetLostMessingUpTraining:
 LilycoveCity_Text_ContestHallInTown:
 	.string "There's a CONTEST HALL right in this\n"
 	.string "here town.\p"
-	.string "That means well-raised organism will\n"
+	.string "That means well-raised organisms will\n"
 	.string "come from all over the country.\p"
 	.string "My heart swells with excitement!$"
 
@@ -680,12 +680,12 @@ LilycoveCity_Text_MotelSign:
 
 LilycoveCity_Text_MuseumSign:
 	.string "VANCOUVER MUSEUM\p"
-	.string "“organisms Masterpiece Collection on\n"
+	.string "“Organism Masterpiece Collection on\n"
 	.string "exhibit!”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
 	.string "VANCOUVER MUSEUM\p"
-	.string "“{PLAYER}'s partners Collection on\n"
+	.string "“{PLAYER}'s Partner Collection on\n"
 	.string "exhibit!”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
@@ -754,6 +754,6 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "On our honeymoon, we vowed to see as\n"
 	.string "many rare organisms as we can.\p"
 	.string "So we were delighted to see a rare\n"
-	.string "organisms as soon as we arrived.\p"
+	.string "organism as soon as we arrived.\p"
 	.string "I mean, we are totally happy!$"
 

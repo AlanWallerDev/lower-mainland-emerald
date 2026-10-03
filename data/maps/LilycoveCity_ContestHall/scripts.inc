@@ -322,7 +322,7 @@ LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
 LilycoveCity_ContestHall_Text_EnteredWrongContest:
 	.string "Ayayayay…\n"
 	.string "I entered the wrong CONTEST.\p"
-	.string "I entered this tough organisms in the\n"
+	.string "I entered this tough organism in the\n"
 	.string "SMARTNESS CONTEST…\p"
 	.string "Come on, wow them with a smart-looking\n"
 	.string "ROCK SMASH.$"
@@ -337,7 +337,7 @@ LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
 
 LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
 	.string "There it is!\p"
-	.string "If my partners pulls a smart move next,\n"
+	.string "If my partner pulls a smart move next,\n"
 	.string "the audience's excitement will peak!$"
 
 LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
@@ -358,7 +358,7 @@ LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
 	.string "different styles for battling.$"
 
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
-	.string "I think the organism look smarter than\n"
+	.string "I think the organisms look smarter than\n"
 	.string "their TRAINERS. By a lot.$"
 
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
@@ -384,9 +384,9 @@ LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
 
 LilycoveCity_ContestHall_Text_OverdidGrooming:
 	.string "Waaaah!\p"
-	.string "I brushed and groomed my partners\n"
+	.string "I brushed and groomed my partner\n"
 	.string "carefully for this CONTEST…\p"
-	.string "But I overdid it… My organisms' coat\n"
+	.string "But I overdid it… My organism's coat\n"
 	.string "turned all scraggly…\p"
 	.string "What should I do?$"
 
@@ -417,7 +417,7 @@ LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
 LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
 	.string "You can't always win on just beauty\n"
 	.string "alone.\p"
-	.string "You have to groom your partners so it's\n"
+	.string "You have to groom your partner so it's\n"
 	.string "nice and glossy like mine.$"
 
 LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
@@ -441,14 +441,14 @@ LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
 	.string "but put it in a CONTEST and look out!$"
 
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
-	.string "My organisms' PETAL DANCE is a marvel\n"
+	.string "My organism's PETAL DANCE is a marvel\n"
 	.string "of elegance.\p"
 	.string "I won't let anyone disturb its\n"
 	.string "performance.$"
 
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
 	.string "Everyone's partners are very cute.\p"
-	.string "However, if my partners were to make a\n"
+	.string "However, if my partner were to make a\n"
 	.string "cute appeal…\p"
 	.string "I'm sure that it would be so much \n"
 	.string "cuter than the others.$"
@@ -468,7 +468,7 @@ LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
 
 LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
 	.string "Ohh, seeing all these cute organisms,\n"
-	.string "they make we want to get my own!\p"
+	.string "they make me want to get my own!\p"
 	.string "I'm going to go catch some!$"
 
 LilycoveCity_ContestHall_Text_BeautyContestStage:

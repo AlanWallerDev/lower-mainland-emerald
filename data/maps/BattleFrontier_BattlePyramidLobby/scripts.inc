@@ -880,7 +880,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 	.string "The mazes are poorly lit.\n"
 	.string "You must advance with caution.\p"
 	.string "The light grows brighter whenever you\n"
-	.string "defeat a wild organisms or a TRAINER.$"
+	.string "defeat a wild organism or a TRAINER.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 	.string "The BATTLE BAG serves as your BAG\n"

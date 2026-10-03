@@ -102,7 +102,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord::
 	end
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
-	.string "Do you know the PARTNER SNOW ALGA?\n"
+	.string "Do you know the organism SNOW ALGA?\n"
 	.string "It's hardly ever seen in DEEP COVE.\p"
 	.string "Anyway, I love big SNOW ALGA. The bigger\n"
 	.string "the better.\p"
@@ -151,7 +151,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 	.string "always wanted!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
-	.string "Do you know the PARTNER ZOOXANTHEL?\n"
+	.string "Do you know the organism ZOOXANTHEL?\n"
 	.string "It's rarely seen in DEEP COVE.\p"
 	.string "I love, I mean love, big ZOOXANTHEL!\p"
 	.string "My big brother says that SNOW ALGA is\n"

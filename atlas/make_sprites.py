@@ -75,7 +75,9 @@ ICON_PALS = [read_pal(P('graphics', 'pokemon', 'icon_palettes', 'icon_palette_%d
 
 def to_icon(front, pal):
     small = front.convert('RGB').resize((32, 32), Image.BOX)
-    opaque = front.point(lambda v: 255 if v else 0).convert('L').resize((32, 32), Image.BOX)
+    # Opacity from the palette indices themselves (index 0 is transparent). Going through the
+    # palette here would turn index 0 into its colour and invert the mask.
+    opaque = Image.frombytes('L', front.size, bytes(255 if v else 0 for v in front.tobytes())).resize((32, 32), Image.BOX)
     mask = opaque.point(lambda v: 1 if v >= 100 else 0)
     best = None
     for pi, ip in enumerate(ICON_PALS):

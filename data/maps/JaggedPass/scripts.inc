@@ -152,7 +152,7 @@ JaggedPass_Text_EricDefeat:
 	.string "Losing left me bitter!$"
 
 JaggedPass_Text_EricPostBattle:
-	.string "Yes, I did lose at organisms…\p"
+	.string "Yes, I did lose that battle…\p"
 	.string "But, when it comes to the love of\n"
 	.string "the mountains, I have you beat!$"
 

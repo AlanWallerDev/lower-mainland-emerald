@@ -259,7 +259,7 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 	.string "raising organisms. No one!\p"
 	.string "Well, let me tell you about CONTESTS.\p"
 	.string "They're events where one can show off\n"
-	.string "organism for the world to see!\p"
+	.string "organisms for the world to see!\p"
 	.string "However, they're held in far-off towns,\n"
 	.string "so I cannot participate often enough.\p"
 	.string "That is why we gather here to show off\n"
@@ -290,8 +290,8 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 	.string "your partner has grown!$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
-	.string "How is your partners growing? Allow me\n"
-	.string "to examine it.$"
+	.string "How is your partner growing? Allow me to\n"
+	.string "examine it.$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
 	.string "Hm, hm…\n"
@@ -362,7 +362,7 @@ SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
 	.string "please come show me.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
-	.string "Your organisms really adores you.\p"
+	.string "Your organism really adores you.\p"
 	.string "For you, a most compassionate\n"
 	.string "TRAINER, a gift from the FAN CLUB!$"
 

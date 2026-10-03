@@ -325,7 +325,7 @@ BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
 	.string "an eye!$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
-	.string "I'm better than my daddy at organisms.$"
+	.string "I'm better than my daddy at battling.$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
 	.string "Go on, my baby sweetie!\n"

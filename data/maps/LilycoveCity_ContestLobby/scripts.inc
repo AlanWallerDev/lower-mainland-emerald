@@ -962,9 +962,9 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Congratulations!\p"
-	.string "I did a painting of your partners to\n"
+	.string "I did a painting of your partner to\n"
 	.string "commemorate its victory…\p"
-	.string "Well, your partners' appeals were so\n"
+	.string "Well, your partner's appeals were so\n"
 	.string "fantastic, it spurred me into painting\l"
 	.string "better than I usually do. Look, see?$"
 
@@ -1021,15 +1021,15 @@ LilycoveCity_ContestLobby_Text_MasterRankHereICome:
 	.string "existence. The time has come! Uheheheh.$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
-	.string "You can see a whole variety of organism\n"
-	.string "here.\p"
+	.string "You can see a whole variety of\n"
+	.string "organisms here.\p"
 	.string "That's why I make this place a regular\n"
 	.string "part of my daily stroll.$"
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
 	.string "Wow, coming out to a CONTEST is\n"
 	.string "a feast for these eyes!\p"
-	.string "Would you look at all the organism that\n"
+	.string "Would you look at all the organisms that\n"
 	.string "just scream to be painted?$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:

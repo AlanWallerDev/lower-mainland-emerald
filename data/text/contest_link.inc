@@ -27,8 +27,7 @@ gText_MoveUsedMostOften::
 	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_MostImpressiveMon::
-	.string "The most impressive organisms:\n"
-	.string "{STR_VAR_1}'s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
+	.string "The most impressive organism: {STR_VAR_1}'s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX2::
 	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"

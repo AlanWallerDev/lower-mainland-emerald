@@ -3,8 +3,8 @@ MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
 	.string "once. Is that okay?$"
 
 MoveTutor_Text_SwaggerTeach:
-	.string "Heh! My organisms totally rules! It's\n"
-	.string "cooler than any organisms!\p"
+	.string "Heh! My organism totally rules! It's\n"
+	.string "cooler than any organism!\p"
 	.string "I was lipping off with a swagger in\n"
 	.string "my step like that when the CHAIRMAN\l"
 	.string "chewed me out.\p"
@@ -153,7 +153,7 @@ MoveTutor_Text_SubstituteDeclined:
 	.string "using it, you know.$"
 
 MoveTutor_Text_SubstituteWhichMon:
-	.string "Giggle… Which organisms do you want me\n"
+	.string "Giggle… Which organism do you want me\n"
 	.string "to teach SUBSTITUTE?$"
 
 MoveTutor_Text_SubstituteTaught:
@@ -171,7 +171,7 @@ MoveTutor_Text_DynamicPunchTeach:
 	.string "Punch! Punch! Punch!\p"
 	.string "What, don't look at me that way!\n"
 	.string "I'm only hitting the ground!\p"
-	.string "Or do you want me to teach your PARTNER\n"
+	.string "Or do you want me to teach your partner\n"
 	.string "DYNAMICPUNCH?$"
 
 MoveTutor_Text_DynamicPunchDeclined:

@@ -103,7 +103,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
 	.string "Amazing! A house-sitting organism\n"
 	.string "caught a burglar?\p"
 	.string "That's something. If we had a tough\n"
-	.string "organisms as a security guard…\p"
+	.string "organism as a security guard…\p"
 	.string "We would be able to provide our guests\n"
 	.string "with greater safety.$"
 

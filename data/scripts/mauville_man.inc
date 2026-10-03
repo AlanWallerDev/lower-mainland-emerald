@@ -377,7 +377,7 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
 	.string "This TRAINER caught {STR_VAR_1}\n"
-	.string "organism!\p"
+	.string "organisms!\p"
 	.string "{STR_VAR_3} is a legendary catcher of\n"
 	.string "wild organisms!$"
 
@@ -418,8 +418,8 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction::
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {STR_VAR_1} organism\n"
-	.string "evolve!\p"
+	.string "This TRAINER made {STR_VAR_1}\n"
+	.string "organisms evolve!\p"
 	.string "{STR_VAR_3} is the ultimate evolver of\n"
 	.string "organisms!$"
 
@@ -432,7 +432,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed organism\n"
+	.string "This TRAINER healed organisms\n"
 	.string "{STR_VAR_1} times at FIELD STATIONS!\p"
 	.string "There could be no greater lover of\n"
 	.string "FIELD STATIONS than {STR_VAR_3}!$"
@@ -446,7 +446,7 @@ MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction::
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed organism\n"
+	.string "This TRAINER healed organisms\n"
 	.string "{STR_VAR_1} times at home!\p"
 	.string "There could be no more of a homebody\n"
 	.string "than {STR_VAR_3}!$"
@@ -753,8 +753,8 @@ MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER left organism with the DAY\n"
-	.string "CARE {STR_VAR_1} times!\p"
+	.string "This TRAINER left organisms with the\n"
+	.string "DAY CARE {STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a real go-getter\n"
 	.string "who raises organisms aggressively!$"
 

@@ -361,14 +361,14 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "What's going on?\p"
 	.string "I was digging the tunnel without any\n"
 	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with organism that\n"
-	.string "react badly to loud noises. They could\l"
-	.string "cause an uproar.\p"
+	.string "That tunnel's filled with organisms\n"
+	.string "that react badly to loud noises. They\l"
+	.string "could cause an uproar.\p"
 	.string "That's why we stopped using heavy\n"
 	.string "equipment for tunneling…\p"
 	.string "I'm worried that the goon will do\n"
 	.string "something stupid and startle the\l"
-	.string "organism into an uproar.$"
+	.string "organisms into an uproar.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
 	.string "Nnn… Roar!\p"

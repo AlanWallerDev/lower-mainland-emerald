@@ -95,9 +95,9 @@ MeteorFalls_1F_2R_Text_NicolasPostRematch:
 	.string "can become stronger!$"
 
 MeteorFalls_1F_2R_Text_JohnIntro:
-	.string "JOHN: We've always battled organisms\n"
-	.string "together as a twosome. We've\l"
-	.string "confidence in ourselves.$"
+	.string "JOHN: We've always battled together as\n"
+	.string "a twosome. We've confidence in\l"
+	.string "ourselves.$"
 
 MeteorFalls_1F_2R_Text_JohnDefeat:
 	.string "JOHN: Oh, my.\n"
@@ -140,9 +140,9 @@ MeteorFalls_1F_2R_Text_JayNotEnoughMons:
 	.string "have to come back with more organisms.$"
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
-	.string "JOHN: We've always battled organisms\n"
-	.string "together as a twosome. We've\l"
-	.string "confidence in ourselves.$"
+	.string "JOHN: We've always battled together as\n"
+	.string "a twosome. We've confidence in\l"
+	.string "ourselves.$"
 
 MeteorFalls_1F_2R_Text_JohnRematchDefeat:
 	.string "JOHN: Oh, my.\n"

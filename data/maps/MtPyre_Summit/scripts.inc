@@ -598,7 +598,6 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "sky descended from a storm.\p"
 	.string "The organism, shining a vivid green,\n"
 	.string "becalmed the two enraged organisms.\p"
-	.string "Then, its duty done, the green\n"
-	.string "organisms flew off into the wild blue\l"
-	.string "yonder…$"
+	.string "Then, its duty done, the green organism\n"
+	.string "flew off into the wild blue yonder…$"
 

@@ -41,7 +41,7 @@ gContestPaintingCool1::
 	.string "the inestimable {STR_VAR_1}$"
 
 gContestPaintingCool2::
-	.string "Hey, there! The good-looking organisms\n"
+	.string "Hey, there! The good-looking organism\n"
 	.string "{STR_VAR_1}$"
 
 gContestPaintingCool3::
@@ -68,7 +68,7 @@ gContestPaintingCute2::
 	.string "winning portrait$"
 
 gContestPaintingCute3::
-	.string "Give us a wink! The cutie organisms\n"
+	.string "Give us a wink! The cutie organism\n"
 	.string "{STR_VAR_1}$"
 
 gContestPaintingSmart1::
@@ -92,5 +92,5 @@ gContestPaintingTough2::
 	.string "strongest {STR_VAR_1}$"
 
 gContestPaintingTough3::
-	.string "The mighty tough hyper organisms\n"
+	.string "The mighty tough hyper organism\n"
 	.string "{STR_VAR_1}$"

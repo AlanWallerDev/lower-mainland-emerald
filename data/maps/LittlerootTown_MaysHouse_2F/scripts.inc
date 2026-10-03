@@ -353,7 +353,7 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall:
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 	.string "MAY: {PLAYER}{KUN}!\p"
 	.string "I was just checking my FIELD JOURNAL.\p"
-	.string "There's still a lot of organism that\n"
+	.string "There's still a lot of organisms that\n"
 	.string "I've seen but haven't caught.\p"
 	.string "And there are many others that\n"
 	.string "I think will evolve.\p"

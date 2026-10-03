@@ -258,7 +258,7 @@ SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
 @ Unused
 SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:
 	.string "Will you look at that sorry sight?\p"
-	.string "Heh, my partners' absolutely better\n"
+	.string "Heh, my partner's absolutely better\n"
 	.string "than that lot!$"
 
 @ Unused

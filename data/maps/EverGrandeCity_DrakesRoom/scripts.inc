@@ -79,7 +79,7 @@ EverGrandeCity_DrakesRoom_Text_Defeat:
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 	.string "You deserve every credit for coming\n"
-	.string "this far as a TRAINER of organism.\p"
+	.string "this far as a TRAINER of organisms.\p"
 	.string "You do seem to know what is needed.\p"
 	.string "Yes, what a TRAINER needs is a\n"
 	.string "virtuous heart.\p"

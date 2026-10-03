@@ -197,7 +197,7 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents::
 
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
 	.string "The blackboard lists status changes\n"
-	.string "that may affect organism in battle.$"
+	.string "that may affect organisms in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:
 	.string "Which topic do you want to read?$"
@@ -280,7 +280,7 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
 	.string "An organism holding a BERRY will heal\n"
 	.string "itself…\p"
 	.string "There are many kinds of items that\n"
-	.string "organism can hold…\p"
+	.string "organisms can hold…\p"
 	.string "Boy, it sure is hard taking notes\n"
 	.string "down…$"
 

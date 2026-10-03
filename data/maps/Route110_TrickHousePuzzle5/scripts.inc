@@ -846,17 +846,17 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these organism is not found on\n"
+	.string "One of these organisms is not found on\n"
 	.string "HWY 99. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these organism is not of the\n"
+	.string "One of these organisms is not of the\n"
 	.string "WATER type. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these organism does not use\n"
+	.string "One of these organisms does not use\n"
 	.string "LEECH LIFE. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
@@ -887,7 +887,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these organism was chasing\n"
+	.string "Which of these organisms was chasing\n"
 	.string "PROF. BIRCH?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:

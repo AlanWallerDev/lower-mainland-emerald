@@ -197,7 +197,7 @@ SafariZone_South_Text_Man:
 	.string "live in the outlying areas.$"
 
 SafariZone_Southwest_Text_Woman:
-	.string "Sometimes, when I toss a TREAT at\n"
+	.string "Sometimes, when I toss a TREAT at an\n"
 	.string "organism, it gets ignored.\p"
 	.string "Do organisms have likes and dislikes\n"
 	.string "about what they eat?$"
@@ -236,7 +236,7 @@ SafariZone_Southwest_Text_RestHouseSign:
 
 SafariZone_RestHouse_Text_Youngster:
 	.string "I don't have any TREATS, but I caught a\n"
-	.string "good number of organism.\p"
+	.string "good number of organisms.\p"
 	.string "You can improve your chances of making\n"
 	.string "a catch by getting closer to them\l"
 	.string "before throwing a SAFARI JAR.$"
@@ -271,13 +271,13 @@ SafariZone_Southeast_Text_LittleGirl:
 	.string "organisms before!$"
 
 SafariZone_Southeast_Text_FatMan:
-	.string "The organism in this area are all new to\n"
-	.string "me.\p"
+	.string "The organisms in this area are all new\n"
+	.string "to me.\p"
 	.string "And I'm allowed to catch these rare\n"
 	.string "organisms! Too cool!$"
 
 SafariZone_Southeast_Text_RichBoy:
-	.string "The organism around here seem to be\n"
+	.string "The organisms around here seem to be\n"
 	.string "from somewhere other than the LOWER\l"
 	.string "MAINLAND.$"
 

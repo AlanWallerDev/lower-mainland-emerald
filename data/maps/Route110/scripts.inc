@@ -806,7 +806,7 @@ Route110_Text_YouGotBikeFromRydel:
 
 Route110_Text_TwoRoads:
 	.string "The two roads, one above, one below…\p"
-	.string "A road each for people and organism.\n"
+	.string "A road each for people and organisms.\n"
 	.string "Perhaps that is right and fair.$"
 
 Route110_Text_WalkOnTheLowRoad:

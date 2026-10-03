@@ -1298,8 +1298,8 @@ BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon:
 	.string "organism {STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMons:
-	.string "Your friend has also selected the\n"
-	.string "organism {STR_VAR_1} and {STR_VAR_2}.$"
+	.string "Your friend has also selected\n"
+	.string "{STR_VAR_1} and {STR_VAR_2}.$"
 
 BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode:
 	.string "Your friend has chosen a different\n"
@@ -1316,8 +1316,8 @@ BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMon:
 BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons:
 	.string "Your friend has chosen a different\n"
 	.string "battle level.\p"
-	.string "Your friend has also selected the\n"
-	.string "organism {STR_VAR_1} and {STR_VAR_2}.$"
+	.string "Your friend has also selected\n"
+	.string "{STR_VAR_1} and {STR_VAR_2}.$"
 
 BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode:
 	.string "Please choose two organisms different\n"
@@ -1359,7 +1359,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
 	.string "Depending on the BATTLE ROOM you are\n"
 	.string "entering, you will be required to take a\l"
-	.string "certain number of organism.\p"
+	.string "certain number of organisms.\p"
 	.string "The SINGLE BATTLE mode requires three\n"
 	.string "organisms.\p"
 	.string "The DOUBLE BATTLE mode requires four,\n"

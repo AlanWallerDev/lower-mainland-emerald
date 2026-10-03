@@ -1413,8 +1413,8 @@ SootopolisCity_Text_ThatWasWicked:
 	.string "That was wicked!$"
 
 SootopolisCity_Text_GoRedAndBlueMon:
-	.string "Go for it, red organisms! Don't back\n"
-	.string "off, blue organisms!$"
+	.string "Go for it, red organism! Don't back off,\n"
+	.string "blue organism!$"
 
 SootopolisCity_Text_DoYouKnowMonNames:
 	.string "… … … … … …\p"
@@ -1430,7 +1430,7 @@ SootopolisCity_Text_GreenOneSettlesThings:
 SootopolisCity_Text_SeeingLegendWithOwnEyes:
 	.string "There's an ancient legend that claims\n"
 	.string "the land and sea were shaped by a\l"
-	.string "colossal battle between organism.\p"
+	.string "colossal battle between organisms.\p"
 	.string "Well, I'm seeing that happen with\n"
 	.string "my very own eyes!\p"
 	.string "Whoa! I never expected to be\n"
@@ -1439,7 +1439,7 @@ SootopolisCity_Text_SeeingLegendWithOwnEyes:
 SootopolisCity_Text_SawLegendWithOwnEyes:
 	.string "There's an ancient legend that claims\n"
 	.string "the land and sea were shaped by a\l"
-	.string "colossal battle between organism.\p"
+	.string "colossal battle between organisms.\p"
 	.string "Well, I saw that happen with\n"
 	.string "my very own eyes!\p"
 	.string "Whoa! I never expected to be\n"
@@ -1491,7 +1491,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
 SootopolisCity_Text_AwakenedPokemonClash:
 	.string "Oh, my…\p"
 	.string "The clash between the two awakened\n"
-	.string "organism was quelled by the awakening\l"
+	.string "organisms was quelled by the awakening\l"
 	.string "of a third organism…$"
 
 SootopolisCity_Text_CaveOfOriginSleepsToo:

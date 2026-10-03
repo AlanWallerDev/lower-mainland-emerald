@@ -604,7 +604,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
 	.string "like to swap an organism?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
-	.string "Thank you! Your organisms swap is\n"
+	.string "Thank you! Your organism swap is\n"
 	.string "complete.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:

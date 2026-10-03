@@ -1371,7 +1371,7 @@ LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "Primary judging is a popularity poll\n"
 	.string "involving the audience.\p"
 	.string "Secondary judging features appeals by\n"
-	.string "the organism using their moves.\p"
+	.string "the organisms using their moves.\p"
 	.string "Plan appeals carefully to earn the\n"
 	.string "most attention of the JUDGE and\l"
 	.string "excite the audience.\l"
@@ -1392,9 +1392,9 @@ LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "There are four ranks of CONTESTS.\p"
 	.string "NORMAL, SUPER, HYPER, and MASTER\n"
 	.string "are the four ranks.\p"
-	.string "In the NORMAL Rank, any organisms may\n"
+	.string "In the NORMAL Rank, any organism may\n"
 	.string "enter.\p"
-	.string "Any organisms that won a NORMAL Rank\n"
+	.string "Any organism that won a NORMAL Rank\n"
 	.string "CONTEST may move up to the SUPER Rank\l"
 	.string "in the same category.\p"
 	.string "In the same way, a SUPER Rank winner\n"
@@ -1424,7 +1424,7 @@ LilycoveCity_ContestLobby_Text_EggCannotTakePart:
 	.string "in a CONTEST.$"
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
-	.string "Your organisms appears to be in no\n"
+	.string "Your organism appears to be in no\n"
 	.string "condition to take part in a CONTEST…$"
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
@@ -1438,7 +1438,7 @@ LilycoveCity_ContestLobby_Text_ConfirmContestMon:
 	.string "Is that your CONTEST organism?$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4:
-	.string "Okay, your partners will be entered in\n"
+	.string "Okay, your partner will be entered in\n"
 	.string "this CONTEST.\p"
 	.string "Your organism is Entry No. 4. The\n"
 	.string "CONTEST will begin shortly.$"
@@ -1459,15 +1459,13 @@ LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater:
 
 ContestHall_Text_GettingStartedParticipantsAsFollows:
 	.string "MC: Hello! We're just getting started\n"
-	.string "with a {STR_VAR_3} Rank organism\l"
-	.string "{STR_VAR_2}!\p"
+	.string "with a {STR_VAR_3} Rank {STR_VAR_2}!\p"
 	.string "The participating TRAINERS and their\n"
 	.string "partners are as follows:$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked organism\l"
-	.string "{STR_VAR_2}!\p"
+	.string "with a 4-player linked {STR_VAR_2}!\p"
 	.string "The participating TRAINERS and their\n"
 	.string "partners are as follows:$"
 
@@ -1476,11 +1474,11 @@ ContestHall_Text_EntryXTrainersMon:
 	.string "{STR_VAR_1}'s {STR_VAR_3}!$"
 
 ContestHall_Text_SeenContestantsAudienceWillVote:
-	.string "MC: We've just seen the four organisms\n"
+	.string "MC: We've just seen the four organism\n"
 	.string "contestants.\p"
 	.string "Now it's time for primary judging!\p"
 	.string "The audience will vote on their favorite\n"
-	.string "organisms contestants.\p"
+	.string "organism contestants.\p"
 	.string "Without any further ado, let the\n"
 	.string "voting begin!$"
 
@@ -1614,7 +1612,7 @@ LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain:
 	.string "Please try again.$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX:
-	.string "Your organisms will be entered in the\n"
+	.string "Your organism will be entered in the\n"
 	.string "CONTEST.\p"
 	.string "Your organism is Entry No. {STR_VAR_2}.$"
 
@@ -1637,7 +1635,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest3:
 	.string "Which CONTEST would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_MonInNoCondition2:
-	.string "Your organisms appears to be in no\n"
+	.string "Your organism appears to be in no\n"
 	.string "condition to take part in a CONTEST…$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
@@ -1670,11 +1668,11 @@ LilycoveCity_ContestLobby_Text_ExplainLinkContest:
 	.string "the mode they wish to enter.\p"
 	.string "There are two different modes.\p"
 	.string "E-MODE (EMERALD MODE) is for two to\n"
-	.string "four players, each with an organism\l"
-	.string "Emerald Game Pak.\p"
+	.string "four players, each with an Emerald Game\l"
+	.string "Pak.\p"
 	.string "G-MODE (GLOBAL MODE) is only for four\n"
-	.string "players, each with an organism Emerald,\l"
-	.string "Ruby, or Sapphire Game Pak.\p"
+	.string "players, each with an Emerald, Ruby, or\l"
+	.string "Sapphire Game Pak.\p"
 	.string "The players should discuss which mode\n"
 	.string "they want, then choose the same mode.\p"
 	.string "Once all the players have chosen\n"
@@ -1687,7 +1685,7 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "In E-MODE (EMERALD MODE), a LINK\n"
 	.string "CONTEST can be held with two to four\l"
 	.string "players. Each player must have an\l"
-	.string "organism Emerald Game Pak.\p"
+	.string "Emerald Game Pak.\p"
 	.string "The players must be linked with each\n"
 	.string "other using Wireless Adapters or\l"
 	.string "GBA Game Link cables.\p"
@@ -1695,18 +1693,18 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "TRAINERS in the hall will join to fill\l"
 	.string "the 4-player CONTEST lineup.\p"
 	.string "Please be aware that E-MODE is not\n"
-	.string "available in organisms Ruby or Sapphire.$"
+	.string "available in Ruby or Sapphire.$"
 
 LilycoveCity_ContestLobby_Text_ExplainGMode:
 	.string "G-MODE (GLOBAL MODE) is specifically\n"
 	.string "for four players who are linked using\l"
 	.string "GBA Game Link cables.\p"
-	.string "Each player must have an organism\n"
-	.string "Emerald, Ruby, or Sapphire Game Pak.\p"
+	.string "Each player must have an Emerald, Ruby,\n"
+	.string "or Sapphire Game Pak.\p"
 	.string "The CONTEST starts after all players\n"
-	.string "choose G-MODE (organisms Emerald) or\l"
-	.string "enter through the 4-player reception\l"
-	.string "counter (organisms Ruby or Sapphire).$"
+	.string "choose G-MODE (Emerald) or enter\l"
+	.string "through the 4-player reception counter\l"
+	.string "(Ruby or Sapphire).$"
 
 LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:
 	.string "I'm terribly sorry.\p"
@@ -1721,21 +1719,20 @@ LilycoveCity_ContestLobby_Text_WhichContestMode:
 
 ContestHall_Text_GettingStartedWireless:
 	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked organism\l"
-	.string "{STR_VAR_2}!$"
+	.string "with a 4-player linked {STR_VAR_2}!$"
 
 ContestHall_Text_ParticipantsAsFollows:
 	.string "The participating TRAINERS and their\n"
 	.string "partners are as follows:$"
 
 ContestHall_Text_WeveSeenContestants:
-	.string "MC: We've just seen the four organisms\n"
+	.string "MC: We've just seen the four organism\n"
 	.string "contestants.\p"
 	.string "Now it's time for primary judging!$"
 
 ContestHall_Text_AudienceWillVote:
 	.string "The audience will vote on their favorite\n"
-	.string "organisms contestants.$"
+	.string "organism contestants.$"
 
 ContestHall_Text_LetVotingBegin:
 	.string "Without any further ado,\n"

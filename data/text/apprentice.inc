@@ -368,7 +368,7 @@ gText_ApprenticePleaseTeach8::
 	.string "Me! My name is {STR_VAR_1}!\n"
 	.string "I just became a TRAINER!\p"
 	.string "I'm delighted I met you, {PLAYER}, the\n"
-	.string "big name in organisms circles!\p"
+	.string "big name in naturalist circles!\p"
 	.string "Oh-oh-oh, I know!\n"
 	.string "May I ask a huge favor, {PLAYER}?\p"
 	.string "Please take me in as your apprentice!\n"
@@ -442,8 +442,8 @@ gText_ApprenticePleaseTeach10::
 	.string "too!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at battling.\p"
-	.string "So, how about you becoming my master\n"
-	.string "about all things organisms?$"
+	.string "So, how about you becoming my master in\n"
+	.string "all things nature?$"
 
 gText_ApprenticeRejectTeaching10::
 	.string "If you're going to act cold like that,\n"
@@ -451,7 +451,7 @@ gText_ApprenticeRejectTeaching10::
 	.string "Waaah! Waaah! Waaah!\n"
 	.string "Hiccup!\p"
 	.string "Hahaha, that was my FAKE TEARS!\p"
-	.string "Come on, will you please be my partners\n"
+	.string "Come on, will you please be my nature\n"
 	.string "master?$"
 
 gText_ApprenticeWhichLevelMode10::
@@ -481,7 +481,7 @@ gText_ApprenticePleaseTeach11::
 	.string "Your turn now, tell me a little about\n"
 	.string "yourself, give it a try!\p"
 	.string "Uh-huh, uh-huh! {PLAYER}{KUN}'s your name,\n"
-	.string "and organisms' your game!\p"
+	.string "and nature's your game!\p"
 	.string "And you're at a delicate age\n"
 	.string "when all the world's your stage!\p"
 	.string "Anyway, I just want to say,\n"
@@ -1275,7 +1275,7 @@ gText_ApprenticeWhichMonFirst2::
 	.string "{PLAYER}, hello!\p"
 	.string "I think, in a battle, it's very important\n"
 	.string "which organism comes out first.\p"
-	.string "Out of the organism that I have, which\n"
+	.string "Out of the organisms that I have, which\n"
 	.string "would be good to send out first?$"
 
 gText_ApprenticeMonFirstThanks2::
@@ -1460,9 +1460,9 @@ gText_ApprenticeWhichMonFirst12::
 	.string "Uh-huh, I have something to ask!\l"
 	.string "Are you receiving me?\l"
 	.string "You are receiving me!\p"
-	.string "You have to decide, which of my partner\n"
-	.string "is the first to ride! Into battle, I mean\l"
-	.string "to say.$"
+	.string "You have to decide, which of my\n"
+	.string "partners is the first to ride! Into\l"
+	.string "battle, I mean to say.$"
 
 gText_ApprenticeMonFirstThanks12::
 	.string "My {STR_VAR_1}? Yes!\n"
@@ -1541,8 +1541,8 @@ gText_ApprenticeWhichMon0::
 	.string "There's something I just can't decide…\p"
 	.string "I can't decide which organism I should\n"
 	.string "be using.\p"
-	.string "I can't decide between the organism\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}…\p"
+	.string "I can't decide between {STR_VAR_1} and\n"
+	.string "{STR_VAR_2}…\p"
 	.string "{PLAYER}, which do you think will give\n"
 	.string "even me a chance at winning?$"
 
@@ -1573,7 +1573,7 @@ gText_ApprenticeWhichMon2::
 	.string "I have a question I wanted to ask.\p"
 	.string "I'm in a dilemma over whether I should\n"
 	.string "raise one {STR_VAR_1} or {STR_VAR_2}.\p"
-	.string "Which organisms do you think will be\n"
+	.string "Which organism do you think will be\n"
 	.string "stronger?$"
 
 gText_ApprenticeMonThanks2::
@@ -1591,9 +1591,9 @@ gText_ApprenticeWhichMon3::
 	.string "could give me advice…\p"
 	.string "I can't decide on the one kind of\n"
 	.string "organism I should raise…\p"
-	.string "I've narrowed the field to the organism\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}, but that's\l"
-	.string "where I became stuck…\p"
+	.string "I've narrowed the field to {STR_VAR_1}\n"
+	.string "and {STR_VAR_2}, but that's where I\l"
+	.string "became stuck…\p"
 	.string "{PLAYER}, you probably don't want to\n"
 	.string "bother, but please decide for me.$"
 
@@ -1610,8 +1610,8 @@ gText_ApprenticeWhichMon4::
 	.string "I was about to go looking for you!\p"
 	.string "Can you decide what kind of organisms I\n"
 	.string "should use?\p"
-	.string "For instance… How about the organism\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}?\p"
+	.string "For instance… How about {STR_VAR_1}\n"
+	.string "and {STR_VAR_2}?\p"
 	.string "Which one do you think would be\n"
 	.string "better?$"
 
@@ -1672,9 +1672,9 @@ gText_ApprenticeWhichMon7::
 	.string "of my own!\p"
 	.string "{PLAYER}, may I impose on you to choose\n"
 	.string "which organism I should raise?\p"
-	.string "The choices are the organism\n"
-	.string "{STR_VAR_1} or {STR_VAR_2}… Which\l"
-	.string "organism is right for me?$"
+	.string "The choices are {STR_VAR_1} or\n"
+	.string "{STR_VAR_2}… Which organism is right for\l"
+	.string "me?$"
 
 gText_ApprenticeMonThanks7::
 	.string "One {STR_VAR_1} it is!\n"
@@ -1779,9 +1779,9 @@ gText_ApprenticeWhichMon13::
 	.string "kind of organisms I should raise.\p"
 	.string "So, things being this way,\n"
 	.string "I need you to decide for me.\p"
-	.string "{PLAYER}{KUN}, if I had to choose between the\n"
-	.string "organism {STR_VAR_1} and {STR_VAR_2},\l"
-	.string "which should it be?$"
+	.string "{PLAYER}{KUN}, if I had to choose between\n"
+	.string "{STR_VAR_1} and {STR_VAR_2}, which\l"
+	.string "should it be?$"
 
 gText_ApprenticeMonThanks13::
 	.string "Hm, one {STR_VAR_1}, all right.\n"
@@ -1816,9 +1816,8 @@ gText_ApprenticeWhichMon15::
 	.string "Incidentally, I would like to obtain\l"
 	.string "your advice.\p"
 	.string "It's about the organism I am to use.\p"
-	.string "If the choices are the organism\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}, which is\l"
-	.string "more worthy of me?$"
+	.string "If the choices are {STR_VAR_1} and\n"
+	.string "{STR_VAR_2}, which is more worthy of me?$"
 
 gText_ApprenticeMonThanks15::
 	.string "{STR_VAR_1}?\n"

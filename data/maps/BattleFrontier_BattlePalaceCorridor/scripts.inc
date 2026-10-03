@@ -127,9 +127,9 @@ BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
 	.string "at others.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
-	.string "Rather than trying to make an\n"
-	.string "organisms do what it dislikes, try to let\l"
-	.string "it do what it likes and is good at doing.\p"
+	.string "Rather than trying to make an organism\n"
+	.string "do what it dislikes, try to let it do\l"
+	.string "what it likes and is good at doing.\p"
 	.string "Put yourself in the organism's position\n"
 	.string "and consider what moves it would like.$"
 

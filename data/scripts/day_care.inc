@@ -376,7 +376,7 @@ Route117_PokemonDayCare_Text_ItWillCostX:
 	.string "it will cost ¥{STR_VAR_2}.$"
 
 Route117_PokemonDayCare_Text_HeresYourMon:
-	.string "Perfect! Here's your partners.$"
+	.string "Perfect! Here's your partner.$"
 
 Route117_PokemonDayCare_Text_TookBackMon:
 	.string "{PLAYER} took back {STR_VAR_1} from\n"

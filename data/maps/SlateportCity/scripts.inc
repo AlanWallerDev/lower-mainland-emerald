@@ -1056,12 +1056,12 @@ SlateportCity_Text_BuyTooMuch:
 	.string "away and buy too much.$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-	.string "If you want to change your partners'\n"
+	.string "If you want to change your partner's\n"
 	.string "nickname, you'll have to get the NAME\l"
 	.string "RATER to help you.$"
 
 SlateportCity_Text_CantChangeTradeMonName:
-	.string "Any organisms you get in a trade, you\n"
+	.string "Any organism you get in a trade, you\n"
 	.string "can't change its nickname.\p"
 	.string "The original TRAINER's love for that\n"
 	.string "organism is in the nickname.$"
@@ -1218,11 +1218,11 @@ SlateportCity_Text_HarborSign:
 	.string "the ferry S.S. TIDAL.”$"
 
 SlateportCity_Text_NameRatersHouseSign:
-	.string "NAME RATER'S HOUSE “organisms\n"
+	.string "NAME RATER'S HOUSE “Organism\n"
 	.string "nicknames rated.”$"
 
 SlateportCity_Text_ExplainBerries:
-	.string "If a wild organisms gets hurt, it heals\n"
+	.string "If a wild organism gets hurt, it heals\n"
 	.string "itself by chewing on BERRIES.\p"
 	.string "Did you know that?\p"
 	.string "Somebody saw that and got the idea\n"

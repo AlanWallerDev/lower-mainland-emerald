@@ -308,7 +308,8 @@ RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 	.string "I've been trying to develop a device\n"
-	.string "that resurrects organism from fossils…\p"
+	.string "that resurrects organisms from\l"
+	.string "fossils…\p"
 	.string "And, it's working!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:

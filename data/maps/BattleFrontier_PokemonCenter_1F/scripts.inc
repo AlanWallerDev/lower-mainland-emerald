@@ -38,7 +38,7 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
-	.string "There was someone here using a\n"
+	.string "There was someone here using an\n"
 	.string "organism I've never seen before.\p"
 	.string "I never learned about it at\n"
 	.string "TRAINER'S SCHOOL at least.\p"

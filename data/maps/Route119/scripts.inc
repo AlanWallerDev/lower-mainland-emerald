@@ -518,7 +518,7 @@ Route119_Text_BrendanIllGiveYouThis:
 	.string "Try it out.$"
 
 Route119_Text_BrendanExplainFly:
-	.string "BRENDAN: Use FLY, and your partners\n"
+	.string "BRENDAN: Use FLY, and your partner\n"
 	.string "instantly carries you to any town\l"
 	.string "you've already visited.\p"
 	.string "But you need the MAPLE RIDGE GYM BADGE\n"
@@ -581,7 +581,7 @@ Route119_Text_TallGrassSnaresBikeTires:
 	.string "There's no way you can cycle here.$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-	.string "Can your partners use its SECRET POWER\n"
+	.string "Can your partner use its SECRET POWER\n"
 	.string "on a big pile of grass and make a SECRET\l"
 	.string "BASE?$"
 

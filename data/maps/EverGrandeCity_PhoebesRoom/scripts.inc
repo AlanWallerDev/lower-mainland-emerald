@@ -64,8 +64,8 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 	.string "I did my training on MOUNTAIN VIEW.\p"
 	.string "While I trained, I gained the ability to\n"
 	.string "commune with GHOST-type organisms.\p"
-	.string "Yes, the bond I developed with organism\n"
-	.string "is extremely tight.\p"
+	.string "Yes, the bond I developed with\n"
+	.string "organisms is extremely tight.\p"
 	.string "So, come on, just try and see if you can\n"
 	.string "even inflict damage on my partners!$"
 

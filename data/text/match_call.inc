@@ -98,14 +98,14 @@ MatchCall_WildBattleText12::
 	.string "you still catching organisms?\p"
 	.string "I've been trying to catch them\n"
 	.string "myself, but it's not so easy.\p"
-	.string "The way of organism is deep!$"
+	.string "The way of the naturalist is deep!$"
 
 MatchCall_WildBattleText13::
 	.string "Ah, hello, {PLAYER}{KUN}! This is {STR_VAR_1}!\n"
 	.string "Have you been catching organisms?\p"
 	.string "I've been trying to catch them\n"
 	.string "myself, but with little success.\p"
-	.string "The way of organism is deep!$"
+	.string "The way of the naturalist is deep!$"
 
 MatchCall_WildBattleText14::
 	.string "Oh, hi, {PLAYER}{KUN}, how do you do?\n"
@@ -717,7 +717,7 @@ MatchCall_PersonalizedText9::
 	.string "It's {STR_VAR_1}…\n"
 	.string "Right now, behind you…\l"
 	.string "Wasn't there something…?\p"
-	.string "The power of the organism that sleep\n"
+	.string "The power of the organisms that sleep\n"
 	.string "here at MOUNTAIN VIEW…\p"
 	.string "It's telling me about you…\p"
 	.string "You should walk away quickly and\n"
@@ -803,9 +803,8 @@ MatchCall_PersonalizedText16::
 	.string "teaching karate to my partners.\p"
 	.string "But now they're better than me!\n"
 	.string "I've done nothing but lose to them!\p"
-	.string "But even though I may lose to\n"
-	.string "organisms, I won't lose to another\l"
-	.string "TRAINER, no sir!\p"
+	.string "But even though I may lose in battle, I\n"
+	.string "won't lose to another TRAINER, no sir!\p"
 	.string "We have to battle again!\n"
 	.string "Ugwaah!$"
 
@@ -1224,7 +1223,7 @@ MatchCall_PersonalizedText53::
 	.string "If you cooperate with organisms, one\n"
 	.string "can be comfortable in the wild.\p"
 	.string "Everyone should realize that and\n"
-	.string "cooperate with organism more.\p"
+	.string "cooperate with organisms more.\p"
 	.string "That would be ideal.\n"
 	.string "I really think so.\p"
 	.string "I think you're on the right track!\n"
@@ -1437,7 +1436,7 @@ MatchCall_BattleFrontierStreakText7::
 	.string "the {STR_VAR_2}, right?\p"
 	.string "And you won {STR_VAR_3} battles in a\n"
 	.string "row.\p"
-	.string "Oh, there goes a rare organisms! I have\n"
+	.string "Oh, there goes a rare organism! I have\n"
 	.string "to go!$"
 
 MatchCall_BattleFrontierStreakText8::
@@ -1564,7 +1563,7 @@ MatchCall_BattleFrontierRecordStreakText7::
 	.string "the {STR_VAR_2}, right?\p"
 	.string "And you won {STR_VAR_3} battles in a\n"
 	.string "row.\p"
-	.string "Oh, there goes a rare organisms! I have\n"
+	.string "Oh, there goes a rare organism! I have\n"
 	.string "to go!$"
 
 MatchCall_BattleFrontierRecordStreakText8::
@@ -1813,7 +1812,7 @@ MatchCall_BattlePikeText7::
 	.string "You were at the {STR_VAR_2} and won\n"
 	.string "your way past {STR_VAR_3} rooms?\p"
 	.string "That's wicked.\p"
-	.string "Oh, there goes a rare organisms! Okay,\n"
+	.string "Oh, there goes a rare organism! Okay,\n"
 	.string "bye.$"
 
 MatchCall_BattlePikeText8::
@@ -2384,8 +2383,8 @@ MatchCall_Text_May7::
 
 MatchCall_Text_May8::
 	.string "MAY: {PLAYER}{KUN}, hi.\p"
-	.string "MOUNTAIN VIEW is a memorial to organism\n"
-	.string "whose lives have ended.\p"
+	.string "MOUNTAIN VIEW is a memorial to\n"
+	.string "organisms whose lives have ended.\p"
 	.string "Maybe as a result, it's infested with\n"
 	.string "many GHOST-type organisms!$"
 
@@ -2429,7 +2428,7 @@ MatchCall_Text_May13::
 	.string "How's it going? Are you filling your\n"
 	.string "FIELD JOURNAL?\p"
 	.string "I heard a rumor that there are\n"
-	.string "super-ancient organism out there. And\l"
+	.string "super-ancient organisms out there. And\l"
 	.string "there are three of them!\p"
 	.string "I would love to see even one…$"
 
@@ -2509,8 +2508,8 @@ MatchCall_Text_Brendan7::
 
 MatchCall_Text_Brendan8::
 	.string "BRENDAN: {PLAYER}!\p"
-	.string "MOUNTAIN VIEW is a memorial to organism\n"
-	.string "whose lives have ended.\p"
+	.string "MOUNTAIN VIEW is a memorial to\n"
+	.string "organisms whose lives have ended.\p"
 	.string "That's probably why it's infested with\n"
 	.string "many GHOST-type organisms!$"
 
@@ -2554,7 +2553,7 @@ MatchCall_Text_Brendan13::
 	.string "How's it going? Filling up your FIELD\n"
 	.string "JOURNAL successfully?\p"
 	.string "I heard a rumor that there are\n"
-	.string "super-ancient organism out there. And\l"
+	.string "super-ancient organisms out there. And\l"
 	.string "not just one--three!\p"
 	.string "I'd love to catch even one…$"
 
@@ -2649,8 +2648,8 @@ MatchCall_Text_Scott3::
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
 	.string "Have you had the chance to climb\n"
 	.string "MOUNTAIN VIEW?\p"
-	.string "The place is a memorial to organism that\n"
-	.string "have passed away.\p"
+	.string "The place is a memorial to organisms\n"
+	.string "that have passed away.\p"
 	.string "It's somewhere every TRAINER\n"
 	.string "should climb to the top of once.$"
 
@@ -2875,7 +2874,7 @@ MatchCall_Text_MrStone4::
 	.string "Did you know that DEVON was\n"
 	.string "digging the CASSIAR TUNNEL?\p"
 	.string "But we shut down the operation to\n"
-	.string "protect the organism in the area.\p"
+	.string "protect the organisms in the area.\p"
 	.string "It's a no-brainer, really.\p"
 	.string "It's more important to let organisms\n"
 	.string "live in peace than worry about our own\l"

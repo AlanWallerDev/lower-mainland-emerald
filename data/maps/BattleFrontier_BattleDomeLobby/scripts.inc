@@ -478,7 +478,7 @@ BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "Excuse me!\p"
 	.string "You don't have three eligible\n"
 	.string "organisms.\p"
-	.string "Also, the organism must be holding\n"
+	.string "Also, the organisms must be holding\n"
 	.string "different kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 	.string "Please come see me when you are ready.$"
@@ -666,7 +666,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 	.string "The Tournament Tree will provide\n"
 	.string "several kinds of data.\p"
 	.string "The data on view includes the previous\n"
-	.string "tournament's results, the organism\l"
+	.string "tournament's results, the organisms\l"
 	.string "held by TRAINERS, and the battle styles\l"
 	.string "of TRAINERS.$"
 

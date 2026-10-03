@@ -67,8 +67,8 @@ RustboroCity_House1_Text_YouDontWantToThatsOkay:
 	.string "But my partner is cute, you know…$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
-	.string "Any organisms can be cute if you raise\n"
-	.string "it with care and kindness.$"
+	.string "Any organism can be cute if you raise it\n"
+	.string "with care and kindness.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
 	.string "In all sorts of places, there are all\n"

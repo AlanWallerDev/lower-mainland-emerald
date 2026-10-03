@@ -28,22 +28,22 @@ static const u8 sSafariBallDesc[] = _(
     "BURNS BOG.");
 
 static const u8 sNetBallDesc[] = _(
-    "A BALL that works\n"
+    "A JAR that works\n"
     "well on WATER- and\n"
     "BUG-type organisms.");
 
 static const u8 sDiveBallDesc[] = _(
-    "A BALL that works\n"
+    "A JAR that works\n"
     "better on organisms\n"
     "on the ocean floor.");
 
 static const u8 sNestBallDesc[] = _(
-    "A BALL that works\n"
+    "A JAR that works\n"
     "better on weaker\n"
     "PARTY.");
 
 static const u8 sRepeatBallDesc[] = _(
-    "A BALL that works\n"
+    "A JAR that works\n"
     "better on organisms\n"
     "caught before.");
 
@@ -160,7 +160,7 @@ static const u8 sHealPowderDesc[] = _(
 static const u8 sRevivalHerbDesc[] = _(
     "A very bitter herb\n"
     "that revives a\n"
-    "fainted organisms.");
+    "fainted organism.");
 
 static const u8 sEtherDesc[] = _(
     "Restores the PP\n"
@@ -335,12 +335,12 @@ static const u8 sXSpecialDesc[] = _(
 static const u8 sPokeDollDesc[] = _(
     "Use to flee from\n"
     "any battle with\n"
-    "a wild organisms.");
+    "a wild organism.");
 
 static const u8 sFluffyTailDesc[] = _(
     "Use to flee from\n"
     "any battle with\n"
-    "a wild organisms.");
+    "a wild organism.");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
@@ -469,7 +469,7 @@ static const u8 sWaveMailDesc[] = _(
 static const u8 sBeadMailDesc[] = _(
     "MAIL featuring a\n"
     "sketch of the\n"
-    "holding organisms.");
+    "holding organism.");
 
 static const u8 sShadowMailDesc[] = _(
     "A GLASSFROG-print\n"
@@ -484,7 +484,7 @@ static const u8 sTropicMailDesc[] = _(
 static const u8 sDreamMailDesc[] = _(
     "MAIL featuring a\n"
     "sketch of the\n"
-    "holding organisms.");
+    "holding organism.");
 
 static const u8 sFabMailDesc[] = _(
     "A gorgeous-print\n"
@@ -1104,12 +1104,12 @@ static const u8 sStorageKeyDesc[] = _(
 static const u8 sRootFossilDesc[] = _(
     "A fossil of an\n"
     "ancient, seafloor-\n"
-    "dwelling organisms.");
+    "dwelling organism.");
 
 static const u8 sClawFossilDesc[] = _(
     "A fossil of an\n"
     "ancient, seafloor-\n"
-    "dwelling organisms.");
+    "dwelling organism.");
 
 static const u8 sDevonScopeDesc[] = _(
     "A device by DEVON\n"
@@ -1411,7 +1411,7 @@ static const u8 sHM08Desc[] = _(
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
     "A parcel for PROF.\n"
-    "OAK from an organism\n"
+    "OAK from a\n"
     "MART's clerk.");
 
 static const u8 sPokeFluteDesc[] = _(
@@ -1437,7 +1437,7 @@ static const u8 sGoldTeethDesc[] = _(
 static const u8 sOldAmberDesc[] = _(
     "A stone containing\n"
     "the genes of an\n"
-    "ancient organisms.");
+    "ancient organism.");
 
 static const u8 sCardKeyDesc[] = _(
     "A card-type door\n"

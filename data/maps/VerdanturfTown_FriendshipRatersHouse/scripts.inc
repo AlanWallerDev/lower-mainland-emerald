@@ -95,7 +95,7 @@ VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
 
 VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
 	.string "This is a little hard for me to say…\p"
-	.string "Your organisms simply detests you.\n"
+	.string "Your organism simply detests you.\n"
 	.string "Doesn't that make you uncomfortable?$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:

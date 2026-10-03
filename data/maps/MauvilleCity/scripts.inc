@@ -594,8 +594,8 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
 MauvilleCity_Text_NurseHurtMonBackToHealth:
 	.string "You know, it's cool to have battles and\n"
 	.string "stuff…\p"
-	.string "But if your partners gets hurt, you\n"
-	.string "have to nurse it back to health.$"
+	.string "But if your partner gets hurt, you have\n"
+	.string "to nurse it back to health.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 	.string "The roads of this town stretch north\n"

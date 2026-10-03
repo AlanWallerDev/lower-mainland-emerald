@@ -1,5 +1,5 @@
 CableClub_Text_WelcomeWhichCableClubService:
-	.string "Welcome to the PARTNER CABLE CLUB.\p"
+	.string "Welcome to the CABLE CLUB.\p"
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
 

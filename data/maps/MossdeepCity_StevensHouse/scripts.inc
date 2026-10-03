@@ -171,7 +171,7 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 	.string "{PLAYER} checked the FIELD JAR.\p"
-	.string "It contained the PARTNER WATER FLEA.\p"
+	.string "It contained the organism WATER FLEA.\p"
 	.string "Take the FIELD JAR?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:

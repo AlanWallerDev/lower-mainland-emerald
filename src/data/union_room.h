@@ -437,18 +437,14 @@ static const u8 *const sTradeReactionTexts[GENDER_COUNT][4] = {
 ALIGNED(4) static const u8 sText_XCheckedTradingBoard[] = _("{STR_VAR_1} checked the\nTRADING BOARD.\p");
 ALIGNED(4) static const u8 sText_RegisterMonAtTradingBoard[] = _("Welcome to the TRADING BOARD.\pYou may register your partners\nand offer it up for a trade.\pWould you like to register one of\nyour partners?");
 ALIGNED(4) static const u8 sText_TradingBoardInfo[] = _("This TRADING BOARD is used for\n"
-                                                        "offering an organism for a trade.\p"
-                                                        "All you need to do is register a\n"
-                                                        "Organisms for a trade.\p"
-                                                        "Another TRAINER may offer a party\n"
-                                                        "Organisms in return for the trade.\p"
-                                                        "We hope you will register organisms\n"
-                                                        "and trade them with many, many\l"
-                                                        "other TRAINERS.\p"
-                                                        "Would you like to register one of\nyour partners?");
+                                                        "offering an organism for a trade.\pAll you need to do is register an\n"
+                                                        "organism for a trade.\pAnother TRAINER may offer a party\n"
+                                                        "organism in return for the trade.\pWe hope you will register organisms\n"
+                                                        "and trade them with many, many\lother TRAINERS.\pWould you like to register one of\n"
+                                                        "your partners?");
 ALIGNED(4) static const u8 sText_ThankYouForRegistering[] = _("We have registered your partners for\ntrade on the TRADING BOARD.\pThank you for using this service!\p"); // unused
 ALIGNED(4) static const u8 sText_NobodyHasRegistered[] = _("Nobody has registered any organisms\nfor trade on the TRADING BOARD.\p\n"); // unused
-ALIGNED(4) static const u8 sText_ChooseRequestedMonType[] = _("Please choose the type of organisms\nthat you would like in the trade.\n");
+ALIGNED(4) static const u8 sText_ChooseRequestedMonType[] = _("Please choose the type of organism\nthat you would like in the trade.\n");
 ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("Which of your party organisms will\nyou offer in trade?\p");
 ALIGNED(4) static const u8 sText_RegistrationCanceled[] = _("Registration has been canceled.\p");
 ALIGNED(4) static const u8 sText_RegistrationCompleted[] = _("Registration has been completed.\p");

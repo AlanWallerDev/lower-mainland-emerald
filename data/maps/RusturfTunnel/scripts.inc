@@ -478,7 +478,7 @@ RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 
 RusturfTunnel_Text_ExplainStrength:
 	.string "That HM contains STRENGTH.\p"
-	.string "If a muscular organisms were to learn\n"
+	.string "If a muscular organism were to learn\n"
 	.string "that, it would be able to move even\l"
 	.string "large boulders.$"
 

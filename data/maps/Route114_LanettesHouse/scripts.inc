@@ -54,7 +54,7 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 	.string "this a secret in exchange for this.$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
-	.string "May I offer advice about my partners\n"
+	.string "May I offer advice about my Organism\n"
 	.string "Storage System?\p"
 	.string "You should organize your BOXES so you\n"
 	.string "can tell which organisms are in them.$"

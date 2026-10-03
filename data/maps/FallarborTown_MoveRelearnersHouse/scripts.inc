@@ -55,7 +55,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "I'm the MOVE TUTOR.\p"
-	.string "I know all the moves that organism\n"
+	.string "I know all the moves that organisms\n"
 	.string "learn--every one of them--and I can\l"
 	.string "teach organisms those moves.\p"
 	.string "I can teach a move to an organism of\n"

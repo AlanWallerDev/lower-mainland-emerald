@@ -97,7 +97,7 @@ AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch:
 	.string "DAN: We can't find any treasures, we\n"
-	.string "lose at organisms…\p"
+	.string "lose our battles…\p"
 	.string "I want to go home… But if I say that,\n"
 	.string "she gets all angry with me…$"
 

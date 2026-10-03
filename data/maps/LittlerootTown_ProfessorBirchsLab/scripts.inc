@@ -692,7 +692,7 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 	.string "give a nickname to that {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-	.string "PROF. BIRCH: If you work at organisms\n"
+	.string "PROF. BIRCH: If you work with organisms\n"
 	.string "and gain experience, I think you'll make\l"
 	.string "an extremely good TRAINER.\p"
 	.string "My kid, {RIVAL}, is also studying\n"
@@ -740,11 +740,11 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "meet or catch.\p"
 	.string "My kid, {RIVAL}, goes everywhere\n"
 	.string "with it.\p"
-	.string "Whenever my kid catches a rare\n"
-	.string "organisms and records its data in the\l"
-	.string "FIELD JOURNAL, why, {RIVAL} looks for\l"
-	.string "me while I'm out doing fieldwork, and\l"
-	.string "shows me.$"
+	.string "Whenever my kid catches a rare organism\n"
+	.string "and records its data in the FIELD\l"
+	.string "JOURNAL, why, {RIVAL} looks for me\l"
+	.string "while I'm out doing fieldwork, and shows\l"
+	.string "me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless organisms await\n"
@@ -781,7 +781,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "BRENDAN: You know it's more fun to have\n"
-	.string "a whole bunch of organism.\p"
+	.string "a whole bunch of organisms.\p"
 	.string "I'm going to explore all over the place\n"
 	.string "to find different organisms.\p"
 	.string "If I find any cool organisms, you bet\n"
@@ -851,8 +851,8 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "PROF. BIRCH: But listen. You've become\n"
 	.string "the CHAMPION, but your nature journey\l"
 	.string "isn't over.\p"
-	.string "There is no end to the road that is\n"
-	.string "organism.\p"
+	.string "There is no end to the road of the\n"
+	.string "naturalist.\p"
 	.string "Somewhere, there is a grassy patch\n"
 	.string "that's waiting for you!$"
 
@@ -879,8 +879,8 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "I have a gift for you.\p"
 	.string "Consider it my show of appreciation for\n"
 	.string "the fantastic work you've done.\p"
-	.string "My gift is a rare organisms only found\n"
-	.string "in another region!\p"
+	.string "My gift is a rare organism only found in\n"
+	.string "another region!\p"
 	.string "You can have any one of these three\n"
 	.string "organisms!$"
 
@@ -891,20 +891,20 @@ LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
 	.string "organisms!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-	.string "PROF. BIRCH: The FIRE PARTNER WEIZMANN\n"
+	.string "PROF. BIRCH: The organism WEIZMANN\n"
 	.string "caught your eye!\p"
 	.string "You're as sharp as ever!\p"
 	.string "So the WEIZMANN is your choice?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-	.string "PROF. BIRCH: The WATER PARTNER STENTOR\n"
-	.string "is your choice!\p"
+	.string "PROF. BIRCH: The organism STENTOR is\n"
+	.string "your choice!\p"
 	.string "You know how to pick a good one.\p"
 	.string "So, you'll take the STENTOR?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-	.string "PROF. BIRCH: The GRASS PARTNER\n"
-	.string "TREEFROG is your choice!\p"
+	.string "PROF. BIRCH: The organism TREEFROG is\n"
+	.string "your choice!\p"
 	.string "You sure know what you're doing.\p"
 	.string "So, you'll take the TREEFROG?$"
 
@@ -932,8 +932,8 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "completed the LOWER MAINLAND FIELD\l"
 	.string "JOURNAL, but your nature journey isn't\l"
 	.string "over.\p"
-	.string "There is no end to the road that is\n"
-	.string "organism.\p"
+	.string "There is no end to the road of the\n"
+	.string "naturalist.\p"
 	.string "Somewhere, there is a grassy patch\n"
 	.string "that's waiting for you!$"
 

@@ -13,4 +13,5 @@ python3 atlas/make_title.py
 node atlas/apply_wild.js
 node atlas/apply_locations.js
 node atlas/apply_text.js
+node atlas/polish_text.js
 make modern -j"$(nproc)"

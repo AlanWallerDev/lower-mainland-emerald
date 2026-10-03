@@ -1155,7 +1155,7 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 	.string "safely catches an organism.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-	.string "WALLY, here, I'll loan you my partners.\p"
+	.string "WALLY, here, I'll loan you my partner.\p"
 	.string "WALLY received a AMOEBOID!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
@@ -1177,11 +1177,11 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "WALLY: Thank you, yes, it did. Here's\n"
-	.string "your partners back.\p"
+	.string "your partner back.\p"
 	.string "{PLAYER}, thank you for coming along\n"
 	.string "with me.\p"
 	.string "You two are why I was able to catch my\n"
-	.string "partners.\p"
+	.string "partner.\p"
 	.string "I promise I'll take really good\n"
 	.string "care of it.\p"
 	.string "Oh! My mom's waiting for me,\n"
@@ -1298,7 +1298,7 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "DAD: {PLAYER}, how are things going?\p"
-	.string "The world of organism is deep.\p"
+	.string "The world of organisms is deep.\p"
 	.string "I honestly think that no amount of\n"
 	.string "training would ever be enough.$"
 
@@ -1518,7 +1518,7 @@ PetalburgCity_Gym_Text_EnterOHKORoom:
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
 	.string "“GYM LEADER'S ROOM\p"
-	.string "“See for yourself what organism await\n"
+	.string "“See for yourself what organisms await\n"
 	.string "you!” the sign says.\p"
 	.string "Do you want to go through?$"
 

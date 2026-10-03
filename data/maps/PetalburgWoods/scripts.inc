@@ -301,8 +301,8 @@ PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Not a one to be found…$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
-	.string "Hello, have you seen any organisms\n"
-	.string "called ROCK TRIPE around here?\p"
+	.string "Hello, have you seen an organism called\n"
+	.string "ROCK TRIPE around here?\p"
 	.string "I really love that organism.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
@@ -362,7 +362,7 @@ PetalburgWoods_Text_YoureLoadedWithItems:
 	.string "you this GREAT JAR.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
-	.string "I caught a whole bunch of organism!\p"
+	.string "I caught a whole bunch of organisms!\p"
 	.string "Go, go, go! My BUG team!$"
 
 PetalburgWoods_Text_ICouldntWin:
@@ -370,7 +370,7 @@ PetalburgWoods_Text_ICouldntWin:
 	.string "couldn't win…$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
-	.string "I caught a bunch of organism. Now I'm\n"
+	.string "I caught a bunch of organisms. Now I'm\n"
 	.string "out of FIELD JARS.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
@@ -434,8 +434,8 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 
 PetalburgWoods_Text_TrainerTipsExperience:
 	.string "TRAINER TIPS\p"
-	.string "Any organisms that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
+	.string "Any organism that appears even once in\n"
+	.string "a battle is awarded EXP Points.\p"
 	.string "To raise a weak organism, put it at the\n"
 	.string "left of the team list.\p"
 	.string "As soon as a battle starts, switch it\n"

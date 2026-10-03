@@ -228,7 +228,7 @@ SecretBase_Text_Trainer4Intro:
 	.string "I found a spot I liked, and I did it up\n"
 	.string "with my favorite decorations.\p"
 	.string "I raise my favorite organisms and grow\n"
-	.string "stronger with it.\p"
+	.string "stronger with them.\p"
 	.string "That's what I do.\n"
 	.string "Want to battle with me?$"
 
@@ -250,7 +250,7 @@ SecretBase_Text_Trainer4PreChampion:
 	.string "I found a spot I liked, and I did it up\n"
 	.string "with my favorite decorations.\p"
 	.string "I raise my favorite organisms and grow\n"
-	.string "stronger with it.\p"
+	.string "stronger with them.\p"
 	.string "Every day is a great day.$"
 
 SecretBase_Text_Trainer9Intro:

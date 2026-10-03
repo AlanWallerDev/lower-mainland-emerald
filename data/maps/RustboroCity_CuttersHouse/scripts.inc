@@ -38,7 +38,7 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
 	.string "short, is CUT.\p"
 	.string "An HM move is one that can be used by\n"
 	.string "organisms outside of battle.\p"
-	.string "Any organisms that's learned CUT can\n"
+	.string "Any organism that's learned CUT can\n"
 	.string "chop down thin trees if the TRAINER has\l"
 	.string "earned the STONE BADGE.\p"
 	.string "And, unlike a TM, an HM can be used\n"

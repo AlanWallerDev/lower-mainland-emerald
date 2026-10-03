@@ -53,13 +53,13 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
-	.string "That PC-based organism Storage\n"
+	.string "That PC-based Organism Storage\n"
 	.string "System…\p"
 	.string "Whoever made it must be some kind\n"
 	.string "of a scientific wizard!$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
-	.string "When my partners ate an ORAN BERRY, it\n"
+	.string "When my partner ate an ORAN BERRY, it\n"
 	.string "regained HP!$"
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:

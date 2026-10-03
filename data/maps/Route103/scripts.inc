@@ -322,10 +322,10 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "BRENDAN: I think I get it.\n"
 	.string "I think I know why my dad has his eye\l"
 	.string "out for you now.\p"
-	.string "Look, your partners already likes you,\n"
+	.string "Look, your partner already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any organisms with ease.\p"
+	.string "could befriend any organism with ease.\p"
 	.string "We should head back to the LAB.$"
 
 Route103_Text_ShouldHaveBroughtPotion:

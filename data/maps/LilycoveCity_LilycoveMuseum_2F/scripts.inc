@@ -305,7 +305,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame:
 	.string "green-colored adornments.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon:
-	.string "It's a painting of organism.$"
+	.string "It's a painting of organisms.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe:
 	.string "I've been away awhile, so the new\n"
@@ -315,7 +315,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe:
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing:
 	.string "Well… So this is where they show the\n"
-	.string "topical organisms paintings.\p"
+	.string "topical organism paintings.\p"
 	.string "I see, these new paintings are indeed\n"
 	.string "rather amusing.$"
 

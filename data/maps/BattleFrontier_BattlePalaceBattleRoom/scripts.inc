@@ -497,7 +497,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
 	.string "SPENSER: My physical being is with\n"
 	.string "organisms always!\p"
-	.string "My heart beats as one with organism\n"
+	.string "My heart beats as one with organisms\n"
 	.string "always!\p"
 	.string "Young one of a TRAINER! Do you believe\n"
 	.string "in your partners?\p"

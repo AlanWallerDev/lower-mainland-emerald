@@ -509,7 +509,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "… … … … … …\p"
-	.string "You have confidence in your partners\n"
+	.string "You have confidence in your partners'\n"
 	.string "battling talent, don't you?\p"
 	.string "I urge you to keep battling and\n"
 	.string "keep on winning.\p"

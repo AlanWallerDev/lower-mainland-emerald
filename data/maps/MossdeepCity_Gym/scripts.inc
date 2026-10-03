@@ -396,7 +396,7 @@ MossdeepCity_Gym_Text_BlakeIntro:
 	.string "Sometimes, I'm out of sync…$"
 
 MossdeepCity_Gym_Text_BlakeDefeat:
-	.string "My organisms battling skills are out of\n"
+	.string "My organisms' battling skills are out of\n"
 	.string "sync, too!$"
 
 MossdeepCity_Gym_Text_BlakePostBattle:

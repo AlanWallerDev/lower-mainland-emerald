@@ -137,7 +137,7 @@ FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "MAPLE RIDGE GYM LEADER WINONA is a\n"
-	.string "master of FLYING-type organism.\p"
+	.string "master of FLYING-type organisms.\p"
 	.string "She's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
 	.string "She's waiting for new challengers\n"
@@ -234,7 +234,7 @@ FortreeCity_Gym_Text_DariusPostBattle:
 FortreeCity_Gym_Text_WinonaIntro:
 	.string "I am WINONA. I am the LEADER of the\n"
 	.string "MAPLE RIDGE GYM.\p"
-	.string "I have become one with BIRD organism\n"
+	.string "I have become one with BIRD organisms\n"
 	.string "and have soared the skies…\p"
 	.string "However grueling the battle, we have\n"
 	.string "triumphed with grace…\p"
@@ -243,7 +243,7 @@ FortreeCity_Gym_Text_WinonaIntro:
 
 FortreeCity_Gym_Text_WinonaDefeat:
 	.string "Never before have I seen a TRAINER\n"
-	.string "command organism with more grace than\l"
+	.string "command organisms with more grace than\l"
 	.string "I…\p"
 	.string "In recognition of your prowess,\n"
 	.string "I present to you this GYM BADGE.$"

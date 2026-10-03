@@ -162,7 +162,7 @@ BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
 	.string "when she's serious?\p"
 	.string "When she's battling flat out, she\n"
 	.string "apparently uses these organisms:\p"
-	.string "A DRAGON & PSYCHIC EON organisms, an\n"
+	.string "A DRAGON & PSYCHIC EON organism, an\n"
 	.string "ELECTRIC-type THUNDER organism, and a\l"
 	.string "NORMAL-type SLEEPING organism.$"
 
@@ -177,19 +177,19 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "Have you battled the DOME ACE?\p"
 	.string "When he's treating the opponent\n"
 	.string "lightly, he uses these three organisms:\p"
-	.string "A DRAGON & FLYING DRAGON organisms, a\n"
-	.string "WATER & GROUND MUD FISH organisms, and\l"
-	.string "a FIRE & FLYING FLAME organisms.$"
+	.string "A DRAGON & FLYING DRAGON organism, a\n"
+	.string "WATER & GROUND MUD FISH organism, and a\l"
+	.string "FIRE & FLYING FLAME organism.$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
 	.string "Have you battled the DOME ACE\n"
 	.string "when he's serious?\p"
 	.string "When he's demonstrating his strategy,\n"
 	.string "he uses these three organisms:\p"
-	.string "A DRAGON & FLYING EON organisms, a\n"
-	.string "WATER & GROUND MUD FISH organisms, and\l"
-	.string "a STEEL- & PSYCHIC-type IRON LEG\l"
-	.string "organisms.$"
+	.string "A DRAGON & FLYING EON organism, a WATER\n"
+	.string "& GROUND MUD FISH organism, and a\l"
+	.string "STEEL- & PSYCHIC-type IRON LEG\l"
+	.string "organism.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
 	.string "Bet you didn't know this!\p"
@@ -227,7 +227,7 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 	.string "When she's in a good mood, they say she\n"
 	.string "uses these three organisms:\p"
 	.string "A POISON-type FANG SNAKE organism, a\n"
-	.string "BUG & ROCK MOLD organisms, and a\l"
+	.string "BUG & ROCK MOLD organism, and a\l"
 	.string "WATER-type TENDER organism.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
@@ -236,9 +236,9 @@ BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
 	.string "When she's seriously annoyed, they say\n"
 	.string "she uses these three organisms:\p"
 	.string "A POISON-type FANG SNAKE organism, a\n"
-	.string "STEEL & GROUND IRON SNAKE organisms,\l"
+	.string "STEEL & GROUND IRON SNAKE organism,\l"
 	.string "and a WATER- & FLYING-type ATROCIOUS\l"
-	.string "organisms.$"
+	.string "organism.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
 	.string "Bet you didn't know this!\p"
@@ -254,7 +254,7 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "she supposedly uses these organisms:\p"
 	.string "A BUG & FIGHTING SINGLE HORN organism,\n"
 	.string "a DARK-type MOONLIGHT organism, and a\l"
-	.string "BUG & GHOST SHED organisms.$"
+	.string "BUG & GHOST SHED organism.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Have you battled the ARENA TYCOON\n"
@@ -262,9 +262,9 @@ BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "When she battles for keeps, she\n"
 	.string "supposedly uses these organisms:\p"
 	.string "A DARK-type MOONLIGHT organism, a\n"
-	.string "GHOST & POISON SHADOW organisms and a\l"
+	.string "GHOST & POISON SHADOW organism and a\l"
 	.string "GRASS- & FIGHTING-type MUSHROOM\l"
-	.string "organisms.$"
+	.string "organism.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
 	.string "Bet you didn't know this!\p"
@@ -279,10 +279,9 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
 	.string "When he's testing the opponent's\n"
 	.string "spirit, he's said to use these\l"
 	.string "organisms:\p"
-	.string "A POISON & FLYING-type BAT organisms,\n"
-	.string "a NORMAL-type LAZY organism, and a\l"
-	.string "WATER- & ICE-type TRANSPORT\l"
-	.string "organisms.$"
+	.string "A POISON & FLYING-type BAT organism, a\n"
+	.string "NORMAL-type LAZY organism, and a\l"
+	.string "WATER- & ICE-type TRANSPORT organism.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "Have you battled the PALACE MAVEN\n"
@@ -315,10 +314,10 @@ BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
 	.string "when he's serious?\p"
 	.string "When he's pumped with hot power, he\n"
 	.string "apparently uses these organisms:\p"
-	.string "An ICE & FLYING FREEZE organisms, an\n"
-	.string "ELECTRIC & FLYING ELECTRIC organisms,\l"
+	.string "An ICE & FLYING FREEZE organism, an\n"
+	.string "ELECTRIC & FLYING ELECTRIC organism,\l"
 	.string "and a FIRE- & FLYING-type FLAME\l"
-	.string "organisms.$"
+	.string "organism.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
 	.string "Sure, there are several places where\n"

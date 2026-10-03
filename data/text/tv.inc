@@ -68,7 +68,7 @@ gTVBravoTrainerText03::
 	.string "Asked about the CONTEST afterwards,\n"
 	.string "{STR_VAR_1} happily replied with a huge\l"
 	.string "grin, “{STR_VAR_2}!”\p"
-	.string "Well, sure, {STR_VAR_1}'s partners came\n"
+	.string "Well, sure, {STR_VAR_1}'s partner came\n"
 	.string "in number {STR_VAR_3} in the CONTEST.\p"
 	.string "That line perfectly suits {STR_VAR_1}\n"
 	.string "right now, I'd say!$"
@@ -77,7 +77,7 @@ gTVBravoTrainerText04::
 	.string "Asked about the CONTEST afterwards,\n"
 	.string "{STR_VAR_1} replied with a tinge of\l"
 	.string "bitterness, “{STR_VAR_2}.”\p"
-	.string "Well, sure, {STR_VAR_1}'s partners came\n"
+	.string "Well, sure, {STR_VAR_1}'s partner came\n"
 	.string "in number {STR_VAR_3} in the CONTEST.\p"
 	.string "{STR_VAR_1}'s disappointment comes\n"
 	.string "across loud and clear, I'd say!$"
@@ -276,7 +276,7 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "Okay, it's named {STR_VAR_2}.\p"
 	.string "Can I ask you a favor?\p"
 	.string "I'm a TV reporter, and I'm running a\n"
-	.string "survey on organism.\p"
+	.string "survey on organisms.\p"
 	.string "Would you be willing to answer a few\n"
 	.string "simple questions for me?$"
 
@@ -522,7 +522,7 @@ gTVRecentHappeningsText00::
 	.string "For NATURALISTS, every day is a\n"
 	.string "storybook tale.\p"
 	.string "What we want to do is to introduce you\n"
-	.string "to some of these organisms tales.\p"
+	.string "to some of these organism tales.\p"
 	.string "Today, we bring you the story\n"
 	.string "of the TRAINER {STR_VAR_1}.\p"
 	.string "What did {STR_VAR_1} experience\n"
@@ -550,7 +550,7 @@ gTVRecentHappeningsText04::
 
 gTVRecentHappeningsText05::
 	.string "{STR_VAR_1} has recounted a wonderful\n"
-	.string "tale involving organism.\p"
+	.string "tale involving organisms.\p"
 	.string "And now {STR_VAR_1}'s tale is indelibly\n"
 	.string "etched into your soul, too.\p"
 	.string "That's it for today.\n"
@@ -577,7 +577,7 @@ gTV3CheersForPokeblocksText00::
 	.string "Today, we examine the TREAT blended by\n"
 	.string "{STR_VAR_1} and associates.\p"
 	.string "Without any delay, let me feed it to my\n"
-	.string "gourmet PARTNER MILLIPEDE.\p"
+	.string "gourmet MILLIPEDE.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
@@ -708,13 +708,13 @@ gTVTrainerFanClubSpecialText05::
 gTVNameRaterText00::
 	.string "And now, it's time for…\n"
 	.string "THE NAME RATER SHOW.\p"
-	.string "I tell your partners' fortune from the\n"
+	.string "I tell your partner's fortune from the\n"
 	.string "nickname you've bestowed.\p"
 	.string "Advice is what I have to give, and it is\n"
 	.string "helpful advice that I offer.\p"
 	.string "Today, I shall do a reading of the\n"
 	.string "nickname {STR_VAR_3} of {STR_VAR_1}'s\l"
-	.string "partners {STR_VAR_2}.\p"
+	.string "partner {STR_VAR_2}.\p"
 	.string "Hmhm…\p"
 	.string "Hmm…\n"
 	.string "This nickname is…$"
@@ -739,7 +739,7 @@ gTVNameRaterText03::
 
 gTVNameRaterText04::
 	.string "A nickname that will nurture the caring\n"
-	.string "and compassionate side of organisms.\p"
+	.string "and compassionate side of an organism.\p"
 	.string "If raised properly, this organism will\n"
 	.string "come to exhibit real warmth!$"
 
@@ -811,7 +811,7 @@ gTVNameRaterText16::
 
 gTVNameRaterText17::
 	.string "What should always be avoided is using\n"
-	.string "another nature species name.\p"
+	.string "another organism's species name.\p"
 	.string "For instance, avoid taking the name of\n"
 	.string "{STR_VAR_2} to make the nickname\l"
 	.string "{STR_VAR_1}{STR_VAR_3}. That is\l"
@@ -881,7 +881,7 @@ gTVPokemonTodayFailedText00::
 	.string "BIG SIS: Hi! Is everyone peachy and\n"
 	.string "perky today?\p"
 	.string "Today, we're going to look at\n"
-	.string "{STR_VAR_1}'s partners {STR_VAR_2}!\p"
+	.string "{STR_VAR_1}'s partner {STR_VAR_2}!\p"
 	.string "BIG BRO: Yeah! That's what we're going\n"
 	.string "to do!$"
 
@@ -937,7 +937,7 @@ gTVPokemonTodayFailedText05::
 
 gTVPokemonTodayFailedText06::
 	.string "BIG SIS: That's enough silliness! Let's\n"
-	.string "look at today's partners…\p"
+	.string "look at today's partner…\p"
 	.string "Huh?\n"
 	.string "We're out of time already?\p"
 	.string "Aww! We couldn't profile an organism\n"
@@ -952,7 +952,7 @@ gTVPokemonTodaySuccessfulText00::
 	.string "BIG SIS: Hi! Is everyone peachy and\n"
 	.string "perky today?\p"
 	.string "Today, we're going to look at\n"
-	.string "{STR_VAR_1}'s partners {STR_VAR_2}!\p"
+	.string "{STR_VAR_1}'s partner {STR_VAR_2}!\p"
 	.string "BIG BRO: Yeah! That's what we're going\n"
 	.string "to do!$"
 
@@ -1148,7 +1148,7 @@ gTVWorldOfMastersText00::
 	.string "Perhaps you are aware of a TRAINER\n"
 	.string "named {STR_VAR_1}.\p"
 	.string "{STR_VAR_1} is famous as a master at\n"
-	.string "catching organism.\p"
+	.string "catching organisms.\p"
 	.string "{STR_VAR_1}'s quest for organisms\n"
 	.string "depends entirely on a careful search on\l"
 	.string "foot.\p"
@@ -1427,7 +1427,7 @@ gTVBreakingNewsText07::
 	.string "The TRAINER made the {STR_VAR_2}\n"
 	.string "use the move {STR_VAR_1}.\p"
 	.string "Without meaning to, the TRAINER made\n"
-	.string "the rare organisms faint…$"
+	.string "the rare organism faint…$"
 
 gTVBreakingNewsText12::
 	.string "However, {STR_VAR_1} panicked at\n"
@@ -1435,7 +1435,7 @@ gTVBreakingNewsText12::
 	.string "In confusion, the TRAINER ordered\n"
 	.string "{STR_VAR_3} to attack.\p"
 	.string "Without meaning to, the TRAINER made\n"
-	.string "the rare organisms faint.$"
+	.string "the rare organism faint.$"
 
 gTVBreakingNewsText08::
 	.string "In that instant, {STR_VAR_2}\n"
@@ -2009,8 +2009,8 @@ gTVPokemonNewsBattleFrontierText17::
 
 gTVPokemonNewsBattleFrontierText18::
 	.string "Let's hope for more record-setting\n"
-	.string "feats from {STR_VAR_1} and the loyal\l"
-	.string "organisms!\p"
+	.string "feats from {STR_VAR_1} and those loyal\l"
+	.string "partners!\p"
 	.string "That's the news on NATURE NEWS!$"
 
 gTVWhatsNo1InHoennTodayText00::
@@ -2797,7 +2797,7 @@ GabbyAndTy_Text_KeepingAnEyeOutForYou:
 
 GabbyAndTy_Text_GabbyNotEnoughMons:
 	.string "GABBY: Is there a strong TRAINER\n"
-	.string "anywhere with a lot of organism?$"
+	.string "anywhere with a lot of organisms?$"
 
 GabbyAndTy_Text_GiveUsAnInterviewThisTime:
 	.string "GABBY: Wow, you are something!\p"

@@ -175,7 +175,7 @@ Route103_Text_MiguelDefeated:
 	.string "Oh, my gosh! My darling organisms!$"
 
 Route103_Text_MiguelPostBattle:
-	.string "My delightful organisms looks darling\n"
+	.string "My delightful organism looks darling\n"
 	.string "even when it's fainted!$"
 
 Route103_Text_MiguelRegister:
@@ -191,7 +191,7 @@ Route103_Text_MiguelRematchDefeated:
 
 Route103_Text_MiguelRematchPostBattle:
 	.string "The more I spend time with it, the more\n"
-	.string "adorable my partners becomes.$"
+	.string "adorable my partner becomes.$"
 
 Route103_Text_PeteIntro:
 	.string "This sort of distance…\n"
@@ -348,7 +348,7 @@ Route104_Text_WinstonDefeat:
 
 Route104_Text_WinstonPostBattle:
 	.string "There are some things money can't buy.\n"
-	.string "That's partners…$"
+	.string "That's nature…$"
 
 Route104_Text_WinstonRegister1:
 	.string "Hm? Ah, you've obtained a TRAILNAV.\p"
@@ -370,7 +370,7 @@ Route104_Text_WinstonRematchDefeat:
 
 Route104_Text_WinstonPostRematch:
 	.string "I'm fabulously wealthy, but I can't\n"
-	.string "seem to win at organisms…\p"
+	.string "seem to win battles…\p"
 	.string "It's so deep, the world of organisms…$"
 
 Route104_Text_CindyIntro:
@@ -544,7 +544,7 @@ Route106_Text_ElliotRegister:
 	.string "If you don't mind, can we meet again?$"
 
 Route106_Text_ElliotRematchIntro:
-	.string "I caught a bunch of organism fishing.\n"
+	.string "I caught a bunch of organisms fishing.\n"
 	.string "I'll show you an impressive battle!$"
 
 Route106_Text_ElliotRematchDefeated:
@@ -675,7 +675,7 @@ Route107_Text_LisaNotEnoughPokemon:
 	.string "bring more organisms.$"
 
 Route107_Text_RayIntro:
-	.string "RAY: We always battle organisms, me and\n"
+	.string "RAY: We always battle together, me and\n"
 	.string "my sister.\p"
 	.string "I always lose, but we can beat you\n"
 	.string "2-on-2!$"
@@ -685,7 +685,7 @@ Route107_Text_RayDefeated:
 	.string "than us!$"
 
 Route107_Text_RayPostBattle:
-	.string "RAY: My sister gave me my partners. I\n"
+	.string "RAY: My sister gave me my partner. I\n"
 	.string "raised it, and now it's my important\l"
 	.string "partner!$"
 
@@ -714,7 +714,7 @@ Route108_Text_JeromeDefeated:
 	.string "like this…$"
 
 Route108_Text_JeromePostBattle:
-	.string "Playing with marine organism is one of\n"
+	.string "Playing with marine organisms is one of\n"
 	.string "the pleasures of swimming!$"
 
 Route108_Text_MatthewIntro:
@@ -893,7 +893,7 @@ Route109_Text_LolaRematchPostBattle:
 
 Route109_Text_AustinaIntro:
 	.string "I can't swim without my inner tube, but\n"
-	.string "I won't lose at organisms!$"
+	.string "I won't lose a battle!$"
 
 Route109_Text_AustinaDefeated:
 	.string "Did I lose because I have an inner\n"
@@ -1454,7 +1454,7 @@ Route111_Text_BrandenPostBattle:
 	.string "sandwiches.$"
 
 Route111_Text_TyronIntro:
-	.string "This is my favorite kind of organisms!$"
+	.string "This is my favorite kind of organism!$"
 
 Route111_Text_TyronDefeat:
 	.string "Wait! Did you get a good look at my\n"
@@ -1573,7 +1573,7 @@ Route112_Text_CarolDefeat:
 
 Route112_Text_CarolPostBattle:
 	.string "It doesn't matter if you're good or bad\n"
-	.string "at singing or organisms.\p"
+	.string "at singing or battling.\p"
 	.string "If you have the most fun, you win!$"
 
 Route112_Text_BryantIntro:
@@ -1699,7 +1699,7 @@ Route113_Text_LungPostBattle:
 
 Route113_Text_ToriIntro:
 	.string "TORI: Both of us, we collect ashes. We\n"
-	.string "battle organisms, too.$"
+	.string "battle with organisms, too.$"
 
 Route113_Text_ToriDefeat:
 	.string "TORI: We lost… It's boring, so I'm going\n"
@@ -1715,7 +1715,7 @@ Route113_Text_ToriNotEnoughMons:
 
 Route113_Text_TiaIntro:
 	.string "TIA: Both of us, we collect ashes. We\n"
-	.string "battle organisms, too.$"
+	.string "battle with organisms, too.$"
 
 Route113_Text_TiaDefeat:
 	.string "TIA: We couldn't win… It's boring,\n"
@@ -1915,11 +1915,11 @@ Route114_Text_NolanDefeat:
 Route114_Text_NolanPostBattle:
 	.string "This time I'll do it!\p"
 	.string "I always think that, so I can't walk\n"
-	.string "away from fishing or organisms.$"
+	.string "away from fishing or battling.$"
 
 Route114_Text_TyraIntro:
 	.string "TYRA: Well, sure. I'm in the mood for it.\n"
-	.string "I'll teach you a little about organism.$"
+	.string "I'll teach you a little about organisms.$"
 
 Route114_Text_TyraDefeat:
 	.string "TYRA: What an amazing battle style!$"
@@ -2085,17 +2085,17 @@ Route115_Text_CyndyRematchDefeat:
 Route115_Text_CyndyPostRematch:
 	.string "Even when I lose, I still get some\n"
 	.string "enjoyment out of it. It must be that I\l"
-	.string "love organism.$"
+	.string "love organisms.$"
 
 Route115_Text_HectorIntro:
-	.string "I have a rare organisms! Would you like\n"
+	.string "I have a rare organism! Would you like\n"
 	.string "me to show you?$"
 
 Route115_Text_HectorDefeat:
 	.string "You… You want my partners, don't you?$"
 
 Route115_Text_HectorPostBattle:
-	.string "I have this rare organisms. It's enough\n"
+	.string "I have this rare organism. It's enough\n"
 	.string "to keep me satisfied.$"
 
 Route115_Text_KyraIntro:
@@ -2111,8 +2111,7 @@ Route115_Text_KyraPostBattle:
 	.string "I should take a run to calm down…$"
 
 Route115_Text_JaidenIntro:
-	.string "Take that! Ultra organisms ninja\n"
-	.string "attack!$"
+	.string "Take that! Ultra organism ninja attack!$"
 
 Route115_Text_JaidenDefeat:
 	.string "Waaah!\n"
@@ -2310,7 +2309,7 @@ Route116_Text_DevanDefeat:
 	.string "No contest at all!$"
 
 Route116_Text_DevanPostBattle:
-	.string "I should try different organisms types,\n"
+	.string "I should try different organism types,\n"
 	.string "that's what I ought to do.$"
 
 Route116_Text_JohnsonIntro:
@@ -2332,17 +2331,17 @@ Route117_Text_IsaacDefeat:
 	.string "You've raised yours superbly…$"
 
 Route117_Text_IsaacPostBattle:
-	.string "Organism isn't all about power.\p"
+	.string "Battling isn't all about power.\p"
 	.string "Polishing a unique aspect of one's\n"
 	.string "character is another way of enjoying\l"
-	.string "organism.$"
+	.string "nature.$"
 
 Route117_Text_IsaacRegister:
 	.string "I'm going to redouble my training.\n"
 	.string "Would you come look in on us?$"
 
 Route117_Text_IsaacRematchIntro:
-	.string "The organism I've been raising are\n"
+	.string "The organisms I've been raising are\n"
 	.string "looking good, just like before.$"
 
 Route117_Text_IsaacRematchDefeat:
@@ -2453,8 +2452,8 @@ Route117_Text_DerekDefeat:
 Route117_Text_DerekPostBattle:
 	.string "All I did was follow my heart, and now\n"
 	.string "they call me a BUG MANIAC…\p"
-	.string "Still, I am an expert on BUG organism, so\n"
-	.string "it's only natural that they call me a\l"
+	.string "Still, I am an expert on BUG organisms,\n"
+	.string "so it's only natural that they call me a\l"
 	.string "BUG MANIAC.$"
 
 Route117_Text_AnnaIntro:
@@ -2754,7 +2753,7 @@ Route119_Text_JacksonIntro:
 	.string "PARK RANGERS, that's who!$"
 
 Route119_Text_JacksonDefeat:
-	.string "I didn't have enough organisms\n"
+	.string "I didn't have enough organism\n"
 	.string "know-how…$"
 
 Route119_Text_JacksonPostBattle:
@@ -3050,7 +3049,7 @@ Route120_Text_ClarissaIntro:
 	.string "I'll tell you if you can win against me.$"
 
 Route120_Text_ClarissaDefeat:
-	.string "A parasol can't ward off organisms\n"
+	.string "A parasol can't ward off organism\n"
 	.string "attacks…$"
 
 Route120_Text_ClarissaPostBattle:
@@ -3145,7 +3144,7 @@ Route121_Text_WalterPostBattle:
 	.string "again with my partners.$"
 
 Route121_Text_WalterRegister:
-	.string "Your organisms prowess is remarkable.\n"
+	.string "Your battling prowess is remarkable.\n"
 	.string "Allow me to register you as a memento.$"
 
 Route121_Text_WalterRematchIntro:
@@ -3484,7 +3483,7 @@ Route123_Text_FernandoPostRematch:
 	.string "by my tune, you'd lose.$"
 
 Route123_Text_DavisIntro:
-	.string "This is my awesome BUG organisms! My big\n"
+	.string "This is my awesome BUG organism! My big\n"
 	.string "brother got it for me.$"
 
 Route123_Text_DavisDefeat:
@@ -3530,7 +3529,7 @@ Route123_Text_AlbertoDefeat:
 	.string "cool!$"
 
 Route123_Text_AlbertoPostBattle:
-	.string "I gather BIRD organisms feathers that\n"
+	.string "I gather BIRD organism feathers that\n"
 	.string "scatter during battles.\p"
 	.string "I'm going to make a hat with BIRD\n"
 	.string "organism feathers.$"
@@ -4218,7 +4217,7 @@ Route128_Text_WayneDefeat:
 
 Route128_Text_WaynePostBattle:
 	.string "Awww, phooey!\p"
-	.string "My organisms knows WATERFALL, but I\n"
+	.string "My organism knows WATERFALL, but I\n"
 	.string "don't have the DEEP COVE GYM BADGE!$"
 
 Route128_Text_HarrisonIntro:

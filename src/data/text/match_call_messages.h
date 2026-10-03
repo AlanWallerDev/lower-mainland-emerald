@@ -66,7 +66,7 @@ const u8 gText_MatchCallBeauty_Jessica_Intro2[] = _("I seem to end up there.");
 const u8 gText_MatchCallRichBoy_Winston_Strategy[] = _("Strategy? Who needs it?");
 const u8 gText_MatchCallRichBoy_Winston_Pokemon[] = _("I spent big money on it!");
 const u8 gText_MatchCallRichBoy_Winston_Intro1[] = _("I, being rich, sleep in a");
-const u8 gText_MatchCallRichBoy_Winston_Intro2[] = _("custom organisms bed.");
+const u8 gText_MatchCallRichBoy_Winston_Intro2[] = _("custom organism bed.");
 
 const u8 gText_MatchCallPokeManiac_Steve_Strategy[] = _("Wrestle down with power.");
 const u8 gText_MatchCallPokeManiac_Steve_Pokemon[] = _("Took all night to catch.");
@@ -210,10 +210,10 @@ const u8 gText_MatchCallTriathlete_Benjamin_Intro2[] = _("fluids into you regula
 
 const u8 gText_MatchCallTriathlete_Pablo_Strategy[] = _("Draw the power of WATER.");
 const u8 gText_MatchCallTriathlete_Pablo_Pokemon[] = _("Toughened WATER organisms.");
-const u8 gText_MatchCallTriathlete_Pablo_Intro1[] = _("Training organism is good,");
+const u8 gText_MatchCallTriathlete_Pablo_Intro1[] = _("Training organisms is good,");
 const u8 gText_MatchCallTriathlete_Pablo_Intro2[] = _("but don't neglect yourself.");
 
-const u8 gText_MatchCallDragonTamer_Nicolas_Strategy[] = _("It's about organisms power!");
+const u8 gText_MatchCallDragonTamer_Nicolas_Strategy[] = _("It's about organism power!");
 const u8 gText_MatchCallDragonTamer_Nicolas_Pokemon[] = _("See the power of DRAGONS!");
 const u8 gText_MatchCallDragonTamer_Nicolas_Intro1[] = _("I'll become legendary as the");
 const u8 gText_MatchCallDragonTamer_Nicolas_Intro2[] = _("strongest one day!");
@@ -319,7 +319,7 @@ const u8 gText_MatchCallYoungCouple_LoisAndHal_Intro1[] = _("We're lovey-dovey!"
 const u8 gText_MatchCallYoungCouple_LoisAndHal_Intro2[] = _("Forever lovey-dovey!");
 
 const u8 gText_MatchCallPkmnTrainer_Wally_Strategy[] = _("We let it all hang out.");
-const u8 gText_MatchCallPkmnTrainer_Wally_Pokemon[] = _("The 1st organisms I caught.");
+const u8 gText_MatchCallPkmnTrainer_Wally_Pokemon[] = _("The 1st organism I caught.");
 const u8 gText_MatchCallPkmnTrainer_Wally_Intro1[] = _("Organisms and I have grown");
 const u8 gText_MatchCallPkmnTrainer_Wally_Intro2[] = _("stronger together.");
 

@@ -288,7 +288,7 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "BOWEN ISLAND's GYM LEADER BRAWLY\n"
 	.string "commands FIGHTING-type organisms.\p"
 	.string "Going against him with NORMAL-type\n"
-	.string "organism is asking for trouble.\p"
+	.string "organisms is asking for trouble.\p"
 	.string "FIGHTING organisms will lay a serious\n"
 	.string "smack down on NORMAL organisms, so be\l"
 	.string "careful!\p"

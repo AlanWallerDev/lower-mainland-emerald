@@ -1220,7 +1220,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro::
 	.string "I am {STR_VAR_1}, and an EXPERT am I!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1::
-	.string "The organism that I've toughened up\n"
+	.string "The organisms that I've toughened up\n"
 	.string "are one {STR_VAR_2} with {STR_VAR_1}\l"
 	.string "and$"
 
@@ -1474,7 +1474,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro::
 	.string "I'm {STR_VAR_1}, the RUIN MANIAC!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1::
-	.string "The organism that I have with me are\n"
+	.string "The organisms that I have with me are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask::
@@ -1493,7 +1493,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
 	.string "I'm COOLTRAINER {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1::
-	.string "The organism I have right now are one\n"
+	.string "The organisms I have right now are one\n"
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask::
@@ -1597,7 +1597,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro::
 	.string "I'm {STR_VAR_1}, and I'm a PICNICKER!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1::
-	.string "The organism I've been taking are one\n"
+	.string "The organisms I've been taking are one\n"
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask::
@@ -1662,7 +1662,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask::
 	.string "and one {STR_VAR_1}-using {STR_VAR_2}\n"
-	.string "are my partners pair.\p"
+	.string "are my pair of partners.\p"
 	.string "May I please be your partner on\n"
 	.string "a tag team?$"
 
@@ -1679,7 +1679,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro::
 	.string "BREEDER!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1::
-	.string "The organism I've raised are one\n"
+	.string "The organisms I've raised are one\n"
 	.string "{STR_VAR_1}-using {STR_VAR_2} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask::
@@ -1740,7 +1740,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro::
 	.string "I'm {STR_VAR_1}, and I'm a TRIATHLETE.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1::
-	.string "I got a couple decent organism. One\n"
+	.string "I got a couple decent organisms. One\n"
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::

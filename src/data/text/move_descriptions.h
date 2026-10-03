@@ -778,7 +778,7 @@ static const u8 sDestinyBondDescription[] = _(
     "is also made to faint.");
 
 static const u8 sPerishSongDescription[] = _(
-    "Any organisms hearing this\n"
+    "Any organism hearing this\n"
     "song faints in 3 turns.");
 
 static const u8 sIcyWindDescription[] = _(

@@ -61,7 +61,7 @@ VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules:
-	.string "My organisms rules!\p"
+	.string "My organisms rule!\p"
 	.string "It's cool, tough yet beautiful, cute,\n"
 	.string "and smart. It's complete!\p"
 	.string "I may as well go for wins in every\n"
