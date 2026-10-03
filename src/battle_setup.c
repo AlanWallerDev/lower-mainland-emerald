@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "battle.h"
 #include "battle_setup.h"
 #include "battle_transition.h"
@@ -378,6 +379,8 @@ static void Task_BattleStart(u8 taskId)
 static void CreateBattleStartTask(u8 transition, u16 song)
 {
     u8 taskId = CreateTask(Task_BattleStart, 1);
+
+    Nuzlocke_OnWildBattleStart();
 
     gTasks[taskId].tTransition = transition;
     PlayMapChosenOrBattleBGM(song);

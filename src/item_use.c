@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "item_use.h"
 #include "battle.h"
 #include "battle_pyramid.h"
@@ -937,6 +938,11 @@ void ItemUseOutOfBattle_EvolutionStone(u8 taskId)
 
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
+    if (!Nuzlocke_CanCatch())
+    {
+        DisplayItemMessage(taskId, FONT_NORMAL, gText_NuzlockeNoCatch, CloseItemMessage);
+        return;
+    }
     if (IsPlayerPartyAndPokemonStorageFull() == FALSE) // have room for mon?
     {
         RemoveBagItem(gSpecialVar_ItemId, 1);

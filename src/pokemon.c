@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "malloc.h"
 #include "apprentice.h"
 #include "battle.h"
@@ -2905,6 +2906,11 @@ void BoxMonToMon(const struct BoxPokemon *src, struct Pokemon *dest)
     value = MAIL_NONE;
     SetMonData(dest, MON_DATA_MAIL, &value);
     CalculateMonStats(dest);
+    if (Nuzlocke_IsBoxMonFainted(src))
+    {
+        value = 0;
+        SetMonData(dest, MON_DATA_HP, &value);
+    }
 }
 
 u8 GetLevelFromMonExp(struct Pokemon *mon)
@@ -4722,6 +4728,8 @@ void CopyPlayerPartyMonToBattleData(u8 battler, u8 partyIndex)
 
 bool8 ExecuteTableBasedItemEffect(struct Pokemon *mon, u16 item, u8 partyIndex, u8 moveIndex)
 {
+    if (Nuzlocke_IsMonFainted(mon))
+        return TRUE; // no item brings back a partner lost under Nuzlocke rules
     return PokemonUseItemEffects(mon, item, partyIndex, moveIndex, FALSE);
 }
 

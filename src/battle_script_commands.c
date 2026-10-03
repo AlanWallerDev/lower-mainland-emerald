@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "battle.h"
 #include "battle_message.h"
 #include "battle_anim.h"
@@ -10222,6 +10223,13 @@ static void Cmd_trygivecaughtmonnick(void)
     switch (gBattleCommunication[MULTIUSE_STATE])
     {
     case 0:
+        if (Nuzlocke_IsEnabled())
+        {
+            // Nuzlocke: every catch gets a nickname.
+            gBattleCommunication[MULTIUSE_STATE] = 2;
+            BeginFastPaletteFade(3);
+            break;
+        }
         HandleBattleWindow(YESNOBOX_X_Y, 0);
         BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
         gBattleCommunication[MULTIUSE_STATE]++;

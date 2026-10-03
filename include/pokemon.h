@@ -203,7 +203,8 @@ struct BoxPokemon
     u8 hasSpecies:1;
     u8 isEgg:1;
     u8 blockBoxRS:1; // Unused, but Pokémon Box Ruby & Sapphire will refuse to deposit a Pokémon with this flag set
-    u8 unused:4;
+    u8 nuzlockeFainted:1; // Living Atlas: fainted for good under Nuzlocke rules
+    u8 unused:3;
     u8 otName[PLAYER_NAME_LENGTH];
     u8 markings;
     u16 checksum;

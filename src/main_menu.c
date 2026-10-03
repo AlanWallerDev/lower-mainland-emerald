@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "trainer_pokemon_sprites.h"
 #include "bg.h"
 #include "constants/rgb.h"
@@ -229,6 +230,9 @@ static void Task_NewGameBirchSpeech_CreateNameYesNo(u8);
 static void Task_NewGameBirchSpeech_ProcessNameYesNoMenu(u8);
 void CreateYesNoMenuParameterized(u8, u8, u16, u16, u8, u8);
 static void Task_NewGameBirchSpeech_SlidePlatformAway2(u8);
+static void Task_NewGameBirchSpeech_AskNuzlocke(u8);
+static void Task_NewGameBirchSpeech_CreateNuzlockeYesNo(u8);
+static void Task_NewGameBirchSpeech_ProcessNuzlockeYesNo(u8);
 static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8);
 static void Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter(u8);
 static void Task_NewGameBirchSpeech_AreYouReady(u8);
@@ -1629,16 +1633,46 @@ static void Task_NewGameBirchSpeech_ProcessNameYesNoMenu(u8 taskId)
     {
         case 0:
             PlaySE(SE_SELECT);
-            gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
-            NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
-            NewGameBirchSpeech_StartFadePlatformIn(taskId, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_SlidePlatformAway2;
+            gTasks[taskId].func = Task_NewGameBirchSpeech_AskNuzlocke;
             break;
         case MENU_B_PRESSED:
         case 1:
             PlaySE(SE_SELECT);
             gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;
     }
+}
+
+// Living Atlas: ask about Nuzlocke rules once the name is confirmed.
+static void Task_NewGameBirchSpeech_AskNuzlocke(u8 taskId)
+{
+    NewGameBirchSpeech_ClearWindow(0);
+    StringExpandPlaceholders(gStringVar4, gText_Birch_Nuzlocke);
+    AddTextPrinterForMessage(TRUE);
+    gTasks[taskId].func = Task_NewGameBirchSpeech_CreateNuzlockeYesNo;
+}
+
+static void Task_NewGameBirchSpeech_CreateNuzlockeYesNo(u8 taskId)
+{
+    if (!RunTextPrintersAndIsPrinter0Active())
+    {
+        CreateYesNoMenuParameterized(2, 1, 0xF3, 0xDF, 2, 15);
+        gTasks[taskId].func = Task_NewGameBirchSpeech_ProcessNuzlockeYesNo;
+    }
+}
+
+static void Task_NewGameBirchSpeech_ProcessNuzlockeYesNo(u8 taskId)
+{
+    s8 input = Menu_ProcessInputNoWrapClearOnChoose();
+
+    if (input == MENU_NOTHING_CHOSEN)
+        return;
+    PlaySE(SE_SELECT);
+    gNuzlockeNewGameChoice = (input == 0);
+    NewGameBirchSpeech_ClearWindow(0);
+    gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
+    NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
+    NewGameBirchSpeech_StartFadePlatformIn(taskId, 1);
+    gTasks[taskId].func = Task_NewGameBirchSpeech_SlidePlatformAway2;
 }
 
 static void Task_NewGameBirchSpeech_SlidePlatformAway2(u8 taskId)
@@ -2242,7 +2276,10 @@ static void NewGameBirchSpeech_ClearWindow(u8 windowId)
     u8 winWidth = GetWindowAttribute(windowId, WINDOW_WIDTH);
     u8 winHeight = GetWindowAttribute(windowId, WINDOW_HEIGHT);
 
-    FillWindowPixelRect(windowId, bgColor, 0, 0, maxCharWidth * winWidth, maxCharHeight * winHeight);
+    // Living Atlas: clear the whole window (upstream used the letter width per tile and missed the right side).
+    (void)maxCharWidth;
+    (void)maxCharHeight;
+    FillWindowPixelRect(windowId, bgColor, 0, 0, winWidth * 8, winHeight * 8);
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 

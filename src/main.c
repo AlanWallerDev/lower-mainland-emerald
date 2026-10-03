@@ -76,6 +76,7 @@ static EWRAM_DATA u16 sTrainerId = 0;
 static void UpdateLinkAndCallCallbacks(void);
 static void InitMainCallbacks(void);
 static void CallCallbacks(void);
+static void RunExtraGameSpeedFrames(void);
 #ifdef BUGFIX
 static void SeedRngWithRtc(void);
 #endif
@@ -151,6 +152,7 @@ void AgbMain(void)
         {
             gLinkTransferringData = FALSE;
             UpdateLinkAndCallCallbacks();
+            RunExtraGameSpeedFrames();
 
             if (Overworld_RecvKeysFromLinkIsRunning() == TRUE)
             {
@@ -172,6 +174,25 @@ static void UpdateLinkAndCallCallbacks(void)
 {
     if (!HandleLinkConnection())
         CallCallbacks();
+}
+
+// Living Atlas: GAME SPEED option. Runs the game logic 1, 2 or 4 times per frame. Presses only
+// register on the first pass so menus don't skip; held buttons carry over. Never during link play.
+static void RunExtraGameSpeedFrames(void)
+{
+    static const u8 sExtraFrames[OPTIONS_GAME_SPEED_COUNT] = {0, 1, 3};
+    u8 i, extra;
+
+    if (gReceivedRemoteLinkPlayers || gWirelessCommType || gSaveBlock2Ptr->optionsGameSpeed >= OPTIONS_GAME_SPEED_COUNT)
+        return;
+    extra = sExtraFrames[gSaveBlock2Ptr->optionsGameSpeed];
+    for (i = 0; i < extra; i++)
+    {
+        gMain.newKeys = 0;
+        gMain.newAndRepeatedKeys = 0;
+        gMain.newKeysRaw = 0;
+        CallCallbacks();
+    }
 }
 
 static void InitMainCallbacks(void)

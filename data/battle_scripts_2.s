@@ -102,6 +102,13 @@ BattleScript_ShakeBallThrow::
 BattleScript_ShakeBallThrowEnd::
 	finishaction
 
+@ Living Atlas: a Burns Bog jar thrown after the area's Nuzlocke encounter is used up.
+BattleScript_NuzlockeBallDodge::
+	waitmessage B_WAIT_TIME_LONG
+	printstring STRINGID_ITDODGEDBALL
+	waitmessage B_WAIT_TIME_LONG
+	finishaction
+
 BattleScript_TrainerBallBlock::
 	waitmessage B_WAIT_TIME_LONG
 	printstring STRINGID_TRAINERBLOCKEDBALL

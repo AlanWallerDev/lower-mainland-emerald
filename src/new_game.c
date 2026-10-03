@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "new_game.h"
 #include "random.h"
 #include "pokemon.h"
@@ -204,6 +205,7 @@ void NewGameInitData(void)
     WipeTrainerNameRecords();
     ResetTrainerHillResults();
     ResetContestLinkResults();
+    Nuzlocke_ApplyNewGameChoice();
 }
 
 static void ResetMiniGamesRecords(void)
