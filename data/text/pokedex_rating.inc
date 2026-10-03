@@ -1,5 +1,5 @@
 gBirchDexRatingText_AreYouCurious::
-	.string "PROF. BIRCH: Ah, {PLAYER}{KUN}!\p"
+	.string "PROF. MACOUN: Ah, {PLAYER}{KUN}!\p"
 	.string "Are you curious about how your FIELD\n"
 	.string "JOURNAL is coming along?$"
 

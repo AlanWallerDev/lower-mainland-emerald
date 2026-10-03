@@ -15,6 +15,7 @@ node atlas/apply_wild.js
 node atlas/apply_locations.js
 node atlas/apply_text.js
 node atlas/polish_text.js
+node atlas/npc_names.js
 node atlas/apply_type_text.js
 node atlas/polish_text.js atlas/type_text.tsv
 make modern -j"$(nproc)"

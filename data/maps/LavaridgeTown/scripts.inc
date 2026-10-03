@@ -364,7 +364,7 @@ LavaridgeTown_Text_OhYouLikeHotSprings:
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
 	.string "I bathe in the hot springs every day.\p"
 	.string "I want to become a beautiful and strong\n"
-	.string "GYM LEADER like FLANNERY.$"
+	.string "GYM LEADER like CARR.$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
 	.string "If people put organisms in hot springs,\n"
@@ -385,7 +385,7 @@ LavaridgeTown_Text_TownSign:
 	.string "excellent place for relaxing!”$"
 
 LavaridgeTown_Text_GymSign:
-	.string "HARRISON GYM LEADER: FLANNERY “One\n"
+	.string "HARRISON GYM LEADER: CARR “One\n"
 	.string "with a fiery passion that burns!”$"
 
 LavaridgeTown_Text_HerbShopSign:

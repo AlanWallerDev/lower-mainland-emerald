@@ -895,10 +895,10 @@ MatchCall_PersonalizedText24::
 MatchCall_PersonalizedText25::
 	.string "Snivel… It's… {STR_VAR_1}…\n"
 	.string "…Sob…\p"
-	.string "ROXANNE chewed me out in class\n"
+	.string "MUNDAY chewed me out in class\n"
 	.string "today.\p"
 	.string "But I don't dislike her or anything.\p"
-	.string "ROXANNE tells me exactly what\n"
+	.string "MUNDAY tells me exactly what\n"
 	.string "I did wrong so I can learn from it.\p"
 	.string "You bet I'll be going to\n"
 	.string "the TRAINER'S SCHOOL tomorrow!\p"
@@ -906,11 +906,11 @@ MatchCall_PersonalizedText25::
 
 MatchCall_PersonalizedText26::
 	.string "It's {STR_VAR_1}!\p"
-	.string "ROXANNE let me battle with her\n"
+	.string "MUNDAY let me battle with her\n"
 	.string "yesterday.\p"
 	.string "The results…\n"
 	.string "Terrible, like you needed to ask.\p"
-	.string "But I was delighted that ROXANNE\n"
+	.string "But I was delighted that MUNDAY\n"
 	.string "would even let me challenge her!\p"
 	.string "You wouldn't believe how much\n"
 	.string "more I admire her!\p"
@@ -1293,7 +1293,7 @@ MatchCall_PersonalizedText59::
 	.string "This is {STR_VAR_1}!\p"
 	.string "I went to BOWEN ISLAND's GYM again\n"
 	.string "for training.\p"
-	.string "BRAWLY, the GYM LEADER, seems\n"
+	.string "JEROME, the GYM LEADER, seems\n"
 	.string "to be tougher now.\p"
 	.string "Something about being toughened\n"
 	.string "by the wild waves…\p"
@@ -1301,7 +1301,7 @@ MatchCall_PersonalizedText59::
 	.string "The ladies adore him!\l"
 	.string "It makes me envious, frankly.\p"
 	.string "I wonder… Is his friend BRUNO\n"
-	.string "the same way as BRAWLY?\p"
+	.string "the same way as JEROME?\p"
 	.string "You know, all sweaty or smelly,\n"
 	.string "and prone to calling people\l"
 	.string "“big wave,” that sort of thing.\p"
@@ -2029,7 +2029,7 @@ MatchCall_Text_Mom3::
 	.string "they fall apart, honey!$"
 
 MatchCall_Text_Roxanne_Preparing::
-	.string "ROXANNE: Oh, hello, {PLAYER}!\p"
+	.string "MUNDAY: Oh, hello, {PLAYER}!\p"
 	.string "I've been hard at work retraining\n"
 	.string "since we met.\p"
 	.string "I will still need some more time\n"
@@ -2038,7 +2038,7 @@ MatchCall_Text_Roxanne_Preparing::
 	.string "for a rematch!$"
 
 MatchCall_Text_Roxanne_PreparingPostGame::
-	.string "ROXANNE: Is this {PLAYER}?\n"
+	.string "MUNDAY: Is this {PLAYER}?\n"
 	.string "Congratulations!\l"
 	.string "I've been hearing about you!\p"
 	.string "As for me, I need some more time\n"
@@ -2047,18 +2047,18 @@ MatchCall_Text_Roxanne_PreparingPostGame::
 	.string "for a rematch!$"
 
 MatchCall_Text_Roxanne_RematchReady::
-	.string "ROXANNE: {PLAYER}!\n"
+	.string "MUNDAY: {PLAYER}!\n"
 	.string "My GYM is ready!\p"
 	.string "Please visit BURNABY whenever\n"
 	.string "you can!$"
 
 MatchCall_Text_Roxanne_PostRematch::
-	.string "ROXANNE: At the BURNABY GYM,\n"
+	.string "MUNDAY: At the BURNABY GYM,\n"
 	.string "the fact that we battled, {PLAYER},\l"
 	.string "is a matter of pride.$"
 
 MatchCall_Text_Brawly_Preparing::
-	.string "BRAWLY: Hey, there, {PLAYER}{KUN}!\p"
+	.string "JEROME: Hey, there, {PLAYER}{KUN}!\p"
 	.string "I learned a lot from the battle we\n"
 	.string "had together.\p"
 	.string "I intend to do my training over,\n"
@@ -2069,7 +2069,7 @@ MatchCall_Text_Brawly_Preparing::
 	.string "I want you to challenge us again.$"
 
 MatchCall_Text_Brawly_PreparingPostGame::
-	.string "BRAWLY: Hey, {PLAYER}{KUN}!\n"
+	.string "JEROME: Hey, {PLAYER}{KUN}!\n"
 	.string "Congratulations!\p"
 	.string "Word about your exploits arrived\n"
 	.string "on tidal winds!\p"
@@ -2081,17 +2081,17 @@ MatchCall_Text_Brawly_PreparingPostGame::
 	.string "I want you to challenge us again.$"
 
 MatchCall_Text_Brawly_RematchReady::
-	.string "BRAWLY: Hey, {PLAYER}{KUN}!\n"
+	.string "JEROME: Hey, {PLAYER}{KUN}!\n"
 	.string "My GYM's ready for action!\p"
 	.string "Come back to BOWEN ISLAND anytime\n"
 	.string "for another challenge!$"
 
 MatchCall_Text_Brawly_PostRematch::
-	.string "BRAWLY: {PLAYER}{KUN}, I don't think\n"
+	.string "JEROME: {PLAYER}{KUN}, I don't think\n"
 	.string "I'll ever get bored of battling you!$"
 
 MatchCall_Text_Wattson_Preparing::
-	.string "WATTSON: Oh, it's you!\p"
+	.string "FRASER: Oh, it's you!\p"
 	.string "After you left, I've been redoing\n"
 	.string "my training from scratch.\p"
 	.string "I'd say I could use a wee bit more\n"
@@ -2100,7 +2100,7 @@ MatchCall_Text_Wattson_Preparing::
 	.string "Wahahahaha!$"
 
 MatchCall_Text_Wattson_PreparingPostGame::
-	.string "WATTSON: Wahahahaha!\p"
+	.string "FRASER: Wahahahaha!\p"
 	.string "You've really done it, haven't you?\n"
 	.string "I've been getting word about you!\p"
 	.string "It seems I need to retrain some\n"
@@ -2111,18 +2111,18 @@ MatchCall_Text_Wattson_PreparingPostGame::
 	.string "Wahahahaha!$"
 
 MatchCall_Text_Wattson_RematchReady::
-	.string "WATTSON: Oh, it's you!\n"
+	.string "FRASER: Oh, it's you!\n"
 	.string "My GYM's ready!\p"
 	.string "Visit SURREY anytime!\n"
 	.string "Wahahahaha!$"
 
 MatchCall_Text_Wattson_PostRematch::
-	.string "WATTSON: Wahahaha!\p"
+	.string "FRASER: Wahahaha!\p"
 	.string "A battle with you is always charged\n"
 	.string "with shocking power!$"
 
 MatchCall_Text_Flannery_Preparing::
-	.string "FLANNERY: {PLAYER}…\p"
+	.string "CARR: {PLAYER}…\p"
 	.string "When we battled, I learned exactly\n"
 	.string "how immature I was.\p"
 	.string "But I'm not done yet!\p"
@@ -2132,7 +2132,7 @@ MatchCall_Text_Flannery_Preparing::
 	.string "please challenge us again.$"
 
 MatchCall_Text_Flannery_PreparingPostGame::
-	.string "FLANNERY: Hello, {PLAYER}?\n"
+	.string "CARR: Hello, {PLAYER}?\n"
 	.string "Congratulations!\p"
 	.string "Word of your success has reached\n"
 	.string "us like the heat of a volcano!\p"
@@ -2143,37 +2143,37 @@ MatchCall_Text_Flannery_PreparingPostGame::
 	.string "MATCH CALL list.$"
 
 MatchCall_Text_Flannery_RematchReady::
-	.string "FLANNERY: Oh, {PLAYER}?\n"
+	.string "CARR: Oh, {PLAYER}?\n"
 	.string "Our GYM's ready!\p"
 	.string "Come to HARRISON for a soak\n"
 	.string "in the hot spring and a challenge!$"
 
 MatchCall_Text_Flannery_PostRematch::
-	.string "FLANNERY: {PLAYER}…\n"
+	.string "CARR: {PLAYER}…\n"
 	.string "I'm positive that you keep getting\l"
 	.string "better at training every time.$"
 
 MatchCall_Text_Winona_Preparing::
-	.string "WINONA: Hello, {PLAYER}!\p"
+	.string "MACGILL: Hello, {PLAYER}!\p"
 	.string "Thanks to our battle, I've come\n"
 	.string "to understand my weak points!\p"
 	.string "When I reopen the GYM, I won't go\n"
 	.string "down in defeat again!$"
 
 MatchCall_Text_Winona_PreparingPostGame::
-	.string "WINONA: You've done it, {PLAYER}!\p"
+	.string "MACGILL: You've done it, {PLAYER}!\p"
 	.string "News about the new CHAMPION\n"
 	.string "has reached us in MAPLE RIDGE!\p"
 	.string "But… The next time we battle,\n"
 	.string "it's not going to end the same way.$"
 
 MatchCall_Text_Winona_RematchReady::
-	.string "WINONA: Is this {PLAYER}?\n"
+	.string "MACGILL: Is this {PLAYER}?\n"
 	.string "Our GYM is back in operation!\p"
 	.string "We're waiting for you in MAPLE RIDGE!$"
 
 MatchCall_Text_Winona_PostRematch::
-	.string "WINONA: {PLAYER}…\n"
+	.string "MACGILL: {PLAYER}…\n"
 	.string "Though I have lost, my wings will\l"
 	.string "never break.\p"
 	.string "Yes, in exactly the same way that\n"
@@ -2214,7 +2214,7 @@ MatchCall_Text_TateLiza_PostRematch::
 	.string "LIZA: We could all battle again!$"
 
 MatchCall_Text_Juan_Preparing::
-	.string "JUAN: Hmm…\n"
+	.string "FORTES: Hmm…\n"
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our battle together--it brought\n"
 	.string "to me memories of when I first\l"
@@ -2223,7 +2223,7 @@ MatchCall_Text_Juan_Preparing::
 	.string "yet surpass WALLACE!$"
 
 MatchCall_Text_Juan_PreparingPostGame::
-	.string "JUAN: Fufu… {PLAYER}{KUN}…\n"
+	.string "FORTES: Fufu… {PLAYER}{KUN}…\n"
 	.string "You've finally achieved your goal.\p"
 	.string "My eye for appraising talent wasn't\n"
 	.string "mistaken…\p"
@@ -2232,14 +2232,14 @@ MatchCall_Text_Juan_PreparingPostGame::
 	.string "of power and prestige.$"
 
 MatchCall_Text_Juan_RematchReady::
-	.string "JUAN: Hoho… {PLAYER}{KUN}…\p"
+	.string "FORTES: Hoho… {PLAYER}{KUN}…\p"
 	.string "Our DEEP COVE GYM has finally\n"
 	.string "reopened.\p"
 	.string "If you wish to see me, you are\n"
 	.string "welcome to visit anytime.$"
 
 MatchCall_Text_Juan_PostRematch::
-	.string "JUAN: {PLAYER}{KUN}…\p"
+	.string "FORTES: {PLAYER}{KUN}…\p"
 	.string "Like the finest music, the battles\n"
 	.string "we wage together strike chords\l"
 	.string "of inspiration in my heart…\p"
@@ -2247,7 +2247,7 @@ MatchCall_Text_Juan_PostRematch::
 	.string "of you soaring with the melody…$"
 
 MatchCall_Text_Sidney::
-	.string "SIDNEY: Yo, {PLAYER}!\p"
+	.string "SMITH: Yo, {PLAYER}!\p"
 	.string "If you want to battle with me again, you\n"
 	.string "come on back whenever you like to the\l"
 	.string "NATURE LEAGUE.\p"
@@ -2270,7 +2270,7 @@ MatchCall_Text_Glacia::
 	.string "NATURE LEAGUE…$"
 
 MatchCall_Text_Drake::
-	.string "DRAKE: That voice… {PLAYER}, is it?\n"
+	.string "VANCOUVER: That voice… {PLAYER}, is it?\n"
 	.string "You sound well…\p"
 	.string "I understand that there is now\n"
 	.string "a facility called the BATTLE\l"
@@ -2816,7 +2816,7 @@ MatchCall_Text_Steven7::
 	.string "somewhere!$"
 
 MatchCall_Text_BirchRegisterCall:
-	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
+	.string "PROF. MACOUN: Oh, {PLAYER}{KUN}!\n"
 	.string "I've already heard about you!\p"
 	.string "It seems your TRAILNAV's been\n"
 	.string "upgraded with MATCH CALL.\p"
@@ -2827,10 +2827,11 @@ MatchCall_Text_BirchRegisterCall:
 	.string "… … … … … …$"
 
 MatchCall_Text_RegisteredBirch:
-	.string "Registered PROF. BIRCH in the TRAILNAV.$"
+	.string "Registered PROF. MACOUN in the\n"
+	.string "TRAILNAV.$"
 
 MatchCall_Text_UnusedProfBirch:
-	.string "PROF. BIRCH: When one has both the\n"
+	.string "PROF. MACOUN: When one has both the\n"
 	.string "FIELD JOURNAL and TRAILNAV, studying\l"
 	.string "organisms becomes more fun, eh?$"
 

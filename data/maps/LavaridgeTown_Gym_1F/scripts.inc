@@ -183,7 +183,7 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION- bound\n"
 	.string "{PLAYER}?\p"
-	.string "HARRISON's GYM LEADER FLANNERY uses\n"
+	.string "HARRISON's GYM LEADER CARR uses\n"
 	.string "EMBER-type organisms.\p"
 	.string "Her passion for organisms burns\n"
 	.string "stronger and hotter than a volcano.\p"
@@ -212,7 +212,7 @@ LavaridgeTown_Gym_1F_Text_AxleIntro:
 	.string "Don't come along and stress me out!$"
 
 LavaridgeTown_Gym_1F_Text_AxleDefeat:
-	.string "I hope FLANNERY flames you good!$"
+	.string "I hope CARR flames you good!$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 	.string "Haaah… Whew…\p"
@@ -232,7 +232,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 	.string "Your skill is real…\n"
-	.string "But our LEADER FLANNERY is strong.\p"
+	.string "But our LEADER CARR is strong.\p"
 	.string "If you don't watch yourself, you'll be\n"
 	.string "burned seriously.$"
 
@@ -258,7 +258,7 @@ LavaridgeTown_Gym_1F_Text_DanielleDefeat:
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
 	.string "I'm going to be a pretty and strong\n"
-	.string "TRAINER just like FLANNERY.$"
+	.string "TRAINER just like CARR.$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
 	.string "Come on, get with it!\n"
@@ -295,7 +295,7 @@ LavaridgeTown_Gym_B1F_Text_EliDefeat:
 
 LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 	.string "I stay here because I became a fan\n"
-	.string "of FLANNERY's power.\p"
+	.string "of CARR's power.\p"
 	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
@@ -304,7 +304,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryIntro:
 	.string "made it here!\p"
 	.string "I have been entrusted with the…\n"
 	.string "No, wait.\p"
-	.string "I am FLANNERY, and I'm the GYM\n"
+	.string "I am CARR, and I'm the GYM\n"
 	.string "LEADER here!\p"
 	.string "Uh…\n"
 	.string "Dare not underestimate me, though\l"
@@ -327,7 +327,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
 	.string "{PLAYER} received the HEAT BADGE\n"
-	.string "from FLANNERY.$"
+	.string "from CARR.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 	.string "If you have a HEAT BADGE, all organisms\n"
@@ -348,7 +348,7 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat:
 	.string "suitable for longer battles.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
-	.string "Registered GYM LEADER FLANNERY in the\n"
+	.string "Registered GYM LEADER CARR in the\n"
 	.string "TRAILNAV.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
@@ -361,11 +361,11 @@ LavaridgeTown_Gym_1F_Text_GymStatue:
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
 	.string "HARRISON GYM\p"
-	.string "FLANNERY'S CERTIFIED TRAINERS:\n"
+	.string "CARR'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
-	.string "FLANNERY: Losing a battle isn't going\n"
+	.string "CARR: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
 	.string "I love organisms. I love to battle. And…\n"
 	.string "I love this GYM!\p"
@@ -377,7 +377,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
 	.string "On the verge of eruption!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
-	.string "FLANNERY: I lost the match,\n"
+	.string "CARR: I lost the match,\n"
 	.string "but I'm completely satisfied.\p"
 	.string "It's not often I get to enjoy a battle\n"
 	.string "this heated.\p"
@@ -385,7 +385,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 	.string "again sometime!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-	.string "FLANNERY: Losing a battle isn't going\n"
+	.string "CARR: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
 	.string "I love organisms. I love to battle. And…\n"
 	.string "I love this GYM!\p"

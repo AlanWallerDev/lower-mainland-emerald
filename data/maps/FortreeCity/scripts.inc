@@ -102,7 +102,7 @@ FortreeCity_Text_SomethingBlockingGym:
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
 	.string "I've got my pride-and-joy organisms\n"
-	.string "with me. This time, I'll beat WINONA.$"
+	.string "with me. This time, I'll beat MACGILL.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
 	.string "The ground absorbs rainwater, and\n"
@@ -147,7 +147,7 @@ FortreeCity_Text_CitySign:
 	.string "nature.”$"
 
 FortreeCity_Text_GymSign:
-	.string "MAPLE RIDGE GYM LEADER: WINONA\p"
+	.string "MAPLE RIDGE GYM LEADER: MACGILL\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
 

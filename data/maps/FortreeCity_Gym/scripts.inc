@@ -136,7 +136,7 @@ FortreeCity_Gym_EventScript_GymStatue::
 FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "MAPLE RIDGE GYM LEADER WINONA is a\n"
+	.string "MAPLE RIDGE GYM LEADER MACGILL is a\n"
 	.string "master of SKY-type organisms.\p"
 	.string "She's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
@@ -179,32 +179,32 @@ FortreeCity_Gym_Text_EdwardoPostBattle:
 	.string "myself even stronger.$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "There's no need for WINONA, our GYM\n"
+	.string "There's no need for MACGILL, our GYM\n"
 	.string "LEADER, to deal with you!\p"
 	.string "I'm plenty good enough for you!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
-	.string "WINONA, I…\n"
+	.string "MACGILL, I…\n"
 	.string "I lost!$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-	.string "WINONA is cute and she's strong.\n"
+	.string "MACGILL is cute and she's strong.\n"
 	.string "She's the ultimate LEADER!\p"
 	.string "Blush…$"
 
 FortreeCity_Gym_Text_AshleyIntro:
-	.string "WINONA taught me personally!\n"
+	.string "MACGILL taught me personally!\n"
 	.string "You can't beat me easily!$"
 
 FortreeCity_Gym_Text_AshleyDefeat:
 	.string "I was beaten…$"
 
 FortreeCity_Gym_Text_AshleyPostBattle:
-	.string "Thanks to WINONA, the people of\n"
+	.string "Thanks to MACGILL, the people of\n"
 	.string "MAPLE RIDGE can live without fear.$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
-	.string "When WINONA takes to battle, her face\n"
+	.string "When MACGILL takes to battle, her face\n"
 	.string "shines with beautiful determination…\p"
 	.string "I'm not letting you witness that\n"
 	.string "lovely sight!$"
@@ -214,9 +214,9 @@ FortreeCity_Gym_Text_HumbertoDefeat:
 	.string "I couldn't stop you.$"
 
 FortreeCity_Gym_Text_HumbertoPostBattle:
-	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at WINONA\l"
-	.string "or you'll go crashing down in a heap!$"
+	.string "You'd better watch it! Don't get\n"
+	.string "distracted staring at MACGILL or you'll\l"
+	.string "go crashing down in a heap!$"
 
 FortreeCity_Gym_Text_DariusIntro:
 	.string "You'd better know that there are all\n"
@@ -228,11 +228,11 @@ FortreeCity_Gym_Text_DariusDefeat:
 
 FortreeCity_Gym_Text_DariusPostBattle:
 	.string "Sure, you beat me all right. But you'd\n"
-	.string "better watch it! Our LEADER WINONA's\l"
+	.string "better watch it! Our LEADER MACGILL's\l"
 	.string "partners are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of the\n"
+	.string "I am MACGILL. I am the LEADER of the\n"
 	.string "MAPLE RIDGE GYM.\p"
 	.string "I have become one with BIRD organisms\n"
 	.string "and have soared the skies…\p"
@@ -250,7 +250,7 @@ FortreeCity_Gym_Text_WinonaDefeat:
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "from MACGILL.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 	.string "With the FEATHER BADGE, all organisms\n"
@@ -269,7 +269,7 @@ FortreeCity_Gym_Text_ExplainAerialAce:
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
-	.string "Registered GYM LEADER WINONA in the\n"
+	.string "Registered GYM LEADER MACGILL in the\n"
 	.string "TRAILNAV.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
@@ -281,11 +281,11 @@ FortreeCity_Gym_Text_GymStatue:
 
 FortreeCity_Gym_Text_GymStatueCertified:
 	.string "MAPLE RIDGE GYM\p"
-	.string "WINONA'S CERTIFIED TRAINERS:\n"
+	.string "MACGILL'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
-	.string "WINONA: We humans can never escape\n"
+	.string "MACGILL: We humans can never escape\n"
 	.string "gravity's pull on the ground.\p"
 	.string "But by striving for excellence,\n"
 	.string "we have the power to soar!\p"
@@ -298,14 +298,14 @@ FortreeCity_Gym_Text_WinonaRematchDefeat:
 	.string "I failed to reach your height again…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
-	.string "WINONA: Even though I have lost,\n"
+	.string "MACGILL: Even though I have lost,\n"
 	.string "the wings of my heart remain unbroken.\p"
 	.string "I can rise and soar again and\n"
 	.string "yet again.\p"
 	.string "I am convinced of it!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-	.string "WINONA: We humans can never escape\n"
+	.string "MACGILL: We humans can never escape\n"
 	.string "gravity's pull on the ground.\p"
 	.string "But by striving for excellence,\n"
 	.string "we have the power to soar!\p"

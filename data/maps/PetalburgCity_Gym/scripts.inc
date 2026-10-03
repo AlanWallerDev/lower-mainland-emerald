@@ -1195,7 +1195,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Head for BURNABY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
+	.string "the GYM LEADER, MUNDAY.\p"
 	.string "After her, go on to other GYMS and\n"
 	.string "defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
@@ -1221,7 +1221,7 @@ PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "But there are many more TRAINERS\n"
 	.string "who are stronger than you, {PLAYER}.\p"
 	.string "Across the sea in BOWEN ISLAND is a\n"
-	.string "GYM LEADER named BRAWLY.\p"
+	.string "GYM LEADER named JEROME.\p"
 	.string "You should go challenge him.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:

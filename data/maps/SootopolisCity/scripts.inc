@@ -1352,7 +1352,7 @@ SootopolisCity_Movement_DestroyTask::
 	step_end
 
 SootopolisCity_Text_GymSign:
-	.string "DEEP COVE GYM LEADER: JUAN\p"
+	.string "DEEP COVE GYM LEADER: FORTES\p"
 	.string "“The GYM LEADER with the beauty\n"
 	.string "of pure water!”$"
 

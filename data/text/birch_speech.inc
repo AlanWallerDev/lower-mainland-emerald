@@ -2,7 +2,7 @@ gText_Birch_Welcome::
 	.string "Hi! Sorry to keep you waiting!\p"
 	.string "Welcome to the wild side of the\n"
 	.string "LOWER MAINLAND!\p"
-	.string "My name is BIRCH.\p"
+	.string "My name is MACOUN.\p"
 	.string "But everyone calls me the PROFESSOR.\p"
 	.string "$"
 

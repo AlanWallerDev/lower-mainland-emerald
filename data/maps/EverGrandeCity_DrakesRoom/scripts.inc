@@ -63,7 +63,7 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 	.string "I am the last of the NATURE LEAGUE\n"
-	.string "ELITE FOUR, DRAKE the SKY master!\p"
+	.string "ELITE FOUR, VANCOUVER the SKY master!\p"
 	.string "In their natural state, organisms are\n"
 	.string "wild living things. They are free.\p"
 	.string "At times, they hinder us.\n"

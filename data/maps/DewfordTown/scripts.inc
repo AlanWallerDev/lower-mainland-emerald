@@ -630,7 +630,7 @@ DewfordTown_Text_TownSign:
 	.string "“A tiny island in the blue sea.”$"
 
 DewfordTown_Text_GymSign:
-	.string "BOWEN ISLAND GYM LEADER: BRAWLY “A big\n"
+	.string "BOWEN ISLAND GYM LEADER: JEROME “A big\n"
 	.string "wave in fighting!”$"
 
 DewfordTown_Text_HallSign:

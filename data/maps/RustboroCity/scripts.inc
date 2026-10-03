@@ -1130,7 +1130,7 @@ RustboroCity_Text_DevonCorpSign:
 	.string "it all.”$"
 
 RustboroCity_Text_GymSign:
-	.string "BURNABY GYM LEADER: ROXANNE\p"
+	.string "BURNABY GYM LEADER: MUNDAY\p"
 	.string "“The STONE-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:

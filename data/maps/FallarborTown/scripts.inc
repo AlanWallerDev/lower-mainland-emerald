@@ -72,13 +72,13 @@ FallarborTown_Text_Azurill:
 	.string "SAR11: Rooreelooo.$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
-	.string "Have you already challenged FLANNERY,\n"
+	.string "Have you already challenged CARR,\n"
 	.string "the LEADER of HARRISON GYM?\p"
 	.string "The girl's grandfather was famous. He\n"
 	.string "was one of the ELITE FOUR in the NATURE\l"
 	.string "LEAGUE at one point.\p"
 	.string "It wouldn't surprise me to see\n"
-	.string "FLANNERY become a great TRAINER in her\l"
+	.string "CARR become a great TRAINER in her\l"
 	.string "own right.$"
 
 FallarborTown_Text_BattleTentSign:
