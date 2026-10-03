@@ -308,7 +308,7 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3, MSGBOX_DEFAULT
 	multichoice 0, 0, MULTI_MECHADOLL1_Q3, TRUE
 	switch VAR_RESULT
-	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
+	case 1, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer @ Living Atlas: HARLEQUIN is the one without LEECH LIFE
 	goto Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer
 	end
 
@@ -846,13 +846,13 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these organisms is not found on\n"
-	.string "HWY 99. Which one is it?$"
+	.string "One of these organisms is part SOIL\n"
+	.string "type. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these organisms is not of the\n"
-	.string "WATER type. Which one is it?$"
+	.string "One of these organisms is part COMMON\n"
+	.string "type. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
 	.string "MECHADOLL 1 QUIZ.\p"

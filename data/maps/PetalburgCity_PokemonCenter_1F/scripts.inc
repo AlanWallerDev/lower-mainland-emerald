@@ -70,25 +70,25 @@ PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
 	.string "battle could be easy or hard.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
-	.string "For example, your BANANASLUG is a GRASS\n"
-	.string "type.\p"
-	.string "It's strong against the WATER and\n"
-	.string "GROUND types.\p"
-	.string "But, it's weak against FIRE-type\n"
+	.string "For example, your BANANASLUG is a\n"
+	.string "VERDANT type.\p"
+	.string "It's strong against the AQUA and\n"
+	.string "SOIL types.\p"
+	.string "But, it's weak against EMBER-type\n"
 	.string "organisms.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType:
-	.string "For example, your RED FOX is a FIRE\n"
+	.string "For example, your RED FOX is an EMBER\n"
 	.string "type.\p"
-	.string "It's strong against the GRASS and\n"
-	.string "BUG types.\p"
-	.string "But, it's weak against WATER-type\n"
+	.string "It's strong against the VERDANT and\n"
+	.string "CHITIN types.\p"
+	.string "But, it's weak against AQUA-type\n"
 	.string "organisms.$"
 
 PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
-	.string "For example, your BEAVER is a WATER\n"
+	.string "For example, your BEAVER is an AQUA\n"
 	.string "type.\p"
-	.string "It's strong against the FIRE type.\p"
-	.string "But, it's weak against GRASS-type and\n"
-	.string "ELECTRIC-type organisms.$"
+	.string "It's strong against the EMBER type.\p"
+	.string "But, it's weak against VERDANT-type\n"
+	.string "and MIND-type organisms.$"
 

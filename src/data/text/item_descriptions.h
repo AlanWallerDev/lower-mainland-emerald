@@ -30,7 +30,7 @@ static const u8 sSafariBallDesc[] = _(
 static const u8 sNetBallDesc[] = _(
     "A JAR that works\n"
     "well on WATER- and\n"
-    "BUG-type organisms.");
+    "CHITIN-type organisms.");
 
 static const u8 sDiveBallDesc[] = _(
     "A JAR that works\n"
@@ -761,7 +761,7 @@ static const u8 sKingsRockDesc[] = _(
 static const u8 sSilverPowderDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "BUG-type moves.");
+    "CHITIN-type moves.");
 
 static const u8 sAmuletCoinDesc[] = _(
     "Doubles money in\n"
@@ -816,7 +816,7 @@ static const u8 sScopeLensDesc[] = _(
 static const u8 sMetalCoatDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "STEEL-type moves.");
+    "ARMOR-type moves.");
 
 static const u8 sLeftoversDesc[] = _(
     "A hold item that\n"
@@ -836,22 +836,22 @@ static const u8 sLightBallDesc[] = _(
 static const u8 sSoftSandDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "GROUND-type moves.");
+    "SOIL-type moves.");
 
 static const u8 sHardStoneDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "ROCK-type moves.");
+    "STONE-type moves.");
 
 static const u8 sMiracleSeedDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "GRASS-type moves.");
+    "VERDANT-type moves.");
 
 static const u8 sBlackGlassesDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "DARK-type moves.");
+    "NIGHT-type moves.");
 
 static const u8 sBlackBeltDesc[] = _(
     "A hold item that\n"
@@ -866,27 +866,27 @@ static const u8 sMagnetDesc[] = _(
 static const u8 sMysticWaterDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "WATER-type moves.");
+    "AQUA-type moves.");
 
 static const u8 sSharpBeakDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "FLYING-type moves.");
+    "SKY-type moves.");
 
 static const u8 sPoisonBarbDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "POISON-type moves.");
+    "TOXIN-type moves.");
 
 static const u8 sNeverMeltIceDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "ICE-type moves.");
+    "FROST-type moves.");
 
 static const u8 sSpellTagDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "GHOST-type moves.");
+    "NIGHT-type moves.");
 
 static const u8 sTwistedSpoonDesc[] = _(
     "A hold item that\n"
@@ -896,17 +896,17 @@ static const u8 sTwistedSpoonDesc[] = _(
 static const u8 sCharcoalDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "FIRE-type moves.");
+    "EMBER-type moves.");
 
 static const u8 sDragonFangDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "DRAGON-type moves.");
+    "SKY-type moves.");
 
 static const u8 sSilkScarfDesc[] = _(
     "A hold item that\n"
     "raises the power of\n"
-    "NORMAL-type moves.");
+    "COMMON-type moves.");
 
 static const u8 sUpGradeDesc[] = _(
     "A peculiar box made\n"
@@ -920,7 +920,7 @@ static const u8 sShellBellDesc[] = _(
 static const u8 sSeaIncenseDesc[] = _(
     "A hold item that\n"
     "slightly boosts\n"
-    "WATER-type moves.");
+    "AQUA-type moves.");
 
 static const u8 sLaxIncenseDesc[] = _(
     "A hold item that\n"
@@ -1169,7 +1169,7 @@ static const u8 sTM10Desc[] = _(
 
 static const u8 sTM11Desc[] = _(
     "Raises the power of\n"
-    "FIRE-type moves\n"
+    "EMBER-type moves\n"
     "for 5 turns.");
 
 static const u8 sTM12Desc[] = _(
@@ -1204,7 +1204,7 @@ static const u8 sTM17Desc[] = _(
 
 static const u8 sTM18Desc[] = _(
     "Raises the power of\n"
-    "WATER-type moves\n"
+    "AQUA-type moves\n"
     "for 5 turns.");
 
 static const u8 sTM19Desc[] = _(

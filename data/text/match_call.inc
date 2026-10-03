@@ -1111,7 +1111,7 @@ MatchCall_PersonalizedText41::
 	.string "Hello, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\p"
 	.string "How are your partners doing?\p"
-	.string "My DRAGON organisms appear to be in\n"
+	.string "My SKY organisms appear to be in\n"
 	.string "peak form. Bye for now.$"
 
 MatchCall_PersonalizedText42::
@@ -1253,14 +1253,14 @@ MatchCall_PersonalizedText55::
 
 MatchCall_PersonalizedText56::
 	.string "It's me, {STR_VAR_1}.\p"
-	.string "I'm popular because I have lots of BUG\n"
-	.string "organisms, right?\p"
+	.string "I'm popular because I have lots of\n"
+	.string "CHITIN organisms, right?\p"
 	.string "Well, I took a bunch of my fave\n"
 	.string "bugs to school today.\p"
 	.string "This girl I like started crying!\n"
 	.string "Go ahead and laugh if you want.\p"
 	.string "I have to try teaching her what makes\n"
-	.string "BUG organisms so appealing.\p"
+	.string "CHITIN organisms so appealing.\p"
 	.string "Snivel…\n"
 	.string "See you!$"
 
@@ -2386,7 +2386,7 @@ MatchCall_Text_May8::
 	.string "MOUNTAIN VIEW is a memorial to\n"
 	.string "organisms whose lives have ended.\p"
 	.string "Maybe as a result, it's infested with\n"
-	.string "many GHOST-type organisms!$"
+	.string "many NIGHT-type organisms!$"
 
 MatchCall_Text_May9::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
@@ -2511,7 +2511,7 @@ MatchCall_Text_Brendan8::
 	.string "MOUNTAIN VIEW is a memorial to\n"
 	.string "organisms whose lives have ended.\p"
 	.string "That's probably why it's infested with\n"
-	.string "many GHOST-type organisms!$"
+	.string "many NIGHT-type organisms!$"
 
 MatchCall_Text_Brendan9::
 	.string "BRENDAN: Hey there, {PLAYER}.\p"

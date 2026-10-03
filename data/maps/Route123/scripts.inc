@@ -171,18 +171,19 @@ Route123_EventScript_RematchFernando::
 	end
 
 Route123_Text_LoveGrassMonsHaveAny:
-	.string "I love GRASS-type organisms!\p"
-	.string "Do you have any GRASS-type organisms?$"
+	.string "I love VERDANT-type organisms!\p"
+	.string "Do you have any VERDANT-type\n"
+	.string "organisms?$"
 
 Route123_Text_YouLikeGrassMonsTooHaveThis:
 	.string "Oh?\p"
-	.string "You like GRASS-type organisms, too,\n"
+	.string "You like VERDANT-type organisms, too,\n"
 	.string "don't you?\p"
 	.string "I'm so happy, you can have this!\n"
 	.string "It's a token of our friendship.$"
 
 Route123_Text_CheckTreesWithMyGrassMon:
-	.string "I check trees with my GRASS-type\n"
+	.string "I check trees with my VERDANT-type\n"
 	.string "organisms. I'm like a tree doctor.$"
 
 Route123_Text_RouteSign:

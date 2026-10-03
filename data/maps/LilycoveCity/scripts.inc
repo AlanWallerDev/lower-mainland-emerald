@@ -745,7 +745,7 @@ LilycoveCity_Text_SawTallTowerOnRoute131:
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 	.string "We just arrived here on our\n"
 	.string "honeymoon vacation.\p"
-	.string "We happened to see a DRAGON-type\n"
+	.string "We happened to see a SKY-type\n"
 	.string "organism flying way up in the sky.\p"
 	.string "Do cool organisms like that live in the\n"
 	.string "LOWER MAINLAND?$"

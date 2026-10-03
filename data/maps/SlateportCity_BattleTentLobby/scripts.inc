@@ -291,9 +291,9 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment:
 	.string "I'm not laying a torment on you!$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-	.string "I don't really like BUG organisms, but\n"
-	.string "maybe I'll try using some for a change\l"
-	.string "of pace.\p"
+	.string "I don't really like CHITIN organisms,\n"
+	.string "but maybe I'll try using some for a\l"
+	.string "change of pace.\p"
 	.string "Who knows, I might even get to like\n"
 	.string "them!$"
 

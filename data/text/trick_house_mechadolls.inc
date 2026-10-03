@@ -41,7 +41,7 @@ gTrickHouse_Mechadoll_Shroomish::
 	.string "ROCK TRIPE$"
 
 gTrickHouse_Mechadoll_Zigzagoon2::
-	.string "AMOEBOID$"
+	.string "RACCOON$"
 
 gTrickHouse_Mechadoll_Poochyena3::
 	.string "SALMONPARA$"

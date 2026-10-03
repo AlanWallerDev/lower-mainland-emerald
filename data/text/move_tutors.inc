@@ -50,7 +50,7 @@ MoveTutor_Text_RolloutTaught:
 MoveTutor_Text_FuryCutterTeach:
 	.string "There's a move that gets stronger\n"
 	.string "when you keep using it in a row.\p"
-	.string "It's a BUG-type move, and it is\n"
+	.string "It's a CHITIN-type move, and it is\n"
 	.string "wickedly cool.\p"
 	.string "It's called FURY CUTTER. Want me to\n"
 	.string "teach it to an organism?$"
@@ -164,7 +164,7 @@ MoveTutor_Text_SubstituteTaught:
 MoveTutor_Text_DynamicPunchTeach:
 	.string "I can't do this anymore!\p"
 	.string "It's utterly hopeless!\p"
-	.string "I'm a FIGHTING-type TRAINER,\n"
+	.string "I'm a BRAWN-type TRAINER,\n"
 	.string "so I can't win at the GIBSONS GYM\l"
 	.string "no matter how hard I try!\p"
 	.string "Argh! Punch! Punch! Punch!\n"

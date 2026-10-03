@@ -184,7 +184,7 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION- bound\n"
 	.string "{PLAYER}?\p"
 	.string "HARRISON's GYM LEADER FLANNERY uses\n"
-	.string "FIRE-type organisms.\p"
+	.string "EMBER-type organisms.\p"
 	.string "Her passion for organisms burns\n"
 	.string "stronger and hotter than a volcano.\p"
 	.string "Don't get too close to her--you'll\n"

@@ -178,7 +178,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "Yo! How's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "DEEP COVE's GYM LEADER JUAN is a\n"
-	.string "master of WATER-type organisms.\p"
+	.string "master of AQUA-type organisms.\p"
 	.string "And, to get to JUAN, an icy floor\n"
 	.string "will hamper your progress…\p"
 	.string "Listen, I'm sorry, but that's all the\n"

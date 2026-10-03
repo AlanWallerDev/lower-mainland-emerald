@@ -120,7 +120,7 @@ FortreeCity_Text_EveryoneHealthyAndLively:
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
 	.string "Living on top of trees is okay.\p"
-	.string "But sometimes BUG organisms come in\n"
+	.string "But sometimes CHITIN organisms come in\n"
 	.string "through windows. It can be really\l"
 	.string "startling.$"
 

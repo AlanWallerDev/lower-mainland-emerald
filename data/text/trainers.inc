@@ -48,7 +48,7 @@ Route102_Text_AllenPostBattle:
 
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met! I'll take you on\n"
-	.string "with my BUG organisms!$"
+	.string "with my CHITIN organisms!$"
 
 Route102_Text_RickDefeated:
 	.string "Ow! Down and out!$"
@@ -277,8 +277,8 @@ Route104_Text_MiaNotEnoughMons:
 	.string "for you!$"
 
 Route104_Text_IvanIntro:
-	.string "Why keep it a secret? I'm the WATER\n"
-	.string "nature expert!\p"
+	.string "Why keep it a secret? I'm the\n"
+	.string "AQUA-type expert!\p"
 	.string "Huh?\n"
 	.string "You don't know me?$"
 
@@ -754,7 +754,7 @@ Route108_Text_MissyPostBattle:
 	.string "It's so healthy!$"
 
 Route108_Text_CoryIntro:
-	.string "I love WATER-type organisms. I love\n"
+	.string "I love AQUA-type organisms. I love\n"
 	.string "other organisms, too!$"
 
 Route108_Text_CoryDefeated:
@@ -2181,7 +2181,7 @@ Route116_Text_JoeyPostBattle:
 	.string "I've got another one!$"
 
 Route116_Text_JoseIntro:
-	.string "My BUG organisms are tough! Let's\n"
+	.string "My CHITIN organisms are tough! Let's\n"
 	.string "battle!$"
 
 Route116_Text_JoseDefeat:
@@ -2189,8 +2189,8 @@ Route116_Text_JoseDefeat:
 	.string "I thought I had you!$"
 
 Route116_Text_JosePostBattle:
-	.string "BUG organisms evolve quickly. So they\n"
-	.string "get strong quickly, too.$"
+	.string "CHITIN organisms evolve quickly. So\n"
+	.string "they get strong quickly, too.$"
 
 Route116_Text_JaniceIntro:
 	.string "Let me teach you how strong my\n"
@@ -2452,9 +2452,9 @@ Route117_Text_DerekDefeat:
 Route117_Text_DerekPostBattle:
 	.string "All I did was follow my heart, and now\n"
 	.string "they call me a BUG MANIAC…\p"
-	.string "Still, I am an expert on BUG organisms,\n"
-	.string "so it's only natural that they call me a\l"
-	.string "BUG MANIAC.$"
+	.string "Still, I am an expert on CHITIN\n"
+	.string "organisms, so it's only natural that\l"
+	.string "they call me a BUG MANIAC.$"
 
 Route117_Text_AnnaIntro:
 	.string "ANNA: I'm with my pretty junior student\n"
@@ -2540,13 +2540,13 @@ Route117_Text_MelinaPostBattle:
 
 Route117_Text_BrandiIntro:
 	.string "Let me demonstrate the power hidden\n"
-	.string "within a PSYCHIC organism!$"
+	.string "within a MIND organism!$"
 
 Route117_Text_BrandiDefeat:
 	.string "Astonishing!$"
 
 Route117_Text_BrandiPostBattle:
-	.string "PSYCHIC organisms are complex. You\n"
+	.string "MIND organisms are complex. You\n"
 	.string "should try catching some.$"
 
 Route117_Text_AishaIntro:
@@ -2691,7 +2691,7 @@ Route119_Text_BrentPostBattle:
 	.string "You'll never understand…$"
 
 Route119_Text_DonaldIntro:
-	.string "So, we finally meet! My BUG organisms\n"
+	.string "So, we finally meet! My CHITIN organisms\n"
 	.string "will keep you company!$"
 
 Route119_Text_DonaldDefeat:
@@ -3016,7 +3016,7 @@ Route120_Text_JeffreyRematchDefeat:
 
 Route120_Text_JeffreyPostRematch:
 	.string "… … … … … … … … … … … … I'll try harder…\n"
-	.string "For my precious BUG organisms…$"
+	.string "For my precious CHITIN organisms…$"
 
 Route120_Text_JenniferIntro:
 	.string "Organisms have many special abilities.\n"
@@ -3483,8 +3483,8 @@ Route123_Text_FernandoPostRematch:
 	.string "by my tune, you'd lose.$"
 
 Route123_Text_DavisIntro:
-	.string "This is my awesome BUG organism! My big\n"
-	.string "brother got it for me.$"
+	.string "This is my awesome CHITIN organism! My\n"
+	.string "big brother got it for me.$"
 
 Route123_Text_DavisDefeat:
 	.string "Waaaah!\n"
@@ -3796,7 +3796,7 @@ Route125_Text_TanyaPostBattle:
 
 Route125_Text_SharonIntro:
 	.string "How would you like to take on the\n"
-	.string "WATER-type organisms I raised?$"
+	.string "AQUA-type organisms I raised?$"
 
 Route125_Text_SharonDefeat:
 	.string "Lost it…$"

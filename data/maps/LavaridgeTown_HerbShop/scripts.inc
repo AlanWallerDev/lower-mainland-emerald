@@ -54,7 +54,7 @@ LavaridgeTown_HerbShop_Text_ExplainCharcoal:
 	.string "for making herbal medicine.\p"
 	.string "It also does wonders when held by an\n"
 	.string "organism.\p"
-	.string "It intensifies the power of FIRE-type\n"
+	.string "It intensifies the power of EMBER-type\n"
 	.string "moves.$"
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike:

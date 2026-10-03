@@ -46,6 +46,8 @@ clean tree.
 | `apply_wild.js` | Habitat-based wild encounters. |
 | `locations.json`, `apply_locations.js` | Place names. |
 | `apply_text.js`, `lib/text.js` | Terminology pass and re-wrapping to the message box. |
+| `theme_trainers.js` | Gym leaders, gym trainers, Elite Four and Champion get organisms of their gym's type. |
+| `apply_type_text.js`, `type_text.tsv` | New type names in dialogue and menus; matchup advice checked against the new chart. |
 | `polish_text.js`, `polish_text.tsv` | Hand-checked phrase fixes on top of the terminology pass (grammar, leftovers). |
 | `test/harness.c`, `test/run.sh`, `test/scripts/` | Headless mGBA runner with scripted input and screenshots. |
 
@@ -56,7 +58,7 @@ and small hooks marked `Living Atlas` across the battle, item and save code.
 
 - Overworld sprites of creatures in cutscenes (e.g. the one chasing the professor) are still the original art.
 - Back sprites are mirrored front sprites, not true rear views.
-- Dialogue was converted automatically, then given a hand-checked grammar pass (`atlas/polish_text.tsv`). Some lines still read stiffly, and dialogue still names the original types (FIRE-type and so on) rather than the new ones.
+- Dialogue was converted automatically, then given a hand-checked grammar pass (`atlas/polish_text.tsv`). Some lines still read stiffly.
 - Few freshwater species exist in the database, so some rivers and ponds borrow coastal organisms.
 - Move names are unchanged.
 - The boot screen keeps the original copyright notice for the base game.

@@ -53,7 +53,7 @@ MossdeepCity_Mart_Text_NetAndDiveBallsRare:
 	.string "The NET and DIVE JARS are rare FIELD\n"
 	.string "JARS that are only made in GIBSONS.\p"
 	.string "A NET JAR is effective against\n"
-	.string "BUG-type and WATER-type organisms.\p"
+	.string "CHITIN-type and AQUA-type organisms.\p"
 	.string "A DIVE JAR works best on organisms at\n"
 	.string "the bottom of the sea.$"
 

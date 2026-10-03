@@ -153,18 +153,18 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
 	.string "Have you battled the SALON MAIDEN?\p"
 	.string "When she's measuring up her opponent,\n"
 	.string "she apparently uses these organisms:\p"
-	.string "A PSYCHIC-type PSI organism, a\n"
-	.string "FIRE-type VOLCANO organism, and a\l"
-	.string "NORMAL-type SLEEPING organism.$"
+	.string "OCTOPUS (AQUA & MIND), ELEPHANT (SOIL\n"
+	.string "& COMMON), and GUTBUDDY (COMMON &\l"
+	.string "CHARM).$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
 	.string "Have you battled the SALON MAIDEN\n"
 	.string "when she's serious?\p"
 	.string "When she's battling flat out, she\n"
 	.string "apparently uses these organisms:\p"
-	.string "A DRAGON & PSYCHIC EON organism, an\n"
-	.string "ELECTRIC-type THUNDER organism, and a\l"
-	.string "NORMAL-type SLEEPING organism.$"
+	.string "KAKAPO (VERDANT & CHARM), GIANTSQUID\n"
+	.string "(AQUA & BRAWN), and GUTBUDDY (COMMON &\l"
+	.string "CHARM).$"
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere::
 	.string "Bet you didn't know this!\p"
@@ -177,19 +177,18 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "Have you battled the DOME ACE?\p"
 	.string "When he's treating the opponent\n"
 	.string "lightly, he uses these three organisms:\p"
-	.string "A DRAGON & FLYING DRAGON organism, a\n"
-	.string "WATER & GROUND MUD FISH organism, and a\l"
-	.string "FIRE & FLYING FLAME organism.$"
+	.string "BURROWTOAD (SOIL & AQUA), SNAPPER\n"
+	.string "(AQUA & BRAWN), and TOUCAN (EMBER &\l"
+	.string "SKY).$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
 	.string "Have you battled the DOME ACE\n"
 	.string "when he's serious?\p"
 	.string "When he's demonstrating his strategy,\n"
 	.string "he uses these three organisms:\p"
-	.string "A DRAGON & FLYING EON organism, a WATER\n"
-	.string "& GROUND MUD FISH organism, and a\l"
-	.string "STEEL- & PSYCHIC-type IRON LEG\l"
-	.string "organism.$"
+	.string "BURROWTOAD (SOIL & AQUA), GINKGO\n"
+	.string "(VERDANT & ARMOR), and TARDIGRADE\l"
+	.string "(AQUA & BRAWN).$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
 	.string "Bet you didn't know this!\p"
@@ -226,19 +225,17 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 	.string "before?\p"
 	.string "When she's in a good mood, they say she\n"
 	.string "uses these three organisms:\p"
-	.string "A POISON-type FANG SNAKE organism, a\n"
-	.string "BUG & ROCK MOLD organism, and a\l"
-	.string "WATER-type TENDER organism.$"
+	.string "CORALSNAKE (TOXIN), VELVET ANT (CHITIN\n"
+	.string "& CHARM), and GREATWHITE (AQUA &\l"
+	.string "NIGHT).$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
 	.string "Have you battled the PIKE QUEEN\n"
 	.string "when she's serious?\p"
 	.string "When she's seriously annoyed, they say\n"
 	.string "she uses these three organisms:\p"
-	.string "A POISON-type FANG SNAKE organism, a\n"
-	.string "STEEL & GROUND IRON SNAKE organism,\l"
-	.string "and a WATER- & FLYING-type ATROCIOUS\l"
-	.string "organism.$"
+	.string "CORALSNAKE (TOXIN), ARMADILLO (SOIL &\n"
+	.string "ARMOR), and TUFTPUFFIN (AQUA & SKY).$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
 	.string "Bet you didn't know this!\p"
@@ -252,19 +249,18 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "before?\p"
 	.string "When she's assessing the foe's ability,\n"
 	.string "she supposedly uses these organisms:\p"
-	.string "A BUG & FIGHTING SINGLE HORN organism,\n"
-	.string "a DARK-type MOONLIGHT organism, and a\l"
-	.string "BUG & GHOST SHED organism.$"
+	.string "MANTIS (CHITIN & BRAWN), TSETSE FLY\n"
+	.string "(CHITIN & NIGHT), and FACE MITE (CHITIN\l"
+	.string "& NIGHT).$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Have you battled the ARENA TYCOON\n"
 	.string "when she's serious?\p"
 	.string "When she battles for keeps, she\n"
 	.string "supposedly uses these organisms:\p"
-	.string "A DARK-type MOONLIGHT organism, a\n"
-	.string "GHOST & POISON SHADOW organism and a\l"
-	.string "GRASS- & FIGHTING-type MUSHROOM\l"
-	.string "organism.$"
+	.string "TSETSE FLY (CHITIN & NIGHT), C. DIFF\n"
+	.string "(TOXIN & NIGHT), and HATTHROWER\l"
+	.string "(VERDANT & BRAWN).$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
 	.string "Bet you didn't know this!\p"
@@ -279,9 +275,9 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
 	.string "When he's testing the opponent's\n"
 	.string "spirit, he's said to use these\l"
 	.string "organisms:\p"
-	.string "A POISON & FLYING-type BAT organism, a\n"
-	.string "NORMAL-type LAZY organism, and a\l"
-	.string "WATER- & ICE-type TRANSPORT organism.$"
+	.string "VAMPIREBAT (TOXIN & SKY), FIN WHALE\n"
+	.string "(AQUA & COMMON), and POLAR BEAR (FROST\l"
+	.string "& AQUA).$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "Have you battled the PALACE MAVEN\n"
@@ -289,9 +285,9 @@ BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "When he throws his entire might into\n"
 	.string "battle, he's said to use these\l"
 	.string "organisms:\p"
-	.string "A FIRE-type LEGENDARY organism, a\n"
-	.string "NORMAL-type LAZY organism, and a\l"
-	.string "WATER-type AURORA organism.$"
+	.string "POMPEIIWRM (EMBER & AQUA), FIN WHALE\n"
+	.string "(AQUA & COMMON), and MEGALODON (AQUA &\l"
+	.string "NIGHT).$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
 	.string "Bet you didn't know this!\p"
@@ -305,19 +301,17 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
 	.string "before?\p"
 	.string "When he's checking the foe's power, he\n"
 	.string "apparently uses these organisms:\p"
-	.string "A ROCK-type ROCK PEAK organism, an\n"
-	.string "ICE-type ICEBERG organism, and a\l"
-	.string "STEEL-type IRON organism.$"
+	.string "T. REX (BRAWN & STONE), TUN (ARMOR &\n"
+	.string "FROST), and PUYA (VERDANT & FROST).$"
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
 	.string "Have you battled the PYRAMID KING\n"
 	.string "when he's serious?\p"
 	.string "When he's pumped with hot power, he\n"
 	.string "apparently uses these organisms:\p"
-	.string "An ICE & FLYING FREEZE organism, an\n"
-	.string "ELECTRIC & FLYING ELECTRIC organism,\l"
-	.string "and a FIRE- & FLYING-type FLAME\l"
-	.string "organism.$"
+	.string "SNOWLEOPRD (FROST & STONE),\n"
+	.string "FAIRYDILLO (CHARM & SOIL), and\l"
+	.string "HARPYEAGLE (BRAWN & SKY).$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
 	.string "Sure, there are several places where\n"

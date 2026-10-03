@@ -737,7 +737,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 	.string "I see organisms loftily airborne…\p"
 	.string "…And, I see your partners frustrated by\n"
-	.string "powerless GROUND-type moves…$"
+	.string "powerless SOIL-type moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
 	.string "I sense terrific energy rising from\n"
@@ -746,7 +746,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
 	.string "escape the power's clutches…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
-	.string "I see ICE-type organisms…\p"
+	.string "I see FROST-type organisms…\p"
 	.string "…And, I see your partners fighting the\n"
 	.string "freezing effects of ice…$"
 
@@ -757,19 +757,19 @@ BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
 	.string "them…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
-	.string "I see PSYCHIC-type organisms…\p"
+	.string "I see MIND-type organisms…\p"
 	.string "…And, I see your partners in torment\n"
-	.string "from PSYCHIC moves…$"
+	.string "from MIND moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
-	.string "I see ROCK-type organisms…\p"
+	.string "I see STONE-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
-	.string "from ROCK moves…$"
+	.string "from STONE moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
-	.string "I see FIGHTING-type organisms…\p"
+	.string "I see BRAWN-type organisms…\p"
 	.string "…And, I see your partners pummeled by\n"
-	.string "FIGHTING moves…$"
+	.string "BRAWN moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
 	.string "RAIN DANCE… SUNNY DAY…\n"
@@ -780,27 +780,27 @@ BattleFrontier_BattlePyramidLobby_Text_HintWeather:
 	.string "by different types of moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
-	.string "I see BUG-type organisms…\p"
+	.string "I see CHITIN-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
 	.string "from different kinds of attacks…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
-	.string "I see DARK-type organisms…\p"
+	.string "I see NIGHT-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
-	.string "from DARK-type moves…$"
+	.string "from NIGHT-type moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
-	.string "I see WATER-type organisms…\p"
+	.string "I see AQUA-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
-	.string "from WATER-type moves…$"
+	.string "from AQUA-type moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
-	.string "I see GHOST-type organisms…\p"
+	.string "I see NIGHT-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
-	.string "from GHOST-type moves…$"
+	.string "from NIGHT-type moves…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
-	.string "I see STEEL-type organisms…\p"
+	.string "I see ARMOR-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
 	.string "from enormously powerful moves…$"
 
@@ -818,7 +818,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
 	.string "from those three powers…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
-	.string "I see NORMAL-type organisms…\p"
+	.string "I see COMMON-type organisms…\p"
 	.string "…And, I see your partners suffering\n"
 	.string "from enormously powerful moves…$"
 

@@ -363,7 +363,7 @@ PetalburgWoods_Text_YoureLoadedWithItems:
 
 PetalburgWoods_Text_GoBugPokemonTeam:
 	.string "I caught a whole bunch of organisms!\p"
-	.string "Go, go, go! My BUG team!$"
+	.string "Go, go, go! My CHITIN team!$"
 
 PetalburgWoods_Text_ICouldntWin:
 	.string "I have all these organisms, but I\n"
@@ -374,28 +374,28 @@ PetalburgWoods_Text_ImOutOfPokeBalls:
 	.string "out of FIELD JARS.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
-	.string "If you take BUG organisms to school,\n"
+	.string "If you take CHITIN organisms to school,\n"
 	.string "you get to be instantly popular!$"
 
 PetalburgWoods_Text_CantBePopularIfILose:
 	.string "I can't be popular if I lose.$"
 
 PetalburgWoods_Text_PeopleRespectYou:
-	.string "If you have a big BUG organism, people\n"
-	.string "respect you for it.$"
+	.string "If you have a big CHITIN organism,\n"
+	.string "people respect you for it.$"
 
 PetalburgWoods_Text_IWantRematch1:
-	.string "I want a rematch when my BUG organisms\n"
-	.string "grow up!\p"
+	.string "I want a rematch when my CHITIN\n"
+	.string "organisms grow up!\p"
 	.string "I'm registering you in my TRAILNAV!$"
 
 PetalburgWoods_Text_IWantRematch2:
-	.string "I want a rematch when my BUG organisms\n"
-	.string "grow up!\p"
+	.string "I want a rematch when my CHITIN\n"
+	.string "organisms grow up!\p"
 	.string "I'm registering you in my TRAILNAV!$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
-	.string "My BUG organisms have grown. I'll be\n"
+	.string "My CHITIN organisms have grown. I'll be\n"
 	.string "popular again.$"
 
 PetalburgWoods_Text_CantBePopularIfLose:
@@ -426,8 +426,8 @@ PetalburgWoods_Text_TryUsingThisItem:
 
 PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "It's a MIRACLE SEED. If an organism\n"
-	.string "holds that item, its GRASS-type moves\l"
-	.string "become stronger.\p"
+	.string "holds that item, its VERDANT-type\l"
+	.string "moves become stronger.\p"
 	.string "Besides MIRACLE SEED, I think there are\n"
 	.string "other convenient items for organisms\l"
 	.string "to hold.$"

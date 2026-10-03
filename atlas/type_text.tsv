@@ -1,0 +1,13 @@
+# Fixes applied after apply_type_text.js (node atlas/polish_text.js atlas/type_text.tsv).
+# Matchup advice must follow the Living Atlas chart (atlas/data/types.json).
+If you challenge him with AQUA-type organisms, he'll zap them!	If you challenge him with NIGHT-type organisms, he'll zap them!
+But, it's weak against VERDANT-type and CHARM-type organisms.	But, it's weak against VERDANT-type and MIND-type organisms.
+DRAKE the DRAGON master!	DRAKE the SKY master!
+“The ROCK-loving honors student!”	“The STONE-loving honors student!”
+I'm the WATER nature expert!	I'm the AQUA-type expert!
+This is where we DRAGON users do our training.	This is where we DRAGON TAMERS do our training.
+Go, go, go! My BUG team!	Go, go, go! My CHITIN team!
+# Trick House quiz: answers checked against the current organisms (answer slots unchanged except Quiz 1-3).
+One of these organisms is not found on HWY 99. Which one is it?	One of these organisms is part SOIL type. Which one is it?
+One of these organisms is not of the AQUA type. Which one is it?	One of these organisms is part COMMON type. Which one is it?
+AMOEBOID	RACCOON	gTrickHouse_Mechadoll_Zigzagoon2

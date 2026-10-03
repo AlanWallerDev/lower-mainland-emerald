@@ -945,9 +945,9 @@ RustboroCity_Text_YoureNewAroundHere:
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "I challenged the GYM LEADER, but…\p"
 	.string "It's not going to be easy winning with\n"
-	.string "my FIRE-type organisms…\p"
-	.string "FIRE-type organisms don't match up\n"
-	.string "well against ROCK-type organisms…$"
+	.string "my EMBER-type organisms…\p"
+	.string "EMBER-type organisms don't match up\n"
+	.string "well against STONE-type organisms…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
 	.string "The old sailor MR. BRINEY lives in\n"
@@ -1131,7 +1131,7 @@ RustboroCity_Text_DevonCorpSign:
 
 RustboroCity_Text_GymSign:
 	.string "BURNABY GYM LEADER: ROXANNE\p"
-	.string "“The ROCK-loving honors student!”$"
+	.string "“The STONE-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
 	.string "DEVON CORP. BRANCH OFFICE\p"
