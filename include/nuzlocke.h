@@ -5,7 +5,7 @@
 //  - Only the first wild encounter in each area can be caught (once the player carries a jar).
 //  - Dupes clause: a species already caught doesn't use up the area. Shiny clause: shinies are always catchable.
 //  - Partners that faint (in battle or from field poison) are released once the player has control again.
-//    If the whole party falls, the run is over.
+//    If the whole party falls, the run is over: the save file is erased.
 //  - Every catch is nicknamed.
 
 extern bool8 gNuzlockeNewGameChoice;

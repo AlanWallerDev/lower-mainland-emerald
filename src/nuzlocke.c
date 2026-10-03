@@ -8,6 +8,7 @@
 #include "mail.h"
 #include "main.h"
 #include "pokemon_storage_system.h"
+#include "save.h"
 #include "script.h"
 #include "string_util.h"
 #include "constants/battle.h"
@@ -37,7 +38,8 @@ const u8 gText_NuzlockeReleased[] = _(
 const u8 gText_NuzlockeRunOver[] = _(
     "Every partner in your party has\n"
     "fallen…\p"
-    "Your NUZLOCKE run is over.");
+    "Your NUZLOCKE run is over.\p"
+    "Your save file has been erased.");
 
 const u8 gText_NuzlockeNoCatch[] = _(
     "NUZLOCKE: You already met your\n"
@@ -230,8 +232,10 @@ void Nuzlocke_ReleaseNextFallen(void)
     }
 }
 
-// special: the whole party has fallen. The run ends; back to the title screen.
+// special: the whole party has fallen. The run ends for good: the save file is erased (so an older
+// save can't be reloaded) and the game returns to the title screen.
 void Nuzlocke_GameOver(void)
 {
+    ClearSaveData();
     DoSoftReset();
 }
