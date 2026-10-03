@@ -1,11 +1,61 @@
-# Pokémon Emerald
+# Lower Mainland Emerald
 
-This is a decompilation of Pokémon Emerald.
+A hack of Pokémon Emerald, built on the [pret/pokeemerald](https://github.com/pret/pokeemerald)
+decompilation, where every creature is a real organism from the *Living Atlas* species database
+and the region is the Lower Mainland of British Columbia.
 
-It builds the following ROM:
+**This repository holds source only. It never contains ROMs.** You build the game yourself.
 
-* [**pokeemerald.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=1961) `sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+## What's different
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+| Area | Change |
+|---|---|
+| Organisms | All 386 species replaced with Living Atlas organisms, southwest-BC species first (banana slug, red fox, beaver, orca, bald eagle, plus fungi, kelp and slime molds). Stats, types, Field Journal entries, heights and weights come from the database. Only real life stages evolve (caterpillars, moon jellies, slime molds). |
+| Types | The 15 Living Atlas types (Common, Ember, Aqua, Verdant, Frost, Brawn, Toxin, Soil, Sky, Mind, Chitin, Stone, Night, Armor, Charm) with the Living Atlas type chart. Ghost and Dragon are retired; their moves were retyped. |
+| Art | Generated stand-in sprites for every organism (by body plan and type colours), and a new title logo. |
+| Places | Towns, routes and landmarks renamed to Lower Mainland places: Ladner, Richmond, Burnaby, Steveston, Surrey, Harrison, Vancouver, Deep Cove, Whistler, River Road, Burns Bog, Sea to Sky… |
+| Text | No Pokémon terms: organisms, partners, FIELD JOURNAL, FIELD STATION, FIELD JAR, TRAILNAV, NATURALIST, NATURE LEAGUE. Old species names in dialogue are now the organisms. |
+| Wild areas | Every route, cave and sea refilled by habitat (forest, meadow, cave, volcanic, cemetery, power plant, fresh water, sea, deep sea…). |
+| Nuzlocke | Built in, chosen once at new game: first encounter per area only (dupes and shiny clauses), fainted partners are gone for good, every catch is nicknamed. |
+| Game speed | OPTIONS → GAME SPEED 1x / 2x / 4x. |
 
-For contacts and other pret projects, see [pret.github.io](https://pret.github.io/).
+## Build
+
+Requirements: the pokeemerald toolchain (see [INSTALL.md](INSTALL.md); `make modern` needs
+`arm-none-eabi-gcc`, plus `libpng`), Node 18+, Python 3 with Pillow.
+
+```sh
+make tools
+make modern            # builds pokeemerald_modern.gba from the committed sources
+```
+
+The generated sources are committed, so `make modern` is all you need to play. To regenerate them
+from the Living Atlas data (for example after the database changes), run `atlas/build.sh` on a
+clean tree.
+
+## The atlas/ folder
+
+| File | What it does |
+|---|---|
+| `pick_species.js`, `picks.json` | Chooses 386 organisms (BC first) and matches them to slots by type and stat total. Writes `species_map.json`. |
+| `names.json` | 10-character in-game names. |
+| `apply_species.js`, `lib/moves.js` | Species data, Field Journal, learnsets, TM/tutor compatibility, evolutions. |
+| `apply_types.py` | Type names, chart, retyped moves, type icons. |
+| `make_sprites.py`, `make_title.py` | Stand-in art. |
+| `apply_wild.js` | Habitat-based wild encounters. |
+| `locations.json`, `apply_locations.js` | Place names. |
+| `apply_text.js`, `lib/text.js` | Terminology pass and re-wrapping to the message box. |
+| `test/harness.c`, `test/run.sh`, `test/scripts/` | Headless mGBA runner with scripted input and screenshots. |
+
+C changes live in `src/nuzlocke.c` (rules), `src/option_menu.c` and `src/main.c` (game speed),
+and small hooks marked `Living Atlas` across the battle, item and save code.
+
+## Known gaps
+
+- Overworld sprites of creatures in cutscenes (e.g. the one chasing the professor) are still the original art.
+- Dialogue was converted automatically; area-by-area hand polishing is ongoing. Some lines read stiffly.
+- Few freshwater species exist in the database, so some rivers and ponds borrow coastal organisms.
+- Move names are unchanged.
+- The boot screen keeps the original copyright notice for the base game.
+
+The original decompilation README is in [README.pret.md](README.pret.md).

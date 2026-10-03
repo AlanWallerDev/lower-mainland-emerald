@@ -54,6 +54,6 @@ InsideOfTruck_EventScript_MovingBox::
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
 	.string "The box is printed with an organism\n"
 	.string "logo.\p"
-	.string "It's an organism brand moving and\n"
+	.string "It's a nature-brand moving and\n"
 	.string "delivery service.$"
 

@@ -23,12 +23,20 @@ W, H = orig.size
 YELLOW, GOLD, BLUE, NAVY = (255, 222, 41), (222, 164, 24), (49, 98, 205), (24, 41, 115)
 
 
+# The title screen shows this image off-centre: the original wordmark spans x 3-168, centre ~86.
+CENTER_X, MAX_W = 86, 160
+
+
 def text_layer(text, size, y):
     font = ImageFont.truetype(FONT, size)
+    d = ImageDraw.Draw(Image.new('L', (W, H)))
+    while d.textlength(text, font=font) > MAX_W:
+        size -= 1
+        font = ImageFont.truetype(FONT, size)
     mask = Image.new('L', (W, H), 0)
     d = ImageDraw.Draw(mask)
     w = d.textlength(text, font=font)
-    d.text(((W - w) / 2, y), text, font=font, fill=255)
+    d.text((CENTER_X - w / 2, y), text, font=font, fill=255)
     return mask
 
 

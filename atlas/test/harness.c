@@ -1,7 +1,8 @@
 // Headless test harness: runs the ROM with scripted input and writes screenshots.
 // Build: cc -O2 -o build/harness atlas/test/harness.c -lmgba
 // Usage: build/harness rom.gba script.txt [save.sav]
-// Script lines:  wait N | press KEYS [N] | hold KEYS N | shot file.ppm | savestate | # comment
+// Script lines:  wait N | press KEYS [N] | hold KEYS N | repeat KEYS N | shot file.ppm
+//                savestate file | loadstate file | # comment
 // KEYS: A B SELECT START RIGHT LEFT UP DOWN R L joined with '+', e.g. press A, hold UP+B 30.
 #include <mgba/core/core.h>
 #include <mgba/core/config.h>
@@ -76,6 +77,24 @@ int main(int argc, char **argv) {
 		else if (!strcmp(cmd, "press")) { run(got >= 3 ? n : 6, parseKeys(arg)); run(10, 0); }
 		else if (!strcmp(cmd, "hold")) run(n, parseKeys(arg));
 		else if (!strcmp(cmd, "shot")) shot(arg);
+		else if (!strcmp(cmd, "savestate")) {
+			size_t size = core->stateSize(core);
+			void *buf = malloc(size);
+			if (core->saveState(core, buf)) {
+				FILE *f = fopen(arg, "wb");
+				if (f) { fwrite(buf, 1, size, f); fclose(f); }
+			}
+			free(buf);
+		}
+		else if (!strcmp(cmd, "loadstate")) {
+			size_t size = core->stateSize(core);
+			void *buf = malloc(size);
+			FILE *f = fopen(arg, "rb");
+			if (f && fread(buf, 1, size, f) == size) core->loadState(core, buf);
+			else fprintf(stderr, "loadstate failed: %s\n", arg);
+			if (f) fclose(f);
+			free(buf);
+		}
 		else if (!strcmp(cmd, "repeat")) {
 			// repeat KEYS N: press KEYS N times (useful for mashing through text)
 			char keys[128]; strcpy(keys, arg);
