@@ -12,7 +12,7 @@ and the region is the Lower Mainland of British Columbia.
 |---|---|
 | Organisms | All 386 species replaced with Living Atlas organisms, southwest-BC species first (banana slug, red fox, beaver, orca, bald eagle, plus fungi, kelp and slime molds). Stats, types, Field Journal entries, heights and weights come from the database. Only real life stages evolve (caterpillars, moon jellies, slime molds). |
 | Types | The 15 Living Atlas types (Common, Ember, Aqua, Verdant, Frost, Brawn, Toxin, Soil, Sky, Mind, Chitin, Stone, Night, Armor, Charm) with the Living Atlas type chart. Ghost and Dragon are retired; their moves were retyped. |
-| Art | Generated stand-in sprites for every organism (by body plan and type colours), and a new title logo. |
+| Art | Stand-in sprites drawn per organism from its own art spec: a body rig (fox, raccoon, orca, puffin, owl, butterfly, jelly, mushroom, sequoia, tardigrade…) with the organism's real colours and markings. Microbes appear in a microscope field. New title logo. |
 | Places | Towns, routes and landmarks renamed to Lower Mainland places: Ladner, Richmond, Burnaby, Steveston, Surrey, Harrison, Vancouver, Deep Cove, Whistler, River Road, Burns Bog, Sea to Sky… |
 | Text | No Pokémon terms: organisms, partners, FIELD JOURNAL, FIELD STATION, FIELD JAR, TRAILNAV, NATURALIST, NATURE LEAGUE. Old species names in dialogue are now the organisms. |
 | Wild areas | Every route, cave and sea refilled by habitat (forest, meadow, cave, volcanic, cemetery, power plant, fresh water, sea, deep sea…). |
@@ -41,7 +41,8 @@ clean tree.
 | `names.json` | 10-character in-game names. |
 | `apply_species.js`, `lib/moves.js` | Species data, Field Journal, learnsets, TM/tutor compatibility, evolutions. |
 | `apply_types.py` | Type names, chart, retyped moves, type icons. |
-| `make_sprites.py`, `make_title.py` | Stand-in art. |
+| `make_sprites.py`, `sprites/` | Stand-in art: `sprites/engine.py` renderer, `rigs_*.py` body rigs, `specs_*.py` one entry per organism (rig, colours, markings). Preview: `python3 -m atlas.sprites.preview out.png all`. |
+| `make_title.py` | Title logo. |
 | `apply_wild.js` | Habitat-based wild encounters. |
 | `locations.json`, `apply_locations.js` | Place names. |
 | `apply_text.js`, `lib/text.js` | Terminology pass and re-wrapping to the message box. |
@@ -53,6 +54,7 @@ and small hooks marked `Living Atlas` across the battle, item and save code.
 ## Known gaps
 
 - Overworld sprites of creatures in cutscenes (e.g. the one chasing the professor) are still the original art.
+- Back sprites are mirrored front sprites, not true rear views.
 - Dialogue was converted automatically; area-by-area hand polishing is ongoing. Some lines read stiffly.
 - Few freshwater species exist in the database, so some rivers and ponds borrow coastal organisms.
 - Move names are unchanged.
