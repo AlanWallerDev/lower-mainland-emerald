@@ -221,7 +221,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "TRAINER on an adventure.\p"
-	.string "It has a map of the LOWER MAINLAND.\p"
+	.string "It has a map of BC.\p"
 	.string "You can check the locations of\n"
 	.string "BOWEN ISLAND and STEVESTON easily!\p"
 	.string "By the way, I've heard that sinister\n"

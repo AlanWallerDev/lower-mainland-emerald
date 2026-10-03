@@ -309,8 +309,8 @@ MauvilleCity_PokemonCenter_1F_Text_TrendsStartedStory::
 	.string "named {STR_VAR_3}.\p"
 	.string "This TRAINER started new trends\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is setting trends for all\n"
-	.string "the LOWER MAINLAND!$"
+	.string "{STR_VAR_3} is setting trends for all of\n"
+	.string "BC!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle::
 	.string "The BERRY-Planting TRAINER$"

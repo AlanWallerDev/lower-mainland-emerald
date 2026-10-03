@@ -105,8 +105,7 @@ SootopolisCity_Gym_B1F_Text_ConniePostBattle:
 	.string "need to walk on each floor tile once.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
-	.string "The GYM of the highest level in the\n"
-	.string "LOWER MAINLAND…\p"
+	.string "The GYM of the highest level in BC…\p"
 	.string "That's the DEEP COVE GYM.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetDefeat:

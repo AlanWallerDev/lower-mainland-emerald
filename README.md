@@ -47,6 +47,8 @@ clean tree.
 | `locations.json`, `apply_locations.js` | Place names. |
 | `apply_text.js`, `lib/text.js` | Terminology pass and re-wrapping to the message box. |
 | `npc_names.js` | Significant characters renamed after historical BC figures (PROF. MACOUN, MUNDAY, JEROME, FRASER, CARR, MACGILL, FORTES, SMITH, VANCOUVER). |
+| `region_text.js` | The region is called BC in text ("the LOWER MAINLAND" reads "BC"); the game title is unchanged. |
+| `make_headers.py` | Repaints baked-in menu text: "BC MAP" TrailNav header, "JOURNAL" search-screen wordmark. |
 | `theme_trainers.js` | Gym leaders, gym trainers, Elite Four and Champion get organisms of their gym's type. |
 | `apply_type_text.js`, `type_text.tsv` | New type names in dialogue and menus; matchup advice checked against the new chart. |
 | `polish_text.js`, `polish_text.tsv` | Hand-checked phrase fixes on top of the terminology pass (grammar, leftovers). |

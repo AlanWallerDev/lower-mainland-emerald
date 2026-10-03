@@ -1055,7 +1055,7 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "TRAINER TIPS\p"
-	.string "In the LOWER MAINLAND there are pairs\n"
+	.string "In BC there are pairs\n"
 	.string "of TRAINERS who challenge others for\l"
 	.string "2-on-2 battles called DOUBLE BATTLES.\p"
 	.string "In a DOUBLE BATTLE, the TRAINER must\n"

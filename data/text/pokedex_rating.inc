@@ -76,8 +76,7 @@ gBirchDexRatingText_LessThan140::
 
 gBirchDexRatingText_LessThan150::
 	.string "I had no idea that there were so many\n"
-	.string "nature species in the LOWER MAINLAND\l"
-	.string "region.$"
+	.string "nature species in BC.$"
 
 gBirchDexRatingText_LessThan160::
 	.string "On occasion, some organisms appear in\n"
@@ -87,7 +86,7 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 	.string "One can get a very good idea about the\n"
-	.string "organism of the LOWER MAINLAND by\l"
+	.string "organism of BC by\l"
 	.string "looking through your FIELD JOURNAL.$"
 
 gBirchDexRatingText_LessThan180::

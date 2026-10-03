@@ -446,7 +446,7 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 DewfordTown_Gym_Text_BrawlyPostRematch:
 	.string "JEROME: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom. It's just\l"
-	.string "like the sea of the LOWER MAINLAND!$"
+	.string "like the sea of BC!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "JEROME: A wave may draw back, but it\n"

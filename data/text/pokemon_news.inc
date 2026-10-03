@@ -118,7 +118,7 @@ gPokeNewsTextBlendMaster_Upcoming::
 	.string "appearing in VANCOUVER with just a mere\l"
 	.string "{STR_VAR_1}-day wait to go!\p"
 	.string "The BLEND MASTER is said to be the best\n"
-	.string "in all the LOWER MAINLAND when it comes\l"
+	.string "in all of BC when it comes\l"
 	.string "to spinning a BERRY BLENDER.\p"
 	.string "Those people who want to make great\n"
 	.string "TREATS or see the MASTER in action are\l"

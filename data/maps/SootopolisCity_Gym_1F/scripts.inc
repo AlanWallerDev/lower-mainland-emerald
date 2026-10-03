@@ -188,8 +188,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "Yow! You've beaten even FORTES, who\n"
-	.string "was supposedly the best in all the\l"
-	.string "LOWER MAINLAND!\p"
+	.string "was supposedly the best in all of BC!\p"
 	.string "Okay! Check out your TRAINER CARD.\p"
 	.string "If you've gotten all the BADGES, you're\n"
 	.string "set for the NATURE LEAGUE challenge!$"
@@ -259,19 +258,19 @@ SootopolisCity_Gym_1F_Text_RegisteredJuan:
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The TRAINERS who have gathered all the\n"
-	.string "GYM BADGES of the LOWER MAINLAND\l"
+	.string "GYM BADGES of BC\l"
 	.string "should make way to the ultimate\l"
 	.string "destination.\p"
 	.string "The NATURE LEAGUE.\p"
 	.string "Travel to the easternmost reaches of\n"
-	.string "LOWER MAINLAND, to the island\l"
+	.string "BC, to the island\l"
 	.string "WHISTLER.\p"
 	.string "There, you shall find the NATURE\n"
 	.string "LEAGUE.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "There remains but one BADGE to\n"
-	.string "obtain in the LOWER MAINLAND.\p"
+	.string "obtain in BC.\p"
 	.string "If you wish to challenge the NATURE\n"
 	.string "LEAGUE, you must obtain the last BADGE\l"
 	.string "from the GYM in MAPLE RIDGE.$"

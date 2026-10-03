@@ -2442,7 +2442,7 @@ MatchCall_Text_May14::
 
 MatchCall_Text_May15::
 	.string "MAY: There isn't a single TRAINER left\n"
-	.string "in the LOWER MAINLAND who doesn't know\l"
+	.string "in BC who doesn't know\l"
 	.string "who you are, {PLAYER}{KUN}!\p"
 	.string "When I tell people that I'm friends with\n"
 	.string "you, {PLAYER}{KUN}, they're all surprised!$"
@@ -2566,8 +2566,8 @@ MatchCall_Text_Brendan14::
 
 MatchCall_Text_Brendan15::
 	.string "BRENDAN: There isn't a TRAINER in all of\n"
-	.string "the LOWER MAINLAND who doesn't know\l"
-	.string "who you are, {PLAYER}!\p"
+	.string "BC who doesn't know who you are,\l"
+	.string "{PLAYER}!\p"
 	.string "When I tell people that I'm friends with\n"
 	.string "you, {PLAYER}, they get pretty envious!$"
 

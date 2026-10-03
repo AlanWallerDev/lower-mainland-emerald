@@ -597,7 +597,7 @@ LilycoveCity_Text_GoingToMoveDeleterForHMs:
 
 LilycoveCity_Text_ImFromKanto:
 	.string "I came from the INTERIOR.\p"
-	.string "The LOWER MAINLAND is beautiful with\n"
+	.string "BC is beautiful with\n"
 	.string "all its water and verdant nature.\p"
 	.string "Hunh? Wait a second…\p"
 	.string "Could there be rare organisms that live\n"
@@ -747,8 +747,7 @@ LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 	.string "honeymoon vacation.\p"
 	.string "We happened to see a SKY-type\n"
 	.string "organism flying way up in the sky.\p"
-	.string "Do cool organisms like that live in the\n"
-	.string "LOWER MAINLAND?$"
+	.string "Do cool organisms like that live in BC?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "On our honeymoon, we vowed to see as\n"

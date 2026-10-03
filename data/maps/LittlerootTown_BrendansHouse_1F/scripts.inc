@@ -408,7 +408,7 @@ PlayersHouse_1F_Text_IsThatABreakingStory:
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "We bring you this emergency news flash!\p"
-	.string "In various LOWER MAINLAND locales,\n"
+	.string "In various BC locales,\n"
 	.string "there have been reports of a\l"
 	.string "BZZT…colored organisms in flight.\p"
 	.string "The identity of this organism is\n"

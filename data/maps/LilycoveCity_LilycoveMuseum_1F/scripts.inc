@@ -280,7 +280,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 	.string "The ART MUSEUM has become a favorite\n"
 	.string "tourist destination.\p"
 	.string "It's great for VANCOUVER… No, great\n"
-	.string "for the LOWER MAINLAND!\p"
+	.string "for BC!\p"
 	.string "This is what I've heard--a lone\n"
 	.string "TRAINER procured all the paintings\l"
 	.string "upstairs.$"

@@ -1545,9 +1545,8 @@ SootopolisCity_Text_GroudonPleaseStop:
 	.string "MAXIE: G… SEQUOIA… Please! Stop what\n"
 	.string "you're doing!\p"
 	.string "I know the extent of your power now!\p"
-	.string "If you keep going, all the LOWER\n"
-	.string "MAINLAND, not just DEEP COVE, will be\l"
-	.string "utterly ruined!$"
+	.string "If you keep going, all of BC, not just\n"
+	.string "DEEP COVE, will be utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "MAXIE: So the super-ancient organisms\n"
@@ -1570,7 +1569,7 @@ SootopolisCity_Text_KyogreCalmDown:
 SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string "ARCHIE: ORCA and SEQUOIA both flew off\n"
 	.string "to who knows where.\p"
-	.string "The weather in the LOWER MAINLAND has\n"
+	.string "The weather in BC has\n"
 	.string "returned to its normal state…\p"
 	.string "Haha… Hahaha…\p"
 	.string "Maybe what we were trying to do was\n"
@@ -1647,7 +1646,7 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string "WALLACE: {PLAYER}{KUN}… My eyes didn't\n"
 	.string "deceive me.\p"
 	.string "Thanks to your help, DEEP COVE… No, all\n"
-	.string "of the LOWER MAINLAND was saved.\p"
+	.string "of BC was saved.\p"
 	.string "On behalf of the people, I thank you.\p"
 	.string "This is a gift from me. Please accept it.$"
 

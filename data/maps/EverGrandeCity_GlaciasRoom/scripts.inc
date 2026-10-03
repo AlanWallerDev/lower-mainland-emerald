@@ -61,9 +61,8 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "Welcome, my name is GLACIA of the ELITE\n"
 	.string "FOUR.\p"
-	.string "I've traveled from afar to the LOWER\n"
-	.string "MAINLAND so that I may hone my ice\l"
-	.string "skills.\p"
+	.string "I've traveled from afar to BC so that I\n"
+	.string "may hone my ice skills.\p"
 	.string "But all I have seen are challenges by\n"
 	.string "weak TRAINERS and their partners.\p"
 	.string "What about you?\p"

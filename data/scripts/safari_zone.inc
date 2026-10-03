@@ -98,8 +98,7 @@ SafariZone_Text_PokeblockWasPlaced:
 Route121_SafariZoneEntrance_Text_WelcomeToSafariZone:
 	.string "Welcome to the BURNS BOG!\p"
 	.string "Here, you may witness many kinds of\n"
-	.string "organisms rarely seen in the LOWER\l"
-	.string "MAINLAND.\p"
+	.string "organisms rarely seen in BC.\p"
 	.string "And, you'll see them in their wild,\n"
 	.string "untamed state in natural habitats.\p"
 	.string "What's more, we've thrown open the\n"
@@ -210,8 +209,7 @@ SafariZone_Northwest_Text_Man:
 
 SafariZone_North_Text_Fisherman:
 	.string "I'm on a mission to find AQUA\n"
-	.string "organisms you don't see in the LOWER\l"
-	.string "MAINLAND.\p"
+	.string "organisms you don't see in BC.\p"
 	.string "Do you have any idea where the lake is?$"
 
 SafariZone_North_Text_Man:
@@ -278,8 +276,7 @@ SafariZone_Southeast_Text_FatMan:
 
 SafariZone_Southeast_Text_RichBoy:
 	.string "The organisms around here seem to be\n"
-	.string "from somewhere other than the LOWER\l"
-	.string "MAINLAND.$"
+	.string "from somewhere other than BC.$"
 
 SafariZone_Northeast_Text_Boy:
 	.string "I only have a couple SAFARI JARS left.\p"

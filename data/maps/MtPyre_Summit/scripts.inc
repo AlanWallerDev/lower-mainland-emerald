@@ -538,12 +538,12 @@ MtPyre_Summit_Text_WillYouHearOutMyTale:
 	.string "spirits of organisms that have passed\l"
 	.string "on…\p"
 	.string "This is a high place where one can see\n"
-	.string "all of the LOWER MAINLAND…\p"
+	.string "all of BC…\p"
 	.string "The disembodied spirits of organisms\n"
 	.string "must find solace here…\p"
 	.string "Is it coincidence that you are here…\p"
 	.string "Will you hear out my tale? A tale long\n"
-	.string "told in the LOWER MAINLAND?$"
+	.string "told in BC?$"
 
 MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "It happened long, long ago…\p"
@@ -576,11 +576,11 @@ MtPyre_Summit_Text_MaxieSilence:
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 	.string "It is my role to pass on the legends of\n"
-	.string "LOWER MAINLAND to future generations.\p"
+	.string "BC to future generations.\p"
 	.string "And the crisis that just ended in DEEP\n"
 	.string "COVE rewrote a legend…\p"
 	.string "Have you the time to hear the new\n"
-	.string "legend of the LOWER MAINLAND?$"
+	.string "legend of BC?$"
 
 MtPyre_Summit_Text_HoennTrioTale:
 	.string "It happened long, long ago…\p"

@@ -657,8 +657,7 @@ LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial::
 gTVTrainerFanClubSpecialText00::
 	.string "TRAINER FAN CLUB {STR_VAR_1} SPECIAL!\p"
 	.string "This is a special presentation for the\n"
-	.string "fans of {STR_VAR_1} all over the LOWER\l"
-	.string "MAINLAND!\p"
+	.string "fans of {STR_VAR_1} all over BC!\p"
 	.string "Today, we ask the question, “What do\n"
 	.string "people think of {STR_VAR_1}?”\p"
 	.string "We posed the question to {STR_VAR_2} as\n"
@@ -1302,7 +1301,7 @@ TrendWatcher_Text_Outro::
 	.string "Old man: {STR_VAR_1} {STR_VAR_2}!$"
 
 gTVHoennTreasureInvestigatorsText00::
-	.string "LOWER MAINLAND TREASURE\n"
+	.string "BC TREASURE\n"
 	.string "INVESTIGATORS!\p"
 	.string "Hi, gang! Score any secret items lately?\p"
 	.string "As always, we'll examine eyewitness\n"
@@ -1617,7 +1616,7 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "This has been a live broadcast from\n"
 	.string "the VANCOUVER DEPARTMENT STORE,\l"
 	.string "offering you the greatest selection\l"
-	.string "in all the LOWER MAINLAND!$"
+	.string "in all of BC!$"
 
 gTVThePokemonBattleSeminarText00::
 	.string "THE BATTLE SEMINAR!\p"
@@ -2014,7 +2013,7 @@ gTVPokemonNewsBattleFrontierText18::
 	.string "That's the news on NATURE NEWS!$"
 
 gTVWhatsNo1InHoennTodayText00::
-	.string "WHAT'S NO. 1 IN LOWER MAINLAND TODAY?\n"
+	.string "WHAT'S NO. 1 IN BC TODAY?\n"
 	.string "Yes, it's that time again!\p"
 	.string "Hello, viewers! Are you giving your\n"
 	.string "best at whatever you do?\p"
