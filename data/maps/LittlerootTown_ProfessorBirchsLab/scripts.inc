@@ -760,7 +760,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "MAY: It's fun if you can get a lot of\n"
-	.string "organism!\p"
+	.string "organisms!\p"
 	.string "I'm going to look all over the place\n"
 	.string "because I want different organisms.\p"
 	.string "If I find any cute organisms, I'll catch\n"

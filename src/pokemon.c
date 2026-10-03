@@ -2352,12 +2352,17 @@ void CreateMaleMon(struct Pokemon *mon, u16 species, u8 level)
     u32 personality;
     u32 otId;
 
+    // Living Atlas: the organism in this slot may be genderless or female-only, which would never
+    // roll male and hang the game. Take any personality for those.
+    u8 ratio = gSpeciesInfo[species].genderRatio;
+
     do
     {
         otId = Random32();
         personality = Random32();
     }
-    while (GetGenderFromSpeciesAndPersonality(species, personality) != MON_MALE);
+    while (ratio != MON_GENDERLESS && ratio != MON_FEMALE
+        && GetGenderFromSpeciesAndPersonality(species, personality) != MON_MALE);
     CreateMon(mon, species, level, USE_RANDOM_IVS, TRUE, personality, OT_ID_PRESET, otId);
 }
 

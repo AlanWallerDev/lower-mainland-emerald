@@ -2016,7 +2016,7 @@ gText_ApprenticeMoveThanks9::
 
 gText_ApprenticeWhichMove10::
 	.string "{PLAYER}{KUN}, it's completely wild!\p"
-	.string "My organisms! It learned six moves!\p"
+	.string "My organism! It learned six moves!\p"
 	.string "Of course I'm lying!\n"
 	.string "Wahahaha!\p"
 	.string "This is no lie, though. I'm not very good\n"

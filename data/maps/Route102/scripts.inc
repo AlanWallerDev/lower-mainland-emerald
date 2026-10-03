@@ -81,7 +81,7 @@ Route102_Text_WatchMeCatchPokemon:
 	.string "…Whoa!$"
 
 Route102_Text_WallyIDidIt:
-	.string "WALLY: I did it… It's my… My organisms!$"
+	.string "WALLY: I did it… It's my… My partner!$"
 
 Route102_Text_LetsGoBack:
 	.string "{PLAYER}, thank you!\n"
@@ -96,7 +96,7 @@ Route102_Text_ImNotVeryTall:
 
 Route102_Text_CatchWholeBunchOfPokemon:
 	.string "I'm going to catch a whole bunch of\n"
-	.string "organism!$"
+	.string "organisms!$"
 
 Route102_Text_RouteSignOldale:
 	.string "DYKE TRAIL\n"

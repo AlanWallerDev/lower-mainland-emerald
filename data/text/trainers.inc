@@ -1321,7 +1321,7 @@ Route111_Text_TravisIntro:
 	.string "peppy, too!$"
 
 Route111_Text_TravisDefeat:
-	.string "My organisms lost its pep…$"
+	.string "My organism lost its pep…$"
 
 Route111_Text_TravisPostBattle:
 	.string "When I see a TRAINER with a lot of pep,\n"
