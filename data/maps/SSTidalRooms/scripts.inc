@@ -76,7 +76,7 @@ SSTidalRooms_Text_ColtonDefeat:
 
 SSTidalRooms_Text_ColtonPostBattle:
 	.string "I get so excited imagining what kinds\n"
-	.string "of POKéMON I'll get to see in the next\l"
+	.string "of organisms I'll get to see in the next\l"
 	.string "CONTEST. The anticipation of it thrills!$"
 
 SSTidalRooms_Text_MicahIntro:
@@ -86,8 +86,8 @@ SSTidalRooms_Text_MicahDefeat:
 	.string "Your friends are, indeed, strong.$"
 
 SSTidalRooms_Text_MicahPostBattle:
-	.string "Friends need not be human.\n"
-	.string "For me, POKéMON are treasured friends!$"
+	.string "Friends need not be human. For me,\n"
+	.string "organisms are treasured friends!$"
 
 SSTidalRooms_Text_ThomasIntro:
 	.string "Child…\n"
@@ -114,8 +114,8 @@ SSTidalRooms_Text_JedPostBattle:
 	.string "You must be an awesome TRAINER!$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-	.string "JED: You only have one POKéMON?\n"
-	.string "Isn't that just too lonesome?$"
+	.string "JED: You only have one organism? Isn't\n"
+	.string "that just too lonesome?$"
 
 SSTidalRooms_Text_LeaIntro:
 	.string "LEA: I feel a little silly, but…\n"
@@ -130,8 +130,8 @@ SSTidalRooms_Text_LeaPostBattle:
 	.string "You must be an awesome TRAINER!$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two POKéMON…$"
+	.string "LEA: I wanted to battle… But you don't\n"
+	.string "even have two organisms…$"
 
 SSTidalRooms_Text_GarretIntro:
 	.string "Ah, you've come just in time.\p"
@@ -142,9 +142,9 @@ SSTidalRooms_Text_GarretDefeat:
 	.string "…That will do.$"
 
 SSTidalRooms_Text_GarretPostBattle:
-	.string "Perhaps I shall get Father to acquire\n"
-	.string "a yacht for me.\l"
-	.string "A yacht for me and POKéMON!$"
+	.string "Perhaps I shall get Father to acquire a\n"
+	.string "yacht for me. A yacht for me and\l"
+	.string "organisms!$"
 
 SSTidalRooms_Text_NaomiIntro:
 	.string "Oh, you're such an adorable TRAINER.\n"

@@ -27,11 +27,10 @@ EverGrandeCity_Text_EnteringVictoryRoad:
 	.string "ENTERING SEA TO SKY$"
 
 EverGrandeCity_Text_EnteringPokemonLeague:
-	.string "ENTERING POKéMON LEAGUE\n"
-	.string "CENTER GATE$"
+	.string "ENTERING NATURE LEAGUE CENTER GATE$"
 
 EverGrandeCity_Text_CitySign:
 	.string "WHISTLER\p"
-	.string "“The paradise of flowers, the sea,\n"
-	.string "and POKéMON.”$"
+	.string "“The paradise of flowers, the sea, and\n"
+	.string "organisms.”$"
 

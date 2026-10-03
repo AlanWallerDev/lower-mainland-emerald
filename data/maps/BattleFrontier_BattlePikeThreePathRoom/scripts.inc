@@ -338,8 +338,8 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
 	.string "about the path on the left…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
-	.string "It seems to have the distinct aroma\n"
-	.string "of POKéMON wafting around it…$"
+	.string "It seems to have the distinct aroma of\n"
+	.string "organisms wafting around it…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
 	.string "Is it… A TRAINER?\n"

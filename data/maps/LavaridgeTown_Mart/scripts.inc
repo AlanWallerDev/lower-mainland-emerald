@@ -33,7 +33,7 @@ LavaridgeTown_Mart_EventScript_OldWoman::
 	end
 
 LavaridgeTown_Mart_Text_XSpeedFirstStrike:
-	.string "Use X SPEED to add to a POKéMON's\n"
+	.string "Use X SPEED to add to an organism's\n"
 	.string "SPEED in battle.\p"
 	.string "That will help it get in the first\n"
 	.string "strike--a decided advantage!$"
@@ -42,5 +42,6 @@ LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney:
 	.string "On MT. GARIBALDI's peak, there's a\n"
 	.string "local specialty that you can buy only\l"
 	.string "there.\p"
-	.string "Give it to a POKéMON--it will be elated.$"
+	.string "Give it to an organism--it will be\n"
+	.string "elated.$"
 

@@ -293,17 +293,16 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "You don't believe me.\p"
 	.string "I'm not like that blowhard woman over\n"
 	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your POKéMON special and\l"
-	.string "yet cute moves.\p"
+	.string "Let me prove it to you. I can teach your\n"
+	.string "partners special and yet cute moves.\p"
 	.string "But my lessons don't come free.\n"
 	.string "How about paying for the moves I teach\l"
 	.string "with a wee bit of Battle Points?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute POKéMON moves?$"
+	.string "Are you back to learn special and yet\n"
+	.string "cute moves?$"
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
 	.string "Fine, fine, look here!\n"
@@ -314,8 +313,8 @@ BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
 	.string "That will be {STR_VAR_2} Battle Points, okay?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the POKéMON\n"
-	.string "I should teach the move to.$"
+	.string "Fine, fine, now pick the organism I\n"
+	.string "should teach the move to.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 	.string "What the…\n"
@@ -340,19 +339,18 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "… … … … … …\p"
 	.string "What's wrong?\n"
 	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your POKéMON hard and\l"
-	.string "yet pretty moves.\p"
+	.string "I'm not like that buffoonish woman\n"
+	.string "over there. I'm actually experienced!\p"
+	.string "I can prove it to you. I can teach your\n"
+	.string "partners hard and yet pretty moves.\p"
 	.string "But my lessons don't come free.\n"
 	.string "How about paying for the moves I teach\l"
 	.string "with a wee bit of Battle Points?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
 	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty POKéMON moves?$"
+	.string "Have you come to learn hard and yet\n"
+	.string "pretty moves?$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
 	.string "Those ladies, the way they bad-mouth\n"
@@ -367,8 +365,8 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
 	.string "They were idols among us TRAINERS.\p"
 	.string "Even now, age hasn't dulled their\n"
 	.string "abilities.\p"
-	.string "In fact, their POKéMON moves have\n"
-	.string "grown even more polished.\p"
+	.string "In fact, their moves have grown even\n"
+	.string "more polished.\p"
 	.string "But… For some reason, I can't help\n"
 	.string "but feel this…\p"
 	.string "Time is so cruel…$"

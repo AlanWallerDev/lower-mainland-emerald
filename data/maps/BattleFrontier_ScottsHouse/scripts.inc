@@ -271,12 +271,11 @@ BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "SCOTT: You don't just train for battle,\n"
 	.string "right?\p"
-	.string "I think I remember you working on\n"
-	.string "a POKéDEX as well.\p"
+	.string "I think I remember you working on a\n"
+	.string "FIELD JOURNAL as well.\p"
 	.string "Well, guess what?\p"
-	.string "You may run into wild POKéMON in\n"
-	.string "the BATTLE FRONTIER somewhere…\l"
-	.string "Fufufu!$"
+	.string "You may run into wild organisms in the\n"
+	.string "BATTLE FRONTIER somewhere… Fufufu!$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 	.string "SCOTT: Are you enjoying things in\n"

@@ -92,19 +92,18 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
 	.string "Er-hem!\p"
-	.string "I am the POKéMON FAN CLUB's most\n"
+	.string "I am the NATURE FAN CLUB's most\n"
 	.string "important person, the CHAIRMAN's\l"
 	.string "younger brother.\p"
 	.string "I'm here enjoying my vacation with\n"
-	.string "POKéMON, yes, indeed.$"
+	.string "organisms, yes, indeed.$"
 
 PacifidlogTown_House2_Text_AhYourPokemon:
-	.string "Ah!\n"
-	.string "Your POKéMON…$"
+	.string "Ah! Your organisms…$"
 
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
 	.string "It clearly likes you very much.\p"
-	.string "A POKéMON that adoring and adorable\n"
+	.string "An organism that adoring and adorable\n"
 	.string "deserves a TM like this, no?$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort:
@@ -115,31 +114,32 @@ PacifidlogTown_House2_Text_PutInSomeMoreEffort:
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
 	.string "It has a vicious look to it.\p"
-	.string "A frightening POKéMON like that\n"
+	.string "A frightening organism like that\n"
 	.string "deserves a TM like this.$"
 
 PacifidlogTown_House2_Text_ExplainReturnFrustration:
-	.string "If a POKéMON likes you a lot, RETURN's\n"
+	.string "If an organism likes you a lot, RETURN's\n"
 	.string "power is enhanced.\p"
 	.string "If it doesn't like you, FRUSTRATION's\n"
 	.string "power goes up.$"
 
 PacifidlogTown_House2_Text_GetGoodTMInXDays:
-	.string "Oh, yes. In about {STR_VAR_1} or so days,\n"
-	.string "I should be getting a good TM or two.\p"
-	.string "You should come see me then.\n"
-	.string "I'll give you a TM that's suitable for\l"
-	.string "your POKéMON.$"
+	.string "Oh, yes. In about {STR_VAR_1} or so\n"
+	.string "days, I should be getting a good TM or\l"
+	.string "two.\p"
+	.string "You should come see me then. I'll give\n"
+	.string "you a TM that's suitable for your\l"
+	.string "partners.$"
 
 PacifidlogTown_House2_Text_Rurii:
-	.string "AZURILL: Rurii.$"
+	.string "SAR11: Rurii.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 	.string "It appears to be very friendly with the\n"
 	.string "TRAINER.$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string "AZURILL: Rururi!$"
+	.string "SAR11: Rururi!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 	.string "It doesn't appear to like the TRAINER\n"

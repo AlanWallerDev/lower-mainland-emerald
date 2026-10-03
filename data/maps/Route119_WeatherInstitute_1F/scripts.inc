@@ -102,8 +102,7 @@ Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
 	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string "I wish I could be a NATURALIST like you!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
 	.string "The PROFESSOR loves rain.\n"

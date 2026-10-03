@@ -64,19 +64,19 @@ FallarborTown_Text_RegionKnownForMeteors:
 	.string "by a falling meteorite long ago.$"
 
 FallarborTown_Text_MyPreciousAzurill:
-	.string "See! Take a look!\n"
-	.string "This is my precious AZURILL!\p"
+	.string "See! Take a look! This is my precious\n"
+	.string "SAR11!\p"
 	.string "It's slick and smooth and plushy, too!$"
 
 FallarborTown_Text_Azurill:
-	.string "AZURILL: Rooreelooo.$"
+	.string "SAR11: Rooreelooo.$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "Have you already challenged FLANNERY,\n"
 	.string "the LEADER of HARRISON GYM?\p"
 	.string "The girl's grandfather was famous. He\n"
-	.string "was one of the ELITE FOUR in the\l"
-	.string "POKéMON LEAGUE at one point.\p"
+	.string "was one of the ELITE FOUR in the NATURE\l"
+	.string "LEAGUE at one point.\p"
 	.string "It wouldn't surprise me to see\n"
 	.string "FLANNERY become a great TRAINER in her\l"
 	.string "own right.$"
@@ -90,6 +90,6 @@ FallarborTown_Text_TownSign:
 	.string "“A farm community with small gardens.”$"
 
 FallarborTown_Text_MoveTutorSign:
-	.string "MOVE TUTOR'S HOUSE\n"
-	.string "“New moves taught to POKéMON.”$"
+	.string "MOVE TUTOR'S HOUSE “New moves taught\n"
+	.string "to organisms.”$"
 

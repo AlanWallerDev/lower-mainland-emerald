@@ -32,8 +32,8 @@ PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 	.string "Mine's copper!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "POINT ROBERTS floats on top of\n"
-	.string "a colony of CORSOLA.\p"
+	.string "POINT ROBERTS floats on top of a\n"
+	.string "colony of MURRE.\p"
 	.string "If I told you that, would you believe\n"
 	.string "me?$"
 

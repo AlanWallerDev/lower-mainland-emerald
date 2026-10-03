@@ -3,26 +3,26 @@ MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
 	.string "once. Is that okay?$"
 
 MoveTutor_Text_SwaggerTeach:
-	.string "Heh! My POKéMON totally rules!\n"
-	.string "It's cooler than any POKéMON!\p"
+	.string "Heh! My organisms totally rules! It's\n"
+	.string "cooler than any organisms!\p"
 	.string "I was lipping off with a swagger in\n"
 	.string "my step like that when the CHAIRMAN\l"
 	.string "chewed me out.\p"
 	.string "That took the swagger out of my step.\p"
 	.string "If you'd like, I'll teach the move\n"
-	.string "SWAGGER to a POKéMON of yours.$"
+	.string "SWAGGER to an organism of yours.$"
 
 MoveTutor_Text_SwaggerDeclined:
 	.string "What, no? Can't you get into\n"
 	.string "the spirit of things?$"
 
 MoveTutor_Text_SwaggerWhichMon:
-	.string "All right, which POKéMON wants to\n"
-	.string "learn how to SWAGGER?$"
+	.string "All right, which organism wants to learn\n"
+	.string "how to SWAGGER?$"
 
 MoveTutor_Text_SwaggerTaught:
-	.string "I'll just praise my POKéMON from now\n"
-	.string "on without the swagger.$"
+	.string "I'll just praise my partners from now on\n"
+	.string "without the swagger.$"
 
 MoveTutor_Text_RolloutTeach:
 	.string "Did you know that you can go from\n"
@@ -30,8 +30,8 @@ MoveTutor_Text_RolloutTeach:
 	.string "without changing direction?\p"
 	.string "I might even be able to roll\n"
 	.string "that way.\p"
-	.string "Do you think your POKéMON will\n"
-	.string "want to roll, too?\p"
+	.string "Do you think your partners will want to\n"
+	.string "roll, too?\p"
 	.string "I can teach one the move ROLLOUT\n"
 	.string "if you'd like.$"
 
@@ -40,8 +40,8 @@ MoveTutor_Text_RolloutDeclined:
 	.string "Let's roll!$"
 
 MoveTutor_Text_RolloutWhichMon:
-	.string "Ehehe, sure thing! It'd be great if\n"
-	.string "the POKéMON looked like me.$"
+	.string "Ehehe, sure thing! It'd be great if the\n"
+	.string "organism looked like me.$"
 
 MoveTutor_Text_RolloutTaught:
 	.string "Rolling around in the grass makes me\n"
@@ -52,15 +52,15 @@ MoveTutor_Text_FuryCutterTeach:
 	.string "when you keep using it in a row.\p"
 	.string "It's a BUG-type move, and it is\n"
 	.string "wickedly cool.\p"
-	.string "It's called FURY CUTTER.\n"
-	.string "Want me to teach it to a POKéMON?$"
+	.string "It's called FURY CUTTER. Want me to\n"
+	.string "teach it to an organism?$"
 
 MoveTutor_Text_FuryCutterDeclined:
 	.string "We're not on the same wavelength.$"
 
 MoveTutor_Text_FuryCutterWhichMon:
-	.string "Yay!\n"
-	.string "Show me which POKéMON I should teach.$"
+	.string "Yay! Show me which organism I should\n"
+	.string "teach.$"
 
 MoveTutor_Text_FuryCutterTaught:
 	.string "I get a thrill watching to see if\n"
@@ -76,13 +76,12 @@ MoveTutor_MimicTeach:
 	.string "offer to teach the move MIMIC?$"
 
 MoveTutor_MimicDeclined:
-	.string "Oh, boo! I wanted to teach MIMIC\n"
-	.string "to your POKéMON!$"
+	.string "Oh, boo! I wanted to teach MIMIC to\n"
+	.string "your partners!$"
 
 MoveTutor_Text_MimicWhichMon:
-	.string "Fwofwo! And so I shall!\n"
-	.string "Let me see the POKéMON\l"
-	.string "you wish me to teach.$"
+	.string "Fwofwo! And so I shall! Let me see the\n"
+	.string "organism you wish me to teach.$"
 
 MoveTutor_Text_MimicTaught:
 	.string "MIMIC is a move of great depth.\p"
@@ -95,9 +94,9 @@ MoveTutor_Text_MetronomeTeach:
 	.string "Wouldn't it be nice if there were\n"
 	.string "a spell that made money appear when\l"
 	.string "you waggle a finger?\p"
-	.string "If you want, I can teach your POKéMON\n"
+	.string "If you want, I can teach your partners\n"
 	.string "the move METRONOME.\p"
-	.string "Money won't appear, but your POKéMON\n"
+	.string "Money won't appear, but your partners\n"
 	.string "will waggle a finger. Yes?$"
 
 MoveTutor_Text_MetronomeDeclined:
@@ -105,13 +104,13 @@ MoveTutor_Text_MetronomeDeclined:
 	.string "your mind.$"
 
 MoveTutor_Text_MetronomeWhichMon:
-	.string "Okay! I'll teach it!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "Okay! I'll teach it! Which organism\n"
+	.string "should I teach?$"
 
 MoveTutor_Text_MetronomeTaught:
-	.string "When a POKéMON waggles its finger\n"
-	.string "like a METRONOME, all sorts of nice\l"
-	.string "things happen.\p"
+	.string "When an organism waggles its finger like\n"
+	.string "a METRONOME, all sorts of nice things\l"
+	.string "happen.\p"
 	.string "Wouldn't it be nice if we could\n"
 	.string "use it, too?$"
 
@@ -120,16 +119,16 @@ MoveTutor_Text_SleepTalkTeach:
 	.string "POWER to stay awake.\p"
 	.string "She should just take a nap like I do,\n"
 	.string "and SLEEP TALK.\p"
-	.string "I can teach your POKéMON how to\n"
-	.string "SLEEP TALK instead. Interested?$"
+	.string "I can teach your partners how to SLEEP\n"
+	.string "TALK instead. Interested?$"
 
 MoveTutor_Text_SleepTalkDeclined:
 	.string "Oh, fine, fine. You want to stay awake\n"
 	.string "with HIDDEN POWER, too…$"
 
 MoveTutor_Text_SleepTalkWhichMon:
-	.string "Ah, an appreciative child!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "Ah, an appreciative child! Which\n"
+	.string "organism should I teach?$"
 
 MoveTutor_Text_SleepTalkTaught:
 	.string "I've never once gotten my wife's\n"
@@ -146,17 +145,16 @@ MoveTutor_Text_SubstituteTeach:
 	.string "Of course it's not possible.\n"
 	.string "Giggle…\p"
 	.string "I know! Would you be interested in\n"
-	.string "having a POKéMON learn SUBSTITUTE?$"
+	.string "having an organism learn SUBSTITUTE?$"
 
 MoveTutor_Text_SubstituteDeclined:
 	.string "Oh, no?\p"
-	.string "A POKéMON can make a copy of\n"
-	.string "itself using it, you know.$"
+	.string "An organism can make a copy of itself\n"
+	.string "using it, you know.$"
 
 MoveTutor_Text_SubstituteWhichMon:
-	.string "Giggle…\n"
-	.string "Which POKéMON do you want me to\l"
-	.string "teach SUBSTITUTE?$"
+	.string "Giggle… Which organisms do you want me\n"
+	.string "to teach SUBSTITUTE?$"
 
 MoveTutor_Text_SubstituteTaught:
 	.string "We human beings should enjoy our\n"
@@ -173,8 +171,8 @@ MoveTutor_Text_DynamicPunchTeach:
 	.string "Punch! Punch! Punch!\p"
 	.string "What, don't look at me that way!\n"
 	.string "I'm only hitting the ground!\p"
-	.string "Or do you want me to teach your\n"
-	.string "POKéMON DYNAMICPUNCH?$"
+	.string "Or do you want me to teach your PARTNER\n"
+	.string "DYNAMICPUNCH?$"
 
 MoveTutor_Text_DynamicPunchDeclined:
 	.string "Darn! You're even making fun of me?\n"
@@ -182,7 +180,7 @@ MoveTutor_Text_DynamicPunchDeclined:
 
 MoveTutor_Text_DynamicPunchWhichMon:
 	.string "What? You do? You're a good person!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "Which organism should I teach?$"
 
 MoveTutor_Text_DynamicPunchTaught:
 	.string "I want you to win at the GIBSONS GYM\n"
@@ -196,15 +194,15 @@ MoveTutor_Text_DoubleEdgeTeach:
 	.string "rivals for his attention.\p"
 	.string "He's got appeal with a DOUBLE-EDGE.\n"
 	.string "I couldn't even catch his eye.\p"
-	.string "Please, let me teach your POKéMON\n"
-	.string "the move DOUBLE-EDGE!$"
+	.string "Please, let me teach your partners the\n"
+	.string "move DOUBLE-EDGE!$"
 
 MoveTutor_Text_DoubleEdgeDeclined:
 	.string "Oh…\n"
 	.string "Even you rejected me…$"
 
 MoveTutor_Text_DoubleEdgeWhichMon:
-	.string "Okay, which POKéMON should I teach\n"
+	.string "Okay, which organism should I teach\n"
 	.string "DOUBLE-EDGE?$"
 
 MoveTutor_Text_DoubleEdgeTaught:
@@ -219,19 +217,19 @@ MoveTutor_Text_ExplosionTeach:
 	.string "Seriously, I'm going to cause\n"
 	.string "a huge EXPLOSION of popularity!\p"
 	.string "If you overheard that, I'll happily\n"
-	.string "teach EXPLOSION to your POKéMON!$"
+	.string "teach EXPLOSION to your partners!$"
 
 MoveTutor_Text_ExplosionDeclined:
 	.string "Gaah! You're turning me down because\n"
 	.string "I live in the country?$"
 
 MoveTutor_Text_ExplosionWhichMon:
-	.string "Fine! An EXPLOSION it is!\n"
-	.string "Which POKéMON wants to blow up?$"
+	.string "Fine! An EXPLOSION it is! Which organism\n"
+	.string "wants to blow up?$"
 
 MoveTutor_Text_ExplosionTaught:
-	.string "For a long time, I've taught POKéMON\n"
-	.string "how to use EXPLOSION, but I've yet\l"
-	.string "to ignite my own EXPLOSION…\p"
+	.string "For a long time, I've taught organisms\n"
+	.string "how to use EXPLOSION, but I've yet to\l"
+	.string "ignite my own EXPLOSION…\p"
 	.string "Maybe it's because deep down,\n"
 	.string "I would rather stay here…$"

@@ -44,9 +44,9 @@ BattleFrontier_Lounge6_EventScript_TradeCompleted::
 	end
 
 BattleFrontier_Lounge6_Text_WouldYouLikeToTrade:
-	.string "My POKéMON is a {STR_VAR_2}.\n"
-	.string "Do you know it?\l"
-	.string "It's quite cute and rather nice.\p"
+	.string "My organism is a {STR_VAR_2}. Do you\n"
+	.string "know it? It's quite cute and rather\l"
+	.string "nice.\p"
 	.string "This little one, I could trade with\n"
 	.string "pride!\p"
 	.string "Would you like to trade me a {STR_VAR_1}\n"
@@ -70,6 +70,5 @@ BattleFrontier_Lounge6_Text_WellThatsFineToo:
 	.string "Please come visit us again.$"
 
 BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
-	.string "Giggle!\n"
-	.string "A SKITTY is so much cuter than I had\l"
-	.string "imagined. I'm delighted!$"
+	.string "Giggle! A LEMMING is so much cuter than\n"
+	.string "I had imagined. I'm delighted!$"

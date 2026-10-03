@@ -177,8 +177,8 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "Yo! How's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "DEEP COVE's GYM LEADER JUAN is\n"
-	.string "a master of WATER-type POKéMON.\p"
+	.string "DEEP COVE's GYM LEADER JUAN is a\n"
+	.string "master of WATER-type organism.\p"
 	.string "And, to get to JUAN, an icy floor\n"
 	.string "will hamper your progress…\p"
 	.string "Listen, I'm sorry, but that's all the\n"
@@ -192,14 +192,14 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "MAINLAND!\p"
 	.string "Okay! Check out your TRAINER CARD.\p"
 	.string "If you've gotten all the BADGES, you're\n"
-	.string "set for the POKéMON LEAGUE challenge!$"
+	.string "set for the NATURE LEAGUE challenge!$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "Let me ask you.\n"
 	.string "Did you know?\l"
 	.string "Ah, I should not be so coy.\p"
 	.string "It was I who taught WALLACE everything\n"
-	.string "there is to know about POKéMON.\p"
+	.string "there is to know about organisms.\p"
 	.string "Once, I had given up my position as\n"
 	.string "the GYM LEADER.\p"
 	.string "In my place, I had entrusted WALLACE\n"
@@ -210,8 +210,8 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "Let us begin our match, shall we?\p"
 	.string "Please, you shall bear witness to\n"
 	.string "our artistry.\p"
-	.string "A grand illusion of water sculpted\n"
-	.string "by POKéMON and myself!$"
+	.string "A grand illusion of water sculpted by\n"
+	.string "organisms and myself!$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
 @ the gDisplayedStringBattle buffer that it's put into, and it stomps all over the gBattleTextBuffs
@@ -238,7 +238,7 @@ SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "Having the RAIN BADGE shall assure you\n"
-	.string "the full obedience of all your POKéMON\l"
+	.string "the full obedience of all your partners\l"
 	.string "to your every command.\p"
 	.string "The RAIN BADGE also allows the use\n"
 	.string "of the HM move WATERFALL to scale\l"
@@ -254,33 +254,33 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 	.string "… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
-	.string "Registered GYM LEADER JUAN\n"
-	.string "in the POKéNAV.$"
+	.string "Registered GYM LEADER JUAN in the\n"
+	.string "TRAILNAV.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The TRAINERS who have gathered all the\n"
 	.string "GYM BADGES of the LOWER MAINLAND\l"
 	.string "should make way to the ultimate\l"
 	.string "destination.\p"
-	.string "The POKéMON LEAGUE.\p"
+	.string "The NATURE LEAGUE.\p"
 	.string "Travel to the easternmost reaches of\n"
 	.string "LOWER MAINLAND, to the island\l"
 	.string "WHISTLER.\p"
-	.string "There, you shall find the POKéMON\n"
+	.string "There, you shall find the NATURE\n"
 	.string "LEAGUE.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "There remains but one BADGE to\n"
 	.string "obtain in the LOWER MAINLAND.\p"
-	.string "If you wish to challenge the POKéMON\n"
-	.string "LEAGUE, you must obtain the last\l"
-	.string "BADGE from the GYM in MAPLE RIDGE.$"
+	.string "If you wish to challenge the NATURE\n"
+	.string "LEAGUE, you must obtain the last BADGE\l"
+	.string "from the GYM in MAPLE RIDGE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
-	.string "DEEP COVE POKéMON GYM$"
+	.string "DEEP COVE GYM$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-	.string "DEEP COVE POKéMON GYM\p"
+	.string "DEEP COVE GYM\p"
 	.string "JUAN'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -314,8 +314,8 @@ SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
 	.string "to put us to the test again!\p"
 	.string "Well, my friend, most certainly!\n"
 	.string "I shall be delighted to dance with you…\p"
-	.string "Ah, no, no, no.\n"
-	.string "You have with you but one POKéMON.\p"
-	.string "I wish that you would return with\n"
-	.string "two, perhaps more, POKéMON, please.$"
+	.string "Ah, no, no, no. You have with you but one\n"
+	.string "organism.\p"
+	.string "I wish that you would return with two,\n"
+	.string "perhaps more, organisms, please.$"
 

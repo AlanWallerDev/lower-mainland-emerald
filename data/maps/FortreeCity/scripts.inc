@@ -87,7 +87,7 @@ FortreeCity_Movement_KecleonFlee:
 
 FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "No one believes me, but I saw this\n"
-	.string "gigantic POKéMON in the sky.\p"
+	.string "gigantic organism in the sky.\p"
 	.string "It seemed to squirm as it flew toward\n"
 	.string "SQUAMISH SPIT.\p"
 	.string "By the way… Sniff…\n"
@@ -95,13 +95,13 @@ FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "Were you at a volcano or something?$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the POKéMON GYM,\n"
-	.string "but something's blocking the way.\p"
+	.string "I want to go to the GYM, but\n"
+	.string "something's blocking the way.\p"
 	.string "After all the bother I went through\n"
 	.string "training on GOLDEN EARS…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy POKéMON\n"
+	.string "I've got my pride-and-joy organisms\n"
 	.string "with me. This time, I'll beat WINONA.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
@@ -120,12 +120,12 @@ FortreeCity_Text_EveryoneHealthyAndLively:
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
 	.string "Living on top of trees is okay.\p"
-	.string "But sometimes BUG POKéMON come in\n"
-	.string "through windows.\l"
-	.string "It can be really startling.$"
+	.string "But sometimes BUG organisms come in\n"
+	.string "through windows. It can be really\l"
+	.string "startling.$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "There are POKéMON that evolve when\n"
+	.string "There are organisms that evolve when\n"
 	.string "you trade them! That's what I heard.$"
 
 FortreeCity_Text_SomethingUnseeable:
@@ -137,9 +137,9 @@ FortreeCity_Text_UnseeableUseDevonScope:
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
 	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
+	.string "An invisible organism became completely\n"
 	.string "visible!\p"
-	.string "The startled POKéMON fled!$"
+	.string "The startled organisms fled!$"
 
 FortreeCity_Text_CitySign:
 	.string "MAPLE RIDGE\n"
@@ -147,8 +147,7 @@ FortreeCity_Text_CitySign:
 	.string "nature.”$"
 
 FortreeCity_Text_GymSign:
-	.string "MAPLE RIDGE POKéMON GYM\n"
-	.string "LEADER: WINONA\p"
+	.string "MAPLE RIDGE GYM LEADER: WINONA\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
 

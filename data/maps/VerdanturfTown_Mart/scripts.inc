@@ -39,8 +39,7 @@ VerdanturfTown_Mart_EventScript_Lass::
 	end
 
 VerdanturfTown_Mart_Text_XSpecialIsCrucial:
-	.string "For any POKéMON match, X SPECIAL\n"
-	.string "is crucial.\p"
+	.string "For any match, X SPECIAL is crucial.\p"
 	.string "It jacks up the power of some moves\n"
 	.string "even though it's only for one battle.$"
 
@@ -51,8 +50,8 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 	.string "own wits after all…$"
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
-	.string "The NEST BALL works better on\n"
-	.string "weakened POKéMON.\p"
+	.string "The NEST JAR works better on weakened\n"
+	.string "organisms.\p"
 	.string "LANGLEY is the only place you can\n"
 	.string "buy it.$"
 

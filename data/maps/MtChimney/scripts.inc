@@ -545,7 +545,7 @@ MtChimney_Text_MaxieIntro:
 	.string "That is why TEAM MAGMA is dedicated\n"
 	.string "to the expansion of the land mass.\p"
 	.string "It is for further advancement of\n"
-	.string "humankind and POKéMON!\p"
+	.string "humankind and organisms!\p"
 	.string "And for that, we need the power of\n"
 	.string "what sleeps within this mountain…\p"
 	.string "Oh! There was no need for you to\n"
@@ -676,7 +676,7 @@ MtChimney_Text_MagmaOutnumbersUs:
 
 MtChimney_Text_LessHabitatForWaterPokemon:
 	.string "If they expand the land, there'll be\n"
-	.string "less habitats for WATER POKéMON!$"
+	.string "less habitats for WATER organisms!$"
 
 MtChimney_Text_MagmasNameSimilar:
 	.string "We're TEAM AQUA!\p"
@@ -750,7 +750,7 @@ MtChimney_Text_ShelbyRegister:
 
 MtChimney_Text_ShelbyRematchIntro:
 	.string "If you can mesh your heart with those\n"
-	.string "of your POKéMON, why, you should be\l"
+	.string "of your partners, why, you should be\l"
 	.string "able to achieve great things.$"
 
 MtChimney_Text_ShelbyRematchDefeat:
@@ -758,8 +758,8 @@ MtChimney_Text_ShelbyRematchDefeat:
 	.string "Now, aren't you something!$"
 
 MtChimney_Text_ShelbyPostRematch:
-	.string "Perhaps your heart has become one\n"
-	.string "with the hearts of your POKéMON.$"
+	.string "Perhaps your heart has become one with\n"
+	.string "the hearts of your partners.$"
 
 MtChimney_Text_MelissaIntro:
 	.string "I've got the fire in me, baby.\n"
@@ -773,8 +773,8 @@ MtChimney_Text_MelissaPostBattle:
 	.string "me up, baby!$"
 
 MtChimney_Text_SheilaIntro:
-	.string "I've finally made it to MT. GARIBALDI.\n"
-	.string "I want to make my POKéMON battle!$"
+	.string "I've finally made it to MT. GARIBALDI. I\n"
+	.string "want to make my battle!$"
 
 MtChimney_Text_SheilaDefeat:
 	.string "The way you battle…\n"
@@ -813,8 +813,8 @@ MtChimney_Text_SawyerPostBattle:
 	.string "HOT SPRING with the locals!$"
 
 MtChimney_Text_SawyerRegister:
-	.string "I like little fireballs like you.\n"
-	.string "Let me register you in my POKéNAV.$"
+	.string "I like little fireballs like you. Let me\n"
+	.string "register you in my TRAILNAV.$"
 
 MtChimney_Text_SawyerRematchIntro:
 	.string "I'm happily surrounded by hot people\n"

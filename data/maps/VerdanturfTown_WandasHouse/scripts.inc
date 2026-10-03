@@ -86,9 +86,9 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 	.string "WALLY: I lost to you, {PLAYER}, but I'm\n"
 	.string "not feeling down anymore.\p"
 	.string "Because I have a new purpose in life.\n"
-	.string "Together with my RALTS, I'm going\l"
-	.string "to challenge POKéMON GYMS and become\l"
-	.string "a great TRAINER.\p"
+	.string "Together with my CANDYSLIME, I'm going\l"
+	.string "to challenge GYMS and become a great\l"
+	.string "TRAINER.\p"
 	.string "Please watch me, {PLAYER}.\n"
 	.string "I'm going to be stronger than you.\p"
 	.string "When I do, I'm going to challenge you\n"
@@ -107,9 +107,9 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 	.string "tell you.\p"
 	.string "This natural environment is doing\n"
 	.string "wonders for WALLY's health.\p"
-	.string "Maybe it's not just the environment.\n"
-	.string "It could be POKéMON that are giving\l"
-	.string "the boy hope.$"
+	.string "Maybe it's not just the environment. It\n"
+	.string "could be organisms that are giving the\l"
+	.string "boy hope.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
 	.string "WALLY's gone away…\n"
@@ -136,7 +136,7 @@ VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "WANDA: Don't worry about WALLY.\n"
 	.string "He'll be just fine.\p"
 	.string "I know my little cousin, and he has\n"
-	.string "POKéMON with him, too.$"
+	.string "organisms with him, too.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
 	.string "Thanks to you, I can see my girlfriend\n"

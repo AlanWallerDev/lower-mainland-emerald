@@ -16,8 +16,8 @@ PetalburgCity_House1_Text_TravelingIsWonderful:
 
 PetalburgCity_House1_Text_GoOnAdventure:
 	.string "Sigh…\p"
-	.string "I wish I could go on an adventure\n"
-	.string "with some POKéMON…\p"
+	.string "I wish I could go on an adventure with\n"
+	.string "some organisms…\p"
 	.string "Crawl through some damp grass…\n"
 	.string "Climb rocky, rugged mountains…\p"
 	.string "Cross the raging seas…\n"

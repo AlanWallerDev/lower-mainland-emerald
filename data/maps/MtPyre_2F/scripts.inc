@@ -43,8 +43,8 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-	.string "Memories of my darling SKITTY…\n"
-	.string "My eyes overflow thinking about it.$"
+	.string "Memories of my darling LEMMING… My eyes\n"
+	.string "overflow thinking about it.$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
 	.string "Ooch, ouch… There are holes in the\n"
@@ -53,7 +53,7 @@ MtPyre_2F_Text_TumbledFromFloorAbove:
 	.string "the floor above.$"
 
 MtPyre_2F_Text_MarkIntro:
-	.string "Hey! Are you searching for POKéMON?\n"
+	.string "Hey! Are you searching for organisms?\n"
 	.string "You came along after me! You're rude!$"
 
 MtPyre_2F_Text_MarkDefeat:
@@ -61,8 +61,8 @@ MtPyre_2F_Text_MarkDefeat:
 	.string "I'm sorry, forgive me, please!$"
 
 MtPyre_2F_Text_MarkPostBattle:
-	.string "People don't come here often, so\n"
-	.string "I thought there'd be rare POKéMON.$"
+	.string "People don't come here often, so I\n"
+	.string "thought there'd be rare organisms.$"
 
 MtPyre_2F_Text_LukeIntro:
 	.string "LUKE: We're here on a dare.\p"
@@ -80,8 +80,8 @@ MtPyre_2F_Text_LukePostBattle:
 	.string "We'll make it through this dare!$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-	.string "LUKE: If you want to take me on,\n"
-	.string "bring some more POKéMON.\p"
+	.string "LUKE: If you want to take me on, bring\n"
+	.string "some more organisms.\p"
 	.string "If you don't, I won't be able to show\n"
 	.string "off to my girl how cool I am!$"
 
@@ -102,9 +102,9 @@ MtPyre_2F_Text_DezPostBattle:
 
 MtPyre_2F_Text_DezNotEnoughMons:
 	.string "DEZ: If you want to challenge us, you\n"
-	.string "should bring at least two POKéMON.\p"
-	.string "My boyfriend's strong.\n"
-	.string "Just one POKéMON won't do at all.$"
+	.string "should bring at least two organisms.\p"
+	.string "My boyfriend's strong. Just one\n"
+	.string "organism won't do at all.$"
 
 MtPyre_2F_Text_LeahIntro:
 	.string "You are an unfamiliar sight…\n"

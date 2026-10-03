@@ -312,8 +312,8 @@ FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
 	.string "My favorite is definitely the BATTLE\n"
 	.string "TENT in ABBOTSFORD.\p"
 	.string "I think it's fantastic how TRAINERS\n"
-	.string "try to win with all their faith in\l"
-	.string "their POKéMON.$"
+	.string "try to win with all their faith in their\l"
+	.string "partners.$"
 
 FallarborTown_BattleTentLobby_Text_CameToCampOut:
 	.string "I heard something about some tent,\n"

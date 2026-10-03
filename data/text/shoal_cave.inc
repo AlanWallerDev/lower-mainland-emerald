@@ -27,8 +27,8 @@ ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
 	.string "There! Done!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "Have a POKéMON hold on to that.\n"
-	.string "It'll love it, that's for certain.\p"
+	.string "Have an organism hold on to that. It'll\n"
+	.string "love it, that's for certain.\p"
 	.string "Why, the SHELL BELL's chime…\n"
 	.string "It's simply sublime!\p"
 	.string "You can get its ingredients every day,\n"

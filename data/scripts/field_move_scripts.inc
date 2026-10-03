@@ -116,8 +116,8 @@ Text_WantToSmash:
 	.string "Would you like to use ROCK SMASH?$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "It's a rugged rock, but an organism may\n"
+	.string "be able to smash it.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -163,8 +163,8 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
+	.string "It's a big boulder, but an organism may\n"
+	.string "be able to push it aside.\p"
 	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrength:
@@ -173,8 +173,8 @@ Text_MonUsedStrength:
 	.string "possible to move boulders around!$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "It's a big boulder, but an organism may\n"
+	.string "be able to push it aside.$"
 
 Text_StrengthActivated:
 	.string "STRENGTH made it possible to move\n"
@@ -261,8 +261,8 @@ EventScript_EndSurface::
 	end
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "The sea is deep here. An organism may be\n"
+	.string "able to go underwater.$"
 
 Text_WantToDive:
 	.string "The sea is deep here.\n"
@@ -272,8 +272,8 @@ Text_MonUsedDive:
 	.string "{STR_VAR_1} used DIVE.$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "Light is filtering down from above. An\n"
+	.string "organism may be able to surface.$"
 
 Text_WantToSurface:
 	.string "Light is filtering down from above.\n"

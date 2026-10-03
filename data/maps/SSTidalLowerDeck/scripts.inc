@@ -26,8 +26,8 @@ SSTidalLowerDeck_Text_PhillipPostBattle:
 
 SSTidalLowerDeck_Text_LeonardIntro:
 	.string "This is the bottom of the ship's hull.\n"
-	.string "There's plenty of room.\l"
-	.string "It'll be alright for a POKéMON battle.$"
+	.string "There's plenty of room. It'll be alright\l"
+	.string "for a battle.$"
 
 SSTidalLowerDeck_Text_LeonardDefeat:
 	.string "Big bro, I lost!$"

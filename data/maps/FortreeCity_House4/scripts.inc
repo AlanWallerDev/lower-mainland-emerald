@@ -59,22 +59,20 @@ FortreeCity_House4_EventScript_Wingull::
 	end
 
 FortreeCity_House4_Text_BringsWorldCloserTogether:
-	.string "By being together with POKéMON,\n"
+	.string "By being together with organisms,\n"
 	.string "people make more and more friends.\p"
 	.string "And that brings the world closer\n"
 	.string "together. I think it's wonderful!$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-	.string "There!\n"
-	.string "Go, BIRD POKéMON!$"
+	.string "There! Go, BIRD organisms!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my WINGULL to run\n"
-	.string "an errand for me.$"
+	.string "Heheh, I asked my SEA CUCUMB to run an\n"
+	.string "errand for me.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Good!\n"
-	.string "Welcome back, WINGULL!\p"
+	.string "Good! Welcome back, SEA CUCUMB!\p"
 	.string "Huh? What is this?\n"
 	.string "What is it holding?\p"
 	.string "A MENTAL HERB?\n"
@@ -83,9 +81,9 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 	.string "have it.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my WINGULL, I have friends\n"
+	.string "Thanks to my SEA CUCUMB, I have friends\n"
 	.string "who live far away.$"
 
 FortreeCity_House4_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string "SEA CUCUMB: Pihyoh!$"
 

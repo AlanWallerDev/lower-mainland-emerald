@@ -89,8 +89,8 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "But our WALLY's become very healthy\n"
 	.string "since he went to LANGLEY.\p"
 	.string "We owe it all to you!\p"
-	.string "When WALLY left town, you helped\n"
-	.string "him catch a POKéMON, right?\p"
+	.string "When WALLY left town, you helped him\n"
+	.string "catch an organism, right?\p"
 	.string "I think that made WALLY really\n"
 	.string "happy.\p"
 	.string "Actually, not just WALLY.\n"
@@ -101,7 +101,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "I'd really like you to have this.$"
 
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
-	.string "If your POKéMON can SURF, you'll be\n"
+	.string "If your partners can SURF, you'll be\n"
 	.string "able to go to all sorts of places.$"
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
@@ -117,8 +117,8 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 	.string "that all by himself.$"
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
-	.string "WALLY was really happy when he told\n"
-	.string "us that he caught a POKéMON.\p"
+	.string "WALLY was really happy when he told us\n"
+	.string "that he caught an organism.\p"
 	.string "It's been ages since I've seen him\n"
 	.string "smile like that.$"
 

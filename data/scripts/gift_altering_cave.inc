@@ -15,8 +15,8 @@ MysteryGiftScript_AlteringCave_:
 sText_MysteryGiftAlteringCave:
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
-	.string "There appears to be a rumor about\n"
-	.string "rare POKéMON sightings.\p"
+	.string "There appears to be a rumor about rare\n"
+	.string "organisms sightings.\p"
 	.string "The sightings reportedly came from\n"
 	.string "the ALTERING CAVE on BOUNDARY BAY.\p"
 	.string "Perhaps it would be worthwhile for\n"

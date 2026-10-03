@@ -41,8 +41,8 @@ gContestPaintingCool1::
 	.string "the inestimable {STR_VAR_1}$"
 
 gContestPaintingCool2::
-	.string "Hey, there!\n"
-	.string "The good-looking POKéMON {STR_VAR_1}$"
+	.string "Hey, there! The good-looking organisms\n"
+	.string "{STR_VAR_1}$"
 
 gContestPaintingCool3::
 	.string "The marvelous, wonderful, and\n"
@@ -57,8 +57,8 @@ gContestPaintingBeauty2::
 	.string "glittering smile$"
 
 gContestPaintingBeauty3::
-	.string "POKéMON CENTER's super idol--\n"
-	.string "the incomparable {STR_VAR_1}$"
+	.string "FIELD STATION's super idol-- the\n"
+	.string "incomparable {STR_VAR_1}$"
 
 gContestPaintingCute1::
 	.string "The lovely and sweet {STR_VAR_1}$"
@@ -68,16 +68,16 @@ gContestPaintingCute2::
 	.string "winning portrait$"
 
 gContestPaintingCute3::
-	.string "Give us a wink!\n"
-	.string "The cutie POKéMON {STR_VAR_1}$"
+	.string "Give us a wink! The cutie organisms\n"
+	.string "{STR_VAR_1}$"
 
 gContestPaintingSmart1::
-	.string "The smartness maestro--\n"
-	.string "the wise POKéMON {STR_VAR_1}$"
+	.string "The smartness maestro-- the wise\n"
+	.string "organisms {STR_VAR_1}$"
 
 gContestPaintingSmart2::
-	.string "{STR_VAR_1}--the one chosen\n"
-	.string "above all POKéMON$"
+	.string "{STR_VAR_1}--the one chosen above all\n"
+	.string "organisms$"
 
 gContestPaintingSmart3::
 	.string "The excellent {STR_VAR_1}'s\n"
@@ -92,5 +92,5 @@ gContestPaintingTough2::
 	.string "strongest {STR_VAR_1}$"
 
 gContestPaintingTough3::
-	.string "The mighty tough\n"
-	.string "hyper POKéMON {STR_VAR_1}$"
+	.string "The mighty tough hyper organisms\n"
+	.string "{STR_VAR_1}$"

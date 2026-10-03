@@ -26,10 +26,10 @@ VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM::
 
 VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 	.string "You can't consider yourself a real\n"
-	.string "TRAINER if you don't have faith\l"
-	.string "in your POKéMON.\p"
-	.string "Only those people who can believe\n"
-	.string "in their battling POKéMON can win\l"
+	.string "TRAINER if you don't have faith in your\l"
+	.string "partners.\p"
+	.string "Only those people who can believe in\n"
+	.string "their battling organisms can win\l"
 	.string "through to the very end.$"
 
 VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
