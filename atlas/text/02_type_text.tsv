@@ -1,4 +1,4 @@
-# Fixes applied after apply_type_text.js (node atlas/polish_text.js atlas/type_text.tsv).
+# Type-name fixes after the original type text pass (applied once by atlas/rename_text.js).
 # Matchup advice must follow the Living Atlas chart (atlas/data/types.json).
 If you challenge him with AQUA-type organisms, he'll zap them!	If you challenge him with NIGHT-type organisms, he'll zap them!
 But, it's weak against VERDANT-type and CHARM-type organisms.	But, it's weak against VERDANT-type and MIND-type organisms.

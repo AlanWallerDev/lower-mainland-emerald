@@ -1,5 +1,5 @@
 {
-	"_note": "Hoenn name -> Lower Mainland name. Keys are the upstream names as they appear in text (towns and cities without TOWN/CITY).",
+	"_note": "Hoenn name -> BC name as it appears in game text (towns and cities without TOWN/CITY). Edit a value and run node atlas/rename_text.js to rename it everywhere.",
 	"towns": {
 		"LITTLEROOT": "LADNER", "OLDALE": "TSAWWASSEN", "PETALBURG": "RICHMOND", "RUSTBORO": "BURNABY",
 		"DEWFORD": "BOWEN ISLAND", "SLATEPORT": "STEVESTON", "MAUVILLE": "SURREY", "VERDANTURF": "LANGLEY",
@@ -23,6 +23,6 @@
 		"131": "SQUAMISH SPIT", "132": "SEMIAHMOO BAY", "133": "MUD BAY", "134": "CANOE PASS"
 	},
 	"regions": {
-		"HOENN": "LOWER MAINLAND", "KANTO": "INTERIOR", "JOHTO": "ISLAND"
+		"HOENN": "BC", "KANTO": "INTERIOR", "JOHTO": "ISLAND"
 	}
 }

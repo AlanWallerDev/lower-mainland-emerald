@@ -1,0 +1,7 @@
+{
+	"_note": "Upstream character name -> name in game text (historical BC figures, see README). Edit a value and run node atlas/rename_text.js to rename it everywhere.",
+	"characters": {
+		"BIRCH": "MACOUN", "ROXANNE": "MUNDAY", "BRAWLY": "JEROME", "WATTSON": "FRASER", "FLANNERY": "CARR",
+		"WINONA": "MACGILL", "JUAN": "FORTES", "SIDNEY": "SMITH", "DRAKE": "VANCOUVER"
+	}
+}

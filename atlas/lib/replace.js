@@ -1,0 +1,118 @@
+// Find-and-replace across game text. Script text (.inc/.s `.string` blocks) is matched across
+// line breaks and re-wrapped to the message box only where a line would overflow. Strings in
+// C sources and JSON are replaced in place.
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const { ROOT } = require('./common');
+const T = require('./text');
+
+/** Read a table: one `from<TAB>to[<TAB>label]` row per line, `#` comments. A label limits the row to that text block. */
+function readTable(file) {
+	return fs.readFileSync(file, 'utf8').split('\n')
+		.filter((l) => l.trim() && !l.startsWith('#'))
+		.map((l) => l.split('\t'))
+		.filter((r) => r.length >= 2)
+		.map(([from, to, scope]) => ({ from, to, scope: scope || null }));
+}
+
+function walk(dir, test, out = []) {
+	for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+		const p = path.join(dir, e.name);
+		if (e.isDirectory()) walk(p, test, out);
+		else if (test(p)) out.push(p);
+	}
+	return out;
+}
+
+/** Every file that holds game text. */
+function textFiles() {
+	return [
+		...walk(path.join(ROOT, 'data'), (p) => /\.(inc|s)$/.test(p)),
+		...walk(path.join(ROOT, 'src'), (p) => /\.(c|h)$/.test(p) && !/[\\/]data[\\/]pokemon[\\/](species_info|level_up|tmhm|tutor|egg_moves|evolution)/.test(p)),
+		path.join(ROOT, 'src', 'data', 'region_map', 'region_map_sections.json'),
+	];
+}
+
+const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/**
+ * A matcher for one row. `words` mode needs letter boundaries on both ends (so ROXANNE does
+ * not hit ROXANNES). Spaces in `from` also match script line breaks.
+ */
+function matcher(from, words, acrossBreaks) {
+	let body = esc(from);
+	if (acrossBreaks) body = body.replace(/ /g, '(?: |\\\\[nl])');
+	const pre = words ? '(?:(?<=\\\\[nlp])|(?<![A-Za-z0-9]))' : '';
+	const post = words ? '(?![A-Za-z0-9])' : '';
+	return new RegExp(pre + body + post, 'g');
+}
+
+/** Apply rows to one script paragraph (text between \p). Returns the new paragraph. */
+function replaceParagraph(par, rows, words, label, noWrap) {
+	let out = par;
+	let crossed = false;
+	for (const { from, to, scope } of rows) {
+		if (scope && scope !== label) continue;
+		out = out.replace(matcher(from, words, true), (m) => {
+			if (/\\[nl]/.test(m)) crossed = true;
+			return to;
+		});
+	}
+	if (out === par) return par;
+	const lines = out.split(/\\[nl]/);
+	if (noWrap || (!crossed && lines.every((l) => T.measure(l.replace(/\$$/, '')) <= T.BOX_WIDTH))) return out;
+	// Re-wrap: first line ends \n, later lines \l, as Emerald does.
+	const end = out.endsWith('$') ? '$' : '';
+	const flat = out.replace(/\$$/, '').replace(/\\[nl]/g, ' ').replace(/ +/g, ' ').trim();
+	const wrapped = T.wrapParagraph(flat);
+	return wrapped.map((l, i) => l + (i === wrapped.length - 1 ? '' : i === 0 ? '\\n' : '\\l')).join('') + end;
+}
+
+function replaceScriptFile(src, rows, words) {
+	const lines = src.split('\n');
+	const blocks = T.findBlocks(lines);
+	let changed = 0;
+	for (const b of blocks.reverse()) {
+		const joined = b.strings.join('');
+		const noWrap = /CLEAR_TO|\{\w*ARROW\}/.test(joined); // hand-laid-out signs and tables keep their breaks
+		const paras = joined.split('\\p');
+		const next = paras.map((p) => replaceParagraph(p, rows, words, b.label, noWrap));
+		if (next.every((p, i) => p === paras[i])) continue;
+		changed++;
+		// Split back into one .string per line, keeping the separators at line ends.
+		const text = next.join('\\p');
+		const parts = text.match(/.*?(\\[nlp]|\$|$)/g).filter((x) => x !== '');
+		lines.splice(b.start, b.end - b.start, ...parts.map((p) => `${b.indent}.string "${p}"`));
+	}
+	return { src: lines.join('\n'), changed };
+}
+
+function replaceLiteralFile(src, rows, words) {
+	let changed = 0;
+	const out = src.replace(/"((?:[^"\\\n]|\\.)*)"/g, (whole, s) => {
+		let t = s;
+		for (const { from, to, scope } of rows) if (!scope) t = t.replace(matcher(from, words, false), to);
+		if (t !== s) changed++;
+		return '"' + t + '"';
+	});
+	return { src: out, changed };
+}
+
+/** Apply a table to every text file. Returns {files, strings} counts. */
+function applyRows(rows, { words = false } = {}) {
+	let files = 0;
+	let strings = 0;
+	for (const f of textFiles()) {
+		const src = fs.readFileSync(f, 'utf8');
+		const r = /\.(inc|s)$/.test(f) ? replaceScriptFile(src, rows, words) : replaceLiteralFile(src, rows, words);
+		if (r.changed) {
+			fs.writeFileSync(f, r.src);
+			files++;
+			strings += r.changed;
+		}
+	}
+	return { files, strings };
+}
+
+module.exports = { readTable, applyRows, textFiles };

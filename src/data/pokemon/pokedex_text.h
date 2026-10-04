@@ -8,7 +8,7 @@ const u8 gBulbasaurPokedexText[] = _(
     "It was the first virus ever\n"
     "discovered, in the 1890s, when\n"
     "scientists found that something\n"
-    "can stay infectious for decades....");
+    "smaller than bacteria was spotting…");
 
 const u8 gIvysaurPokedexText[] = _(
     "Its seeds are packed with caffeine,\n"
@@ -987,7 +987,7 @@ const u8 gQuagsirePokedexText[] = _(
     "It is known for the arribada, meaning\n"
     "arrival, when hundreds of thousands of\n"
     "females come ashore together over a\n"
-    "beach....");
+    "few nights to lay eggs on the same…");
 
 const u8 gEspeonPokedexText[] = _(
     "It rolls balls of dung in a straight\n"
@@ -1117,7 +1117,7 @@ const u8 gMagcargoPokedexText[] = _(
 const u8 gSwinubPokedexText[] = _(
     "During hibernation, its body\n"
     "temperature drops below freezing, to\n"
-    "about 27 degreesF, the coldest of any\n"
+    "about 27 degrees F, the coldest of any\n"
     "mammal, yet its blood does not freeze.");
 
 const u8 gPiloswinePokedexText[] = _(
@@ -1275,7 +1275,7 @@ const u8 gHoOhPokedexText[] = _(
     "The whole species lives in a single\n"
     "water-filled cave pool in the Nevada\n"
     "desert. It survives in water around 93\n"
-    "degreesF that holds little oxygen.");
+    "degrees F that holds little oxygen.");
 
 const u8 gCelebiPokedexText[] = _(
     "It had eyes on a sideways bar and a\n"

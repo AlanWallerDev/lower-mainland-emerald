@@ -1,23 +1,20 @@
 #!/bin/sh
-# Regenerate everything from the Living Atlas data and build the ROM.
-# The species, text and graphics steps rewrite source files; run them from a clean tree
-# (git stash or a fresh checkout) when changing the pipeline itself.
+# Regenerate the hack's generated sources from atlas/ data and build the ROM.
+# Every step is idempotent and works on the committed tree.
 #   LIVING_ATLAS_DIR  Living Atlas checkout (default ../living-atlas); falls back to atlas/data/.
+# The picker and the title need the pret remote:
+#   git remote add upstream https://github.com/pret/pokeemerald && git fetch --depth 1 upstream master
+# To re-pick organisms for the slots (after editing atlas/picks.json or atlas/bc_species.json),
+# run `node atlas/pick_species.js --write` first.
 set -e
 cd "$(dirname "$0")/.."
-node atlas/pick_species.js
+python3 atlas/apply_types.py
 node atlas/apply_species.js
 node atlas/theme_trainers.js
-python3 atlas/apply_types.py
 python3 atlas/make_sprites.py
+python3 atlas/body_colors.py
 python3 atlas/make_title.py
 python3 atlas/make_headers.py
 node atlas/apply_wild.js
-node atlas/apply_locations.js
-node atlas/apply_text.js
-node atlas/polish_text.js
-node atlas/npc_names.js
-node atlas/region_text.js
-node atlas/apply_type_text.js
-node atlas/polish_text.js atlas/type_text.tsv
+node atlas/rename_text.js
 make modern -j"$(nproc)"

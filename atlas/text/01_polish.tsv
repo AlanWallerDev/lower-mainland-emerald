@@ -1,4 +1,4 @@
-# Hand-checked phrase fixes applied by polish_text.js. See the header there for the format.
+# Hand-checked phrase fixes on top of the original terminology pass (applied once by atlas/rename_text.js).
 running a survey on organism.	running a survey on organisms.
 some of these organisms tales	some of these organism tales
 a wonderful tale involving organism.	a wonderful tale involving organisms.

@@ -14,7 +14,7 @@ and the region is British Columbia. The hack is being expanded province-wide: se
 | Types | The 15 Living Atlas types (Common, Ember, Aqua, Verdant, Frost, Brawn, Toxin, Soil, Sky, Mind, Chitin, Stone, Night, Armor, Charm) with the Living Atlas type chart. Ghost and Dragon are retired; their moves were retyped. |
 | Title | **Pokémon BC**: original wordmark, "BC" banner in place of "EMERALD VERSION" (`atlas/make_title.py`). |
 | Art | Stand-in sprites drawn per organism from its own art spec: a body rig (fox, raccoon, orca, puffin, owl, butterfly, jelly, mushroom, sequoia, tardigrade…) with the organism's real colours and markings. Microbes appear in a microscope field. New title logo. |
-| Places | Towns, routes and landmarks renamed to Lower Mainland places: Ladner, Richmond, Burnaby, Steveston, Surrey, Harrison, Vancouver, Deep Cove, Whistler, River Road, Burns Bog, Sea to Sky… |
+| Places | Towns, routes and landmarks renamed to BC places: Ladner, Richmond, Burnaby, Steveston, Surrey, Harrison, Vancouver, Deep Cove, Whistler, River Road, Burns Bog, Sea to Sky… |
 | Text | No Pokémon terms: organisms, partners, FIELD JOURNAL, FIELD STATION, FIELD JAR, TRAILNAV, NATURALIST, NATURE LEAGUE. Old species names in dialogue are now the organisms. |
 | Wild areas | Every route, cave and sea refilled by habitat (forest, meadow, cave, volcanic, cemetery, power plant, fresh water, sea, deep sea…). |
 | Nuzlocke | Built in, chosen once at new game: first encounter per area only (dupes and shiny clauses), partners that faint (in battle or from poison) are released after the fight, every catch is nicknamed, and losing your whole party ends the run and erases the save. |
@@ -31,29 +31,31 @@ make modern            # builds pokeemerald_modern.gba from the committed source
 ```
 
 The generated sources are committed, so `make modern` is all you need to play. To regenerate them
-from the Living Atlas data (for example after the database changes), run `atlas/build.sh` on a
-clean tree.
+after changing anything in `atlas/` (or the Living Atlas data), run `atlas/build.sh`. Every step is
+idempotent and works on the committed tree. The picker and the title step need the pret remote:
+`git remote add upstream https://github.com/pret/pokeemerald && git fetch --depth 1 upstream master`.
 
 ## The atlas/ folder
 
 | File | What it does |
 |---|---|
-| `pick_species.js`, `picks.json` | Chooses 386 organisms (BC first) and matches them to slots by type and stat total. Writes `species_map.json`. |
-| `names.json` | 10-character in-game names. |
-| `apply_species.js`, `lib/moves.js` | Species data, Field Journal, learnsets, TM/tutor compatibility, evolutions. |
+| `pick_species.js`, `picks.json` | Chooses an organism for each of the 386 slots: the 202 regional slots take BC organisms only (`bc_native` plus `bc_species.json`), the rest take worldwide ones. Life stages go into evolution chains; the rest match by type and stat total. Reports by default; `--write` writes `species_map.json` (refused while any slot is empty). Not part of `build.sh`. |
+| `names.json` | 10-character in-game names (others come from the organism's name). |
+| `apply_species.js`, `lib/moves.js` | Stats, types, abilities, gender, egg groups, names, Field Journal entries and text, evolutions (real life stages only), level-up, TM/HM and tutor learnsets. |
+| `body_colors.py` | Field Journal colour search: each species' body colour from its sprite. |
 | `apply_types.py` | Type names, chart, retyped moves, type icons. |
 | `make_sprites.py`, `sprites/` | Stand-in art: `sprites/engine.py` renderer, `rigs_*.py` body rigs, `specs_*.py` one entry per organism (rig, colours, markings). Preview: `python3 -m atlas.sprites.preview out.png all`. |
-| `make_title.py` | Title logo: original wordmark plus a "BC" banner. Needs the `upstream` remote (pret/pokeemerald). |
-| `apply_wild.js` | Habitat-based wild encounters. |
-| `locations.json`, `apply_locations.js` | Place names. |
-| `apply_text.js`, `lib/text.js` | Terminology pass and re-wrapping to the message box. |
-| `npc_names.js` | Significant characters renamed after historical BC figures (PROF. MACOUN, MUNDAY, JEROME, FRASER, CARR, MACGILL, FORTES, SMITH, VANCOUVER). |
-| `region_text.js` | The region is called BC in text ("the LOWER MAINLAND" reads "BC"); the game title is unchanged. |
+| `make_title.py` | Title logo: original wordmark plus a "BC" banner. |
 | `make_headers.py` | Repaints baked-in menu text: "BC MAP" TrailNav header, "JOURNAL" search-screen wordmark. |
 | `theme_trainers.js` | Gym leaders, gym trainers, Elite Four and Champion get organisms of their gym's type. |
-| `apply_type_text.js`, `type_text.tsv` | New type names in dialogue and menus; matchup advice checked against the new chart. |
-| `polish_text.js`, `polish_text.tsv` | Hand-checked phrase fixes on top of the terminology pass (grammar, leftovers). |
+| `apply_wild.js`, `habitats.json` | Wild encounters by habitat. Each area keeps upstream's levels and rarity pattern. |
+| `rename_text.js`, `locations.json`, `characters.json`, `text/` | Keeps game text in step: edit a name in `locations.json` or `characters.json`, or add a table to `text/`, and it is applied once everywhere (`text/applied.json` records what is applied). Phrases match across line breaks; overflowing lines are re-wrapped. |
+| `lib/text.js`, `lib/replace.js`, `lib/common.js` | Font widths and wrapping, find-and-replace across game text, shared data helpers. |
 | `test/harness.c`, `test/run.sh`, `test/scripts/` | Headless mGBA runner with scripted input and screenshots. |
+
+The original one-time passes that converted upstream text (terminology, character names, region
+name, type names) are not kept as scripts: they would corrupt the converted text if rerun. The
+committed text is the baseline, and `rename_text.js` applies changes on top of it.
 
 C changes live in `src/nuzlocke.c` (rules), `src/option_menu.c` and `src/main.c` (game speed),
 and small hooks marked `Living Atlas` across the battle, item and save code.

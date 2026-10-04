@@ -50,3 +50,6 @@ prefabs.json
 *.gba
 *.sav
 *.bps
+
+# Python bytecode
+__pycache__/
