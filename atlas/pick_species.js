@@ -46,7 +46,13 @@ const chains = slots.filter((s) => !hasPrev.has(s) && next[s]).map((s) => {
 
 const bcIds = new Set(picks.bc_native || []);
 if (C.exists('atlas/bc_species.json')) for (const s of C.readJSON('atlas/bc_species.json').species || C.readJSON('atlas/bc_species.json')) bcIds.add(s.id);
-const usable = Object.values(orgs).filter((o) => !exclude.has(o.id) && !o.id.startsWith('fo-'));
+// Organisms with stand-in art (atlas/sprites/specs_*.py); a worldwide organism needs art to be picked.
+const fs = require('fs');
+const hasArt = new Set();
+for (const f of fs.readdirSync(C.P('atlas', 'sprites')).filter((x) => /^specs_.*\.py$/.test(x))) {
+	for (const m of fs.readFileSync(C.P('atlas', 'sprites', f), 'utf8').matchAll(/^\s*'([a-z]{2}-\d{3})':/gm)) hasArt.add(m[1]);
+}
+const usable = Object.values(orgs).filter((o) => !exclude.has(o.id) && !o.id.startsWith('fo-') && (bcIds.has(o.id) || hasArt.has(o.id)));
 const isBC = (o) => bcIds.has(o.id);
 
 const assign = {}; // slot -> id
@@ -65,35 +71,50 @@ function cost(o, slot) {
 	return typeCost * 60 + Math.abs(o.bst - si.bst);
 }
 
+const stageOrder = (a, b) => (a.stage_index || 0) - (b.stage_index || 0) || a.id.localeCompare(b.id);
+const loose = []; // line members that found no chain of their length: placed as singles
+
 // Life-stage lines first, as units, into chains of the same length in the right region.
 const lines = {};
 for (const o of usable) if (o.line && !used.has(o.id)) (lines[o.line] = lines[o.line] || []).push(o);
 for (const members of Object.values(lines).sort((a, b) => b.length - a.length)) {
-	members.sort((a, b) => a.id.localeCompare(b.id));
+	members.sort(stageOrder);
 	const bc = members.every(isBC);
 	const fits = chains.filter((c) => c.length === members.length && c.every((s) => !assign[s] && !fossilSlots.has(s)
 		&& regional.has(s) === bc));
-	if (!fits.length) continue;
+	if (!fits.length) {
+		loose.push(...members);
+		continue;
+	}
 	fits.sort((a, b) => a.reduce((t, s, i) => t + cost(members[i], s), 0) - b.reduce((t, s, i) => t + cost(members[i], s), 0));
 	fits[0].forEach((s, i) => { assign[s] = members[i].id; used.add(members[i].id); });
 }
 
-// Singles: cheapest pairs first, BC organisms into regional slots, the rest into national ones.
-const pairs = [];
-for (const slot of slots) {
-	if (assign[slot] || fossilSlots.has(slot)) continue;
-	for (const o of usable) {
-		if (used.has(o.id) || o.line) continue;
-		if (regional.has(slot) && !isBC(o)) continue;
-		pairs.push([cost(o, slot) + (regional.has(slot) ? 0 : isBC(o) ? 25 : 0), slot, o.id]);
+/** Cheapest pairs first among `orgList`, into free slots that `slotOk` allows. */
+function fill(orgList, slotOk, extra = () => 0) {
+	const pairs = [];
+	for (const slot of slots) {
+		if (assign[slot] || fossilSlots.has(slot) || !slotOk(slot)) continue;
+		for (const o of orgList) if (!used.has(o.id)) pairs.push([cost(o, slot) + extra(o, slot), slot, o.id]);
+	}
+	pairs.sort((a, b) => a[0] - b[0]);
+	for (const [, slot, id] of pairs) {
+		if (assign[slot] || used.has(id)) continue;
+		assign[slot] = id;
+		used.add(id);
 	}
 }
-pairs.sort((a, b) => a[0] - b[0]);
-for (const [, slot, id] of pairs) {
-	if (assign[slot] || used.has(id)) continue;
-	assign[slot] = id;
-	used.add(id);
-}
+
+// Must-have BC organisms (everything in bc_species.json plus `regional_must`) claim regional slots
+// next, then the remaining BC organisms fill what is left of the region, and worldwide organisms
+// fill the national slots.
+const must = new Set(picks.regional_must || []);
+if (C.exists('atlas/bc_species.json')) for (const s of C.readJSON('atlas/bc_species.json').species) if (!s.override) must.add(s.id);
+const singles = usable.filter((o) => !o.line).concat(loose);
+fill(singles.filter((o) => must.has(o.id) || loose.includes(o) && isBC(o)), (s) => regional.has(s));
+fill(singles.filter(isBC), (s) => regional.has(s));
+fill(singles.filter((o) => !isBC(o)).concat(loose.filter((o) => !isBC(o))), (s) => !regional.has(s));
+fill(singles.filter(isBC), (s) => !regional.has(s));
 
 // ---- report and write --------------------------------------------------------------
 

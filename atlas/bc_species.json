@@ -1,0 +1,6594 @@
+{
+	"_note": "BC organisms added by the hack (Living Atlas schema plus bc_habitats, stage_index and invasive). Entries with \"override\": true replace a Living Atlas organism for this hack only. See docs/ROSTER.md.",
+	"species": [
+		{
+			"id": "bc-001",
+			"name": "Skunk Cabbage Seed",
+			"sci": "Lysichiton americanus",
+			"region": "bc",
+			"number": 1,
+			"types": [
+				"Verdant"
+			],
+			"group": "Plant",
+			"category": "Swamp Seed",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 45,
+				"atk": 45,
+				"def": 50,
+				"spa": 60,
+				"spd": 55,
+				"spe": 55
+			},
+			"bst": 310,
+			"abilities": [
+				"Seed Coat",
+				"Leaf Litter"
+			],
+			"height_in": 1,
+			"weight_lb": 0.01,
+			"range": "Swamps and wet forests of coastal BC",
+			"entry": "Its seeds sit in a green, berry-like fruit on a thick stalk. They drop into the mud of the swamp where the parent grows.",
+			"line": "bc:skunkcabbage",
+			"stage": "Seed",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-002",
+			"name": "Skunk Cabbage Shoot",
+			"sci": "Lysichiton americanus",
+			"region": "bc",
+			"number": 2,
+			"types": [
+				"Verdant"
+			],
+			"group": "Plant",
+			"category": "Swamp Shoot",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 60,
+				"atk": 60,
+				"def": 65,
+				"spa": 80,
+				"spd": 70,
+				"spe": 70
+			},
+			"bst": 405,
+			"abilities": [
+				"Leaf Litter",
+				"Root Anchor"
+			],
+			"height_in": 8,
+			"weight_lb": 0.3,
+			"range": "Swamps and wet forests of coastal BC",
+			"entry": "A young plant grows a rosette of leaves for several years before it is ready to bloom. Its roots hold tight in waterlogged mud.",
+			"line": "bc:skunkcabbage",
+			"stage": "Shoot",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-003",
+			"name": "Western Skunk Cabbage",
+			"sci": "Lysichiton americanus",
+			"region": "bc",
+			"number": 3,
+			"types": [
+				"Verdant",
+				"Toxin"
+			],
+			"group": "Plant",
+			"category": "Swamp Lantern",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 82,
+				"def": 83,
+				"spa": 110,
+				"spd": 95,
+				"spe": 80
+			},
+			"bst": 530,
+			"abilities": [
+				"Skunk Stench",
+				"Oxalate Crystals"
+			],
+			"height_in": 40,
+			"weight_lb": 6,
+			"range": "Swamps and wet forests of coastal BC",
+			"entry": "Its bright yellow hood blooms in early spring and smells like a skunk, drawing the beetles that pollinate it. Needle-like crystals in its leaves sting the mouths of plant-eaters.",
+			"line": "bc:skunkcabbage",
+			"stage": "Bloom",
+			"stage_index": 3,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"forest"
+			]
+		},
+		{
+			"id": "bc-004",
+			"name": "Morel Spore",
+			"sci": "Morchella",
+			"region": "bc",
+			"number": 4,
+			"types": [
+				"Ember"
+			],
+			"group": "Fungus",
+			"category": "Ash Spore",
+			"habitat": "microscope",
+			"family": "microscope",
+			"stats": {
+				"hp": 40,
+				"atk": 60,
+				"def": 40,
+				"spa": 50,
+				"spd": 50,
+				"spe": 70
+			},
+			"bst": 310,
+			"abilities": [
+				"Ash Drifter",
+				"Spore Cloud"
+			],
+			"height_in": 0.001,
+			"weight_lb": 0.0001,
+			"range": "Burned forests of the BC Interior",
+			"entry": "Morel spores drift on the wind by the billion. Most land nowhere useful, but a few settle into the ash of a fresh burn.",
+			"line": "bc:morel",
+			"stage": "Spore",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"burned"
+			]
+		},
+		{
+			"id": "bc-005",
+			"name": "Morel Mycelium",
+			"sci": "Morchella",
+			"region": "bc",
+			"number": 5,
+			"types": [
+				"Ember",
+				"Soil"
+			],
+			"group": "Fungus",
+			"category": "Ash Web",
+			"habitat": "microscope",
+			"family": "microscope",
+			"stats": {
+				"hp": 60,
+				"atk": 85,
+				"def": 55,
+				"spa": 65,
+				"spd": 55,
+				"spe": 85
+			},
+			"bst": 405,
+			"abilities": [
+				"Underground Net",
+				"Ash Feeder"
+			],
+			"height_in": 0.01,
+			"weight_lb": 0.01,
+			"range": "Burned forests of the BC Interior",
+			"entry": "Threads of mycelium spread through the soil under a burned forest. After a fire kills the trees around it, the fungus gets ready to fruit.",
+			"line": "bc:morel",
+			"stage": "Mycelium",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"burned"
+			]
+		},
+		{
+			"id": "bc-006",
+			"name": "Burn Morel",
+			"sci": "Morchella",
+			"region": "bc",
+			"number": 6,
+			"types": [
+				"Ember",
+				"Soil"
+			],
+			"group": "Fungus",
+			"category": "Fire Follower",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 120,
+				"def": 70,
+				"spa": 110,
+				"spd": 70,
+				"spe": 80
+			},
+			"bst": 530,
+			"abilities": [
+				"Fire Follower",
+				"Honeycomb Cap"
+			],
+			"height_in": 4,
+			"weight_lb": 0.1,
+			"range": "Burned forests of the BC Interior",
+			"entry": "Morels fruit in huge numbers in the spring after a forest fire. Their honeycomb caps push up through the ash among the blackened trunks.",
+			"line": "bc:morel",
+			"stage": "Fruiting Body",
+			"stage_index": 3,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"burned",
+				"forest"
+			]
+		},
+		{
+			"id": "bc-007",
+			"name": "Beaver Kit",
+			"sci": "Castor canadensis",
+			"region": "bc",
+			"number": 7,
+			"types": [
+				"Aqua"
+			],
+			"group": "Mammal",
+			"category": "Engineer",
+			"habitat": "amphibious",
+			"family": "quadruped",
+			"stats": {
+				"hp": 50,
+				"atk": 70,
+				"def": 50,
+				"spa": 50,
+				"spd": 50,
+				"spe": 40
+			},
+			"bst": 310,
+			"abilities": [
+				"Lodge Born",
+				"Webbed Feet"
+			],
+			"height_in": 8,
+			"weight_lb": 1,
+			"range": "Rivers, lakes and wetlands across BC",
+			"entry": "Kits are born in spring inside the family lodge and can swim within a day. Their thick fur traps air that keeps them warm and afloat.",
+			"line": "bc:beaver",
+			"stage": "Kit",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-008",
+			"name": "Yearling Beaver",
+			"sci": "Castor canadensis",
+			"region": "bc",
+			"number": 8,
+			"types": [
+				"Aqua"
+			],
+			"group": "Mammal",
+			"category": "Engineer",
+			"habitat": "amphibious",
+			"family": "quadruped",
+			"stats": {
+				"hp": 70,
+				"atk": 85,
+				"def": 70,
+				"spa": 60,
+				"spd": 70,
+				"spe": 50
+			},
+			"bst": 405,
+			"abilities": [
+				"Dam Builder",
+				"Iron Teeth"
+			],
+			"height_in": 10,
+			"weight_lb": 25,
+			"range": "Rivers, lakes and wetlands across BC",
+			"entry": "Young beavers stay with their family for about two years. Yearlings help patch the dam and bring food for the newest kits.",
+			"line": "bc:beaver",
+			"stage": "Yearling",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-009",
+			"name": "Spirit Bear",
+			"sci": "Ursus americanus kermodei",
+			"region": "bc",
+			"number": 9,
+			"types": [
+				"Brawn",
+				"Mind"
+			],
+			"group": "Mammal",
+			"category": "Spirit Bear",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 100,
+				"atk": 150,
+				"def": 140,
+				"spa": 100,
+				"spd": 90,
+				"spe": 90
+			},
+			"bst": 670,
+			"abilities": [
+				"White Coat",
+				"Daylight Fisher"
+			],
+			"height_in": 72,
+			"weight_lb": 500,
+			"range": "Great Bear Rainforest, North Coast of BC",
+			"entry": "A black bear with a white coat, caused by a rare gene. White bears catch salmon more often in daylight, perhaps because the fish see them less easily against the sky.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-010",
+			"name": "Glass Sponge Reef",
+			"sci": "Hexactinellida",
+			"region": "bc",
+			"number": 10,
+			"types": [
+				"Aqua",
+				"Stone"
+			],
+			"group": "Sponge",
+			"category": "Glass Reef",
+			"habitat": "aquatic",
+			"family": "sessile",
+			"stats": {
+				"hp": 100,
+				"atk": 100,
+				"def": 90,
+				"spa": 150,
+				"spd": 140,
+				"spe": 90
+			},
+			"bst": 670,
+			"abilities": [
+				"Glass Skeleton",
+				"Filter Sea"
+			],
+			"height_in": 600,
+			"weight_lb": 9000,
+			"range": "Hecate Strait and the Strait of Georgia",
+			"entry": "These reefs of glass sponges were thought to be extinct for 40 million years until they were found off BC in 1987. Some are about 9,000 years old.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"deep"
+			]
+		},
+		{
+			"id": "bc-011",
+			"name": "Marbled Murrelet",
+			"sci": "Brachyramphus marmoratus",
+			"region": "bc",
+			"number": 11,
+			"types": [
+				"Sky",
+				"Aqua"
+			],
+			"group": "Bird",
+			"category": "Forest Seabird",
+			"habitat": "amphibious",
+			"family": "flier",
+			"stats": {
+				"hp": 105,
+				"atk": 150,
+				"def": 90,
+				"spa": 150,
+				"spd": 90,
+				"spe": 95
+			},
+			"bst": 680,
+			"abilities": [
+				"Old-Growth Nester",
+				"Night Flight"
+			],
+			"height_in": 10,
+			"weight_lb": 0.5,
+			"range": "Coast of BC and old-growth forests inland",
+			"entry": "A seabird that nests high on mossy branches of old-growth trees, far from the sea. Its nest was a mystery until the first one was found in 1974.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"forest"
+			]
+		},
+		{
+			"id": "bc-012",
+			"name": "Vancouver Island Marmot",
+			"sci": "Marmota vancouverensis",
+			"region": "bc",
+			"number": 12,
+			"types": [
+				"Charm",
+				"Stone"
+			],
+			"group": "Mammal",
+			"category": "Rare Marmot",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 80,
+				"atk": 80,
+				"def": 90,
+				"spa": 110,
+				"spd": 130,
+				"spe": 110
+			},
+			"bst": 600,
+			"abilities": [
+				"Greeting Nose",
+				"Alarm Whistle"
+			],
+			"height_in": 28,
+			"weight_lb": 15,
+			"range": "Subalpine meadows of central Vancouver Island",
+			"entry": "Found only on Vancouver Island, fewer than 30 lived in the wild in 2003. Marmots bred in zoos and released have helped it climb back.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"mountain"
+			]
+		},
+		{
+			"id": "bc-013",
+			"name": "Northern Spotted Owl",
+			"sci": "Strix occidentalis caurina",
+			"region": "bc",
+			"number": 13,
+			"types": [
+				"Night",
+				"Mind"
+			],
+			"group": "Bird",
+			"category": "Old-Growth Owl",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 80,
+				"atk": 90,
+				"def": 80,
+				"spa": 130,
+				"spd": 110,
+				"spe": 110
+			},
+			"bst": 600,
+			"abilities": [
+				"Silent Wings",
+				"Old-Growth Hunter"
+			],
+			"height_in": 18,
+			"weight_lb": 1.4,
+			"range": "Old-growth forests of southwestern BC",
+			"entry": "Only a handful of these owls remain in the wild in BC. The larger barred owl, which spread west over the last century, takes over its forests.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-014",
+			"name": "Marrella",
+			"sci": "Marrella splendens",
+			"region": "bc",
+			"number": 14,
+			"types": [
+				"Stone",
+				"Chitin"
+			],
+			"group": "Arthropod",
+			"category": "Lace Crab",
+			"habitat": "aquatic",
+			"family": "many_legged",
+			"stats": {
+				"hp": 80,
+				"atk": 100,
+				"def": 200,
+				"spa": 50,
+				"spd": 100,
+				"spe": 50
+			},
+			"bst": 580,
+			"abilities": [
+				"Ancient Line",
+				"Spiny Shield"
+			],
+			"height_in": 0.8,
+			"weight_lb": 0.01,
+			"range": "Burgess Shale, Yoho National Park",
+			"entry": "The most common animal in the Burgess Shale, with more than 25,000 fossils found. It was the first one Charles Walcott split from the rock in 1909.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": "Burgess Shale",
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"rock"
+			]
+		},
+		{
+			"id": "bc-015",
+			"name": "Phantom Orchid",
+			"sci": "Cephalanthera austiniae",
+			"region": "bc",
+			"number": 15,
+			"types": [
+				"Charm",
+				"Night"
+			],
+			"group": "Plant",
+			"category": "Ghost Orchid",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 100,
+				"atk": 100,
+				"def": 100,
+				"spa": 100,
+				"spd": 100,
+				"spe": 100
+			},
+			"bst": 600,
+			"abilities": [
+				"Fungus Feeder",
+				"Vanishing Act"
+			],
+			"height_in": 18,
+			"weight_lb": 0.1,
+			"range": "Shady forests of southern Vancouver Island and the Fraser Valley",
+			"entry": "A pure white orchid with no green at all. It takes its food from fungi in the soil and can stay underground for years before it blooms again.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Mythical",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-016",
+			"name": "Ogopogo",
+			"sci": "Unknown",
+			"region": "bc",
+			"number": 16,
+			"types": [
+				"Aqua",
+				"Mind"
+			],
+			"group": "Mystery",
+			"category": "Lake Cryptid",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 50,
+				"atk": 150,
+				"def": 50,
+				"spa": 150,
+				"spd": 50,
+				"spe": 150
+			},
+			"bst": 600,
+			"abilities": [
+				"Unconfirmed",
+				"Humped Wake"
+			],
+			"height_in": 360,
+			"weight_lb": 2000,
+			"range": "Okanagan Lake (reported)",
+			"entry": "Reported in Okanagan Lake since the 1920s as a long animal with humps along its back. No body, bone or clear photo has ever been found.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Mythical",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-017",
+			"name": "Sasquatch",
+			"sci": "Unknown",
+			"region": "bc",
+			"number": 17,
+			"types": [
+				"Brawn",
+				"Night"
+			],
+			"group": "Mystery",
+			"category": "Forest Cryptid",
+			"habitat": "land",
+			"family": "primate",
+			"stats": {
+				"hp": 100,
+				"atk": 100,
+				"def": 100,
+				"spa": 100,
+				"spd": 100,
+				"spe": 100
+			},
+			"bst": 600,
+			"abilities": [
+				"Unconfirmed",
+				"Big Feet"
+			],
+			"height_in": 96,
+			"weight_lb": 600,
+			"range": "Coastal forests of BC (reported)",
+			"entry": "Reported in BC forests as a tall, hairy walker on two legs. People have cast many large footprints in plaster, but no body or bone has ever been found.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Mythical",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-018",
+			"name": "Caddy",
+			"sci": "Cadborosaurus willsi (proposed)",
+			"region": "bc",
+			"number": 18,
+			"types": [
+				"Aqua",
+				"Night"
+			],
+			"group": "Mystery",
+			"category": "Sea Serpent",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 106,
+				"atk": 90,
+				"def": 130,
+				"spa": 90,
+				"spd": 154,
+				"spe": 110
+			},
+			"bst": 680,
+			"abilities": [
+				"Unconfirmed",
+				"Horse Head"
+			],
+			"height_in": 600,
+			"weight_lb": 1500,
+			"range": "Salish Sea (reported)",
+			"entry": "Named after Cadboro Bay near Victoria by a newspaper editor in 1933. Sailors describe a long serpent with a horse-like head, but none has ever been caught.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": "Mythical",
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-019",
+			"name": "Wiwaxia",
+			"sci": "Wiwaxia corrugata",
+			"region": "bc",
+			"number": 19,
+			"types": [
+				"Armor",
+				"Stone"
+			],
+			"group": "Mollusk",
+			"category": "Scaled Slug",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 86,
+				"atk": 81,
+				"def": 97,
+				"spa": 81,
+				"spd": 107,
+				"spe": 43
+			},
+			"bst": 495,
+			"abilities": [
+				"Ancient Line",
+				"Scale Mail"
+			],
+			"height_in": 2,
+			"weight_lb": 0.02,
+			"range": "Burgess Shale, Yoho National Park",
+			"entry": "A small sea creature covered in overlapping scales with two rows of tall spines. It crept over the sea floor about 508 million years ago.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": "Burgess Shale",
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"rock"
+			]
+		},
+		{
+			"id": "bc-020",
+			"name": "Sidneyia",
+			"sci": "Sidneyia inexpectans",
+			"region": "bc",
+			"number": 20,
+			"types": [
+				"Chitin",
+				"Brawn"
+			],
+			"group": "Arthropod",
+			"category": "Shell Crusher",
+			"habitat": "aquatic",
+			"family": "many_legged",
+			"stats": {
+				"hp": 75,
+				"atk": 125,
+				"def": 100,
+				"spa": 70,
+				"spd": 80,
+				"spe": 45
+			},
+			"bst": 495,
+			"abilities": [
+				"Ancient Line",
+				"Shell Crusher"
+			],
+			"height_in": 5,
+			"weight_lb": 0.2,
+			"range": "Burgess Shale, Yoho National Park",
+			"entry": "One of the bigger hunters of the Burgess Shale sea. Fossils show bits of small shelled animals and trilobites in its gut.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": "Burgess Shale",
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"rock"
+			]
+		},
+		{
+			"id": "bc-021",
+			"name": "Sockeye Alevin",
+			"sci": "Oncorhynchus nerka",
+			"region": "bc",
+			"number": 21,
+			"types": [
+				"Aqua"
+			],
+			"group": "Fish",
+			"category": "Gravel Fry",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 40,
+				"atk": 45,
+				"def": 40,
+				"spa": 35,
+				"spd": 40,
+				"spe": 50
+			},
+			"bst": 250,
+			"abilities": [
+				"Yolk Sac",
+				"Gravel Hider"
+			],
+			"height_in": 1,
+			"weight_lb": 0.001,
+			"range": "Gravel beds of BC rivers such as the Adams",
+			"entry": "Newly hatched sockeye hide in the river gravel and live off the yolk sac on their bellies. They come out once the yolk is used up.",
+			"line": "bc:sockeye",
+			"stage": "Alevin",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-022",
+			"name": "Sockeye Smolt",
+			"sci": "Oncorhynchus nerka",
+			"region": "bc",
+			"number": 22,
+			"types": [
+				"Aqua",
+				"Mind"
+			],
+			"group": "Fish",
+			"category": "Navigator",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 55,
+				"atk": 65,
+				"def": 55,
+				"spa": 60,
+				"spd": 55,
+				"spe": 90
+			},
+			"bst": 380,
+			"abilities": [
+				"Home Scent",
+				"Salt Ready"
+			],
+			"height_in": 5,
+			"weight_lb": 0.05,
+			"range": "Lakes and rivers of BC, heading to sea",
+			"entry": "After a year or two in a lake, young sockeye turn silver and head for the sea. They remember the smell of home water to find their way back years later.",
+			"line": "bc:sockeye",
+			"stage": "Smolt",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-023",
+			"name": "Sockeye Salmon",
+			"sci": "Oncorhynchus nerka",
+			"region": "bc",
+			"number": 23,
+			"types": [
+				"Aqua",
+				"Ember"
+			],
+			"group": "Fish",
+			"category": "Red Runner",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 75,
+				"atk": 110,
+				"def": 75,
+				"spa": 85,
+				"spd": 70,
+				"spe": 95
+			},
+			"bst": 510,
+			"abilities": [
+				"Home Scent",
+				"Spawning Red"
+			],
+			"height_in": 28,
+			"weight_lb": 7,
+			"range": "Rivers and lakes of BC, and the North Pacific",
+			"entry": "Adults turn bright red with green heads as they swim upriver to spawn where they hatched. Their bodies then feed the bears, eagles and trees along the stream.",
+			"line": "bc:sockeye",
+			"stage": "Spawner",
+			"stage_index": 3,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-024",
+			"name": "Tree Frog Tadpole",
+			"sci": "Pseudacris regilla",
+			"region": "bc",
+			"number": 24,
+			"types": [
+				"Aqua"
+			],
+			"group": "Amphibian",
+			"category": "Pond Tadpole",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 45,
+				"atk": 40,
+				"def": 40,
+				"spa": 40,
+				"spd": 40,
+				"spe": 60
+			},
+			"bst": 265,
+			"abilities": [
+				"Gill Breather",
+				"Pond Grazer"
+			],
+			"height_in": 1,
+			"weight_lb": 0.01,
+			"range": "Ponds and wetlands across southern BC",
+			"entry": "Pacific tree frog tadpoles graze algae in shallow ponds. They grow legs and leave the water a couple of months after hatching.",
+			"line": "bc:treefrog",
+			"stage": "Tadpole",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-025",
+			"name": "Pacific Tree Frog",
+			"sci": "Pseudacris regilla",
+			"region": "bc",
+			"number": 25,
+			"types": [
+				"Aqua",
+				"Charm"
+			],
+			"group": "Amphibian",
+			"category": "Chorus Frog",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 65,
+				"atk": 70,
+				"def": 60,
+				"spa": 85,
+				"spd": 70,
+				"spe": 100
+			},
+			"bst": 450,
+			"abilities": [
+				"Colour Shift",
+				"Spring Chorus"
+			],
+			"height_in": 2,
+			"weight_lb": 0.02,
+			"range": "Ponds, gardens and forests across southern BC",
+			"entry": "This small frog can change from green to brown over a few weeks. Its loud spring chorus is the familiar \"ribbit\" heard in many films.",
+			"line": "bc:treefrog",
+			"stage": "Adult",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-026",
+			"name": "Western Toad Tadpole",
+			"sci": "Anaxyrus boreas",
+			"region": "bc",
+			"number": 26,
+			"types": [
+				"Aqua"
+			],
+			"group": "Amphibian",
+			"category": "Swarm Tadpole",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 45,
+				"atk": 45,
+				"def": 45,
+				"spa": 35,
+				"spd": 40,
+				"spe": 50
+			},
+			"bst": 260,
+			"abilities": [
+				"Swarm Schooling",
+				"Bitter Skin"
+			],
+			"height_in": 1,
+			"weight_lb": 0.01,
+			"range": "Lakes and ponds across BC",
+			"entry": "Western toad tadpoles gather in huge black swarms in warm shallows. Each summer, thousands of tiny toadlets leave some BC lakes at once.",
+			"line": "bc:westerntoad",
+			"stage": "Tadpole",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-027",
+			"name": "Western Toad",
+			"sci": "Anaxyrus boreas",
+			"region": "bc",
+			"number": 27,
+			"types": [
+				"Soil",
+				"Toxin"
+			],
+			"group": "Amphibian",
+			"category": "Warty Toad",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 85,
+				"spa": 75,
+				"spd": 85,
+				"spe": 50
+			},
+			"bst": 450,
+			"abilities": [
+				"Toxic Glands",
+				"Burrower"
+			],
+			"height_in": 5,
+			"weight_lb": 0.2,
+			"range": "Forests, meadows and wetlands across BC",
+			"entry": "Glands behind its eyes ooze a bitter poison that makes predators drop it. It walks more than it hops and shelters in burrows.",
+			"line": "bc:westerntoad",
+			"stage": "Adult",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-028",
+			"name": "Newt Larva",
+			"sci": "Taricha granulosa",
+			"region": "bc",
+			"number": 28,
+			"types": [
+				"Aqua"
+			],
+			"group": "Amphibian",
+			"category": "Gilled Larva",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 50,
+				"atk": 45,
+				"def": 45,
+				"spa": 50,
+				"spd": 50,
+				"spe": 50
+			},
+			"bst": 290,
+			"abilities": [
+				"Feather Gills",
+				"Pond Hunter"
+			],
+			"height_in": 2,
+			"weight_lb": 0.01,
+			"range": "Ponds and lakes of coastal BC",
+			"entry": "Rough-skinned newt larvae have feathery gills and hunt tiny animals in ponds. They lose their gills before leaving the water.",
+			"line": "bc:roughnewt",
+			"stage": "Larva",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-029",
+			"name": "Rough-skinned Newt",
+			"sci": "Taricha granulosa",
+			"region": "bc",
+			"number": 29,
+			"types": [
+				"Toxin",
+				"Aqua"
+			],
+			"group": "Amphibian",
+			"category": "Poison Newt",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 75,
+				"atk": 70,
+				"def": 85,
+				"spa": 95,
+				"spd": 95,
+				"spe": 60
+			},
+			"bst": 480,
+			"abilities": [
+				"Tetrodotoxin",
+				"Warning Belly"
+			],
+			"height_in": 8,
+			"weight_lb": 0.04,
+			"range": "Forests and ponds of coastal BC",
+			"entry": "Its skin holds tetrodotoxin, one of the strongest poisons known. When threatened, it arches its back to flash a bright orange belly.",
+			"line": "bc:roughnewt",
+			"stage": "Adult",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-030",
+			"name": "Crab Megalopa",
+			"sci": "Metacarcinus magister",
+			"region": "bc",
+			"number": 30,
+			"types": [
+				"Aqua",
+				"Chitin"
+			],
+			"group": "Crustacean",
+			"category": "Drifting Larva",
+			"habitat": "aquatic",
+			"family": "many_legged",
+			"stats": {
+				"hp": 45,
+				"atk": 55,
+				"def": 50,
+				"spa": 40,
+				"spd": 45,
+				"spe": 65
+			},
+			"bst": 300,
+			"abilities": [
+				"Ocean Drifter",
+				"Tiny Claws"
+			],
+			"height_in": 0.2,
+			"weight_lb": 0.0001,
+			"range": "Coastal waters of BC",
+			"entry": "After months drifting in the plankton, young Dungeness crabs settle as megalopae. Huge swarms of them wash into BC bays in spring.",
+			"line": "bc:dungeness",
+			"stage": "Megalopa",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-031",
+			"name": "Dungeness Crab",
+			"sci": "Metacarcinus magister",
+			"region": "bc",
+			"number": 31,
+			"types": [
+				"Aqua",
+				"Armor"
+			],
+			"group": "Crustacean",
+			"category": "Sand Crab",
+			"habitat": "aquatic",
+			"family": "many_legged",
+			"stats": {
+				"hp": 75,
+				"atk": 105,
+				"def": 110,
+				"spa": 50,
+				"spd": 70,
+				"spe": 70
+			},
+			"bst": 480,
+			"abilities": [
+				"Hard Shell",
+				"Sand Burrower"
+			],
+			"height_in": 4,
+			"weight_lb": 2.5,
+			"range": "Sandy and muddy bottoms of the BC coast",
+			"entry": "It buries itself in sand with only its eyes showing. To grow, it sheds its whole shell and hides while the new one hardens.",
+			"line": "bc:dungeness",
+			"stage": "Adult",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-032",
+			"name": "Darner Nymph",
+			"sci": "Aeshna palmata",
+			"region": "bc",
+			"number": 32,
+			"types": [
+				"Aqua",
+				"Chitin"
+			],
+			"group": "Insect",
+			"category": "Pond Ambusher",
+			"habitat": "aquatic",
+			"family": "insect",
+			"stats": {
+				"hp": 50,
+				"atk": 65,
+				"def": 45,
+				"spa": 40,
+				"spd": 45,
+				"spe": 55
+			},
+			"bst": 300,
+			"abilities": [
+				"Jet Swimmer",
+				"Hinged Jaw"
+			],
+			"height_in": 1.6,
+			"weight_lb": 0.01,
+			"range": "Ponds and lakes across BC",
+			"entry": "The nymph lives underwater for a year or more. It snaps prey with a hinged lower lip and jets away by squirting water from its rear.",
+			"line": "bc:darner",
+			"stage": "Nymph",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-033",
+			"name": "Paddle-tailed Darner",
+			"sci": "Aeshna palmata",
+			"region": "bc",
+			"number": 33,
+			"types": [
+				"Chitin",
+				"Sky"
+			],
+			"group": "Insect",
+			"category": "Mosaic Darner",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 65,
+				"atk": 90,
+				"def": 60,
+				"spa": 65,
+				"spd": 60,
+				"spe": 110
+			},
+			"bst": 450,
+			"abilities": [
+				"Hawker",
+				"Compound Eyes"
+			],
+			"height_in": 3,
+			"weight_lb": 0.003,
+			"range": "Ponds, lakes and meadows across BC",
+			"entry": "A large blue-spotted dragonfly that hunts other insects on the wing. It can fly forward, backward and hover in place.",
+			"line": "bc:darner",
+			"stage": "Adult",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-034",
+			"name": "Mourning Cloak Caterpillar",
+			"sci": "Nymphalis antiopa",
+			"region": "bc",
+			"number": 34,
+			"types": [
+				"Chitin",
+				"Toxin"
+			],
+			"group": "Insect",
+			"category": "Spiny Larva",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 45,
+				"atk": 45,
+				"def": 50,
+				"spa": 35,
+				"spd": 45,
+				"spe": 40
+			},
+			"bst": 260,
+			"abilities": [
+				"Spiny Back",
+				"Group Feeder"
+			],
+			"height_in": 2,
+			"weight_lb": 0.01,
+			"range": "Willows and aspens across BC",
+			"entry": "These spiny black caterpillars with red spots feed together in groups on willow and aspen leaves.",
+			"line": "bc:mourningcloak",
+			"stage": "Caterpillar",
+			"stage_index": 1,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-035",
+			"name": "Mourning Cloak",
+			"sci": "Nymphalis antiopa",
+			"region": "bc",
+			"number": 35,
+			"types": [
+				"Chitin",
+				"Frost"
+			],
+			"group": "Insect",
+			"category": "Winter Butterfly",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 70,
+				"atk": 60,
+				"def": 65,
+				"spa": 85,
+				"spd": 75,
+				"spe": 95
+			},
+			"bst": 450,
+			"abilities": [
+				"Overwinter",
+				"Sun Basker"
+			],
+			"height_in": 3,
+			"weight_lb": 0.002,
+			"range": "Forests across BC",
+			"entry": "It survives the winter as an adult, tucked under bark with an antifreeze in its body. It is often the first butterfly seen in spring, sometimes with snow still on the ground.",
+			"line": "bc:mourningcloak",
+			"stage": "Adult",
+			"stage_index": 2,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"ice"
+			]
+		},
+		{
+			"id": "bc-036",
+			"name": "American Black Bear",
+			"sci": "Ursus americanus",
+			"region": "bc",
+			"number": 36,
+			"types": [
+				"Common",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Forest Bear",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 90,
+				"atk": 100,
+				"def": 75,
+				"spa": 50,
+				"spd": 65,
+				"spe": 60
+			},
+			"bst": 440,
+			"abilities": [
+				"Tree Climber",
+				"Big Appetite"
+			],
+			"height_in": 36,
+			"weight_lb": 250,
+			"range": "Forests across BC",
+			"entry": "The most common bear in BC, found in almost every forest. In autumn it can eat 20,000 calories a day to fatten up for winter.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-037",
+			"name": "Cougar",
+			"sci": "Puma concolor",
+			"region": "bc",
+			"number": 37,
+			"types": [
+				"Night",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Ghost Cat",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 80,
+				"atk": 115,
+				"def": 70,
+				"spa": 55,
+				"spd": 65,
+				"spe": 110
+			},
+			"bst": 495,
+			"abilities": [
+				"Ambush Leap",
+				"Silent Stalker"
+			],
+			"height_in": 30,
+			"weight_lb": 150,
+			"range": "Forests and mountains across southern BC",
+			"entry": "Vancouver Island has one of the densest cougar populations in the world. A cougar can leap more than 5 metres up into a tree.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"mountain"
+			]
+		},
+		{
+			"id": "bc-038",
+			"name": "Canada Lynx",
+			"sci": "Lynx canadensis",
+			"region": "bc",
+			"number": 38,
+			"types": [
+				"Night",
+				"Frost"
+			],
+			"group": "Mammal",
+			"category": "Snowshoe Cat",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 70,
+				"atk": 90,
+				"def": 60,
+				"spa": 60,
+				"spd": 70,
+				"spe": 100
+			},
+			"bst": 450,
+			"abilities": [
+				"Snowshoe Paws",
+				"Tufted Ears"
+			],
+			"height_in": 24,
+			"weight_lb": 25,
+			"range": "Northern and mountain forests of BC",
+			"entry": "Its huge furry paws work like snowshoes. Its numbers rise and fall every ten years or so along with the snowshoe hares it hunts.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"ice"
+			]
+		},
+		{
+			"id": "bc-039",
+			"name": "Coyote",
+			"sci": "Canis latrans",
+			"region": "bc",
+			"number": 39,
+			"types": [
+				"Common",
+				"Mind"
+			],
+			"group": "Mammal",
+			"category": "Trickster Dog",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 75,
+				"atk": 80,
+				"def": 60,
+				"spa": 70,
+				"spd": 65,
+				"spe": 95
+			},
+			"bst": 445,
+			"abilities": [
+				"Adaptable",
+				"Night Chorus"
+			],
+			"height_in": 24,
+			"weight_lb": 30,
+			"range": "Across BC, including Vancouver",
+			"entry": "Coyotes have moved into cities across BC, including Stanley Park. They eat almost anything, from mice and berries to garbage.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow",
+				"urban"
+			]
+		},
+		{
+			"id": "bc-040",
+			"name": "Moose",
+			"sci": "Alces alces",
+			"region": "bc",
+			"number": 40,
+			"types": [
+				"Brawn",
+				"Aqua"
+			],
+			"group": "Mammal",
+			"category": "Marsh Giant",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 110,
+				"atk": 120,
+				"def": 90,
+				"spa": 50,
+				"spd": 70,
+				"spe": 50
+			},
+			"bst": 490,
+			"abilities": [
+				"Water Plants",
+				"Broad Antlers"
+			],
+			"height_in": 80,
+			"weight_lb": 1100,
+			"range": "Forests and wetlands of central and northern BC",
+			"entry": "The largest deer in the world. It wades into lakes for water plants and can dive almost 6 metres to reach them.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-041",
+			"name": "Roosevelt Elk",
+			"sci": "Cervus canadensis roosevelti",
+			"region": "bc",
+			"number": 41,
+			"types": [
+				"Brawn",
+				"Common"
+			],
+			"group": "Mammal",
+			"category": "Bugler",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 95,
+				"atk": 110,
+				"def": 80,
+				"spa": 50,
+				"spd": 70,
+				"spe": 75
+			},
+			"bst": 480,
+			"abilities": [
+				"Bugle Call",
+				"Antler Clash"
+			],
+			"height_in": 60,
+			"weight_lb": 900,
+			"range": "Vancouver Island and the Sunshine Coast",
+			"entry": "The largest elk in North America. In autumn the bulls bugle and clash antlers to win a group of females.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-042",
+			"name": "Black-tailed Deer",
+			"sci": "Odocoileus hemionus columbianus",
+			"region": "bc",
+			"number": 42,
+			"types": [
+				"Common"
+			],
+			"group": "Mammal",
+			"category": "Coast Deer",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 70,
+				"atk": 70,
+				"def": 60,
+				"spa": 50,
+				"spd": 60,
+				"spe": 95
+			},
+			"bst": 405,
+			"abilities": [
+				"Quick Bound",
+				"Big Ears"
+			],
+			"height_in": 40,
+			"weight_lb": 150,
+			"range": "Coastal forests and gardens of BC",
+			"entry": "A coastal kind of mule deer with a black tail. Fawns have white spots and lie still in the grass while their mother feeds.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-043",
+			"name": "Mountain Caribou",
+			"sci": "Rangifer tarandus caribou",
+			"region": "bc",
+			"number": 43,
+			"types": [
+				"Frost",
+				"Common"
+			],
+			"group": "Mammal",
+			"category": "Snow Walker",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 90,
+				"atk": 90,
+				"def": 80,
+				"spa": 60,
+				"spd": 80,
+				"spe": 70
+			},
+			"bst": 470,
+			"abilities": [
+				"Snowpack Walker",
+				"Lichen Eater"
+			],
+			"height_in": 48,
+			"weight_lb": 400,
+			"range": "Inland rainforests and mountains of eastern BC",
+			"entry": "In winter it walks on deep, hard snowpack to reach lichens hanging from old trees. Both males and females grow antlers.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"mountain",
+				"ice"
+			]
+		},
+		{
+			"id": "bc-044",
+			"name": "American Pika",
+			"sci": "Ochotona princeps",
+			"region": "bc",
+			"number": 44,
+			"types": [
+				"Stone",
+				"Frost"
+			],
+			"group": "Mammal",
+			"category": "Rock Rabbit",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 55,
+				"atk": 50,
+				"def": 60,
+				"spa": 50,
+				"spd": 60,
+				"spe": 85
+			},
+			"bst": 360,
+			"abilities": [
+				"Hay Pile",
+				"Rock Squeak"
+			],
+			"height_in": 7,
+			"weight_lb": 0.4,
+			"range": "Rocky slopes in the BC mountains",
+			"entry": "A small relative of rabbits that lives in rock piles. All summer it gathers grass and flowers into hay piles to eat through the winter.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"mountain"
+			]
+		},
+		{
+			"id": "bc-045",
+			"name": "Hoary Marmot",
+			"sci": "Marmota caligata",
+			"region": "bc",
+			"number": 45,
+			"types": [
+				"Stone",
+				"Frost"
+			],
+			"group": "Mammal",
+			"category": "Whistler",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 90,
+				"atk": 80,
+				"def": 85,
+				"spa": 50,
+				"spd": 70,
+				"spe": 55
+			},
+			"bst": 430,
+			"abilities": [
+				"Alarm Whistle",
+				"Deep Hibernation"
+			],
+			"height_in": 28,
+			"weight_lb": 20,
+			"range": "Alpine meadows of BC mountains",
+			"entry": "Its shrill alarm whistle gave the town of Whistler its name. It hibernates for up to eight months of the year.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"mountain"
+			]
+		},
+		{
+			"id": "bc-046",
+			"name": "Douglas Squirrel",
+			"sci": "Tamiasciurus douglasii",
+			"region": "bc",
+			"number": 46,
+			"types": [
+				"Common",
+				"Verdant"
+			],
+			"group": "Mammal",
+			"category": "Cone Hoarder",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 55,
+				"atk": 55,
+				"def": 45,
+				"spa": 45,
+				"spd": 50,
+				"spe": 90
+			},
+			"bst": 340,
+			"abilities": [
+				"Cone Cache",
+				"Chatter"
+			],
+			"height_in": 7,
+			"weight_lb": 0.6,
+			"range": "Coastal conifer forests of BC",
+			"entry": "It cuts green cones from the treetops and buries thousands of them in piles for winter. The cones it forgets can sprout into new trees.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-047",
+			"name": "Northern Flying Squirrel",
+			"sci": "Glaucomys sabrinus",
+			"region": "bc",
+			"number": 47,
+			"types": [
+				"Sky",
+				"Night"
+			],
+			"group": "Mammal",
+			"category": "Night Glider",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 60,
+				"atk": 55,
+				"def": 50,
+				"spa": 70,
+				"spd": 60,
+				"spe": 95
+			},
+			"bst": 390,
+			"abilities": [
+				"Skin Glider",
+				"Truffle Digger"
+			],
+			"height_in": 6,
+			"weight_lb": 0.3,
+			"range": "Forests across BC",
+			"entry": "It glides between trees on flaps of skin at night. It eats truffles and spreads their spores, which help the trees grow.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-048",
+			"name": "North American Porcupine",
+			"sci": "Erethizon dorsatum",
+			"region": "bc",
+			"number": 48,
+			"types": [
+				"Armor",
+				"Verdant"
+			],
+			"group": "Mammal",
+			"category": "Quill Pig",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 80,
+				"atk": 70,
+				"def": 110,
+				"spa": 50,
+				"spd": 75,
+				"spe": 35
+			},
+			"bst": 420,
+			"abilities": [
+				"Barbed Quills",
+				"Bark Eater"
+			],
+			"height_in": 30,
+			"weight_lb": 25,
+			"range": "Forests across BC",
+			"entry": "About 30,000 quills cover its back. They come loose at a touch, and their tiny barbs work them deeper into an attacker.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-049",
+			"name": "North American River Otter",
+			"sci": "Lontra canadensis",
+			"region": "bc",
+			"number": 49,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "River Otter",
+			"habitat": "amphibious",
+			"family": "quadruped",
+			"stats": {
+				"hp": 70,
+				"atk": 90,
+				"def": 60,
+				"spa": 60,
+				"spd": 60,
+				"spe": 95
+			},
+			"bst": 435,
+			"abilities": [
+				"Closing Ears",
+				"Playful"
+			],
+			"height_in": 40,
+			"weight_lb": 25,
+			"range": "Rivers, lakes and seashores across BC",
+			"entry": "It closes its ears and nostrils underwater. River otters often hunt along BC beaches and are mistaken for sea otters.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-050",
+			"name": "American Mink",
+			"sci": "Neovison vison",
+			"region": "bc",
+			"number": 50,
+			"types": [
+				"Aqua",
+				"Night"
+			],
+			"group": "Mammal",
+			"category": "Shore Hunter",
+			"habitat": "amphibious",
+			"family": "quadruped",
+			"stats": {
+				"hp": 60,
+				"atk": 85,
+				"def": 50,
+				"spa": 60,
+				"spd": 55,
+				"spe": 100
+			},
+			"bst": 410,
+			"abilities": [
+				"Musk Spray",
+				"Shore Hunter"
+			],
+			"height_in": 18,
+			"weight_lb": 3,
+			"range": "Streams, marshes and shores across BC",
+			"entry": "A small, fierce hunter of fish, frogs and crabs. Like a skunk, it can spray a strong-smelling musk.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-051",
+			"name": "Pacific Marten",
+			"sci": "Martes caurina",
+			"region": "bc",
+			"number": 51,
+			"types": [
+				"Night",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Treetop Hunter",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 65,
+				"atk": 85,
+				"def": 55,
+				"spa": 55,
+				"spd": 60,
+				"spe": 105
+			},
+			"bst": 425,
+			"abilities": [
+				"Tree Runner",
+				"Snow Tunnel"
+			],
+			"height_in": 22,
+			"weight_lb": 3,
+			"range": "Coastal and mountain forests of BC",
+			"entry": "It races through the treetops after squirrels. In winter it hunts voles in tunnels under the snow.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-052",
+			"name": "Fisher",
+			"sci": "Pekania pennanti",
+			"region": "bc",
+			"number": 52,
+			"types": [
+				"Night",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Forest Hunter",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 80,
+				"atk": 100,
+				"def": 65,
+				"spa": 50,
+				"spd": 65,
+				"spe": 90
+			},
+			"bst": 450,
+			"abilities": [
+				"Quill Hunter",
+				"Swivel Ankles"
+			],
+			"height_in": 36,
+			"weight_lb": 12,
+			"range": "Forests of central and northern BC",
+			"entry": "One of the few predators that can safely hunt porcupines. Its ankles turn so far that it can climb down trees head first.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-053",
+			"name": "American Badger",
+			"sci": "Taxidea taxus jeffersonii",
+			"region": "bc",
+			"number": 53,
+			"types": [
+				"Soil",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Digger",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 85,
+				"atk": 95,
+				"def": 85,
+				"spa": 40,
+				"spd": 65,
+				"spe": 60
+			},
+			"bst": 430,
+			"abilities": [
+				"Fast Digger",
+				"Fierce"
+			],
+			"height_in": 30,
+			"weight_lb": 20,
+			"range": "Grasslands of the BC Interior",
+			"entry": "It digs faster than almost any animal, chasing ground squirrels right through their burrows. Only a few hundred live in BC.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"dry",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-054",
+			"name": "Little Brown Bat",
+			"sci": "Myotis lucifugus",
+			"region": "bc",
+			"number": 54,
+			"types": [
+				"Night",
+				"Sky"
+			],
+			"group": "Mammal",
+			"category": "Echo Hunter",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 55,
+				"atk": 55,
+				"def": 45,
+				"spa": 70,
+				"spd": 55,
+				"spe": 95
+			},
+			"bst": 375,
+			"abilities": [
+				"Echolocation",
+				"Bug Eater"
+			],
+			"height_in": 3.5,
+			"weight_lb": 0.02,
+			"range": "Caves, attics and forests across BC",
+			"entry": "It finds insects in the dark by their echoes and can catch hundreds of small insects in an hour. White-nose syndrome now threatens it.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"cave",
+				"urban"
+			]
+		},
+		{
+			"id": "bc-055",
+			"name": "Snowshoe Hare",
+			"sci": "Lepus americanus",
+			"region": "bc",
+			"number": 55,
+			"types": [
+				"Frost",
+				"Common"
+			],
+			"group": "Mammal",
+			"category": "Colour Changer",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 60,
+				"atk": 60,
+				"def": 55,
+				"spa": 50,
+				"spd": 60,
+				"spe": 100
+			},
+			"bst": 385,
+			"abilities": [
+				"Winter Coat",
+				"Big Feet"
+			],
+			"height_in": 18,
+			"weight_lb": 3.5,
+			"range": "Forests across BC",
+			"entry": "Its coat turns from brown in summer to white in winter. Its big hind feet keep it from sinking in snow.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"ice"
+			]
+		},
+		{
+			"id": "bc-056",
+			"name": "Coast Mole",
+			"sci": "Scapanus orarius",
+			"region": "bc",
+			"number": 56,
+			"types": [
+				"Soil"
+			],
+			"group": "Mammal",
+			"category": "Tunneler",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 65,
+				"atk": 70,
+				"def": 70,
+				"spa": 40,
+				"spd": 55,
+				"spe": 40
+			},
+			"bst": 340,
+			"abilities": [
+				"Shovel Hands",
+				"Tunnel Network"
+			],
+			"height_in": 6,
+			"weight_lb": 0.2,
+			"range": "Fields and gardens of the Lower Mainland and Fraser Valley",
+			"entry": "It swims through soil with huge shovel-like hands. The molehills in BC lawns are the dirt it pushes up from its tunnels.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow",
+				"cave"
+			]
+		},
+		{
+			"id": "bc-057",
+			"name": "Bushy-tailed Woodrat",
+			"sci": "Neotoma cinerea",
+			"region": "bc",
+			"number": 57,
+			"types": [
+				"Common",
+				"Night"
+			],
+			"group": "Mammal",
+			"category": "Pack Rat",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 70,
+				"atk": 60,
+				"def": 60,
+				"spa": 60,
+				"spd": 60,
+				"spe": 70
+			},
+			"bst": 380,
+			"abilities": [
+				"Shiny Collector",
+				"Cliff Den"
+			],
+			"height_in": 9,
+			"weight_lb": 0.7,
+			"range": "Rocky cliffs, caves and old buildings across BC",
+			"entry": "This pack rat collects shiny objects for its nest and sometimes leaves a stick or stone in their place. Its nests can be used for thousands of years.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"cave",
+				"mountain"
+			]
+		},
+		{
+			"id": "bc-058",
+			"name": "Mountain Beaver",
+			"sci": "Aplodontia rufa",
+			"region": "bc",
+			"number": 58,
+			"types": [
+				"Soil",
+				"Stone"
+			],
+			"group": "Mammal",
+			"category": "Living Fossil",
+			"habitat": "land",
+			"family": "quadruped",
+			"stats": {
+				"hp": 80,
+				"atk": 70,
+				"def": 75,
+				"spa": 50,
+				"spd": 65,
+				"spe": 40
+			},
+			"bst": 380,
+			"abilities": [
+				"Ancient Line",
+				"Fern Eater"
+			],
+			"height_in": 14,
+			"weight_lb": 2.5,
+			"range": "Wet forests of the southern Coast Mountains",
+			"entry": "Not a beaver at all, it is the last living species of a very old family of rodents. It eats ferns that most animals avoid.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-059",
+			"name": "Sea Otter",
+			"sci": "Enhydra lutris",
+			"region": "bc",
+			"number": 59,
+			"types": [
+				"Aqua",
+				"Mind"
+			],
+			"group": "Mammal",
+			"category": "Kelp Keeper",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 70,
+				"spa": 85,
+				"spd": 80,
+				"spe": 70
+			},
+			"bst": 460,
+			"abilities": [
+				"Tool User",
+				"Thick Fur"
+			],
+			"height_in": 48,
+			"weight_lb": 65,
+			"range": "West coast of Vancouver Island and the Central Coast",
+			"entry": "It cracks urchins on a rock balanced on its chest. By eating urchins, it lets kelp forests grow back.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-060",
+			"name": "Steller Sea Lion",
+			"sci": "Eumetopias jubatus",
+			"region": "bc",
+			"number": 60,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Roaring Lion",
+			"habitat": "amphibious",
+			"family": "swimmer",
+			"stats": {
+				"hp": 100,
+				"atk": 105,
+				"def": 80,
+				"spa": 60,
+				"spd": 75,
+				"spe": 65
+			},
+			"bst": 485,
+			"abilities": [
+				"Roar",
+				"Haul Out"
+			],
+			"height_in": 120,
+			"weight_lb": 1200,
+			"range": "Rocky islands along the BC coast",
+			"entry": "The largest sea lion in the world. Males roar from rocky islands to guard their group of females.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-061",
+			"name": "Harbour Seal",
+			"sci": "Phoca vitulina",
+			"region": "bc",
+			"number": 61,
+			"types": [
+				"Aqua",
+				"Common"
+			],
+			"group": "Mammal",
+			"category": "Harbour Seal",
+			"habitat": "amphibious",
+			"family": "swimmer",
+			"stats": {
+				"hp": 85,
+				"atk": 70,
+				"def": 70,
+				"spa": 60,
+				"spd": 70,
+				"spe": 60
+			},
+			"bst": 415,
+			"abilities": [
+				"Haul Out",
+				"Whisker Sense"
+			],
+			"height_in": 60,
+			"weight_lb": 220,
+			"range": "Harbours and bays along the whole BC coast",
+			"entry": "The most common marine mammal in BC. Its whiskers feel the wakes of fish swimming by, even in dark water.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-062",
+			"name": "Dall's Porpoise",
+			"sci": "Phocoenoides dalli",
+			"region": "bc",
+			"number": 62,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Mammal",
+			"category": "Rooster Tail",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 70,
+				"atk": 90,
+				"def": 60,
+				"spa": 65,
+				"spd": 60,
+				"spe": 120
+			},
+			"bst": 465,
+			"abilities": [
+				"Rooster Tail",
+				"Sprint Swimmer"
+			],
+			"height_in": 80,
+			"weight_lb": 400,
+			"range": "Deep waters along the BC coast",
+			"entry": "One of the fastest small whales. It throws up a \"rooster tail\" of spray as it races along the surface.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-063",
+			"name": "Pacific White-sided Dolphin",
+			"sci": "Lagenorhynchus obliquidens",
+			"region": "bc",
+			"number": 63,
+			"types": [
+				"Aqua",
+				"Charm"
+			],
+			"group": "Mammal",
+			"category": "Acrobat",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 75,
+				"atk": 70,
+				"def": 60,
+				"spa": 90,
+				"spd": 75,
+				"spe": 110
+			},
+			"bst": 480,
+			"abilities": [
+				"Acrobat",
+				"Pod Caller"
+			],
+			"height_in": 90,
+			"weight_lb": 330,
+			"range": "Coastal waters and inlets of BC",
+			"entry": "It travels in noisy pods that can number in the hundreds. It often leaps and somersaults beside boats.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-064",
+			"name": "Steller's Jay",
+			"sci": "Cyanocitta stelleri",
+			"region": "bc",
+			"number": 64,
+			"types": [
+				"Sky",
+				"Mind"
+			],
+			"group": "Bird",
+			"category": "Mimic Jay",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 65,
+				"atk": 70,
+				"def": 55,
+				"spa": 80,
+				"spd": 60,
+				"spe": 90
+			},
+			"bst": 420,
+			"abilities": [
+				"Hawk Mimic",
+				"Cache Memory"
+			],
+			"height_in": 12,
+			"weight_lb": 0.25,
+			"range": "Forests and towns across BC",
+			"entry": "BC's provincial bird. It mimics the scream of a red-tailed hawk to scare other birds away from food.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"urban"
+			]
+		},
+		{
+			"id": "bc-065",
+			"name": "Rufous Hummingbird",
+			"sci": "Selasphorus rufus",
+			"region": "bc",
+			"number": 65,
+			"types": [
+				"Sky",
+				"Ember"
+			],
+			"group": "Bird",
+			"category": "Fire Hummer",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 45,
+				"atk": 60,
+				"def": 45,
+				"spa": 80,
+				"spd": 55,
+				"spe": 130
+			},
+			"bst": 415,
+			"abilities": [
+				"Hover",
+				"Fierce Defender"
+			],
+			"height_in": 3.5,
+			"weight_lb": 0.01,
+			"range": "Meadows and forest edges across BC",
+			"entry": "For its size, it makes one of the longest migrations of any bird, from Mexico to BC. Males fiercely chase other birds from their flowers.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow",
+				"forest"
+			]
+		},
+		{
+			"id": "bc-066",
+			"name": "Anna's Hummingbird",
+			"sci": "Calypte anna",
+			"region": "bc",
+			"number": 66,
+			"types": [
+				"Sky",
+				"Charm"
+			],
+			"group": "Bird",
+			"category": "Dive Display",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 50,
+				"atk": 55,
+				"def": 50,
+				"spa": 85,
+				"spd": 60,
+				"spe": 120
+			},
+			"bst": 420,
+			"abilities": [
+				"Dive Display",
+				"Torpor"
+			],
+			"height_in": 4,
+			"weight_lb": 0.01,
+			"range": "Gardens of southern BC, all year",
+			"entry": "Males dive from high in the sky and make a loud chirp with their tail feathers. On cold nights it lowers its body heat to save energy.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"urban",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-067",
+			"name": "Great Blue Heron",
+			"sci": "Ardea herodias fannini",
+			"region": "bc",
+			"number": 67,
+			"types": [
+				"Aqua",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Patient Fisher",
+			"habitat": "amphibious",
+			"family": "flier",
+			"stats": {
+				"hp": 80,
+				"atk": 95,
+				"def": 65,
+				"spa": 65,
+				"spd": 70,
+				"spe": 60
+			},
+			"bst": 435,
+			"abilities": [
+				"Spear Bill",
+				"Still Hunter"
+			],
+			"height_in": 48,
+			"weight_lb": 5,
+			"range": "Shores and wetlands of the BC coast",
+			"entry": "It stands perfectly still in shallow water, then spears fish with its long bill. One of the largest colonies nests in Stanley Park.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-068",
+			"name": "Sandhill Crane",
+			"sci": "Antigone canadensis",
+			"region": "bc",
+			"number": 68,
+			"types": [
+				"Sky",
+				"Charm"
+			],
+			"group": "Bird",
+			"category": "Dancing Crane",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 65,
+				"spa": 80,
+				"spd": 75,
+				"spe": 70
+			},
+			"bst": 445,
+			"abilities": [
+				"Courtship Dance",
+				"Rattling Call"
+			],
+			"height_in": 48,
+			"weight_lb": 9,
+			"range": "Wetlands and bogs of BC, including Burns Bog",
+			"entry": "Pairs dance together with leaps, bows and wing-flaps. They often paint their grey feathers rusty brown with muddy water.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-069",
+			"name": "Trumpeter Swan",
+			"sci": "Cygnus buccinator",
+			"region": "bc",
+			"number": 69,
+			"types": [
+				"Sky",
+				"Aqua"
+			],
+			"group": "Bird",
+			"category": "Trumpet Swan",
+			"habitat": "amphibious",
+			"family": "flier",
+			"stats": {
+				"hp": 95,
+				"atk": 85,
+				"def": 75,
+				"spa": 80,
+				"spd": 80,
+				"spe": 60
+			},
+			"bst": 475,
+			"abilities": [
+				"Trumpet Call",
+				"Long Neck"
+			],
+			"height_in": 60,
+			"weight_lb": 25,
+			"range": "Lakes, rivers and farm fields of BC in winter",
+			"entry": "The heaviest flying bird in North America. It nearly died out in the 1930s, and many now spend the winter in BC.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-070",
+			"name": "Snow Goose",
+			"sci": "Anser caerulescens",
+			"region": "bc",
+			"number": 70,
+			"types": [
+				"Frost",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Delta Goose",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 75,
+				"atk": 70,
+				"def": 65,
+				"spa": 70,
+				"spd": 70,
+				"spe": 80
+			},
+			"bst": 430,
+			"abilities": [
+				"Flock Flight",
+				"Root Grubber"
+			],
+			"height_in": 30,
+			"weight_lb": 6,
+			"range": "Fraser River delta in autumn and spring",
+			"entry": "Tens of thousands stop on the Fraser delta each year on their way from Wrangel Island in Russia. They grub up marsh roots with their strong bills.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-071",
+			"name": "Harlequin Duck",
+			"sci": "Histrionicus histrionicus",
+			"region": "bc",
+			"number": 71,
+			"types": [
+				"Aqua",
+				"Charm"
+			],
+			"group": "Bird",
+			"category": "Torrent Duck",
+			"habitat": "amphibious",
+			"family": "flier",
+			"stats": {
+				"hp": 65,
+				"atk": 70,
+				"def": 65,
+				"spa": 80,
+				"spd": 70,
+				"spe": 80
+			},
+			"bst": 430,
+			"abilities": [
+				"Torrent Diver",
+				"Painted Face"
+			],
+			"height_in": 16,
+			"weight_lb": 1.3,
+			"range": "Mountain rivers in summer and rocky coasts in winter",
+			"entry": "It dives in fast white-water rivers to catch insects on the bottom. The males look painted with white stripes and chestnut sides.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-072",
+			"name": "Osprey",
+			"sci": "Pandion haliaetus",
+			"region": "bc",
+			"number": 72,
+			"types": [
+				"Sky",
+				"Aqua"
+			],
+			"group": "Bird",
+			"category": "Fish Hawk",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 70,
+				"atk": 100,
+				"def": 65,
+				"spa": 60,
+				"spd": 65,
+				"spe": 90
+			},
+			"bst": 450,
+			"abilities": [
+				"Feet-first Dive",
+				"Reversible Toe"
+			],
+			"height_in": 22,
+			"weight_lb": 3.5,
+			"range": "Lakes, rivers and coasts across BC",
+			"entry": "It hovers, then plunges feet first to grab fish. It carries them head forward to cut through the air.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-073",
+			"name": "American Crow",
+			"sci": "Corvus brachyrhynchos",
+			"region": "bc",
+			"number": 73,
+			"types": [
+				"Common",
+				"Mind"
+			],
+			"group": "Bird",
+			"category": "Clever Crow",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 65,
+				"atk": 70,
+				"def": 55,
+				"spa": 80,
+				"spd": 65,
+				"spe": 80
+			},
+			"bst": 415,
+			"abilities": [
+				"Face Memory",
+				"Shore Forager"
+			],
+			"height_in": 17,
+			"weight_lb": 1,
+			"range": "Towns, farms and shores across BC",
+			"entry": "Crows remember the faces of people who threaten them for years. Every evening thousands fly to one roost in Burnaby.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"urban",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-074",
+			"name": "Varied Thrush",
+			"sci": "Ixoreus naevius",
+			"region": "bc",
+			"number": 74,
+			"types": [
+				"Common",
+				"Charm"
+			],
+			"group": "Bird",
+			"category": "Forest Whistler",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 60,
+				"atk": 60,
+				"def": 55,
+				"spa": 75,
+				"spd": 70,
+				"spe": 80
+			},
+			"bst": 400,
+			"abilities": [
+				"Eerie Whistle",
+				"Leaf Flipper"
+			],
+			"height_in": 9,
+			"weight_lb": 0.2,
+			"range": "Wet coastal and mountain forests of BC",
+			"entry": "Its song is a single long, buzzy whistle that echoes through foggy forests. It flips dead leaves to find insects and worms.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-075",
+			"name": "American Dipper",
+			"sci": "Cinclus mexicanus",
+			"region": "bc",
+			"number": 75,
+			"types": [
+				"Aqua",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Water Ouzel",
+			"habitat": "amphibious",
+			"family": "flier",
+			"stats": {
+				"hp": 60,
+				"atk": 65,
+				"def": 65,
+				"spa": 65,
+				"spd": 65,
+				"spe": 80
+			},
+			"bst": 400,
+			"abilities": [
+				"River Walker",
+				"Bobbing"
+			],
+			"height_in": 7,
+			"weight_lb": 0.1,
+			"range": "Fast mountain streams across BC",
+			"entry": "A songbird that walks underwater along stream bottoms, gripping rocks to hunt insect larvae. It bobs up and down on rocks between dives.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-076",
+			"name": "Pileated Woodpecker",
+			"sci": "Dryocopus pileatus",
+			"region": "bc",
+			"number": 76,
+			"types": [
+				"Sky",
+				"Brawn"
+			],
+			"group": "Bird",
+			"category": "Log Hammer",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 70,
+				"atk": 100,
+				"def": 65,
+				"spa": 50,
+				"spd": 60,
+				"spe": 75
+			},
+			"bst": 420,
+			"abilities": [
+				"Chisel Bill",
+				"Shock Skull"
+			],
+			"height_in": 18,
+			"weight_lb": 0.7,
+			"range": "Forests across BC",
+			"entry": "It chisels big rectangular holes in trees to reach carpenter ants. Owls, ducks and squirrels later nest in its old holes.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-077",
+			"name": "Northern Flicker",
+			"sci": "Colaptes auratus",
+			"region": "bc",
+			"number": 77,
+			"types": [
+				"Sky",
+				"Soil"
+			],
+			"group": "Bird",
+			"category": "Ant Hunter",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 65,
+				"atk": 75,
+				"def": 55,
+				"spa": 60,
+				"spd": 60,
+				"spe": 85
+			},
+			"bst": 400,
+			"abilities": [
+				"Ant Lapper",
+				"Drumming"
+			],
+			"height_in": 12,
+			"weight_lb": 0.3,
+			"range": "Open forests, farms and towns across BC",
+			"entry": "A woodpecker that often feeds on the ground, lapping up ants with its long sticky tongue. Western birds flash salmon-red under their wings.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow",
+				"urban"
+			]
+		},
+		{
+			"id": "bc-078",
+			"name": "Bushtit",
+			"sci": "Psaltriparus minimus",
+			"region": "bc",
+			"number": 78,
+			"types": [
+				"Sky",
+				"Common"
+			],
+			"group": "Bird",
+			"category": "Sock Nester",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 45,
+				"atk": 45,
+				"def": 45,
+				"spa": 55,
+				"spd": 55,
+				"spe": 95
+			},
+			"bst": 340,
+			"abilities": [
+				"Flock Huddle",
+				"Sock Nest"
+			],
+			"height_in": 4,
+			"weight_lb": 0.01,
+			"range": "Gardens and shrubs of southern BC",
+			"entry": "Tiny grey birds that move in chattering flocks. They weave a hanging nest like a long sock out of spider silk and moss.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"urban",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-079",
+			"name": "Black-capped Chickadee",
+			"sci": "Poecile atricapillus",
+			"region": "bc",
+			"number": 79,
+			"types": [
+				"Sky",
+				"Frost"
+			],
+			"group": "Bird",
+			"category": "Winter Sprite",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 50,
+				"atk": 55,
+				"def": 50,
+				"spa": 65,
+				"spd": 60,
+				"spe": 90
+			},
+			"bst": 370,
+			"abilities": [
+				"Cold Shiver",
+				"Seed Memory"
+			],
+			"height_in": 5,
+			"weight_lb": 0.02,
+			"range": "Forests and towns across BC",
+			"entry": "On cold nights it lets its body cool to save energy. It hides thousands of seeds in autumn and remembers where they are.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"ice"
+			]
+		},
+		{
+			"id": "bc-080",
+			"name": "Western Sandpiper",
+			"sci": "Calidris mauri",
+			"region": "bc",
+			"number": 80,
+			"types": [
+				"Aqua",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Mudflat Racer",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 50,
+				"atk": 55,
+				"def": 45,
+				"spa": 60,
+				"spd": 55,
+				"spe": 110
+			},
+			"bst": 375,
+			"abilities": [
+				"Biofilm Sipper",
+				"Flock Turn"
+			],
+			"height_in": 6,
+			"weight_lb": 0.06,
+			"range": "Roberts Bank and the Fraser delta in migration",
+			"entry": "Huge flocks stop on the Fraser delta mudflats each spring. They sip the slimy film of microbes on the mud with brush-tipped tongues.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-081",
+			"name": "Rhinoceros Auklet",
+			"sci": "Cerorhinca monocerata",
+			"region": "bc",
+			"number": 81,
+			"types": [
+				"Aqua",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Horned Auk",
+			"habitat": "amphibious",
+			"family": "flier",
+			"stats": {
+				"hp": 70,
+				"atk": 75,
+				"def": 60,
+				"spa": 60,
+				"spd": 60,
+				"spe": 80
+			},
+			"bst": 405,
+			"abilities": [
+				"Wing Swimmer",
+				"Night Return"
+			],
+			"height_in": 15,
+			"weight_lb": 1.1,
+			"range": "Nesting islands along the BC coast",
+			"entry": "It grows a small horn on its bill each breeding season. It digs nest burrows on islands and comes back to them only after dark.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-082",
+			"name": "White-tailed Ptarmigan",
+			"sci": "Lagopus leucura",
+			"region": "bc",
+			"number": 82,
+			"types": [
+				"Frost",
+				"Stone"
+			],
+			"group": "Bird",
+			"category": "Snow Grouse",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 70,
+				"atk": 65,
+				"def": 80,
+				"spa": 55,
+				"spd": 75,
+				"spe": 60
+			},
+			"bst": 405,
+			"abilities": [
+				"Winter White",
+				"Feathered Feet"
+			],
+			"height_in": 12,
+			"weight_lb": 0.8,
+			"range": "Alpine tundra of the BC mountains",
+			"entry": "It turns pure white in winter and speckled grey-brown in summer to match the rocks. Feathers on its feet act as snowshoes.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"mountain",
+				"ice"
+			]
+		},
+		{
+			"id": "bc-083",
+			"name": "Burrowing Owl",
+			"sci": "Athene cunicularia",
+			"region": "bc",
+			"number": 83,
+			"types": [
+				"Soil",
+				"Night"
+			],
+			"group": "Bird",
+			"category": "Ground Owl",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 60,
+				"atk": 70,
+				"def": 60,
+				"spa": 70,
+				"spd": 65,
+				"spe": 75
+			},
+			"bst": 400,
+			"abilities": [
+				"Rattle Mimic",
+				"Burrow Home"
+			],
+			"height_in": 9,
+			"weight_lb": 0.35,
+			"range": "Grasslands of the southern BC Interior",
+			"entry": "It nests underground in old badger and ground squirrel burrows. Its young hiss like a rattlesnake to scare off intruders.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"dry"
+			]
+		},
+		{
+			"id": "bc-084",
+			"name": "Barred Owl",
+			"sci": "Strix varia",
+			"region": "bc",
+			"number": 84,
+			"types": [
+				"Night",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Invader Owl",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 75,
+				"atk": 85,
+				"def": 70,
+				"spa": 75,
+				"spd": 75,
+				"spe": 70
+			},
+			"bst": 450,
+			"abilities": [
+				"Who-cooks Call",
+				"Generalist"
+			],
+			"height_in": 20,
+			"weight_lb": 1.6,
+			"range": "Forests across BC (spread west in the 1900s)",
+			"entry": "It spread west across Canada in the last century and now lives all over BC. It eats almost anything and pushes out the spotted owl.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": true,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-085",
+			"name": "Belted Kingfisher",
+			"sci": "Megaceryle alcyon",
+			"region": "bc",
+			"number": 85,
+			"types": [
+				"Aqua",
+				"Sky"
+			],
+			"group": "Bird",
+			"category": "Rattle Diver",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 60,
+				"atk": 80,
+				"def": 55,
+				"spa": 60,
+				"spd": 55,
+				"spe": 95
+			},
+			"bst": 405,
+			"abilities": [
+				"Headfirst Dive",
+				"Bank Burrow"
+			],
+			"height_in": 13,
+			"weight_lb": 0.35,
+			"range": "Rivers, lakes and shores across BC",
+			"entry": "It dives headfirst for fish from a perch over the water. It nests at the end of a long tunnel it digs into a riverbank.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-086",
+			"name": "Sooty Grouse",
+			"sci": "Dendragapus fuliginosus",
+			"region": "bc",
+			"number": 86,
+			"types": [
+				"Common",
+				"Verdant"
+			],
+			"group": "Bird",
+			"category": "Hooter",
+			"habitat": "land",
+			"family": "flier",
+			"stats": {
+				"hp": 75,
+				"atk": 70,
+				"def": 70,
+				"spa": 55,
+				"spd": 65,
+				"spe": 60
+			},
+			"bst": 395,
+			"abilities": [
+				"Deep Hoot",
+				"Needle Eater"
+			],
+			"height_in": 20,
+			"weight_lb": 2.5,
+			"range": "Coastal mountain forests of BC",
+			"entry": "In winter it lives high in conifers eating needles. In spring the males hoot so deeply that the sound is hard to trace.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"mountain"
+			]
+		},
+		{
+			"id": "bc-087",
+			"name": "Western Rattlesnake",
+			"sci": "Crotalus oreganus",
+			"region": "bc",
+			"number": 87,
+			"types": [
+				"Toxin",
+				"Night"
+			],
+			"group": "Reptile",
+			"category": "Rattler",
+			"habitat": "land",
+			"family": "serpentine",
+			"stats": {
+				"hp": 70,
+				"atk": 95,
+				"def": 65,
+				"spa": 70,
+				"spd": 70,
+				"spe": 75
+			},
+			"bst": 445,
+			"abilities": [
+				"Rattle Warning",
+				"Heat Pits"
+			],
+			"height_in": 40,
+			"weight_lb": 2,
+			"range": "Dry valleys of the southern BC Interior",
+			"entry": "The only rattlesnake in BC. Pits on its face sense the body heat of mice in the dark, and it rattles its tail to warn larger animals.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"dry"
+			]
+		},
+		{
+			"id": "bc-088",
+			"name": "Northern Rubber Boa",
+			"sci": "Charina bottae",
+			"region": "bc",
+			"number": 88,
+			"types": [
+				"Soil",
+				"Night"
+			],
+			"group": "Reptile",
+			"category": "Two-headed Snake",
+			"habitat": "land",
+			"family": "serpentine",
+			"stats": {
+				"hp": 70,
+				"atk": 65,
+				"def": 80,
+				"spa": 55,
+				"spd": 75,
+				"spe": 40
+			},
+			"bst": 385,
+			"abilities": [
+				"Tail Decoy",
+				"Constrictor"
+			],
+			"height_in": 20,
+			"weight_lb": 0.15,
+			"range": "Forests and grasslands of southern BC",
+			"entry": "Its blunt tail looks like a second head. When attacked it hides its real head and waves its tail instead.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"dry"
+			]
+		},
+		{
+			"id": "bc-089",
+			"name": "Common Garter Snake",
+			"sci": "Thamnophis sirtalis",
+			"region": "bc",
+			"number": 89,
+			"types": [
+				"Night",
+				"Aqua"
+			],
+			"group": "Reptile",
+			"category": "Stripe Snake",
+			"habitat": "land",
+			"family": "serpentine",
+			"stats": {
+				"hp": 60,
+				"atk": 70,
+				"def": 55,
+				"spa": 60,
+				"spd": 60,
+				"spe": 85
+			},
+			"bst": 390,
+			"abilities": [
+				"Toxin Proof",
+				"Musk Spray"
+			],
+			"height_in": 30,
+			"weight_lb": 0.3,
+			"range": "Wetlands, fields and gardens across BC",
+			"entry": "Some garter snakes can eat rough-skinned newts that would kill almost any other predator. Their bodies resist the newt's poison.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-090",
+			"name": "Northern Alligator Lizard",
+			"sci": "Elgaria coerulea",
+			"region": "bc",
+			"number": 90,
+			"types": [
+				"Night",
+				"Common"
+			],
+			"group": "Reptile",
+			"category": "Rock Lizard",
+			"habitat": "land",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 65,
+				"atk": 70,
+				"def": 70,
+				"spa": 50,
+				"spd": 60,
+				"spe": 65
+			},
+			"bst": 380,
+			"abilities": [
+				"Drop Tail",
+				"Scale Armour"
+			],
+			"height_in": 8,
+			"weight_lb": 0.05,
+			"range": "Rocky clearings of southern BC",
+			"entry": "If grabbed, it can drop its tail to escape. The tail keeps wriggling to distract the attacker while the lizard runs.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"rock"
+			]
+		},
+		{
+			"id": "bc-091",
+			"name": "Western Painted Turtle",
+			"sci": "Chrysemys picta bellii",
+			"region": "bc",
+			"number": 91,
+			"types": [
+				"Armor",
+				"Aqua"
+			],
+			"group": "Reptile",
+			"category": "Pond Turtle",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 75,
+				"atk": 60,
+				"def": 105,
+				"spa": 55,
+				"spd": 85,
+				"spe": 40
+			},
+			"bst": 420,
+			"abilities": [
+				"Shell Retreat",
+				"Sun Basker"
+			],
+			"height_in": 8,
+			"weight_lb": 1,
+			"range": "Ponds and lakes of southern BC",
+			"entry": "BC's only native freshwater turtle. Its bright red-and-yellow belly is hidden until it climbs onto a log to bask.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-092",
+			"name": "Coastal Tailed Frog",
+			"sci": "Ascaphus truei",
+			"region": "bc",
+			"number": 92,
+			"types": [
+				"Aqua",
+				"Stone"
+			],
+			"group": "Amphibian",
+			"category": "Ancient Frog",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 65,
+				"atk": 65,
+				"def": 75,
+				"spa": 55,
+				"spd": 70,
+				"spe": 70
+			},
+			"bst": 400,
+			"abilities": [
+				"Ancient Line",
+				"Torrent Grip"
+			],
+			"height_in": 2,
+			"weight_lb": 0.02,
+			"range": "Cold mountain streams of coastal BC",
+			"entry": "One of the oldest frog lineages on Earth. Its tadpoles cling to rocks in fast streams with a sucker-like mouth.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-093",
+			"name": "Coastal Giant Salamander",
+			"sci": "Dicamptodon tenebrosus",
+			"region": "bc",
+			"number": 93,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Amphibian",
+			"category": "Bark Salamander",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 85,
+				"atk": 85,
+				"def": 75,
+				"spa": 55,
+				"spd": 70,
+				"spe": 55
+			},
+			"bst": 425,
+			"abilities": [
+				"Bark Call",
+				"Strong Bite"
+			],
+			"height_in": 13,
+			"weight_lb": 0.25,
+			"range": "Streams of the Chilliwack River valley",
+			"entry": "One of the largest land salamanders in North America. It can bark like a small dog and bite hard when handled.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"forest"
+			]
+		},
+		{
+			"id": "bc-094",
+			"name": "Ensatina",
+			"sci": "Ensatina eschscholtzii",
+			"region": "bc",
+			"number": 94,
+			"types": [
+				"Night",
+				"Toxin"
+			],
+			"group": "Amphibian",
+			"category": "Lungless Salamander",
+			"habitat": "land",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 55,
+				"atk": 55,
+				"def": 60,
+				"spa": 70,
+				"spd": 70,
+				"spe": 60
+			},
+			"bst": 370,
+			"abilities": [
+				"Skin Breather",
+				"Sticky Tail"
+			],
+			"height_in": 5,
+			"weight_lb": 0.02,
+			"range": "Moist forests of southwestern BC",
+			"entry": "It has no lungs and breathes through its damp skin. When threatened it raises its tail, which oozes a sticky, bad-tasting milk.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-095",
+			"name": "American Bullfrog",
+			"sci": "Lithobates catesbeianus",
+			"region": "bc",
+			"number": 95,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Amphibian",
+			"category": "Invader Frog",
+			"habitat": "amphibious",
+			"family": "low_reptile",
+			"stats": {
+				"hp": 85,
+				"atk": 90,
+				"def": 70,
+				"spa": 60,
+				"spd": 65,
+				"spe": 60
+			},
+			"bst": 430,
+			"abilities": [
+				"Gulper",
+				"Deep Croak"
+			],
+			"height_in": 8,
+			"weight_lb": 1.5,
+			"range": "Ponds of southern BC (introduced)",
+			"entry": "Brought to BC for frog farms, it escaped and spread. It swallows almost anything it can fit in its mouth, including native frogs.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": true,
+			"moves": [],
+			"bc_habitats": [
+				"wetland",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-096",
+			"name": "Chinook Salmon",
+			"sci": "Oncorhynchus tshawytscha",
+			"region": "bc",
+			"number": 96,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Fish",
+			"category": "King Salmon",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 90,
+				"atk": 115,
+				"def": 75,
+				"spa": 60,
+				"spd": 70,
+				"spe": 85
+			},
+			"bst": 495,
+			"abilities": [
+				"Home Scent",
+				"Power Leap"
+			],
+			"height_in": 36,
+			"weight_lb": 30,
+			"range": "Rivers of BC and the North Pacific",
+			"entry": "The largest Pacific salmon. Southern resident orcas depend on chinook more than any other food.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-097",
+			"name": "Pink Salmon",
+			"sci": "Oncorhynchus gorbuscha",
+			"region": "bc",
+			"number": 97,
+			"types": [
+				"Aqua",
+				"Common"
+			],
+			"group": "Fish",
+			"category": "Humpback",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 70,
+				"atk": 80,
+				"def": 65,
+				"spa": 55,
+				"spd": 60,
+				"spe": 80
+			},
+			"bst": 410,
+			"abilities": [
+				"Home Scent",
+				"Two-year Clock"
+			],
+			"height_in": 20,
+			"weight_lb": 4,
+			"range": "Rivers of the BC coast",
+			"entry": "The most numerous Pacific salmon. Spawning males grow a big hump on their backs, and every pink salmon lives exactly two years.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-098",
+			"name": "Steelhead",
+			"sci": "Oncorhynchus mykiss",
+			"region": "bc",
+			"number": 98,
+			"types": [
+				"Aqua",
+				"Charm"
+			],
+			"group": "Fish",
+			"category": "Rainbow Runner",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 70,
+				"atk": 90,
+				"def": 65,
+				"spa": 75,
+				"spd": 70,
+				"spe": 95
+			},
+			"bst": 465,
+			"abilities": [
+				"Rainbow Stripe",
+				"Repeat Spawner"
+			],
+			"height_in": 30,
+			"weight_lb": 12,
+			"range": "Rivers of BC and the North Pacific",
+			"entry": "A rainbow trout that goes to sea and comes back big. Unlike most Pacific salmon, it can spawn and return to sea more than once.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-099",
+			"name": "White Sturgeon",
+			"sci": "Acipenser transmontanus",
+			"region": "bc",
+			"number": 99,
+			"types": [
+				"Aqua",
+				"Stone"
+			],
+			"group": "Fish",
+			"category": "River Giant",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 130,
+				"atk": 90,
+				"def": 110,
+				"spa": 55,
+				"spd": 85,
+				"spe": 30
+			},
+			"bst": 500,
+			"abilities": [
+				"Ancient Line",
+				"Bony Plates"
+			],
+			"height_in": 240,
+			"weight_lb": 1100,
+			"range": "The Fraser, Columbia and Nechako rivers",
+			"entry": "The largest freshwater fish in North America, it can live over 100 years. Rows of bony plates have armoured its kind since the age of dinosaurs.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-100",
+			"name": "Eulachon",
+			"sci": "Thaleichthys pacificus",
+			"region": "bc",
+			"number": 100,
+			"types": [
+				"Aqua",
+				"Ember"
+			],
+			"group": "Fish",
+			"category": "Candlefish",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 50,
+				"atk": 55,
+				"def": 45,
+				"spa": 75,
+				"spd": 55,
+				"spe": 90
+			},
+			"bst": 370,
+			"abilities": [
+				"Oil Rich",
+				"Spring Run"
+			],
+			"height_in": 8,
+			"weight_lb": 0.1,
+			"range": "Rivers of the BC coast, including the Fraser",
+			"entry": "This small smelt is so full of oil that a dried one will burn like a candle. Its spring runs feed eagles, sea lions and gulls.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-101",
+			"name": "Pacific Herring",
+			"sci": "Clupea pallasii",
+			"region": "bc",
+			"number": 101,
+			"types": [
+				"Aqua",
+				"Common"
+			],
+			"group": "Fish",
+			"category": "Spawn Fish",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 55,
+				"atk": 55,
+				"def": 50,
+				"spa": 60,
+				"spd": 55,
+				"spe": 95
+			},
+			"bst": 370,
+			"abilities": [
+				"Schooling",
+				"Milky Spawn"
+			],
+			"height_in": 10,
+			"weight_lb": 0.4,
+			"range": "Coastal waters of BC",
+			"entry": "Each spring, herring spawn turns whole BC bays milky white. Their eggs stick to eelgrass and kelp and feed huge numbers of birds and whales.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-102",
+			"name": "Lingcod",
+			"sci": "Ophiodon elongatus",
+			"region": "bc",
+			"number": 102,
+			"types": [
+				"Aqua",
+				"Night"
+			],
+			"group": "Fish",
+			"category": "Reef Ambusher",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 85,
+				"atk": 110,
+				"def": 70,
+				"spa": 50,
+				"spd": 65,
+				"spe": 60
+			},
+			"bst": 440,
+			"abilities": [
+				"Ambush Gulp",
+				"Nest Guard"
+			],
+			"height_in": 40,
+			"weight_lb": 40,
+			"range": "Rocky reefs along the BC coast",
+			"entry": "A big-mouthed hunter that waits on rocky reefs. Males guard the egg masses for weeks, and some have blue-green flesh.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-103",
+			"name": "Wolf Eel",
+			"sci": "Anarrhichthys ocellatus",
+			"region": "bc",
+			"number": 103,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Fish",
+			"category": "Shell Crusher",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 85,
+				"atk": 105,
+				"def": 85,
+				"spa": 45,
+				"spd": 70,
+				"spe": 45
+			},
+			"bst": 435,
+			"abilities": [
+				"Crushing Jaws",
+				"Lifelong Pair"
+			],
+			"height_in": 80,
+			"weight_lb": 40,
+			"range": "Rocky reefs and dens along the BC coast",
+			"entry": "Not a true eel, it crushes crabs and urchins with powerful jaws. Pairs share one den and may stay together for life.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-104",
+			"name": "Pacific Spiny Lumpsucker",
+			"sci": "Eumicrotremus orbis",
+			"region": "bc",
+			"number": 104,
+			"types": [
+				"Aqua",
+				"Charm"
+			],
+			"group": "Fish",
+			"category": "Suction Ball",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 65,
+				"atk": 45,
+				"def": 70,
+				"spa": 70,
+				"spd": 75,
+				"spe": 30
+			},
+			"bst": 355,
+			"abilities": [
+				"Suction Disc",
+				"Tiny Charmer"
+			],
+			"height_in": 3,
+			"weight_lb": 0.05,
+			"range": "Shallow kelp beds of the BC coast",
+			"entry": "A round fish about the size of a golf ball. Its fins form a sucker on its belly that holds it to rocks and kelp.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-105",
+			"name": "Spotted Ratfish",
+			"sci": "Hydrolagus colliei",
+			"region": "bc",
+			"number": 105,
+			"types": [
+				"Aqua",
+				"Stone"
+			],
+			"group": "Fish",
+			"category": "Ghost Shark",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 75,
+				"atk": 70,
+				"def": 80,
+				"spa": 70,
+				"spd": 75,
+				"spe": 55
+			},
+			"bst": 425,
+			"abilities": [
+				"Ancient Line",
+				"Venom Spine"
+			],
+			"height_in": 24,
+			"weight_lb": 4,
+			"range": "Deep and shallow waters of the BC coast",
+			"entry": "A relative of sharks from a very old family. It glides on wing-like fins and has a venomous spine in front of its back fin.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"deep"
+			]
+		},
+		{
+			"id": "bc-106",
+			"name": "Bluntnose Sixgill Shark",
+			"sci": "Hexanchus griseus",
+			"region": "bc",
+			"number": 106,
+			"types": [
+				"Aqua",
+				"Night"
+			],
+			"group": "Fish",
+			"category": "Deep Shark",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 110,
+				"atk": 115,
+				"def": 80,
+				"spa": 55,
+				"spd": 75,
+				"spe": 45
+			},
+			"bst": 480,
+			"abilities": [
+				"Six Gills",
+				"Night Rise"
+			],
+			"height_in": 180,
+			"weight_lb": 1200,
+			"range": "Deep water of the Strait of Georgia",
+			"entry": "A huge shark from an ancient family with six gill slits instead of five. It rises from the deep at night, and divers sometimes meet it near Hornby Island.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"deep"
+			]
+		},
+		{
+			"id": "bc-107",
+			"name": "Pacific Lamprey",
+			"sci": "Entosphenus tridentatus",
+			"region": "bc",
+			"number": 107,
+			"types": [
+				"Aqua",
+				"Night"
+			],
+			"group": "Fish",
+			"category": "Sucker Mouth",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 65,
+				"atk": 75,
+				"def": 55,
+				"spa": 55,
+				"spd": 60,
+				"spe": 70
+			},
+			"bst": 380,
+			"abilities": [
+				"Sucker Mouth",
+				"River Climber"
+			],
+			"height_in": 24,
+			"weight_lb": 1,
+			"range": "Rivers of BC and the North Pacific",
+			"entry": "It has a round sucking mouth full of teeth instead of jaws. Adults feed on the blood of fish at sea, then climb waterfalls with their mouths to spawn.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-108",
+			"name": "Threespine Stickleback",
+			"sci": "Gasterosteus aculeatus",
+			"region": "bc",
+			"number": 108,
+			"types": [
+				"Aqua",
+				"Armor"
+			],
+			"group": "Fish",
+			"category": "Nest Builder",
+			"habitat": "aquatic",
+			"family": "swimmer",
+			"stats": {
+				"hp": 50,
+				"atk": 60,
+				"def": 75,
+				"spa": 45,
+				"spd": 60,
+				"spe": 70
+			},
+			"bst": 360,
+			"abilities": [
+				"Spine Lock",
+				"Nest Builder"
+			],
+			"height_in": 3,
+			"weight_lb": 0.01,
+			"range": "Streams, lakes and shores across BC",
+			"entry": "Males build nests of plants glued with a body thread and turn red-throated to court females. Some BC lakes hold their own species found nowhere else.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-109",
+			"name": "Sunflower Sea Star",
+			"sci": "Pycnopodia helianthoides",
+			"region": "bc",
+			"number": 109,
+			"types": [
+				"Aqua",
+				"Brawn"
+			],
+			"group": "Echinoderm",
+			"category": "Sea Star",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 90,
+				"atk": 100,
+				"def": 70,
+				"spa": 60,
+				"spd": 70,
+				"spe": 70
+			},
+			"bst": 460,
+			"abilities": [
+				"Many Arms",
+				"Urchin Hunter"
+			],
+			"height_in": 36,
+			"weight_lb": 11,
+			"range": "Rocky reefs along the BC coast",
+			"entry": "It can grow over 20 arms and speed over the sea floor on thousands of tube feet. A wasting disease since 2013 has wiped out most of them.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-110",
+			"name": "Ochre Sea Star",
+			"sci": "Pisaster ochraceus",
+			"region": "bc",
+			"number": 110,
+			"types": [
+				"Aqua",
+				"Stone"
+			],
+			"group": "Echinoderm",
+			"category": "Keystone Star",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 90,
+				"spa": 50,
+				"spd": 80,
+				"spe": 30
+			},
+			"bst": 405,
+			"abilities": [
+				"Stomach Out",
+				"Tide Grip"
+			],
+			"height_in": 10,
+			"weight_lb": 1,
+			"range": "Rocky shores along the BC coast",
+			"entry": "It pushes its stomach out into a mussel shell to digest it. Without it, mussels would cover the shore and crowd out everything else.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-111",
+			"name": "Purple Sea Urchin",
+			"sci": "Strongylocentrotus purpuratus",
+			"region": "bc",
+			"number": 111,
+			"types": [
+				"Aqua",
+				"Armor"
+			],
+			"group": "Echinoderm",
+			"category": "Spine Ball",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 60,
+				"atk": 60,
+				"def": 95,
+				"spa": 55,
+				"spd": 75,
+				"spe": 35
+			},
+			"bst": 380,
+			"abilities": [
+				"Spine Shield",
+				"Rock Borer"
+			],
+			"height_in": 3,
+			"weight_lb": 0.2,
+			"range": "Rocky coasts of western Vancouver Island",
+			"entry": "It scrapes holes in solid rock with its teeth and spines. Without sea otters, urchins can eat a kelp forest down to bare rock.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-112",
+			"name": "Northern Abalone",
+			"sci": "Haliotis kamtschatkana",
+			"region": "bc",
+			"number": 112,
+			"types": [
+				"Aqua",
+				"Armor"
+			],
+			"group": "Mollusk",
+			"category": "Pearly Snail",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 70,
+				"atk": 55,
+				"def": 100,
+				"spa": 55,
+				"spd": 85,
+				"spe": 35
+			},
+			"bst": 400,
+			"abilities": [
+				"Pearl Shell",
+				"Suction Foot"
+			],
+			"height_in": 5,
+			"weight_lb": 0.5,
+			"range": "Rocky shores along the BC coast",
+			"entry": "A sea snail with a shell lined in rainbow mother-of-pearl. Harvesting it has been closed in BC since 1990 to help it recover.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-113",
+			"name": "Geoduck",
+			"sci": "Panopea generosa",
+			"region": "bc",
+			"number": 113,
+			"types": [
+				"Aqua",
+				"Soil"
+			],
+			"group": "Mollusk",
+			"category": "Deep Digger",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 100,
+				"atk": 60,
+				"def": 85,
+				"spa": 55,
+				"spd": 75,
+				"spe": 25
+			},
+			"bst": 400,
+			"abilities": [
+				"Long Neck",
+				"Ancient Age"
+			],
+			"height_in": 8,
+			"weight_lb": 3,
+			"range": "Sandy bottoms of the BC coast",
+			"entry": "The largest burrowing clam in the world, with a neck up to a metre long. Some geoducks live more than 160 years.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-114",
+			"name": "Opalescent Nudibranch",
+			"sci": "Hermissenda opalescens",
+			"region": "bc",
+			"number": 114,
+			"types": [
+				"Toxin",
+				"Charm"
+			],
+			"group": "Mollusk",
+			"category": "Sea Slug",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 55,
+				"atk": 60,
+				"def": 50,
+				"spa": 85,
+				"spd": 70,
+				"spe": 70
+			},
+			"bst": 390,
+			"abilities": [
+				"Stolen Stingers",
+				"Bright Warning"
+			],
+			"height_in": 2,
+			"weight_lb": 0.01,
+			"range": "Docks and tide pools of the BC coast",
+			"entry": "This sea slug eats hydroids and keeps their stinging cells in the tips of its own body for defence.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-115",
+			"name": "Lewis's Moon Snail",
+			"sci": "Neverita lewisii",
+			"region": "bc",
+			"number": 115,
+			"types": [
+				"Aqua",
+				"Night"
+			],
+			"group": "Mollusk",
+			"category": "Shell Driller",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 80,
+				"spa": 50,
+				"spd": 70,
+				"spe": 35
+			},
+			"bst": 390,
+			"abilities": [
+				"Shell Drill",
+				"Sand Collar"
+			],
+			"height_in": 5,
+			"weight_lb": 1,
+			"range": "Sandy shores of the BC coast",
+			"entry": "It drills a neat round hole in clam shells with its tongue and acid. Its eggs are laid in a sandy collar that washes up on BC beaches.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-116",
+			"name": "Spot Prawn",
+			"sci": "Pandalus platyceros",
+			"region": "bc",
+			"number": 116,
+			"types": [
+				"Aqua",
+				"Chitin"
+			],
+			"group": "Crustacean",
+			"category": "Prawn",
+			"habitat": "aquatic",
+			"family": "many_legged",
+			"stats": {
+				"hp": 55,
+				"atk": 70,
+				"def": 55,
+				"spa": 50,
+				"spd": 55,
+				"spe": 90
+			},
+			"bst": 375,
+			"abilities": [
+				"Sex Change",
+				"Tail Flick"
+			],
+			"height_in": 8,
+			"weight_lb": 0.1,
+			"range": "Deep rocky waters of the BC coast",
+			"entry": "Every spot prawn starts life as a male and turns female at about two years old. It escapes by flicking its tail to shoot backward.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea"
+			]
+		},
+		{
+			"id": "bc-117",
+			"name": "Plumose Anemone",
+			"sci": "Metridium farcimen",
+			"region": "bc",
+			"number": 117,
+			"types": [
+				"Aqua",
+				"Toxin"
+			],
+			"group": "Cnidarian",
+			"category": "Sea Plume",
+			"habitat": "aquatic",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 50,
+				"def": 70,
+				"spa": 80,
+				"spd": 85,
+				"spe": 20
+			},
+			"bst": 385,
+			"abilities": [
+				"Stinging Plume",
+				"Clone Split"
+			],
+			"height_in": 36,
+			"weight_lb": 4,
+			"range": "Docks and rocky walls along the BC coast",
+			"entry": "Tall white anemones that can reach a metre high. They catch plankton with feathery stinging tentacles and clone themselves by splitting.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-118",
+			"name": "Bull Kelp",
+			"sci": "Nereocystis luetkeana",
+			"region": "bc",
+			"number": 118,
+			"types": [
+				"Aqua",
+				"Verdant"
+			],
+			"group": "Alga",
+			"category": "Kelp Forest",
+			"habitat": "aquatic",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 50,
+				"def": 70,
+				"spa": 85,
+				"spd": 80,
+				"spe": 45
+			},
+			"bst": 410,
+			"abilities": [
+				"Gas Float",
+				"Fast Grower"
+			],
+			"height_in": 1400,
+			"weight_lb": 200,
+			"range": "Rocky coasts across BC",
+			"entry": "It can grow 25 cm in a day and reach the surface in one summer. A gas-filled bulb holds its blades up in the sunlight.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"sea",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-119",
+			"name": "Eelgrass",
+			"sci": "Zostera marina",
+			"region": "bc",
+			"number": 119,
+			"types": [
+				"Verdant",
+				"Aqua"
+			],
+			"group": "Plant",
+			"category": "Sea Meadow",
+			"habitat": "aquatic",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 45,
+				"def": 65,
+				"spa": 75,
+				"spd": 80,
+				"spe": 40
+			},
+			"bst": 375,
+			"abilities": [
+				"Sea Meadow",
+				"Root Mat"
+			],
+			"height_in": 40,
+			"weight_lb": 0.2,
+			"range": "Sheltered bays of the BC coast",
+			"entry": "A flowering plant that lives fully underwater. Its meadows shelter young salmon and herring and hold the sand in place.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast",
+				"sea"
+			]
+		},
+		{
+			"id": "bc-120",
+			"name": "European Green Crab",
+			"sci": "Carcinus maenas",
+			"region": "bc",
+			"number": 120,
+			"types": [
+				"Chitin",
+				"Brawn"
+			],
+			"group": "Crustacean",
+			"category": "Invader Crab",
+			"habitat": "amphibious",
+			"family": "many_legged",
+			"stats": {
+				"hp": 65,
+				"atk": 85,
+				"def": 75,
+				"spa": 45,
+				"spd": 60,
+				"spe": 70
+			},
+			"bst": 400,
+			"abilities": [
+				"Shore Invader",
+				"Eelgrass Cutter"
+			],
+			"height_in": 3,
+			"weight_lb": 0.2,
+			"range": "Bays of western Vancouver Island (introduced)",
+			"entry": "An invader from Europe that reached BC in the late 1990s. It cuts down eelgrass and eats young clams and crabs.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": true,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-121",
+			"name": "Mountain Pine Beetle",
+			"sci": "Dendroctonus ponderosae",
+			"region": "bc",
+			"number": 121,
+			"types": [
+				"Chitin",
+				"Soil"
+			],
+			"group": "Insect",
+			"category": "Bark Borer",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 55,
+				"atk": 70,
+				"def": 55,
+				"spa": 55,
+				"spd": 55,
+				"spe": 60
+			},
+			"bst": 350,
+			"abilities": [
+				"Mass Attack",
+				"Blue Stain"
+			],
+			"height_in": 0.2,
+			"weight_lb": 0.0001,
+			"range": "Pine forests of the BC Interior",
+			"entry": "An outbreak from the late 1990s killed more than half of the pine in BC. The beetles carry a blue-staining fungus into the trees.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"burned"
+			]
+		},
+		{
+			"id": "bc-122",
+			"name": "Fire-chaser Beetle",
+			"sci": "Melanophila acuminata",
+			"region": "bc",
+			"number": 122,
+			"types": [
+				"Chitin",
+				"Ember"
+			],
+			"group": "Insect",
+			"category": "Fire Seeker",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 55,
+				"atk": 75,
+				"def": 55,
+				"spa": 65,
+				"spd": 55,
+				"spe": 95
+			},
+			"bst": 400,
+			"abilities": [
+				"Heat Sensor",
+				"Fire Follower"
+			],
+			"height_in": 0.4,
+			"weight_lb": 0.0001,
+			"range": "Burned forests across BC",
+			"entry": "Pits on its body sense the heat of a forest fire from far away. It flies toward the smoke to lay eggs in freshly burned trees.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"burned"
+			]
+		},
+		{
+			"id": "bc-123",
+			"name": "Western Bumble Bee",
+			"sci": "Bombus occidentalis",
+			"region": "bc",
+			"number": 123,
+			"types": [
+				"Chitin",
+				"Charm"
+			],
+			"group": "Insect",
+			"category": "Buzz Pollinator",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 60,
+				"atk": 60,
+				"def": 55,
+				"spa": 70,
+				"spd": 65,
+				"spe": 70
+			},
+			"bst": 380,
+			"abilities": [
+				"Buzz Pollinator",
+				"Shiver Heat"
+			],
+			"height_in": 0.8,
+			"weight_lb": 0.001,
+			"range": "Meadows and gardens across BC",
+			"entry": "It shakes pollen loose from flowers by buzzing its flight muscles. Once common in BC, it has become much rarer.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-124",
+			"name": "Ten-lined June Beetle",
+			"sci": "Polyphylla decemlineata",
+			"region": "bc",
+			"number": 124,
+			"types": [
+				"Chitin",
+				"Brawn"
+			],
+			"group": "Insect",
+			"category": "Hissing Beetle",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 65,
+				"atk": 80,
+				"def": 70,
+				"spa": 45,
+				"spd": 60,
+				"spe": 55
+			},
+			"bst": 375,
+			"abilities": [
+				"Hiss",
+				"Root Grub"
+			],
+			"height_in": 1.2,
+			"weight_lb": 0.01,
+			"range": "Sandy soils of southern BC",
+			"entry": "This striped beetle hisses by squeezing air out of its body when picked up. Its grubs live underground for up to four years.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow",
+				"dry"
+			]
+		},
+		{
+			"id": "bc-125",
+			"name": "Pacific Dampwood Termite",
+			"sci": "Zootermopsis angusticollis",
+			"region": "bc",
+			"number": 125,
+			"types": [
+				"Chitin",
+				"Soil"
+			],
+			"group": "Insect",
+			"category": "Log Eater",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 60,
+				"atk": 55,
+				"def": 60,
+				"spa": 50,
+				"spd": 60,
+				"spe": 55
+			},
+			"bst": 340,
+			"abilities": [
+				"Wood Gut",
+				"Swarm Flight"
+			],
+			"height_in": 0.8,
+			"weight_lb": 0.0005,
+			"range": "Rotting logs of coastal BC forests",
+			"entry": "It lives inside damp, rotting logs and digests wood with microbes in its gut. Winged swarms fly out on warm autumn evenings.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-126",
+			"name": "Yellow-spotted Millipede",
+			"sci": "Harpaphe haydeniana",
+			"region": "bc",
+			"number": 126,
+			"types": [
+				"Chitin",
+				"Toxin"
+			],
+			"group": "Myriapod",
+			"category": "Almond Millipede",
+			"habitat": "land",
+			"family": "many_legged",
+			"stats": {
+				"hp": 65,
+				"atk": 50,
+				"def": 80,
+				"spa": 70,
+				"spd": 75,
+				"spe": 35
+			},
+			"bst": 375,
+			"abilities": [
+				"Cyanide",
+				"Almond Scent"
+			],
+			"height_in": 2,
+			"weight_lb": 0.005,
+			"range": "Forest floors of coastal BC",
+			"entry": "When disturbed it oozes cyanide, which smells like almonds. Its bright yellow spots warn predators away.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-127",
+			"name": "Common Water Strider",
+			"sci": "Aquarius remigis",
+			"region": "bc",
+			"number": 127,
+			"types": [
+				"Chitin",
+				"Aqua"
+			],
+			"group": "Insect",
+			"category": "Pond Skater",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 50,
+				"atk": 55,
+				"def": 45,
+				"spa": 60,
+				"spd": 55,
+				"spe": 95
+			},
+			"bst": 360,
+			"abilities": [
+				"Water Walker",
+				"Ripple Sense"
+			],
+			"height_in": 0.6,
+			"weight_lb": 0.0001,
+			"range": "Streams and ponds across BC",
+			"entry": "Hairs on its legs let it stand on the surface of water. It feels ripples to find insects that fall in.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"fresh"
+			]
+		},
+		{
+			"id": "bc-128",
+			"name": "Western Thatching Ant",
+			"sci": "Formica obscuripes",
+			"region": "bc",
+			"number": 128,
+			"types": [
+				"Chitin",
+				"Soil"
+			],
+			"group": "Insect",
+			"category": "Mound Builder",
+			"habitat": "land",
+			"family": "insect",
+			"stats": {
+				"hp": 55,
+				"atk": 65,
+				"def": 60,
+				"spa": 50,
+				"spd": 55,
+				"spe": 70
+			},
+			"bst": 355,
+			"abilities": [
+				"Acid Spray",
+				"Thatch Mound"
+			],
+			"height_in": 0.3,
+			"weight_lb": 0.0001,
+			"range": "Grasslands and open forests of the BC Interior",
+			"entry": "It builds big mounds of plant thatch over its nest that catch the sun and keep it warm. It sprays formic acid at intruders.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"dry",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-129",
+			"name": "Douglas-fir",
+			"sci": "Pseudotsuga menziesii",
+			"region": "bc",
+			"number": 129,
+			"types": [
+				"Verdant",
+				"Armor"
+			],
+			"group": "Plant",
+			"category": "Giant Tree",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 100,
+				"atk": 70,
+				"def": 110,
+				"spa": 70,
+				"spd": 90,
+				"spe": 20
+			},
+			"bst": 460,
+			"abilities": [
+				"Fireproof Bark",
+				"Mouse-tail Cones"
+			],
+			"height_in": 2400,
+			"weight_lb": 20000,
+			"range": "Coastal and Interior forests of BC",
+			"entry": "Old Douglas-firs grow bark up to 30 cm thick that shields them from fire. Big Lonely Doug, near Port Renfrew, is about 66 metres tall.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-130",
+			"name": "Western Redcedar",
+			"sci": "Thuja plicata",
+			"region": "bc",
+			"number": 130,
+			"types": [
+				"Verdant",
+				"Toxin"
+			],
+			"group": "Plant",
+			"category": "Cedar",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 100,
+				"atk": 60,
+				"def": 95,
+				"spa": 85,
+				"spd": 100,
+				"spe": 20
+			},
+			"bst": 460,
+			"abilities": [
+				"Rot Proof",
+				"Long Lived"
+			],
+			"height_in": 2300,
+			"weight_lb": 18000,
+			"range": "Wet forests of coastal BC and the Interior wet belt",
+			"entry": "BC's provincial tree. Natural chemicals in its wood resist rot, so fallen cedars last for centuries on the forest floor.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-131",
+			"name": "Sitka Spruce",
+			"sci": "Picea sitchensis",
+			"region": "bc",
+			"number": 131,
+			"types": [
+				"Verdant",
+				"Aqua"
+			],
+			"group": "Plant",
+			"category": "Fog Tree",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 110,
+				"atk": 70,
+				"def": 90,
+				"spa": 75,
+				"spd": 95,
+				"spe": 15
+			},
+			"bst": 455,
+			"abilities": [
+				"Fog Drinker",
+				"Sharp Needles"
+			],
+			"height_in": 2800,
+			"weight_lb": 25000,
+			"range": "Foggy coasts of BC, including the Carmanah Valley",
+			"entry": "It grows only near the coast, where fog drips from its needles to water it. The Carmanah Giant, at about 95 metres, is the tallest tree in Canada.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-132",
+			"name": "Arbutus",
+			"sci": "Arbutus menziesii",
+			"region": "bc",
+			"number": 132,
+			"types": [
+				"Verdant",
+				"Ember"
+			],
+			"group": "Plant",
+			"category": "Peeling Tree",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 65,
+				"def": 75,
+				"spa": 85,
+				"spd": 85,
+				"spe": 40
+			},
+			"bst": 430,
+			"abilities": [
+				"Peeling Bark",
+				"Red Berries"
+			],
+			"height_in": 600,
+			"weight_lb": 3000,
+			"range": "Rocky coasts of southern Vancouver Island and the Gulf Islands",
+			"entry": "Canada's only native broadleaf evergreen tree. Its red-brown bark peels away in thin curls to show smooth green wood beneath.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"coast"
+			]
+		},
+		{
+			"id": "bc-133",
+			"name": "Garry Oak",
+			"sci": "Quercus garryana",
+			"region": "bc",
+			"number": 133,
+			"types": [
+				"Verdant",
+				"Stone"
+			],
+			"group": "Plant",
+			"category": "Meadow Oak",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 95,
+				"atk": 75,
+				"def": 95,
+				"spa": 60,
+				"spd": 85,
+				"spe": 20
+			},
+			"bst": 430,
+			"abilities": [
+				"Deep Roots",
+				"Acorn Crop"
+			],
+			"height_in": 800,
+			"weight_lb": 8000,
+			"range": "Southeastern Vancouver Island and the Gulf Islands",
+			"entry": "BC's only native oak. Its meadows bloom with blue camas in spring and are among the rarest habitats in Canada.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-134",
+			"name": "Lodgepole Pine",
+			"sci": "Pinus contorta latifolia",
+			"region": "bc",
+			"number": 134,
+			"types": [
+				"Verdant",
+				"Ember"
+			],
+			"group": "Plant",
+			"category": "Fire Pine",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 85,
+				"atk": 70,
+				"def": 80,
+				"spa": 80,
+				"spd": 80,
+				"spe": 35
+			},
+			"bst": 430,
+			"abilities": [
+				"Sealed Cones",
+				"Fire Follower"
+			],
+			"height_in": 1200,
+			"weight_lb": 4000,
+			"range": "Forests of the BC Interior",
+			"entry": "Many of its cones stay sealed with resin until a fire melts it open. Then seeds rain onto the ash, and a new forest starts.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"burned"
+			]
+		},
+		{
+			"id": "bc-135",
+			"name": "Devil's Club",
+			"sci": "Oplopanax horridus",
+			"region": "bc",
+			"number": 135,
+			"types": [
+				"Verdant",
+				"Armor"
+			],
+			"group": "Plant",
+			"category": "Thorn Shrub",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 75,
+				"atk": 80,
+				"def": 90,
+				"spa": 60,
+				"spd": 75,
+				"spe": 30
+			},
+			"bst": 410,
+			"abilities": [
+				"Spine Coat",
+				"Giant Leaves"
+			],
+			"height_in": 80,
+			"weight_lb": 10,
+			"range": "Wet forests across BC",
+			"entry": "Sharp spines cover its stems and even the undersides of its huge leaves. It grows in thick patches along wet forest streams.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-136",
+			"name": "Salal",
+			"sci": "Gaultheria shallon",
+			"region": "bc",
+			"number": 136,
+			"types": [
+				"Verdant",
+				"Common"
+			],
+			"group": "Plant",
+			"category": "Berry Shrub",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 55,
+				"def": 70,
+				"spa": 60,
+				"spd": 70,
+				"spe": 40
+			},
+			"bst": 365,
+			"abilities": [
+				"Dense Thicket",
+				"Dark Berries"
+			],
+			"height_in": 40,
+			"weight_lb": 3,
+			"range": "Coastal forests of BC",
+			"entry": "This shrub forms thickets so dense that early explorers struggled through them. Bears and birds eat its dark purple berries.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"coast"
+			]
+		},
+		{
+			"id": "bc-137",
+			"name": "Fireweed",
+			"sci": "Chamaenerion angustifolium",
+			"region": "bc",
+			"number": 137,
+			"types": [
+				"Verdant",
+				"Ember"
+			],
+			"group": "Plant",
+			"category": "Burn Flower",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 65,
+				"atk": 55,
+				"def": 60,
+				"spa": 85,
+				"spd": 75,
+				"spe": 60
+			},
+			"bst": 400,
+			"abilities": [
+				"Fire Follower",
+				"Fluff Seeds"
+			],
+			"height_in": 60,
+			"weight_lb": 1,
+			"range": "Burns, clearings and roadsides across BC",
+			"entry": "One of the first plants to bloom on burned ground, covering it in tall pink spikes. Each plant releases tens of thousands of fluffy seeds.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"burned",
+				"meadow"
+			]
+		},
+		{
+			"id": "bc-138",
+			"name": "Round-leaved Sundew",
+			"sci": "Drosera rotundifolia",
+			"region": "bc",
+			"number": 138,
+			"types": [
+				"Verdant",
+				"Night"
+			],
+			"group": "Plant",
+			"category": "Bog Trap",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 55,
+				"atk": 65,
+				"def": 55,
+				"spa": 80,
+				"spd": 70,
+				"spe": 40
+			},
+			"bst": 365,
+			"abilities": [
+				"Sticky Trap",
+				"Bog Dweller"
+			],
+			"height_in": 3,
+			"weight_lb": 0.001,
+			"range": "Bogs across BC, including Burns Bog",
+			"entry": "Its leaves are covered with glistening sticky hairs that trap insects. The plant digests them to get nutrients missing from the bog.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-139",
+			"name": "Sphagnum Moss",
+			"sci": "Sphagnum",
+			"region": "bc",
+			"number": 139,
+			"types": [
+				"Verdant",
+				"Aqua"
+			],
+			"group": "Plant",
+			"category": "Peat Builder",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 40,
+				"def": 70,
+				"spa": 65,
+				"spd": 85,
+				"spe": 30
+			},
+			"bst": 370,
+			"abilities": [
+				"Water Sponge",
+				"Peat Builder"
+			],
+			"height_in": 4,
+			"weight_lb": 0.05,
+			"range": "Bogs across BC, including Burns Bog",
+			"entry": "It soaks up many times its own weight in water. Over thousands of years, it builds the peat that makes up bogs like Burns Bog.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-140",
+			"name": "Big Sagebrush",
+			"sci": "Artemisia tridentata",
+			"region": "bc",
+			"number": 140,
+			"types": [
+				"Verdant",
+				"Toxin"
+			],
+			"group": "Plant",
+			"category": "Desert Shrub",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 75,
+				"atk": 55,
+				"def": 80,
+				"spa": 70,
+				"spd": 80,
+				"spe": 30
+			},
+			"bst": 390,
+			"abilities": [
+				"Bitter Oils",
+				"Deep Taproot"
+			],
+			"height_in": 40,
+			"weight_lb": 8,
+			"range": "Dry valleys of the southern BC Interior",
+			"entry": "Its silvery leaves are full of strong-smelling oils that keep most grazers away. Its long roots reach water deep under dry ground.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"dry"
+			]
+		},
+		{
+			"id": "bc-141",
+			"name": "Brittle Prickly-pear",
+			"sci": "Opuntia fragilis",
+			"region": "bc",
+			"number": 141,
+			"types": [
+				"Verdant",
+				"Armor"
+			],
+			"group": "Plant",
+			"category": "BC Cactus",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 70,
+				"def": 90,
+				"spa": 50,
+				"spd": 75,
+				"spe": 25
+			},
+			"bst": 380,
+			"abilities": [
+				"Break-off Pads",
+				"Spines"
+			],
+			"height_in": 4,
+			"weight_lb": 0.3,
+			"range": "Dry slopes of the BC Interior and the Gulf Islands",
+			"entry": "Yes, BC has a native cactus. Its small pads break off easily and stick to passing animals, then root wherever they fall.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"dry"
+			]
+		},
+		{
+			"id": "bc-142",
+			"name": "Pacific Golden Chanterelle",
+			"sci": "Cantharellus formosus",
+			"region": "bc",
+			"number": 142,
+			"types": [
+				"Verdant",
+				"Charm"
+			],
+			"group": "Fungus",
+			"category": "Golden Fungus",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 60,
+				"def": 65,
+				"spa": 80,
+				"spd": 75,
+				"spe": 45
+			},
+			"bst": 395,
+			"abilities": [
+				"Root Partner",
+				"Golden Cap"
+			],
+			"height_in": 4,
+			"weight_lb": 0.1,
+			"range": "Coastal forests of BC",
+			"entry": "It grows with Douglas-fir and hemlock, trading nutrients from the soil for sugar from the trees' roots. It is one of the most-picked wild mushrooms in BC.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-143",
+			"name": "Lobster Mushroom",
+			"sci": "Hypomyces lactifluorum",
+			"region": "bc",
+			"number": 143,
+			"types": [
+				"Night",
+				"Verdant"
+			],
+			"group": "Fungus",
+			"category": "Body Snatcher",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 75,
+				"def": 70,
+				"spa": 70,
+				"spd": 65,
+				"spe": 40
+			},
+			"bst": 390,
+			"abilities": [
+				"Body Snatch",
+				"Red Crust"
+			],
+			"height_in": 5,
+			"weight_lb": 0.4,
+			"range": "Forests across BC",
+			"entry": "Not one mushroom but two: a red mould takes over another mushroom and reshapes it. The result looks and smells a little like cooked lobster.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-144",
+			"name": "Lungwort Lichen",
+			"sci": "Lobaria pulmonaria",
+			"region": "bc",
+			"number": 144,
+			"types": [
+				"Verdant",
+				"Charm"
+			],
+			"group": "Lichen",
+			"category": "Lung Lichen",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 45,
+				"def": 75,
+				"spa": 70,
+				"spd": 80,
+				"spe": 30
+			},
+			"bst": 370,
+			"abilities": [
+				"Partnership",
+				"Air Fixer"
+			],
+			"height_in": 6,
+			"weight_lb": 0.02,
+			"range": "Old-growth forests across BC",
+			"entry": "A partnership of a fungus, a green alga and a cyanobacterium. It pulls nitrogen from the air that feeds the whole forest when it falls.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest"
+			]
+		},
+		{
+			"id": "bc-145",
+			"name": "Honey Mushroom",
+			"sci": "Armillaria ostoyae",
+			"region": "bc",
+			"number": 145,
+			"types": [
+				"Soil",
+				"Charm"
+			],
+			"group": "Fungus",
+			"category": "Foxfire",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 100,
+				"atk": 70,
+				"def": 80,
+				"spa": 75,
+				"spd": 85,
+				"spe": 20
+			},
+			"bst": 430,
+			"abilities": [
+				"Foxfire Glow",
+				"Root Rot"
+			],
+			"height_in": 4,
+			"weight_lb": 0.1,
+			"range": "Forests across BC",
+			"entry": "Its underground threads can spread over many hectares, making it one of the largest living things on Earth. Wood it decays sometimes glows faintly at night.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": false,
+			"moves": [],
+			"bc_habitats": [
+				"forest",
+				"cemetery"
+			]
+		},
+		{
+			"id": "bc-146",
+			"name": "Himalayan Blackberry",
+			"sci": "Rubus armeniacus",
+			"region": "bc",
+			"number": 146,
+			"types": [
+				"Verdant",
+				"Armor"
+			],
+			"group": "Plant",
+			"category": "Bramble",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 85,
+				"spa": 55,
+				"spd": 70,
+				"spe": 40
+			},
+			"bst": 405,
+			"abilities": [
+				"Thorn Wall",
+				"Cane Rooter"
+			],
+			"height_in": 80,
+			"weight_lb": 20,
+			"range": "Roadsides and fields of southern BC (introduced)",
+			"entry": "An invader that forms thorny walls across ditches and parks. Its arching canes root wherever their tips touch the ground.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": true,
+			"moves": [],
+			"bc_habitats": [
+				"meadow",
+				"urban"
+			]
+		},
+		{
+			"id": "bc-147",
+			"name": "Japanese Knotweed",
+			"sci": "Reynoutria japonica",
+			"region": "bc",
+			"number": 147,
+			"types": [
+				"Verdant",
+				"Brawn"
+			],
+			"group": "Plant",
+			"category": "Concrete Cracker",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 85,
+				"atk": 85,
+				"def": 75,
+				"spa": 55,
+				"spd": 65,
+				"spe": 45
+			},
+			"bst": 410,
+			"abilities": [
+				"Root Spread",
+				"Pavement Breaker"
+			],
+			"height_in": 100,
+			"weight_lb": 15,
+			"range": "Streamsides and towns of southern BC (introduced)",
+			"entry": "Its roots can push through pavement and building foundations. A tiny piece of root can grow into a whole new patch.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": true,
+			"moves": [],
+			"bc_habitats": [
+				"urban",
+				"wetland"
+			]
+		},
+		{
+			"id": "bc-148",
+			"name": "Scotch Broom",
+			"sci": "Cytisus scoparius",
+			"region": "bc",
+			"number": 148,
+			"types": [
+				"Verdant",
+				"Toxin"
+			],
+			"group": "Plant",
+			"category": "Popping Pod",
+			"habitat": "land",
+			"family": "sessile",
+			"stats": {
+				"hp": 70,
+				"atk": 65,
+				"def": 70,
+				"spa": 70,
+				"spd": 70,
+				"spe": 55
+			},
+			"bst": 400,
+			"abilities": [
+				"Popping Pods",
+				"Toxic Stems"
+			],
+			"height_in": 80,
+			"weight_lb": 10,
+			"range": "Meadows and roadsides of southern BC (introduced)",
+			"entry": "Brought from Europe as a garden plant in the 1850s, it now crowds out Garry oak meadows. Its seed pods pop in summer heat and fling seeds metres away.",
+			"line": null,
+			"stage": null,
+			"stage_index": null,
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"invasive": true,
+			"moves": [],
+			"bc_habitats": [
+				"meadow"
+			]
+		},
+		{
+			"id": "na-136",
+			"name": "American Beaver",
+			"sci": "Castor canadensis",
+			"region": "na",
+			"number": 136,
+			"types": [
+				"Aqua",
+				"Common"
+			],
+			"group": "Mammal",
+			"category": "Engineer",
+			"habitat": "amphibious",
+			"family": "quadruped",
+			"stats": {
+				"hp": 100,
+				"atk": 110,
+				"def": 90,
+				"spa": 85,
+				"spd": 90,
+				"spe": 55
+			},
+			"bst": 530,
+			"abilities": [
+				"Dam Builder",
+				"Iron Teeth"
+			],
+			"height_in": 12,
+			"weight_lb": 50,
+			"range": "Across North America",
+			"entry": "It builds dams that turn streams into ponds, creating wetlands for many other animals. Its front teeth are orange because they are hardened with iron, and they never stop growing.",
+			"line": "bc:beaver",
+			"stage": "Adult",
+			"sex_note": null,
+			"legendary": null,
+			"fossil_site": null,
+			"moves": [
+				"current_pulse",
+				"rush",
+				"soak",
+				"mist_veil",
+				"splash_jab",
+				"claw_swipe",
+				"pounce",
+				"body_check"
+			],
+			"stage_index": 3,
+			"bc_habitats": [
+				"fresh",
+				"wetland"
+			],
+			"override": true
+		},
+		{
+			"id": "fo-005",
+			"name": "Opabinia",
+			"sci": "Opabinia regalis",
+			"region": "fo",
+			"number": 5,
+			"types": [
+				"Chitin",
+				"Mind"
+			],
+			"group": "Arthropod",
+			"category": "Five Eyes",
+			"habitat": "aquatic",
+			"family": "many_legged",
+			"stats": {
+				"hp": 80,
+				"atk": 50,
+				"def": 100,
+				"spa": 100,
+				"spd": 200,
+				"spe": 50
+			},
+			"bst": 580,
+			"abilities": [
+				"Compound Eye",
+				"Grab Arms"
+			],
+			"height_in": 3,
+			"weight_lb": 0.02,
+			"range": "Cambrian, 508 million years ago · Burgess Shale, Canada",
+			"entry": "It had five eyes on stalks and a long, flexible nozzle with a claw at the end. When it was first presented at a scientific meeting, the audience laughed, thinking it was a joke.",
+			"line": null,
+			"stage": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": "na",
+			"moves": [
+				"pincer_grip",
+				"sense_pulse",
+				"molt",
+				"mandible_nip",
+				"leg_lash",
+				"web_snare",
+				"probe",
+				"hard_shell"
+			],
+			"bc_habitats": [
+				"rock"
+			],
+			"override": true
+		},
+		{
+			"id": "fo-009",
+			"name": "Pikaia",
+			"sci": "Pikaia gracilens",
+			"region": "fo",
+			"number": 9,
+			"types": [
+				"Aqua",
+				"Common"
+			],
+			"group": "Chordate",
+			"category": "Early Cousin",
+			"habitat": "aquatic",
+			"family": "soft_bodied",
+			"stats": {
+				"hp": 80,
+				"atk": 75,
+				"def": 150,
+				"spa": 75,
+				"spd": 150,
+				"spe": 50
+			},
+			"bst": 580,
+			"abilities": [
+				"Ancient Line",
+				"Ribbon Body"
+			],
+			"height_in": 2,
+			"weight_lb": 0.001,
+			"range": "Cambrian, 508 million years ago · Burgess Shale, Canada",
+			"entry": "This small, eel-like swimmer had a flexible rod along its back, the same feature that became the backbone in fish and people. It is one of the earliest known relatives of animals with backbones.",
+			"line": null,
+			"stage": null,
+			"sex_note": null,
+			"legendary": "Legend",
+			"fossil_site": "na",
+			"moves": [
+				"current_pulse",
+				"rush",
+				"old_guard",
+				"mist_veil",
+				"splash_jab",
+				"tentacle_lash",
+				"ink_cloud",
+				"body_check"
+			],
+			"bc_habitats": [
+				"rock"
+			],
+			"override": true
+		}
+	]
+}

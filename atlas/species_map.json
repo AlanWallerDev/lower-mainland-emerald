@@ -2,30 +2,30 @@
 	{
 		"dex": 1,
 		"slot": "BULBASAUR",
-		"id": "mi-141",
-		"name": "Tobacco Mosaic Virus",
+		"id": "na-001",
+		"name": "Venus Flytrap",
 		"types": [
 			"Verdant",
-			"Toxin"
+			"Night"
 		],
-		"bst": 275,
+		"bst": 320,
 		"slot_types": [
 			"GRASS",
 			"POISON"
 		],
 		"slot_bst": 318,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 2,
 		"slot": "IVYSAUR",
-		"id": "af-008",
-		"name": "Arabica Coffee",
+		"id": "sa-001",
+		"name": "Queen of the Andes",
 		"types": [
 			"Verdant",
-			"Toxin"
+			"Frost"
 		],
-		"bst": 385,
+		"bst": 405,
 		"slot_types": [
 			"GRASS",
 			"POISON"
@@ -36,13 +36,13 @@
 	{
 		"dex": 3,
 		"slot": "VENUSAUR",
-		"id": "af-012",
-		"name": "Mother of Thousands",
+		"id": "na-013",
+		"name": "Giant Sequoia",
 		"types": [
 			"Verdant",
-			"Toxin"
+			"Ember"
 		],
-		"bst": 320,
+		"bst": 535,
 		"slot_types": [
 			"GRASS",
 			"POISON"
@@ -53,30 +53,30 @@
 	{
 		"dex": 4,
 		"slot": "CHARMANDER",
-		"id": "mi-038",
-		"name": "Sulfolobus",
+		"id": "ds-077",
+		"name": "Pompeii Worm",
 		"types": [
 			"Ember",
-			"Toxin"
+			"Aqua"
 		],
-		"bst": 305,
+		"bst": 310,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 309,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 5,
 		"slot": "CHARMELEON",
-		"id": "af-043",
-		"name": "African Bombardier Beetle",
+		"id": "ds-140",
+		"name": "Hawksbill Sea Turtle",
 		"types": [
-			"Chitin",
-			"Ember"
+			"Aqua",
+			"Charm"
 		],
-		"bst": 360,
+		"bst": 400,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
@@ -87,57 +87,23 @@
 	{
 		"dex": 6,
 		"slot": "CHARIZARD",
-		"id": "na-122",
-		"name": "Keel-billed Toucan",
+		"id": "af-005",
+		"name": "King Protea",
 		"types": [
-			"Ember",
-			"Sky"
+			"Verdant",
+			"Ember"
 		],
-		"bst": 370,
+		"bst": 355,
 		"slot_types": [
 			"FIRE",
 			"FLYING"
 		],
 		"slot_bst": 534,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 7,
 		"slot": "SQUIRTLE",
-		"id": "ds-022",
-		"name": "Mariana Snailfish",
-		"types": [
-			"Aqua",
-			"Charm"
-		],
-		"bst": 310,
-		"slot_types": [
-			"WATER",
-			"WATER"
-		],
-		"slot_bst": 314,
-		"local": 15
-	},
-	{
-		"dex": 8,
-		"slot": "WARTORTLE",
-		"id": "mi-081",
-		"name": "Foraminifera",
-		"types": [
-			"Stone",
-			"Aqua"
-		],
-		"bst": 260,
-		"slot_types": [
-			"WATER",
-			"WATER"
-		],
-		"slot_bst": 405,
-		"local": 20
-	},
-	{
-		"dex": 9,
-		"slot": "BLASTOISE",
 		"id": "ds-078",
 		"name": "Scaly-foot Snail",
 		"types": [
@@ -149,35 +115,69 @@
 			"WATER",
 			"WATER"
 		],
+		"slot_bst": 314,
+		"local": 10
+	},
+	{
+		"dex": 8,
+		"slot": "WARTORTLE",
+		"id": "na-059",
+		"name": "American Lobster",
+		"types": [
+			"Aqua",
+			"Brawn"
+		],
+		"bst": 410,
+		"slot_types": [
+			"WATER",
+			"WATER"
+		],
+		"slot_bst": 405,
+		"local": 10
+	},
+	{
+		"dex": 9,
+		"slot": "BLASTOISE",
+		"id": "ds-064",
+		"name": "Portuguese Man O' War",
+		"types": [
+			"Aqua",
+			"Toxin"
+		],
+		"bst": 365,
+		"slot_types": [
+			"WATER",
+			"WATER"
+		],
 		"slot_bst": 530,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 10,
 		"slot": "CATERPIE",
-		"id": "mi-049",
-		"name": "Buchnera",
+		"id": "mi-129",
+		"name": "Face Mite",
 		"types": [
 			"Chitin",
-			"Charm"
+			"Night"
 		],
-		"bst": 220,
+		"bst": 210,
 		"slot_types": [
 			"BUG",
 			"BUG"
 		],
 		"slot_bst": 195,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 11,
 		"slot": "METAPOD",
-		"id": "af-023",
-		"name": "Citrus Swallowtail Caterpillar",
+		"id": "na-009",
+		"name": "Malachite Caterpillar",
 		"types": [
 			"Chitin"
 		],
-		"bst": 225,
+		"bst": 230,
 		"slot_types": [
 			"BUG",
 			"BUG"
@@ -200,65 +200,66 @@
 			"FLYING"
 		],
 		"slot_bst": 385,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 13,
 		"slot": "WEEDLE",
-		"id": "mi-133",
-		"name": "Fairyfly",
+		"id": "mi-049",
+		"name": "Buchnera",
 		"types": [
 			"Chitin",
 			"Charm"
 		],
-		"bst": 230,
+		"bst": 220,
 		"slot_types": [
 			"BUG",
 			"POISON"
 		],
 		"slot_bst": 195,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 14,
 		"slot": "KAKUNA",
-		"id": "na-009",
-		"name": "Malachite Caterpillar",
+		"id": "af-023",
+		"name": "Citrus Swallowtail Caterpillar",
 		"types": [
 			"Chitin"
 		],
-		"bst": 230,
+		"bst": 225,
 		"slot_types": [
 			"BUG",
 			"POISON"
 		],
 		"slot_bst": 205,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 15,
 		"slot": "BEEDRILL",
-		"id": "na-004",
-		"name": "Monarch Butterfly",
+		"id": "af-024",
+		"name": "Citrus Swallowtail",
 		"types": [
 			"Chitin",
-			"Toxin"
+			"Sky"
 		],
-		"bst": 355,
+		"bst": 395,
 		"slot_types": [
 			"BUG",
 			"POISON"
 		],
 		"slot_bst": 385,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 16,
 		"slot": "PIDGEY",
-		"id": "mi-070",
-		"name": "Amoeba",
+		"id": "mi-125",
+		"name": "C. elegans",
 		"types": [
-			"Common"
+			"Common",
+			"Mind"
 		],
 		"bst": 255,
 		"slot_types": [
@@ -266,35 +267,35 @@
 			"FLYING"
 		],
 		"slot_bst": 251,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 17,
 		"slot": "PIDGEOTTO",
-		"id": "ds-142",
-		"name": "Sooty Tern",
+		"id": "mi-094",
+		"name": "Spirostomum",
 		"types": [
-			"Sky",
-			"Common"
+			"Common",
+			"Toxin"
 		],
-		"bst": 335,
+		"bst": 340,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
 		],
 		"slot_bst": 349,
-		"local": 45
+		"local": 10
 	},
 	{
 		"dex": 18,
 		"slot": "PIDGEOT",
-		"id": "af-028",
-		"name": "Desert Locust (Swarm)",
+		"id": "af-006",
+		"name": "Bird of Paradise Flower",
 		"types": [
-			"Chitin",
+			"Verdant",
 			"Sky"
 		],
-		"bst": 395,
+		"bst": 345,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
@@ -305,10 +306,9 @@
 	{
 		"dex": 19,
 		"slot": "RATTATA",
-		"id": "mi-035",
-		"name": "Methanobrevibacter",
+		"id": "mi-070",
+		"name": "Amoeba",
 		"types": [
-			"Toxin",
 			"Common"
 		],
 		"bst": 255,
@@ -317,31 +317,31 @@
 			"NORMAL"
 		],
 		"slot_bst": 253,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 20,
 		"slot": "RATICATE",
-		"id": "na-146",
-		"name": "Mantled Howler Monkey",
+		"id": "na-121",
+		"name": "Roseate Spoonbill",
 		"types": [
-			"Common"
+			"Aqua",
+			"Charm"
 		],
-		"bst": 370,
+		"bst": 390,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 413,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 21,
 		"slot": "SPEAROW",
-		"id": "mi-091",
-		"name": "Difflugia",
+		"id": "mi-006",
+		"name": "Escherichia coli",
 		"types": [
-			"Stone",
 			"Common"
 		],
 		"bst": 260,
@@ -350,15 +350,15 @@
 			"FLYING"
 		],
 		"slot_bst": 262,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 22,
 		"slot": "FEAROW",
-		"id": "na-120",
-		"name": "Purple-throated Mountain-gem",
+		"id": "na-144",
+		"name": "Common Vampire Bat",
 		"types": [
-			"Charm",
+			"Toxin",
 			"Sky"
 		],
 		"bst": 355,
@@ -367,52 +367,52 @@
 			"FLYING"
 		],
 		"slot_bst": 442,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 23,
 		"slot": "EKANS",
-		"id": "mi-061",
-		"name": "Oil-eating Bacterium",
+		"id": "na-099",
+		"name": "Variable Harlequin Frog",
 		"types": [
-			"Aqua",
-			"Toxin"
+			"Toxin",
+			"Charm"
 		],
-		"bst": 290,
+		"bst": 285,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 288,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 24,
 		"slot": "ARBOK",
-		"id": "mi-016",
-		"name": "Streptomyces griseus",
+		"id": "na-107",
+		"name": "Western Diamond-backed Rattlesnake",
 		"types": [
-			"Soil",
-			"Toxin"
+			"Toxin",
+			"Ember"
 		],
-		"bst": 325,
+		"bst": 420,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 438,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 25,
 		"slot": "PIKACHU",
-		"id": "ds-007",
-		"name": "Moon Jelly",
+		"id": "bc-123",
+		"name": "Western Bumble Bee",
 		"types": [
-			"Aqua",
+			"Chitin",
 			"Charm"
 		],
-		"bst": 300,
+		"bst": 380,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
@@ -423,47 +423,47 @@
 	{
 		"dex": 26,
 		"slot": "RAICHU",
-		"id": "ds-065",
-		"name": "Giant Siphonophore",
+		"id": "bc-068",
+		"name": "Sandhill Crane",
 		"types": [
-			"Aqua",
+			"Sky",
 			"Charm"
 		],
-		"bst": 340,
+		"bst": 445,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 475,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 27,
 		"slot": "SANDSHREW",
-		"id": "na-044",
-		"name": "Point Conception Jerusalem Cricket",
+		"id": "bc-088",
+		"name": "Northern Rubber Boa",
 		"types": [
-			"Chitin",
-			"Soil"
+			"Soil",
+			"Night"
 		],
-		"bst": 305,
+		"bst": 385,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
 		],
 		"slot_bst": 300,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 28,
 		"slot": "SANDSLASH",
-		"id": "na-126",
-		"name": "Turkey Vulture",
+		"id": "bc-053",
+		"name": "American Badger",
 		"types": [
 			"Soil",
-			"Sky"
+			"Brawn"
 		],
-		"bst": 395,
+		"bst": 430,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
@@ -474,81 +474,80 @@
 	{
 		"dex": 29,
 		"slot": "NIDORAN_F",
-		"id": "mi-068",
-		"name": "Microcystis",
+		"id": "mi-127",
+		"name": "Vinegar Eel",
 		"types": [
-			"Aqua",
-			"Toxin"
+			"Toxin",
+			"Common"
 		],
-		"bst": 285,
+		"bst": 275,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 275,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 30,
 		"slot": "NIDORINA",
-		"id": "mi-007",
-		"name": "Staphylococcus aureus",
+		"id": "na-109",
+		"name": "Texas Coralsnake",
 		"types": [
-			"Toxin",
-			"Armor"
+			"Toxin"
 		],
-		"bst": 335,
+		"bst": 365,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 365,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 31,
 		"slot": "NIDOQUEEN",
-		"id": "na-108",
-		"name": "Sidewinder",
+		"id": "na-055",
+		"name": "Western Forest Scorpion",
 		"types": [
-			"Soil",
-			"Toxin"
+			"Toxin",
+			"Brawn"
 		],
-		"bst": 400,
+		"bst": 360,
 		"slot_types": [
 			"POISON",
 			"GROUND"
 		],
 		"slot_bst": 495,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 32,
 		"slot": "NIDORAN_M",
-		"id": "mi-058",
-		"name": "Beggiatoa",
+		"id": "mi-136",
+		"name": "Whirling Disease Parasite",
 		"types": [
-			"Aqua",
-			"Toxin"
+			"Toxin",
+			"Mind"
 		],
-		"bst": 265,
+		"bst": 280,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 273,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 33,
 		"slot": "NIDORINO",
-		"id": "af-009",
-		"name": "Jackal Food",
+		"id": "mi-026",
+		"name": "Pseudomonas aeruginosa",
 		"types": [
-			"Soil",
-			"Toxin"
+			"Toxin",
+			"Aqua"
 		],
-		"bst": 300,
+		"bst": 365,
 		"slot_types": [
 			"POISON",
 			"POISON"
@@ -559,11 +558,11 @@
 	{
 		"dex": 34,
 		"slot": "NIDOKING",
-		"id": "mi-097",
-		"name": "Potato Blight",
+		"id": "mi-012",
+		"name": "Botulinum Bacterium",
 		"types": [
 			"Toxin",
-			"Soil"
+			"Night"
 		],
 		"bst": 355,
 		"slot_types": [
@@ -571,136 +570,137 @@
 			"GROUND"
 		],
 		"slot_bst": 495,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 35,
 		"slot": "CLEFAIRY",
-		"id": "mi-051",
-		"name": "Angel's Glow Bacterium",
+		"id": "na-134",
+		"name": "Virginia Opossum",
 		"types": [
-			"Charm"
+			"Common",
+			"Night"
 		],
-		"bst": 305,
+		"bst": 320,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 323,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 36,
 		"slot": "CLEFABLE",
-		"id": "mi-015",
-		"name": "Yogurt Bacterium",
+		"id": "ds-142",
+		"name": "Sooty Tern",
 		"types": [
-			"Common",
-			"Toxin"
+			"Sky",
+			"Common"
 		],
-		"bst": 270,
+		"bst": 335,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 473,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 37,
 		"slot": "VULPIX",
-		"id": "mi-099",
-		"name": "Haematococcus",
+		"id": "bc-100",
+		"name": "Eulachon",
 		"types": [
-			"Ember",
-			"Verdant"
+			"Aqua",
+			"Ember"
 		],
-		"bst": 275,
+		"bst": 370,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 299,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 38,
 		"slot": "NINETALES",
-		"id": "na-087",
-		"name": "Atlantic Bluefin Tuna",
+		"id": "bc-134",
+		"name": "Lodgepole Pine",
 		"types": [
-			"Aqua",
+			"Verdant",
 			"Ember"
 		],
-		"bst": 485,
+		"bst": 430,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 505,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 39,
 		"slot": "JIGGLYPUFF",
-		"id": "af-055",
-		"name": "Giant African Land Snail",
+		"id": "mi-002",
+		"name": "Dictyostelium Slug",
 		"types": [
-			"Verdant",
-			"Common"
+			"Common",
+			"Mind"
+		],
+		"bst": 300,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 270,
+		"local": 100
+	},
+	{
+		"dex": 40,
+		"slot": "WIGGLYTUFF",
+		"id": "mi-003",
+		"name": "Dictyostelium Fruiting Body",
+		"types": [
+			"Common",
+			"Soil"
 		],
 		"bst": 275,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
-		"slot_bst": 270,
-		"local": 45
-	},
-	{
-		"dex": 40,
-		"slot": "WIGGLYTUFF",
-		"id": "mi-120",
-		"name": "Orange Bread Mold",
-		"types": [
-			"Ember",
-			"Common"
-		],
-		"bst": 305,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
 		"slot_bst": 425,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 41,
 		"slot": "ZUBAT",
-		"id": "na-099",
-		"name": "Variable Harlequin Frog",
+		"id": "bc-140",
+		"name": "Big Sagebrush",
 		"types": [
-			"Toxin",
-			"Charm"
+			"Verdant",
+			"Toxin"
 		],
-		"bst": 285,
+		"bst": 390,
 		"slot_types": [
 			"POISON",
 			"FLYING"
 		],
 		"slot_bst": 245,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 42,
 		"slot": "GOLBAT",
-		"id": "ds-151",
-		"name": "Northern Fulmar",
+		"id": "bc-087",
+		"name": "Western Rattlesnake",
 		"types": [
-			"Sky",
-			"Toxin"
+			"Toxin",
+			"Night"
 		],
-		"bst": 370,
+		"bst": 445,
 		"slot_types": [
 			"POISON",
 			"FLYING"
@@ -711,13 +711,13 @@
 	{
 		"dex": 43,
 		"slot": "ODDISH",
-		"id": "na-026",
-		"name": "American Fly Agaric",
+		"id": "na-066",
+		"name": "Pacific Banana Slug",
 		"types": [
 			"Verdant",
 			"Toxin"
 		],
-		"bst": 305,
+		"bst": 285,
 		"slot_types": [
 			"GRASS",
 			"POISON"
@@ -728,13 +728,13 @@
 	{
 		"dex": 44,
 		"slot": "GLOOM",
-		"id": "eu-022",
-		"name": "Death Cap",
+		"id": "bc-142",
+		"name": "Pacific Golden Chanterelle",
 		"types": [
-			"Toxin",
-			"Verdant"
+			"Verdant",
+			"Charm"
 		],
-		"bst": 365,
+		"bst": 395,
 		"slot_types": [
 			"GRASS",
 			"POISON"
@@ -745,19 +745,19 @@
 	{
 		"dex": 45,
 		"slot": "VILEPLUME",
-		"id": "ds-139",
-		"name": "Green Sea Turtle",
+		"id": "bc-132",
+		"name": "Arbutus",
 		"types": [
-			"Aqua",
-			"Verdant"
+			"Verdant",
+			"Ember"
 		],
-		"bst": 410,
+		"bst": 430,
 		"slot_types": [
 			"GRASS",
 			"POISON"
 		],
 		"slot_bst": 480,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 46,
@@ -778,81 +778,81 @@
 	{
 		"dex": 47,
 		"slot": "PARASECT",
-		"id": "mi-018",
-		"name": "Wolbachia",
+		"id": "af-028",
+		"name": "Desert Locust (Swarm)",
 		"types": [
-			"Mind",
-			"Chitin"
+			"Chitin",
+			"Sky"
 		],
-		"bst": 315,
+		"bst": 395,
 		"slot_types": [
 			"BUG",
 			"GRASS"
 		],
 		"slot_bst": 405,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 48,
 		"slot": "VENONAT",
-		"id": "mi-047",
-		"name": "Bt Bacterium",
+		"id": "na-044",
+		"name": "Point Conception Jerusalem Cricket",
 		"types": [
-			"Toxin",
-			"Chitin"
+			"Chitin",
+			"Soil"
 		],
-		"bst": 310,
+		"bst": 305,
 		"slot_types": [
 			"BUG",
 			"POISON"
 		],
 		"slot_bst": 305,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 49,
 		"slot": "VENOMOTH",
-		"id": "na-051",
-		"name": "Brown Recluse",
+		"id": "af-030",
+		"name": "Goliath Beetle",
 		"types": [
 			"Chitin",
-			"Toxin"
+			"Brawn"
 		],
-		"bst": 345,
+		"bst": 415,
 		"slot_types": [
 			"BUG",
 			"POISON"
 		],
 		"slot_bst": 450,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 50,
 		"slot": "DIGLETT",
-		"id": "mi-017",
-		"name": "Rhizobium",
+		"id": "na-101",
+		"name": "Mexican Burrowing Toad",
 		"types": [
-			"Verdant",
-			"Soil"
+			"Soil",
+			"Aqua"
 		],
-		"bst": 265,
+		"bst": 285,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
 		],
 		"slot_bst": 265,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 51,
 		"slot": "DUGTRIO",
-		"id": "af-003",
-		"name": "Quiver Tree",
+		"id": "na-108",
+		"name": "Sidewinder",
 		"types": [
-			"Verdant",
-			"Soil"
+			"Soil",
+			"Toxin"
 		],
-		"bst": 340,
+		"bst": 400,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
@@ -863,63 +863,64 @@
 	{
 		"dex": 52,
 		"slot": "MEOWTH",
-		"id": "mi-006",
-		"name": "Escherichia coli",
+		"id": "mi-142",
+		"name": "Mimivirus",
 		"types": [
-			"Common"
+			"Common",
+			"Night"
 		],
-		"bst": 260,
+		"bst": 280,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 290,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 53,
 		"slot": "PERSIAN",
-		"id": "na-103",
-		"name": "Common Basilisk",
+		"id": "ds-008",
+		"name": "Krøyer's Deep Sea Anglerfish",
 		"types": [
 			"Aqua",
-			"Common"
+			"Night"
 		],
-		"bst": 340,
+		"bst": 380,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 440,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 54,
 		"slot": "PSYDUCK",
-		"id": "ds-060",
-		"name": "Bigfin Squid",
+		"id": "na-074",
+		"name": "Lion's Mane Jelly",
 		"types": [
 			"Aqua",
-			"Night"
+			"Toxin"
 		],
-		"bst": 320,
+		"bst": 365,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 320,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 55,
 		"slot": "GOLDUCK",
-		"id": "ds-134",
-		"name": "Gray Whale",
+		"id": "bc-099",
+		"name": "White Sturgeon",
 		"types": [
 			"Aqua",
 			"Stone"
 		],
-		"bst": 495,
+		"bst": 500,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -930,70 +931,70 @@
 	{
 		"dex": 56,
 		"slot": "MANKEY",
-		"id": "mi-092",
-		"name": "Didinium",
+		"id": "af-040",
+		"name": "Giraffe Weevil",
 		"types": [
-			"Night",
+			"Chitin",
 			"Brawn"
 		],
-		"bst": 325,
+		"bst": 310,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 305,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 57,
 		"slot": "PRIMEAPE",
-		"id": "mi-024",
-		"name": "Bdellovibrio",
+		"id": "sa-105",
+		"name": "Harpy Eagle",
 		"types": [
-			"Night",
-			"Brawn"
+			"Brawn",
+			"Sky"
 		],
-		"bst": 375,
+		"bst": 480,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 455,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 58,
 		"slot": "GROWLITHE",
-		"id": "mi-008",
-		"name": "Streptococcus pyogenes",
+		"id": "ds-146",
+		"name": "Red-billed Tropicbird",
 		"types": [
-			"Toxin",
-			"Ember"
+			"Ember",
+			"Sky"
 		],
-		"bst": 330,
+		"bst": 350,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 350,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 59,
 		"slot": "ARCANINE",
-		"id": "ds-077",
-		"name": "Pompeii Worm",
+		"id": "mi-120",
+		"name": "Orange Bread Mold",
 		"types": [
 			"Ember",
-			"Aqua"
+			"Common"
 		],
-		"bst": 310,
+		"bst": 305,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 555,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 60,
@@ -1010,69 +1011,69 @@
 			"WATER"
 		],
 		"slot_bst": 300,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 61,
 		"slot": "POLIWHIRL",
-		"id": "mi-026",
-		"name": "Pseudomonas aeruginosa",
+		"id": "ds-120",
+		"name": "Olive Ridley Sea Turtle",
 		"types": [
-			"Toxin",
-			"Aqua"
+			"Aqua",
+			"Soil"
 		],
-		"bst": 365,
+		"bst": 385,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 385,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 62,
 		"slot": "POLIWRATH",
-		"id": "na-102",
-		"name": "American Alligator",
+		"id": "na-129",
+		"name": "Polar Bear",
 		"types": [
-			"Aqua",
-			"Brawn"
+			"Frost",
+			"Aqua"
 		],
-		"bst": 465,
+		"bst": 510,
 		"slot_types": [
 			"WATER",
 			"FIGHTING"
 		],
 		"slot_bst": 500,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 63,
 		"slot": "ABRA",
-		"id": "ds-050",
-		"name": "Brownsnout Spookfish",
+		"id": "na-135",
+		"name": "Striped Skunk",
 		"types": [
-			"Aqua",
-			"Mind"
+			"Toxin",
+			"Night"
 		],
-		"bst": 300,
+		"bst": 370,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 310,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 64,
 		"slot": "KADABRA",
-		"id": "na-053",
-		"name": "Bold Jumping Spider",
+		"id": "bc-077",
+		"name": "Northern Flicker",
 		"types": [
-			"Chitin",
-			"Mind"
+			"Sky",
+			"Soil"
 		],
-		"bst": 375,
+		"bst": 400,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -1083,13 +1084,13 @@
 	{
 		"dex": 65,
 		"slot": "ALAKAZAM",
-		"id": "na-065",
-		"name": "Giant Pacific Octopus",
+		"id": "bc-103",
+		"name": "Wolf Eel",
 		"types": [
 			"Aqua",
-			"Mind"
+			"Brawn"
 		],
-		"bst": 480,
+		"bst": 435,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -1100,47 +1101,47 @@
 	{
 		"dex": 66,
 		"slot": "MACHOP",
-		"id": "na-055",
-		"name": "Western Forest Scorpion",
+		"id": "bc-124",
+		"name": "Ten-lined June Beetle",
 		"types": [
-			"Toxin",
+			"Chitin",
 			"Brawn"
 		],
-		"bst": 360,
+		"bst": 375,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 305,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 67,
 		"slot": "MACHOKE",
-		"id": "na-110",
-		"name": "California Kingsnake",
+		"id": "bc-076",
+		"name": "Pileated Woodpecker",
 		"types": [
-			"Night",
+			"Sky",
 			"Brawn"
 		],
-		"bst": 400,
+		"bst": 420,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 405,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 68,
 		"slot": "MACHAMP",
-		"id": "na-141",
-		"name": "Bighorn Sheep",
+		"id": "bc-040",
+		"name": "Moose",
 		"types": [
-			"Stone",
-			"Brawn"
+			"Brawn",
+			"Aqua"
 		],
-		"bst": 465,
+		"bst": 490,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
@@ -1151,11 +1152,11 @@
 	{
 		"dex": 69,
 		"slot": "BELLSPROUT",
-		"id": "af-015",
-		"name": "Carrion Flower",
+		"id": "na-027",
+		"name": "Chicken of the Woods",
 		"types": [
 			"Verdant",
-			"Toxin"
+			"Ember"
 		],
 		"bst": 300,
 		"slot_types": [
@@ -1168,98 +1169,98 @@
 	{
 		"dex": 70,
 		"slot": "WEEPINBELL",
-		"id": "ds-079",
-		"name": "Yeti Crab",
+		"id": "na-016",
+		"name": "Saguaro",
 		"types": [
-			"Aqua",
-			"Verdant"
+			"Verdant",
+			"Soil"
 		],
-		"bst": 295,
+		"bst": 395,
 		"slot_types": [
 			"GRASS",
 			"POISON"
 		],
 		"slot_bst": 390,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 71,
 		"slot": "VICTREEBEL",
-		"id": "mi-107",
-		"name": "Killer Algae",
+		"id": "af-001",
+		"name": "Baobab",
 		"types": [
 			"Verdant",
-			"Toxin"
+			"Aqua"
 		],
-		"bst": 325,
+		"bst": 475,
 		"slot_types": [
 			"GRASS",
 			"POISON"
 		],
 		"slot_bst": 480,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 72,
 		"slot": "TENTACOOL",
-		"id": "na-100",
-		"name": "Red-spotted Newt",
+		"id": "na-033",
+		"name": "Giant Kelp",
 		"types": [
 			"Aqua",
-			"Toxin"
+			"Verdant"
 		],
-		"bst": 310,
+		"bst": 335,
 		"slot_types": [
 			"WATER",
 			"POISON"
 		],
 		"slot_bst": 335,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 73,
 		"slot": "TENTACRUEL",
-		"id": "ds-064",
-		"name": "Portuguese Man O' War",
+		"id": "bc-096",
+		"name": "Chinook Salmon",
 		"types": [
 			"Aqua",
-			"Toxin"
+			"Brawn"
 		],
-		"bst": 365,
+		"bst": 495,
 		"slot_types": [
 			"WATER",
 			"POISON"
 		],
 		"slot_bst": 515,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 74,
 		"slot": "GEODUDE",
-		"id": "mi-100",
-		"name": "Dunaliella",
+		"id": "bc-128",
+		"name": "Western Thatching Ant",
 		"types": [
-			"Verdant",
-			"Stone"
+			"Chitin",
+			"Soil"
 		],
-		"bst": 275,
+		"bst": 355,
 		"slot_types": [
 			"ROCK",
 			"GROUND"
 		],
 		"slot_bst": 300,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 75,
 		"slot": "GRAVELER",
-		"id": "na-025",
-		"name": "Water Horsetail",
+		"id": "na-126",
+		"name": "Turkey Vulture",
 		"types": [
-			"Verdant",
-			"Stone"
+			"Soil",
+			"Sky"
 		],
-		"bst": 300,
+		"bst": 395,
 		"slot_types": [
 			"ROCK",
 			"GROUND"
@@ -1270,19 +1271,19 @@
 	{
 		"dex": 76,
 		"slot": "GOLEM",
-		"id": "oc-142",
-		"name": "Muskox",
+		"id": "na-141",
+		"name": "Bighorn Sheep",
 		"types": [
-			"Frost",
-			"Stone"
+			"Stone",
+			"Brawn"
 		],
-		"bst": 460,
+		"bst": 465,
 		"slot_types": [
 			"ROCK",
 			"GROUND"
 		],
 		"slot_bst": 485,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 77,
@@ -1299,120 +1300,119 @@
 			"FIRE"
 		],
 		"slot_bst": 410,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 78,
 		"slot": "RAPIDASH",
-		"id": "na-107",
-		"name": "Western Diamond-backed Rattlesnake",
+		"id": "na-012",
+		"name": "Chili Pepper",
 		"types": [
-			"Toxin",
+			"Verdant",
 			"Ember"
 		],
-		"bst": 420,
+		"bst": 355,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 500,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 79,
 		"slot": "SLOWPOKE",
-		"id": "mi-095",
-		"name": "Warnowiid",
+		"id": "na-095",
+		"name": "Red-eyed Tree Frog",
 		"types": [
-			"Mind",
-			"Aqua"
+			"Aqua",
+			"Verdant"
 		],
-		"bst": 305,
+		"bst": 315,
 		"slot_types": [
 			"WATER",
 			"PSYCHIC"
 		],
 		"slot_bst": 315,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 80,
 		"slot": "SLOWBRO",
-		"id": "ds-149",
-		"name": "Red Phalarope",
+		"id": "na-080",
+		"name": "Whale Shark",
 		"types": [
-			"Aqua",
-			"Mind"
+			"Aqua"
 		],
-		"bst": 325,
+		"bst": 490,
 		"slot_types": [
 			"WATER",
 			"PSYCHIC"
 		],
 		"slot_bst": 490,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 81,
 		"slot": "MAGNEMITE",
-		"id": "na-022",
-		"name": "Pink Lady's Slipper",
+		"id": "na-042",
+		"name": "Convergent Lady Beetle",
 		"types": [
-			"Verdant",
+			"Chitin",
 			"Charm"
 		],
-		"bst": 315,
+		"bst": 320,
 		"slot_types": [
 			"ELECTRIC",
 			"STEEL"
 		],
 		"slot_bst": 325,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 82,
 		"slot": "MAGNETON",
-		"id": "mi-134",
-		"name": "Sea-Monkey",
+		"id": "bc-098",
+		"name": "Steelhead",
 		"types": [
 			"Aqua",
 			"Charm"
 		],
-		"bst": 270,
+		"bst": 465,
 		"slot_types": [
 			"ELECTRIC",
 			"STEEL"
 		],
 		"slot_bst": 465,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 83,
 		"slot": "FARFETCHD",
-		"id": "ds-143",
-		"name": "Wilson's Storm Petrel",
+		"id": "oc-145",
+		"name": "Arctic Hare",
 		"types": [
-			"Sky",
-			"Charm"
+			"Frost",
+			"Common"
 		],
-		"bst": 315,
+		"bst": 350,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
 		],
 		"slot_bst": 352,
-		"local": 45
+		"local": 10
 	},
 	{
 		"dex": 84,
 		"slot": "DODUO",
-		"id": "na-127",
-		"name": "Canada Goose",
+		"id": "bc-046",
+		"name": "Douglas Squirrel",
 		"types": [
 			"Common",
-			"Sky"
+			"Verdant"
 		],
-		"bst": 370,
+		"bst": 340,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
@@ -1423,13 +1423,13 @@
 	{
 		"dex": 85,
 		"slot": "DODRIO",
-		"id": "na-116",
-		"name": "Snowy Owl",
+		"id": "na-113",
+		"name": "Bald Eagle",
 		"types": [
-			"Frost",
+			"Common",
 			"Sky"
 		],
-		"bst": 440,
+		"bst": 460,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
@@ -1440,64 +1440,64 @@
 	{
 		"dex": 86,
 		"slot": "SEEL",
-		"id": "mi-106",
-		"name": "Mermaid's Wineglass",
+		"id": "na-078",
+		"name": "Christmas Tree Worm",
 		"types": [
-			"Verdant",
-			"Aqua"
+			"Aqua",
+			"Charm"
 		],
-		"bst": 260,
+		"bst": 325,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 325,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 87,
 		"slot": "DEWGONG",
-		"id": "na-082",
-		"name": "Greenland Shark",
+		"id": "ds-040",
+		"name": "Giant Oceanic Manta Ray",
 		"types": [
 			"Aqua",
-			"Frost"
+			"Mind"
 		],
-		"bst": 455,
+		"bst": 470,
 		"slot_types": [
 			"WATER",
 			"ICE"
 		],
 		"slot_bst": 475,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 88,
 		"slot": "GRIMER",
-		"id": "na-098",
-		"name": "Strawberry Poison Dart Frog",
+		"id": "eu-022",
+		"name": "Death Cap",
 		"types": [
 			"Toxin",
-			"Charm"
+			"Verdant"
 		],
-		"bst": 320,
+		"bst": 365,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 325,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 89,
 		"slot": "MUK",
-		"id": "na-074",
-		"name": "Lion's Mane Jelly",
+		"id": "bc-095",
+		"name": "American Bullfrog",
 		"types": [
 			"Aqua",
-			"Toxin"
+			"Brawn"
 		],
-		"bst": 365,
+		"bst": 430,
 		"slot_types": [
 			"POISON",
 			"POISON"
@@ -1508,13 +1508,13 @@
 	{
 		"dex": 90,
 		"slot": "SHELLDER",
-		"id": "af-022",
-		"name": "Namib Fog Lichen",
+		"id": "na-070",
+		"name": "Eastern Oyster",
 		"types": [
-			"Verdant",
-			"Aqua"
+			"Aqua",
+			"Stone"
 		],
-		"bst": 270,
+		"bst": 305,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -1525,81 +1525,81 @@
 	{
 		"dex": 91,
 		"slot": "CLOYSTER",
-		"id": "na-112",
-		"name": "Leatherback Sea Turtle",
+		"id": "af-078",
+		"name": "Great White Shark",
 		"types": [
 			"Aqua",
-			"Frost"
+			"Night"
 		],
-		"bst": 450,
+		"bst": 515,
 		"slot_types": [
 			"WATER",
 			"ICE"
 		],
 		"slot_bst": 525,
-		"local": 45
+		"local": 10
 	},
 	{
 		"dex": 92,
 		"slot": "GASTLY",
-		"id": "ds-084",
-		"name": "Harp Sponge",
+		"id": "na-056",
+		"name": "Black-and-gold Flat Millipede",
 		"types": [
-			"Aqua",
-			"Night"
+			"Chitin",
+			"Toxin"
 		],
-		"bst": 300,
+		"bst": 310,
 		"slot_types": [
 			"GHOST",
 			"POISON"
 		],
 		"slot_bst": 310,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 93,
 		"slot": "HAUNTER",
-		"id": "mi-012",
-		"name": "Botulinum Bacterium",
+		"id": "na-057",
+		"name": "Common Desert Centipede",
 		"types": [
 			"Toxin",
-			"Night"
+			"Brawn"
+		],
+		"bst": 410,
+		"slot_types": [
+			"GHOST",
+			"POISON"
+		],
+		"slot_bst": 405,
+		"local": 10
+	},
+	{
+		"dex": 94,
+		"slot": "GENGAR",
+		"id": "na-004",
+		"name": "Monarch Butterfly",
+		"types": [
+			"Chitin",
+			"Toxin"
 		],
 		"bst": 355,
 		"slot_types": [
 			"GHOST",
 			"POISON"
 		],
-		"slot_bst": 405,
-		"local": 20
-	},
-	{
-		"dex": 94,
-		"slot": "GENGAR",
-		"id": "mi-043",
-		"name": "C. difficile",
-		"types": [
-			"Toxin",
-			"Night"
-		],
-		"bst": 345,
-		"slot_types": [
-			"GHOST",
-			"POISON"
-		],
 		"slot_bst": 500,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 95,
 		"slot": "ONIX",
-		"id": "af-010",
-		"name": "Wood's Cycad",
+		"id": "na-106",
+		"name": "Gila Monster",
 		"types": [
-			"Verdant",
-			"Stone"
+			"Toxin",
+			"Soil"
 		],
-		"bst": 365,
+		"bst": 390,
 		"slot_types": [
 			"ROCK",
 			"GROUND"
@@ -1610,23 +1610,40 @@
 	{
 		"dex": 96,
 		"slot": "DROWZEE",
-		"id": "ds-108",
-		"name": "Telescope Octopus",
+		"id": "mi-018",
+		"name": "Wolbachia",
 		"types": [
-			"Aqua",
-			"Mind"
+			"Mind",
+			"Chitin"
 		],
-		"bst": 290,
+		"bst": 315,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 328,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 97,
 		"slot": "HYPNO",
+		"id": "na-104",
+		"name": "Green Iguana",
+		"types": [
+			"Verdant",
+			"Mind"
+		],
+		"bst": 355,
+		"slot_types": [
+			"PSYCHIC",
+			"PSYCHIC"
+		],
+		"slot_bst": 483,
+		"local": 10
+	},
+	{
+		"dex": 98,
+		"slot": "KRABBY",
 		"id": "mi-093",
 		"name": "Tear of the Swan",
 		"types": [
@@ -1635,39 +1652,22 @@
 		],
 		"bst": 325,
 		"slot_types": [
-			"PSYCHIC",
-			"PSYCHIC"
-		],
-		"slot_bst": 483,
-		"local": 20
-	},
-	{
-		"dex": 98,
-		"slot": "KRABBY",
-		"id": "mi-084",
-		"name": "Giardia",
-		"types": [
-			"Toxin",
-			"Aqua"
-		],
-		"bst": 320,
-		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 325,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 99,
 		"slot": "KINGLER",
-		"id": "af-001",
-		"name": "Baobab",
+		"id": "na-087",
+		"name": "Atlantic Bluefin Tuna",
 		"types": [
-			"Verdant",
-			"Aqua"
+			"Aqua",
+			"Ember"
 		],
-		"bst": 475,
+		"bst": 485,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -1678,13 +1678,13 @@
 	{
 		"dex": 100,
 		"slot": "VOLTORB",
-		"id": "na-042",
-		"name": "Convergent Lady Beetle",
+		"id": "bc-144",
+		"name": "Lungwort Lichen",
 		"types": [
-			"Chitin",
+			"Verdant",
 			"Charm"
 		],
-		"bst": 320,
+		"bst": 370,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
@@ -1695,64 +1695,64 @@
 	{
 		"dex": 101,
 		"slot": "ELECTRODE",
-		"id": "na-021",
-		"name": "Cacao Tree",
+		"id": "na-115",
+		"name": "Great Horned Owl",
 		"types": [
-			"Verdant",
-			"Charm"
+			"Night",
+			"Sky"
 		],
-		"bst": 340,
+		"bst": 435,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 480,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 102,
 		"slot": "EXEGGCUTE",
-		"id": "mi-048",
-		"name": "Agrobacterium",
+		"id": "na-003",
+		"name": "Common Milkweed",
 		"types": [
 			"Verdant",
-			"Mind"
+			"Toxin"
 		],
-		"bst": 295,
+		"bst": 325,
 		"slot_types": [
 			"GRASS",
 			"PSYCHIC"
 		],
 		"slot_bst": 325,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 103,
 		"slot": "EXEGGUTOR",
-		"id": "mi-075",
-		"name": "Euglena",
+		"id": "na-014",
+		"name": "Coast Redwood",
 		"types": [
 			"Verdant",
-			"Mind"
+			"Armor"
 		],
-		"bst": 285,
+		"bst": 520,
 		"slot_types": [
 			"GRASS",
 			"PSYCHIC"
 		],
 		"slot_bst": 520,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 104,
 		"slot": "CUBONE",
-		"id": "af-020",
-		"name": "Termite Mushroom",
+		"id": "mi-016",
+		"name": "Streptomyces griseus",
 		"types": [
-			"Verdant",
-			"Soil"
+			"Soil",
+			"Toxin"
 		],
-		"bst": 320,
+		"bst": 325,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
@@ -1763,13 +1763,13 @@
 	{
 		"dex": 105,
 		"slot": "MAROWAK",
-		"id": "af-037",
-		"name": "Mound-building Termite",
+		"id": "na-119",
+		"name": "Greater Roadrunner",
 		"types": [
-			"Chitin",
-			"Soil"
+			"Soil",
+			"Brawn"
 		],
-		"bst": 360,
+		"bst": 395,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
@@ -1780,30 +1780,30 @@
 	{
 		"dex": 106,
 		"slot": "HITMONLEE",
-		"id": "mi-014",
-		"name": "Helicobacter pylori",
+		"id": "mi-010",
+		"name": "Conan the Bacterium",
 		"types": [
-			"Toxin",
+			"Armor",
 			"Brawn"
 		],
-		"bst": 355,
+		"bst": 450,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 455,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 107,
 		"slot": "HITMONCHAN",
-		"id": "af-030",
-		"name": "Goliath Beetle",
+		"id": "na-150",
+		"name": "Narwhal",
 		"types": [
-			"Chitin",
-			"Brawn"
+			"Aqua",
+			"Frost"
 		],
-		"bst": 415,
+		"bst": 455,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
@@ -1831,30 +1831,30 @@
 	{
 		"dex": 109,
 		"slot": "KOFFING",
-		"id": "mi-109",
-		"name": "Penicillin Mold",
+		"id": "na-052",
+		"name": "Western Black Widow",
 		"types": [
 			"Toxin",
-			"Charm"
+			"Night"
 		],
-		"bst": 330,
+		"bst": 360,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 340,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 110,
 		"slot": "WEEZING",
-		"id": "na-135",
-		"name": "Striped Skunk",
+		"id": "bc-114",
+		"name": "Opalescent Nudibranch",
 		"types": [
 			"Toxin",
-			"Night"
+			"Charm"
 		],
-		"bst": 370,
+		"bst": 390,
 		"slot_types": [
 			"POISON",
 			"POISON"
@@ -1865,64 +1865,64 @@
 	{
 		"dex": 111,
 		"slot": "RHYHORN",
-		"id": "na-041",
-		"name": "American Burying Beetle",
+		"id": "bc-058",
+		"name": "Mountain Beaver",
 		"types": [
-			"Chitin",
-			"Soil"
+			"Soil",
+			"Stone"
 		],
-		"bst": 350,
+		"bst": 380,
 		"slot_types": [
 			"GROUND",
 			"ROCK"
 		],
 		"slot_bst": 345,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 112,
 		"slot": "RHYDON",
-		"id": "na-016",
-		"name": "Saguaro",
+		"id": "bc-145",
+		"name": "Honey Mushroom",
 		"types": [
-			"Verdant",
-			"Soil"
+			"Soil",
+			"Charm"
 		],
-		"bst": 395,
+		"bst": 430,
 		"slot_types": [
 			"GROUND",
 			"ROCK"
 		],
 		"slot_bst": 485,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 113,
 		"slot": "CHANSEY",
-		"id": "na-145",
-		"name": "Brown-throated Three-toed Sloth",
+		"id": "na-103",
+		"name": "Common Basilisk",
 		"types": [
-			"Common",
-			"Verdant"
+			"Aqua",
+			"Common"
 		],
-		"bst": 330,
+		"bst": 340,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 450,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 114,
 		"slot": "TANGELA",
-		"id": "af-013",
-		"name": "Whistling Thorn",
+		"id": "mi-116",
+		"name": "Hat Thrower Fungus",
 		"types": [
 			"Verdant",
-			"Armor"
+			"Brawn"
 		],
-		"bst": 340,
+		"bst": 370,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
@@ -1945,7 +1945,7 @@
 			"NORMAL"
 		],
 		"slot_bst": 490,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 116,
@@ -1967,12 +1967,13 @@
 	{
 		"dex": 117,
 		"slot": "SEADRA",
-		"id": "na-089",
-		"name": "Common Mola",
+		"id": "bc-102",
+		"name": "Lingcod",
 		"types": [
-			"Aqua"
+			"Aqua",
+			"Night"
 		],
-		"bst": 400,
+		"bst": 440,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -1983,53 +1984,53 @@
 	{
 		"dex": 118,
 		"slot": "GOLDEEN",
-		"id": "ds-102",
-		"name": "Deepstaria",
+		"id": "mi-004",
+		"name": "Tardigrade",
 		"types": [
 			"Aqua",
-			"Night"
+			"Brawn"
 		],
-		"bst": 320,
+		"bst": 360,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 320,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 119,
 		"slot": "SEAKING",
-		"id": "na-121",
-		"name": "Roseate Spoonbill",
+		"id": "mi-005",
+		"name": "Tardigrade Tun",
 		"types": [
-			"Aqua",
-			"Charm"
+			"Armor",
+			"Frost"
 		],
-		"bst": 390,
+		"bst": 425,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 450,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 120,
 		"slot": "STARYU",
-		"id": "ds-009",
-		"name": "Black Seadevil",
+		"id": "bc-104",
+		"name": "Pacific Spiny Lumpsucker",
 		"types": [
 			"Aqua",
-			"Night"
+			"Charm"
 		],
-		"bst": 340,
+		"bst": 355,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 340,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 121,
@@ -2051,13 +2052,13 @@
 	{
 		"dex": 122,
 		"slot": "MR_MIME",
-		"id": "af-029",
-		"name": "Mocker Swallowtail",
+		"id": "na-081",
+		"name": "Scalloped Hammerhead",
 		"types": [
-			"Chitin",
+			"Aqua",
 			"Mind"
 		],
-		"bst": 395,
+		"bst": 450,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -2068,13 +2069,13 @@
 	{
 		"dex": 123,
 		"slot": "SCYTHER",
-		"id": "af-024",
-		"name": "Citrus Swallowtail",
+		"id": "na-039",
+		"name": "Giant Stag Beetle",
 		"types": [
 			"Chitin",
-			"Sky"
+			"Armor"
 		],
-		"bst": 395,
+		"bst": 375,
 		"slot_types": [
 			"BUG",
 			"FLYING"
@@ -2085,13 +2086,13 @@
 	{
 		"dex": 124,
 		"slot": "JYNX",
-		"id": "af-018",
-		"name": "Giant Lobelia",
+		"id": "oc-142",
+		"name": "Muskox",
 		"types": [
-			"Verdant",
-			"Frost"
+			"Frost",
+			"Stone"
 		],
-		"bst": 335,
+		"bst": 460,
 		"slot_types": [
 			"ICE",
 			"PSYCHIC"
@@ -2102,80 +2103,81 @@
 	{
 		"dex": 125,
 		"slot": "ELECTABUZZ",
-		"id": "mi-034",
-		"name": "Salt Pond Archaeon",
+		"id": "sa-151",
+		"name": "Pink Fairy Armadillo",
 		"types": [
-			"Stone",
-			"Charm"
+			"Charm",
+			"Soil"
 		],
-		"bst": 295,
+		"bst": 315,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 490,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 126,
 		"slot": "MAGMAR",
-		"id": "na-054",
-		"name": "Mexican Redknee Tarantula",
+		"id": "af-043",
+		"name": "African Bombardier Beetle",
 		"types": [
 			"Chitin",
 			"Ember"
 		],
-		"bst": 355,
+		"bst": 360,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 495,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 127,
 		"slot": "PINSIR",
-		"id": "na-049",
-		"name": "Urania Swallowtail Moth",
+		"id": "bc-126",
+		"name": "Yellow-spotted Millipede",
 		"types": [
 			"Chitin",
-			"Charm"
+			"Toxin"
 		],
-		"bst": 385,
+		"bst": 375,
 		"slot_types": [
 			"BUG",
 			"BUG"
 		],
 		"slot_bst": 500,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 128,
 		"slot": "TAUROS",
-		"id": "na-123",
-		"name": "Common Potoo",
+		"id": "af-035",
+		"name": "Tsetse Fly",
 		"types": [
-			"Night",
-			"Common"
+			"Chitin",
+			"Night"
 		],
-		"bst": 330,
+		"bst": 360,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 490,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 129,
 		"slot": "MAGIKARP",
-		"id": "ds-005",
-		"name": "Moon Jelly Polyp",
+		"id": "bc-115",
+		"name": "Lewis's Moon Snail",
 		"types": [
-			"Aqua"
+			"Aqua",
+			"Night"
 		],
-		"bst": 200,
+		"bst": 390,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -2186,13 +2188,13 @@
 	{
 		"dex": 130,
 		"slot": "GYARADOS",
-		"id": "na-124",
-		"name": "Tufted Puffin",
+		"id": "na-149",
+		"name": "Orca",
 		"types": [
 			"Aqua",
-			"Sky"
+			"Mind"
 		],
-		"bst": 360,
+		"bst": 560,
 		"slot_types": [
 			"WATER",
 			"FLYING"
@@ -2203,28 +2205,28 @@
 	{
 		"dex": 131,
 		"slot": "LAPRAS",
-		"id": "na-129",
-		"name": "Polar Bear",
+		"id": "ds-073",
+		"name": "Giant Phantom Jelly",
 		"types": [
-			"Frost",
-			"Aqua"
+			"Aqua",
+			"Night"
 		],
-		"bst": 510,
+		"bst": 360,
 		"slot_types": [
 			"WATER",
 			"ICE"
 		],
 		"slot_bst": 535,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 132,
 		"slot": "DITTO",
-		"id": "mi-032",
-		"name": "Vinegar Bacterium",
+		"id": "mi-108",
+		"name": "Baker's Yeast",
 		"types": [
-			"Toxin",
-			"Common"
+			"Common",
+			"Charm"
 		],
 		"bst": 285,
 		"slot_types": [
@@ -2232,66 +2234,66 @@
 			"NORMAL"
 		],
 		"slot_bst": 288,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 133,
 		"slot": "EEVEE",
-		"id": "mi-045",
-		"name": "Bleeding Bread Bacterium",
+		"id": "na-142",
+		"name": "Groundhog",
 		"types": [
-			"Ember",
-			"Common"
+			"Common",
+			"Soil"
 		],
-		"bst": 315,
+		"bst": 320,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 325,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 134,
 		"slot": "VAPOREON",
-		"id": "na-139",
-		"name": "Jaguar",
+		"id": "ds-063",
+		"name": "Blanket Octopus",
 		"types": [
-			"Night",
-			"Aqua"
+			"Aqua",
+			"Toxin"
 		],
-		"bst": 490,
+		"bst": 365,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 525,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 135,
 		"slot": "JOLTEON",
-		"id": "mi-080",
-		"name": "Radiolarian",
+		"id": "oc-101",
+		"name": "Kākāpō",
 		"types": [
-			"Stone",
+			"Verdant",
 			"Charm"
 		],
-		"bst": 295,
+		"bst": 330,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 525,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 136,
 		"slot": "FLAREON",
-		"id": "af-005",
-		"name": "King Protea",
+		"id": "na-054",
+		"name": "Mexican Redknee Tarantula",
 		"types": [
-			"Verdant",
+			"Chitin",
 			"Ember"
 		],
 		"bst": 355,
@@ -2305,19 +2307,19 @@
 	{
 		"dex": 137,
 		"slot": "PORYGON",
-		"id": "mi-028",
-		"name": "Salmonella",
+		"id": "eu-087",
+		"name": "Goblin Shark",
 		"types": [
-			"Toxin",
-			"Common"
+			"Aqua",
+			"Night"
 		],
-		"bst": 330,
+		"bst": 395,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 395,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 138,
@@ -2334,7 +2336,7 @@
 			"WATER"
 		],
 		"slot_bst": 355,
-		"local": 45
+		"local": 10
 	},
 	{
 		"dex": 139,
@@ -2356,19 +2358,19 @@
 	{
 		"dex": 140,
 		"slot": "KABUTO",
-		"id": "fo-009",
-		"name": "Pikaia",
+		"id": "fo-058",
+		"name": "Borealopelta",
 		"types": [
-			"Aqua",
-			"Common"
+			"Stone",
+			"Armor"
 		],
-		"bst": 230,
+		"bst": 410,
 		"slot_types": [
 			"ROCK",
 			"WATER"
 		],
 		"slot_bst": 355,
-		"local": 60
+		"local": 10
 	},
 	{
 		"dex": 141,
@@ -2407,30 +2409,30 @@
 	{
 		"dex": 143,
 		"slot": "SNORLAX",
-		"id": "mi-054",
-		"name": "Baby Gut Bacterium",
+		"id": "af-119",
+		"name": "African Bush Elephant",
 		"types": [
-			"Common",
-			"Charm"
+			"Soil",
+			"Common"
 		],
-		"bst": 260,
+		"bst": 570,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 540,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 144,
 		"slot": "ARTICUNO",
-		"id": "eu-129",
-		"name": "Snow Leopard",
+		"id": "af-017",
+		"name": "Giant Groundsel",
 		"types": [
-			"Frost",
-			"Stone"
+			"Verdant",
+			"Frost"
 		],
-		"bst": 465,
+		"bst": 350,
 		"slot_types": [
 			"ICE",
 			"FLYING"
@@ -2441,13 +2443,13 @@
 	{
 		"dex": 145,
 		"slot": "ZAPDOS",
-		"id": "sa-151",
-		"name": "Pink Fairy Armadillo",
+		"id": "ds-147",
+		"name": "Atlantic Puffin",
 		"types": [
-			"Charm",
-			"Soil"
+			"Aqua",
+			"Sky"
 		],
-		"bst": 315,
+		"bst": 345,
 		"slot_types": [
 			"ELECTRIC",
 			"FLYING"
@@ -2458,13 +2460,13 @@
 	{
 		"dex": 146,
 		"slot": "MOLTRES",
-		"id": "sa-105",
-		"name": "Harpy Eagle",
+		"id": "ds-075",
+		"name": "Giant Tube Worm",
 		"types": [
-			"Brawn",
-			"Sky"
+			"Aqua",
+			"Ember"
 		],
-		"bst": 480,
+		"bst": 330,
 		"slot_types": [
 			"FIRE",
 			"FLYING"
@@ -2475,13 +2477,13 @@
 	{
 		"dex": 147,
 		"slot": "DRATINI",
-		"id": "af-040",
-		"name": "Giraffe Weevil",
+		"id": "na-029",
+		"name": "Cedar-apple Rust",
 		"types": [
-			"Chitin",
-			"Brawn"
+			"Verdant",
+			"Armor"
 		],
-		"bst": 310,
+		"bst": 300,
 		"slot_types": [
 			"DRAGON",
 			"DRAGON"
@@ -2492,11 +2494,11 @@
 	{
 		"dex": 148,
 		"slot": "DRAGONAIR",
-		"id": "ds-004",
-		"name": "Caribbean Spiny Lobster",
+		"id": "af-044",
+		"name": "Saharan Silver Ant",
 		"types": [
-			"Aqua",
-			"Brawn"
+			"Chitin",
+			"Armor"
 		],
 		"bst": 385,
 		"slot_types": [
@@ -2504,18 +2506,18 @@
 			"DRAGON"
 		],
 		"slot_bst": 420,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 149,
 		"slot": "DRAGONITE",
-		"id": "af-033",
-		"name": "Driver Ant",
+		"id": "ds-081",
+		"name": "Giant Isopod",
 		"types": [
-			"Chitin",
-			"Brawn"
+			"Aqua",
+			"Armor"
 		],
-		"bst": 345,
+		"bst": 355,
 		"slot_types": [
 			"DRAGON",
 			"FLYING"
@@ -2526,166 +2528,166 @@
 	{
 		"dex": 150,
 		"slot": "MEWTWO",
-		"id": "ds-129",
-		"name": "Sperm Whale",
+		"id": "af-007",
+		"name": "Rosy Periwinkle",
 		"types": [
-			"Aqua",
+			"Verdant",
 			"Mind"
 		],
-		"bst": 590,
+		"bst": 335,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 680,
-		"local": 45
+		"local": 10
 	},
 	{
 		"dex": 151,
 		"slot": "MEW",
-		"id": "mi-040",
-		"name": "Asgard Archaeon",
+		"id": "bc-017",
+		"name": "Sasquatch",
 		"types": [
-			"Stone",
-			"Mind"
+			"Brawn",
+			"Night"
 		],
-		"bst": 280,
+		"bst": 600,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 600,
-		"local": 10
+		"local": 100
 	},
 	{
 		"dex": 152,
 		"slot": "CHIKORITA",
-		"id": "na-095",
-		"name": "Red-eyed Tree Frog",
+		"id": "na-096",
+		"name": "Gliding Leaf Frog",
 		"types": [
-			"Aqua",
-			"Verdant"
+			"Verdant",
+			"Sky"
 		],
-		"bst": 315,
+		"bst": 320,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 318,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 153,
 		"slot": "BAYLEEF",
-		"id": "na-147",
-		"name": "West Indian Manatee",
+		"id": "af-008",
+		"name": "Arabica Coffee",
 		"types": [
-			"Aqua",
-			"Verdant"
+			"Verdant",
+			"Toxin"
 		],
-		"bst": 390,
+		"bst": 385,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 405,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 154,
 		"slot": "MEGANIUM",
-		"id": "mi-078",
-		"name": "Diatom",
+		"id": "na-015",
+		"name": "Western Joshua Tree",
 		"types": [
-			"Armor",
-			"Verdant"
+			"Verdant",
+			"Soil"
 		],
-		"bst": 290,
+		"bst": 360,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 525,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 155,
 		"slot": "CYNDAQUIL",
-		"id": "mi-056",
-		"name": "Weizmann's Bacterium",
+		"id": "mi-038",
+		"name": "Sulfolobus",
 		"types": [
-			"Toxin",
-			"Ember"
+			"Ember",
+			"Toxin"
 		],
-		"bst": 300,
+		"bst": 305,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 309,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 156,
 		"slot": "QUILAVA",
-		"id": "ds-146",
-		"name": "Red-billed Tropicbird",
+		"id": "na-111",
+		"name": "Common Snapping Turtle",
 		"types": [
-			"Ember",
-			"Sky"
+			"Aqua",
+			"Brawn"
 		],
-		"bst": 350,
+		"bst": 390,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 405,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 157,
 		"slot": "TYPHLOSION",
-		"id": "ds-075",
-		"name": "Giant Tube Worm",
+		"id": "mi-045",
+		"name": "Bleeding Bread Bacterium",
 		"types": [
-			"Aqua",
-			"Ember"
+			"Ember",
+			"Common"
 		],
-		"bst": 330,
+		"bst": 315,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 534,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 158,
 		"slot": "TOTODILE",
-		"id": "mi-073",
-		"name": "Stentor",
+		"id": "na-100",
+		"name": "Red-spotted Newt",
 		"types": [
-			"Mind",
-			"Aqua"
+			"Aqua",
+			"Toxin"
 		],
-		"bst": 295,
+		"bst": 310,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 314,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 159,
 		"slot": "CROCONAW",
-		"id": "af-031",
-		"name": "Namib Desert Beetle",
+		"id": "eu-086",
+		"name": "Frilled Shark",
 		"types": [
-			"Chitin",
-			"Aqua"
+			"Aqua",
+			"Stone"
 		],
-		"bst": 330,
+		"bst": 400,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -2696,13 +2698,13 @@
 	{
 		"dex": 160,
 		"slot": "FERALIGATR",
-		"id": "af-016",
-		"name": "Papyrus",
+		"id": "ds-010",
+		"name": "Sloane's Viperfish",
 		"types": [
-			"Verdant",
-			"Aqua"
+			"Aqua",
+			"Night"
 		],
-		"bst": 315,
+		"bst": 360,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -2713,6 +2715,209 @@
 	{
 		"dex": 161,
 		"slot": "SENTRET",
+		"id": "ds-003",
+		"name": "Phyllosoma",
+		"types": [
+			"Aqua",
+			"Night"
+		],
+		"bst": 225,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 215,
+		"local": 10
+	},
+	{
+		"dex": 162,
+		"slot": "FURRET",
+		"id": "ds-004",
+		"name": "Caribbean Spiny Lobster",
+		"types": [
+			"Aqua",
+			"Brawn"
+		],
+		"bst": 385,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 415,
+		"local": 10
+	},
+	{
+		"dex": 163,
+		"slot": "HOOTHOOT",
+		"id": "mi-054",
+		"name": "Baby Gut Bacterium",
+		"types": [
+			"Common",
+			"Charm"
+		],
+		"bst": 260,
+		"slot_types": [
+			"NORMAL",
+			"FLYING"
+		],
+		"slot_bst": 262,
+		"local": 10
+	},
+	{
+		"dex": 164,
+		"slot": "NOCTOWL",
+		"id": "af-041",
+		"name": "Comet Moth",
+		"types": [
+			"Chitin",
+			"Sky"
+		],
+		"bst": 355,
+		"slot_types": [
+			"NORMAL",
+			"FLYING"
+		],
+		"slot_bst": 442,
+		"local": 10
+	},
+	{
+		"dex": 165,
+		"slot": "LEDYBA",
+		"id": "na-035",
+		"name": "Mexican Honeypot Ant",
+		"types": [
+			"Chitin",
+			"Soil"
+		],
+		"bst": 275,
+		"slot_types": [
+			"BUG",
+			"FLYING"
+		],
+		"slot_bst": 265,
+		"local": 10
+	},
+	{
+		"dex": 166,
+		"slot": "LEDIAN",
+		"id": "na-049",
+		"name": "Urania Swallowtail Moth",
+		"types": [
+			"Chitin",
+			"Charm"
+		],
+		"bst": 385,
+		"slot_types": [
+			"BUG",
+			"FLYING"
+		],
+		"slot_bst": 390,
+		"local": 10
+	},
+	{
+		"dex": 167,
+		"slot": "SPINARAK",
+		"id": "af-025",
+		"name": "Mopane Worm",
+		"types": [
+			"Chitin"
+		],
+		"bst": 250,
+		"slot_types": [
+			"BUG",
+			"POISON"
+		],
+		"slot_bst": 250,
+		"local": 10
+	},
+	{
+		"dex": 168,
+		"slot": "ARIADOS",
+		"id": "af-026",
+		"name": "Mopane Emperor Moth",
+		"types": [
+			"Chitin",
+			"Sky"
+		],
+		"bst": 375,
+		"slot_types": [
+			"BUG",
+			"POISON"
+		],
+		"slot_bst": 390,
+		"local": 10
+	},
+	{
+		"dex": 169,
+		"slot": "CROBAT",
+		"id": "bc-065",
+		"name": "Rufous Hummingbird",
+		"types": [
+			"Sky",
+			"Ember"
+		],
+		"bst": 415,
+		"slot_types": [
+			"POISON",
+			"FLYING"
+		],
+		"slot_bst": 535,
+		"local": 100
+	},
+	{
+		"dex": 170,
+		"slot": "CHINCHOU",
+		"id": "na-124",
+		"name": "Tufted Puffin",
+		"types": [
+			"Aqua",
+			"Sky"
+		],
+		"bst": 360,
+		"slot_types": [
+			"WATER",
+			"ELECTRIC"
+		],
+		"slot_bst": 330,
+		"local": 100
+	},
+	{
+		"dex": 171,
+		"slot": "LANTURN",
+		"id": "bc-059",
+		"name": "Sea Otter",
+		"types": [
+			"Aqua",
+			"Mind"
+		],
+		"bst": 460,
+		"slot_types": [
+			"WATER",
+			"ELECTRIC"
+		],
+		"slot_bst": 460,
+		"local": 100
+	},
+	{
+		"dex": 172,
+		"slot": "PICHU",
+		"id": "na-031",
+		"name": "White Carnival Candy Slime Mold",
+		"types": [
+			"Charm",
+			"Mind"
+		],
+		"bst": 210,
+		"slot_types": [
+			"ELECTRIC",
+			"ELECTRIC"
+		],
+		"slot_bst": 205,
+		"local": 100
+	},
+	{
+		"dex": 173,
+		"slot": "CLEFFA",
 		"id": "mi-132",
 		"name": "Trichoplax",
 		"types": [
@@ -2724,222 +2929,18 @@
 			"NORMAL",
 			"NORMAL"
 		],
-		"slot_bst": 215,
-		"local": 20
-	},
-	{
-		"dex": 162,
-		"slot": "FURRET",
-		"id": "af-039",
-		"name": "Madagascar Hissing Cockroach",
-		"types": [
-			"Chitin",
-			"Common"
-		],
-		"bst": 315,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
-		"slot_bst": 415,
-		"local": 10
-	},
-	{
-		"dex": 163,
-		"slot": "HOOTHOOT",
-		"id": "mi-101",
-		"name": "Arcella",
-		"types": [
-			"Aqua",
-			"Sky"
-		],
-		"bst": 260,
-		"slot_types": [
-			"NORMAL",
-			"FLYING"
-		],
-		"slot_bst": 262,
-		"local": 20
-	},
-	{
-		"dex": 164,
-		"slot": "NOCTOWL",
-		"id": "mi-039",
-		"name": "Square Archaeon",
-		"types": [
-			"Stone",
-			"Common"
-		],
-		"bst": 260,
-		"slot_types": [
-			"NORMAL",
-			"FLYING"
-		],
-		"slot_bst": 442,
-		"local": 20
-	},
-	{
-		"dex": 165,
-		"slot": "LEDYBA",
-		"id": "af-025",
-		"name": "Mopane Worm",
-		"types": [
-			"Chitin"
-		],
-		"bst": 250,
-		"slot_types": [
-			"BUG",
-			"FLYING"
-		],
-		"slot_bst": 265,
-		"local": 10
-	},
-	{
-		"dex": 166,
-		"slot": "LEDIAN",
-		"id": "af-041",
-		"name": "Comet Moth",
-		"types": [
-			"Chitin",
-			"Sky"
-		],
-		"bst": 355,
-		"slot_types": [
-			"BUG",
-			"FLYING"
-		],
-		"slot_bst": 390,
-		"local": 10
-	},
-	{
-		"dex": 167,
-		"slot": "SPINARAK",
-		"id": "na-050",
-		"name": "Lone Star Tick",
-		"types": [
-			"Chitin",
-			"Toxin"
-		],
-		"bst": 295,
-		"slot_types": [
-			"BUG",
-			"POISON"
-		],
-		"slot_bst": 250,
-		"local": 30
-	},
-	{
-		"dex": 168,
-		"slot": "ARIADOS",
-		"id": "af-036",
-		"name": "African Malaria Mosquito",
-		"types": [
-			"Chitin",
-			"Toxin"
-		],
-		"bst": 310,
-		"slot_types": [
-			"BUG",
-			"POISON"
-		],
-		"slot_bst": 390,
-		"local": 10
-	},
-	{
-		"dex": 169,
-		"slot": "CROBAT",
-		"id": "na-144",
-		"name": "Common Vampire Bat",
-		"types": [
-			"Toxin",
-			"Sky"
-		],
-		"bst": 355,
-		"slot_types": [
-			"POISON",
-			"FLYING"
-		],
-		"slot_bst": 535,
-		"local": 30
-	},
-	{
-		"dex": 170,
-		"slot": "CHINCHOU",
-		"id": "ds-057",
-		"name": "Dumbo Octopus",
-		"types": [
-			"Aqua",
-			"Charm"
-		],
-		"bst": 310,
-		"slot_types": [
-			"WATER",
-			"ELECTRIC"
-		],
-		"slot_bst": 330,
-		"local": 45
-	},
-	{
-		"dex": 171,
-		"slot": "LANTURN",
-		"id": "ds-140",
-		"name": "Hawksbill Sea Turtle",
-		"types": [
-			"Aqua",
-			"Charm"
-		],
-		"bst": 400,
-		"slot_types": [
-			"WATER",
-			"ELECTRIC"
-		],
-		"slot_bst": 460,
-		"local": 45
-	},
-	{
-		"dex": 172,
-		"slot": "PICHU",
-		"id": "ds-094",
-		"name": "Sea Sparkle",
-		"types": [
-			"Aqua",
-			"Charm"
-		],
-		"bst": 220,
-		"slot_types": [
-			"ELECTRIC",
-			"ELECTRIC"
-		],
-		"slot_bst": 205,
-		"local": 100
-	},
-	{
-		"dex": 173,
-		"slot": "CLEFFA",
-		"id": "mi-137",
-		"name": "Gastrotrich",
-		"types": [
-			"Aqua",
-			"Common"
-		],
-		"bst": 230,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
 		"slot_bst": 218,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 174,
 		"slot": "IGGLYBUFF",
-		"id": "eu-074",
-		"name": "Common Earthworm",
+		"id": "mi-001",
+		"name": "Dictyostelium Amoeba",
 		"types": [
-			"Soil",
 			"Common"
 		],
-		"bst": 220,
+		"bst": 235,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -2950,18 +2951,19 @@
 	{
 		"dex": 175,
 		"slot": "TOGEPI",
-		"id": "ds-001",
-		"name": "Loggerhead Hatchling",
+		"id": "mi-066",
+		"name": "Acne Bacterium",
 		"types": [
-			"Aqua"
+			"Common",
+			"Toxin"
 		],
-		"bst": 245,
+		"bst": 270,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 245,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 176,
@@ -2978,35 +2980,35 @@
 			"FLYING"
 		],
 		"slot_bst": 405,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 177,
 		"slot": "NATU",
-		"id": "mi-117",
-		"name": "Ergot",
+		"id": "bc-078",
+		"name": "Bushtit",
 		"types": [
-			"Toxin",
-			"Mind"
+			"Sky",
+			"Common"
 		],
-		"bst": 320,
+		"bst": 340,
 		"slot_types": [
 			"PSYCHIC",
 			"FLYING"
 		],
 		"slot_bst": 320,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 178,
 		"slot": "XATU",
-		"id": "eu-120",
-		"name": "Common Starling",
+		"id": "bc-069",
+		"name": "Trumpeter Swan",
 		"types": [
-			"Mind",
-			"Sky"
+			"Sky",
+			"Aqua"
 		],
-		"bst": 365,
+		"bst": 475,
 		"slot_types": [
 			"PSYCHIC",
 			"FLYING"
@@ -3017,47 +3019,46 @@
 	{
 		"dex": 179,
 		"slot": "MAREEP",
-		"id": "mi-123",
-		"name": "Bdelloid Rotifer",
+		"id": "mi-051",
+		"name": "Angel's Glow Bacterium",
 		"types": [
-			"Aqua",
 			"Charm"
 		],
-		"bst": 290,
+		"bst": 305,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 280,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 180,
 		"slot": "FLAAFFY",
-		"id": "mi-069",
-		"name": "Violet Bacterium",
+		"id": "na-036",
+		"name": "Thistledown Velvet Ant",
 		"types": [
-			"Toxin",
+			"Chitin",
 			"Charm"
 		],
-		"bst": 310,
+		"bst": 375,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 365,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 181,
 		"slot": "AMPHAROS",
-		"id": "af-021",
-		"name": "Veiled Lady",
+		"id": "ds-065",
+		"name": "Giant Siphonophore",
 		"types": [
-			"Verdant",
+			"Aqua",
 			"Charm"
 		],
-		"bst": 300,
+		"bst": 340,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
@@ -3068,63 +3069,63 @@
 	{
 		"dex": 182,
 		"slot": "BELLOSSOM",
-		"id": "na-017",
-		"name": "Bunny Ears Cactus",
+		"id": "bc-133",
+		"name": "Garry Oak",
 		"types": [
 			"Verdant",
-			"Charm"
+			"Stone"
 		],
-		"bst": 310,
+		"bst": 430,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 480,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 183,
 		"slot": "MARILL",
-		"id": "ds-124",
-		"name": "Sea Sapphire",
+		"id": "ds-006",
+		"name": "Moon Jelly Ephyra",
 		"types": [
 			"Aqua",
 			"Charm"
 		],
-		"bst": 255,
+		"bst": 230,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 250,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 184,
 		"slot": "AZUMARILL",
+		"id": "ds-007",
+		"name": "Moon Jelly",
+		"types": [
+			"Aqua",
+			"Charm"
+		],
+		"bst": 300,
+		"slot_types": [
+			"WATER",
+			"WATER"
+		],
+		"slot_bst": 410,
+		"local": 100
+	},
+	{
+		"dex": 185,
+		"slot": "SUDOWOODO",
 		"id": "ds-018",
 		"name": "Giant Oarfish",
 		"types": [
 			"Aqua"
 		],
 		"bst": 410,
-		"slot_types": [
-			"WATER",
-			"WATER"
-		],
-		"slot_bst": 410,
-		"local": 45
-	},
-	{
-		"dex": 185,
-		"slot": "SUDOWOODO",
-		"id": "af-004",
-		"name": "Living Stones",
-		"types": [
-			"Verdant",
-			"Stone"
-		],
-		"bst": 295,
 		"slot_types": [
 			"ROCK",
 			"ROCK"
@@ -3135,18 +3136,19 @@
 	{
 		"dex": 186,
 		"slot": "POLITOED",
-		"id": "na-080",
-		"name": "Whale Shark",
+		"id": "na-082",
+		"name": "Greenland Shark",
 		"types": [
-			"Aqua"
+			"Aqua",
+			"Frost"
 		],
-		"bst": 490,
+		"bst": 455,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 500,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 187,
@@ -3163,35 +3165,35 @@
 			"FLYING"
 		],
 		"slot_bst": 250,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 188,
 		"slot": "SKIPLOOM",
-		"id": "na-096",
-		"name": "Gliding Leaf Frog",
+		"id": "na-021",
+		"name": "Cacao Tree",
 		"types": [
 			"Verdant",
-			"Sky"
+			"Charm"
 		],
-		"bst": 320,
+		"bst": 340,
 		"slot_types": [
 			"GRASS",
 			"FLYING"
 		],
 		"slot_bst": 340,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 189,
 		"slot": "JUMPLUFF",
-		"id": "af-006",
-		"name": "Bird of Paradise Flower",
+		"id": "eu-005",
+		"name": "Ginkgo",
 		"types": [
 			"Verdant",
-			"Sky"
+			"Armor"
 		],
-		"bst": 345,
+		"bst": 450,
 		"slot_types": [
 			"GRASS",
 			"FLYING"
@@ -3202,19 +3204,18 @@
 	{
 		"dex": 190,
 		"slot": "AIPOM",
-		"id": "mi-094",
-		"name": "Spirostomum",
+		"id": "na-146",
+		"name": "Mantled Howler Monkey",
 		"types": [
-			"Common",
-			"Toxin"
+			"Common"
 		],
-		"bst": 340,
+		"bst": 370,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 360,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 191,
@@ -3231,35 +3232,35 @@
 			"GRASS"
 		],
 		"slot_bst": 180,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 192,
 		"slot": "SUNFLORA",
-		"id": "na-023",
-		"name": "American Lotus",
+		"id": "ds-139",
+		"name": "Green Sea Turtle",
 		"types": [
 			"Aqua",
 			"Verdant"
 		],
-		"bst": 350,
+		"bst": 410,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 425,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 193,
 		"slot": "YANMA",
-		"id": "af-026",
-		"name": "Mopane Emperor Moth",
+		"id": "af-029",
+		"name": "Mocker Swallowtail",
 		"types": [
 			"Chitin",
-			"Sky"
+			"Mind"
 		],
-		"bst": 375,
+		"bst": 395,
 		"slot_types": [
 			"BUG",
 			"FLYING"
@@ -3270,142 +3271,39 @@
 	{
 		"dex": 194,
 		"slot": "WOOPER",
-		"id": "ds-074",
-		"name": "Bone-eating Worm",
+		"id": "ds-001",
+		"name": "Loggerhead Hatchling",
 		"types": [
-			"Aqua",
-			"Soil"
+			"Aqua"
 		],
-		"bst": 235,
+		"bst": 245,
 		"slot_types": [
 			"WATER",
 			"GROUND"
 		],
 		"slot_bst": 210,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 195,
 		"slot": "QUAGSIRE",
-		"id": "ds-120",
-		"name": "Olive Ridley Sea Turtle",
+		"id": "ds-002",
+		"name": "Loggerhead Sea Turtle",
 		"types": [
 			"Aqua",
-			"Soil"
+			"Stone"
 		],
-		"bst": 385,
+		"bst": 430,
 		"slot_types": [
 			"WATER",
 			"GROUND"
 		],
 		"slot_bst": 430,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 196,
 		"slot": "ESPEON",
-		"id": "af-032",
-		"name": "Sacred Scarab",
-		"types": [
-			"Chitin",
-			"Mind"
-		],
-		"bst": 370,
-		"slot_types": [
-			"PSYCHIC",
-			"PSYCHIC"
-		],
-		"slot_bst": 525,
-		"local": 10
-	},
-	{
-		"dex": 197,
-		"slot": "UMBREON",
-		"id": "af-035",
-		"name": "Tsetse Fly",
-		"types": [
-			"Chitin",
-			"Night"
-		],
-		"bst": 360,
-		"slot_types": [
-			"DARK",
-			"DARK"
-		],
-		"slot_bst": 525,
-		"local": 10
-	},
-	{
-		"dex": 198,
-		"slot": "MURKROW",
-		"id": "mi-085",
-		"name": "Toxoplasma",
-		"types": [
-			"Mind",
-			"Night"
-		],
-		"bst": 340,
-		"slot_types": [
-			"DARK",
-			"FLYING"
-		],
-		"slot_bst": 405,
-		"local": 20
-	},
-	{
-		"dex": 199,
-		"slot": "SLOWKING",
-		"id": "na-081",
-		"name": "Scalloped Hammerhead",
-		"types": [
-			"Aqua",
-			"Mind"
-		],
-		"bst": 450,
-		"slot_types": [
-			"WATER",
-			"PSYCHIC"
-		],
-		"slot_bst": 490,
-		"local": 30
-	},
-	{
-		"dex": 200,
-		"slot": "MISDREAVUS",
-		"id": "af-011",
-		"name": "Cape Sundew",
-		"types": [
-			"Verdant",
-			"Night"
-		],
-		"bst": 305,
-		"slot_types": [
-			"GHOST",
-			"GHOST"
-		],
-		"slot_bst": 435,
-		"local": 10
-	},
-	{
-		"dex": 201,
-		"slot": "UNOWN",
-		"id": "af-007",
-		"name": "Rosy Periwinkle",
-		"types": [
-			"Verdant",
-			"Mind"
-		],
-		"bst": 335,
-		"slot_types": [
-			"PSYCHIC",
-			"PSYCHIC"
-		],
-		"slot_bst": 336,
-		"local": 10
-	},
-	{
-		"dex": 202,
-		"slot": "WOBBUFFET",
 		"id": "na-037",
 		"name": "American Bumble Bee",
 		"types": [
@@ -3417,19 +3315,121 @@
 			"PSYCHIC",
 			"PSYCHIC"
 		],
+		"slot_bst": 525,
+		"local": 10
+	},
+	{
+		"dex": 197,
+		"slot": "UMBREON",
+		"id": "mi-023",
+		"name": "Wolf-pack Bacterium",
+		"types": [
+			"Night",
+			"Soil"
+		],
+		"bst": 330,
+		"slot_types": [
+			"DARK",
+			"DARK"
+		],
+		"slot_bst": 525,
+		"local": 10
+	},
+	{
+		"dex": 198,
+		"slot": "MURKROW",
+		"id": "na-110",
+		"name": "California Kingsnake",
+		"types": [
+			"Night",
+			"Brawn"
+		],
+		"bst": 400,
+		"slot_types": [
+			"DARK",
+			"FLYING"
+		],
 		"slot_bst": 405,
-		"local": 30
+		"local": 10
+	},
+	{
+		"dex": 199,
+		"slot": "SLOWKING",
+		"id": "ds-058",
+		"name": "Giant Squid",
+		"types": [
+			"Aqua",
+			"Brawn"
+		],
+		"bst": 490,
+		"slot_types": [
+			"WATER",
+			"PSYCHIC"
+		],
+		"slot_bst": 490,
+		"local": 10
+	},
+	{
+		"dex": 200,
+		"slot": "MISDREAVUS",
+		"id": "oc-120",
+		"name": "Platypus",
+		"types": [
+			"Aqua",
+			"Mind"
+		],
+		"bst": 380,
+		"slot_types": [
+			"GHOST",
+			"GHOST"
+		],
+		"slot_bst": 435,
+		"local": 10
+	},
+	{
+		"dex": 201,
+		"slot": "UNOWN",
+		"id": "mi-085",
+		"name": "Toxoplasma",
+		"types": [
+			"Mind",
+			"Night"
+		],
+		"bst": 340,
+		"slot_types": [
+			"PSYCHIC",
+			"PSYCHIC"
+		],
+		"slot_bst": 336,
+		"local": 10
+	},
+	{
+		"dex": 202,
+		"slot": "WOBBUFFET",
+		"id": "bc-081",
+		"name": "Rhinoceros Auklet",
+		"types": [
+			"Aqua",
+			"Sky"
+		],
+		"bst": 405,
+		"slot_types": [
+			"PSYCHIC",
+			"PSYCHIC"
+		],
+		"slot_bst": 405,
+		"local": 100
 	},
 	{
 		"dex": 203,
 		"slot": "GIRAFARIG",
-		"id": "mi-002",
-		"name": "Dictyostelium Slug",
+		"id": "bc-086",
+		"name": "Sooty Grouse",
 		"types": [
 			"Common",
-			"Mind"
+			"Verdant"
 		],
-		"bst": 300,
+		"bst": 395,
 		"slot_types": [
 			"NORMAL",
 			"PSYCHIC"
@@ -3440,13 +3440,13 @@
 	{
 		"dex": 204,
 		"slot": "PINECO",
-		"id": "af-042",
-		"name": "Flatid Leaf Bug",
+		"id": "na-050",
+		"name": "Lone Star Tick",
 		"types": [
 			"Chitin",
-			"Charm"
+			"Toxin"
 		],
-		"bst": 305,
+		"bst": 295,
 		"slot_types": [
 			"BUG",
 			"BUG"
@@ -3457,13 +3457,13 @@
 	{
 		"dex": 205,
 		"slot": "FORRETRESS",
-		"id": "af-044",
-		"name": "Saharan Silver Ant",
+		"id": "eu-129",
+		"name": "Snow Leopard",
 		"types": [
-			"Chitin",
-			"Armor"
+			"Frost",
+			"Stone"
 		],
-		"bst": 385,
+		"bst": 465,
 		"slot_types": [
 			"BUG",
 			"STEEL"
@@ -3474,40 +3474,23 @@
 	{
 		"dex": 206,
 		"slot": "DUNSPARCE",
-		"id": "mi-072",
-		"name": "Paramecium",
+		"id": "na-147",
+		"name": "West Indian Manatee",
 		"types": [
 			"Aqua",
-			"Common"
+			"Verdant"
 		],
-		"bst": 285,
+		"bst": 390,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 415,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 207,
 		"slot": "GLIGAR",
-		"id": "na-117",
-		"name": "Burrowing Owl",
-		"types": [
-			"Soil",
-			"Sky"
-		],
-		"bst": 310,
-		"slot_types": [
-			"GROUND",
-			"FLYING"
-		],
-		"slot_bst": 430,
-		"local": 30
-	},
-	{
-		"dex": 208,
-		"slot": "STEELIX",
 		"id": "na-137",
 		"name": "Nine-banded Armadillo",
 		"types": [
@@ -3516,440 +3499,32 @@
 		],
 		"bst": 350,
 		"slot_types": [
+			"GROUND",
+			"FLYING"
+		],
+		"slot_bst": 430,
+		"local": 10
+	},
+	{
+		"dex": 208,
+		"slot": "STEELIX",
+		"id": "na-040",
+		"name": "Desert Ironclad Beetle",
+		"types": [
+			"Chitin",
+			"Armor"
+		],
+		"bst": 360,
+		"slot_types": [
 			"STEEL",
 			"GROUND"
 		],
 		"slot_bst": 510,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 209,
 		"slot": "SNUBBULL",
-		"id": "mi-011",
-		"name": "Hay Bacillus",
-		"types": [
-			"Soil",
-			"Common"
-		],
-		"bst": 295,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
-		"slot_bst": 300,
-		"local": 20
-	},
-	{
-		"dex": 210,
-		"slot": "GRANBULL",
-		"id": "na-134",
-		"name": "Virginia Opossum",
-		"types": [
-			"Common",
-			"Night"
-		],
-		"bst": 320,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
-		"slot_bst": 450,
-		"local": 30
-	},
-	{
-		"dex": 211,
-		"slot": "QWILFISH",
-		"id": "ds-063",
-		"name": "Blanket Octopus",
-		"types": [
-			"Aqua",
-			"Toxin"
-		],
-		"bst": 365,
-		"slot_types": [
-			"WATER",
-			"POISON"
-		],
-		"slot_bst": 430,
-		"local": 15
-	},
-	{
-		"dex": 212,
-		"slot": "SCIZOR",
-		"id": "na-039",
-		"name": "Giant Stag Beetle",
-		"types": [
-			"Chitin",
-			"Armor"
-		],
-		"bst": 375,
-		"slot_types": [
-			"BUG",
-			"STEEL"
-		],
-		"slot_bst": 500,
-		"local": 30
-	},
-	{
-		"dex": 213,
-		"slot": "SHUCKLE",
-		"id": "na-036",
-		"name": "Thistledown Velvet Ant",
-		"types": [
-			"Chitin",
-			"Charm"
-		],
-		"bst": 375,
-		"slot_types": [
-			"BUG",
-			"ROCK"
-		],
-		"slot_bst": 505,
-		"local": 30
-	},
-	{
-		"dex": 214,
-		"slot": "HERACROSS",
-		"id": "na-045",
-		"name": "Grizzled Mantis",
-		"types": [
-			"Chitin",
-			"Brawn"
-		],
-		"bst": 355,
-		"slot_types": [
-			"BUG",
-			"FIGHTING"
-		],
-		"slot_bst": 500,
-		"local": 30
-	},
-	{
-		"dex": 215,
-		"slot": "SNEASEL",
-		"id": "mi-113",
-		"name": "White-nose Fungus",
-		"types": [
-			"Frost",
-			"Night"
-		],
-		"bst": 315,
-		"slot_types": [
-			"DARK",
-			"ICE"
-		],
-		"slot_bst": 430,
-		"local": 15
-	},
-	{
-		"dex": 216,
-		"slot": "TEDDIURSA",
-		"id": "mi-110",
-		"name": "Koji Mold",
-		"types": [
-			"Verdant",
-			"Common"
-		],
-		"bst": 280,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
-		"slot_bst": 330,
-		"local": 15
-	},
-	{
-		"dex": 217,
-		"slot": "URSARING",
-		"id": "na-142",
-		"name": "Groundhog",
-		"types": [
-			"Common",
-			"Soil"
-		],
-		"bst": 320,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
-		"slot_bst": 500,
-		"local": 30
-	},
-	{
-		"dex": 218,
-		"slot": "SLUGMA",
-		"id": "mi-090",
-		"name": "Sun Animalcule",
-		"types": [
-			"Ember",
-			"Aqua"
-		],
-		"bst": 260,
-		"slot_types": [
-			"FIRE",
-			"FIRE"
-		],
-		"slot_bst": 250,
-		"local": 20
-	},
-	{
-		"dex": 219,
-		"slot": "MAGCARGO",
-		"id": "eu-086",
-		"name": "Frilled Shark",
-		"types": [
-			"Aqua",
-			"Stone"
-		],
-		"bst": 400,
-		"slot_types": [
-			"FIRE",
-			"ROCK"
-		],
-		"slot_bst": 410,
-		"local": 45
-	},
-	{
-		"dex": 220,
-		"slot": "SWINUB",
-		"id": "oc-147",
-		"name": "Arctic Ground Squirrel",
-		"types": [
-			"Frost",
-			"Soil"
-		],
-		"bst": 310,
-		"slot_types": [
-			"ICE",
-			"GROUND"
-		],
-		"slot_bst": 250,
-		"local": 60
-	},
-	{
-		"dex": 221,
-		"slot": "PILOSWINE",
-		"id": "af-017",
-		"name": "Giant Groundsel",
-		"types": [
-			"Verdant",
-			"Frost"
-		],
-		"bst": 350,
-		"slot_types": [
-			"ICE",
-			"GROUND"
-		],
-		"slot_bst": 450,
-		"local": 10
-	},
-	{
-		"dex": 222,
-		"slot": "CORSOLA",
-		"id": "ds-150",
-		"name": "Common Murre",
-		"types": [
-			"Aqua",
-			"Stone"
-		],
-		"bst": 345,
-		"slot_types": [
-			"WATER",
-			"ROCK"
-		],
-		"slot_bst": 380,
-		"local": 100
-	},
-	{
-		"dex": 223,
-		"slot": "REMORAID",
-		"id": "mi-052",
-		"name": "Caulobacter",
-		"types": [
-			"Armor",
-			"Aqua"
-		],
-		"bst": 280,
-		"slot_types": [
-			"WATER",
-			"WATER"
-		],
-		"slot_bst": 300,
-		"local": 20
-	},
-	{
-		"dex": 224,
-		"slot": "OCTILLERY",
-		"id": "ds-081",
-		"name": "Giant Isopod",
-		"types": [
-			"Aqua",
-			"Armor"
-		],
-		"bst": 355,
-		"slot_types": [
-			"WATER",
-			"WATER"
-		],
-		"slot_bst": 480,
-		"local": 15
-	},
-	{
-		"dex": 225,
-		"slot": "DELIBIRD",
-		"id": "mi-046",
-		"name": "Snowmaker Bacterium",
-		"types": [
-			"Frost",
-			"Sky"
-		],
-		"bst": 305,
-		"slot_types": [
-			"ICE",
-			"FLYING"
-		],
-		"slot_bst": 330,
-		"local": 20
-	},
-	{
-		"dex": 226,
-		"slot": "MANTINE",
-		"id": "ds-147",
-		"name": "Atlantic Puffin",
-		"types": [
-			"Aqua",
-			"Sky"
-		],
-		"bst": 345,
-		"slot_types": [
-			"WATER",
-			"FLYING"
-		],
-		"slot_bst": 465,
-		"local": 15
-	},
-	{
-		"dex": 227,
-		"slot": "SKARMORY",
-		"id": "na-029",
-		"name": "Cedar-apple Rust",
-		"types": [
-			"Verdant",
-			"Armor"
-		],
-		"bst": 300,
-		"slot_types": [
-			"STEEL",
-			"FLYING"
-		],
-		"slot_bst": 465,
-		"local": 30
-	},
-	{
-		"dex": 228,
-		"slot": "HOUNDOUR",
-		"id": "ds-059",
-		"name": "Glass Octopus",
-		"types": [
-			"Aqua",
-			"Night"
-		],
-		"bst": 320,
-		"slot_types": [
-			"DARK",
-			"FIRE"
-		],
-		"slot_bst": 330,
-		"local": 15
-	},
-	{
-		"dex": 229,
-		"slot": "HOUNDOOM",
-		"id": "af-038",
-		"name": "Devil's Flower Mantis",
-		"types": [
-			"Chitin",
-			"Night"
-		],
-		"bst": 375,
-		"slot_types": [
-			"DARK",
-			"FIRE"
-		],
-		"slot_bst": 500,
-		"local": 10
-	},
-	{
-		"dex": 230,
-		"slot": "KINGDRA",
-		"id": "ds-130",
-		"name": "Cuvier's Beaked Whale",
-		"types": [
-			"Aqua",
-			"Brawn"
-		],
-		"bst": 460,
-		"slot_types": [
-			"WATER",
-			"DRAGON"
-		],
-		"slot_bst": 540,
-		"local": 45
-	},
-	{
-		"dex": 231,
-		"slot": "PHANPY",
-		"id": "mi-023",
-		"name": "Wolf-pack Bacterium",
-		"types": [
-			"Night",
-			"Soil"
-		],
-		"bst": 330,
-		"slot_types": [
-			"GROUND",
-			"GROUND"
-		],
-		"slot_bst": 330,
-		"local": 20
-	},
-	{
-		"dex": 232,
-		"slot": "DONPHAN",
-		"id": "na-015",
-		"name": "Western Joshua Tree",
-		"types": [
-			"Verdant",
-			"Soil"
-		],
-		"bst": 360,
-		"slot_types": [
-			"GROUND",
-			"GROUND"
-		],
-		"slot_bst": 500,
-		"local": 30
-	},
-	{
-		"dex": 233,
-		"slot": "PORYGON2",
-		"id": "mi-127",
-		"name": "Vinegar Eel",
-		"types": [
-			"Toxin",
-			"Common"
-		],
-		"bst": 275,
-		"slot_types": [
-			"NORMAL",
-			"NORMAL"
-		],
-		"slot_bst": 515,
-		"local": 20
-	},
-	{
-		"dex": 234,
-		"slot": "STANTLER",
 		"id": "mi-086",
 		"name": "Tetrahymena",
 		"types": [
@@ -3961,46 +3536,420 @@
 			"NORMAL",
 			"NORMAL"
 		],
-		"slot_bst": 465,
-		"local": 20
+		"slot_bst": 300,
+		"local": 10
 	},
 	{
-		"dex": 235,
-		"slot": "SMEARGLE",
-		"id": "mi-125",
-		"name": "C. elegans",
+		"dex": 210,
+		"slot": "GRANBULL",
+		"id": "na-125",
+		"name": "Greater Sage-Grouse",
 		"types": [
-			"Common",
-			"Mind"
+			"Soil",
+			"Common"
 		],
-		"bst": 255,
+		"bst": 340,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
-		"slot_bst": 250,
-		"local": 20
+		"slot_bst": 450,
+		"local": 10
 	},
 	{
-		"dex": 236,
-		"slot": "TYROGUE",
-		"id": "ds-003",
-		"name": "Phyllosoma",
+		"dex": 211,
+		"slot": "QWILFISH",
+		"id": "ds-030",
+		"name": "Opah",
+		"types": [
+			"Aqua",
+			"Ember"
+		],
+		"bst": 435,
+		"slot_types": [
+			"WATER",
+			"POISON"
+		],
+		"slot_bst": 430,
+		"local": 10
+	},
+	{
+		"dex": 212,
+		"slot": "SCIZOR",
+		"id": "af-038",
+		"name": "Devil's Flower Mantis",
+		"types": [
+			"Chitin",
+			"Night"
+		],
+		"bst": 375,
+		"slot_types": [
+			"BUG",
+			"STEEL"
+		],
+		"slot_bst": 500,
+		"local": 10
+	},
+	{
+		"dex": 213,
+		"slot": "SHUCKLE",
+		"id": "af-032",
+		"name": "Sacred Scarab",
+		"types": [
+			"Chitin",
+			"Mind"
+		],
+		"bst": 370,
+		"slot_types": [
+			"BUG",
+			"ROCK"
+		],
+		"slot_bst": 505,
+		"local": 10
+	},
+	{
+		"dex": 214,
+		"slot": "HERACROSS",
+		"id": "bc-037",
+		"name": "Cougar",
+		"types": [
+			"Night",
+			"Brawn"
+		],
+		"bst": 495,
+		"slot_types": [
+			"BUG",
+			"FIGHTING"
+		],
+		"slot_bst": 500,
+		"local": 100
+	},
+	{
+		"dex": 215,
+		"slot": "SNEASEL",
+		"id": "na-112",
+		"name": "Leatherback Sea Turtle",
+		"types": [
+			"Aqua",
+			"Frost"
+		],
+		"bst": 450,
+		"slot_types": [
+			"DARK",
+			"ICE"
+		],
+		"slot_bst": 430,
+		"local": 10
+	},
+	{
+		"dex": 216,
+		"slot": "TEDDIURSA",
+		"id": "na-145",
+		"name": "Brown-throated Three-toed Sloth",
+		"types": [
+			"Common",
+			"Verdant"
+		],
+		"bst": 330,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 330,
+		"local": 10
+	},
+	{
+		"dex": 217,
+		"slot": "URSARING",
+		"id": "mi-028",
+		"name": "Salmonella",
+		"types": [
+			"Toxin",
+			"Common"
+		],
+		"bst": 330,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 500,
+		"local": 10
+	},
+	{
+		"dex": 218,
+		"slot": "SLUGMA",
+		"id": "bc-148",
+		"name": "Scotch Broom",
+		"types": [
+			"Verdant",
+			"Toxin"
+		],
+		"bst": 400,
+		"slot_types": [
+			"FIRE",
+			"FIRE"
+		],
+		"slot_bst": 250,
+		"local": 100
+	},
+	{
+		"dex": 219,
+		"slot": "MAGCARGO",
+		"id": "na-132",
+		"name": "Red Fox",
+		"types": [
+			"Ember",
+			"Mind"
+		],
+		"bst": 410,
+		"slot_types": [
+			"FIRE",
+			"ROCK"
+		],
+		"slot_bst": 410,
+		"local": 100
+	},
+	{
+		"dex": 220,
+		"slot": "SWINUB",
+		"id": "na-143",
+		"name": "Northern Collared Lemming",
+		"types": [
+			"Frost",
+			"Common"
+		],
+		"bst": 260,
+		"slot_types": [
+			"ICE",
+			"GROUND"
+		],
+		"slot_bst": 250,
+		"local": 10
+	},
+	{
+		"dex": 221,
+		"slot": "PILOSWINE",
+		"id": "na-151",
+		"name": "Atlantic Walrus",
+		"types": [
+			"Frost",
+			"Brawn"
+		],
+		"bst": 450,
+		"slot_types": [
+			"ICE",
+			"GROUND"
+		],
+		"slot_bst": 450,
+		"local": 10
+	},
+	{
+		"dex": 222,
+		"slot": "CORSOLA",
+		"id": "bc-107",
+		"name": "Pacific Lamprey",
 		"types": [
 			"Aqua",
 			"Night"
 		],
-		"bst": 225,
+		"bst": 380,
 		"slot_types": [
-			"FIGHTING",
-			"FIGHTING"
+			"WATER",
+			"ROCK"
 		],
-		"slot_bst": 210,
-		"local": 15
+		"slot_bst": 380,
+		"local": 100
 	},
 	{
-		"dex": 237,
-		"slot": "HITMONTOP",
+		"dex": 223,
+		"slot": "REMORAID",
+		"id": "ds-011",
+		"name": "Gulper Eel",
+		"types": [
+			"Aqua",
+			"Night"
+		],
+		"bst": 300,
+		"slot_types": [
+			"WATER",
+			"WATER"
+		],
+		"slot_bst": 300,
+		"local": 10
+	},
+	{
+		"dex": 224,
+		"slot": "OCTILLERY",
+		"id": "ds-054",
+		"name": "Tiger Shark",
+		"types": [
+			"Aqua",
+			"Night"
+		],
+		"bst": 480,
+		"slot_types": [
+			"WATER",
+			"WATER"
+		],
+		"slot_bst": 480,
+		"local": 10
+	},
+	{
+		"dex": 225,
+		"slot": "DELIBIRD",
+		"id": "mi-029",
+		"name": "Listeria",
+		"types": [
+			"Frost",
+			"Toxin"
+		],
+		"bst": 330,
+		"slot_types": [
+			"ICE",
+			"FLYING"
+		],
+		"slot_bst": 330,
+		"local": 10
+	},
+	{
+		"dex": 226,
+		"slot": "MANTINE",
+		"id": "na-102",
+		"name": "American Alligator",
+		"types": [
+			"Aqua",
+			"Brawn"
+		],
+		"bst": 465,
+		"slot_types": [
+			"WATER",
+			"FLYING"
+		],
+		"slot_bst": 465,
+		"local": 10
+	},
+	{
+		"dex": 227,
+		"slot": "SKARMORY",
+		"id": "na-114",
+		"name": "Peregrine Falcon",
+		"types": [
+			"Sky",
+			"Brawn"
+		],
+		"bst": 460,
+		"slot_types": [
+			"STEEL",
+			"FLYING"
+		],
+		"slot_bst": 465,
+		"local": 100
+	},
+	{
+		"dex": 228,
+		"slot": "HOUNDOUR",
+		"id": "na-123",
+		"name": "Common Potoo",
+		"types": [
+			"Night",
+			"Common"
+		],
+		"bst": 330,
+		"slot_types": [
+			"DARK",
+			"FIRE"
+		],
+		"slot_bst": 330,
+		"local": 10
+	},
+	{
+		"dex": 229,
+		"slot": "HOUNDOOM",
+		"id": "na-139",
+		"name": "Jaguar",
+		"types": [
+			"Night",
+			"Aqua"
+		],
+		"bst": 490,
+		"slot_types": [
+			"DARK",
+			"FIRE"
+		],
+		"slot_bst": 500,
+		"local": 10
+	},
+	{
+		"dex": 230,
+		"slot": "KINGDRA",
+		"id": "bc-049",
+		"name": "North American River Otter",
+		"types": [
+			"Aqua",
+			"Brawn"
+		],
+		"bst": 435,
+		"slot_types": [
+			"WATER",
+			"DRAGON"
+		],
+		"slot_bst": 540,
+		"local": 100
+	},
+	{
+		"dex": 231,
+		"slot": "PHANPY",
+		"id": "bc-125",
+		"name": "Pacific Dampwood Termite",
+		"types": [
+			"Chitin",
+			"Soil"
+		],
+		"bst": 340,
+		"slot_types": [
+			"GROUND",
+			"GROUND"
+		],
+		"slot_bst": 330,
+		"local": 100
+	},
+	{
+		"dex": 232,
+		"slot": "DONPHAN",
+		"id": "bc-083",
+		"name": "Burrowing Owl",
+		"types": [
+			"Soil",
+			"Night"
+		],
+		"bst": 400,
+		"slot_types": [
+			"GROUND",
+			"GROUND"
+		],
+		"slot_bst": 500,
+		"local": 100
+	},
+	{
+		"dex": 233,
+		"slot": "PORYGON2",
+		"id": "na-024",
+		"name": "Red Mangrove",
+		"types": [
+			"Verdant",
+			"Aqua"
+		],
+		"bst": 355,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 515,
+		"local": 10
+	},
+	{
+		"dex": 234,
+		"slot": "STANTLER",
 		"id": "af-034",
 		"name": "African Honey Bee",
 		"types": [
@@ -4008,6 +3957,57 @@
 			"Brawn"
 		],
 		"bst": 370,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 465,
+		"local": 10
+	},
+	{
+		"dex": 235,
+		"slot": "SMEARGLE",
+		"id": "mi-015",
+		"name": "Yogurt Bacterium",
+		"types": [
+			"Common",
+			"Toxin"
+		],
+		"bst": 270,
+		"slot_types": [
+			"NORMAL",
+			"NORMAL"
+		],
+		"slot_bst": 250,
+		"local": 10
+	},
+	{
+		"dex": 236,
+		"slot": "TYROGUE",
+		"id": "na-091",
+		"name": "Devils Hole Pupfish",
+		"types": [
+			"Aqua",
+			"Ember"
+		],
+		"bst": 220,
+		"slot_types": [
+			"FIGHTING",
+			"FIGHTING"
+		],
+		"slot_bst": 210,
+		"local": 10
+	},
+	{
+		"dex": 237,
+		"slot": "HITMONTOP",
+		"id": "mi-024",
+		"name": "Bdellovibrio",
+		"types": [
+			"Night",
+			"Brawn"
+		],
+		"bst": 375,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
@@ -4018,95 +4018,95 @@
 	{
 		"dex": 238,
 		"slot": "SMOOCHUM",
-		"id": "mi-029",
-		"name": "Listeria",
+		"id": "mi-113",
+		"name": "White-nose Fungus",
 		"types": [
 			"Frost",
-			"Toxin"
+			"Night"
 		],
-		"bst": 330,
+		"bst": 315,
 		"slot_types": [
 			"ICE",
 			"PSYCHIC"
 		],
 		"slot_bst": 305,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 239,
 		"slot": "ELEKID",
-		"id": "ds-062",
-		"name": "Greater Argonaut",
+		"id": "na-120",
+		"name": "Purple-throated Mountain-gem",
 		"types": [
-			"Aqua",
-			"Charm"
+			"Charm",
+			"Sky"
 		],
-		"bst": 330,
+		"bst": 355,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 360,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 240,
 		"slot": "MAGBY",
-		"id": "mi-135",
-		"name": "Speed Mite",
+		"id": "na-122",
+		"name": "Keel-billed Toucan",
 		"types": [
-			"Chitin",
-			"Ember"
+			"Ember",
+			"Sky"
 		],
-		"bst": 320,
+		"bst": 370,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 365,
-		"local": 15
+		"local": 10
 	},
 	{
 		"dex": 241,
 		"slot": "MILTANK",
-		"id": "mi-142",
-		"name": "Mimivirus",
+		"id": "af-037",
+		"name": "Mound-building Termite",
 		"types": [
-			"Common",
-			"Night"
+			"Chitin",
+			"Soil"
 		],
-		"bst": 280,
+		"bst": 360,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 490,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 242,
 		"slot": "BLISSEY",
-		"id": "mi-066",
-		"name": "Acne Bacterium",
+		"id": "na-045",
+		"name": "Grizzled Mantis",
 		"types": [
-			"Common",
-			"Toxin"
+			"Chitin",
+			"Brawn"
 		],
-		"bst": 270,
+		"bst": 355,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 540,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 243,
 		"slot": "RAIKOU",
-		"id": "oc-101",
-		"name": "Kākāpō",
+		"id": "ds-062",
+		"name": "Greater Argonaut",
 		"types": [
-			"Verdant",
+			"Aqua",
 			"Charm"
 		],
 		"bst": 330,
@@ -4120,13 +4120,13 @@
 	{
 		"dex": 244,
 		"slot": "ENTEI",
-		"id": "af-119",
-		"name": "African Bush Elephant",
+		"id": "mi-008",
+		"name": "Streptococcus pyogenes",
 		"types": [
-			"Soil",
-			"Common"
+			"Toxin",
+			"Ember"
 		],
-		"bst": 570,
+		"bst": 330,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
@@ -4137,40 +4137,6 @@
 	{
 		"dex": 245,
 		"slot": "SUICUNE",
-		"id": "fo-093",
-		"name": "Megalodon",
-		"types": [
-			"Aqua",
-			"Night"
-		],
-		"bst": 560,
-		"slot_types": [
-			"WATER",
-			"WATER"
-		],
-		"slot_bst": 580,
-		"local": 45
-	},
-	{
-		"dex": 246,
-		"slot": "LARVITAR",
-		"id": "mi-053",
-		"name": "Streptococcus mutans",
-		"types": [
-			"Toxin",
-			"Stone"
-		],
-		"bst": 295,
-		"slot_types": [
-			"ROCK",
-			"GROUND"
-		],
-		"slot_bst": 300,
-		"local": 20
-	},
-	{
-		"dex": 247,
-		"slot": "PUPITAR",
 		"id": "na-060",
 		"name": "Atlantic Horseshoe Crab",
 		"types": [
@@ -4179,73 +4145,107 @@
 		],
 		"bst": 355,
 		"slot_types": [
+			"WATER",
+			"WATER"
+		],
+		"slot_bst": 580,
+		"local": 10
+	},
+	{
+		"dex": 246,
+		"slot": "LARVITAR",
+		"id": "mi-034",
+		"name": "Salt Pond Archaeon",
+		"types": [
+			"Stone",
+			"Charm"
+		],
+		"bst": 295,
+		"slot_types": [
+			"ROCK",
+			"GROUND"
+		],
+		"slot_bst": 300,
+		"local": 10
+	},
+	{
+		"dex": 247,
+		"slot": "PUPITAR",
+		"id": "af-010",
+		"name": "Wood's Cycad",
+		"types": [
+			"Verdant",
+			"Stone"
+		],
+		"bst": 365,
+		"slot_types": [
 			"ROCK",
 			"GROUND"
 		],
 		"slot_bst": 410,
-		"local": 30
+		"local": 10
 	},
 	{
 		"dex": 248,
 		"slot": "TYRANITAR",
-		"id": "mi-064",
-		"name": "Methanosarcina",
+		"id": "na-020",
+		"name": "Avocado",
 		"types": [
-			"Toxin",
+			"Verdant",
 			"Stone"
 		],
-		"bst": 315,
+		"bst": 350,
 		"slot_types": [
 			"ROCK",
 			"DARK"
 		],
 		"slot_bst": 600,
-		"local": 20
+		"local": 10
 	},
 	{
 		"dex": 249,
 		"slot": "LUGIA",
-		"id": "oc-120",
-		"name": "Platypus",
+		"id": "bc-018",
+		"name": "Caddy",
 		"types": [
 			"Aqua",
-			"Mind"
+			"Night"
 		],
-		"bst": 380,
+		"bst": 680,
 		"slot_types": [
 			"PSYCHIC",
+			"FLYING"
+		],
+		"slot_bst": 680,
+		"local": 100
+	},
+	{
+		"dex": 250,
+		"slot": "HO_OH",
+		"id": "na-011",
+		"name": "Common Sunflower",
+		"types": [
+			"Verdant",
+			"Ember"
+		],
+		"bst": 325,
+		"slot_types": [
+			"FIRE",
 			"FLYING"
 		],
 		"slot_bst": 680,
 		"local": 10
 	},
 	{
-		"dex": 250,
-		"slot": "HO_OH",
-		"id": "na-091",
-		"name": "Devils Hole Pupfish",
-		"types": [
-			"Aqua",
-			"Ember"
-		],
-		"bst": 220,
-		"slot_types": [
-			"FIRE",
-			"FLYING"
-		],
-		"slot_bst": 680,
-		"local": 30
-	},
-	{
 		"dex": 251,
 		"slot": "CELEBI",
-		"id": "fo-027",
-		"name": "Tully Monster",
+		"id": "na-023",
+		"name": "American Lotus",
 		"types": [
 			"Aqua",
-			"Mind"
+			"Verdant"
 		],
-		"bst": 315,
+		"bst": 350,
 		"slot_types": [
 			"PSYCHIC",
 			"GRASS"
@@ -4256,13 +4256,12 @@
 	{
 		"dex": 252,
 		"slot": "TREECKO",
-		"id": "na-066",
-		"name": "Pacific Banana Slug",
+		"id": "bc-001",
+		"name": "Skunk Cabbage Seed",
 		"types": [
-			"Verdant",
-			"Toxin"
+			"Verdant"
 		],
-		"bst": 285,
+		"bst": 310,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
@@ -4273,47 +4272,45 @@
 	{
 		"dex": 253,
 		"slot": "GROVYLE",
-		"id": "sa-055",
-		"name": "Channeled Apple Snail",
+		"id": "bc-002",
+		"name": "Skunk Cabbage Shoot",
 		"types": [
-			"Aqua",
 			"Verdant"
 		],
-		"bst": 310,
+		"bst": 405,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 405,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 254,
 		"slot": "SCEPTILE",
-		"id": "na-014",
-		"name": "Coast Redwood",
+		"id": "bc-003",
+		"name": "Western Skunk Cabbage",
 		"types": [
 			"Verdant",
-			"Armor"
+			"Toxin"
 		],
-		"bst": 520,
+		"bst": 530,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
 		],
 		"slot_bst": 530,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 255,
 		"slot": "TORCHIC",
-		"id": "na-132",
-		"name": "Red Fox",
+		"id": "bc-004",
+		"name": "Morel Spore",
 		"types": [
-			"Ember",
-			"Mind"
+			"Ember"
 		],
-		"bst": 410,
+		"bst": 310,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
@@ -4324,47 +4321,46 @@
 	{
 		"dex": 256,
 		"slot": "COMBUSKEN",
-		"id": "na-012",
-		"name": "Chili Pepper",
+		"id": "bc-005",
+		"name": "Morel Mycelium",
 		"types": [
-			"Verdant",
-			"Ember"
+			"Ember",
+			"Soil"
 		],
-		"bst": 355,
+		"bst": 405,
 		"slot_types": [
 			"FIRE",
 			"FIGHTING"
 		],
 		"slot_bst": 405,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 257,
 		"slot": "BLAZIKEN",
-		"id": "na-011",
-		"name": "Common Sunflower",
+		"id": "bc-006",
+		"name": "Burn Morel",
 		"types": [
-			"Verdant",
-			"Ember"
+			"Ember",
+			"Soil"
 		],
-		"bst": 325,
+		"bst": 530,
 		"slot_types": [
 			"FIRE",
 			"FIGHTING"
 		],
 		"slot_bst": 530,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 258,
 		"slot": "MUDKIP",
-		"id": "na-136",
-		"name": "American Beaver",
+		"id": "bc-007",
+		"name": "Beaver Kit",
 		"types": [
-			"Aqua",
-			"Common"
+			"Aqua"
 		],
-		"bst": 365,
+		"bst": 310,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -4375,13 +4371,12 @@
 	{
 		"dex": 259,
 		"slot": "MARSHTOMP",
-		"id": "na-084",
-		"name": "Pacific Hagfish",
+		"id": "bc-008",
+		"name": "Yearling Beaver",
 		"types": [
-			"Aqua",
-			"Soil"
+			"Aqua"
 		],
-		"bst": 355,
+		"bst": 405,
 		"slot_types": [
 			"WATER",
 			"GROUND"
@@ -4392,63 +4387,64 @@
 	{
 		"dex": 260,
 		"slot": "SWAMPERT",
-		"id": "na-101",
-		"name": "Mexican Burrowing Toad",
+		"id": "na-136",
+		"name": "American Beaver",
 		"types": [
-			"Soil",
-			"Aqua"
+			"Aqua",
+			"Common"
 		],
-		"bst": 285,
+		"bst": 530,
 		"slot_types": [
 			"WATER",
 			"GROUND"
 		],
 		"slot_bst": 535,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 261,
 		"slot": "POOCHYENA",
-		"id": "mi-131",
-		"name": "Salmon Parasite",
+		"id": "na-019",
+		"name": "Ghost Pipe",
 		"types": [
-			"Aqua",
-			"Night"
+			"Night",
+			"Verdant"
 		],
-		"bst": 260,
+		"bst": 275,
 		"slot_types": [
 			"DARK",
 			"DARK"
 		],
 		"slot_bst": 220,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 262,
 		"slot": "MIGHTYENA",
-		"id": "mi-112",
-		"name": "Chytrid Fungus",
+		"id": "na-118",
+		"name": "Common Raven",
 		"types": [
-			"Toxin",
-			"Night"
+			"Night",
+			"Mind"
 		],
-		"bst": 350,
+		"bst": 425,
 		"slot_types": [
 			"DARK",
 			"DARK"
 		],
 		"slot_bst": 420,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 263,
 		"slot": "ZIGZAGOON",
-		"id": "mi-001",
-		"name": "Dictyostelium Amoeba",
+		"id": "bc-085",
+		"name": "Belted Kingfisher",
 		"types": [
-			"Common"
+			"Aqua",
+			"Sky"
 		],
-		"bst": 235,
+		"bst": 405,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -4459,13 +4455,13 @@
 	{
 		"dex": 264,
 		"slot": "LINOONE",
-		"id": "na-133",
-		"name": "Common Raccoon",
+		"id": "bc-073",
+		"name": "American Crow",
 		"types": [
 			"Common",
-			"Night"
+			"Mind"
 		],
-		"bst": 360,
+		"bst": 415,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -4476,12 +4472,13 @@
 	{
 		"dex": 265,
 		"slot": "WURMPLE",
-		"id": "na-007",
-		"name": "White-lined Sphinx Caterpillar",
+		"id": "eu-074",
+		"name": "Common Earthworm",
 		"types": [
-			"Chitin"
+			"Soil",
+			"Common"
 		],
-		"bst": 235,
+		"bst": 220,
 		"slot_types": [
 			"BUG",
 			"BUG"
@@ -4492,39 +4489,6 @@
 	{
 		"dex": 266,
 		"slot": "SILCOON",
-		"id": "na-005",
-		"name": "Tiger Swallowtail Caterpillar",
-		"types": [
-			"Chitin"
-		],
-		"bst": 225,
-		"slot_types": [
-			"BUG",
-			"BUG"
-		],
-		"slot_bst": 205,
-		"local": 100
-	},
-	{
-		"dex": 267,
-		"slot": "BEAUTIFLY",
-		"id": "na-048",
-		"name": "Widow Skimmer",
-		"types": [
-			"Chitin",
-			"Sky"
-		],
-		"bst": 365,
-		"slot_types": [
-			"BUG",
-			"FLYING"
-		],
-		"slot_bst": 385,
-		"local": 100
-	},
-	{
-		"dex": 268,
-		"slot": "CASCOON",
 		"id": "na-047",
 		"name": "Giant Mayfly",
 		"types": [
@@ -4540,8 +4504,8 @@
 		"local": 100
 	},
 	{
-		"dex": 269,
-		"slot": "DUSTOX",
+		"dex": 267,
+		"slot": "BEAUTIFLY",
 		"id": "na-038",
 		"name": "Bald-faced Hornet",
 		"types": [
@@ -4549,6 +4513,39 @@
 			"Toxin"
 		],
 		"bst": 390,
+		"slot_types": [
+			"BUG",
+			"FLYING"
+		],
+		"slot_bst": 385,
+		"local": 100
+	},
+	{
+		"dex": 268,
+		"slot": "CASCOON",
+		"id": "na-005",
+		"name": "Tiger Swallowtail Caterpillar",
+		"types": [
+			"Chitin"
+		],
+		"bst": 225,
+		"slot_types": [
+			"BUG",
+			"BUG"
+		],
+		"slot_bst": 205,
+		"local": 100
+	},
+	{
+		"dex": 269,
+		"slot": "DUSTOX",
+		"id": "na-006",
+		"name": "Western Tiger Swallowtail",
+		"types": [
+			"Chitin",
+			"Sky"
+		],
+		"bst": 395,
 		"slot_types": [
 			"BUG",
 			"POISON"
@@ -4559,53 +4556,52 @@
 	{
 		"dex": 270,
 		"slot": "LOTAD",
-		"id": "mi-087",
-		"name": "Zooxanthellae",
+		"id": "bc-021",
+		"name": "Sockeye Alevin",
 		"types": [
-			"Verdant",
 			"Aqua"
 		],
-		"bst": 265,
+		"bst": 250,
 		"slot_types": [
 			"WATER",
 			"GRASS"
 		],
 		"slot_bst": 220,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 271,
 		"slot": "LOMBRE",
-		"id": "mi-076",
-		"name": "Volvox",
+		"id": "bc-022",
+		"name": "Sockeye Smolt",
 		"types": [
-			"Verdant",
-			"Aqua"
+			"Aqua",
+			"Mind"
 		],
-		"bst": 300,
+		"bst": 380,
 		"slot_types": [
 			"WATER",
 			"GRASS"
 		],
 		"slot_bst": 340,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 272,
 		"slot": "LUDICOLO",
-		"id": "na-024",
-		"name": "Red Mangrove",
+		"id": "bc-023",
+		"name": "Sockeye Salmon",
 		"types": [
-			"Verdant",
-			"Aqua"
+			"Aqua",
+			"Ember"
 		],
-		"bst": 355,
+		"bst": 510,
 		"slot_types": [
 			"WATER",
 			"GRASS"
 		],
 		"slot_bst": 480,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 273,
@@ -4627,47 +4623,47 @@
 	{
 		"dex": 274,
 		"slot": "NUZLEAF",
-		"id": "mi-121",
-		"name": "Nematode-trapping Fungus",
+		"id": "bc-136",
+		"name": "Salal",
 		"types": [
 			"Verdant",
-			"Night"
+			"Common"
 		],
-		"bst": 335,
+		"bst": 365,
 		"slot_types": [
 			"GRASS",
 			"DARK"
 		],
 		"slot_bst": 340,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 275,
 		"slot": "SHIFTRY",
-		"id": "na-001",
-		"name": "Venus Flytrap",
+		"id": "bc-106",
+		"name": "Bluntnose Sixgill Shark",
 		"types": [
-			"Verdant",
+			"Aqua",
 			"Night"
 		],
-		"bst": 320,
+		"bst": 480,
 		"slot_types": [
 			"GRASS",
 			"DARK"
 		],
 		"slot_bst": 480,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 276,
 		"slot": "TAILLOW",
-		"id": "mi-003",
-		"name": "Dictyostelium Fruiting Body",
+		"id": "bc-054",
+		"name": "Little Brown Bat",
 		"types": [
-			"Common",
-			"Soil"
+			"Night",
+			"Sky"
 		],
-		"bst": 275,
+		"bst": 375,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
@@ -4678,13 +4674,13 @@
 	{
 		"dex": 277,
 		"slot": "SWELLOW",
-		"id": "ds-145",
-		"name": "Laysan Albatross",
+		"id": "bc-070",
+		"name": "Snow Goose",
 		"types": [
-			"Common",
+			"Frost",
 			"Sky"
 		],
-		"bst": 390,
+		"bst": 430,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
@@ -4695,30 +4691,29 @@
 	{
 		"dex": 278,
 		"slot": "WINGULL",
-		"id": "ds-083",
-		"name": "Headless Chicken Monster",
+		"id": "bc-024",
+		"name": "Tree Frog Tadpole",
 		"types": [
-			"Aqua",
-			"Sky"
+			"Aqua"
 		],
-		"bst": 280,
+		"bst": 265,
 		"slot_types": [
 			"WATER",
 			"FLYING"
 		],
 		"slot_bst": 270,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 279,
 		"slot": "PELIPPER",
-		"id": "ds-148",
-		"name": "Sooty Shearwater",
+		"id": "bc-025",
+		"name": "Pacific Tree Frog",
 		"types": [
-			"Sky",
-			"Aqua"
+			"Aqua",
+			"Charm"
 		],
-		"bst": 360,
+		"bst": 450,
 		"slot_types": [
 			"WATER",
 			"FLYING"
@@ -4729,13 +4724,13 @@
 	{
 		"dex": 280,
 		"slot": "RALTS",
-		"id": "na-031",
-		"name": "White Carnival Candy Slime Mold",
+		"id": "mi-033",
+		"name": "SAR11",
 		"types": [
-			"Charm",
-			"Mind"
+			"Aqua",
+			"Common"
 		],
-		"bst": 210,
+		"bst": 200,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -4746,53 +4741,52 @@
 	{
 		"dex": 281,
 		"slot": "KIRLIA",
-		"id": "mi-136",
-		"name": "Whirling Disease Parasite",
+		"id": "bc-089",
+		"name": "Common Garter Snake",
 		"types": [
-			"Toxin",
-			"Mind"
+			"Night",
+			"Aqua"
 		],
-		"bst": 280,
+		"bst": 390,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 278,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 282,
 		"slot": "GARDEVOIR",
-		"id": "ds-040",
-		"name": "Giant Oceanic Manta Ray",
+		"id": "bc-061",
+		"name": "Harbour Seal",
 		"types": [
 			"Aqua",
-			"Mind"
+			"Common"
 		],
-		"bst": 470,
+		"bst": 415,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 518,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 283,
 		"slot": "SURSKIT",
-		"id": "na-043",
-		"name": "Glassy-winged Sharpshooter",
+		"id": "na-007",
+		"name": "White-lined Sphinx Caterpillar",
 		"types": [
-			"Chitin",
-			"Aqua"
+			"Chitin"
 		],
-		"bst": 320,
+		"bst": 235,
 		"slot_types": [
 			"BUG",
 			"WATER"
 		],
 		"slot_bst": 269,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 284,
@@ -4814,13 +4808,13 @@
 	{
 		"dex": 285,
 		"slot": "SHROOMISH",
-		"id": "na-030",
-		"name": "Blushing Rock Tripe",
+		"id": "na-026",
+		"name": "American Fly Agaric",
 		"types": [
-			"Stone",
-			"Verdant"
+			"Verdant",
+			"Toxin"
 		],
-		"bst": 295,
+		"bst": 305,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
@@ -4831,30 +4825,30 @@
 	{
 		"dex": 286,
 		"slot": "BRELOOM",
-		"id": "mi-116",
-		"name": "Hat Thrower Fungus",
+		"id": "bc-129",
+		"name": "Douglas-fir",
 		"types": [
 			"Verdant",
-			"Brawn"
+			"Armor"
 		],
-		"bst": 370,
+		"bst": 460,
 		"slot_types": [
 			"GRASS",
 			"FIGHTING"
 		],
 		"slot_bst": 460,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 287,
 		"slot": "SLAKOTH",
-		"id": "mi-088",
-		"name": "Dog Vomit Slime Mold",
+		"id": "bc-101",
+		"name": "Pacific Herring",
 		"types": [
-			"Common",
-			"Toxin"
+			"Aqua",
+			"Common"
 		],
-		"bst": 275,
+		"bst": 370,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -4865,19 +4859,19 @@
 	{
 		"dex": 288,
 		"slot": "VIGOROTH",
-		"id": "mi-114",
-		"name": "Black Bread Mold",
+		"id": "bc-039",
+		"name": "Coyote",
 		"types": [
-			"Verdant",
-			"Common"
+			"Common",
+			"Mind"
 		],
-		"bst": 290,
+		"bst": 445,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 440,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 289,
@@ -4899,30 +4893,30 @@
 	{
 		"dex": 290,
 		"slot": "NINCADA",
-		"id": "na-035",
-		"name": "Mexican Honeypot Ant",
+		"id": "bc-032",
+		"name": "Darner Nymph",
 		"types": [
-			"Chitin",
-			"Soil"
+			"Aqua",
+			"Chitin"
 		],
-		"bst": 275,
+		"bst": 300,
 		"slot_types": [
 			"BUG",
 			"GROUND"
 		],
 		"slot_bst": 266,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 291,
 		"slot": "NINJASK",
-		"id": "na-006",
-		"name": "Western Tiger Swallowtail",
+		"id": "bc-033",
+		"name": "Paddle-tailed Darner",
 		"types": [
 			"Chitin",
 			"Sky"
 		],
-		"bst": 395,
+		"bst": 450,
 		"slot_types": [
 			"BUG",
 			"FLYING"
@@ -4933,47 +4927,47 @@
 	{
 		"dex": 292,
 		"slot": "SHEDINJA",
-		"id": "mi-129",
-		"name": "Face Mite",
+		"id": "bc-118",
+		"name": "Bull Kelp",
 		"types": [
-			"Chitin",
-			"Night"
+			"Aqua",
+			"Verdant"
 		],
-		"bst": 210,
+		"bst": 410,
 		"slot_types": [
 			"BUG",
 			"GHOST"
 		],
 		"slot_bst": 236,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 293,
 		"slot": "WHISMUR",
-		"id": "mi-128",
-		"name": "House Dust Mite",
+		"id": "bc-110",
+		"name": "Ochre Sea Star",
 		"types": [
-			"Chitin",
-			"Common"
+			"Aqua",
+			"Stone"
 		],
-		"bst": 235,
+		"bst": 405,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 240,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 294,
 		"slot": "LOUDRED",
-		"id": "eu-054",
-		"name": "House Centipede",
+		"id": "na-127",
+		"name": "Canada Goose",
 		"types": [
-			"Chitin",
-			"Common"
+			"Common",
+			"Sky"
 		],
-		"bst": 350,
+		"bst": 370,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -5001,45 +4995,44 @@
 	{
 		"dex": 296,
 		"slot": "MAKUHITA",
-		"id": "mi-098",
-		"name": "Micrasterias",
+		"id": "bc-146",
+		"name": "Himalayan Blackberry",
 		"types": [
 			"Verdant",
-			"Charm"
+			"Armor"
 		],
-		"bst": 255,
+		"bst": 405,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 237,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 297,
 		"slot": "HARIYAMA",
-		"id": "na-151",
-		"name": "Atlantic Walrus",
+		"id": "bc-041",
+		"name": "Roosevelt Elk",
 		"types": [
-			"Frost",
-			"Brawn"
+			"Brawn",
+			"Common"
 		],
-		"bst": 450,
+		"bst": 480,
 		"slot_types": [
 			"FIGHTING",
 			"FIGHTING"
 		],
 		"slot_bst": 474,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 298,
 		"slot": "AZURILL",
-		"id": "mi-033",
-		"name": "SAR11",
+		"id": "ds-005",
+		"name": "Moon Jelly Polyp",
 		"types": [
-			"Aqua",
-			"Common"
+			"Aqua"
 		],
 		"bst": 200,
 		"slot_types": [
@@ -5047,137 +5040,137 @@
 			"NORMAL"
 		],
 		"slot_bst": 190,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 299,
 		"slot": "NOSEPASS",
-		"id": "na-070",
-		"name": "Eastern Oyster",
+		"id": "bc-044",
+		"name": "American Pika",
 		"types": [
-			"Aqua",
-			"Stone"
+			"Stone",
+			"Frost"
 		],
-		"bst": 305,
+		"bst": 360,
 		"slot_types": [
 			"ROCK",
 			"ROCK"
 		],
 		"slot_bst": 375,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 300,
 		"slot": "SKITTY",
-		"id": "na-143",
-		"name": "Northern Collared Lemming",
+		"id": "bc-097",
+		"name": "Pink Salmon",
 		"types": [
-			"Frost",
+			"Aqua",
 			"Common"
 		],
-		"bst": 260,
+		"bst": 410,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 260,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 301,
 		"slot": "DELCATTY",
-		"id": "na-125",
-		"name": "Greater Sage-Grouse",
+		"id": "bc-057",
+		"name": "Bushy-tailed Woodrat",
 		"types": [
-			"Soil",
-			"Common"
+			"Common",
+			"Night"
 		],
-		"bst": 340,
+		"bst": 380,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 380,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 302,
 		"slot": "SABLEYE",
-		"id": "ds-073",
-		"name": "Giant Phantom Jelly",
+		"id": "bc-090",
+		"name": "Northern Alligator Lizard",
 		"types": [
-			"Aqua",
-			"Night"
+			"Night",
+			"Common"
 		],
-		"bst": 360,
+		"bst": 380,
 		"slot_types": [
 			"DARK",
 			"GHOST"
 		],
 		"slot_bst": 380,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 303,
 		"slot": "MAWILE",
-		"id": "mi-122",
-		"name": "Candida auris",
+		"id": "bc-111",
+		"name": "Purple Sea Urchin",
 		"types": [
-			"Toxin",
+			"Aqua",
 			"Armor"
 		],
-		"bst": 345,
+		"bst": 380,
 		"slot_types": [
 			"STEEL",
 			"STEEL"
 		],
 		"slot_bst": 380,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 304,
 		"slot": "ARON",
-		"id": "na-018",
-		"name": "Resurrection Plant",
+		"id": "bc-141",
+		"name": "Brittle Prickly-pear",
 		"types": [
 			"Verdant",
 			"Armor"
 		],
-		"bst": 295,
+		"bst": 380,
 		"slot_types": [
 			"STEEL",
 			"ROCK"
 		],
 		"slot_bst": 330,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 305,
 		"slot": "LAIRON",
-		"id": "mi-119",
-		"name": "Radiation-eating Fungus",
+		"id": "bc-091",
+		"name": "Western Painted Turtle",
 		"types": [
-			"Night",
-			"Armor"
+			"Armor",
+			"Aqua"
 		],
-		"bst": 320,
+		"bst": 420,
 		"slot_types": [
 			"STEEL",
 			"ROCK"
 		],
 		"slot_bst": 430,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 306,
 		"slot": "AGGRON",
-		"id": "na-069",
-		"name": "Hind's Chiton",
+		"id": "bc-105",
+		"name": "Spotted Ratfish",
 		"types": [
 			"Aqua",
-			"Armor"
+			"Stone"
 		],
-		"bst": 315,
+		"bst": 425,
 		"slot_types": [
 			"STEEL",
 			"ROCK"
@@ -5188,27 +5181,27 @@
 	{
 		"dex": 307,
 		"slot": "MEDITITE",
-		"id": "mi-077",
-		"name": "Optogenetic Alga",
+		"id": "bc-047",
+		"name": "Northern Flying Squirrel",
 		"types": [
-			"Verdant",
-			"Mind"
+			"Sky",
+			"Night"
 		],
-		"bst": 295,
+		"bst": 390,
 		"slot_types": [
 			"FIGHTING",
 			"PSYCHIC"
 		],
 		"slot_bst": 280,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 308,
 		"slot": "MEDICHAM",
-		"id": "na-057",
-		"name": "Common Desert Centipede",
+		"id": "bc-147",
+		"name": "Japanese Knotweed",
 		"types": [
-			"Toxin",
+			"Verdant",
 			"Brawn"
 		],
 		"bst": 410,
@@ -5217,18 +5210,18 @@
 			"PSYCHIC"
 		],
 		"slot_bst": 410,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 309,
 		"slot": "ELECTRIKE",
-		"id": "mi-027",
-		"name": "Star Jelly",
+		"id": "bc-080",
+		"name": "Western Sandpiper",
 		"types": [
-			"Verdant",
-			"Charm"
+			"Aqua",
+			"Sky"
 		],
-		"bst": 280,
+		"bst": 375,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
@@ -5239,132 +5232,132 @@
 	{
 		"dex": 310,
 		"slot": "MANECTRIC",
-		"id": "mi-115",
-		"name": "Noble Rot",
+		"id": "bc-071",
+		"name": "Harlequin Duck",
 		"types": [
-			"Verdant",
+			"Aqua",
 			"Charm"
 		],
-		"bst": 305,
+		"bst": 430,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 475,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 311,
 		"slot": "PLUSLE",
-		"id": "ds-071",
-		"name": "Atolla Jellyfish",
+		"id": "bc-074",
+		"name": "Varied Thrush",
 		"types": [
-			"Aqua",
+			"Common",
 			"Charm"
 		],
-		"bst": 300,
+		"bst": 400,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 405,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 312,
 		"slot": "MINUN",
-		"id": "na-078",
-		"name": "Christmas Tree Worm",
+		"id": "bc-066",
+		"name": "Anna's Hummingbird",
 		"types": [
-			"Aqua",
+			"Sky",
 			"Charm"
 		],
-		"bst": 325,
+		"bst": 420,
 		"slot_types": [
 			"ELECTRIC",
 			"ELECTRIC"
 		],
 		"slot_bst": 405,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 313,
 		"slot": "VOLBEAT",
-		"id": "eu-053",
-		"name": "Varroa Mite",
+		"id": "bc-120",
+		"name": "European Green Crab",
 		"types": [
 			"Chitin",
-			"Night"
+			"Brawn"
 		],
-		"bst": 315,
+		"bst": 400,
 		"slot_types": [
 			"BUG",
 			"BUG"
 		],
 		"slot_bst": 400,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 314,
 		"slot": "ILLUMISE",
-		"id": "na-040",
-		"name": "Desert Ironclad Beetle",
+		"id": "bc-122",
+		"name": "Fire-chaser Beetle",
 		"types": [
 			"Chitin",
-			"Armor"
+			"Ember"
 		],
-		"bst": 360,
+		"bst": 400,
 		"slot_types": [
 			"BUG",
 			"BUG"
 		],
 		"slot_bst": 400,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 315,
 		"slot": "ROSELIA",
-		"id": "na-003",
-		"name": "Common Milkweed",
+		"id": "bc-137",
+		"name": "Fireweed",
 		"types": [
 			"Verdant",
-			"Toxin"
+			"Ember"
 		],
-		"bst": 325,
+		"bst": 400,
 		"slot_types": [
 			"GRASS",
 			"POISON"
 		],
 		"slot_bst": 400,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 316,
 		"slot": "GULPIN",
-		"id": "na-056",
-		"name": "Black-and-gold Flat Millipede",
+		"id": "bc-034",
+		"name": "Mourning Cloak Caterpillar",
 		"types": [
 			"Chitin",
 			"Toxin"
 		],
-		"bst": 310,
+		"bst": 260,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 302,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 317,
 		"slot": "SWALOT",
-		"id": "na-052",
-		"name": "Western Black Widow",
+		"id": "bc-035",
+		"name": "Mourning Cloak",
 		"types": [
-			"Toxin",
-			"Night"
+			"Chitin",
+			"Frost"
 		],
-		"bst": 360,
+		"bst": 450,
 		"slot_types": [
 			"POISON",
 			"POISON"
@@ -5375,11 +5368,11 @@
 	{
 		"dex": 318,
 		"slot": "CARVANHA",
-		"id": "ds-011",
-		"name": "Gulper Eel",
+		"id": "bc-030",
+		"name": "Crab Megalopa",
 		"types": [
 			"Aqua",
-			"Night"
+			"Chitin"
 		],
 		"bst": 300,
 		"slot_types": [
@@ -5387,35 +5380,35 @@
 			"DARK"
 		],
 		"slot_bst": 305,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 319,
 		"slot": "SHARPEDO",
-		"id": "ds-010",
-		"name": "Sloane's Viperfish",
+		"id": "bc-031",
+		"name": "Dungeness Crab",
 		"types": [
 			"Aqua",
-			"Night"
+			"Armor"
 		],
-		"bst": 360,
+		"bst": 480,
 		"slot_types": [
 			"WATER",
 			"DARK"
 		],
 		"slot_bst": 460,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 320,
 		"slot": "WAILMER",
-		"id": "na-046",
-		"name": "American Giant Water Bug",
+		"id": "bc-075",
+		"name": "American Dipper",
 		"types": [
-			"Chitin",
-			"Aqua"
+			"Aqua",
+			"Sky"
 		],
-		"bst": 390,
+		"bst": 400,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -5426,47 +5419,47 @@
 	{
 		"dex": 321,
 		"slot": "WAILORD",
-		"id": "ds-054",
-		"name": "Tiger Shark",
+		"id": "ds-134",
+		"name": "Gray Whale",
 		"types": [
 			"Aqua",
-			"Night"
+			"Stone"
 		],
-		"bst": 480,
+		"bst": 495,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 500,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 322,
 		"slot": "NUMEL",
-		"id": "na-027",
-		"name": "Chicken of the Woods",
+		"id": "bc-121",
+		"name": "Mountain Pine Beetle",
 		"types": [
-			"Verdant",
-			"Ember"
+			"Chitin",
+			"Soil"
 		],
-		"bst": 300,
+		"bst": 350,
 		"slot_types": [
 			"FIRE",
 			"GROUND"
 		],
 		"slot_bst": 305,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 323,
 		"slot": "CAMERUPT",
-		"id": "ds-069",
-		"name": "Pyrosome",
+		"id": "bc-109",
+		"name": "Sunflower Sea Star",
 		"types": [
 			"Aqua",
-			"Ember"
+			"Brawn"
 		],
-		"bst": 310,
+		"bst": 460,
 		"slot_types": [
 			"FIRE",
 			"GROUND"
@@ -5477,30 +5470,30 @@
 	{
 		"dex": 324,
 		"slot": "TORKOAL",
-		"id": "ds-030",
-		"name": "Opah",
+		"id": "bc-062",
+		"name": "Dall's Porpoise",
 		"types": [
 			"Aqua",
-			"Ember"
+			"Brawn"
 		],
-		"bst": 435,
+		"bst": 465,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
 		],
 		"slot_bst": 470,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 325,
 		"slot": "SPOINK",
-		"id": "eu-091",
-		"name": "Barreleye",
+		"id": "bc-127",
+		"name": "Common Water Strider",
 		"types": [
-			"Aqua",
-			"Mind"
+			"Chitin",
+			"Aqua"
 		],
-		"bst": 325,
+		"bst": 360,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -5511,62 +5504,61 @@
 	{
 		"dex": 326,
 		"slot": "GRUMPIG",
-		"id": "na-104",
-		"name": "Green Iguana",
+		"id": "na-138",
+		"name": "Wolverine",
 		"types": [
-			"Verdant",
-			"Mind"
+			"Night",
+			"Frost"
 		],
-		"bst": 355,
+		"bst": 445,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 470,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 327,
 		"slot": "SPINDA",
-		"id": "oc-145",
-		"name": "Arctic Hare",
+		"id": "na-133",
+		"name": "Common Raccoon",
 		"types": [
-			"Frost",
-			"Common"
+			"Common",
+			"Night"
 		],
-		"bst": 350,
+		"bst": 360,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 360,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 328,
 		"slot": "TRAPINCH",
-		"id": "mi-118",
-		"name": "Root Fungus Partner",
+		"id": "bc-117",
+		"name": "Plumose Anemone",
 		"types": [
-			"Verdant",
-			"Soil"
+			"Aqua",
+			"Toxin"
 		],
-		"bst": 290,
+		"bst": 385,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
 		],
 		"slot_bst": 290,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 329,
 		"slot": "VIBRAVA",
-		"id": "na-105",
-		"name": "Texas Horned Lizard",
+		"id": "bc-056",
+		"name": "Coast Mole",
 		"types": [
-			"Soil",
-			"Armor"
+			"Soil"
 		],
 		"bst": 340,
 		"slot_types": [
@@ -5574,35 +5566,35 @@
 			"DRAGON"
 		],
 		"slot_bst": 340,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 330,
 		"slot": "FLYGON",
-		"id": "na-119",
-		"name": "Greater Roadrunner",
+		"id": "bc-050",
+		"name": "American Mink",
 		"types": [
-			"Soil",
-			"Brawn"
+			"Aqua",
+			"Night"
 		],
-		"bst": 395,
+		"bst": 410,
 		"slot_types": [
 			"GROUND",
 			"DRAGON"
 		],
 		"slot_bst": 520,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 331,
 		"slot": "CACNEA",
-		"id": "na-033",
-		"name": "Giant Kelp",
+		"id": "bc-138",
+		"name": "Round-leaved Sundew",
 		"types": [
-			"Aqua",
-			"Verdant"
+			"Verdant",
+			"Night"
 		],
-		"bst": 335,
+		"bst": 365,
 		"slot_types": [
 			"GRASS",
 			"GRASS"
@@ -5613,13 +5605,13 @@
 	{
 		"dex": 332,
 		"slot": "CACTURNE",
-		"id": "na-019",
-		"name": "Ghost Pipe",
+		"id": "bc-131",
+		"name": "Sitka Spruce",
 		"types": [
-			"Night",
-			"Verdant"
+			"Verdant",
+			"Aqua"
 		],
-		"bst": 275,
+		"bst": 455,
 		"slot_types": [
 			"GRASS",
 			"DARK"
@@ -5630,30 +5622,30 @@
 	{
 		"dex": 333,
 		"slot": "SWABLU",
-		"id": "mi-108",
-		"name": "Baker's Yeast",
+		"id": "bc-079",
+		"name": "Black-capped Chickadee",
 		"types": [
-			"Common",
-			"Charm"
+			"Sky",
+			"Frost"
 		],
-		"bst": 285,
+		"bst": 370,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
 		],
 		"slot_bst": 310,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 334,
 		"slot": "ALTARIA",
-		"id": "na-114",
-		"name": "Peregrine Falcon",
+		"id": "bc-084",
+		"name": "Barred Owl",
 		"types": [
-			"Sky",
-			"Brawn"
+			"Night",
+			"Sky"
 		],
-		"bst": 460,
+		"bst": 450,
 		"slot_types": [
 			"DRAGON",
 			"FLYING"
@@ -5681,29 +5673,30 @@
 	{
 		"dex": 336,
 		"slot": "SEVIPER",
-		"id": "na-109",
-		"name": "Texas Coralsnake",
+		"id": "bc-072",
+		"name": "Osprey",
 		"types": [
-			"Toxin"
+			"Sky",
+			"Aqua"
 		],
-		"bst": 365,
+		"bst": 450,
 		"slot_types": [
 			"POISON",
 			"POISON"
 		],
 		"slot_bst": 458,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 337,
 		"slot": "LUNATONE",
-		"id": "mi-079",
-		"name": "Rock Snot",
+		"id": "bc-045",
+		"name": "Hoary Marmot",
 		"types": [
-			"Verdant",
-			"Stone"
+			"Stone",
+			"Frost"
 		],
-		"bst": 260,
+		"bst": 430,
 		"slot_types": [
 			"ROCK",
 			"PSYCHIC"
@@ -5714,121 +5707,119 @@
 	{
 		"dex": 338,
 		"slot": "SOLROCK",
-		"id": "na-020",
-		"name": "Avocado",
+		"id": "na-140",
+		"name": "Mountain Goat",
 		"types": [
-			"Verdant",
-			"Stone"
+			"Stone",
+			"Frost"
 		],
-		"bst": 350,
+		"bst": 420,
 		"slot_types": [
 			"ROCK",
 			"PSYCHIC"
 		],
 		"slot_bst": 440,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 339,
 		"slot": "BARBOACH",
-		"id": "ds-019",
-		"name": "Tripod Fish",
+		"id": "bc-026",
+		"name": "Western Toad Tadpole",
 		"types": [
-			"Aqua",
-			"Soil"
+			"Aqua"
 		],
-		"bst": 285,
+		"bst": 260,
 		"slot_types": [
 			"WATER",
 			"GROUND"
 		],
 		"slot_bst": 288,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 340,
 		"slot": "WHISCASH",
-		"id": "mi-022",
-		"name": "Cable Bacteria",
+		"id": "bc-027",
+		"name": "Western Toad",
 		"types": [
 			"Soil",
-			"Aqua"
+			"Toxin"
 		],
-		"bst": 300,
+		"bst": 450,
 		"slot_types": [
 			"WATER",
 			"GROUND"
 		],
 		"slot_bst": 468,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 341,
 		"slot": "CORPHISH",
-		"id": "na-002",
-		"name": "California Pitcher Plant",
+		"id": "bc-028",
+		"name": "Newt Larva",
 		"types": [
-			"Verdant",
 			"Aqua"
 		],
-		"bst": 305,
+		"bst": 290,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 308,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 342,
 		"slot": "CRAWDAUNT",
-		"id": "eu-087",
-		"name": "Goblin Shark",
+		"id": "bc-029",
+		"name": "Rough-skinned Newt",
 		"types": [
-			"Aqua",
-			"Night"
+			"Toxin",
+			"Aqua"
 		],
-		"bst": 395,
+		"bst": 480,
 		"slot_types": [
 			"WATER",
 			"DARK"
 		],
 		"slot_bst": 468,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 343,
 		"slot": "BALTOY",
-		"id": "mi-021",
-		"name": "Geobacter",
+		"id": "bc-094",
+		"name": "Ensatina",
 		"types": [
-			"Soil",
-			"Armor"
+			"Night",
+			"Toxin"
 		],
-		"bst": 310,
+		"bst": 370,
 		"slot_types": [
 			"GROUND",
 			"PSYCHIC"
 		],
 		"slot_bst": 300,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 344,
 		"slot": "CLAYDOL",
-		"id": "na-106",
-		"name": "Gila Monster",
+		"id": "bc-113",
+		"name": "Geoduck",
 		"types": [
-			"Toxin",
+			"Aqua",
 			"Soil"
 		],
-		"bst": 390,
+		"bst": 400,
 		"slot_types": [
 			"GROUND",
 			"PSYCHIC"
 		],
 		"slot_bst": 500,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 345,
@@ -5845,24 +5836,24 @@
 			"GRASS"
 		],
 		"slot_bst": 355,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 346,
 		"slot": "CRADILY",
-		"id": "fo-005",
-		"name": "Opabinia",
+		"id": "bc-019",
+		"name": "Wiwaxia",
 		"types": [
-			"Chitin",
-			"Mind"
+			"Armor",
+			"Stone"
 		],
-		"bst": 315,
+		"bst": 495,
 		"slot_types": [
 			"ROCK",
 			"GRASS"
 		],
 		"slot_bst": 495,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 347,
@@ -5879,35 +5870,35 @@
 			"BUG"
 		],
 		"slot_bst": 355,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 348,
 		"slot": "ARMALDO",
-		"id": "fo-058",
-		"name": "Borealopelta",
+		"id": "bc-020",
+		"name": "Sidneyia",
 		"types": [
-			"Stone",
-			"Armor"
+			"Chitin",
+			"Brawn"
 		],
-		"bst": 410,
+		"bst": 495,
 		"slot_types": [
 			"ROCK",
 			"BUG"
 		],
 		"slot_bst": 495,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 349,
 		"slot": "FEEBAS",
-		"id": "ds-006",
-		"name": "Moon Jelly Ephyra",
+		"id": "bc-092",
+		"name": "Coastal Tailed Frog",
 		"types": [
 			"Aqua",
-			"Charm"
+			"Stone"
 		],
-		"bst": 230,
+		"bst": 400,
 		"slot_types": [
 			"WATER",
 			"WATER"
@@ -5918,47 +5909,46 @@
 	{
 		"dex": 350,
 		"slot": "MILOTIC",
-		"id": "af-078",
-		"name": "Great White Shark",
+		"id": "bc-067",
+		"name": "Great Blue Heron",
 		"types": [
 			"Aqua",
-			"Night"
+			"Sky"
 		],
-		"bst": 515,
+		"bst": 435,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 540,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 351,
 		"slot": "CASTFORM",
-		"id": "mi-111",
-		"name": "Candida",
+		"id": "bc-042",
+		"name": "Black-tailed Deer",
 		"types": [
-			"Toxin",
 			"Common"
 		],
-		"bst": 315,
+		"bst": 405,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
 		],
 		"slot_bst": 420,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 352,
 		"slot": "KECLEON",
-		"id": "ds-037",
-		"name": "Basking Shark",
+		"id": "bc-036",
+		"name": "American Black Bear",
 		"types": [
-			"Aqua",
-			"Common"
+			"Common",
+			"Brawn"
 		],
-		"bst": 430,
+		"bst": 440,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -5969,29 +5959,30 @@
 	{
 		"dex": 353,
 		"slot": "SHUPPET",
-		"id": "mi-147",
-		"name": "Sputnik Virophage",
+		"id": "bc-119",
+		"name": "Eelgrass",
 		"types": [
-			"Mind",
-			"Night"
+			"Verdant",
+			"Aqua"
 		],
-		"bst": 295,
+		"bst": 375,
 		"slot_types": [
 			"GHOST",
 			"GHOST"
 		],
 		"slot_bst": 295,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 354,
 		"slot": "BANETTE",
-		"id": "na-131",
-		"name": "Gray Wolf",
+		"id": "bc-052",
+		"name": "Fisher",
 		"types": [
-			"Night"
+			"Night",
+			"Brawn"
 		],
-		"bst": 455,
+		"bst": 450,
 		"slot_types": [
 			"GHOST",
 			"GHOST"
@@ -6002,47 +5993,47 @@
 	{
 		"dex": 355,
 		"slot": "DUSKULL",
-		"id": "na-097",
-		"name": "Emerald Glass Frog",
+		"id": "bc-116",
+		"name": "Spot Prawn",
 		"types": [
 			"Aqua",
-			"Night"
+			"Chitin"
 		],
-		"bst": 275,
+		"bst": 375,
 		"slot_types": [
 			"GHOST",
 			"GHOST"
 		],
 		"slot_bst": 295,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 356,
 		"slot": "DUSCLOPS",
-		"id": "ds-056",
-		"name": "Vampire Squid",
+		"id": "bc-038",
+		"name": "Canada Lynx",
 		"types": [
-			"Aqua",
-			"Night"
+			"Night",
+			"Frost"
 		],
-		"bst": 350,
+		"bst": 450,
 		"slot_types": [
 			"GHOST",
 			"GHOST"
 		],
 		"slot_bst": 455,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 357,
 		"slot": "TROPIUS",
-		"id": "na-028",
-		"name": "Common Bird's Nest Fungus",
+		"id": "bc-130",
+		"name": "Western Redcedar",
 		"types": [
 			"Verdant",
-			"Charm"
+			"Toxin"
 		],
-		"bst": 260,
+		"bst": 460,
 		"slot_types": [
 			"GRASS",
 			"FLYING"
@@ -6053,13 +6044,13 @@
 	{
 		"dex": 358,
 		"slot": "CHIMECHO",
-		"id": "na-118",
-		"name": "Common Raven",
+		"id": "bc-064",
+		"name": "Steller's Jay",
 		"types": [
-			"Night",
+			"Sky",
 			"Mind"
 		],
-		"bst": 425,
+		"bst": 420,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -6070,13 +6061,12 @@
 	{
 		"dex": 359,
 		"slot": "ABSOL",
-		"id": "na-115",
-		"name": "Great Horned Owl",
+		"id": "na-131",
+		"name": "Gray Wolf",
 		"types": [
-			"Night",
-			"Sky"
+			"Night"
 		],
-		"bst": 435,
+		"bst": 455,
 		"slot_types": [
 			"DARK",
 			"DARK"
@@ -6087,30 +6077,30 @@
 	{
 		"dex": 360,
 		"slot": "WYNAUT",
-		"id": "mi-150",
-		"name": "Chlorovirus ATCV-1",
+		"id": "bc-143",
+		"name": "Lobster Mushroom",
 		"types": [
-			"Mind",
+			"Night",
 			"Verdant"
 		],
-		"bst": 260,
+		"bst": 390,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 260,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 361,
 		"slot": "SNORUNT",
-		"id": "oc-023",
-		"name": "Snow Flea",
+		"id": "bc-055",
+		"name": "Snowshoe Hare",
 		"types": [
 			"Frost",
-			"Chitin"
+			"Common"
 		],
-		"bst": 265,
+		"bst": 385,
 		"slot_types": [
 			"ICE",
 			"ICE"
@@ -6121,13 +6111,13 @@
 	{
 		"dex": 362,
 		"slot": "GLALIE",
-		"id": "na-138",
-		"name": "Wolverine",
+		"id": "bc-043",
+		"name": "Mountain Caribou",
 		"types": [
-			"Night",
-			"Frost"
+			"Frost",
+			"Common"
 		],
-		"bst": 445,
+		"bst": 470,
 		"slot_types": [
 			"ICE",
 			"ICE"
@@ -6138,30 +6128,30 @@
 	{
 		"dex": 363,
 		"slot": "SPHEAL",
-		"id": "oc-020",
-		"name": "Arctic Woolly Bear",
+		"id": "oc-023",
+		"name": "Snow Flea",
 		"types": [
-			"Chitin",
-			"Frost"
+			"Frost",
+			"Chitin"
 		],
-		"bst": 255,
+		"bst": 265,
 		"slot_types": [
 			"ICE",
 			"WATER"
 		],
 		"slot_bst": 290,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 364,
 		"slot": "SEALEO",
-		"id": "na-140",
-		"name": "Mountain Goat",
+		"id": "bc-082",
+		"name": "White-tailed Ptarmigan",
 		"types": [
-			"Stone",
-			"Frost"
+			"Frost",
+			"Stone"
 		],
-		"bst": 420,
+		"bst": 405,
 		"slot_types": [
 			"ICE",
 			"WATER"
@@ -6172,166 +6162,166 @@
 	{
 		"dex": 365,
 		"slot": "WALREIN",
-		"id": "na-150",
-		"name": "Narwhal",
+		"id": "bc-093",
+		"name": "Coastal Giant Salamander",
 		"types": [
 			"Aqua",
-			"Frost"
+			"Brawn"
 		],
-		"bst": 455,
+		"bst": 425,
 		"slot_types": [
 			"ICE",
 			"WATER"
 		],
 		"slot_bst": 530,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 366,
 		"slot": "CLAMPERL",
-		"id": "ds-013",
-		"name": "Common Fangtooth",
+		"id": "na-084",
+		"name": "Pacific Hagfish",
 		"types": [
 			"Aqua",
-			"Night"
+			"Soil"
 		],
-		"bst": 335,
+		"bst": 355,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 345,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 367,
 		"slot": "HUNTAIL",
-		"id": "ds-025",
-		"name": "Cookiecutter Shark",
+		"id": "bc-060",
+		"name": "Steller Sea Lion",
 		"types": [
 			"Aqua",
-			"Night"
+			"Brawn"
 		],
-		"bst": 340,
+		"bst": 485,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 485,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 368,
 		"slot": "GOREBYSS",
-		"id": "ds-008",
-		"name": "Krøyer's Deep Sea Anglerfish",
+		"id": "na-065",
+		"name": "Giant Pacific Octopus",
 		"types": [
 			"Aqua",
-			"Night"
+			"Mind"
 		],
-		"bst": 380,
+		"bst": 480,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 485,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 369,
 		"slot": "RELICANTH",
-		"id": "ds-002",
-		"name": "Loggerhead Sea Turtle",
+		"id": "bc-063",
+		"name": "Pacific White-sided Dolphin",
 		"types": [
 			"Aqua",
-			"Stone"
+			"Charm"
 		],
-		"bst": 430,
+		"bst": 480,
 		"slot_types": [
 			"WATER",
 			"ROCK"
 		],
 		"slot_bst": 485,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 370,
 		"slot": "LUVDISC",
-		"id": "na-058",
-		"name": "Jamaican Velvet Worm",
+		"id": "bc-108",
+		"name": "Threespine Stickleback",
 		"types": [
-			"Chitin",
-			"Aqua"
+			"Aqua",
+			"Armor"
 		],
-		"bst": 325,
+		"bst": 360,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 330,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 371,
 		"slot": "BAGON",
-		"id": "mi-074",
-		"name": "Vorticella",
+		"id": "bc-139",
+		"name": "Sphagnum Moss",
 		"types": [
-			"Aqua",
-			"Brawn"
+			"Verdant",
+			"Aqua"
 		],
-		"bst": 310,
+		"bst": 370,
 		"slot_types": [
 			"DRAGON",
 			"DRAGON"
 		],
 		"slot_bst": 300,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 372,
 		"slot": "SHELGON",
-		"id": "na-059",
-		"name": "American Lobster",
+		"id": "bc-051",
+		"name": "Pacific Marten",
 		"types": [
-			"Aqua",
+			"Night",
 			"Brawn"
 		],
-		"bst": 410,
+		"bst": 425,
 		"slot_types": [
 			"DRAGON",
 			"DRAGON"
 		],
 		"slot_bst": 420,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 373,
 		"slot": "SALAMENCE",
-		"id": "na-111",
-		"name": "Common Snapping Turtle",
+		"id": "ds-129",
+		"name": "Sperm Whale",
 		"types": [
 			"Aqua",
-			"Brawn"
+			"Mind"
 		],
-		"bst": 390,
+		"bst": 590,
 		"slot_types": [
 			"DRAGON",
 			"FLYING"
 		],
 		"slot_bst": 600,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 374,
 		"slot": "BELDUM",
-		"id": "mi-130",
-		"name": "Water Flea",
+		"id": "bc-112",
+		"name": "Northern Abalone",
 		"types": [
 			"Aqua",
 			"Armor"
 		],
-		"bst": 290,
+		"bst": 400,
 		"slot_types": [
 			"STEEL",
 			"PSYCHIC"
@@ -6342,81 +6332,81 @@
 	{
 		"dex": 375,
 		"slot": "METANG",
-		"id": "mi-020",
-		"name": "Magnetospirillum",
+		"id": "bc-048",
+		"name": "North American Porcupine",
 		"types": [
 			"Armor",
-			"Mind"
+			"Verdant"
 		],
-		"bst": 320,
+		"bst": 420,
 		"slot_types": [
 			"STEEL",
 			"PSYCHIC"
 		],
 		"slot_bst": 420,
-		"local": 20
+		"local": 100
 	},
 	{
 		"dex": 376,
 		"slot": "METAGROSS",
-		"id": "eu-005",
-		"name": "Ginkgo",
+		"id": "bc-135",
+		"name": "Devil's Club",
 		"types": [
 			"Verdant",
 			"Armor"
 		],
-		"bst": 450,
+		"bst": 410,
 		"slot_types": [
 			"STEEL",
 			"PSYCHIC"
 		],
 		"slot_bst": 600,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 377,
 		"slot": "REGIROCK",
-		"id": "fo-053",
-		"name": "Tyrannosaurus rex",
+		"id": "bc-014",
+		"name": "Marrella",
 		"types": [
-			"Brawn",
-			"Stone"
+			"Stone",
+			"Chitin"
 		],
-		"bst": 530,
+		"bst": 580,
 		"slot_types": [
 			"ROCK",
 			"ROCK"
 		],
 		"slot_bst": 580,
-		"local": 60
+		"local": 100
 	},
 	{
 		"dex": 378,
 		"slot": "REGICE",
-		"id": "sa-001",
-		"name": "Queen of the Andes",
+		"id": "fo-005",
+		"name": "Opabinia",
 		"types": [
-			"Verdant",
-			"Frost"
+			"Chitin",
+			"Mind"
 		],
-		"bst": 405,
+		"bst": 580,
 		"slot_types": [
 			"ICE",
 			"ICE"
 		],
 		"slot_bst": 580,
-		"local": 10
+		"local": 100
 	},
 	{
 		"dex": 379,
 		"slot": "REGISTEEL",
-		"id": "mi-005",
-		"name": "Tardigrade Tun",
+		"id": "fo-009",
+		"name": "Pikaia",
 		"types": [
-			"Armor",
-			"Frost"
+			"Aqua",
+			"Common"
 		],
-		"bst": 425,
+		"bst": 580,
 		"slot_types": [
 			"STEEL",
 			"STEEL"
@@ -6427,13 +6417,13 @@
 	{
 		"dex": 380,
 		"slot": "LATIAS",
-		"id": "mi-004",
-		"name": "Tardigrade",
+		"id": "bc-012",
+		"name": "Vancouver Island Marmot",
 		"types": [
-			"Aqua",
-			"Brawn"
+			"Charm",
+			"Stone"
 		],
-		"bst": 360,
+		"bst": 600,
 		"slot_types": [
 			"DRAGON",
 			"PSYCHIC"
@@ -6444,64 +6434,64 @@
 	{
 		"dex": 381,
 		"slot": "LATIOS",
-		"id": "ds-058",
-		"name": "Giant Squid",
+		"id": "bc-013",
+		"name": "Northern Spotted Owl",
 		"types": [
-			"Aqua",
-			"Brawn"
+			"Night",
+			"Mind"
 		],
-		"bst": 490,
+		"bst": 600,
 		"slot_types": [
 			"DRAGON",
 			"PSYCHIC"
 		],
 		"slot_bst": 600,
-		"local": 45
+		"local": 100
 	},
 	{
 		"dex": 382,
 		"slot": "KYOGRE",
-		"id": "na-149",
-		"name": "Orca",
+		"id": "bc-010",
+		"name": "Glass Sponge Reef",
 		"types": [
 			"Aqua",
-			"Mind"
+			"Stone"
 		],
-		"bst": 560,
+		"bst": 670,
 		"slot_types": [
 			"WATER",
 			"WATER"
 		],
 		"slot_bst": 670,
-		"local": 70
+		"local": 100
 	},
 	{
 		"dex": 383,
 		"slot": "GROUDON",
-		"id": "na-013",
-		"name": "Giant Sequoia",
+		"id": "bc-009",
+		"name": "Spirit Bear",
 		"types": [
-			"Verdant",
-			"Ember"
+			"Brawn",
+			"Mind"
 		],
-		"bst": 535,
+		"bst": 670,
 		"slot_types": [
 			"GROUND",
 			"GROUND"
 		],
 		"slot_bst": 670,
-		"local": 30
+		"local": 100
 	},
 	{
 		"dex": 384,
 		"slot": "RAYQUAZA",
-		"id": "na-113",
-		"name": "Bald Eagle",
+		"id": "bc-011",
+		"name": "Marbled Murrelet",
 		"types": [
-			"Common",
-			"Sky"
+			"Sky",
+			"Aqua"
 		],
-		"bst": 460,
+		"bst": 680,
 		"slot_types": [
 			"DRAGON",
 			"FLYING"
@@ -6512,12 +6502,13 @@
 	{
 		"dex": 385,
 		"slot": "JIRACHI",
-		"id": "na-148",
-		"name": "Blue Whale",
+		"id": "bc-015",
+		"name": "Phantom Orchid",
 		"types": [
-			"Aqua"
+			"Charm",
+			"Night"
 		],
-		"bst": 585,
+		"bst": 600,
 		"slot_types": [
 			"STEEL",
 			"PSYCHIC"
@@ -6528,18 +6519,18 @@
 	{
 		"dex": 386,
 		"slot": "DEOXYS",
-		"id": "mi-010",
-		"name": "Conan the Bacterium",
+		"id": "bc-016",
+		"name": "Ogopogo",
 		"types": [
-			"Armor",
-			"Brawn"
+			"Aqua",
+			"Mind"
 		],
-		"bst": 450,
+		"bst": 600,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
 		],
 		"slot_bst": 600,
-		"local": 20
+		"local": 100
 	}
 ]

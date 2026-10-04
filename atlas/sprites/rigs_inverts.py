@@ -800,3 +800,36 @@ def burgess(a, sp, r):
     a.part('B').poly([(0, 32), (6, 34), (0, 37)])
     a.eye(24, 17, 1)
     a.eye(32, 17, 1)
+
+
+def seastar(a, sp, r):
+    """Sea star seen from above. arms: count (5 ochre, 20 sunflower). A arms, B centre, C spots."""
+    import math
+    n = sp.get('arms', 5)
+    cx, cy = 32, 34
+    long_r = 27 if n <= 6 else 25
+    w = 7 if n <= 6 else 3.2
+    arms = a.part('A')
+    for i in range(n):
+        ang = -math.pi / 2 + 2 * math.pi * i / n
+        arms.taper([(cx, cy), (cx + long_r * math.cos(ang), cy + long_r * math.sin(ang))], w, 1.5)
+    a.part('B').circle(cx, cy, 8 if n <= 6 else 10)
+    if sp.get('spots'):
+        sp_ = a.part('C', line=False)
+        for _ in range(14):
+            ang, d = 2 * math.pi * next(r), 4 + 18 * next(r)
+            sp_.circle(cx + d * math.cos(ang), cy + d * math.sin(ang), 1)
+
+
+def urchin(a, sp, r):
+    """Sea urchin: a round test bristling with spines. A spines, B body."""
+    import math
+    cx, cy = 32, 38
+    sp_ = a.part('A')
+    for i in range(28):
+        ang = math.pi + math.pi * i / 27 + 0.05 * (next(r) - .5)
+        sp_.line([(cx, cy), (cx + 26 * math.cos(ang), cy + 22 * math.sin(ang))], 1.6)
+    for i in range(6):
+        ang = 0.2 + 2.7 * i / 5
+        sp_.line([(cx, cy), (cx + 24 * math.cos(ang), cy + 10 * math.sin(ang))], 1.6)
+    a.part('B').ell(cx - 15, cy - 11, cx + 15, cy + 11)

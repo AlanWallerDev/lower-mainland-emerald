@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Contact sheet of species art: python3 -m atlas.sprites.preview out.png [ids... | group:Mammal]"""
+"""Contact sheet of species art: python3 -m atlas.sprites.preview out.png [ids... | group:Mammal | bc | all]"""
 import json
 import os
 import sys
@@ -10,6 +10,9 @@ from . import registry
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 species = {s['id']: s for s in json.load(open(os.path.join(ROOT, 'atlas', 'data', 'species.json')))}
+bc_file = os.path.join(ROOT, 'atlas', 'bc_species.json')
+if os.path.exists(bc_file):
+    species.update({s['id']: s for s in json.load(open(bc_file))['species']})
 smap = json.load(open(os.path.join(ROOT, 'atlas', 'species_map.json')))
 
 out, args = sys.argv[1], sys.argv[2:]
@@ -18,6 +21,8 @@ for a in args:
     if a.startswith('group:'):
         g = a[6:]
         ids += [o['id'] for o in smap if species[o['id']]['group'] == g]
+    elif a == 'bc':
+        ids += sorted(k for k in species if k.startswith('bc-'))
     elif a == 'all':
         ids += [o['id'] for o in smap]
     else:

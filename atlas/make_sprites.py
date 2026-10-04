@@ -30,6 +30,8 @@ def write(p, s):
 
 
 species = {s['id']: s for s in json.load(open(P('atlas', 'data', 'species.json'), encoding='utf-8'))}
+if os.path.exists(P('atlas', 'bc_species.json')):  # the hack's BC organisms (and overrides)
+    species.update({s['id']: s for s in json.load(open(P('atlas', 'bc_species.json'), encoding='utf-8'))['species']})
 smap = json.load(open(P('atlas', 'species_map.json'), encoding='utf-8'))
 
 

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-// Gym leaders, gym trainers (with their rematches), the Elite Four and the Champion use organisms
-// of their gym's type. A party member whose organism lacks the type is swapped for the closest
-// organism (by stat total) that has it; custom moves are refilled from the new learnset.
+// Every trainer uses BC organisms, and gym leaders, gym trainers (with their rematches), the Elite
+// Four and the Champion use organisms of their gym's type. A party member in a worldwide slot, or
+// lacking the theme type, is swapped for the closest BC organism (shared type, then stat total);
+// custom moves are refilled from the new learnset. Starter lines and legendaries are never swapped in.
 //
 // Idempotent. Run after atlas/apply_species.js: node atlas/theme_trainers.js
 'use strict';
@@ -45,23 +46,34 @@ for (const [mapDir, type] of Object.entries(THEMES)) {
 	}
 }
 
+// Slots no trainer swaps in: the player's starter lines and the legendaries.
+const picks = C.readJSON('atlas/picks.json');
+const NO_SWAP_IN = new Set([...(picks.legend_slots || []), 'TREECKO', 'GROVYLE', 'SCEPTILE', 'TORCHIC', 'COMBUSKEN',
+	'BLAZIKEN', 'MUDKIP', 'MARSHTOMP', 'SWAMPERT']);
+
 let parties = C.read('src/data/trainer_parties.h');
 let swaps = 0;
-for (const [trainer, type] of Object.entries(themed)) {
-	const block = trainersH.match(new RegExp(`\\[${trainer}\\] =[\\s\\S]*?\\.party = \\w+\\((sParty_\\w+)\\)`));
-	if (!block) continue;
-	const party = block[1];
+const trainers = [...trainersH.matchAll(/\[(TRAINER_\w+)\] =[\s\S]*?\.party = \w+\((sParty_\w+)\)/g)];
+const done = new Set();
+for (const [, trainer, party] of trainers) {
+	if (done.has(party)) continue;
+	done.add(party);
+	const type = themed[trainer];
 	const re = new RegExp(`(static const struct \\w+ ${party}\\[\\] = \\{)([\\s\\S]*?)(\\n\\};)`);
 	const pm = parties.match(re);
 	if (!pm) continue;
 	const used = new Set([...pm[2].matchAll(/SPECIES_(\w+)/g)].map((m) => m[1]));
 	const body = pm[2].replace(/\{([^{}]*?\.species = SPECIES_(\w+)[^{}]*?(?:\{[^{}]*\}[^{}]*?)?)\}/g, (whole, inner, slot) => {
 		const org = slotOrg[slot];
-		if (!org || org.types.includes(type)) return whole;
-		// Closest stat total among organisms with the theme type; regional (BC) slots first.
-		const cands = map.filter((e) => orgs[e.id].types.includes(type) && !used.has(e.slot))
-			.sort((a, b) => (regional.has(b.slot) - regional.has(a.slot)) * 1000
-				+ (orgs[a.id].types[0] === type ? 0 : 50) - (orgs[b.id].types[0] === type ? 0 : 50)
+		if (!org) return whole;
+		// Gym and League trainers need their type; everyone uses BC (regional) organisms.
+		const offType = type && !org.types.includes(type);
+		const starterOut = NO_SWAP_IN.has(slot) && !/May|Brendan|Wally/.test(party); // rivals keep their starters
+		if (!offType && !starterOut && regional.has(slot)) return whole;
+		const want = type ? [type] : org.types;
+		const cands = map.filter((e) => regional.has(e.slot) && !NO_SWAP_IN.has(e.slot) && !used.has(e.slot)
+			&& orgs[e.id].types.some((t) => want.includes(t)))
+			.sort((a, b) => (orgs[a.id].types[0] === want[0] ? 0 : 50) - (orgs[b.id].types[0] === want[0] ? 0 : 50)
 				+ Math.abs(orgs[a.id].bst - org.bst) - Math.abs(orgs[b.id].bst - org.bst));
 		if (!cands.length) return whole;
 		const pick = cands[0].slot;
@@ -75,4 +87,4 @@ for (const [trainer, type] of Object.entries(themed)) {
 	parties = parties.replace(re, pm[1] + body + pm[3]);
 }
 C.write('src/data/trainer_parties.h', parties);
-console.log(`theme_trainers: ${Object.keys(themed).length} trainers, ${swaps} party members swapped`);
+console.log(`theme_trainers: ${done.size} parties (${Object.keys(themed).length} themed), ${swaps} party members swapped`);

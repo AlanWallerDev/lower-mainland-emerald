@@ -203,7 +203,7 @@ const lines = {};
 for (const e of entries) if (e.org.line) (lines[e.org.line] = lines[e.org.line] || []).push(e);
 const evo = [];
 for (const members of Object.values(lines)) {
-	members.sort((a, b) => a.id.localeCompare(b.id));
+	members.sort((a, b) => (a.org.stage_index || 0) - (b.org.stage_index || 0) || a.id.localeCompare(b.id));
 	const levels = members.length >= 3 ? [14, 28] : [18];
 	for (let i = 0; i < members.length - 1; i++) {
 		evo.push(`    [SPECIES_${members[i].slot}] = {{EVO_LEVEL, ${levels[Math.min(i, levels.length - 1)]}, SPECIES_${members[i + 1].slot}}},`);
