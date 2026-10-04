@@ -94,16 +94,16 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string "bust up boulders so he can bust out\l"
 	.string "through to the other side.\p"
 	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit BURNABY.$"
+	.string "It'll make it easy to visit SQUAMISH.$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
 	.string "That cave next to the MART is now a\n"
 	.string "tunnel to the other side.\p"
 	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in BURNABY now.$"
+	.string "new DEVON products in SQUAMISH now.$"
 
 VerdanturfTown_Text_TownSign:
-	.string "LANGLEY\p"
+	.string "YALE\p"
 	.string "“The windswept highlands with the\n"
 	.string "sweet fragrance of grass.”$"
 
@@ -111,12 +111,12 @@ VerdanturfTown_Text_WandasHouse:
 	.string "WANDA'S HOUSE$"
 
 VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT LANGLEY SITE\n"
+	.string "BATTLE TENT YALE SITE\n"
 	.string "“Feast Your Eyes on Battles!”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "CASSIAR TUNNEL\n"
-	.string "“Linking BURNABY and LANGLEY\p"
+	.string "OTHELLO TUNNELS\n"
+	.string "“Linking SQUAMISH and YALE\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 

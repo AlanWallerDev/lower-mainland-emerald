@@ -142,7 +142,7 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "MT. GARIBALDI's CHEAM RIDGE…\p"
+	.string "WELLS GRAY CONE's CHEAM RIDGE…\p"
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
@@ -212,7 +212,7 @@ JaggedPass_Text_EthanRematchDefeat:
 
 JaggedPass_Text_EthanPostRematch:
 	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in SURREY…$"
+	.string "in HOPE…$"
 
 JaggedPass_Text_GruntIntro:
 	.string "Wah!\n"

@@ -193,12 +193,12 @@ Route117_Text_AirIsTastyHere:
 	.string "The air is tasty here!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "FRASER HWY\n"
-	.string "{LEFT_ARROW} LANGLEY$"
+	.string "FRASER CANYON\n"
+	.string "{LEFT_ARROW} YALE$"
 
 Route117_Text_RouteSignMauville:
-	.string "FRASER HWY\n"
-	.string "{RIGHT_ARROW} SURREY$"
+	.string "FRASER CANYON\n"
+	.string "{RIGHT_ARROW} HOPE$"
 
 Route117_Text_DayCareSign:
 	.string "NATURE DAY CARE “Let us raise your\n"

@@ -1029,8 +1029,8 @@ static const u8 sSootSackDesc[] = _(
 
 static const u8 sBasementKeyDesc[] = _(
     "The key for NEW\n"
-    "SURREY beneath\n"
-    "SURREY.");
+    "HOPE beneath\n"
+    "HOPE.");
 
 static const u8 sAcroBikeDesc[] = _(
     "A folding bicycle\n"
@@ -1065,7 +1065,7 @@ static const u8 sBlueOrbDesc[] = _(
 static const u8 sScannerDesc[] = _(
     "A device found\n"
     "inside the\n"
-    "ABANDONED SHIP.");
+    "SS BEAVER WRECK.");
 
 static const u8 sGoGogglesDesc[] = _(
     "Nifty goggles that\n"
@@ -1079,27 +1079,27 @@ static const u8 sMeteoriteDesc[] = _(
 static const u8 sRoom1KeyDesc[] = _(
     "A key that opens a\n"
     "door inside the\n"
-    "ABANDONED SHIP.");
+    "SS BEAVER WRECK.");
 
 static const u8 sRoom2KeyDesc[] = _(
     "A key that opens a\n"
     "door inside the\n"
-    "ABANDONED SHIP.");
+    "SS BEAVER WRECK.");
 
 static const u8 sRoom4KeyDesc[] = _(
     "A key that opens a\n"
     "door inside the\n"
-    "ABANDONED SHIP.");
+    "SS BEAVER WRECK.");
 
 static const u8 sRoom6KeyDesc[] = _(
     "A key that opens a\n"
     "door inside the\n"
-    "ABANDONED SHIP.");
+    "SS BEAVER WRECK.");
 
 static const u8 sStorageKeyDesc[] = _(
     "The key to the\n"
     "storage inside the\n"
-    "ABANDONED SHIP.");
+    "SS BEAVER WRECK.");
 
 static const u8 sRootFossilDesc[] = _(
     "A fossil of an\n"

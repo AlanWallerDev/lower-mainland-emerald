@@ -176,7 +176,7 @@ RustboroCity_Gym_Text_MarcPostBattle:
 	.string "pick the STONE type at her young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-	.string "Hello, I am MUNDAY, the BURNABY GYM\n"
+	.string "Hello, I am MUNDAY, the SQUAMISH GYM\n"
 	.string "LEADER.\p"
 	.string "I became a GYM LEADER so that I might\n"
 	.string "apply what I learned at the\l"
@@ -224,10 +224,10 @@ RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "learn many things.$"
 
 RustboroCity_Gym_Text_GymStatue:
-	.string "BURNABY GYM$"
+	.string "SQUAMISH GYM$"
 
 RustboroCity_Gym_Text_GymStatueCertified:
-	.string "BURNABY GYM\p"
+	.string "SQUAMISH GYM\p"
 	.string "MUNDAY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -235,7 +235,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "MUNDAY: Oh, hello, {PLAYER}?\n"
-	.string "This is MUNDAY of BURNABY.\p"
+	.string "This is MUNDAY of SQUAMISH.\p"
 	.string "I heard from JEROME that you're\n"
 	.string "moving up through the ranks of\l"
 	.string "TRAINERS at an incredible clip.\p"

@@ -273,7 +273,7 @@ SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "obtain in BC.\p"
 	.string "If you wish to challenge the NATURE\n"
 	.string "LEAGUE, you must obtain the last BADGE\l"
-	.string "from the GYM in MAPLE RIDGE.$"
+	.string "from the GYM in REVELSTOKE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
 	.string "DEEP COVE GYM$"

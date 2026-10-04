@@ -321,7 +321,7 @@ MossdeepCity_Text_WhatToDoWithWeirdRock:
 	.string "supposed to do with some weird rock?$"
 
 MossdeepCity_Text_WailmerWatching:
-	.string "Around GIBSONS, you can see wild\n"
+	.string "Around PRINCE RUPERT, you can see wild\n"
 	.string "WAILMER.\p"
 	.string "It's called, uh…\n"
 	.string "What was it now…\p"
@@ -343,7 +343,7 @@ MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "TEAM AQUA set up shop in VANCOUVER.\p"
 	.string "I also heard that someone came along\n"
 	.string "and wiped the floor with them!\p"
-	.string "But GIBSONS here's been targeted\n"
+	.string "But PRINCE RUPERT here's been targeted\n"
 	.string "by that TEAM MAGMA.\p"
 	.string "If you want to know what they're up to,\n"
 	.string "go visit the SPACE CENTER.$"
@@ -389,21 +389,21 @@ MossdeepCity_Text_ItsAWhiteRock:
 	.string "It's a white rock.$"
 
 MossdeepCity_Text_GymSign:
-	.string "GIBSONS GYM LEADERS: LIZA & TATE\p"
+	.string "PRINCE RUPERT GYM LEADERS: LIZA & TATE\p"
 	.string "“The mystic combination!”$"
 
 MossdeepCity_Text_CitySign:
-	.string "GIBSONS “Our slogan: Cherish\n"
+	.string "PRINCE RUPERT “Our slogan: Cherish\n"
 	.string "organisms!”$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "GIBSONS SPACE CENTER\n"
+	.string "PRINCE RUPERT SPACE CENTER\n"
 	.string "“The closest place to space.”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
 	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
 	.string "I'm doing great!\p"
-	.string "I'd heard GIBSONS's GYM LEADER is\n"
+	.string "I'd heard PRINCE RUPERT's GYM LEADER is\n"
 	.string "pretty strong, so I decided to come\l"
 	.string "take a look-see for myself.\p"
 	.string "But there's something wrong about\n"

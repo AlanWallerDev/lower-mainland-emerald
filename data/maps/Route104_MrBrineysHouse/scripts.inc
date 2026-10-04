@@ -103,17 +103,16 @@ Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 	.string "darling PEEKO! We owe so much to you!\p"
 	.string "What's that? You want to sail with me?\p"
 	.string "Hmhm…\p"
-	.string "You have a LETTER bound for BOWEN\n"
-	.string "ISLAND and a package for STEVESTON,\l"
-	.string "then?\p"
+	.string "You have a LETTER bound for TOFINO\n"
+	.string "and a package for VICTORIA, then?\p"
 	.string "Quite the busy life you must lead!\p"
 	.string "But, certainly, what you're asking is no\n"
 	.string "problem at all.\p"
 	.string "You've come to the right man! We'll set\n"
-	.string "sail for BOWEN ISLAND.$"
+	.string "sail for TOFINO.$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
-	.string "MR. BRINEY: BOWEN ISLAND it is, then!\p"
+	.string "MR. BRINEY: TOFINO it is, then!\p"
 	.string "Anchors aweigh!\n"
 	.string "PEEKO, we're setting sail, my darling!$"
 
@@ -126,20 +125,20 @@ Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
 	.string "MR. BRINEY: Ahoy! I know exactly what\n"
 	.string "you want to say!\p"
-	.string "You're to deliver a LETTER to BOWEN\n"
-	.string "ISLAND and a package to STEVESTON.\p"
+	.string "You're to deliver a LETTER to TOFINO\n"
+	.string "and a package to VICTORIA.\p"
 	.string "What you need me to do is no problem at\n"
 	.string "all--I'm the man for the job!\p"
-	.string "First, we'll set sail for BOWEN ISLAND.$"
+	.string "First, we'll set sail for TOFINO.$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
 	.string "MR. BRINEY: Ahoy!\n"
 	.string "I know exactly what you want to say!\p"
 	.string "You're to deliver a package to\n"
-	.string "CAPT. STERN in STEVESTON.\p"
+	.string "CAPT. STERN in VICTORIA.\p"
 	.string "What you need me to do is no problem\n"
 	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for BOWEN ISLAND.$"
+	.string "First, we'll set sail for TOFINO.$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "MR. BRINEY: Ahoy!\n"

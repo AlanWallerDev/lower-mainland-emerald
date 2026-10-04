@@ -932,9 +932,9 @@ RustboroCity_Text_HaveYouChallengedGym:
 	.string "realize what is required of them.$"
 
 RustboroCity_Text_HeyThatsRustborosGymBadge:
-	.string "Hey, that's BURNABY's GYM BADGE!\p"
-	.string "Out of all the GYM BADGES, BURNABY's is\n"
-	.string "the coolest, I'd say.$"
+	.string "Hey, that's SQUAMISH's GYM BADGE!\p"
+	.string "Out of all the GYM BADGES, SQUAMISH's\n"
+	.string "is the coolest, I'd say.$"
 
 RustboroCity_Text_YoureNewAroundHere:
 	.string "Oh? Who might you be?\n"
@@ -959,7 +959,7 @@ RustboroCity_Text_MrBrineyLovesPeeko:
 	.string "The old sailor MR. BRINEY lives in\n"
 	.string "a cottage by the sea.\p"
 	.string "He said he was going shopping in\n"
-	.string "STEVESTON for his pet, PEEKO.\p"
+	.string "VICTORIA for his pet, PEEKO.\p"
 	.string "That old sea dog, he must really love\n"
 	.string "that PEEKO.$"
 
@@ -1130,7 +1130,7 @@ RustboroCity_Text_DevonCorpSign:
 	.string "it all.”$"
 
 RustboroCity_Text_GymSign:
-	.string "BURNABY GYM LEADER: MUNDAY\p"
+	.string "SQUAMISH GYM LEADER: MUNDAY\p"
 	.string "“The STONE-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
@@ -1139,7 +1139,7 @@ RustboroCity_Text_DevonCorpBranchOfficeSign:
 	.string "and authorized personnel.”$"
 
 RustboroCity_Text_CitySign:
-	.string "BURNABY\p"
+	.string "SQUAMISH\p"
 	.string "“The city probing the integration of\n"
 	.string "nature and science.”$"
 

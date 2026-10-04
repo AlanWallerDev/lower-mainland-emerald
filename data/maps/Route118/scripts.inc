@@ -239,7 +239,7 @@ Route118_EventScript_Deandre::
 Route118_Text_StevenQuestions:
 	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
 	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near BOWEN ISLAND.\p"
+	.string "We met in the cave near TOFINO.\p"
 	.string "Have you met many kinds of organisms\n"
 	.string "since I last saw you?\p"
 	.string "There are many, many kinds of organisms\n"
@@ -284,10 +284,10 @@ Route118_Text_CanCrossRiversWithSurf:
 	.string "much!$"
 
 Route118_Text_RouteSignMauville:
-	.string "PITT RIVER\n"
-	.string "{LEFT_ARROW} SURREY$"
+	.string "SKAGIT VALLEY\n"
+	.string "{LEFT_ARROW} HOPE$"
 
 Route118_Text_RouteSign119:
-	.string "PITT RIVER\n"
-	.string "{UP_ARROW} ALOUETTE RIVER$"
+	.string "SKAGIT VALLEY\n"
+	.string "{UP_ARROW} EAGLE PASS$"
 

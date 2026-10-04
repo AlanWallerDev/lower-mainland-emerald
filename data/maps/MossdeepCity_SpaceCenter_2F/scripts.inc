@@ -340,8 +340,8 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
-	.string "GIBSONS has mainly sunny weather,\n"
-	.string "and its winds are stable.\p"
+	.string "PRINCE RUPERT has mainly sunny\n"
+	.string "weather, and its winds are stable.\p"
 	.string "It's an ideal location for launching\n"
 	.string "rockets.$"
 
@@ -434,7 +434,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "MAXIE: Fufufu… Since you're so\n"
 	.string "curious, you deserve an explanation.\p"
 	.string "We're going to jettison the entire\n"
-	.string "load into MT. GARIBALDI!\p"
+	.string "load into WELLS GRAY CONE!\p"
 	.string "With SEQUOIA gone, we have no need for\n"
 	.string "that slag heap of a mountain!\p"
 	.string "So we'll use the fuel's power to make\n"
@@ -486,5 +486,5 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "thanks for your support.\p"
 	.string "Please come see me at home\n"
 	.string "after this.\p"
-	.string "Oh, yes, I don't live in BURNABY.\n"
+	.string "Oh, yes, I don't live in SQUAMISH.\n"
 	.string "I live right here on this island.$"

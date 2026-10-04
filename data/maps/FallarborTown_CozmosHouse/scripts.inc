@@ -105,7 +105,7 @@ FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
 
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
 	.string "PROF. COZMO went off to CASCADE FALLS\n"
-	.string "on MATSQUI TRAIL with some people from\l"
+	.string "on ADAMS RIVER with some people from\l"
 	.string "TEAM MAGMA.$"
 
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:

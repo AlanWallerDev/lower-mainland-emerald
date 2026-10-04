@@ -285,7 +285,7 @@ DewfordTown_Gym_EventScript_GymStatue::
 DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION- bound\n"
 	.string "{PLAYER}?\p"
-	.string "BOWEN ISLAND's GYM LEADER JEROME\n"
+	.string "TOFINO's GYM LEADER JEROME\n"
 	.string "commands BRAWN-type organisms.\p"
 	.string "Going against him with COMMON-type\n"
 	.string "organisms is asking for trouble.\p"
@@ -381,7 +381,7 @@ DewfordTown_Gym_Text_CristianPostBattle:
 
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "I'm JEROME!\n"
-	.string "BOWEN ISLAND's GYM LEADER!\p"
+	.string "TOFINO's GYM LEADER!\p"
 	.string "I've been churned in the rough waves\n"
 	.string "of these parts, and I've grown tough\l"
 	.string "in the pitch-black cave!\p"
@@ -424,10 +424,10 @@ DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "BOWEN ISLAND GYM$"
+	.string "TOFINO GYM$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "BOWEN ISLAND GYM\p"
+	.string "TOFINO GYM\p"
 	.string "JEROME'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

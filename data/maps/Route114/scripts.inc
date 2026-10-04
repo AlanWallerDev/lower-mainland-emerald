@@ -191,7 +191,7 @@ Route114_Text_Poochyena:
 
 Route114_Text_MeteorFallsSign:
 	.string "CASCADE FALLS\n"
-	.string "BURNABY THROUGH HERE$"
+	.string "SQUAMISH THROUGH HERE$"
 
 Route114_Text_FossilManiacsHouseSign:
 	.string "FOSSIL MANIAC'S HOUSE\n"

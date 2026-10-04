@@ -520,7 +520,7 @@ MtChimney_EventScript_SawyerRematch::
 MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "The power contained in the METEORITE…\p"
 	.string "By amplifying its power with this\n"
-	.string "machine, MT. GARIBALDI's volcanic\l"
+	.string "machine, WELLS GRAY CONE's volcanic\l"
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
@@ -688,8 +688,8 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are MT. GARIBALDI's local\n"
-	.string "specialty.\p"
+	.string "LAVA COOKIES are WELLS GRAY CONE's\n"
+	.string "local specialty.\p"
 	.string "Try one. It's just ¥200.$"
 
 MtChimney_Text_ThankYouDear:
@@ -769,20 +769,20 @@ MtChimney_Text_MelissaDefeat:
 	.string "Ooh, that was a scorching-hot match!$"
 
 MtChimney_Text_MelissaPostBattle:
-	.string "The heat of MT. GARIBALDI warms\n"
+	.string "The heat of WELLS GRAY CONE warms\n"
 	.string "me up, baby!$"
 
 MtChimney_Text_SheilaIntro:
-	.string "I've finally made it to MT. GARIBALDI. I\n"
-	.string "want to make my battle!$"
+	.string "I've finally made it to WELLS GRAY CONE.\n"
+	.string "I want to make my battle!$"
 
 MtChimney_Text_SheilaDefeat:
 	.string "The way you battle…\n"
-	.string "It's like a MT. GARIBALDI eruption!$"
+	.string "It's like a WELLS GRAY CONE eruption!$"
 
 MtChimney_Text_SheilaPostBattle:
 	.string "Like I said, I've finally made it to\n"
-	.string "MT. GARIBALDI. It would be a shame if\l"
+	.string "WELLS GRAY CONE. It would be a shame if\l"
 	.string "I only do a little sightseeing…\p"
 	.string "I want to get in some battles and buy\n"
 	.string "COOKIES as souvenirs.$"

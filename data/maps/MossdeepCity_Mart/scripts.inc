@@ -51,7 +51,8 @@ MossdeepCity_Mart_Text_MaxRepelLastsLongest:
 
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
 	.string "The NET and DIVE JARS are rare FIELD\n"
-	.string "JARS that are only made in GIBSONS.\p"
+	.string "JARS that are only made in PRINCE\l"
+	.string "RUPERT.\p"
 	.string "A NET JAR is effective against\n"
 	.string "CHITIN-type and AQUA-type organisms.\p"
 	.string "A DIVE JAR works best on organisms at\n"

@@ -165,7 +165,7 @@ MoveTutor_Text_DynamicPunchTeach:
 	.string "I can't do this anymore!\p"
 	.string "It's utterly hopeless!\p"
 	.string "I'm a BRAWN-type TRAINER,\n"
-	.string "so I can't win at the GIBSONS GYM\l"
+	.string "so I can't win at the PRINCE RUPERT GYM\l"
 	.string "no matter how hard I try!\p"
 	.string "Argh! Punch! Punch! Punch!\n"
 	.string "Punch! Punch! Punch!\p"
@@ -183,8 +183,8 @@ MoveTutor_Text_DynamicPunchWhichMon:
 	.string "Which organism should I teach?$"
 
 MoveTutor_Text_DynamicPunchTaught:
-	.string "I want you to win at the GIBSONS GYM\n"
-	.string "using that DYNAMICPUNCH!$"
+	.string "I want you to win at the PRINCE RUPERT\n"
+	.string "GYM using that DYNAMICPUNCH!$"
 
 MoveTutor_Text_DoubleEdgeTeach:
 	.string "Sigh…\p"

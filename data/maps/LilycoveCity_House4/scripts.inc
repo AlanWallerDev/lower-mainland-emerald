@@ -16,6 +16,6 @@ LilycoveCity_House4_Text_MysteriesAtBottomOfSea:
 
 LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis:
 	.string "There's a deep underwater trench\n"
-	.string "between GIBSONS and DEEP COVE.\p"
+	.string "between PRINCE RUPERT and DEEP COVE.\p"
 	.string "That's what someone told me, anyway.$"
 

@@ -457,18 +457,18 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\p"
 	.string "Why can't they keep digging?\n"
 	.string "Is the bedrock too hard?\p"
-	.string "My beloved awaits me in LANGLEY\n"
+	.string "My beloved awaits me in YALE\n"
 	.string "TOWN just beyond here…\p"
-	.string "If BURNABY and LANGLEY were\n"
+	.string "If SQUAMISH and YALE were\n"
 	.string "joined by this tunnel, I could visit\l"
 	.string "her every day…\p"
 	.string "But this…\n"
 	.string "What am I to do?$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
-	.string "To get from BURNABY to LANGLEY, you\n"
-	.string "need to go to BOWEN ISLAND, then pass\l"
-	.string "through STEVESTON and SURREY…$"
+	.string "To get from SQUAMISH to YALE,\n"
+	.string "you need to go to TOFINO, then pass\l"
+	.string "through VICTORIA and HOPE…$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 	.string "Wow! You shattered that boulder\n"

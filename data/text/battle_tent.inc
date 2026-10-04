@@ -1,6 +1,6 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "I welcome you to the BATTLE TENT\n"
-	.string "ABBOTSFORD SITE!\p"
+	.string "KAMLOOPS SITE!\p"
 	.string "I am your guide to the Set KO Tourney!$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge:
@@ -12,7 +12,7 @@ FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge:
 	.string "another occasion!$"
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
-	.string "In the ABBOTSFORD BATTLE TENT,\n"
+	.string "In the KAMLOOPS BATTLE TENT,\n"
 	.string "we undertake the Set KO Tourney.\p"
 	.string "All participants enter with a team of\n"
 	.string "three organisms.\p"
@@ -119,16 +119,16 @@ FallarborTown_BattleTentLobby_Text_LookingForwardToArrival:
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "I welcome you to the BATTLE TENT\n"
-	.string "LANGLEY SITE!\p"
+	.string "YALE SITE!\p"
 	.string "Here, the TRAINER's trust toward\n"
 	.string "organism is tested.$"
 
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge:
-	.string "Do you wish to take the LANGLEY\n"
+	.string "Do you wish to take the YALE\n"
 	.string "BATTLE TENT challenge?$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
-	.string "In the LANGLEY BATTLE TENT,\n"
+	.string "In the YALE BATTLE TENT,\n"
 	.string "there is one crucial rule that must\l"
 	.string "be obeyed.\p"
 	.string "TRAINERS are permitted only to switch\n"
@@ -214,7 +214,7 @@ VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Welcome to the BATTLE TENT\n"
-	.string "STEVESTON SITE!\p"
+	.string "VICTORIA SITE!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Tournament.$"
 
@@ -223,7 +223,7 @@ SlateportCity_BattleTentLobby_Text_TakeChallenge:
 	.string "Swap challenge?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
-	.string "Here at the STEVESTON BATTLE TENT, we\n"
+	.string "Here at the VICTORIA BATTLE TENT, we\n"
 	.string "hold Battle Swap events using rental\l"
 	.string "organisms.\p"
 	.string "First, you will be loaned three\n"
@@ -351,14 +351,14 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
 	.string "even when swaps are made.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules:
-	.string "The organisms of the STEVESTON BATTLE\n"
+	.string "The organisms of the VICTORIA BATTLE\n"
 	.string "TENT are all rentals.\p"
 	.string "All rental organisms are kept at Level\n"
 	.string "30.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2:
-	.string "The LANGLEY BATTLE TENT\n"
+	.string "The YALE BATTLE TENT\n"
 	.string "rules are listed.$"
 
 @ Unused
@@ -367,7 +367,7 @@ VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading:
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules:
-	.string "Here at the LANGLEY BATTLE TENT,\n"
+	.string "Here at the YALE BATTLE TENT,\n"
 	.string "organisms are required to think and\l"
 	.string "battle by themselves.\p"
 	.string "Unlike in the wild, organisms that live\n"
@@ -429,5 +429,5 @@ BattleTentLobby_Text_ExplainLevelRules:
 	.string "any organisms below Level 30.$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed:
-	.string "The LANGLEY BATTLE TENT\n"
+	.string "The YALE BATTLE TENT\n"
 	.string "rules are listed.$"

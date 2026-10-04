@@ -188,7 +188,7 @@ Route123_Text_CheckTreesWithMyGrassMon:
 
 Route123_Text_RouteSign:
 	.string "{RIGHT_ARROW} KING GEORGE\n"
-	.string "{LEFT_ARROW} PITT RIVER$"
+	.string "{LEFT_ARROW} SKAGIT VALLEY$"
 
 Route123_Text_RouteSignMtPyre:
 	.string "{UP_ARROW} MOUNTAIN VIEW\n"

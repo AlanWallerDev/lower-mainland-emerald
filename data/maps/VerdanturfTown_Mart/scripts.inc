@@ -52,6 +52,6 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
 	.string "The NEST JAR works better on weakened\n"
 	.string "organisms.\p"
-	.string "LANGLEY is the only place you can\n"
+	.string "YALE is the only place you can\n"
 	.string "buy it.$"
 

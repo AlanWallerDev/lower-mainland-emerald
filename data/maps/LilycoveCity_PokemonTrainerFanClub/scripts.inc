@@ -630,7 +630,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
 
 LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
 	.string "Whatever anyone says, my favorite\n"
-	.string "TRAINER is BOWEN ISLAND's GYM LEADER\l"
+	.string "TRAINER is TOFINO's GYM LEADER\l"
 	.string "JEROME!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:

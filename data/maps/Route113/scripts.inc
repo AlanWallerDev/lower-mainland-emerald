@@ -146,12 +146,12 @@ Route113_Text_FunWalkingThroughAsh:
 	.string "really neat!$"
 
 Route113_Text_RouteSign111:
-	.string "SUMAS PRAIRIE\n"
-	.string "{RIGHT_ARROW} FRASER FLATS$"
+	.string "ASHCROFT\n"
+	.string "{RIGHT_ARROW} COQUIHALLA$"
 
 Route113_Text_RouteSignFallarbor:
-	.string "SUMAS PRAIRIE\n"
-	.string "{LEFT_ARROW} ABBOTSFORD$"
+	.string "ASHCROFT\n"
+	.string "{LEFT_ARROW} KAMLOOPS$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
 	.string "TRAINER TIPS\p"

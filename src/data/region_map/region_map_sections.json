@@ -18,7 +18,7 @@
     },
     {
       "id": "MAPSEC_DEWFORD_TOWN",
-      "name": "BOWEN ISLAND",
+      "name": "TOFINO",
       "x": 2,
       "y": 14,
       "width": 1,
@@ -34,7 +34,7 @@
     },
     {
       "id": "MAPSEC_FALLARBOR_TOWN",
-      "name": "ABBOTSFORD",
+      "name": "KAMLOOPS",
       "x": 3,
       "y": 0,
       "width": 1,
@@ -42,7 +42,7 @@
     },
     {
       "id": "MAPSEC_VERDANTURF_TOWN",
-      "name": "LANGLEY",
+      "name": "YALE",
       "x": 4,
       "y": 6,
       "width": 1,
@@ -50,7 +50,7 @@
     },
     {
       "id": "MAPSEC_PACIFIDLOG_TOWN",
-      "name": "POINT ROBERTS",
+      "name": "ECHO BAY",
       "x": 17,
       "y": 10,
       "width": 1,
@@ -66,7 +66,7 @@
     },
     {
       "id": "MAPSEC_SLATEPORT_CITY",
-      "name": "STEVESTON",
+      "name": "VICTORIA",
       "x": 8,
       "y": 10,
       "width": 1,
@@ -74,7 +74,7 @@
     },
     {
       "id": "MAPSEC_MAUVILLE_CITY",
-      "name": "SURREY",
+      "name": "HOPE",
       "x": 8,
       "y": 6,
       "width": 2,
@@ -82,7 +82,7 @@
     },
     {
       "id": "MAPSEC_RUSTBORO_CITY",
-      "name": "BURNABY",
+      "name": "SQUAMISH",
       "x": 0,
       "y": 5,
       "width": 1,
@@ -90,7 +90,7 @@
     },
     {
       "id": "MAPSEC_FORTREE_CITY",
-      "name": "MAPLE RIDGE",
+      "name": "REVELSTOKE",
       "x": 12,
       "y": 0,
       "width": 1,
@@ -106,7 +106,7 @@
     },
     {
       "id": "MAPSEC_MOSSDEEP_CITY",
-      "name": "GIBSONS",
+      "name": "PRINCE RUPERT",
       "x": 24,
       "y": 5,
       "width": 2,
@@ -162,7 +162,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_105",
-      "name": "HOWE SOUND",
+      "name": "GEORGIA STRAIT",
       "x": 0,
       "y": 10,
       "width": 1,
@@ -170,7 +170,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_106",
-      "name": "SNUG COVE",
+      "name": "CLAYOQUOT SOUND",
       "x": 0,
       "y": 13,
       "width": 2,
@@ -178,7 +178,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_107",
-      "name": "GEORGIA STRAIT",
+      "name": "BARKLEY SOUND",
       "x": 3,
       "y": 14,
       "width": 3,
@@ -186,7 +186,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_108",
-      "name": "ROBERTS BANK",
+      "name": "JUAN DE FUCA",
       "x": 6,
       "y": 14,
       "width": 2,
@@ -194,7 +194,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_109",
-      "name": "GARRY POINT",
+      "name": "OAK BAY",
       "x": 8,
       "y": 12,
       "width": 1,
@@ -202,7 +202,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_110",
-      "name": "HWY 99",
+      "name": "GALLOPING GOOSE",
       "x": 8,
       "y": 7,
       "width": 1,
@@ -210,7 +210,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_111",
-      "name": "FRASER FLATS",
+      "name": "COQUIHALLA",
       "x": 8,
       "y": 0,
       "width": 1,
@@ -218,7 +218,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_112",
-      "name": "LOUGHEED HWY",
+      "name": "YELLOWHEAD",
       "x": 6,
       "y": 3,
       "width": 2,
@@ -226,7 +226,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_113",
-      "name": "SUMAS PRAIRIE",
+      "name": "ASHCROFT",
       "x": 4,
       "y": 0,
       "width": 4,
@@ -234,7 +234,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_114",
-      "name": "MATSQUI TRAIL",
+      "name": "ADAMS RIVER",
       "x": 1,
       "y": 0,
       "width": 2,
@@ -242,7 +242,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_115",
-      "name": "BELCARRA",
+      "name": "HOWE SOUND",
       "x": 0,
       "y": 2,
       "width": 1,
@@ -250,7 +250,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_116",
-      "name": "CENTRAL PARK",
+      "name": "ALICE LAKE",
       "x": 1,
       "y": 5,
       "width": 4,
@@ -258,7 +258,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_117",
-      "name": "FRASER HWY",
+      "name": "FRASER CANYON",
       "x": 5,
       "y": 6,
       "width": 3,
@@ -266,7 +266,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_118",
-      "name": "PITT RIVER",
+      "name": "SKAGIT VALLEY",
       "x": 10,
       "y": 6,
       "width": 2,
@@ -274,7 +274,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_119",
-      "name": "ALOUETTE RIVER",
+      "name": "EAGLE PASS",
       "x": 11,
       "y": 0,
       "width": 1,
@@ -282,7 +282,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_120",
-      "name": "GOLDEN EARS",
+      "name": "ROGERS PASS",
       "x": 13,
       "y": 0,
       "width": 1,
@@ -314,7 +314,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_124",
-      "name": "ENGLISH BAY",
+      "name": "INSIDE PASSAGE",
       "x": 20,
       "y": 3,
       "width": 4,
@@ -322,7 +322,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_125",
-      "name": "POINT GREY",
+      "name": "CHATHAM SOUND",
       "x": 24,
       "y": 3,
       "width": 2,
@@ -338,7 +338,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_127",
-      "name": "BURRARD INLET",
+      "name": "JOHNSTONE STRAIT",
       "x": 23,
       "y": 6,
       "width": 3,
@@ -346,7 +346,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_128",
-      "name": "LIONS GATE",
+      "name": "HECATE STRAIT",
       "x": 23,
       "y": 9,
       "width": 4,
@@ -354,7 +354,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_129",
-      "name": "HARO STRAIT",
+      "name": "DIXON ENTRANCE",
       "x": 24,
       "y": 10,
       "width": 2,
@@ -362,7 +362,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_130",
-      "name": "ACTIVE PASS",
+      "name": "MILBANKE SOUND",
       "x": 21,
       "y": 10,
       "width": 3,
@@ -370,7 +370,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_131",
-      "name": "SQUAMISH SPIT",
+      "name": "BROUGHTON STRAIT",
       "x": 18,
       "y": 10,
       "width": 3,
@@ -378,7 +378,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_132",
-      "name": "SEMIAHMOO BAY",
+      "name": "KNIGHT INLET",
       "x": 15,
       "y": 10,
       "width": 2,
@@ -386,7 +386,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_133",
-      "name": "MUD BAY",
+      "name": "FITZ HUGH SOUND",
       "x": 12,
       "y": 10,
       "width": 3,
@@ -394,7 +394,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_134",
-      "name": "CANOE PASS",
+      "name": "DISCOVERY PASS",
       "x": 9,
       "y": 10,
       "width": 3,
@@ -442,7 +442,7 @@
     },
     {
       "id": "MAPSEC_GRANITE_CAVE",
-      "name": "GARDNER CAVE",
+      "name": "HORNE LAKE CAVES",
       "x": 1,
       "y": 13,
       "width": 1,
@@ -450,7 +450,7 @@
     },
     {
       "id": "MAPSEC_MT_CHIMNEY",
-      "name": "MT. GARIBALDI",
+      "name": "WELLS GRAY CONE",
       "x": 6,
       "y": 2,
       "width": 1,
@@ -482,7 +482,7 @@
     },
     {
       "id": "MAPSEC_RUSTURF_TUNNEL",
-      "name": "CASSIAR TUNNEL",
+      "name": "OTHELLO TUNNELS",
       "x": 2,
       "y": 5,
       "width": 1,
@@ -490,7 +490,7 @@
     },
     {
       "id": "MAPSEC_ABANDONED_SHIP",
-      "name": "ABANDONED SHIP",
+      "name": "SS BEAVER WRECK",
       "x": 6,
       "y": 14,
       "width": 1,
@@ -547,7 +547,7 @@
     },
     {
       "id": "MAPSEC_SEAFLOOR_CAVERN",
-      "name": "GEORGIA DEEP",
+      "name": "HECATE REEF",
       "x": 24,
       "y": 9,
       "width": 1,

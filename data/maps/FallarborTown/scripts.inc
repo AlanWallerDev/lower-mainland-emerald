@@ -82,11 +82,11 @@ FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "own right.$"
 
 FallarborTown_Text_BattleTentSign:
-	.string "BATTLE TENT ABBOTSFORD SITE\n"
+	.string "BATTLE TENT KAMLOOPS SITE\n"
 	.string "“May the Greatest Teams Gather!”$"
 
 FallarborTown_Text_TownSign:
-	.string "ABBOTSFORD\n"
+	.string "KAMLOOPS\n"
 	.string "“A farm community with small gardens.”$"
 
 FallarborTown_Text_MoveTutorSign:

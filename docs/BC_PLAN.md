@@ -127,9 +127,11 @@ that rule were delegated to Claude.
 | Groudon (land) | Spirit bear (Kermode) | A few hundred white black bears, almost all on the North Coast; CINDER's target |
 | Kyogre (sea) | Hecate glass sponge reef | Thought extinct for 40 million years until found in 1987; RIPTIDE's target |
 | Rayquaza (sky) | Marbled Murrelet | Seabird that nests high in old growth; its nest stayed unknown until 1974. Links land and sea, so it calms both |
-| Latias/Latios (roaming) | Vancouver Island Marmot pair | One of the rarest mammals on Earth (under 30 in the wild in 2003) |
-| Regis | Opabinia (`fo-005`), Pikaia (`fo-009`), Marrella (new) | Burgess Shale, found only in BC; sealed in the Yoho dig |
-| Root/Claw fossils | Hallucigenia (`fo-006`), Anomalocaris (`fo-004`) | Burgess Shale |
+| Latias (roaming) | Vancouver Island Marmot | One of the rarest mammals on Earth (under 30 in the wild in 2003) |
+| Latios (roaming) | Northern Spotted Owl | Only a handful left in the wild in BC (a second species instead of a marmot pair, so the two slots differ) |
+| Regis | Marrella (new), Opabinia (`fo-005`), Pikaia (`fo-009`) | Burgess Shale, found only in BC; sealed in the Yoho dig |
+| Jirachi | Phantom Orchid | A white, leafless orchid that can stay underground for years; threatened in Canada |
+| Root/Claw fossils | Hallucigenia (`fo-006`) and Wiwaxia (new); Anomalocaris (`fo-004`) and Sidneyia (new) | Burgess Shale |
 | Mew (Faraway Island) | **Sasquatch** | Hide-and-seek in deep forest grass |
 | Lugia (Navel Rock) | **Caddy** (Cadborosaurus) | Sea serpent named by a Victoria paper in 1933 |
 | Deoxys (Birth Island) | **Ogopogo** | Island becomes Rattlesnake Island, Okanagan Lake |
@@ -170,7 +172,7 @@ Beats, following Emerald's order:
     over DEEP COVE. Climb the STAWAMUS CHIEF for the sky legendary.
 14. DEEP COVE: FORTES's gym.
 15. SEA TO SKY, then the Nature League at WHISTLER.
-16. After the credits: Burgess Shale dig (Regis), roaming spirit bears, the Frontier.
+16. After the credits: Burgess Shale dig (Regis), the roaming marmot and owl, the Frontier.
 
 ## 4. Lore
 

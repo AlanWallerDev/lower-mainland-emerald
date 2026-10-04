@@ -380,7 +380,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "You're that person who not only helped\n"
 	.string "me in PACIFIC SPIRIT, but also got\l"
 	.string "back my stolen package and then even\l"
-	.string "graciously delivered it to STEVESTON!\p"
+	.string "graciously delivered it to VICTORIA!\p"
 	.string "CAPT. STERN informed us that the\n"
 	.string "package arrived, too!\p"
 	.string "I thank you very, very much!\p"
@@ -396,7 +396,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 
 Route116_Text_NewBallAvailableAtMart:
 	.string "Our new FIELD JAR will be available at\n"
-	.string "the MART in BURNABY.\p"
+	.string "the MART in SQUAMISH.\p"
 	.string "Please do try it out!\n"
 	.string "Thank you and bye-bye!$"
 
@@ -436,12 +436,12 @@ Route116_Text_NotWhatImLookingFor:
 	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:
-	.string "CENTRAL PARK\n"
-	.string "{LEFT_ARROW} BURNABY$"
+	.string "ALICE LAKE\n"
+	.string "{LEFT_ARROW} SQUAMISH$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "CASSIAR TUNNEL\n"
-	.string "“Linking BURNABY and LANGLEY\p"
+	.string "OTHELLO TUNNELS\n"
+	.string "“Linking SQUAMISH and YALE\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 

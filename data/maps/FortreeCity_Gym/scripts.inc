@@ -136,7 +136,7 @@ FortreeCity_Gym_EventScript_GymStatue::
 FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "MAPLE RIDGE GYM LEADER MACGILL is a\n"
+	.string "REVELSTOKE GYM LEADER MACGILL is a\n"
 	.string "master of SKY-type organisms.\p"
 	.string "She's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
@@ -165,7 +165,7 @@ FortreeCity_Gym_Text_JaredPostBattle:
 FortreeCity_Gym_Text_EdwardoIntro:
 	.string "The lovers of BIRD organisms aspire to\n"
 	.string "join this GYM.\p"
-	.string "As a member of the MAPLE RIDGE GYM,\n"
+	.string "As a member of the REVELSTOKE GYM,\n"
 	.string "I'm not allowed to lose!$"
 
 FortreeCity_Gym_Text_EdwardoDefeat:
@@ -201,7 +201,7 @@ FortreeCity_Gym_Text_AshleyDefeat:
 
 FortreeCity_Gym_Text_AshleyPostBattle:
 	.string "Thanks to MACGILL, the people of\n"
-	.string "MAPLE RIDGE can live without fear.$"
+	.string "REVELSTOKE can live without fear.$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
 	.string "When MACGILL takes to battle, her face\n"
@@ -233,7 +233,7 @@ FortreeCity_Gym_Text_DariusPostBattle:
 
 FortreeCity_Gym_Text_WinonaIntro:
 	.string "I am MACGILL. I am the LEADER of the\n"
-	.string "MAPLE RIDGE GYM.\p"
+	.string "REVELSTOKE GYM.\p"
 	.string "I have become one with BIRD organisms\n"
 	.string "and have soared the skies…\p"
 	.string "However grueling the battle, we have\n"
@@ -277,10 +277,10 @@ FortreeCity_Gym_Text_WinonaPostBattle:
 	.string "devoted to BIRD organisms.$"
 
 FortreeCity_Gym_Text_GymStatue:
-	.string "MAPLE RIDGE GYM$"
+	.string "REVELSTOKE GYM$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-	.string "MAPLE RIDGE GYM\p"
+	.string "REVELSTOKE GYM\p"
 	.string "MACGILL'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

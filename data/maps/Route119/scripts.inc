@@ -491,7 +491,7 @@ Route119_Text_MayExplainFly:
 	.string "instantly carry you to any town you've\l"
 	.string "already visited.\p"
 	.string "But, to use FLY, you have to get\n"
-	.string "the GYM BADGE from MAPLE RIDGE.\l"
+	.string "the GYM BADGE from REVELSTOKE.\l"
 	.string "That's important, so don't forget.\p"
 	.string "You should FLY home and visit\n"
 	.string "LADNER for a change.\p"
@@ -521,7 +521,7 @@ Route119_Text_BrendanExplainFly:
 	.string "BRENDAN: Use FLY, and your partner\n"
 	.string "instantly carries you to any town\l"
 	.string "you've already visited.\p"
-	.string "But you need the MAPLE RIDGE GYM BADGE\n"
+	.string "But you need the REVELSTOKE GYM BADGE\n"
 	.string "to do that.\p"
 	.string "Anyway, I have to move along.$"
 
@@ -535,7 +535,7 @@ Route119_Text_ScottWayToGoBeSeeingYou:
 	.string "The kid looked really upset with a face\n"
 	.string "all red from anger.\p"
 	.string "I sure seem to run into you often. Are\n"
-	.string "you off to MAPLE RIDGE GYM next?\p"
+	.string "you off to REVELSTOKE GYM next?\p"
 	.string "I expect that you'll do well at the GYM.\n"
 	.string "Well, I'll be seeing you!$"
 
@@ -545,7 +545,7 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … Beep!\p"
 	.string "SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p"
 	.string "Just as I thought, you won at\n"
-	.string "the MAPLE RIDGE GYM.\p"
+	.string "the REVELSTOKE GYM.\p"
 	.string "Your strength…\n"
 	.string "Perhaps you really are the TRAINER\l"
 	.string "that I've been searching for.\p"
@@ -586,8 +586,8 @@ Route119_Text_CanYourMonMakeSecretBase:
 	.string "BASE?$"
 
 Route119_Text_RouteSignFortree:
-	.string "ALOUETTE RIVER\n"
-	.string "{RIGHT_ARROW} MAPLE RIDGE$"
+	.string "EAGLE PASS\n"
+	.string "{RIGHT_ARROW} REVELSTOKE$"
 
 Route119_Text_WeatherInstitute:
 	.string "WEATHER INSTITUTE$"

@@ -9,22 +9,24 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Rewrite the Node pipeline scripts so `atlas/build.sh` runs again
 
 ## P1 Design lock
-- [ ] Final Hoenn-to-BC place table in `atlas/locations.json` (towns, routes, landmarks)
-- [ ] 202-entry BC roster list: slot, organism, habitat, life-stage lines
+- [x] Final Hoenn-to-BC place table in `atlas/locations.json` (towns, routes, landmarks)
+- [x] 202-entry BC roster list: slot, organism, habitat, life-stage lines (`docs/ROSTER.md`)
 - [x] Title chosen (Pokémon BC); new title logo
 - [ ] Title screen silhouette: Rayquaza to Marbled Murrelet
 
 ## P2 Roster
-- [ ] `atlas/bc_species.json` (Living Atlas schema, `bc-` ids) for new BC species
+- [x] `atlas/bc_species.json` (Living Atlas schema, `bc-` ids) for new BC species (148)
 - [x] Picker: regional slots take BC organisms only; worldwide organisms fill the rest
-- [ ] Run the picker with `--write` once `bc_species.json` fills the regional slots
-- [ ] Starters Skunk Cabbage, Morel, American Beaver with three life stages each
-- [ ] Legendaries and mythicals in their slots; cryptid islands reachable after the credits
-- [ ] Sprite specs for every new organism
-- [ ] Wild tables by real BC habitat per location (`bc_habitats` tags; mechanism done)
+- [x] Run the picker with `--write` once `bc_species.json` fills the regional slots
+- [x] Starters Skunk Cabbage, Morel, American Beaver with three life stages each
+- [x] Legendaries and mythicals in their slots
+- [ ] Cryptid islands (Faraway, Navel Rock, Birth Island) reachable after the credits without tickets
+- [x] Sprite specs for every new organism
+- [x] Wild tables by real BC habitat per location (`bc_habitats` tags)
+- [x] Every trainer party uses BC organisms
 
 ## P3 World
-- [ ] Place renames from the P1 table
+- [x] Place renames from the P1 table (towns, landmarks, routes)
 - [ ] BC TrailNav region map
 - [ ] Tile palette swaps: conifers, snow, arbutus coast, sagebrush, cannery, float homes
 - [ ] Signs and landmark text

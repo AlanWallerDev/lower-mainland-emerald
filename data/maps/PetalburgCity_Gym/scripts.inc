@@ -1139,7 +1139,7 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "WALLY: I'm going to go stay with my\n"
-	.string "relatives in LANGLEY.\p"
+	.string "relatives in YALE.\p"
 	.string "I thought I would be lonely by myself,\n"
 	.string "so I wanted to take an organism along.\p"
 	.string "But I've never caught an organism\n"
@@ -1192,7 +1192,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "DAD: Now…\p"
 	.string "{PLAYER}, if you want to become a\n"
 	.string "strong TRAINER, here's my advice.\p"
-	.string "Head for BURNABY beyond this\n"
+	.string "Head for SQUAMISH beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
 	.string "the GYM LEADER, MUNDAY.\p"
@@ -1207,7 +1207,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "DAD: Hm? Aren't you going to the GYM in\n"
-	.string "BURNABY?\p"
+	.string "SQUAMISH?\p"
 	.string "There's no challenge for me to\n"
 	.string "battle a greenhorn TRAINER.\p"
 	.string "{PLAYER}, I want you to challenge me\n"
@@ -1217,10 +1217,10 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "DAD: I see… So, you've beaten\n"
-	.string "the GYM LEADER in BURNABY.\p"
+	.string "the GYM LEADER in SQUAMISH.\p"
 	.string "But there are many more TRAINERS\n"
 	.string "who are stronger than you, {PLAYER}.\p"
-	.string "Across the sea in BOWEN ISLAND is a\n"
+	.string "Across the sea in TOFINO is a\n"
 	.string "GYM LEADER named JEROME.\p"
 	.string "You should go challenge him.$"
 

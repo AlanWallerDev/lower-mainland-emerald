@@ -464,7 +464,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "You would need an organism that knows\n"
 	.string "how to DIVE…\p"
 	.string "Perhaps if you went out to\n"
-	.string "GIBSONS…\p"
+	.string "PRINCE RUPERT…\p"
 	.string "A lot of divers live out there, so\n"
 	.string "someone might teach you…$"
 
@@ -474,7 +474,7 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "You would need an organism that knows\n"
 	.string "how to DIVE…\p"
 	.string "Perhaps if you went out to\n"
-	.string "GIBSONS…\p"
+	.string "PRINCE RUPERT…\p"
 	.string "A lot of divers live out there, so\n"
 	.string "someone might teach you…$"
 

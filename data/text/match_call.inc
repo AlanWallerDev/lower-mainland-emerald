@@ -775,7 +775,7 @@ MatchCall_PersonalizedText13::
 MatchCall_PersonalizedText14::
 	.string "Oh, it's {STR_VAR_1}!\p"
 	.string "I was just thinking I'm getting\n"
-	.string "bored of the ABANDONED SHIP.\p"
+	.string "bored of the SS BEAVER WRECK.\p"
 	.string "But since I'm already here,\n"
 	.string "and I want to beat you once,\l"
 	.string "I'll be sticking around a bit more.\p"
@@ -847,7 +847,7 @@ MatchCall_PersonalizedText20::
 	.string "I'd like to climb other mountains\n"
 	.string "than this one, to be honest.\p"
 	.string "But I'm not sure if there'd be any\n"
-	.string "ladies like on MT. GARIBALDI.\p"
+	.string "ladies like on WELLS GRAY CONE.\p"
 	.string "If you know any other mountain\n"
 	.string "with ladies around, let me know!\p"
 	.string "Ehehehe, see you around!$"
@@ -1291,7 +1291,7 @@ MatchCall_PersonalizedText58::
 
 MatchCall_PersonalizedText59::
 	.string "This is {STR_VAR_1}!\p"
-	.string "I went to BOWEN ISLAND's GYM again\n"
+	.string "I went to TOFINO's GYM again\n"
 	.string "for training.\p"
 	.string "JEROME, the GYM LEADER, seems\n"
 	.string "to be tougher now.\p"
@@ -1357,13 +1357,13 @@ MatchCall_PersonalizedText62::
 MatchCall_PersonalizedText63::
 	.string "Ahoy there!\n"
 	.string "It's me, {STR_VAR_1}!\l"
-	.string "I'm out on ROBERTS BANK now!\l"
+	.string "I'm out on JUAN DE FUCA now!\l"
 	.string "In other words, where I always am!\p"
 	.string "Today, a gorgeous SWIMMER \n"
 	.string "swam by me!\p"
 	.string "So I startled her with a shout!\p"
 	.string "And she gave me a nasty glare!\p"
-	.string "That's all from ROBERTS BANK!\n"
+	.string "That's all from JUAN DE FUCA!\n"
 	.string "Brought to you by {STR_VAR_1}!$"
 
 MatchCall_PersonalizedText64::
@@ -2049,11 +2049,11 @@ MatchCall_Text_Roxanne_PreparingPostGame::
 MatchCall_Text_Roxanne_RematchReady::
 	.string "MUNDAY: {PLAYER}!\n"
 	.string "My GYM is ready!\p"
-	.string "Please visit BURNABY whenever\n"
+	.string "Please visit SQUAMISH whenever\n"
 	.string "you can!$"
 
 MatchCall_Text_Roxanne_PostRematch::
-	.string "MUNDAY: At the BURNABY GYM,\n"
+	.string "MUNDAY: At the SQUAMISH GYM,\n"
 	.string "the fact that we battled, {PLAYER},\l"
 	.string "is a matter of pride.$"
 
@@ -2083,7 +2083,7 @@ MatchCall_Text_Brawly_PreparingPostGame::
 MatchCall_Text_Brawly_RematchReady::
 	.string "JEROME: Hey, {PLAYER}{KUN}!\n"
 	.string "My GYM's ready for action!\p"
-	.string "Come back to BOWEN ISLAND anytime\n"
+	.string "Come back to TOFINO anytime\n"
 	.string "for another challenge!$"
 
 MatchCall_Text_Brawly_PostRematch::
@@ -2113,7 +2113,7 @@ MatchCall_Text_Wattson_PreparingPostGame::
 MatchCall_Text_Wattson_RematchReady::
 	.string "FRASER: Oh, it's you!\n"
 	.string "My GYM's ready!\p"
-	.string "Visit SURREY anytime!\n"
+	.string "Visit HOPE anytime!\n"
 	.string "Wahahahaha!$"
 
 MatchCall_Text_Wattson_PostRematch::
@@ -2163,14 +2163,14 @@ MatchCall_Text_Winona_Preparing::
 MatchCall_Text_Winona_PreparingPostGame::
 	.string "MACGILL: You've done it, {PLAYER}!\p"
 	.string "News about the new CHAMPION\n"
-	.string "has reached us in MAPLE RIDGE!\p"
+	.string "has reached us in REVELSTOKE!\p"
 	.string "But… The next time we battle,\n"
 	.string "it's not going to end the same way.$"
 
 MatchCall_Text_Winona_RematchReady::
 	.string "MACGILL: Is this {PLAYER}?\n"
 	.string "Our GYM is back in operation!\p"
-	.string "We're waiting for you in MAPLE RIDGE!$"
+	.string "We're waiting for you in REVELSTOKE!$"
 
 MatchCall_Text_Winona_PostRematch::
 	.string "MACGILL: {PLAYER}…\n"
@@ -2205,7 +2205,7 @@ MatchCall_Text_TateLiza_RematchReady::
 	.string "TATE: Our GYM is ready!\n"
 	.string "LIZA: Our GYM is ready!\p"
 	.string "TATE: Please come visit…\n"
-	.string "LIZA: GIBSONS anytime!$"
+	.string "LIZA: PRINCE RUPERT anytime!$"
 
 MatchCall_Text_TateLiza_PostRematch::
 	.string "TATE: {PLAYER}, the battle we had…\n"
@@ -2299,7 +2299,7 @@ MatchCall_Text_MayRayquazaCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "I was just in POINT ROBERTS a little\n"
+	.string "I was just in ECHO BAY a little\n"
 	.string "while ago.\p"
 	.string "I saw a giant green organism flying high\n"
 	.string "in the sky.\p"
@@ -2314,7 +2314,7 @@ MatchCall_Text_BrendanRayquazaCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "BRENDAN: Hey, {PLAYER}!\n"
-	.string "I was in POINT ROBERTS just now.\p"
+	.string "I was in ECHO BAY just now.\p"
 	.string "I saw this huge green organism flying\n"
 	.string "across the sky.\p"
 	.string "I've never seen anything that\n"
@@ -2334,19 +2334,19 @@ MatchCall_Text_May1::
 MatchCall_Text_May2::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "You know how little towns like\n"
-	.string "RICHMOND and BOWEN ISLAND have GYMS?\p"
+	.string "RICHMOND and TOFINO have GYMS?\p"
 	.string "For some reason, the big port of\n"
-	.string "STEVESTON doesn't have a GYM.\p"
+	.string "VICTORIA doesn't have a GYM.\p"
 	.string "When they finally build a GYM there,\n"
 	.string "I should apply to be the LEADER.$"
 
 MatchCall_Text_May3::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "Do you remember a man named\n"
-	.string "the CUTTER in BURNABY?\l"
+	.string "the CUTTER in SQUAMISH?\l"
 	.string "He had a house there, remember?\p"
 	.string "Well, I found out his younger\n"
-	.string "brother lives in SURREY.\p"
+	.string "brother lives in HOPE.\p"
 	.string "Can you guess his name?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -2354,13 +2354,13 @@ MatchCall_Text_May3::
 
 MatchCall_Text_May4::
 	.string "MAY: {PLAYER}{KUN}?\p"
-	.string "CASSIAR TUNNEL…\n"
+	.string "OTHELLO TUNNELS…\n"
 	.string "They named it that because it\l"
-	.string "joins BURNABY and LANGLEY.$"
+	.string "joins SQUAMISH and YALE.$"
 
 MatchCall_Text_May5::
 	.string "MAY: {PLAYER}{KUN}, how are you?\p"
-	.string "I'm out on FRASER FLATS now.\p"
+	.string "I'm out on COQUIHALLA now.\p"
 	.string "I'm going to get a rest at an old\n"
 	.string "lady's house.\p"
 	.string "She lives just north of\n"
@@ -2376,7 +2376,7 @@ MatchCall_Text_May6::
 
 MatchCall_Text_May7::
 	.string "MAY: {PLAYER}{KUN}, yahoo!\n"
-	.string "I'm on ALOUETTE RIVER now.\p"
+	.string "I'm on EAGLE PASS now.\p"
 	.string "There's a big river here, and\n"
 	.string "it often rains.\p"
 	.string "I got soaked!$"
@@ -2400,7 +2400,7 @@ MatchCall_Text_May10::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
 	.string "Did you see the news?\p"
 	.string "They say CAPT. STERN discovered\n"
-	.string "the GEORGIA DEEP while on his\l"
+	.string "the HECATE REEF while on his\l"
 	.string "submarine expedition.$"
 
 MatchCall_Text_May11::
@@ -2458,19 +2458,19 @@ MatchCall_Text_Brendan1::
 MatchCall_Text_Brendan2::
 	.string "BRENDAN: Hey, {PLAYER}!\p"
 	.string "I don't get how little towns like\n"
-	.string "RICHMOND and BOWEN ISLAND have GYMS.\p"
+	.string "RICHMOND and TOFINO have GYMS.\p"
 	.string "I mean, not when the big port of\n"
-	.string "STEVESTON doesn't have a GYM.\p"
+	.string "VICTORIA doesn't have a GYM.\p"
 	.string "When they finally build a GYM there,\n"
 	.string "I should apply to be the LEADER.$"
 
 MatchCall_Text_Brendan3::
 	.string "BRENDAN: Yo, {PLAYER}!\p"
 	.string "Do you remember a guy named\n"
-	.string "the CUTTER in BURNABY?\l"
+	.string "the CUTTER in SQUAMISH?\l"
 	.string "He had a house there, right?\p"
 	.string "Well, it turns out his little\n"
-	.string "brother lives in SURREY.\p"
+	.string "brother lives in HOPE.\p"
 	.string "Can you guess his name?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -2478,14 +2478,14 @@ MatchCall_Text_Brendan3::
 
 MatchCall_Text_Brendan4::
 	.string "BRENDAN: This voice… {PLAYER}?\p"
-	.string "They gave CASSIAR TUNNEL its name\n"
-	.string "because it joins BURNABY and\l"
-	.string "LANGLEY.\p"
+	.string "They gave OTHELLO TUNNELS its name\n"
+	.string "because it joins SQUAMISH and\l"
+	.string "YALE.\p"
 	.string "Did you know that?$"
 
 MatchCall_Text_Brendan5::
 	.string "BRENDAN: {PLAYER}, what's up?\p"
-	.string "Hey, I'm out on FRASER FLATS now.\p"
+	.string "Hey, I'm out on COQUIHALLA now.\p"
 	.string "I'm going to rest up at an old\n"
 	.string "lady's house north of the desert.\p"
 	.string "If you're in the area, you should\n"
@@ -2501,7 +2501,7 @@ MatchCall_Text_Brendan6::
 
 MatchCall_Text_Brendan7::
 	.string "BRENDAN: Who's this? Oh, {PLAYER}?\n"
-	.string "Guess what? I'm on ALOUETTE RIVER now.\p"
+	.string "Guess what? I'm on EAGLE PASS now.\p"
 	.string "There's a big river here, and\n"
 	.string "it rains all the time.\p"
 	.string "I got soaked to the bone!$"
@@ -2526,7 +2526,7 @@ MatchCall_Text_Brendan10::
 	.string "BRENDAN: Hi, {PLAYER}!\n"
 	.string "Did you catch the news?\p"
 	.string "They say CAPT. STERN discovered\n"
-	.string "the GEORGIA DEEP while on his\l"
+	.string "the HECATE REEF while on his\l"
 	.string "submarine expedition.$"
 
 MatchCall_Text_Brendan11::
@@ -2580,13 +2580,13 @@ MatchCall_Text_Wally1::
 
 MatchCall_Text_Wally2::
 	.string "WALLY: {PLAYER}, hello!\p"
-	.string "After CASSIAR TUNNEL went\n"
+	.string "After OTHELLO TUNNELS went\n"
 	.string "through, WANDA's been very happy!$"
 
 MatchCall_Text_Wally3::
 	.string "WALLY: Oh, {PLAYER}!\p"
 	.string "I… I left my uncle's place in\n"
-	.string "LANGLEY without telling anyone.\p"
+	.string "YALE without telling anyone.\p"
 	.string "I wonder if he's furious with me…\p"
 	.string "{PLAYER}, you understand how\n"
 	.string "I feel, don't you?$"
@@ -2637,7 +2637,7 @@ MatchCall_Text_Scott1::
 	.string "everywhere, too. Busy, busy!$"
 
 MatchCall_Text_Scott2::
-	.string "SCOTT: I'm on ALOUETTE RIVER right now.\n"
+	.string "SCOTT: I'm on EAGLE PASS right now.\n"
 	.string "It's teeming with TRAINERS!\p"
 	.string "It's also overgrown with tall grass\n"
 	.string "everywhere, it seems.\p"
@@ -2694,7 +2694,7 @@ MatchCall_Text_Scott7::
 	.string "TRAILNAV's service area…$"
 
 MatchCall_Text_Norman1::
-	.string "DAD: In BURNABY, there's a man\n"
+	.string "DAD: In SQUAMISH, there's a man\n"
 	.string "that goes by the odd name of\l"
 	.string "the CUTTER.\p"
 	.string "If you're in the area, you should\n"
@@ -2759,7 +2759,7 @@ MatchCall_Text_Norman_PostRematch::
 
 MatchCall_Text_Steven1::
 	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "Have you been to SURREY\n"
+	.string "Have you been to HOPE\n"
 	.string "already?\p"
 	.string "You should visit the BIKE SHOP\n"
 	.string "and get a MACH BIKE.\p"
@@ -2855,9 +2855,9 @@ MatchCall_Text_MrStone2::
 	.string "What's wrong? Have you forgotten\n"
 	.string "about that little errand of mine?\p"
 	.string "I need you to deliver my letter\n"
-	.string "to STEVEN in BOWEN ISLAND.\p"
+	.string "to STEVEN in TOFINO.\p"
 	.string "After that, deliver our parcel to\n"
-	.string "CAPT. STERN in STEVESTON.\p"
+	.string "CAPT. STERN in VICTORIA.\p"
 	.string "You remember, don't you?\p"
 	.string "Now, since I am a busy PRESIDENT,\n"
 	.string "I have to go! Bye-bye!$"
@@ -2866,14 +2866,14 @@ MatchCall_Text_MrStone3::
 	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
 	.string "Ah, so you've met STEVEN!\n"
 	.string "I'd better reward you, then!\p"
-	.string "When you visit BURNABY again,\n"
+	.string "When you visit SQUAMISH again,\n"
 	.string "come see me at my office.\p"
 	.string "I'll be waiting for you!$"
 
 MatchCall_Text_MrStone4::
 	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
 	.string "Did you know that DEVON was\n"
-	.string "digging the CASSIAR TUNNEL?\p"
+	.string "digging the OTHELLO TUNNELS?\p"
 	.string "But we shut down the operation to\n"
 	.string "protect the organisms in the area.\p"
 	.string "It's a no-brainer, really.\p"

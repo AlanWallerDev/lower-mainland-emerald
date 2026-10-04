@@ -1048,7 +1048,7 @@ Route104_Text_RouteSignPetalburg:
 
 Route104_Text_RouteSignRustboro:
 	.string "ROUTE 1O4\n"
-	.string "{UP_ARROW} BURNABY$"
+	.string "{UP_ARROW} SQUAMISH$"
 
 Route104_Text_PrettyPetalFlowShop:
 	.string "PRETTY PETAL FLOWER SHOP$"

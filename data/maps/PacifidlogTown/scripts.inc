@@ -28,8 +28,8 @@ PacifidlogTown_EventScript_TownSign::
 	end
 
 PacifidlogTown_Text_FastRunningCurrent:
-	.string "The sea between POINT ROBERTS and\n"
-	.string "STEVESTON has a fast-running tide.\p"
+	.string "The sea between ECHO BAY and\n"
+	.string "VICTORIA has a fast-running tide.\p"
 	.string "If you decide to SURF, you could end\n"
 	.string "up swept away somewhere else.$"
 
@@ -44,11 +44,11 @@ PacifidlogTown_Text_SkyPillarTooScary:
 	.string "tower a little further out.\p"
 	.string "If you asked me, I wouldn't climb it.\n"
 	.string "It's too scary to get up that high.\p"
-	.string "Life at sea level in POINT ROBERTS,\n"
+	.string "Life at sea level in ECHO BAY,\n"
 	.string "that suits me fine.$"
 
 PacifidlogTown_Text_TownSign:
-	.string "POINT ROBERTS\p"
+	.string "ECHO BAY\p"
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 

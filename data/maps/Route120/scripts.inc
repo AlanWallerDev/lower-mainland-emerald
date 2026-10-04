@@ -388,7 +388,7 @@ Route120_Text_StevenGiveDevonScope:
 	.string "STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
 	.string "Your organisms have obviously grown\n"
-	.string "since I first met you in BOWEN ISLAND.\p"
+	.string "since I first met you in TOFINO.\p"
 	.string "I'd like you to have this\n"
 	.string "DEVON SCOPE.\p"
 	.string "Who knows, there may be other\n"
@@ -415,9 +415,9 @@ Kecleon_Text_UseDevonScopeMonAttacked:
 	.string "The startled organisms attacked!$"
 
 Route120_Text_RouteSignFortree:
-	.string "GOLDEN EARS\n"
-	.string "{LEFT_ARROW} MAPLE RIDGE$"
+	.string "ROGERS PASS\n"
+	.string "{LEFT_ARROW} REVELSTOKE$"
 
 Route120_Text_RouteSign121:
 	.string "{RIGHT_ARROW} HWY 1\n"
-	.string "{LEFT_ARROW} GOLDEN EARS$"
+	.string "{LEFT_ARROW} ROGERS PASS$"

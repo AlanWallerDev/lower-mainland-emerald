@@ -456,7 +456,7 @@ Route105_Text_DominikDefeated:
 Route105_Text_DominikPostBattle:
 	.string "Why is the sea blue?\p"
 	.string "I learned about that at the MUSEUM in\n"
-	.string "STEVESTON, but I forgot.$"
+	.string "VICTORIA, but I forgot.$"
 
 Route105_Text_BeverlyIntro:
 	.string "My body feels lighter in the water.\n"
@@ -638,14 +638,14 @@ Route107_Text_TonyRematchPostBattle:
 
 Route107_Text_DeniseIntro:
 	.string "Do you know a little town called\n"
-	.string "BOWEN ISLAND?$"
+	.string "TOFINO?$"
 
 Route107_Text_DeniseDefeated:
 	.string "I hate this!$"
 
 Route107_Text_DenisePostBattle:
 	.string "A weird saying is getting really\n"
-	.string "trendy at BOWEN ISLAND HALL.$"
+	.string "trendy at TOFINO HALL.$"
 
 Route107_Text_BethIntro:
 	.string "Did you want to battle me?\n"
@@ -719,7 +719,7 @@ Route108_Text_JeromePostBattle:
 
 Route108_Text_MatthewIntro:
 	.string "Ahoy, there! Are you going out to\n"
-	.string "the ABANDONED SHIP, too?$"
+	.string "the SS BEAVER WRECK, too?$"
 
 Route108_Text_MatthewDefeated:
 	.string "I'm sinking!\n"
@@ -727,7 +727,7 @@ Route108_Text_MatthewDefeated:
 
 Route108_Text_MatthewPostBattle:
 	.string "Some people even go inside that\n"
-	.string "ABANDONED SHIP.$"
+	.string "SS BEAVER WRECK.$"
 
 Route108_Text_TaraIntro:
 	.string "My liar of a boyfriend told me that\n"
@@ -816,7 +816,7 @@ Route109_Text_AlicePostBattle:
 
 Route109_Text_HueyIntro:
 	.string "I've laid anchor in ports around\n"
-	.string "the world, but STEVESTON's the best.$"
+	.string "the world, but VICTORIA's the best.$"
 
 Route109_Text_HueyDefeated:
 	.string "You're the best!$"
@@ -993,7 +993,7 @@ Route109_Text_ElijahDefeated:
 Route109_Text_ElijahPostBattle:
 	.string "For a guy as macho as me, a port\n"
 	.string "is the perfect setting!\p"
-	.string "I guess I'll head for STEVESTON.$"
+	.string "I guess I'll head for VICTORIA.$"
 
 Route110_Text_JacobIntro:
 	.string "Whoa! Watch it!\n"
@@ -1335,7 +1335,7 @@ Route111_Text_IreneDefeat:
 
 Route111_Text_IrenePostBattle:
 	.string "I'm thinking that I should go to\n"
-	.string "MT. GARIBALDI, but the view around\l"
+	.string "WELLS GRAY CONE, but the view around\l"
 	.string "here is very nice, too.$"
 
 Route111_Text_DaisukeIntro:
@@ -1489,7 +1489,7 @@ Route111_Text_HaydenPostBattle:
 	.string "Maybe I can grill some BERRIES…$"
 
 Route111_Text_BiancaIntro:
-	.string "Did you come from SURREY?\n"
+	.string "Did you come from HOPE?\n"
 	.string "Then you should be full of energy!$"
 
 Route111_Text_BiancaDefeat:
@@ -1547,7 +1547,7 @@ Route112_Text_TrentRematchDefeat:
 
 Route112_Text_TrentRematchPostBattle:
 	.string "I hear there are some seriously tough\n"
-	.string "TRAINERS on top of MT. GARIBALDI.\p"
+	.string "TRAINERS on top of WELLS GRAY CONE.\p"
 	.string "I intend to get up there and give them\n"
 	.string "a challenge!$"
 
@@ -3791,7 +3791,7 @@ Route125_Text_TanyaDefeat:
 
 Route125_Text_TanyaPostBattle:
 	.string "Whew…\n"
-	.string "Which way is it to GIBSONS?$"
+	.string "Which way is it to PRINCE RUPERT?$"
 
 Route125_Text_SharonIntro:
 	.string "How would you like to take on the\n"
@@ -4408,7 +4408,7 @@ Route131_Text_ReliDefeat:
 	.string "worked together…$"
 
 Route131_Text_ReliPostBattle:
-	.string "RELI: The people of POINT ROBERTS are\n"
+	.string "RELI: The people of ECHO BAY are\n"
 	.string "together with the sea and organisms\l"
 	.string "from the time they are born.$"
 
@@ -4425,10 +4425,10 @@ Route131_Text_IanDefeat:
 	.string "but we still couldn't win…$"
 
 Route131_Text_IanPostBattle:
-	.string "IAN: You know how POINT ROBERTS is\n"
+	.string "IAN: You know how ECHO BAY is\n"
 	.string "a floating town?\p"
 	.string "So, wherever there is the sea,\n"
-	.string "that's a part of POINT ROBERTS!$"
+	.string "that's a part of ECHO BAY!$"
 
 Route131_Text_IanNotEnoughMons:
 	.string "IAN: If you have two organisms, we'll\n"
@@ -4448,7 +4448,7 @@ Route131_Text_TaliaPostBattle:
 	.string "Why don't you go take a look?$"
 
 Route131_Text_KevinIntro:
-	.string "The people of POINT ROBERTS are\n"
+	.string "The people of ECHO BAY are\n"
 	.string "a peaceful bunch.\p"
 	.string "They never get angry.\n"
 	.string "That goes for me, too.$"
@@ -4622,7 +4622,7 @@ Route133_Text_BeckDefeat:
 	.string "You're stunningly cool!$"
 
 Route133_Text_BeckPostBattle:
-	.string "I'd like to go back to MAPLE RIDGE,\n"
+	.string "I'd like to go back to REVELSTOKE,\n"
 	.string "but I've grown to like this place, too.$"
 
 Route133_Text_MollieIntro:

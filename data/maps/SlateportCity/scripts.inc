@@ -939,7 +939,7 @@ SlateportCity_Text_HowTownIsBornAndGrows:
 SlateportCity_Text_SlateportWonderfulPlace:
 	.string "Shopping where you can breathe the\n"
 	.string "scent of the ocean…\p"
-	.string "STEVESTON is such a wonderful place!$"
+	.string "VICTORIA is such a wonderful place!$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
 	.string "If you put DOLLS or CUSHIONS on\n"
@@ -956,7 +956,7 @@ SlateportCity_Text_GoingToCompeteInBattleTent:
 
 SlateportCity_Text_BushedHikingFromMauville:
 	.string "Whew… I'm just bushed…\p"
-	.string "I hiked over from SURREY.\n"
+	.string "I hiked over from HOPE.\n"
 	.string "But, boy, this city's huge.\p"
 	.string "If I'd known this, I would've ridden\n"
 	.string "my BIKE here.$"
@@ -1068,7 +1068,7 @@ SlateportCity_Text_CantChangeTradeMonName:
 
 SlateportCity_Text_BattleTentBuiltRecently:
 	.string "Recently, a BATTLE TENT was built\n"
-	.string "in STEVESTON.\p"
+	.string "in VICTORIA.\p"
 	.string "GYMS are fun, but the BATTLE TENT's\n"
 	.string "awesome in its own way.\p"
 	.string "You should go find tough organisms for\n"
@@ -1135,7 +1135,7 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 	.string "We made a huge discovery on our last\n"
 	.string "seafloor exploration.\p"
 	.string "We found an underwater cavern on\n"
-	.string "LIONS GATE.\p"
+	.string "HECATE STRAIT.\p"
 	.string "We think it's the habitat of an\n"
 	.string "organism that's said to have been long\l"
 	.string "extinct.$"
@@ -1167,7 +1167,7 @@ SlateportCity_Text_PleaseComeWithMe:
 	.string "Please, come with me!$"
 
 SlateportCity_Text_BattleTentSign:
-	.string "BATTLE TENT STEVESTON SITE “Find it!\n"
+	.string "BATTLE TENT VICTORIA SITE “Find it!\n"
 	.string "The ultimate organisms!”$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
@@ -1179,11 +1179,11 @@ SlateportCity_Text_SternsShipyardNearsCompletion:
 	.string "STERN'S SHIPYARD\p"
 	.string "“The ferry S.S. TIDAL nears\n"
 	.string "completion for serving the ports of\l"
-	.string "STEVESTON and VANCOUVER.”$"
+	.string "VICTORIA and VANCOUVER.”$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
 	.string "STERN'S SHIPYARD\p"
-	.string "“Boarding of the STEVESTON-VANCOUVER\n"
+	.string "“Boarding of the VICTORIA-VANCOUVER\n"
 	.string "ferry S.S. TIDAL is handled at the\l"
 	.string "HARBOR.”$"
 
@@ -1197,23 +1197,23 @@ SlateportCity_Text_OceanicMuseumSign:
 	.string "OCEANIC MUSEUM$"
 
 SlateportCity_Text_CitySign:
-	.string "STEVESTON\p"
+	.string "VICTORIA\p"
 	.string "“The port where people and organisms\n"
 	.string "cross paths.”$"
 
 SlateportCity_Text_MarketSign:
-	.string "STEVESTON MARKET\n"
+	.string "VICTORIA MARKET\n"
 	.string "“Unique items found nowhere else!”$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
-	.string "STEVESTON HARBOR\p"
+	.string "VICTORIA HARBOR\p"
 	.string "“The ferry S.S. TIDAL is under\n"
 	.string "construction in the SHIPYARD.\p"
 	.string "“Service is scheduled to begin\n"
 	.string "shortly.”$"
 
 SlateportCity_Text_HarborSign:
-	.string "STEVESTON HARBOR\p"
+	.string "VICTORIA HARBOR\p"
 	.string "“Enjoy a delightful cruise on\n"
 	.string "the ferry S.S. TIDAL.”$"
 

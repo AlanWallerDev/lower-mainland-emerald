@@ -616,20 +616,20 @@ Route111_Text_WinstrateFamilyDestroyedMe:
 	.string "going… They destroyed me.$"
 
 Route111_Text_RouteSignMauville:
-	.string "FRASER FLATS\n"
-	.string "{DOWN_ARROW} SURREY$"
+	.string "COQUIHALLA\n"
+	.string "{DOWN_ARROW} HOPE$"
 
 Route111_Text_WinstrateHouseSign:
 	.string "“Our family's hearts beat as one!”\n"
 	.string "THE WINSTRATE'S HOUSE$"
 
 Route111_Text_RouteSign112:
-	.string "FRASER FLATS\n"
-	.string "{LEFT_ARROW} LOUGHEED HWY$"
+	.string "COQUIHALLA\n"
+	.string "{LEFT_ARROW} YELLOWHEAD$"
 
 Route111_Text_RouteSign113:
-	.string "FRASER FLATS\n"
-	.string "{LEFT_ARROW} SUMAS PRAIRIE$"
+	.string "COQUIHALLA\n"
+	.string "{LEFT_ARROW} ASHCROFT$"
 
 Route111_Text_OldLadysRestStopSign:
 	.string "OLD LADY'S REST STOP\n"
@@ -684,11 +684,11 @@ Route111_Text_RootFossilDisappeared:
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string "Oh, no!\p"
-	.string "My uncle in SURREY told me to take\n"
+	.string "My uncle in HOPE told me to take\n"
 	.string "ROCK SMASH with me if I was going to\l"
-	.string "FRASER FLATS!\p"
+	.string "COQUIHALLA!\p"
 	.string "My uncle? He lives across from\n"
-	.string "the bike shop in SURREY.$"
+	.string "the bike shop in HOPE.$"
 
 Route111_Text_TrainerHillSign:
 	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"

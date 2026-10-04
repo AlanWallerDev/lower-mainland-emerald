@@ -1,7 +1,7 @@
 
 gPokeNewsTextSlateport_Upcoming::
 	.string "Greetings! It's time for NATURE NEWS.\p"
-	.string "STEVESTON's most popular kind of guy,\n"
+	.string "VICTORIA's most popular kind of guy,\n"
 	.string "the ENERGY GURU, is in the news again!\p"
 	.string "He promises to, “Stupendously go for\n"
 	.string "it in just this many days: {STR_VAR_1}!”\p"
@@ -9,7 +9,7 @@ gPokeNewsTextSlateport_Upcoming::
 	.string "he will stupendously go for, the\l"
 	.string "ENERGY GURU advised, “Save up your\l"
 	.string "money. That'll be good…”\p"
-	.string "It sounds like a trip to STEVESTON\n"
+	.string "It sounds like a trip to VICTORIA\n"
 	.string "would be well worth your while that day.\p"
 	.string "That's the news on NATURE NEWS.$"
 
@@ -17,11 +17,11 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "Greetings! It's time for NATURE NEWS.\p"
 	.string "This is the news you've all been\n"
 	.string "waiting for!\p"
-	.string "STEVESTON'S ENERGY GURU is going\n"
+	.string "VICTORIA'S ENERGY GURU is going\n"
 	.string "for it stupendously in the MARKET!\p"
 	.string "He promises unbeatable bargain\n"
 	.string "prices on CALCIUM and PROTEIN!\p"
-	.string "A trip to STEVESTON sounds\n"
+	.string "A trip to VICTORIA sounds\n"
 	.string "worthwhile. Why not visit and shop\l"
 	.string "to your heart's content?\p"
 	.string "That's the news on NATURE NEWS.$"
@@ -30,13 +30,13 @@ gPokeNewsTextSlateport_Ending::
 	.string "Greetings! It's time for NATURE NEWS.\p"
 	.string "This is the news you've all been\n"
 	.string "waiting for!\p"
-	.string "STEVESTON'S ENERGY GURU is going\n"
+	.string "VICTORIA'S ENERGY GURU is going\n"
 	.string "for it stupendously in the MARKET!\p"
 	.string "He promises unbeatable bargain\n"
 	.string "prices on CALCIUM and PROTEIN!\p"
 	.string "According to the ENERGY GURU, he\n"
 	.string "still has ample merchandise left.\p"
-	.string "Why not visit STEVESTON for\n"
+	.string "Why not visit VICTORIA for\n"
 	.string "a most enjoyable shopping trip?\p"
 	.string "That's the news on NATURE NEWS.$"
 
@@ -59,7 +59,7 @@ gPokeNewsTextGameCorner_Ongoing::
 	.string "arrived!\p"
 	.string "Could you be lucky at the SLOTS \n"
 	.string "and ROULETTE?\p"
-	.string "The location is SURREY.\n"
+	.string "The location is HOPE.\n"
 	.string "This is the place!\p"
 	.string "That's the news on NATURE NEWS.$"
 
@@ -72,7 +72,7 @@ gPokeNewsTextGameCorner_Ending::
 	.string "Could you be lucky at the SLOTS\n"
 	.string "and ROULETTE?\p"
 	.string "Time is limited and has almost run out.\n"
-	.string "The location is SURREY.\p"
+	.string "The location is HOPE.\p"
 	.string "That's the news on NATURE NEWS.$"
 
 gPokeNewsTextLilycove_Upcoming::

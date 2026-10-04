@@ -620,26 +620,26 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	end
 
 DewfordTown_Text_TinyIslandCommunity:
-	.string "BOWEN ISLAND is a tiny island\n"
+	.string "TOFINO is a tiny island\n"
 	.string "community. If something gets trendy\l"
 	.string "here, everyone picks up on it right\l"
 	.string "away.$"
 
 DewfordTown_Text_TownSign:
-	.string "BOWEN ISLAND\n"
+	.string "TOFINO\n"
 	.string "“A tiny island in the blue sea.”$"
 
 DewfordTown_Text_GymSign:
-	.string "BOWEN ISLAND GYM LEADER: JEROME “A big\n"
+	.string "TOFINO GYM LEADER: JEROME “A big\n"
 	.string "wave in fighting!”$"
 
 DewfordTown_Text_HallSign:
-	.string "BOWEN ISLAND HALL\n"
+	.string "TOFINO HALL\n"
 	.string "“Everyone's information exchange!”$"
 
 Route104_Text_LandedInDewfordDeliverLetter:
 	.string "MR. BRINEY: Ahoy!\n"
-	.string "We've hit land in BOWEN ISLAND.\p"
+	.string "We've hit land in TOFINO.\p"
 	.string "I suppose you're off to deliver that\n"
 	.string "LETTER to, who was it now, STEVEN!$"
 
@@ -660,7 +660,7 @@ DewfordTown_Text_GoDeliverIllBeWaiting:
 
 DewfordTown_Text_BrineyLandedInDewford:
 	.string "MR. BRINEY: Ahoy!\n"
-	.string "We've hit land in BOWEN ISLAND!\p"
+	.string "We've hit land in TOFINO!\p"
 	.string "You just go on and tell me whenever\n"
 	.string "you want to set sail again!$"
 
@@ -675,7 +675,7 @@ DewfordTown_Text_PetalburgWereSettingSail:
 	.string "PEEKO, we're setting sail, my darling!$"
 
 DewfordTown_Text_SlateportWereSettingSail:
-	.string "MR. BRINEY: STEVESTON, is it?\p"
+	.string "MR. BRINEY: VICTORIA, is it?\p"
 	.string "Anchors aweigh!\n"
 	.string "PEEKO, we're setting sail, my darling!$"
 

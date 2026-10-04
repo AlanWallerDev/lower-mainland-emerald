@@ -42,7 +42,7 @@ MeteorFalls_StevensCave_Text_StevenDefeat:
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "STEVEN: Come to think of it, ever since\n"
 	.string "our paths first crossed in GRANITE\l"
-	.string "CAVE in BOWEN ISLAND, I had this\l"
+	.string "CAVE in TOFINO, I had this\l"
 	.string "feeling.\p"
 	.string "I thought that you would eventually\n"
 	.string "become the CHAMPION.\p"

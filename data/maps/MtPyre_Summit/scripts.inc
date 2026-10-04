@@ -437,7 +437,7 @@ MtPyre_Summit_Text_Grunt2PostBattle:
 
 MtPyre_Summit_Text_Grunt3Intro:
 	.string "You…\n"
-	.string "We saw you at MT. GARIBALDI.\p"
+	.string "We saw you at WELLS GRAY CONE.\p"
 	.string "You don't belong to either TEAM,\n"
 	.string "so why would you be here?$"
 

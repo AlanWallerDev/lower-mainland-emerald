@@ -92,14 +92,14 @@ AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 	.string "What? What?\n"
 	.string "Are you a TEAM MAGMA grunt?\p"
 	.string "I hear that TEAM MAGMA is after an\n"
-	.string "awesome organism at MT. GARIBALDI.\p"
+	.string "awesome organism at WELLS GRAY CONE.\p"
 	.string "But what is that organism like?$"
 
 AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "What? What? What do you want with\n"
 	.string "TEAM AQUA?\p"
 	.string "Our BOSS isn't here!\n"
-	.string "He's on his way to STEVESTON!\p"
+	.string "He's on his way to VICTORIA!\p"
 	.string "… …\n"
 	.string "Why did he go?\p"
 	.string "Wahaha! Do you really think I'd tell\n"

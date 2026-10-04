@@ -501,7 +501,7 @@ MauvilleCity_Text_WallyDefeat:
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
 	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to LANGLEY…$"
+	.string "I'll go back to YALE…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
 	.string "{PLAYER}, thank you.\n"
@@ -523,7 +523,7 @@ MauvilleCity_Text_UncleVisitUsSometime:
 	.string "that you must be the TRAINER who kept\l"
 	.string "an eye out for WALLY when he caught his\l"
 	.string "partners.\p"
-	.string "Why don't you visit us in LANGLEY\n"
+	.string "Why don't you visit us in YALE\n"
 	.string "sometime?\l"
 	.string "I'm sure WALLY would enjoy it.$"
 
@@ -561,7 +561,7 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "That's a good thing, wahahahaha!\p"
 	.string "Fine! I've decided!\n"
 	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "SURREY has an underground\n"
+	.string "HOPE has an underground\n"
 	.string "sector called RUSKIN DAM.\p"
 	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
 	.string "switch off the GENERATOR.\p"
@@ -573,8 +573,8 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "FRASER: Don't you worry about it.\n"
 	.string "It won't be a challenge to you.\p"
-	.string "The entrance to RUSKIN DAM is just\n"
-	.string "a short SURF away from HWY 99.\p"
+	.string "The entrance to RUSKIN DAM is just a\n"
+	.string "short SURF away from GALLOPING GOOSE.\p"
 	.string "That's it, then, you have my trust!\n"
 	.string "Wahahahaha!$"
 
@@ -613,11 +613,11 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
 	.string "organisms could jump you.$"
 
 MauvilleCity_Text_CitySign:
-	.string "SURREY\n"
+	.string "HOPE\n"
 	.string "“The bright and shiny city of fun!”$"
 
 MauvilleCity_Text_GymSign:
-	.string "SURREY GYM LEADER: FRASER “The\n"
+	.string "HOPE GYM LEADER: FRASER “The\n"
 	.string "cheerfully electrifying man!”$"
 
 MauvilleCity_Text_BikeShopSign:
@@ -627,7 +627,7 @@ MauvilleCity_Text_BikeShopSign:
 
 MauvilleCity_Text_GameCornerSign:
 	.string "“The play spot for all!”\n"
-	.string "SURREY GAME CORNER$"
+	.string "HOPE GAME CORNER$"
 
 MauvilleCity_Text_ExplainTV:
 	.string "Hi, do you check out TV at all?\p"

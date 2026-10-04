@@ -349,8 +349,8 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"
-	.string "It reminded me of the ABANDONED SHIP\n"
-	.string "near BOWEN ISLAND…$"
+	.string "It reminded me of the SS BEAVER WRECK\n"
+	.string "near TOFINO…$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
 	.string "Don't you dare run around inside\n"

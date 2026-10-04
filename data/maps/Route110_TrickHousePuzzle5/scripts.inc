@@ -943,12 +943,12 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In STEVESTON's NATURE FAN CLUB, how\n"
+	.string "In VICTORIA's NATURE FAN CLUB, how\n"
 	.string "many organisms were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In MAPLE RIDGE, how many\n"
+	.string "In REVELSTOKE, how many\n"
 	.string "tree houses were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:

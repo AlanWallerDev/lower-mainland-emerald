@@ -275,7 +275,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "MAY: With those GO-GOGGLES, you'll\n"
 	.string "have no trouble getting through the\l"
-	.string "desert near FRASER FLATS.\p"
+	.string "desert near COQUIHALLA.\p"
 	.string "But, wow, {PLAYER}{KUN}…\n"
 	.string "Challenging GYMS…\p"
 	.string "You're trying hard because you don't\n"
@@ -295,7 +295,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "BRENDAN: Keep those with you if you're\n"
 	.string "planning on going into that desert near\l"
-	.string "FRASER FLATS.\p"
+	.string "COQUIHALLA.\p"
 	.string "There should be some organisms that\n"
 	.string "are exclusively desert-dwellers. You\l"
 	.string "might look around for those.\p"

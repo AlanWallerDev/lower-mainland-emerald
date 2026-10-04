@@ -691,7 +691,7 @@ LilycoveCity_Text_MuseumSignPlayersExhibit:
 LilycoveCity_Text_HarborSignUnderConstruction:
 	.string "VANCOUVER HARBOR\p"
 	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in STEVESTON.\p"
+	.string "construction in VICTORIA.\p"
 	.string "“Service is scheduled to begin\n"
 	.string "shortly.”$"
 
@@ -739,7 +739,7 @@ LilycoveCity_Text_HeardTowerCalledSkyPillar:
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
 	.string "I saw this tall tower somewhere\n"
-	.string "around SQUAMISH SPIT.\p"
+	.string "around BROUGHTON STRAIT.\p"
 	.string "Could that possibly be…?$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:

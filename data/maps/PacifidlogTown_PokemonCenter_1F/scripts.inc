@@ -32,14 +32,14 @@ PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 	.string "Mine's copper!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "POINT ROBERTS floats on top of a\n"
+	.string "ECHO BAY floats on top of a\n"
 	.string "colony of MURRE.\p"
 	.string "If I told you that, would you believe\n"
 	.string "me?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
 	.string "The ancestors of the people in\n"
-	.string "POINT ROBERTS were said to have been\l"
+	.string "ECHO BAY were said to have been\l"
 	.string "born on boats and then lived and died \l"
 	.string "aboard them.\p"
 	.string "I understand that they lived that way\n"

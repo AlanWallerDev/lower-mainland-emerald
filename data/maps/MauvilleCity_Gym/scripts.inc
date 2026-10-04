@@ -259,7 +259,7 @@ MauvilleCity_Gym_EventScript_GymStatue::
 MauvilleCity_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FRASER, the LEADER of SURREY GYM,\n"
+	.string "FRASER, the LEADER of HOPE GYM,\n"
 	.string "uses CHARM-type organisms.\p"
 	.string "If you challenge him with NIGHT-type\n"
 	.string "organisms, he'll zap them! Bzzt!\p"
@@ -315,7 +315,7 @@ MauvilleCity_Gym_Text_VivianDefeat:
 	.string "I'm shocked by your power!$"
 
 MauvilleCity_Gym_Text_VivianPostBattle:
-	.string "I've heard that SURREY was founded\n"
+	.string "I've heard that HOPE was founded\n"
 	.string "by FRASER.\p"
 	.string "He was a TRAINER long before we\n"
 	.string "became TRAINERS.\l"
@@ -329,7 +329,7 @@ MauvilleCity_Gym_Text_AngeloDefeat:
 	.string "My eyes are frazzled…$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle:
-	.string "SURREY GYM's FRASER has a shiny\n"
+	.string "HOPE GYM's FRASER has a shiny\n"
 	.string "forehead. It makes me happy!$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
@@ -343,7 +343,7 @@ MauvilleCity_Gym_Text_WattsonIntro:
 	.string "Wahahahah!\n"
 	.string "Now, that is amusing!\p"
 	.string "Then, I, FRASER, the LEADER of\n"
-	.string "SURREY GYM, shall electrify you!$"
+	.string "HOPE GYM, shall electrify you!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Wahahahah!\n"
@@ -382,10 +382,10 @@ MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Go forth and endeavor, youngster!$"
 
 MauvilleCity_Gym_Text_GymStatue:
-	.string "SURREY GYM$"
+	.string "HOPE GYM$"
 
 MauvilleCity_Gym_Text_GymStatueCertified:
-	.string "SURREY GYM\p"
+	.string "HOPE GYM\p"
 	.string "FRASER'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
