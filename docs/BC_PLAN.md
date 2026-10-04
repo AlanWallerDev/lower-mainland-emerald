@@ -1,8 +1,8 @@
-# BC Emerald: expansion plan
+# Pokémon BC: expansion plan
 
 Approved 2026-10-04 (logged in Living Atlas `docs/DECISIONS.md`). Decided: option C map
 approach, 202-entry all-BC Field Journal, starters, CINDER and RIPTIDE, legendaries, public
-repo, drop the "Lower Mainland Emerald" title. Still open: new title, Indigenous content.
+repo, title **Pokémon BC**, Indigenous content limited to common place names.
 All story names and lines below are stand-ins.
 
 ## Where the hack is today
@@ -181,9 +181,8 @@ Beats, following Emerald's order:
   Survey) replace the Regi braille puzzles as the trail to the sealed chambers.
 - **Settler-era history as background:** Steveston canneries, the Fraser gold rush at
   Yale, the railway, logging and hydro dams. Told through signs, books and NPCs.
-- **Indigenous content: needs an owner decision.** Recommendation: use place names as they
-  are commonly used, and do not use sacred figures (Thunderbird, Sasq'ets, Sisiutl), crests,
-  formline art or stories without consent from the Nations involved.
+- **Indigenous content (decided):** place names as they are commonly used. No sacred
+  figures, crests, formline art or stories. The cryptids appear under common English names only.
 
 ## 5. Phases
 
@@ -201,5 +200,4 @@ Each phase ends with a playable build and headless mGBA screenshots.
 
 ## Open questions
 
-1. New title (and whether to rename the GitHub repo).
-2. Indigenous content beyond the cryptids: the recommendation above?
+None right now.

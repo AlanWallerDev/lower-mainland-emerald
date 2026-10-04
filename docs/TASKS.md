@@ -11,7 +11,8 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 ## P1 Design lock
 - [ ] Final Hoenn-to-BC place table in `atlas/locations.json` (towns, routes, landmarks)
 - [ ] 202-entry BC roster list: slot, organism, habitat, life-stage lines
-- [ ] Title chosen; new title logo
+- [x] Title chosen (Pokémon BC); new title logo
+- [ ] Title screen silhouette: Rayquaza to Marbled Murrelet
 
 ## P2 Roster
 - [ ] `atlas/bc_species.json` (Living Atlas schema, `bc-` ids) for new BC species

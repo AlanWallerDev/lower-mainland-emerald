@@ -1,0 +1,4 @@
+wait 400
+press START
+wait 700
+shot $OUT/title.ppm

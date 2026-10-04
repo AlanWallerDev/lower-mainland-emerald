@@ -1,4 +1,4 @@
-# BC Emerald (working title)
+# Pokémon BC
 
 A hack of Pokémon Emerald, built on the [pret/pokeemerald](https://github.com/pret/pokeemerald)
 decompilation, where every creature is a real organism from the *Living Atlas* species database
@@ -12,6 +12,7 @@ and the region is British Columbia. The hack is being expanded province-wide: se
 |---|---|
 | Organisms | All 386 species replaced with Living Atlas organisms, southwest-BC species first (banana slug, red fox, beaver, orca, bald eagle, plus fungi, kelp and slime molds). Stats, types, Field Journal entries, heights and weights come from the database. Only real life stages evolve (caterpillars, moon jellies, slime molds). |
 | Types | The 15 Living Atlas types (Common, Ember, Aqua, Verdant, Frost, Brawn, Toxin, Soil, Sky, Mind, Chitin, Stone, Night, Armor, Charm) with the Living Atlas type chart. Ghost and Dragon are retired; their moves were retyped. |
+| Title | **Pokémon BC**: original wordmark, "BC" banner in place of "EMERALD VERSION" (`atlas/make_title.py`). |
 | Art | Stand-in sprites drawn per organism from its own art spec: a body rig (fox, raccoon, orca, puffin, owl, butterfly, jelly, mushroom, sequoia, tardigrade…) with the organism's real colours and markings. Microbes appear in a microscope field. New title logo. |
 | Places | Towns, routes and landmarks renamed to Lower Mainland places: Ladner, Richmond, Burnaby, Steveston, Surrey, Harrison, Vancouver, Deep Cove, Whistler, River Road, Burns Bog, Sea to Sky… |
 | Text | No Pokémon terms: organisms, partners, FIELD JOURNAL, FIELD STATION, FIELD JAR, TRAILNAV, NATURALIST, NATURE LEAGUE. Old species names in dialogue are now the organisms. |
@@ -42,7 +43,7 @@ clean tree.
 | `apply_species.js`, `lib/moves.js` | Species data, Field Journal, learnsets, TM/tutor compatibility, evolutions. |
 | `apply_types.py` | Type names, chart, retyped moves, type icons. |
 | `make_sprites.py`, `sprites/` | Stand-in art: `sprites/engine.py` renderer, `rigs_*.py` body rigs, `specs_*.py` one entry per organism (rig, colours, markings). Preview: `python3 -m atlas.sprites.preview out.png all`. |
-| `make_title.py` | Title logo. |
+| `make_title.py` | Title logo: original wordmark plus a "BC" banner. Needs the `upstream` remote (pret/pokeemerald). |
 | `apply_wild.js` | Habitat-based wild encounters. |
 | `locations.json`, `apply_locations.js` | Place names. |
 | `apply_text.js`, `lib/text.js` | Terminology pass and re-wrapping to the message box. |
