@@ -1,7 +1,9 @@
 # BC Emerald: expansion plan
 
-Draft for owner review (2026-10-04). Nothing here is decided until it is logged in
-Living Atlas `docs/DECISIONS.md`. All story names and lines below are stand-ins.
+Approved 2026-10-04 (logged in Living Atlas `docs/DECISIONS.md`). Decided: option C map
+approach, 202-entry all-BC Field Journal, starters, CINDER and RIPTIDE, legendaries, public
+repo, drop the "Lower Mainland Emerald" title. Still open: new title, Indigenous content.
+All story names and lines below are stand-ins.
 
 ## Where the hack is today
 
@@ -107,24 +109,34 @@ Sockeye alevin to smolt to spawner, Pacific tree frog tadpole to frog, rough-ski
 eft to newt, Dungeness crab megalopa to crab, darner nymph to dragonfly, moon jelly polyp
 to medusa (have), tiger swallowtail caterpillar to butterfly (have).
 
-### Starters (pick one per type)
+### Starters (decided)
 
-| Type | Option 1 | Option 2 |
+| Slot | Organism | Type | Stages | Note |
+|---|---|---|---|---|
+| Treecko | Skunk Cabbage | Verdant | seed, seedling, flowering plant | Warms itself to melt through snow |
+| Torchic | Morel | Ember | spore, mycelium, fruiting body | Fruits in burned forest the spring after a fire |
+| Mudkip | American Beaver (`na-136`) | Aqua | kit, yearling, adult | Already in this slot |
+
+### Legendaries and mythicals
+
+Owner rule: legendaries are **very rare** organisms; mythicals are BC cryptids. Picks within
+that rule were delegated to Claude.
+
+| Slot | Organism | Why |
 |---|---|---|
-| Verdant | Douglas-fir: seedling, sapling, giant | Western redcedar (same stages) |
-| Ember | Fire-chaser beetle: grub, pupa, adult | Fireweed: seed, rosette, bloom |
-| Aqua | Sockeye: alevin, smolt, spawner | Coho (same stages) |
+| Groudon (land) | Spirit bear (Kermode) | A few hundred white black bears, almost all on the North Coast; CINDER's target |
+| Kyogre (sea) | Hecate glass sponge reef | Thought extinct for 40 million years until found in 1987; RIPTIDE's target |
+| Rayquaza (sky) | Marbled Murrelet | Seabird that nests high in old growth; its nest stayed unknown until 1974. Links land and sea, so it calms both |
+| Latias/Latios (roaming) | Vancouver Island Marmot pair | One of the rarest mammals on Earth (under 30 in the wild in 2003) |
+| Regis | Opabinia (`fo-005`), Pikaia (`fo-009`), Marrella (new) | Burgess Shale, found only in BC; sealed in the Yoho dig |
+| Root/Claw fossils | Hallucigenia (`fo-006`), Anomalocaris (`fo-004`) | Burgess Shale |
+| Mew (Faraway Island) | **Sasquatch** | Hide-and-seek in deep forest grass |
+| Lugia (Navel Rock) | **Caddy** (Cadborosaurus) | Sea serpent named by a Victoria paper in 1933 |
+| Deoxys (Birth Island) | **Ogopogo** | Island becomes Rattlesnake Island, Okanagan Lake |
 
-### Legendaries (real organisms, per Living Atlas rules)
-
-| Slot | Proposal | Alternatives |
-|---|---|---|
-| Groudon (land) | Ancient Douglas-fir ("Big Lonely Doug") | Lodgepole pine stand, grizzly |
-| Kyogre (sea) | Glass sponge reef | Blue whale, white sturgeon |
-| Rayquaza (sky) | Peregrine falcon of the Chief | Bald eagle, marbled murrelet |
-| Regis | Burgess Shale trio: Anomalocaris, Opabinia, Hallucigenia | Tumbler Ridge dinosaurs |
-| Latias/Latios (roaming) | Spirit bear (Kermode) pair | Resident and Bigg's orca |
-| Root/Claw fossils | Pikaia and Anomalocaris | Elasmosaur |
+Cryptids use their common English names only. Their Field Journal entries describe
+reported sightings, not invented biology, and draw on no Indigenous stories or art. Their
+islands should be reachable after the credits without event tickets.
 
 ## 3. Story (stand-in outline, owner's call)
 
@@ -177,7 +189,7 @@ Beats, following Emerald's order:
 
 | Phase | Work | Rough size |
 |---|---|---|
-| 0. Housekeeping | Repo visibility (see below), `docs/STATE.md` and `docs/TASKS.md` here, verify the build | 1 session |
+| 0. Housekeeping | `docs/STATE.md` and `docs/TASKS.md` here, verify the build | 1 session |
 | 1. Design lock | Owner answers the open questions; final place table; final 202 roster list | 1 to 2 sessions |
 | 2. Roster | `bc_species.json`, picker change (BC-only regional journal), sprites through the existing rigs, learnsets, wild tables by real habitat | 4 to 6 sessions |
 | 3. World | Renames, BC TrailNav map, tile palette swaps, signs | 3 to 4 sessions |
@@ -189,12 +201,5 @@ Each phase ends with a playable build and headless mGBA screenshots.
 
 ## Open questions
 
-1. Scope: option C (hybrid) as recommended, or A or B?
-2. Roster: 202 all-BC regional journal plus worldwide post-game, and the new BC species
-   living in this repo?
-3. Starters and legendaries: picks from the tables above?
-4. Villains: CINDER and RIPTIDE on the fire-and-flood theme?
-5. Indigenous content: the recommendation above?
-6. Repo visibility: DECISIONS says the hack lives in a private repo, but
-   `lower-mainland-emerald` is public. Make it private?
-7. Name: keep "Lower Mainland Emerald" or rename for the whole province?
+1. New title (and whether to rename the GitHub repo).
+2. Indigenous content beyond the cryptids: the recommendation above?

@@ -42,6 +42,7 @@ prefabs.json
 *.diff
 *.sym
 *.js
+!atlas/**/*.js
 /pokeemerald-*.png
 /pokeemerald_modern-*.png
 .porydaw/

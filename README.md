@@ -1,8 +1,8 @@
-# Lower Mainland Emerald
+# BC Emerald (working title)
 
 A hack of Pokémon Emerald, built on the [pret/pokeemerald](https://github.com/pret/pokeemerald)
 decompilation, where every creature is a real organism from the *Living Atlas* species database
-and the region is the Lower Mainland of British Columbia.
+and the region is British Columbia. The hack is being expanded province-wide: see [docs/BC_PLAN.md](docs/BC_PLAN.md).
 
 **This repository holds source only. It never contains ROMs.** You build the game yourself.
 
