@@ -50,6 +50,9 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
   left the bedroom): clock, rival, RIVER ROAD, starter from the bag, first battle won, lab. It found
   five menu strings that overflowed once {PKMN} became PARTNER (`41_menu_widths`, e.g. "Do what
   with this one?").
+- **Rival playtest** (`rival.txt`): from power-on through the lab (answer YES to meeting the rival),
+  then a save-and-continue warp to BOUNDARY BAY with REPEL poked on (SaveBlock1 0x13DE); MAY's
+  line and battle play (MORELSPORE vs BEAVERKIT, a type disadvantage like Torchic vs Mudkip).
 - **Post-game played**: `postgame.txt` (island tickets, `docs/postgame_desk.png`) and
   `survey.txt` (ISLAND CAVE survey note). Harness: `sb1poke`, `reset`, fresh save per run.
 
@@ -64,7 +67,7 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 1. P5: Burgess Shale dig as its own map (Yoho), reached from ROGERS PASS.
 2. P3: new coast and Interior tiles (need map edits; find where they would go first).
-3. Extend the playtest past the lab: rival battle on BOUNDARY BAY, then RICHMOND.
+3. Extend the playtest: RICHMOND and DAD's gym, then the first gym in SQUAMISH.
 
 ## Waiting on the owner
 

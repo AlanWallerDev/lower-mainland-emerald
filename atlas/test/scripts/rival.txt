@@ -1,6 +1,6 @@
-# Power-on to the first battle and through it: new game (4x speed, Nuzlocke on), set the clock, meet
-# the rival, RIVER ROAD, pick MORELSPORE from the bag, win the battle. Replaces the old opening.txt.
-# Run: atlas/test/run.sh atlas/test/scripts/firstbattle.txt
+# Power-on through the first battle and the lab, then a save-and-continue warp to BOUNDARY BAY (repel
+# poked on) and the rival battle against MAY's BEAVERKIT.
+# Run: atlas/test/run.sh atlas/test/scripts/rival.txt
 wait 400
 press START
 wait 600
@@ -351,4 +351,53 @@ shot $OUT/fb_battle3.ppm
 repeat B 20
 wait 300
 shot $OUT/fb_battle4.ppm
-savestate $OUT/lab.state
+repeat B 30
+wait 100
+press A
+wait 60
+repeat B 20
+wait 100
+sb1poke @gSaveBlock1Ptr 13de fa
+sb1poke @gSaveBlock1Ptr 13df 0
+sb1poke @gSaveBlock1Ptr c 0
+sb1poke @gSaveBlock1Ptr d 12
+sb1poke @gSaveBlock1Ptr e ff
+sb1poke @gSaveBlock1Ptr 10 a
+sb1poke @gSaveBlock1Ptr 11 0
+sb1poke @gSaveBlock1Ptr 12 4
+sb1poke @gSaveBlock1Ptr 13 0
+sb1poke @gSaveBlock2Ptr 9 1
+press START
+wait 30
+press DOWN
+wait 8
+press DOWN
+wait 8
+press DOWN
+wait 8
+shot $OUT/rv1.ppm
+press A
+wait 60
+press A
+wait 300
+shot $OUT/rv2.ppm
+press B
+wait 60
+reset
+repeat A 60
+wait 120
+shot $OUT/rv3.ppm
+press UP 2
+wait 20
+press A
+wait 100
+shot $OUT/rv4.ppm
+repeat B 12
+wait 400
+shot $OUT/rv5.ppm
+press A
+wait 20
+press DOWN
+wait 10
+press A
+wait 500
