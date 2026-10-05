@@ -1197,8 +1197,7 @@ SlateportCity_Text_OceanicMuseumSign:
 
 SlateportCity_Text_CitySign:
 	.string "VICTORIA\p"
-	.string "“The port where people and organisms\n"
-	.string "cross paths.”$"
+	.string "“The harbour city at the island's tip.”$"
 
 SlateportCity_Text_MarketSign:
 	.string "VICTORIA MARKET\n"

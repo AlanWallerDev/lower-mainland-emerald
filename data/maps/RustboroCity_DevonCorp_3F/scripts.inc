@@ -191,8 +191,8 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
-	.string "I'm MR. STONE, the PRESIDENT of\n"
-	.string "the DEVON CORPORATION.\p"
+	.string "I'm MR. DAWSON, the PRESIDENT of\n"
+	.string "the SUMMIT CORPORATION.\p"
 	.string "I'd just got word about you!\p"
 	.string "You saved our staff not just once,\n"
 	.string "but twice!\p"
@@ -203,10 +203,10 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "Well, on the way, could you stop off in\n"
 	.string "TOFINO?\p"
 	.string "I was hoping that you'd deliver a\n"
-	.string "LETTER to STEVEN in TOFINO.$"
+	.string "LETTER to DAWSON in TOFINO.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
-	.string "MR. STONE: Now, you should know that\n"
+	.string "MR. DAWSON: Now, you should know that\n"
 	.string "I am a great PRESIDENT.\p"
 	.string "So, I'd never be so cheap as to ask\n"
 	.string "a favor for nothing in return.\p"
@@ -216,7 +216,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 	.string "{PLAYER} received a TRAILNAV.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-	.string "MR. STONE: That device…\p"
+	.string "MR. DAWSON: That device…\p"
 	.string "It's a TRAIL NAVIGATOR, or TRAILNAV\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
@@ -232,21 +232,21 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "up before you go on your way.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
-	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
+	.string "MR. DAWSON: Well, then, {PLAYER}{KUN},\n"
 	.string "go with caution and care!$"
 
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
-	.string "MR. STONE: I'm counting on you!$"
+	.string "MR. DAWSON: I'm counting on you!$"
 
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
-	.string "MR. STONE: You delivered my LETTER?\n"
+	.string "MR. DAWSON: You delivered my LETTER?\n"
 	.string "Thank you kindly!\p"
 	.string "This is my way of thanking you.\n"
 	.string "It should help you, a TRAINER.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
-	.string "MR. STONE: An organism holding that EXP.\n"
-	.string "SHARE will be given some of the EXP\l"
+	.string "MR. DAWSON: An organism holding that\n"
+	.string "EXP. SHARE will be given some of the EXP\l"
 	.string "Points from battle.\p"
 	.string "It will get EXP Points even if it didn't\n"
 	.string "actually battle.\p"
@@ -254,15 +254,15 @@ RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "for raising weak organisms.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
-	.string "MR. STONE: Since my youth, I've immersed\n"
-	.string "myself in work.\p"
+	.string "MR. DAWSON: Since my youth, I've\n"
+	.string "immersed myself in work.\p"
 	.string "Consequently, I'm not familiar with\n"
 	.string "trends and that sort of thing.\p"
 	.string "But do young people all want to be\n"
 	.string "TRAINERS in the NATURE LEAGUE?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-	.string "This is the DEVON CORPORATION's\n"
+	.string "This is the SUMMIT CORPORATION's\n"
 	.string "third floor.\p"
 	.string "Our PRESIDENT's OFFICE is on\n"
 	.string "this floor.\p"
@@ -292,7 +292,7 @@ RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
 	.string "you should go see CAPT. STERN.$"
 
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
-	.string "DEVON's new products, the REPEAT JAR\n"
+	.string "SUMMIT's new products, the REPEAT JAR\n"
 	.string "and TIMER JAR, have become hugely\l"
 	.string "popular among TRAINERS.$"
 

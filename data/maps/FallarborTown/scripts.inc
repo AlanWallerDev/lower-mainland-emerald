@@ -86,8 +86,8 @@ FallarborTown_Text_BattleTentSign:
 	.string "“May the Greatest Teams Gather!”$"
 
 FallarborTown_Text_TownSign:
-	.string "KAMLOOPS\n"
-	.string "“A farm community with small gardens.”$"
+	.string "KAMLOOPS “Sagebrush hills where two\n"
+	.string "rivers meet.”$"
 
 FallarborTown_Text_MoveTutorSign:
 	.string "MOVE TUTOR'S HOUSE “New moves taught\n"

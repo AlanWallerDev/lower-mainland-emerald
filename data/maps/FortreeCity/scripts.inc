@@ -133,18 +133,17 @@ FortreeCity_Text_SomethingUnseeable:
 
 FortreeCity_Text_UnseeableUseDevonScope:
 	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Want to use the SUMMIT SCOPE?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
+	.string "{PLAYER} used the SUMMIT SCOPE.\p"
 	.string "An invisible organism became completely\n"
 	.string "visible!\p"
 	.string "The startled organisms fled!$"
 
 FortreeCity_Text_CitySign:
-	.string "REVELSTOKE\n"
-	.string "“The treetop city that frolics with\l"
-	.string "nature.”$"
+	.string "REVELSTOKE “Treetop town in the inland\n"
+	.string "rainforest.”$"
 
 FortreeCity_Text_GymSign:
 	.string "REVELSTOKE GYM LEADER: MACGILL\p"

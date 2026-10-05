@@ -302,7 +302,7 @@ MossdeepCity_Movement_ScottExitEast:
 	step_end
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
+	.string "I got this from DAWSON, but I don't\n"
 	.string "know what it's good for.\p"
 	.string "I think it's called KING'S ROCK.\n"
 	.string "Do you want it?$"
@@ -311,10 +311,10 @@ MossdeepCity_Text_YouCanKeepIt:
 	.string "Why would you want it?\n"
 	.string "You're weird.\p"
 	.string "You can keep it, but keep it a secret\n"
-	.string "from STEVEN.$"
+	.string "from DAWSON.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house is right over there!$"
+	.string "DAWSON's house is right over there!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
 	.string "Yeah, you think so, too! What are you\n"
@@ -393,8 +393,8 @@ MossdeepCity_Text_GymSign:
 	.string "“The mystic combination!”$"
 
 MossdeepCity_Text_CitySign:
-	.string "PRINCE RUPERT “Our slogan: Cherish\n"
-	.string "organisms!”$"
+	.string "PRINCE RUPERT “Port of the North\n"
+	.string "Coast.”$"
 
 MossdeepCity_Text_SpaceCenterSign:
 	.string "PRINCE RUPERT SPACE CENTER\n"

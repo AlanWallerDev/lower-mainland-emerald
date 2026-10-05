@@ -249,7 +249,7 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "You now stand at the glorious peak of\n"
 	.string "the NATURE LEAGUE.\p"
 	.string "I now proclaim you to be the new\n"
-	.string "HOENN region…$"
+	.string "BC…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 	.string "MAY: {PLAYER}{KUN}!\p"

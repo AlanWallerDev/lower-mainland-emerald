@@ -6,7 +6,9 @@
 		"04_teams.tsv",
 		"05_team_phrases.tsv",
 		"06_team_fix.tsv",
-		"07_motives.tsv"
+		"07_motives.tsv",
+		"08_names_fix.tsv",
+		"09_signs.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",
@@ -87,6 +89,7 @@
 		"characters.JUAN": "FORTES",
 		"characters.SIDNEY": "SMITH",
 		"characters.DRAKE": "VANCOUVER",
+		"characters.STEVEN": "DAWSON",
 		"characters.MAXIE": "ASHBY",
 		"characters.TABITHA": "KENDALL",
 		"characters.ARCHIE": "HOLLIS",

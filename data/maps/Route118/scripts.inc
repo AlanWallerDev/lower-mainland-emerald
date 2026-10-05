@@ -237,8 +237,8 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
+	.string "DAWSON: Hi, {PLAYER}{KUN}!\p"
+	.string "It's me, DAWSON!\n"
 	.string "We met in the cave near TOFINO.\p"
 	.string "Have you met many kinds of organisms\n"
 	.string "since I last saw you?\p"

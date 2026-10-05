@@ -1580,7 +1580,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string "organisms…$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
-	.string "STEVEN: Those organisms fighting…\n"
+	.string "DAWSON: Those organisms fighting…\n"
 	.string "SPIRITBEAR… And SPONGEREEF…\p"
 	.string "The two super-ancient organisms were\n"
 	.string "awakened from a long sleep…\p"
@@ -1595,7 +1595,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "Come with me, please.$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
-	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
+	.string "DAWSON: Listen, {PLAYER}{KUN}.\p"
 	.string "Does seeing SPIRITBEAR and\n"
 	.string "SPONGEREEF make you think organisms\l"
 	.string "are to be feared?\p"
@@ -1605,28 +1605,28 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "You already know.$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
-	.string "STEVEN: Okay, here we are!\p"
+	.string "DAWSON: Okay, here we are!\p"
 	.string "Inside here you'll find someone named\n"
 	.string "WALLACE.\p"
 	.string "I think you have what's needed to\n"
 	.string "help him…$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
-	.string "STEVEN: I think you have what's\n"
+	.string "DAWSON: I think you have what's\n"
 	.string "needed to help him…$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "STEVEN: The STAWAMUS CHIEF…\p"
+	.string "DAWSON: The STAWAMUS CHIEF…\p"
 	.string "I've never been there.\n"
 	.string "I wonder where it could be?$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-	.string "STEVEN: So that's MURRELET…\p"
+	.string "DAWSON: So that's MURRELET…\p"
 	.string "It's incredible how the two rampaging\n"
 	.string "organisms would flee from it in fear…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "STEVEN: It looks like both ASHBY\n"
+	.string "DAWSON: It looks like both ASHBY\n"
 	.string "and HOLLIS have gone away\l"
 	.string "somewhere.\p"
 	.string "Perhaps they've gone to MOUNTAIN VIEW\n"

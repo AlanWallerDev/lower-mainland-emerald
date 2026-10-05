@@ -915,8 +915,8 @@ RustboroCity_EventScript_Boy1::
 	end
 
 RustboroCity_Text_WeShortenItToDevon:
-	.string "The DEVON CORPORATION…\n"
-	.string "We all just shorten it to DEVON.\p"
+	.string "The SUMMIT CORPORATION…\n"
+	.string "We all just shorten it to SUMMIT.\p"
 	.string "That company makes all sorts of\n"
 	.string "convenient products.$"
 
@@ -1001,7 +1001,7 @@ RustboroCity_Text_HelpMeIWasRobbed:
 	.string "You're that fantastic TRAINER who\n"
 	.string "helped me in PACIFIC SPIRIT!\p"
 	.string "Help me! I was robbed by TEAM RIPTIDE!\n"
-	.string "I have to get the DEVON GOODS back!\p"
+	.string "I have to get the SUMMIT GOODS back!\p"
 	.string "If I don't…\n"
 	.string "I'm going to be in serious trouble.$"
 
@@ -1011,7 +1011,7 @@ RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 
 RustboroCity_Text_YouGotItThankYou:
 	.string "Oh! How did it go?\n"
-	.string "The DEVON GOODS?\p"
+	.string "The SUMMIT GOODS?\p"
 	.string "You did!\n"
 	.string "You got them back!\p"
 	.string "You really are a great TRAINER!\p"
@@ -1125,7 +1125,7 @@ RustboroCity_Text_TunnelNearingCompletion:
 	.string "across it in red paint…$"
 
 RustboroCity_Text_DevonCorpSign:
-	.string "DEVON CORPORATION\p"
+	.string "SUMMIT CORPORATION\p"
 	.string "“For all your living needs, we make\n"
 	.string "it all.”$"
 
@@ -1134,14 +1134,13 @@ RustboroCity_Text_GymSign:
 	.string "“The STONE-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
-	.string "DEVON CORP. BRANCH OFFICE\p"
-	.string "“Access limited to DEVON employees\n"
+	.string "SUMMIT CORP. BRANCH OFFICE\p"
+	.string "“Access limited to SUMMIT employees\n"
 	.string "and authorized personnel.”$"
 
 RustboroCity_Text_CitySign:
 	.string "SQUAMISH\p"
-	.string "“The city probing the integration of\n"
-	.string "nature and science.”$"
+	.string "“Where the granite meets the sound.”$"
 
 RustboroCity_Text_TrainersSchoolSign:
 	.string "NATURALIST'S SCHOOL\p"

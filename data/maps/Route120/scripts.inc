@@ -354,7 +354,7 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
+	.string "DAWSON: Hm? {PLAYER}{KUN}, hi.\n"
 	.string "It's been a while.\p"
 	.string "There's something here that you can't\n"
 	.string "see, right?\p"
@@ -367,35 +367,35 @@ Route120_Text_StevenGreeting:
 	.string "battle?$"
 
 Route120_Text_StevenIllWaitHere:
-	.string "STEVEN: No?\p"
+	.string "DAWSON: No?\p"
 	.string "I'll wait here, so you can get ready.$"
 
 Route120_Text_StevenReadyForBattle:
-	.string "STEVEN: {PLAYER}{KUN}, are your partners\n"
+	.string "DAWSON: {PLAYER}{KUN}, are your partners\n"
 	.string "ready for battle?$"
 
 Route120_Text_StevenShowMeYourPower:
-	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
+	.string "DAWSON: {PLAYER}{KUN}, show me your true\n"
 	.string "power as a TRAINER!$"
 
 Route120_Text_StevenUsedDevonScope:
-	.string "STEVEN used the DEVON SCOPE.\p"
+	.string "DAWSON used the SUMMIT SCOPE.\p"
 	.string "An invisible organism became completely\n"
 	.string "visible!\p"
 	.string "The startled organisms attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "STEVEN: I see…\n"
+	.string "DAWSON: I see…\n"
 	.string "Your battle style is intriguing.\p"
 	.string "Your organisms have obviously grown\n"
 	.string "since I first met you in TOFINO.\p"
 	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
+	.string "SUMMIT SCOPE.\p"
 	.string "Who knows, there may be other\n"
 	.string "concealed organisms.$"
 
 Route120_Text_StevenGoodbye:
-	.string "STEVEN: {PLAYER}{KUN}.\p"
+	.string "DAWSON: {PLAYER}{KUN}.\p"
 	.string "I enjoy seeing organisms and TRAINERS\n"
 	.string "who strive together.\p"
 	.string "I think you're doing great.\p"
@@ -406,10 +406,10 @@ Kecleon_Text_SomethingUnseeable:
 
 Kecleon_Text_WantToUseDevonScope:
 	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Want to use the SUMMIT SCOPE?$"
 
 Kecleon_Text_UseDevonScopeMonAttacked:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
+	.string "{PLAYER} used the SUMMIT SCOPE.\p"
 	.string "An invisible organism became completely\n"
 	.string "visible!\p"
 	.string "The startled organisms attacked!$"

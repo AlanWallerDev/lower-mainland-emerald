@@ -49,6 +49,5 @@ PacifidlogTown_Text_SkyPillarTooScary:
 
 PacifidlogTown_Text_TownSign:
 	.string "ECHO BAY\p"
-	.string "“Where the morning sun smiles upon\n"
-	.string "the waters.”$"
+	.string "“A village of float homes.”$"
 

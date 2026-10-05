@@ -614,7 +614,7 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
 
 MauvilleCity_Text_CitySign:
 	.string "HOPE\n"
-	.string "“The bright and shiny city of fun!”$"
+	.string "“Where the highways meet.”$"
 
 MauvilleCity_Text_GymSign:
 	.string "HOPE GYM LEADER: FRASER “The\n"

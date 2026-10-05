@@ -1093,7 +1093,7 @@ MatchCall_PersonalizedText39::
 	.string "I just put on some suntan oil.\p"
 	.string "So my TRAILNAV went whoopsy out of my\n"
 	.string "hand into the water!\p"
-	.string "But, boy, DEVON's TRAILNAV is built\n"
+	.string "But, boy, SUMMIT's TRAILNAV is built\n"
 	.string "tough. It survived that dunking!\p"
 	.string "Anyways, I'm busy sunbathing,\n"
 	.string "so let's chat another time.$"
@@ -2283,7 +2283,7 @@ MatchCall_Text_Drake::
 
 MatchCall_Text_Wallace::
 	.string "WALLACE: Hello, {PLAYER}{KUN}.\n"
-	.string "Have you met STEVEN?\p"
+	.string "Have you met DAWSON?\p"
 	.string "He is…\n"
 	.string "Actually incredibly skilled.\p"
 	.string "However, he's an odd soul who\n"
@@ -2758,7 +2758,7 @@ MatchCall_Text_Norman_PostRematch::
 	.string "How much higher will you soar?$"
 
 MatchCall_Text_Steven1::
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
+	.string "DAWSON: Hi, {PLAYER}{KUN}!\p"
 	.string "Have you been to HOPE\n"
 	.string "already?\p"
 	.string "You should visit the BIKE SHOP\n"
@@ -2769,14 +2769,14 @@ MatchCall_Text_Steven1::
 	.string "there.$"
 
 MatchCall_Text_Steven2::
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
+	.string "DAWSON: Hi, {PLAYER}{KUN}!\p"
 	.string "I've met a lot of different\n"
 	.string "TRAINERS so far.\p"
 	.string "But you're one of a kind.\n"
 	.string "You're not like anyone else.$"
 
 MatchCall_Text_Steven3::
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
+	.string "DAWSON: Hi, {PLAYER}{KUN}!\p"
 	.string "When you're on an adventure with your\n"
 	.string "partner, what do you think?\p"
 	.string "Do you consider them to be strong\n"
@@ -2787,7 +2787,7 @@ MatchCall_Text_Steven3::
 	.string "adventure's significance changes.$"
 
 MatchCall_Text_Steven4::
-	.string "STEVEN: Hello?\n"
+	.string "DAWSON: Hello?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "I'm involved in a spot of trouble\n"
 	.string "at the SPACE CENTER.\p"
@@ -2795,7 +2795,7 @@ MatchCall_Text_Steven4::
 	.string "Bye!$"
 
 MatchCall_Text_Steven5::
-	.string "STEVEN: Oh!\n"
+	.string "DAWSON: Oh!\n"
 	.string "{PLAYER}{KUN}!\p"
 	.string "There's no need to talk.\n"
 	.string "It's past time for talking.\p"
@@ -2804,11 +2804,11 @@ MatchCall_Text_Steven5::
 
 MatchCall_Text_Steven6::
 	.string "… … … … … …\p"
-	.string "STEVEN appears not to be getting\n"
+	.string "DAWSON appears not to be getting\n"
 	.string "the call…$"
 
 MatchCall_Text_Steven7::
-	.string "STEVEN: {PLAYER}{KUN}… Congratulations\n"
+	.string "DAWSON: {PLAYER}{KUN}… Congratulations\n"
 	.string "for entering the HALL OF FAME.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -2836,7 +2836,7 @@ MatchCall_Text_UnusedProfBirch:
 	.string "organisms becomes more fun, eh?$"
 
 MatchCall_Text_MrStone1::
-	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
+	.string "MR. DAWSON: Oh? {PLAYER}{KUN}!\p"
 	.string "Since you called me, the TRAILNAV must\n"
 	.string "be working properly!\p"
 	.string "Other people will be registered,\n"
@@ -2851,11 +2851,11 @@ MatchCall_Text_MrStone1::
 	.string "See you again!$"
 
 MatchCall_Text_MrStone2::
-	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
+	.string "MR. DAWSON: Oh? {PLAYER}{KUN}!\p"
 	.string "What's wrong? Have you forgotten\n"
 	.string "about that little errand of mine?\p"
 	.string "I need you to deliver my letter\n"
-	.string "to STEVEN in TOFINO.\p"
+	.string "to DAWSON in TOFINO.\p"
 	.string "After that, deliver our parcel to\n"
 	.string "CAPT. STERN in VICTORIA.\p"
 	.string "You remember, don't you?\p"
@@ -2863,16 +2863,16 @@ MatchCall_Text_MrStone2::
 	.string "I have to go! Bye-bye!$"
 
 MatchCall_Text_MrStone3::
-	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
-	.string "Ah, so you've met STEVEN!\n"
+	.string "MR. DAWSON: Oh! {PLAYER}{KUN}!\p"
+	.string "Ah, so you've met DAWSON!\n"
 	.string "I'd better reward you, then!\p"
 	.string "When you visit SQUAMISH again,\n"
 	.string "come see me at my office.\p"
 	.string "I'll be waiting for you!$"
 
 MatchCall_Text_MrStone4::
-	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
-	.string "Did you know that DEVON was\n"
+	.string "MR. DAWSON: Oh! {PLAYER}{KUN}!\p"
+	.string "Did you know that SUMMIT was\n"
 	.string "digging the OTHELLO TUNNELS?\p"
 	.string "But we shut down the operation to\n"
 	.string "protect the organisms in the area.\p"
@@ -2882,14 +2882,14 @@ MatchCall_Text_MrStone4::
 	.string "convenience.$"
 
 MatchCall_Text_MrStone5::
-	.string "MR. STONE: Hello, hello, {PLAYER}{KUN}!\p"
+	.string "MR. DAWSON: Hello, hello, {PLAYER}{KUN}!\p"
 	.string "I heard from someone in RICHMOND\n"
 	.string "that you're NORMAN's child!\p"
 	.string "No wonder you're such a capable\n"
 	.string "being!$"
 
 MatchCall_Text_MrStone6::
-	.string "MR. STONE: What's that?\p"
+	.string "MR. DAWSON: What's that?\p"
 	.string "You battled your own father and\n"
 	.string "defeated him?\p"
 	.string "That's astounding!\p"
@@ -2898,7 +2898,7 @@ MatchCall_Text_MrStone6::
 
 MatchCall_Text_MrStone7::
 	.string "Hello!\n"
-	.string "This is DEVON CORPORATI…\l"
+	.string "This is SUMMIT CORPORATI…\l"
 	.string "Oh, hello, {PLAYER}!\p"
 	.string "Our PRESIDENT was here a little\n"
 	.string "while ago, but he's gone out.\p"
@@ -2920,7 +2920,7 @@ MatchCall_Text_MrStone9::
 	.string "BZZZZ…$"
 
 MatchCall_Text_MrStone10::
-	.string "MR. STONE: {PLAYER}{KUN}! It's me!\p"
+	.string "MR. DAWSON: {PLAYER}{KUN}! It's me!\p"
 	.string "You were apparently involved in all\n"
 	.string "sorts of things, but I, being busy,\l"
 	.string "haven't a clue exactly what!\p"
@@ -2930,9 +2930,9 @@ MatchCall_Text_MrStone10::
 	.string "Take care!$"
 
 MatchCall_Text_MrStone11::
-	.string "MR. STONE: … … … … … …\n"
+	.string "MR. DAWSON: … … … … … …\n"
 	.string "Is this maybe {PLAYER}{KUN}?\p"
 	.string "Your voice is so full of confidence,\n"
 	.string "I didn't recognize you right off!\p"
-	.string "Hm! You must come visit us at DEVON\n"
+	.string "Hm! You must come visit us at SUMMIT\n"
 	.string "sometime!$"

@@ -1019,7 +1019,7 @@ static const u8 sWailmerPailDesc[] = _(
 
 static const u8 sDevonGoodsDesc[] = _(
     "A package that\n"
-    "contains DEVON's\n"
+    "contains SUMMIT's\n"
     "machine parts.");
 
 static const u8 sSootSackDesc[] = _(
@@ -1043,9 +1043,9 @@ static const u8 sPokeblockCaseDesc[] = _(
     "a BERRY BLENDER.");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
+    "A letter to DAWSON\n"
     "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+    "of the SUMMIT CORP.");
 
 static const u8 sEonTicketDesc[] = _(
     "The ticket for a\n"
@@ -1112,7 +1112,7 @@ static const u8 sClawFossilDesc[] = _(
     "dwelling organism.");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by DEVON\n"
+    "A device by SUMMIT\n"
     "that signals any\n"
     "unseeable organisms.");
 

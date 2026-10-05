@@ -627,7 +627,7 @@ DewfordTown_Text_TinyIslandCommunity:
 
 DewfordTown_Text_TownSign:
 	.string "TOFINO\n"
-	.string "“A tiny island in the blue sea.”$"
+	.string "“Surf town at the edge of the Pacific.”$"
 
 DewfordTown_Text_GymSign:
 	.string "TOFINO GYM LEADER: JEROME “A big\n"
@@ -641,7 +641,7 @@ Route104_Text_LandedInDewfordDeliverLetter:
 	.string "MR. BRINEY: Ahoy!\n"
 	.string "We've hit land in TOFINO.\p"
 	.string "I suppose you're off to deliver that\n"
-	.string "LETTER to, who was it now, STEVEN!$"
+	.string "LETTER to, who was it now, DAWSON!$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
 	.string "MR. BRINEY: Have you delivered your\n"

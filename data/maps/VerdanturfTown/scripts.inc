@@ -100,7 +100,7 @@ VerdanturfTown_Text_EasyToGetToRustboroNow:
 	.string "That cave next to the MART is now a\n"
 	.string "tunnel to the other side.\p"
 	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in SQUAMISH now.$"
+	.string "new SUMMIT products in SQUAMISH now.$"
 
 VerdanturfTown_Text_TownSign:
 	.string "YALE\p"

@@ -717,7 +717,7 @@ PetalburgCity_Text_GymSign:
 
 PetalburgCity_Text_CitySign:
 	.string "RICHMOND\n"
-	.string "“Where people mingle with nature.”$"
+	.string "“Island city of the Fraser delta.”$"
 
 PetalburgCity_Text_WallyHouseSign:
 	.string "WALLY'S HOUSE$"

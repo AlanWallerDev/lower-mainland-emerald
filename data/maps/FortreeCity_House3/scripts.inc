@@ -12,7 +12,7 @@ FortreeCity_House3_EventScript_SchoolKidM::
 FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 	.string "While speaking about FIELD JOURNALS, I\n"
 	.string "remembered something.\p"
-	.string "I met this TRAINER, STEVEN, when\n"
+	.string "I met this TRAINER, DAWSON, when\n"
 	.string "I was searching for rare stones.\p"
 	.string "Hoo, boy, he had some amazing organisms\n"
 	.string "with him.\p"

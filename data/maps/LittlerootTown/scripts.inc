@@ -938,7 +938,7 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 
 LittlerootTown_Text_TownSign:
 	.string "LADNER\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "“Where the Fraser meets the sea.”$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. MACOUN'S FIELD LAB$"

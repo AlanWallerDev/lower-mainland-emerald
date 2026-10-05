@@ -31,6 +31,5 @@ EverGrandeCity_Text_EnteringPokemonLeague:
 
 EverGrandeCity_Text_CitySign:
 	.string "WHISTLER\p"
-	.string "“The paradise of flowers, the sea, and\n"
-	.string "organisms.”$"
+	.string "“Where the mountains meet the sky.”$"
 

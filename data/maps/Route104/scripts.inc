@@ -1065,8 +1065,8 @@ Route104_Text_TrainerTipsDoubleBattles:
 
 Route104_Text_MayWeShouldRegister:
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "DEVON upgraded your TRAILNAV with the\n"
-	.string "MATCH CALL system, huh?\p"
+	.string "SUMMIT upgraded your TRAILNAV with\n"
+	.string "the MATCH CALL system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
 
@@ -1111,7 +1111,7 @@ Route104_Text_MayPostBattle:
 
 Route104_Text_BrendanWeShouldRegister:
 	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
-	.string "Cool, you had DEVON install the MATCH\n"
+	.string "Cool, you had SUMMIT install the MATCH\n"
 	.string "CALL system on your TRAILNAV!\p"
 	.string "Let's register each other in our\n"
 	.string "TRAILNAVS so we can keep in touch.$"
