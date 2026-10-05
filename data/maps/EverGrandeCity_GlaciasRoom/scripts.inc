@@ -59,8 +59,8 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
-	.string "Welcome, my name is GLACIA of the ELITE\n"
-	.string "FOUR.\p"
+	.string "Welcome, my name is VAUX of the\n"
+	.string "ELITE FOUR.\p"
 	.string "I've traveled from afar to BC so that I\n"
 	.string "may hone my ice skills.\p"
 	.string "But all I have seen are challenges by\n"

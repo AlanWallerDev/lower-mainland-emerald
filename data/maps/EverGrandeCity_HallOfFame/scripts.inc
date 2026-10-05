@@ -80,7 +80,7 @@ EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2:
 	step_end
 
 EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
-	.string "WALLACE: This room…\p"
+	.string "NEWMAN: This room…\p"
 	.string "This is where we keep records of\n"
 	.string "organisms that prevailed through harsh\l"
 	.string "battles.\p"
@@ -88,7 +88,7 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
 	.string "are honored.$"
 
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
-	.string "WALLACE: Come on, let's record your\n"
+	.string "NEWMAN: Come on, let's record your\n"
 	.string "name as a TRAINER who triumphed over\l"
 	.string "the NATURE LEAGUE, and the names of\l"
 	.string "the partners who battled with you.$"

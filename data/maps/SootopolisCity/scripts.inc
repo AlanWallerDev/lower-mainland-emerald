@@ -1484,7 +1484,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "A TRAINER who has knowledge and\n"
 	.string "experience of many kinds of organisms…\p"
 	.string "If such a person were to appear, I was\n"
-	.string "instructed by WALLACE to lead that\l"
+	.string "instructed by NEWMAN to lead that\l"
 	.string "TRAINER to this CAVE.$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
@@ -1604,7 +1604,7 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 SootopolisCity_Text_HereWereAreHelpWallace:
 	.string "DAWSON: Okay, here we are!\p"
 	.string "Inside here you'll find someone named\n"
-	.string "WALLACE.\p"
+	.string "NEWMAN.\p"
 	.string "I think you have what's needed to\n"
 	.string "help him…$"
 
@@ -1630,7 +1630,7 @@ SootopolisCity_Text_MaxieArchieLeft:
 	.string "to return those ORBS…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
-	.string "WALLACE: Oh?\n"
+	.string "NEWMAN: Oh?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "Haven't you scaled the STAWAMUS CHIEF\n"
 	.string "yet?\p"
@@ -1638,14 +1638,14 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string "the top of the STAWAMUS CHIEF…$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
-	.string "WALLACE: {PLAYER}{KUN}…\p"
+	.string "NEWMAN: {PLAYER}{KUN}…\p"
 	.string "The leaders of TEAM CINDER and\n"
 	.string "RIPTIDE, I don't think they meant harm.\p"
 	.string "It wouldn't hurt to hear what they\n"
 	.string "have to say for themselves.$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
-	.string "WALLACE: {PLAYER}{KUN}… My eyes didn't\n"
+	.string "NEWMAN: {PLAYER}{KUN}… My eyes didn't\n"
 	.string "deceive me.\p"
 	.string "Thanks to your help, DEEP COVE… No, all\n"
 	.string "of BC was saved.\p"
@@ -1666,6 +1666,6 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "that door.$"
 
 SootopolisCity_Text_DazzledByMentor:
-	.string "WALLACE: I'm sure that you will be\n"
+	.string "NEWMAN: I'm sure that you will be\n"
 	.string "dazzled by my mentor's breathtakingly\l"
 	.string "elegant battle style.$"

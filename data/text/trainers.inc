@@ -1239,7 +1239,7 @@ Route111_Text_DrewPostBattle:
 	.string "That makes me happy!$"
 
 Route111_Text_HeidiIntro:
-	.string "I'm having a picnic in the desert.\p"
+	.string "I'm having a picnic in the badlands.\p"
 	.string "You can always find a TRAINER,\n"
 	.string "so I can enjoy a battle here, too!$"
 
@@ -1267,14 +1267,15 @@ Route111_Text_BeauPostBattle:
 
 Route111_Text_BeckyIntro:
 	.string "I heard there are fossils to be found\n"
-	.string "in the desert. Where could they be?$"
+	.string "in the badlands. Where could they be?$"
 
 Route111_Text_BeckyDefeat:
 	.string "I came up short…$"
 
 Route111_Text_BeckyPostBattle:
-	.string "If they can find fossils in the desert,\n"
-	.string "it must have been a sea before.$"
+	.string "If they can find fossils in the\n"
+	.string "badlands, it must have been a sea\l"
+	.string "before.$"
 
 Route111_Text_DustyIntro:
 	.string "For thirty years I have searched for\n"
@@ -1437,8 +1438,8 @@ Route111_Text_BryanDefeat:
 	.string "It is shrouded in mystery!$"
 
 Route111_Text_BryanPostBattle:
-	.string "This desert hoards mysteries in\n"
-	.string "its shifting sands!$"
+	.string "These badlands hoard mysteries in their\n"
+	.string "shifting sands!$"
 
 Route111_Text_BrandenIntro:
 	.string "I'll give you some of my sandwich\n"

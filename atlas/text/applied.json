@@ -32,7 +32,8 @@
 		"30_revelstoke.tsv",
 		"31_vancouver.tsv",
 		"32_endgame.tsv",
-		"33_articles.tsv"
+		"33_articles.tsv",
+		"34_badlands.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",
@@ -125,6 +126,9 @@
 		"characters.ARCHIE": "HOLLIS",
 		"characters.SHELLY": "MARINA",
 		"characters.MATT": "FINN",
+		"characters.GLACIA": "VAUX",
+		"characters.PHOEBE": "CAMERON",
+		"characters.WALLACE": "NEWMAN",
 		"species.BULBASAUR": "FLYTRAP",
 		"species.IVYSAUR": "PUYA",
 		"species.VENUSAUR": "SEQUOIA",

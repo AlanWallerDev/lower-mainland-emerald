@@ -2218,9 +2218,9 @@ MatchCall_Text_Juan_Preparing::
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our battle together--it brought\n"
 	.string "to me memories of when I first\l"
-	.string "encountered WALLACE.\p"
+	.string "encountered NEWMAN.\p"
 	.string "Perhaps you are a genius who may\n"
-	.string "yet surpass WALLACE!$"
+	.string "yet surpass NEWMAN!$"
 
 MatchCall_Text_Juan_PreparingPostGame::
 	.string "FORTES: Fufu… {PLAYER}{KUN}…\n"
@@ -2255,14 +2255,14 @@ MatchCall_Text_Sidney::
 	.string "I'll be waiting!$"
 
 MatchCall_Text_Phoebe::
-	.string "PHOEBE: Hi, {PLAYER}!\p"
+	.string "CAMERON: Hi, {PLAYER}!\p"
 	.string "How about coming back here again\n"
 	.string "sometime?\p"
 	.string "I'd like to see how much tighter your\n"
 	.string "bond has grown with your partners.$"
 
 MatchCall_Text_Glacia::
-	.string "GLACIA: Hello, {PLAYER}.\p"
+	.string "VAUX: Hello, {PLAYER}.\p"
 	.string "I trust you haven't become\n"
 	.string "complacent with your power?\p"
 	.string "If you feel the need to cool your hot\n"
@@ -2282,7 +2282,7 @@ MatchCall_Text_Drake::
 	.string "Don't you agree, {PLAYER}?$"
 
 MatchCall_Text_Wallace::
-	.string "WALLACE: Hello, {PLAYER}{KUN}.\n"
+	.string "NEWMAN: Hello, {PLAYER}{KUN}.\n"
 	.string "Have you met DAWSON?\p"
 	.string "He is…\n"
 	.string "Actually incredibly skilled.\p"
@@ -2363,13 +2363,12 @@ MatchCall_Text_May5::
 	.string "I'm out on COQUIHALLA now.\p"
 	.string "I'm going to get a rest at an old\n"
 	.string "lady's house.\p"
-	.string "She lives just north of\n"
-	.string "the desert.$"
+	.string "She lives just north of the badlands.$"
 
 MatchCall_Text_May6::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "Did you know about the HOODOO SPIRE in\n"
-	.string "the desert?\p"
+	.string "the badlands?\p"
 	.string "They say, like a mirage, it seems\n"
 	.string "to mysteriously come and go.\p"
 	.string "I wish I could see it.$"
@@ -2487,14 +2486,14 @@ MatchCall_Text_Brendan5::
 	.string "BRENDAN: {PLAYER}, what's up?\p"
 	.string "Hey, I'm out on COQUIHALLA now.\p"
 	.string "I'm going to rest up at an old\n"
-	.string "lady's house north of the desert.\p"
+	.string "lady's house north of the badlands.\p"
 	.string "If you're in the area, you should\n"
 	.string "visit her, too.$"
 
 MatchCall_Text_Brendan6::
 	.string "BRENDAN: Hey, {PLAYER}!\p"
 	.string "Did you know about the HOODOO SPIRE in\n"
-	.string "the desert?\p"
+	.string "the badlands?\p"
 	.string "They say, like a mirage, it can be\n"
 	.string "seen only sometimes.\p"
 	.string "I'd like to see that!$"

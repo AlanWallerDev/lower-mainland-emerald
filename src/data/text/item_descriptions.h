@@ -1070,7 +1070,7 @@ static const u8 sScannerDesc[] = _(
 static const u8 sGoGogglesDesc[] = _(
     "Nifty goggles that\n"
     "protect eyes from\n"
-    "desert sandstorms.");
+    "badland sandstorms.");
 
 static const u8 sMeteoriteDesc[] = _(
     "A meteorite found\n"

@@ -60,7 +60,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 	.string "Ahahaha!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
+	.string "I'm CAMERON of the ELITE FOUR.\n"
 	.string "I did my training on MOUNTAIN VIEW.\p"
 	.string "While I trained, I gained the ability to\n"
 	.string "commune with NIGHT-type organisms.\p"

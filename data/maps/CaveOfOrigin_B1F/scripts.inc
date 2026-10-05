@@ -58,7 +58,7 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "Ah, so you are {PLAYER}{KUN}?\n"
 	.string "I've heard tales of your exploits.\p"
-	.string "My name is WALLACE.\p"
+	.string "My name is NEWMAN.\p"
 	.string "I was once the GYM LEADER of\n"
 	.string "DEEP COVE, but something came up.\p"
 	.string "So now, I've entrusted my mentor\n"
@@ -81,19 +81,19 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "MURRELET's whereabouts…$"
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
-	.string "WALLACE: {PLAYER}{KUN}, do you perhaps know\n"
-	.string "where MURRELET is now?\p"
+	.string "NEWMAN: {PLAYER}{KUN}, do you perhaps\n"
+	.string "know where MURRELET is now?\p"
 	.string "If you do, please tell me.$"
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
-	.string "WALLACE: The CAVE OF ORIGIN?\p"
+	.string "NEWMAN: The CAVE OF ORIGIN?\p"
 	.string "But that's right here!\n"
 	.string "I need you to do better than that!\p"
 	.string "Please, I need you to think about where\n"
 	.string "MURRELET might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
-	.string "WALLACE: MOUNTAIN VIEW?\p"
+	.string "NEWMAN: MOUNTAIN VIEW?\p"
 	.string "But when I met the old lady there\n"
 	.string "earlier, she made no mention of it.\p"
 	.string "I very much doubt that the old lady\n"
@@ -102,12 +102,12 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 	.string "more carefully for me?$"
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
-	.string "WALLACE: Huh? You don't remember?\n"
+	.string "NEWMAN: Huh? You don't remember?\n"
 	.string "Hmm… That's a problem…\p"
 	.string "Can't you remember somehow?$"
 
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
-	.string "WALLACE: The STAWAMUS CHIEF?\p"
+	.string "NEWMAN: The STAWAMUS CHIEF?\p"
 	.string "That's it! It must be the STAWAMUS\n"
 	.string "CHIEF!\p"
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
