@@ -53,3 +53,7 @@ prefabs.json
 
 # Python bytecode
 __pycache__/
+
+# Launcher output: the built game and its save
+play/
+build_log.txt

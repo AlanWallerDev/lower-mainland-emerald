@@ -20,6 +20,17 @@ and the region is British Columbia. The hack is being expanded province-wide: se
 | Nuzlocke | Built in, chosen once at new game: first encounter per area only (dupes and shiny clauses), partners that faint (in battle or from poison) are released after the fight, every catch is nicknamed, and losing your whole party ends the run and erases the save. |
 | Game speed | OPTIONS → GAME SPEED 1x / 2x / 4x. Speeds up walking, battles and the intro; menus and screen transitions stay at normal speed. |
 
+## Play on Windows
+
+Double-click **`Play Pokemon BC.cmd`** in this folder. It gets the latest changes, builds the game inside
+WSL, copies it to `play\Pokemon BC.gba` and opens it in [mGBA](https://mgba.io/downloads.html). Your
+save stays in `play\` and survives rebuilds.
+
+First time only: WSL must be set up (`wsl --install` in an administrator PowerShell, then restart; see
+[INSTALL.md](INSTALL.md)). The launcher offers to install the build tools inside WSL, and asks you to
+install mGBA if it can't find it (it looks in Program Files, an `mGBA` folder next to the launcher, the
+`MGBA` environment variable and the PATH). If the build fails, it shows the end of `build_log.txt`.
+
 ## Build
 
 Requirements: the pokeemerald toolchain (see [INSTALL.md](INSTALL.md); `make modern` needs

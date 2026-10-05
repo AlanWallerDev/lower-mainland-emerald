@@ -24,3 +24,6 @@ Makefile text eol=lf
 
 *.h linguist-language=C
 *.inc linguist-language=Assembly
+
+# Windows launcher
+*.cmd text eol=crlf
