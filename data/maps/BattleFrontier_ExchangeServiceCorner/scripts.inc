@@ -442,11 +442,11 @@ BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
 	.string "Please choose a prize from this list.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "You've chosen the KISS POSTER.\n"
+	.string "You've chosen the FUNGUS POSTER.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "You've chosen the KISS CUSHION.\n"
+	.string "You've chosen the FUNGUS CUSHION.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:

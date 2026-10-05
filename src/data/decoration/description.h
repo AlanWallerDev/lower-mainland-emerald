@@ -324,7 +324,7 @@ const u8 DecorDesc_BLUE_POSTER[] = _(
 
 const u8 DecorDesc_CUTE_POSTER[] = _(
     "A small poster with\n"
-        "an POLYP print.");
+        "a POLYP print.");
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
     "A large poster with\n"

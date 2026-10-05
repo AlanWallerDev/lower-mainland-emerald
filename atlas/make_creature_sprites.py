@@ -11,6 +11,8 @@ colours. Sprites with a palette of their own get one made from the organism. GRO
 draw their front and side views with NPC_3 / NPC_4 and their sleeping view with their own palette,
 which (as upstream) is a grey version of the shared one.
 
+Dolls and the organism cushions are single frames drawn the same way.
+
 Run after atlas/make_sprites.py: python3 atlas/make_creature_sprites.py [--preview out.png]
 """
 import os
@@ -58,6 +60,9 @@ DOLL_PALETTES = {
              'unused_natu unused_wooper',
     'npc_4': 'big_registeel big_rhydon big_snorlax big_wailmer cyndaquil ditto duskull smoochum',
 }
+# Cushions with an organism on them (graphics/object_events/pics/cushions): pic: (slot, NPC palette).
+CUSHIONS = {'pika': ('pikachu', 'npc_2'), 'round': ('marill', 'npc_1'), 'kiss': ('smoochum', 'npc_4'),
+            'zigzag': ('zigzagoon', 'npc_1'), 'spin': ('spinda', 'npc_1'), 'diamond': ('sableye', 'npc_4')}
 # Decoration menu icons for the big dolls (graphics/decorations/*_doll.png, 24x24, own palette).
 ICONS = 'blastoise charizard lapras regice regirock registeel rhydon snorlax venusaur wailmer'
 
@@ -184,6 +189,11 @@ for palname, names in DOLL_PALETTES.items():
         w, h = Image.open(path).size
         map_frame(doll_slot(name), w, h, cols, 1).save(path)
         dolls += 1
+for name, (slot, palname) in CUSHIONS.items():
+    path = P(OW, 'pics/cushions', name + '_cushion.png')
+    w, h = Image.open(path).size
+    map_frame(slot, w, h, read_pal(palname), 1).save(path)
+    dolls += 1
 for name in ICONS.split():
     path = P('graphics/decorations', name + '_doll.png')
     old = Image.open(path)
@@ -205,4 +215,4 @@ if '--preview' in sys.argv:
         prev.paste(m.convert('RGB').resize((m.width * 2, m.height * 2), Image.NEAREST) if m.width <= 32 else m.convert('RGB'),
                    ((i % 8) * 64, (i // 8) * 64))
     prev.resize((prev.width * 2, prev.height * 2), Image.NEAREST).save(sys.argv[sys.argv.index('--preview') + 1])
-print('creature sprites: %d overworld sprites, %d dolls and doll icons written' % (len(made), dolls))
+print('creature sprites: %d overworld sprites, %d dolls, cushions and doll icons written' % (len(made), dolls))

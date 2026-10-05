@@ -40,7 +40,8 @@
 		"38_salmon_run.tsv",
 		"39_salmon_run_fix.tsv",
 		"40_fossil_books.tsv",
-		"41_menu_widths.tsv"
+		"41_menu_widths.tsv",
+		"42_decor.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

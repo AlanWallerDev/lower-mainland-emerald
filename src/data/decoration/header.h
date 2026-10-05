@@ -855,7 +855,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PIKA_POSTER] =
     {
         .id = DECOR_PIKA_POSTER,
-        .name = _("PIKA POSTER"),
+        .name = _("BEE POSTER"),
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -903,7 +903,7 @@ const struct Decoration gDecorations[] =
     [DECOR_KISS_POSTER] =
     {
         .id = DECOR_KISS_POSTER,
-        .name = _("KISS POSTER"),
+        .name = _("FUNGUS POSTER"),
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -1215,7 +1215,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PIKA_CUSHION] =
     {
         .id = DECOR_PIKA_CUSHION,
-        .name = _("PIKA CUSHION"),
+        .name = _("BEE CUSHION"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1227,7 +1227,7 @@ const struct Decoration gDecorations[] =
     [DECOR_ROUND_CUSHION] =
     {
         .id = DECOR_ROUND_CUSHION,
-        .name = _("ROUND CUSHION"),
+        .name = _("JELLY CUSHION"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1239,7 +1239,7 @@ const struct Decoration gDecorations[] =
     [DECOR_KISS_CUSHION] =
     {
         .id = DECOR_KISS_CUSHION,
-        .name = _("KISS CUSHION"),
+        .name = _("FUNGUS CUSHION"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1251,7 +1251,7 @@ const struct Decoration gDecorations[] =
     [DECOR_ZIGZAG_CUSHION] =
     {
         .id = DECOR_ZIGZAG_CUSHION,
-        .name = _("ZIGZAG CUSHION"),
+        .name = _("RACCOON CUSHION"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1263,7 +1263,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SPIN_CUSHION] =
     {
         .id = DECOR_SPIN_CUSHION,
-        .name = _("SPIN CUSHION"),
+        .name = _("GOOSE CUSHION"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1275,7 +1275,7 @@ const struct Decoration gDecorations[] =
     [DECOR_DIAMOND_CUSHION] =
     {
         .id = DECOR_DIAMOND_CUSHION,
-        .name = _("DIAMOND CUSHION"),
+        .name = _("LIZARD CUSHION"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
