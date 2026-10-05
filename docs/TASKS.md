@@ -40,7 +40,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Area-by-area dialogue pass, LADNER to WHISTLER (`atlas/text/14-35`, read with `node atlas/dump_text.js`)
 - [x] MOUNTAIN VIEW legend retold for BC: forest bear and glass reef, calmed by the murrelet
 - [x] Elite Four and Champion names: VAUX, CAMERON, NEWMAN (with SMITH and VANCOUVER)
-- [ ] Dialogue pass for the BATTLE FRONTIER, TRAINER HILL and TV shows (generic; low priority)
+- [x] BATTLE FRONTIER, TRAINER HILL and TV text scanned (only NINJA BOY needed a change: now SCOUT)
 
 - [x] Regi braille inscriptions shown as Burgess Shale survey notes (played: `survey.txt`)
 - [x] Post-game island tickets at the VANCOUVER harbour desk (played: `postgame.txt`)
@@ -55,4 +55,5 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Text width checker for messages and item descriptions (`atlas/check_text.js`)
 - [x] Overworld sprites for the story legendaries: bear, reef, murrelet (`atlas/make_legend_sprites.py`, `docs/legends.png`)
 - [x] Battle intros for the bear (amber paw print) and the reef (cyan glass-sponge lattice) (`atlas/make_transitions.py`, `docs/intros.png`)
-- [ ] Other overworld creature sprites, back sprites, move names, playtest fixes
+- [x] Learnsets: immobile organisms get body-appropriate moves
+- [ ] Playtest fixes

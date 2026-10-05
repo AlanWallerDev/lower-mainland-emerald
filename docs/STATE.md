@@ -39,19 +39,23 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
   lattice, lit by the original palette cycling (`atlas/make_transitions.py`, `docs/intros.png`;
   checked by rendering, not yet seen in a live legendary battle). Rayquaza's intro is abstract
   ring markings and stays.
+- **Learnsets**: immobile organisms get body-appropriate openers (ABSORB, ACID for microbes, BUBBLE for
+  sponges), GROWTH or HARDEN at level 1, and no charging or body-contact moves (`atlas/lib/moves.js`).
+- **SCOUT** replaces the NINJA BOY trainer class and its lines.
 - **Post-game played**: `postgame.txt` (island tickets, `docs/postgame_desk.png`) and
   `survey.txt` (ISLAND CAVE survey note). Harness: `sb1poke`, `reset`, fresh save per run.
 
 **Known issues**
 - BATTLE FRONTIER, TRAINER HILL and TV text only had the automatic passes.
-- Learnsets are type-based, so a few organisms get odd moves (Morel Spore knows Tackle).
+- Learnsets are type-based; immobile organisms (plants, fungi, sponges, microbes) now open with
+  ABSORB/ACID/BUBBLE and never learn charging or body-contact moves, but some picks are still odd.
 - Elk, deer and caribou use the goat rig; sea lions and otters the seal rig (stand-ins).
 - JOHTO's stand-in is "ISLAND"; town zoom maps in the TrailNav are Hoenn layouts.
 
 ## Next three tasks
 
-1. P4: BATTLE FRONTIER, TRAINER HILL and TV text pass.
-2. P6: back sprites and move names.
+1. P3/P5: plan the new maps and tiles together (they need map edits).
+2. P5: signature maps (Burgess Shale dig, Adams River salmon run, Hecate sponge reef dive).
 3. P3: new coast and Interior tiles need map edits; first find where they would go.
 
 ## Waiting on the owner

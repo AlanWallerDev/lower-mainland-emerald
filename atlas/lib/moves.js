@@ -62,12 +62,17 @@ const STATUS = {
 
 const JAWLESS = new Set(['Plant', 'Fungus', 'Bacterium', 'Archaeon', 'Protist', 'Alga', 'Lichen', 'Virus', 'Cnidarian',
 	'Sponge', 'Oomycete', 'Slime Mold']);
+// Organisms that can't move their whole body: no charging or body-contact moves, and their own opener.
+const SESSILE = new Set(['Plant', 'Fungus', 'Bacterium', 'Archaeon', 'Protist', 'Alga', 'Lichen', 'Virus', 'Sponge',
+	'Oomycete', 'Slime Mold']);
+const SESSILE_OPENER = { Bacterium: 'ACID', Archaeon: 'ACID', Protist: 'ACID', Virus: 'ACID', Sponge: 'BUBBLE' };
 const CLAWED = new Set(['quadruped', 'many_legged', 'insect', 'low_reptile', 'flier', 'primate']);
 const LEGGED = new Set(['quadruped', 'primate', 'flier', 'many_legged', 'insect', 'low_reptile']);
 
 /** Whether an organism's body could plausibly make a move (no fangs on plants, no punches on birds). */
 function bodyAllows(org, name) {
 	const text = (org.name + ' ' + (org.entry || '')).toLowerCase();
+	if (SESSILE.has(org.group) && /^(.*TACKLE|BODY_SLAM|TAKE_DOWN|DOUBLE_EDGE|QUICK_ATTACK|HEADBUTT|EXTREME_SPEED|RAPID_SPIN|ROLLOUT|SLAM|STOMP|THRASH|FACADE|AERIAL_ACE|WING_ATTACK|DIG|DIVE|ROCK_SMASH|BRICK_BREAK|ICE_BALL|STEEL_WING|PURSUIT|ASTONISH|COVET|THIEF|KNOCK_OFF|FAINT_ATTACK|AGILITY|BULK_UP|DOUBLE_TEAM|MINIMIZE|FLAME_WHEEL|CLAMP|SWORDS_DANCE|DRAGON_DANCE|TEETER_DANCE|.*_TAIL|BONE.*|.*_PUNCH|.*_KICK|.*_FANG|.*_CLAW)$/.test(name)) return false;
 	if (/PUNCH|CHOP|ARM_THRUST|SUBMISSION|CROSS_CHOP/.test(name)) return org.family === 'primate' || org.group === 'Crustacean';
 	if (/FANG|BITE|CRUNCH/.test(name)) return !JAWLESS.has(org.group) && org.family !== 'microscope';
 	if (/HORN/.test(name)) return /horn|antler|tusk/.test(text);
@@ -93,12 +98,13 @@ function levelUpLearnset(org, moves) {
 	const h = hash(org.id);
 	const usable = Object.values(moves).filter((m) => !NEVER.has(m.name));
 	const damaging = (t) => usable.filter((m) => m.type === t && m.power > 1 && bodyAllows(org, m.name)).sort((a, b) => a.power - b.power || a.name.localeCompare(b.name));
-	const status = (t) => (STATUS[t] || []).filter((n) => moves[n] && moves[n].power === 0 && !NEVER.has(n));
+	const status = (t) => (STATUS[t] || []).filter((n) => moves[n] && moves[n].power === 0 && !NEVER.has(n) && bodyAllows(org, n));
 
 	// Opener: Scratch for clawed animals, else Tackle; then the first move of its own type at 5.
 	const clawed = ['quadruped', 'primate', 'many_legged', 'low_reptile'].includes(org.family);
-	const opener = moves[clawed && org.group !== 'Bird' ? 'SCRATCH' : FIRST.NORMAL];
-	const firstStatus = status('NORMAL').slice(0, 4);
+	const opener = moves[SESSILE.has(org.group) ? SESSILE_OPENER[org.group] || 'ABSORB'
+		: clawed && org.group !== 'Bird' ? 'SCRATCH' : FIRST.NORMAL];
+	const firstStatus = SESSILE.has(org.group) ? ['GROWTH', 'HARDEN'] : status('NORMAL').slice(0, 4);
 	const list = [[1, opener.name], [1, firstStatus[h % firstStatus.length]]];
 	const firstOk = (n) => n && n !== 'TACKLE' && moves[n] && bodyAllows(org, n);
 	const ownFirst = types.map((t) => FIRST[t]).find(firstOk);
@@ -130,4 +136,4 @@ function levelUpLearnset(org, moves) {
 	return list.filter(([, n]) => n && !seen.has(n) && seen.add(n)).sort((a, b) => a[0] - b[0]);
 }
 
-module.exports = { loadMoves, loadTMHM, loadTutors, levelUpLearnset, bodyAllows, hash, NEVER };
+module.exports = { loadMoves, loadTMHM, loadTutors, levelUpLearnset, bodyAllows, hash, NEVER, SESSILE };
