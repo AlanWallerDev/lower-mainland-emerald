@@ -1102,14 +1102,14 @@ static const u8 sStorageKeyDesc[] = _(
     "SS BEAVER WRECK.");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling organism.");
+    "A fossil of a\n"
+    "spiny worm from the\n"
+    "BURGESS SHALE.");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling organism.");
+    "A fossil of a\n"
+    "grasping hunter from\n"
+    "the BURGESS SHALE.");
 
 static const u8 sDevonScopeDesc[] = _(
     "A device by SUMMIT\n"

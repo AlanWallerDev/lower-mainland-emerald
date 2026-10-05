@@ -1,0 +1,9 @@
+# The fossils are Burgess Shale organisms: the ROOT FOSSIL holds a spiny HALLUCIGEN (now SPINE FOSSIL),
+# the CLAW FOSSIL a grasping ANOMALO.
+ROOT FOSSIL	SPINE FOSSIL
+A fossil of an	A fossil of a	sRootFossilDesc
+ancient, seafloor-	spiny worm from the	sRootFossilDesc
+dwelling organism.	BURGESS SHALE.	sRootFossilDesc
+A fossil of an	A fossil of a	sClawFossilDesc
+ancient, seafloor-	grasping hunter from	sClawFossilDesc
+dwelling organism.	the BURGESS SHALE.	sClawFossilDesc
