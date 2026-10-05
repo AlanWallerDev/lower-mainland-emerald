@@ -329,14 +329,14 @@ MossdeepCity_Text_WailmerWatching:
 	.string "WAILMER watching!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.\p"
+	.string "The island's OBSERVATORY has been\n"
+	.string "launching weather balloons.\p"
 	.string "There's been some kind of an uproar\n"
 	.string "over a letter they received recently.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.$"
+	.string "The island's OBSERVATORY has been\n"
+	.string "launching weather balloons.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "I heard from a SAILOR buddy that\n"
@@ -346,7 +346,7 @@ MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "But PRINCE RUPERT here's been targeted\n"
 	.string "by that TEAM CINDER.\p"
 	.string "If you want to know what they're up to,\n"
-	.string "go visit the SPACE CENTER.$"
+	.string "go visit the OBSERVATORY.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
 	.string "I'm a SAILOR, so the sea's obviously\n"
@@ -377,9 +377,9 @@ MossdeepCity_Text_SurfExhilarating:
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "This rock has a special meaning to\n"
-	.string "the people at the SPACE CENTER.\p"
+	.string "the people at the OBSERVATORY.\p"
 	.string "They put it here as their wish for\n"
-	.string "their rockets to fly safely.\p"
+	.string "their balloons to fly safely.\p"
 	.string "When you make a wish, what do you use?\n"
 	.string "Do you wish upon a star?\p"
 	.string "I use a wish tag to make it happen.\n"
@@ -397,7 +397,7 @@ MossdeepCity_Text_CitySign:
 	.string "Coast.”$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "PRINCE RUPERT SPACE CENTER\n"
+	.string "PRINCE RUPERT OBSERVATORY\n"
 	.string "“The closest place to space.”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
@@ -409,7 +409,7 @@ MossdeepCity_Text_ScottSomethingWrongWithTown:
 	.string "But there's something wrong about\n"
 	.string "this town.\p"
 	.string "People are going on about a warning\n"
-	.string "letter and the SPACE CENTER…\p"
+	.string "letter and the OBSERVATORY…\p"
 	.string "I don't think it concerns me in any\n"
 	.string "way, though.$"
 

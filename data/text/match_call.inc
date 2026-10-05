@@ -2790,7 +2790,7 @@ MatchCall_Text_Steven4::
 	.string "DAWSON: Hello?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "I'm involved in a spot of trouble\n"
-	.string "at the SPACE CENTER.\p"
+	.string "at the OBSERVATORY.\p"
 	.string "I'm sorry, but I can't talk now.\n"
 	.string "Bye!$"
 

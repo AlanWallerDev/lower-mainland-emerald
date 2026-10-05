@@ -8,7 +8,10 @@
 		"06_team_fix.tsv",
 		"07_motives.tsv",
 		"08_names_fix.tsv",
-		"09_signs.tsv"
+		"09_signs.tsv",
+		"10_observatory.tsv",
+		"11_observatory_fix.tsv",
+		"12_geography.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

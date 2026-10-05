@@ -1501,11 +1501,10 @@ SootopolisCity_Text_CaveOfOriginSleepsToo:
 	.string "the cave, too, shall sleep…$"
 
 SootopolisCity_Text_SootopolisSkyBeautiful:
-	.string "DEEP COVE sprang up as a town in\n"
-	.string "the crater of a volcano.\p"
-	.string "If you look up at the sky, the lip of\n"
-	.string "the crater is also visible.\l"
-	.string "So, all you see is the sky in a circle.\p"
+	.string "DEEP COVE sits deep inside INDIAN ARM,\n"
+	.string "a fjord carved by glaciers.\p"
+	.string "Cliffs rise on every side of the cove,\n"
+	.string "so all you see is a ring of sky.\p"
 	.string "But that's what makes the sky above\n"
 	.string "DEEP COVE the most beautiful.$"
 
@@ -1519,8 +1518,8 @@ SootopolisCity_Text_FearedWorstWhenPokemonFlewDown:
 	.string "feared the worst.$"
 
 SootopolisCity_Text_NightSkyFavoriteScenery:
-	.string "A circle of a night sky framed by\n"
-	.string "the crater of a volcano…\p"
+	.string "A circle of night sky framed by the\n"
+	.string "cliffs of the cove…\p"
 	.string "And in that ring, stars flicker and\n"
 	.string "blink as if they were alive…\l"
 	.string "It's my favorite scenery.$"

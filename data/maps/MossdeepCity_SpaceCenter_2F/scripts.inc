@@ -340,14 +340,14 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
-	.string "PRINCE RUPERT has mainly sunny\n"
-	.string "weather, and its winds are stable.\p"
-	.string "It's an ideal location for launching\n"
-	.string "rockets.$"
+	.string "PRINCE RUPERT is one of the rainiest\n"
+	.string "cities in Canada.\p"
+	.string "That makes it an ideal place to study\n"
+	.string "the weather.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
 	.string "Why would TEAM CINDER want to steal\n"
-	.string "our rocket fuel in the first place?$"
+	.string "our hydrogen in the first place?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string "If only I was a little younger, I would\n"
@@ -356,8 +356,8 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string "I can and will try!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-	.string "If TEAM CINDER takes the rocket fuel,\n"
-	.string "I won't be able to go to space!\p"
+	.string "If TEAM CINDER takes the hydrogen,\n"
+	.string "our balloons won't fly!\p"
 	.string "They can't be allowed to get away\n"
 	.string "with such an outrage!$"
 
@@ -367,7 +367,7 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
 	.string "TEAM CINDER…\n"
-	.string "Do they want to go to space, too?$"
+	.string "Do they want to fly balloons, too?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
 	.string "What's wrong with you?\p"
@@ -427,8 +427,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
 	.string "DAWSON: TEAM CINDER…\p"
-	.string "What's the point of stealing rocket\n"
-	.string "fuel?$"
+	.string "What's the point of stealing hydrogen?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "ASHBY: Fufufu… Since you're so\n"

@@ -265,25 +265,29 @@ MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairs:
 	step_end
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent:
-	.string "The rocket's launch is imminent!$"
+	.string "The weather balloon's launch is\n"
+	.string "imminent!$"
 
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
-	.string "The rocket launched safely!\n"
-	.string "That's successful launch no. {STR_VAR_1}!$"
+	.string "The weather balloon launched safely!\n"
+	.string "That's successful launch no.\l"
+	.string "{STR_VAR_1}!$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
 	.string "I know that things are a little\n"
 	.string "haywire right now, but…\p"
-	.string "The rocket's launch is imminent!$"
+	.string "The weather balloon's launch is\n"
+	.string "imminent!$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
 	.string "I know that things are a little\n"
 	.string "haywire right now, but…\p"
-	.string "The rocket launched safely!\n"
-	.string "That's successful launch no. {STR_VAR_1}!$"
+	.string "The weather balloon launched safely!\n"
+	.string "That's successful launch no.\l"
+	.string "{STR_VAR_1}!$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
-	.string "A rocket launch demands perfection.\n"
+	.string "A balloon launch demands perfection.\n"
 	.string "Not even a 1% margin of error is allowed.\p"
 	.string "Even if it's 99% okay, the whole thing\n"
 	.string "is useless if 1% happens to be no good.\p"
@@ -292,9 +296,9 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
 	.string "Those CINDER thugs have their sights\n"
-	.string "set on our SPACE CENTER.\p"
+	.string "set on our OBSERVATORY.\p"
 	.string "But we can't allow anything that minor\n"
-	.string "to interfere with our rocket launch!$"
+	.string "to interfere with our balloon launch!$"
 
 MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
 	.string "I was taking a stroll down the beach\n"
@@ -308,7 +312,7 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
 	.string "TEAM CINDER can't be allowed to steal\n"
-	.string "the rocket fuel.\p"
+	.string "the hydrogen.\p"
 	.string "Oh, by the way, you can have this stone\n"
 	.string "I found on the beach.$"
 
@@ -327,13 +331,13 @@ MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
 	.string "become bold and brazen, won't they?$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
-	.string "A giant chunk of metal bursts through\n"
-	.string "the skies and flies into space…\p"
+	.string "A balloon bursts through the clouds and\n"
+	.string "climbs to the edge of space…\p"
 	.string "It boggles my mind!$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
-	.string "A giant chunk of metal bursts through\n"
-	.string "the skies and flies into space…\p"
+	.string "A balloon bursts through the clouds and\n"
+	.string "climbs to the edge of space…\p"
 	.string "But TEAM CINDER wants to spoil\n"
 	.string "that dream of mine!\p"
 	.string "I'm not having any of that!$"
@@ -341,8 +345,8 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 	.string "DAWSON: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
-	.string "TEAM CINDER is coming after the rocket\n"
-	.string "fuel on this island.\p"
+	.string "TEAM CINDER is coming after the\n"
+	.string "hydrogen on this island.\p"
 	.string "I don't know what they'd need it for,\n"
 	.string "but they can't be allowed to take it.\p"
 	.string "I'll keep an eye on things for\n"
@@ -352,7 +356,7 @@ MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "As promised, we've come for\n"
-	.string "the rocket fuel!$"
+	.string "the hydrogen!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat:
 	.string "Ran out of fuel…$"
@@ -374,7 +378,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
 	.string "we'll come unannounced.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
-	.string "The rocket fuel the SPACE CENTER has\n"
+	.string "The hydrogen the OBSERVATORY has\n"
 	.string "in storage--that's what we're after.\p"
 	.string "We mean to take every last bit of it!$"
 
@@ -384,7 +388,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat:
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle:
 	.string "What are we going to do with\n"
-	.string "the rocket fuel?\p"
+	.string "the hydrogen?\p"
 	.string "How would I know?\n"
 	.string "Ask our leader upstairs!$"
 
@@ -403,10 +407,10 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "This is…\n"
 	.string "An intent-to-steal notice?\p"
-	.string "“To the staff of the SPACE CENTER:\n"
+	.string "“To the staff of the OBSERVATORY:\n"
 	.string "How are you? We are doing fine.\p"
 	.string "“We will soon visit you to take your\n"
-	.string "rocket fuel.\p"
+	.string "hydrogen.\p"
 	.string "“Please don't try to stop us.\n"
 	.string "We will take the fuel no matter what.\p"
 	.string "“Let the old forests burn!\n"

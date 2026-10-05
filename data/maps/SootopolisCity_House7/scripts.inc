@@ -10,10 +10,10 @@ SootopolisCity_House7_EventScript_PokefanF::
 	end
 
 SootopolisCity_House7_Text_CityFromEruptedVolcano:
-	.string "An underwater volcano erupted and\n"
-	.string "forced itself up from the depths.\p"
-	.string "Its crater emerged from the sea and\n"
-	.string "became filled with rainwater.\p"
+	.string "Long ago, glaciers carved this inlet\n"
+	.string "deep into the mountains.\p"
+	.string "When the ice melted, the sea flowed in\n"
+	.string "and filled the cove.\p"
 	.string "That's how DEEP COVE came into\n"
 	.string "being.$"
 

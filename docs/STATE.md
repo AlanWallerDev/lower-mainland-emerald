@@ -61,6 +61,12 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   into tiered conifers and points the standalone tops; works on shared tiles, so all variants stay
   consistent (`docs/overworld.png`).
 
+- **Text pass**: HOENN leftovers gone; DEVON is the fictional SUMMIT company (SUMMIT GOODS,
+  SUMMIT SCOPE); STEVEN is DAWSON and MR. STONE is MR. DAWSON. Stand-in tables for owner review:
+  `09_signs.tsv` (BC town mottos), `10-11_observatory.tsv` (PRINCE RUPERT's space center is a
+  weather OBSERVATORY launching weather balloons; CINDER steals its hydrogen),
+  `12_geography.tsv` (S.S. BEAVER wreck, DEEP COVE in a fjord, WHISTLER up the SEA TO SKY).
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly, e.g. HOPE's
   founding or the KAMLOOPS ash. Wally's tutorial catch (Ralts slot) is now SAR11, a microbe.
@@ -82,4 +88,5 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   `git remote set-url origin https://github.com/AlanWallerDev/<new-name>` locally.
 - Review `docs/ROSTER.md` (my legendary change: Latios is the spotted owl, not a second marmot).
 - Villain leader and admin names are stand-ins (ASHBY, KENDALL, HOLLIS, MARINA, FINN): keep or replace.
-- Stand-in motive lines in `atlas/text/07_motives.tsv`: approve or rewrite.
+- Stand-in text tables `07_motives`, `09_signs`, `10-11_observatory`, `12_geography` in `atlas/text/`: approve or rewrite.
+- About 900 dialogue lines still say TRAINER (only 26 say NATURALIST): switch all to NATURALIST?

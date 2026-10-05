@@ -262,9 +262,8 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "should make way to the ultimate\l"
 	.string "destination.\p"
 	.string "The NATURE LEAGUE.\p"
-	.string "Travel to the easternmost reaches of\n"
-	.string "BC, to the island\l"
-	.string "WHISTLER.\p"
+	.string "Travel north up the SEA TO SKY, to the\n"
+	.string "mountain town of WHISTLER.\p"
 	.string "There, you shall find the NATURE\n"
 	.string "LEAGUE.$"
 
