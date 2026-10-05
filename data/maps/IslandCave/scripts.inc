@@ -53,7 +53,8 @@ IslandCave_EventScript_CaveEntranceMiddle::
 	lockall
 	call_if_set FLAG_TEMP_REGICE_PUZZLE_FAILED, IslandCave_EventScript_ClearSteps
 	goto_if_set FLAG_SYS_BRAILLE_REGICE_COMPLETED, IslandCave_EventScript_BigHoleInWall
-	braillemessage IslandCave_Braille_RunLapAroundWall
+	message IslandCave_Braille_RunLapAroundWall_Note @ Living Atlas: survey note instead of braille
+	waitmessage
 	setflag FLAG_TEMP_REGICE_PUZZLE_STARTED
 	special ShouldDoBrailleRegicePuzzle
 	goto IslandCave_EventScript_CloseBrailleMsg
@@ -67,7 +68,8 @@ IslandCave_EventScript_BigHoleInWall::
 IslandCave_EventScript_CaveEntranceSide::
 	lockall
 	call_if_set FLAG_TEMP_REGICE_PUZZLE_FAILED, IslandCave_EventScript_ClearSteps
-	braillemessage IslandCave_Braille_RunLapAroundWall
+	message IslandCave_Braille_RunLapAroundWall_Note @ Living Atlas: survey note instead of braille
+	waitmessage
 	goto_if_set FLAG_SYS_BRAILLE_REGICE_COMPLETED, IslandCave_EventScript_CloseBrailleMsg
 	setflag FLAG_TEMP_REGICE_PUZZLE_STARTED
 	special ShouldDoBrailleRegicePuzzle
@@ -76,7 +78,7 @@ IslandCave_EventScript_CaveEntranceSide::
 
 IslandCave_EventScript_CloseBrailleMsg::
 	waitbuttonpress
-	closebraillemessage
+	closemessage @ Living Atlas
 	releaseall
 	end
 

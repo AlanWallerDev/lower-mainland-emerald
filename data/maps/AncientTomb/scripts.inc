@@ -39,7 +39,7 @@ AncientTomb_EventScript_HideRegiEntrance::
 AncientTomb_EventScript_CaveEntranceMiddle::
 	lockall
 	goto_if_set FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED, AncientTomb_EventScript_BigHoleInWall
-	braillemsgbox AncientTomb_Braille_ShineInTheMiddle
+	msgbox AncientTomb_Braille_ShineInTheMiddle_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
@@ -50,7 +50,7 @@ AncientTomb_EventScript_BigHoleInWall::
 
 AncientTomb_EventScript_CaveEntranceSide::
 	lockall
-	braillemsgbox AncientTomb_Braille_ShineInTheMiddle
+	msgbox AncientTomb_Braille_ShineInTheMiddle_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 

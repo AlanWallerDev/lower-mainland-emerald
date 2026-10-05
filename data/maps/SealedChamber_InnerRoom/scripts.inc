@@ -3,7 +3,7 @@ SealedChamber_InnerRoom_MapScripts::
 
 SealedChamber_InnerRoom_EventScript_BrailleBackWall::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth
+	msgbox SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	goto_if_set FLAG_REGI_DOORS_OPENED, SealedChamber_InnerRoom_EventScript_NoEffect
 	specialvar VAR_RESULT, CheckRelicanthWailord
 	goto_if_eq VAR_RESULT, FALSE, SealedChamber_InnerRoom_EventScript_NoEffect
@@ -33,37 +33,37 @@ SealedChamber_InnerRoom_EventScript_NoEffect::
 
 SealedChamber_InnerRoom_EventScript_BrailleStoryPart1::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived
+	msgbox SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
 SealedChamber_InnerRoom_EventScript_BrailleStoryPart2::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon
+	msgbox SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
 SealedChamber_InnerRoom_EventScript_BrailleStoryPart3::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway
+	msgbox SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
 SealedChamber_InnerRoom_EventScript_BrailleStoryPart4::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_WeFearedIt
+	msgbox SealedChamber_InnerRoom_Braille_WeFearedIt_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
 SealedChamber_InnerRoom_EventScript_BrailleStoryPart5::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_ThoseWithCourageHope
+	msgbox SealedChamber_InnerRoom_Braille_ThoseWithCourageHope_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
 SealedChamber_InnerRoom_EventScript_BrailleStoryPart6::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits
+	msgbox SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 

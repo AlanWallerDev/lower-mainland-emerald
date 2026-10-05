@@ -18,7 +18,7 @@ Underwater_SealedChamber_EventScript_SurfaceSealedChamber::
 
 Underwater_SealedChamber_EventScript_Braille::
 	lockall
-	braillemsgbox Underwater_SealedChamber_Braille_GoUpHere
+	msgbox Underwater_SealedChamber_Braille_GoUpHere_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 

@@ -89,7 +89,7 @@ SealedChamber_OuterRoom_EventScript_BrailleComma::
 SealedChamber_OuterRoom_EventScript_InnerRoomEntranceWall::
 	lockall
 	goto_if_set FLAG_SYS_BRAILLE_DIG, SealedChamber_OuterRoom_EventScript_HoleInWall
-	braillemsgbox SealedChamber_OuterRoom_Braille_DigHere
+	msgbox SealedChamber_OuterRoom_Braille_DigHere_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 
@@ -100,7 +100,7 @@ SealedChamber_OuterRoom_EventScript_HoleInWall::
 
 SealedChamber_OuterRoom_EventScript_BrailleDigHere::
 	lockall
-	braillemsgbox SealedChamber_OuterRoom_Braille_DigHere
+	msgbox SealedChamber_OuterRoom_Braille_DigHere_Note, MSGBOX_DEFAULT @ Living Atlas: survey note instead of braille
 	releaseall
 	end
 

@@ -115,3 +115,55 @@ AncientTomb_Braille_ShineInTheMiddle:
 	.braille "INHERIT OUR\n"
 	.braille "WILL, SHINE\n"
 	.braille "IN THE MIDDLE.$"
+
+@ Living Atlas: [Stand-in] Burgess Shale survey notes shown instead of the braille inscriptions
+@ (the braille alphabet panels in the outer room stay as wall decoration).
+Underwater_SealedChamber_Braille_GoUpHere_Note::
+	.string "Survey note, scratched into the rock:\n"
+	.string "“Surface here.”$"
+
+SealedChamber_OuterRoom_Braille_DigHere_Note::
+	.string "Survey note, scratched into the rock:\n"
+	.string "“Dig here.”$"
+
+SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth_Note::
+	.string "Survey note: “Lead your party with a\n"
+	.string "GRAY WHALE. Bring a DOLPHIN last.”$"
+
+SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived_Note::
+	.string "Survey note: “Our party camped in this\n"
+	.string "cave for three summers.”$"
+
+SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon_Note::
+	.string "Survey note: “Everything we learned\n"
+	.string "here, we owe to the shale.”$"
+
+SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway_Note::
+	.string "Survey note: “But we sealed our\n"
+	.string "strangest finds away behind the walls.”$"
+
+SealedChamber_InnerRoom_Braille_WeFearedIt_Note::
+	.string "Survey note: “No one back home would\n"
+	.string "have believed them.”$"
+
+SealedChamber_InnerRoom_Braille_ThoseWithCourageHope_Note::
+	.string "Survey note: “Whoever reads this, come\n"
+	.string "with patience and care.”$"
+
+SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits_Note::
+	.string "Survey note: “Open the doors. Life from\n"
+	.string "half a billion years ago is waiting.”$"
+
+DesertRuins_Braille_UseRockSmash_Note::
+	.string "Survey note: “Two paces left, two paces\n"
+	.string "down. Then break the rock with ROCK\l"
+	.string "SMASH.”$"
+
+IslandCave_Braille_RunLapAroundWall_Note::
+	.string "Survey note: “Keep close to the wall\n"
+	.string "and walk one full lap.”$"
+
+AncientTomb_Braille_ShineInTheMiddle_Note::
+	.string "Survey note: “Whoever follows us: let a\n"
+	.string "light shine in the middle of the room.”$"
+

@@ -77,6 +77,11 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   PRINCE RUPERT, Battle Pike, Mountain View), PRESIDENT DAWSON, TOFINO as a surf town, HOPE's
   founding, the granite STAWAMUS CHIEF; the braille puzzle follows the species map.
 
+- **Survey notes**: the Regi chambers (sealed chamber, desert ruins, island cave, ancient tomb)
+  show [Stand-in] Burgess Shale survey notes as normal text instead of braille, with the same
+  puzzle hints (`data/text/braille.inc`, `_Note` labels; braille alphabet panels stay as
+  decoration). Built; not yet played through.
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly (e.g. HOPE's
   founding). Pinned for the story: Wally's catch is a STELLER'S JAY (Ralts slot) and NORMAN lends a
@@ -91,7 +96,7 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 1. P4: dialogue area by area, starting with the opening and LADNER.
 2. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
-3. P5 prep: the Regi chambers' braille puzzles as Burgess Shale survey notes (Yoho dig).
+3. Play-test the post-game (island tickets, survey-note puzzles) with a cleared save.
 
 ## Waiting on the owner
 
