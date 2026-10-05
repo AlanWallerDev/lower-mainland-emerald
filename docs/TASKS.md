@@ -30,7 +30,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] BC TrailNav region map (`atlas/region_map.json`, `make_region_map.py`; TRAILNAV header and BC MAP button by `make_trailnav.py`)
 - [x] Palette swap: coast greens, conifer greens, Pacific blue water (`atlas/recolor.json`)
 - [x] Conifer tree art: tiered conifer shading on all tree tiles, pointed tops (`atlas/conifer_tiles.py`)
-- [ ] New tiles: arbutus coast, sagebrush, cannery, float homes
+- [x] New tiles: ECHO BAY float homes (`atlas/float_homes.py`); RICHMOND cannery, COQUIHALLA sagebrush and VICTORIA arbutus (`atlas/bc_tiles.py`, harness `newtiles.txt`, `docs/new_tiles.png`)
 - [x] Signs and landmark text (town mottos, route signs, HOODOO SPIRE, GLACIER VAULT, CADBORO ROCK, RATTLESNAKE ISLE)
 
 ## P4 Story

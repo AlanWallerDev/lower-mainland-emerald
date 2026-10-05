@@ -18,6 +18,12 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   (`make_journal_ui.py`), type icons with the hack's type names (`make_type_icons.py`), PC
   storage menu DATA and PARTY (`make_pc_menu.py`). Bag, naming, trade, shop and party graphics
   checked: nothing to change.
+- **New BC tiles**: ECHO BAY's huts are plank float homes with slate metal roofs and stovepipes
+  (`float_homes.py`, same tile slots). `bc_tiles.py` adds metatiles to a town's own tileset and
+  places them: a red Steveston cannery on pilings in RICHMOND's north-east pond (the item ball's
+  surf route stays open), sagebrush for every sand pebble on the COQUIHALLA, five arbutus trees on
+  VICTORIA's shore grass (placed off events; a reachability check found no cut-off cells). Seen in
+  game: harness `newtiles.txt`, `docs/new_tiles.png`.
 
 ## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)
 
@@ -82,8 +88,8 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 ## Next three tasks
 
 1. P5: Burgess Shale dig as its own map (Yoho), reached from ROGERS PASS.
-2. P3: new coast and Interior tiles (need map edits; find where they would go first).
-3. Fix issues from the owner's playtest reports.
+2. Fix issues from the owner's playtest reports.
+3. Optional: Rayquaza's battle intro as a murrelet; remaining learnset oddities.
 
 ## Waiting on the owner
 

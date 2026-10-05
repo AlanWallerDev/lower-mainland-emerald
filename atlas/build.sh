@@ -27,6 +27,8 @@ python3 atlas/make_pc_menu.py
 python3 atlas/make_region_map.py
 python3 atlas/recolor_tiles.py
 python3 atlas/conifer_tiles.py
+python3 atlas/float_homes.py
+python3 atlas/bc_tiles.py
 node atlas/apply_wild.js
 node atlas/rename_text.js
 make modern -j"$(nproc)"
