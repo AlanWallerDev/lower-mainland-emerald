@@ -73,10 +73,13 @@ def bear(a, sp, r):
 
 
 def mustelid(a, sp, r):
-    """Skunk (stripes=True, A black, C white) or wolverine (A dark brown, B tan side band)."""
+    """Skunk (stripes=True, A black, C white), river otter (otter=True) or wolverine (A dark brown,
+    B tan side band)."""
     _legs(a, 'A', [22, 42], 42, 57, 4)
     if sp.get('stripes'):
         tail = a.part('A').blob([(44, 34), (54, 20), (62, 22), (62, 36), (54, 44)])
+    elif sp.get('otter'):  # long, thick, tapering tail
+        tail = a.part('A').taper([(46, 40), (54, 44), (60, 48), (63, 52)], 7, 2)
     else:
         tail = a.part('A').blob([(46, 36), (56, 34), (60, 42), (52, 46)])
     body = a.part('A').blob([(12, 36), (22, 28), (44, 28), (52, 38), (46, 48), (20, 48)])
@@ -275,8 +278,30 @@ def platypus(a, sp, r):
 
 
 def pinniped(a, sp, r):
-    """Walrus (tusks), elephant seal (nose) or manatee. A skin, B flippers, C muzzle, W tusks."""
+    """Walrus (tusks), elephant seal (nose), seal, sea lion, sea otter or manatee. A skin, B flippers,
+    C muzzle/face, W tusks."""
     kind = sp.get('kind', 'walrus')
+    if kind == 'sealion':  # propped up on its front flippers, long neck, small ear
+        a.part('B').blob([(44, 50), (62, 48), (62, 58), (46, 58)])
+        a.part('A').blob([(18, 56), (24, 30), (40, 30), (52, 44), (50, 58)])
+        a.part('A').blob([(14, 34), (16, 16), (26, 14), (32, 32), (26, 44), (16, 46)])
+        a.part('B').blob([(18, 44), (10, 58), (28, 58)])
+        a.part('A').blob([(2, 14), (8, 6), (20, 6), (24, 14), (16, 20), (4, 20)])
+        a.part('C').blob([(0, 14), (6, 12), (8, 19), (1, 19)])
+        a.part('B').circle(17, 8, 1.5)
+        a.part('K').circle(1.5, 14, 1.3)
+        a.eye(11, 10, 1)
+        return
+    if kind == 'seaotter':  # floating on its back, paws on its chest, round whiskered head
+        a.part('B').blob([(48, 36), (62, 32), (63, 40), (50, 42)])
+        body = a.part('A').blob([(8, 40), (16, 30), (44, 30), (56, 36), (44, 46), (14, 46)])
+        a.part('C', clip=body, line=False).ell(14, 28, 40, 38)
+        a.part('B').circle(26, 32, 3).circle(32, 32, 3)
+        a.part('C').blob([(2, 32), (4, 22), (16, 20), (20, 30), (14, 38), (4, 38)])
+        a.part('K').circle(3, 30, 1.4)
+        a.part('K').line([(1, 32), (-2, 31)], .6).line([(1, 33), (-2, 35)], .6)
+        a.eye(8, 26, 1)
+        return
     if kind == 'manatee':
         a.part('A').blob([(46, 34), (62, 28), (62, 50), (48, 46)])
         body = a.part('A').blob([(4, 34), (14, 24), (40, 24), (50, 36), (40, 48), (12, 48)])
@@ -329,3 +354,46 @@ def whale(a, sp, r):
     if kind == 'narwhal':
         a.part('W').line([(8, 32), (0, 27)], 1.6)
     a.eye(14, 33, 1)
+
+
+def cervid(a, sp, r):
+    """Deer family. A coat, B legs/neck/dewlap, C rump and face marks, D antlers.
+    kind: deer (small fork, dark tail), elk (big swept-back beams), caribou (C-shaped beams, brow
+    shovel, pale mane), moose (palmate paddles, bell, shoulder hump, long legs)."""
+    kind = sp.get('kind', 'deer')
+    moose = kind == 'moose'
+    top = 26 if moose else 30
+    _legs(a, 'B', [24, 46], top + 8, 59, 3.5 if moose else 3)
+    if kind == 'deer':
+        a.part('B').blob([(52, 26), (58, 24), (58, 32), (54, 32)])
+    body = a.part('A').blob([(16, top), (26, top - 8 if moose else top - 6), (46, top - 4), (54, top),
+                             (50, top + 10), (24, top + 12), (16, top + 8)])
+    if kind in ('elk', 'caribou'):
+        a.part('C', clip=body, line=False).ell(46, top - 6, 58, top + 10)
+    _legs(a, 'B', [20, 48], top + 8, 60, 3.5 if moose else 3, paw='K')
+    neck = a.part('B' if kind in ('elk', 'moose') else 'A').blob(
+        [(10, 26), (14, 14), (22, 14), (26, top + 2), (20, top + 6)])
+    if kind == 'caribou':
+        a.part('C').blob([(14, 22), (22, 20), (24, 34), (16, 38), (12, 30)])
+    head = a.part('A').blob([(0, 18), (4, 10), (14, 8), (18, 14), (12, 20), (2, 22)] if moose else
+                            [(2, 16), (6, 10), (16, 9), (18, 15), (10, 19), (3, 19)])
+    if moose:
+        a.part('A').blob([(0, 16), (4, 14), (5, 24), (0, 24)])  # overhanging muzzle
+        a.part('B').blob([(8, 20), (12, 20), (12, 30), (9, 30)])  # bell
+    a.part('A').poly([(14, 10), (20, 6), (18, 12)])  # ear
+    a.part('K').circle(1.5, 17 if moose else 15, 1.4)
+    d = a.part('D')
+    if kind == 'deer':
+        d.curve((12, 9), (12, 4), (16, 1), 1.6, 1).line([(13, 5), (9, 2)], 1.2)
+    elif kind == 'elk':
+        d.curve((12, 9), (16, 2), (30, 0), 2, 1.2)
+        for x, y in ((14, 5), (19, 2), (24, 1)):
+            d.line([(x, y), (x - 3, y - 4)], 1.2)
+    elif kind == 'caribou':
+        d.curve((12, 9), (22, -2), (8, 2), 2, 1.2)
+        d.blob([(6, 8), (9, 5), (11, 9), (8, 12)])  # brow shovel
+        d.line([(18, 2), (21, -1)], 1.2)
+    else:
+        d.blob([(14, 8), (16, 2), (26, 0), (30, 4), (24, 8)])
+        d.blob([(10, 8), (8, 2), (2, 1), (4, 6)])
+    a.eye(8, 13 if moose else 13, 1)

@@ -5162,7 +5162,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_WATER_1 },
         .abilities = {ABILITY_THICK_FAT, ABILITY_TORRENT},
         .safariZoneFleeRate = 0,
-        .bodyColor = BODY_COLOR_BROWN,
+        .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
 
