@@ -2,7 +2,24 @@
 
 Updated at the end of every session. Read this first, then `docs/TASKS.md` and `docs/BC_PLAN.md`.
 
-## Last session: dialogue pass, LADNER to WHISTLER (2026-10-05)
+## Last session: creature sprites, rigs and baked-in text (2026-10-05)
+
+**Done**
+- **Overworld creature sprites** for every walking, chasing and legendary slot, built from each
+  slot's battle sprite (`atlas/make_creature_sprites.py`, replacing `make_legend_sprites.py`);
+  shared NPC palettes are matched by nearest colour without the townsfolk greens. Dolls (41) and
+  the big-doll decoration icons (10) show their organisms too.
+- The professor's chaser and the intro creature are the raccoon (ZIGZAGOON slot) again.
+- **Rigs**: deer family (`cervid`: moose, elk, deer, caribou) and sea mammals (`sealion`,
+  `seaotter`, river otter tail) replace the goat and seal stand-ins.
+- Kanto visitors come from the PRAIRIES.
+- **Baked-in text** in graphics: TrailNav close-up legend (FIELD STATION, MART, GYM, BATTLE TENT,
+  CONTEST HALL; `make_zoom_text.py`), Journal title and menu rows and the BC list label
+  (`make_journal_ui.py`), type icons with the hack's type names (`make_type_icons.py`), PC
+  storage menu DATA and PARTY (`make_pc_menu.py`). Bag, naming, trade, shop and party graphics
+  checked: nothing to change.
+
+## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)
 
 The owner delegated all details (story, dialogue, names) to Claude: decide, build, log here.
 
@@ -60,8 +77,7 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 - BATTLE FRONTIER, TRAINER HILL and TV text only had the automatic passes.
 - Learnsets are type-based; immobile organisms (plants, fungi, sponges, microbes) now open with
   ABSORB/ACID/BUBBLE and never learn charging or body-contact moves, but some picks are still odd.
-- Elk, deer and caribou use the goat rig; sea lions and otters the seal rig (stand-ins).
-- JOHTO's stand-in is "ISLAND"; town zoom maps in the TrailNav are Hoenn layouts.
+- JOHTO's stand-in is "ISLAND". TrailNav town close-ups show the game's own town layouts (fine).
 
 ## Next three tasks
 

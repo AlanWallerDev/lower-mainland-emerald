@@ -53,9 +53,12 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 ## P6 Polish
 - [x] Currency shown as \$ (`atlas/make_dollar.py`)
 - [x] Text width checker for messages and item descriptions (`atlas/check_text.js`)
-- [x] Overworld sprites for the story legendaries: bear, reef, murrelet (`atlas/make_legend_sprites.py`, `docs/legends.png`)
+- [x] Overworld sprites for the story legendaries: bear, reef, murrelet (`atlas/make_creature_sprites.py`, `docs/legends.png`)
 - [x] Battle intros for the bear (amber paw print) and the reef (cyan glass-sponge lattice) (`atlas/make_transitions.py`, `docs/intros.png`)
 - [x] Learnsets: immobile organisms get body-appropriate moves
 - [x] Playtest from power-on to the first battle (`firstbattle.txt`); menu overflow fixes
 - [x] Playtest to the rival battle on BOUNDARY BAY (`rival.txt`)
-- [ ] Playtest further (RICHMOND, first gym)
+- [x] Overworld creature sprites, dolls and doll icons (`atlas/make_creature_sprites.py`)
+- [x] Deer family and sea mammal rigs
+- [x] Baked-in text in graphics: TrailNav legend, Journal, type icons, PC menu
+- [ ] Playtest further (the owner's)
