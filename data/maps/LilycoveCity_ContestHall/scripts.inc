@@ -342,7 +342,7 @@ LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
 
 LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
 	.string "Oh, dear, no!\p"
-	.string "My darling HARLEQUIN's LEECH LIFE is\n"
+	.string "My darling SAGEBRUSH's LEECH LIFE is\n"
 	.string "so cute I kept using it over and over!\p"
 	.string "But these mean people don't appreciate\n"
 	.string "it at all!$"
@@ -433,8 +433,8 @@ LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
 	.string "adorable WATER SPORT appeal!$"
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
-	.string "Oh, no… My sweet SAR11 was distracted\n"
-	.string "by another organism.$"
+	.string "Oh, no… My sweet POLYP was\n"
+	.string "distracted by another organism.$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
 	.string "My organism has never won in a battle,\n"

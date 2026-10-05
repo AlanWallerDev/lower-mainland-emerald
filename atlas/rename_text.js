@@ -2,7 +2,8 @@
 // Keeps game text in step with the hack's name lists and text tables. Every change is applied
 // exactly once, and atlas/text/applied.json records what the text already contains:
 //
-// 1. Names: atlas/locations.json (towns, places, routes, regions) and atlas/characters.json.
+// 1. Names: atlas/locations.json (towns, places, routes, regions), atlas/characters.json and the
+//    organism names in src/data/text/species_names.h (written by apply_species.js).
 //    When a value differs from the one recorded in applied.json, the old name is renamed to the
 //    new one in all game text (whole words only).
 // 2. Tables: each atlas/text/*.tsv not yet listed in applied.json is applied once, in file-name
@@ -26,6 +27,10 @@ function currentNames() {
 		for (const [k, v] of Object.entries(loc[sec] || {})) out[`${sec}.${k}`] = v;
 	}
 	for (const [k, v] of Object.entries(C.readJSON('atlas/characters.json').characters)) out[`characters.${k}`] = v;
+	// Organism names as written by apply_species.js, so dialogue follows the species map.
+	for (const m of C.read('src/data/text/species_names.h').matchAll(/\[SPECIES_(\w+)\] = _\("([^"]*)"\)/g)) {
+		if (m[1] !== 'NONE') out[`species.${m[1]}`] = m[2];
+	}
 	return out;
 }
 
@@ -39,17 +44,35 @@ if (!state) {
 }
 
 // ---- 1. names -------------------------------------------------------------------------
+// A name the text holds for two different keys can't be told apart, so it is left alone.
+const holders = {};
+for (const [k, v] of Object.entries(state.names)) (holders[v] = holders[v] || []).push(k);
 const renames = Object.keys(names)
 	.filter((k) => state.names[k] && state.names[k] !== names[k])
+	.filter((k) => {
+		if (holders[state.names[k]].length === 1) return true;
+		console.log(`  ${k}: ${state.names[k]} is shared by ${holders[state.names[k]].join(', ')}; not renamed`);
+		return false;
+	})
 	.map((k) => ({ key: k, from: state.names[k], to: names[k] }));
 if (renames.length) {
 	// Two steps through placeholders, so swaps and chains (A->B, B->C) stay correct.
 	const step1 = renames.map((r, i) => ({ from: r.from, to: `@@NAME${i}@@` }));
 	const step2 = renames.map((r, i) => ({ from: `@@NAME${i}@@`, to: r.to }));
 	for (const r of renames) console.log(`  ${r.key}: ${r.from} -> ${r.to}`);
+	// Names that stay the same but contain a word being renamed (SS BEAVER WRECK while BEAVER
+	// changes) are shielded first.
+	const word = (w, s) => new RegExp(`(?<![A-Za-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![A-Za-z0-9])`).test(s);
+	const renamed = new Set(renames.map((r) => r.key));
+	const shield = [...new Set(Object.entries(names).filter(([k, v]) => !renamed.has(k)
+		&& renames.some((r) => r.from !== v && word(r.from, v))).map(([, v]) => v))]
+		.sort((a, b) => b.length - a.length);
+	for (const v of shield) console.log(`  shielded: ${v}`);
 	if (!DRY) {
+		R.applyRows(shield.map((v, i) => ({ from: v, to: `@@KEEP${i}@@` })), { words: true });
 		const a = R.applyRows(step1, { words: true });
 		R.applyRows(step2);
+		R.applyRows(shield.map((v, i) => ({ from: `@@KEEP${i}@@`, to: v })));
 		console.log(`rename_text: ${renames.length} names renamed in ${a.files} files`);
 	}
 }

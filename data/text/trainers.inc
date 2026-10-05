@@ -416,8 +416,8 @@ Route104_Text_DarianDefeat:
 	.string "What the…$"
 
 Route104_Text_DarianPostBattle:
-	.string "Hey, POLYP, you sure don't live up to\n"
-	.string "your name, do you?$"
+	.string "Hey, MOONSNAIL, you sure don't live up\n"
+	.string "to your name, do you?$"
 
 Route105_Text_FosterIntro:
 	.string "There's supposed to be a mystical\n"
@@ -1449,7 +1449,7 @@ Route111_Text_BrandenDefeat:
 	.string "enough of a bribe…$"
 
 Route111_Text_BrandenPostBattle:
-	.string "My JERUSALEM loves eating my\n"
+	.string "My RUBBERBOA loves eating my\n"
 	.string "sandwiches.$"
 
 Route111_Text_TyronIntro:
@@ -1630,7 +1630,7 @@ Route113_Text_DillonPostBattle:
 Route113_Text_MadelineIntro:
 	.string "I use this parasol to ward off this\n"
 	.string "filthy, yucky volcanic ash from my dear\l"
-	.string "CHICKNWOOD.$"
+	.string "PINEBEETLE.$"
 
 Route113_Text_MadelineDefeat:
 	.string "Huff, huff…\n"
@@ -2018,14 +2018,14 @@ Route115_Text_TimothyPostRematch:
 
 Route115_Text_KoichiIntro:
 	.string "You!\p"
-	.string "My SCORPION!\p"
+	.string "My JUNEBEETLE!\p"
 	.string "Demand a battle!$"
 
 Route115_Text_KoichiDefeat:
 	.string "Ouch, ouch, ouch!$"
 
 Route115_Text_KoichiPostBattle:
-	.string "My SCORPION crew!\p"
+	.string "My JUNEBEETLE crew!\p"
 	.string "So long as they seek power, I will\n"
 	.string "grow strong with them!$"
 
@@ -4661,7 +4661,7 @@ Route134_Text_JackPostBattle:
 	.string "parts.$"
 
 Route134_Text_LaurelIntro:
-	.string "My VELVETWORM are looking for a fun\n"
+	.string "My STICKLEBCK are looking for a fun\n"
 	.string "match. Will you join us?$"
 
 Route134_Text_LaurelDefeat:
@@ -4669,7 +4669,7 @@ Route134_Text_LaurelDefeat:
 
 Route134_Text_LaurelPostBattle:
 	.string "There's a collector who's after the\n"
-	.string "SCALES of VELVETWORM.$"
+	.string "SCALES of STICKLEBCK.$"
 
 Route134_Text_AlexIntro:
 	.string "Okeydokey! That's enough rest, gang!\n"

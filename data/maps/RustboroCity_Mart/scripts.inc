@@ -67,7 +67,7 @@ RustboroCity_Mart_EventScript_BugCatcher::
 RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
 	.string "I'm buying some PARLYZ HEALS and\n"
 	.string "ANTIDOTES.\p"
-	.string "Just in case I run into ROCK TRIPE in\n"
+	.string "Just in case I run into FLY AGARIC in\n"
 	.string "PACIFIC SPIRIT.$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:

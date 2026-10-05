@@ -263,13 +263,13 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "jumps in time.$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "“SNOWY OWL BERRY-PICKING”\p"
-	.string "Command SNOWY OWL's three heads to\n"
+	.string "“BALD EAGLE BERRY-PICKING”\p"
+	.string "Command BALD EAGLE's three heads to\n"
 	.string "catch falling BERRIES.\p"
 	.string "Press right, up, or left on the\n"
 	.string "{PLUS} Control Pad to move the heads.\p"
 	.string "To play this game, you must have a\n"
-	.string "SNOWY OWL.$"
+	.string "BALD EAGLE.$"
 
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
 	.string "If you want to play a game,\n"
@@ -320,8 +320,8 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 	.string "That's all you need to know.$"
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
-	.string "SNOWY OWL BERRY-PICKING is a game that\n"
-	.string "only SNOWY OWL may enter.$"
+	.string "BALD EAGLE BERRY-PICKING is a game\n"
+	.string "that only BALD EAGLE may enter.$"
 
 @ Unused
 MossdeepCity_GameCorner_1F_Text_RetryPlease:

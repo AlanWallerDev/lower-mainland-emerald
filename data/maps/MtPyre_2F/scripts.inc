@@ -43,8 +43,8 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-	.string "Memories of my darling LEMMING… My eyes\n"
-	.string "overflow thinking about it.$"
+	.string "Memories of my darling PINKSALMON… My\n"
+	.string "eyes overflow thinking about it.$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
 	.string "Ooch, ouch… There are holes in the\n"

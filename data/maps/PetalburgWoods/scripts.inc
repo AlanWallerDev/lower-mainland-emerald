@@ -302,7 +302,7 @@ PetalburgWoods_Text_NotAOneToBeFound:
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "Hello, have you seen an organism called\n"
-	.string "ROCK TRIPE around here?\p"
+	.string "FLY AGARIC around here?\p"
 	.string "I really love that organism.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:

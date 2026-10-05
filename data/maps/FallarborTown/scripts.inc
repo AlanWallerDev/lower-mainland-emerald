@@ -65,11 +65,11 @@ FallarborTown_Text_RegionKnownForMeteors:
 
 FallarborTown_Text_MyPreciousAzurill:
 	.string "See! Take a look! This is my precious\n"
-	.string "SAR11!\p"
+	.string "POLYP!\p"
 	.string "It's slick and smooth and plushy, too!$"
 
 FallarborTown_Text_Azurill:
-	.string "SAR11: Rooreelooo.$"
+	.string "POLYP: Rooreelooo.$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "Have you already challenged CARR,\n"

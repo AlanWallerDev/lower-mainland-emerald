@@ -577,14 +577,14 @@ gTV3CheersForPokeblocksText00::
 	.string "Today, we examine the TREAT blended by\n"
 	.string "{STR_VAR_1} and associates.\p"
 	.string "Without any delay, let me feed it to my\n"
-	.string "gourmet MILLIPEDE.\p"
+	.string "gourmet CLOAKLARVA.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
 gTV3CheersForPokeblocksText01::
-	.string "MILLIPEDE: Gubi! Gubii!\p"
+	.string "CLOAKLARVA: Gubi! Gubii!\p"
 	.string "MC: And the verdict is very {STR_VAR_1}!\n"
-	.string "MILLIPEDE says it tastes\l"
+	.string "CLOAKLARVA says it tastes\l"
 	.string "“{STR_VAR_2}!”\p"
 	.string "Thank you so much, {STR_VAR_3}!$"
 
@@ -595,9 +595,9 @@ gTV3CheersForPokeblocksText02::
 	.string "TREAT would be much tastier.$"
 
 gTV3CheersForPokeblocksText03::
-	.string "MILLIPEDE: Gubi! Gubii!\p"
+	.string "CLOAKLARVA: Gubi! Gubii!\p"
 	.string "MC: Hmm… It's too {STR_VAR_1}.\n"
-	.string "MILLIPEDE says it tastes\l"
+	.string "CLOAKLARVA says it tastes\l"
 	.string "“{STR_VAR_2}!”\p"
 	.string "It looks like {STR_VAR_3}'s errors\n"
 	.string "hurt the blending quality…$"
@@ -2053,7 +2053,7 @@ gTVWhatsNo1InHoennTodayText04::
 	.string "Toward the end, even {STR_VAR_1}\n"
 	.string "seemed to get dizzy.\p"
 	.string "The TRAINER appeared to totter around\n"
-	.string "like a ARCTICHARE!$"
+	.string "like a RACCOON!$"
 
 gTVWhatsNo1InHoennTodayText05::
 	.string "In just one day, {STR_VAR_1} planted\n"

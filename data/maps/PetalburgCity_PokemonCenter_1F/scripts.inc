@@ -70,7 +70,7 @@ PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
 	.string "battle could be easy or hard.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
-	.string "For example, your BANANASLUG is a\n"
+	.string "For example, your SKUNKSEED is a\n"
 	.string "VERDANT type.\p"
 	.string "It's strong against the AQUA and\n"
 	.string "SOIL types.\p"
@@ -78,16 +78,16 @@ PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
 	.string "organisms.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType:
-	.string "For example, your RED FOX is an EMBER\n"
-	.string "type.\p"
+	.string "For example, your MORELSPORE is an\n"
+	.string "EMBER type.\p"
 	.string "It's strong against the VERDANT and\n"
 	.string "CHITIN types.\p"
 	.string "But, it's weak against AQUA-type\n"
 	.string "organisms.$"
 
 PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
-	.string "For example, your BEAVER is an AQUA\n"
-	.string "type.\p"
+	.string "For example, your BEAVERKIT is an\n"
+	.string "AQUA type.\p"
 	.string "It's strong against the EMBER type.\p"
 	.string "But, it's weak against VERDANT-type\n"
 	.string "and MIND-type organisms.$"

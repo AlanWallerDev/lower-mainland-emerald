@@ -261,7 +261,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "TEAM CINDER is a dangerous group of\n"
 	.string "total fanatics.\p"
 	.string "They engage in destruction, claiming\n"
-	.string "to expand the land mass.\p"
+	.string "the forests must burn.\p"
 	.string "They are the rivals to us,\n"
 	.string "the sea-loving TEAM RIPTIDE!$"
 

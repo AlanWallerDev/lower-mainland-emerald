@@ -33,7 +33,7 @@ PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
 	.string "ECHO BAY floats on top of a\n"
-	.string "colony of MURRE.\p"
+	.string "colony of LAMPREY.\p"
 	.string "If I told you that, would you believe\n"
 	.string "me?$"
 

@@ -437,32 +437,32 @@ static const u8 sHeartScaleDesc[] = _(
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A AMOEBOID-print\n"
+    "A KINGFISHER-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
 static const u8 sHarborMailDesc[] = _(
-    "A SEA CUCUMB-print\n"
+    "A TADPOLE-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A MOON JELLY-print\n"
+    "A BUMBLEBEE-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
 static const u8 sMechMailDesc[] = _(
-    "A SLIPPER-print\n"
+    "A LADYBUG-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A DOGVOMIT-print\n"
+    "A HERRING-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WATER BUG-print\n"
+    "A DIPPER-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
@@ -472,12 +472,12 @@ static const u8 sBeadMailDesc[] = _(
     "holding organism.");
 
 static const u8 sShadowMailDesc[] = _(
-    "A GLASSFROG-print\n"
+    "A SPOTPRAWN-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BUNNYCACTI-print\n"
+    "A GARRYOAK-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
@@ -776,17 +776,17 @@ static const u8 sCleanseTagDesc[] = _(
 static const u8 sSoulDewDesc[] = _(
     "Hold item: raises\n"
     "SP. ATK & SP. DEF of\n"
-    "GIANTSQUID & TARDIGRADE.");
+    "SPOTTEDOWL & MARMOT.");
 
 static const u8 sDeepSeaToothDesc[] = _(
     "A hold item that\n"
     "raises the SP. ATK\n"
-    "of FANGTOOTH.");
+    "of HAGFISH.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "A hold item that\n"
     "raises the SP. DEF\n"
-    "of FANGTOOTH.");
+    "of HAGFISH.");
 
 static const u8 sSmokeBallDesc[] = _(
     "A hold item that\n"
@@ -831,7 +831,7 @@ static const u8 sDragonScaleDesc[] = _(
 static const u8 sLightBallDesc[] = _(
     "A hold item that\n"
     "raises the SP. ATK\n"
-    "of MOON JELLY.");
+    "of BUMBLEBEE.");
 
 static const u8 sSoftSandDesc[] = _(
     "A hold item that\n"
@@ -929,22 +929,22 @@ static const u8 sLaxIncenseDesc[] = _(
 
 static const u8 sLuckyPunchDesc[] = _(
     "A hold item that\n"
-    "raises SLOTH's\n"
+    "raises BASILISK's\n"
     "critical-hit rate.");
 
 static const u8 sMetalPowderDesc[] = _(
     "A hold item that\n"
-    "raises VINEGARBAC's\n"
+    "raises YEAST's\n"
     "DEFENSE.");
 
 static const u8 sThickClubDesc[] = _(
     "A hold item that \n"
-    "raises TERMITOMYC or\n"
-    "TERMITE's ATTACK.");
+    "raises STREPTOMYC or\n"
+    "ROADRUNNER's ATTACK.");
 
 static const u8 sStickDesc[] = _(
     "A hold item that\n"
-    "raises PETREL's\n"
+    "raises ARCTICHARE's\n"
     "critical-hit ratio.");
 
 static const u8 sRedScarfDesc[] = _(

@@ -570,8 +570,8 @@ LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "place for organisms, too.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "There! WATER BUG! Leap out of the water\n"
-	.string "now!$"
+	.string "There! DIPPER! Leap out of the\n"
+	.string "water now!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
 	.string "Hunh? What do you want?\p"
@@ -613,8 +613,8 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
 	.string "Someone punted TEAM RIPTIDE out of\n"
 	.string "the way for us!\p"
-	.string "That got the WATER BUG out of the cove,\n"
-	.string "so we can get our boats out again.$"
+	.string "That got the DIPPER out of the\n"
+	.string "cove, so we can get our boats out again.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
 	.string "I was taking a relaxing snooze at the\n"

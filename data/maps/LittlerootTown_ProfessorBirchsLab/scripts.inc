@@ -892,22 +892,22 @@ LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
 	.string "organisms!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-	.string "PROF. MACOUN: The organism WEIZMANN\n"
+	.string "PROF. MACOUN: The organism SULFOLOBUS\n"
 	.string "caught your eye!\p"
 	.string "You're as sharp as ever!\p"
-	.string "So the WEIZMANN is your choice?$"
+	.string "So the SULFOLOBUS is your choice?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-	.string "PROF. MACOUN: The organism STENTOR is\n"
-	.string "your choice!\p"
+	.string "PROF. MACOUN: The organism NEWT\n"
+	.string "is your choice!\p"
 	.string "You know how to pick a good one.\p"
-	.string "So, you'll take the STENTOR?$"
+	.string "So, you'll take the NEWT?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-	.string "PROF. MACOUN: The organism TREEFROG is\n"
-	.string "your choice!\p"
+	.string "PROF. MACOUN: The organism LEAF FROG\n"
+	.string "is your choice!\p"
 	.string "You sure know what you're doing.\p"
-	.string "So, you'll take the TREEFROG?$"
+	.string "So, you'll take the LEAF FROG?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
 	.string "PROF. MACOUN: Take your time before\n"

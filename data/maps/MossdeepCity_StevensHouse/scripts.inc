@@ -171,11 +171,11 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 	.string "{PLAYER} checked the FIELD JAR.\p"
-	.string "It contained the organism WATER FLEA.\p"
+	.string "It contained the organism ABALONE.\p"
 	.string "Take the FIELD JAR?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a WATER FLEA.$"
+	.string "{PLAYER} obtained a ABALONE.$"
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
@@ -196,7 +196,7 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "I have a favor to ask of you.\p"
 	.string "I want you to take the FIELD JAR on the\n"
 	.string "desk.\p"
-	.string "Inside it is a WATER FLEA, my favorite\n"
+	.string "Inside it is a ABALONE, my favorite\n"
 	.string "organisms.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"

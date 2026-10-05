@@ -35,7 +35,8 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 
 ## P4 Story
 - [x] CINDER and RIPTIDE: team names, leaders and admins (stand-in names in `atlas/characters.json`)
-- [ ] CINDER and RIPTIDE motives in dialogue (fire and flood instead of land and sea)
+- [x] CINDER and RIPTIDE motives in dialogue (fire and flood): stand-in lines in `atlas/text/07_motives.tsv`
+- [x] Dialogue follows the species map (organism names tracked by `rename_text.js`)
 - [ ] Area-by-area dialogue rewrite, checked with mGBA scripts
 
 ## P5 Signature maps

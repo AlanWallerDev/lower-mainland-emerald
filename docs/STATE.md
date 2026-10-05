@@ -50,6 +50,13 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   ASHBY (Maxie), KENDALL (Tabitha), HOLLIS (Archie), MARINA (Shelly), FINN (Matt). The
   {KYOGRE}/{GROUDON} placeholders follow the species map.
 
+- **Dialogue follows the species map**: `rename_text.js` now tracks organism names too, so all 364
+  stale names from the old roster were renamed (the villains wake SPIRITBEAR and SPONGEREEF,
+  Wally's partner is the new slot organism). Names that contain a renamed word (SS BEAVER WRECK,
+  GALLOPING GOOSE) are shielded. Generated files (species names, Journal text) are excluded.
+- **Villain motives**: stand-in lines in `atlas/text/07_motives.tsv`: CINDER wants the old
+  forests to burn so they renew; RIPTIDE wants the sea to take back the land. Owner to approve.
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly, e.g. HOPE's
   founding or the KAMLOOPS ash. Wally's tutorial catch (Ralts slot) is now SAR11, a microbe.
@@ -62,7 +69,7 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 ## Next three tasks
 
 1. P3: conifer tree art (the tree block plus its forest variants), then new coast and Interior tiles.
-2. P4: CINDER and RIPTIDE motives (fire and flood) in their dialogue, then the rest area by area.
+2. P4: dialogue area by area (Hoenn story beats that still read oddly), starting with the opening and LADNER.
 3. Cryptid islands reachable after the credits without event tickets.
 
 ## Waiting on the owner
@@ -71,3 +78,4 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   `git remote set-url origin https://github.com/AlanWallerDev/<new-name>` locally.
 - Review `docs/ROSTER.md` (my legendary change: Latios is the spotted owl, not a second marmot).
 - Villain leader and admin names are stand-ins (ASHBY, KENDALL, HOLLIS, MARINA, FINN): keep or replace.
+- Stand-in motive lines in `atlas/text/07_motives.tsv`: approve or rewrite.

@@ -211,7 +211,7 @@ SeafloorCavern_Room9_Text_ArchieSoItWasYou:
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
 	.string "HOLLIS: Behold!\p"
 	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient ORCA!\p"
+	.string "form of the ancient SPONGEREEF!\p"
 	.string "I have waited so long for this day to\n"
 	.string "come…$"
 
@@ -232,7 +232,8 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make ORCA…$"
+	.string "With this RED ORB, I can make\n"
+	.string "SPONGEREEF…$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
 	.string "The RED ORB suddenly began shining\n"
@@ -242,7 +243,7 @@ SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
 	.string "HOLLIS: What?!\p"
 	.string "I didn't do anything.\n"
 	.string "Why did the RED ORB…\p"
-	.string "Where did ORCA go?$"
+	.string "Where did SPONGEREEF go?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
 	.string "HOLLIS: Hm? It's a message from our\n"
@@ -253,9 +254,9 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "Hm…\n"
 	.string "It's raining heavily?\p"
 	.string "Good… That should have happened. That\n"
-	.string "is why we awakened ORCA, to realize\l"
-	.string "TEAM RIPTIDE's vision of expanding the\l"
-	.string "sea.\p"
+	.string "is why we awakened SPONGEREEF, to\l"
+	.string "realize TEAM RIPTIDE's vision of the\l"
+	.string "sea taking back the delta.\p"
 	.string "What?!\p"
 	.string "It's raining far harder than we\n"
 	.string "envisioned? You're in danger?\p"
@@ -267,14 +268,15 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
 	.string "HOLLIS: There's something wrong…\p"
 	.string "The RED ORB is supposed to awaken and\n"
-	.string "control ORCA…\p"
-	.string "But… Why? Why did ORCA disappear?\p"
+	.string "control SPONGEREEF…\p"
+	.string "But… Why? Why did SPONGEREEF\n"
+	.string "disappear?\p"
 	.string "Why?!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "ASHBY: What have you wrought?\p"
-	.string "HOLLIS… You've finally awoken ORCA,\n"
-	.string "haven't you?\p"
+	.string "HOLLIS… You've finally awoken\n"
+	.string "SPONGEREEF, haven't you?\p"
 	.string "What will happen to the world if this\n"
 	.string "downpour continues for all eternity?\p"
 	.string "The world's landmass will drown in\n"
@@ -284,9 +286,9 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "HOLLIS: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
 	.string "Wasn't it you, TEAM CINDER, that\n"
-	.string "infuriated SEQUOIA?\p"
+	.string "infuriated SPIRITBEAR?\p"
 	.string "So long as I have this RED ORB, I should\n"
-	.string "be able to control ORCA…\p"
+	.string "be able to control SPONGEREEF…\p"
 	.string "I should be able to control it…$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:

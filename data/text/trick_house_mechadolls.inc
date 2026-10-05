@@ -1,56 +1,56 @@
 gTrickHouse_Mechadoll_Oddish::
-	.string "FLY AGARIC$"
+	.string "BANANASLUG$"
 
 gTrickHouse_Mechadoll_Poochyena::
-	.string "SALMONPARA$"
+	.string "GHOST PIPE$"
 
 gTrickHouse_Mechadoll_Taillow::
-	.string "SLIMESTALK$"
+	.string "BROWNBAT$"
 
 gTrickHouse_Mechadoll_Azurill::
-	.string "SAR11$"
+	.string "POLYP$"
 
 gTrickHouse_Mechadoll_Lotad::
-	.string "ZOOXANTHEL$"
+	.string "ALEVIN$"
 
 gTrickHouse_Mechadoll_Wingull::
-	.string "SEA CUCUMB$"
+	.string "TADPOLE$"
 
 gTrickHouse_Mechadoll_Dustox::
-	.string "HORNET$"
+	.string "SWALLOWTAL$"
 
 gTrickHouse_Mechadoll_Zubat::
-	.string "HARLEQUIN$"
+	.string "SAGEBRUSH$"
 
 gTrickHouse_Mechadoll_Nincada::
-	.string "HONEYPOT$"
+	.string "NYMPH$"
 
 gTrickHouse_Mechadoll_Ralts::
-	.string "CANDYSLIME$"
+	.string "SAR11$"
 
 gTrickHouse_Mechadoll_Zigzagoon::
-	.string "AMOEBOID$"
+	.string "KINGFISHER$"
 
 gTrickHouse_Mechadoll_Slakoth::
-	.string "DOGVOMIT$"
+	.string "HERRING$"
 
 gTrickHouse_Mechadoll_Poochyena2::
-	.string "SALMONPARA$"
+	.string "GHOST PIPE$"
 
 gTrickHouse_Mechadoll_Shroomish::
-	.string "ROCK TRIPE$"
+	.string "FLY AGARIC$"
 
 gTrickHouse_Mechadoll_Zigzagoon2::
-	.string "RACCOON$"
+	.string "CROW$"
 
 gTrickHouse_Mechadoll_Poochyena3::
-	.string "SALMONPARA$"
+	.string "GHOST PIPE$"
 
 gTrickHouse_Mechadoll_Zubat2::
-	.string "HARLEQUIN$"
+	.string "SAGEBRUSH$"
 
 gTrickHouse_Mechadoll_Carvanha::
-	.string "GULPER EEL$"
+	.string "MEGALOPA$"
 
 gTrickHouse_Mechadoll_BurnHeal::
 	.string "BURN HEAL$"

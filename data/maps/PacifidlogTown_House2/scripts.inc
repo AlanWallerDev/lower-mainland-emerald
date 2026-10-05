@@ -132,14 +132,14 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays:
 	.string "partners.$"
 
 PacifidlogTown_House2_Text_Rurii:
-	.string "SAR11: Rurii.$"
+	.string "POLYP: Rurii.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 	.string "It appears to be very friendly with the\n"
 	.string "TRAINER.$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string "SAR11: Rururi!$"
+	.string "POLYP: Rururi!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 	.string "It doesn't appear to like the TRAINER\n"

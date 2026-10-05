@@ -673,22 +673,22 @@ BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
 	.string "DUSCLOPS, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
-	.string "WHIRLPARA used TOXIC!$"
+	.string "GARTER used TOXIC!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
-	.string "WHIRLPARA used HYPNOSIS!$"
+	.string "GARTER used HYPNOSIS!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
-	.string "WHIRLPARA used THUNDER WAVE!$"
+	.string "GARTER used THUNDER WAVE!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
-	.string "WHIRLPARA used WILL-O-WISP!$"
+	.string "GARTER used WILL-O-WISP!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
-	.string "VAMPSQUID used WILL-O-WISP!$"
+	.string "LYNX used WILL-O-WISP!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
-	.string "VAMPSQUID used ICE BEAM!$"
+	.string "LYNX used ICE BEAM!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 	.string "Look here!\n"
@@ -696,11 +696,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
 	.string "I must apologize to you…\p"
-	.string "My WHIRLPARA has a TIMID nature…$"
+	.string "My GARTER has a TIMID nature…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
 	.string "I must apologize to you…\p"
-	.string "My VAMPSQUID has a TIMID nature…$"
+	.string "My LYNX has a TIMID nature…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
 	.string "It attacks without warning if it is\n"

@@ -1384,7 +1384,8 @@ SootopolisCity_Text_WhatIsThatGreenPokemon:
 	.string "organism?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
-	.string "SEQUOIA and ORCA… Where did they go?\p"
+	.string "SPIRITBEAR and SPONGEREEF… Where\n"
+	.string "did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
 
@@ -1542,7 +1543,7 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "ASHBY: G… SEQUOIA… Please! Stop\n"
+	.string "ASHBY: G… SPIRITBEAR… Please! Stop\n"
 	.string "what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all of BC, not just\n"
@@ -1550,8 +1551,8 @@ SootopolisCity_Text_GroudonPleaseStop:
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "ASHBY: So the super-ancient\n"
-	.string "organisms weren't only SEQUOIA and\l"
-	.string "ORCA…\p"
+	.string "organisms weren't only SPIRITBEAR and\l"
+	.string "SPONGEREEF…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one organism's\l"
 	.string "simple action puts everything right\l"
@@ -1560,17 +1561,17 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fuhahaha…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "HOLLIS: ORCA! What's wrong?! Look\n"
-	.string "over here! It's the RED ORB! Calm down!\l"
-	.string "ORCA!\p"
+	.string "HOLLIS: SPONGEREEF! What's wrong?!\n"
+	.string "Look over here! It's the RED ORB! Calm\l"
+	.string "down! SPONGEREEF!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "It's no good!\n"
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "HOLLIS: ORCA and SEQUOIA both flew\n"
-	.string "off to who knows where.\p"
+	.string "HOLLIS: SPONGEREEF and SPIRITBEAR\n"
+	.string "both flew off to who knows where.\p"
 	.string "The weather in BC has\n"
 	.string "returned to its normal state…\p"
 	.string "Haha… Hahaha…\p"
@@ -1580,7 +1581,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "STEVEN: Those organisms fighting…\n"
-	.string "SEQUOIA… And ORCA…\p"
+	.string "SPIRITBEAR… And SPONGEREEF…\p"
 	.string "The two super-ancient organisms were\n"
 	.string "awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1595,8 +1596,9 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing SEQUOIA and ORCA make you\n"
-	.string "think organisms are to be feared?\p"
+	.string "Does seeing SPIRITBEAR and\n"
+	.string "SPONGEREEF make you think organisms\l"
+	.string "are to be feared?\p"
 	.string "But that's not true. Organisms are\n"
 	.string "really more…\p"
 	.string "…Why am I asking you this?\n"
@@ -1619,7 +1621,7 @@ SootopolisCity_Text_NeverBeenToSkyPillar:
 	.string "I wonder where it could be?$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-	.string "STEVEN: So that's BALD EAGLE…\p"
+	.string "STEVEN: So that's MURRELET…\p"
 	.string "It's incredible how the two rampaging\n"
 	.string "organisms would flee from it in fear…$"
 

@@ -68,11 +68,11 @@ FortreeCity_House4_Text_GoBirdPokemon:
 	.string "There! Go, BIRD organisms!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my SEA CUCUMB to run an\n"
-	.string "errand for me.$"
+	.string "Heheh, I asked my TADPOLE to run\n"
+	.string "an errand for me.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Good! Welcome back, SEA CUCUMB!\p"
+	.string "Good! Welcome back, TADPOLE!\p"
 	.string "Huh? What is this?\n"
 	.string "What is it holding?\p"
 	.string "A MENTAL HERB?\n"
@@ -81,9 +81,9 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 	.string "have it.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my SEA CUCUMB, I have friends\n"
-	.string "who live far away.$"
+	.string "Thanks to my TADPOLE, I have\n"
+	.string "friends who live far away.$"
 
 FortreeCity_House4_Text_Wingull:
-	.string "SEA CUCUMB: Pihyoh!$"
+	.string "TADPOLE: Pihyoh!$"
 

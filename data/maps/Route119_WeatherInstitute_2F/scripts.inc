@@ -285,7 +285,7 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "this organism.$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received CANDIDA!$"
+	.string "{PLAYER} received BLACKTAIL!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "That organism changes shape according\n"

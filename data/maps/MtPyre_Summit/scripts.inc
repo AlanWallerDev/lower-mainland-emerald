@@ -505,8 +505,8 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
-	.string "You say that both SEQUOIA and ORCA\n"
-	.string "have been awakened?\p"
+	.string "You say that both SPIRITBEAR and\n"
+	.string "SPONGEREEF have been awakened?\p"
 	.string "It is said that the BLUE ORB and the\n"
 	.string "RED ORB quelled the rage of the two\l"
 	.string "organisms…\p"

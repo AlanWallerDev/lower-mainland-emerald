@@ -284,7 +284,7 @@ SafariZone_Northeast_Text_Boy:
 	.string "decide what I should catch.$"
 
 SafariZone_Northeast_Text_Woman:
-	.string "I heard that you can see MOON JELLY\n"
+	.string "I heard that you can see BUMBLEBEE\n"
 	.string "here. Where might one be?$"
 
 SafariZone_Northeast_Text_Girl:

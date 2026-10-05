@@ -27,8 +27,8 @@ RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
 	.string "originality, yes, that's it!$"
 
 RustboroCity_House3_Text_NamingPikachuPekachu:
-	.string "But giving the name PEKACHU to a MOON\n"
-	.string "JELLY? It seems pointless.\p"
+	.string "But giving the name PEKACHU to a\n"
+	.string "BUMBLEBEE? It seems pointless.\p"
 	.string "I suppose it is good to use a name\n"
 	.string "that's easy to understand, but…$"
 

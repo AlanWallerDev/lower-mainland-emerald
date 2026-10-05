@@ -82,9 +82,10 @@ FortreeCity_House1_Text_YouWontTradeMe:
 	.string "Even after I bared my heart to you?$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make VARROAMITE super\n"
+	.string "I'm going to make GREENCRAB super\n"
 	.string "strong from this moment on!\p"
-	.string "I hope you do the same with ATOLLA!$"
+	.string "I hope you do the same with\n"
+	.string "THRUSH!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
 	.string "Trading organisms with others…\p"
@@ -92,5 +93,5 @@ FortreeCity_House1_Text_TradingMemoriesWithOthers:
 	.string "memories with other people.$"
 
 FortreeCity_House1_Text_Zigzagoon:
-	.string "AMOEBOID: Gumomoh?$"
+	.string "KINGFISHER: Gumomoh?$"
 

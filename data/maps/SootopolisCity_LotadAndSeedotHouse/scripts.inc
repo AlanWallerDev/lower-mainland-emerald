@@ -107,7 +107,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
 	.string "Anyway, I love big SNOW ALGA. The bigger\n"
 	.string "the better.\p"
 	.string "But my younger brother, he says that\n"
-	.string "ZOOXANTHEL is bigger.\p"
+	.string "ALEVIN is bigger.\p"
 	.string "That's silly. SNOW ALGA has to be bigger\n"
 	.string "than that!\p"
 	.string "Huh? Do you have a SNOW ALGA with you?\n"
@@ -116,7 +116,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
 SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
 	.string "{STR_VAR_2} inches!\n"
 	.string "Oh, my gosh, this is a big one!\p"
-	.string "It might even beat the big ZOOXANTHEL\n"
+	.string "It might even beat the big ALEVIN\n"
 	.string "my younger brother saw!\p"
 	.string "Thanks for showing me.\n"
 	.string "This is my thanks!$"
@@ -147,18 +147,18 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 	.string "The biggest SNOW ALGA in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch giant!\p"
-	.string "A SNOW ALGA bigger than a ZOOXANTHEL\n"
+	.string "A SNOW ALGA bigger than a ALEVIN\n"
 	.string "always wanted!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
-	.string "Do you know the organism ZOOXANTHEL?\n"
+	.string "Do you know the organism ALEVIN?\n"
 	.string "It's rarely seen in DEEP COVE.\p"
-	.string "I love, I mean love, big ZOOXANTHEL!\p"
+	.string "I love, I mean love, big ALEVIN!\p"
 	.string "My big brother says that SNOW ALGA is\n"
 	.string "bigger.\p"
 	.string "But that's wrong! Everyone knows that\n"
-	.string "ZOOXANTHEL is a lot bigger.\p"
-	.string "Hunh? Do you have a ZOOXANTHEL?\n"
+	.string "ALEVIN is a lot bigger.\p"
+	.string "Hunh? Do you have a ALEVIN?\n"
 	.string "P-p-please show me!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
@@ -179,23 +179,23 @@ SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
 	.string "{STR_VAR_2} inches?\p"
-	.string "Hmm… I've seen a bigger ZOOXANTHEL\n"
+	.string "Hmm… I've seen a bigger ALEVIN\n"
 	.string "than this one here.$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad:
 	.string "Well, isn't this something! But it's no\n"
-	.string "ZOOXANTHEL!$"
+	.string "ALEVIN!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
-	.string "Don't you have a big ZOOXANTHEL? How\n"
+	.string "Don't you have a big ALEVIN? How\n"
 	.string "disappointing…\p"
-	.string "If you get a big ZOOXANTHEL, please\n"
+	.string "If you get a big ALEVIN, please\n"
 	.string "come show me!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
-	.string "The biggest ZOOXANTHEL in history!\n"
+	.string "The biggest ALEVIN in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch\l"
 	.string "colossus!\p"
-	.string "A ZOOXANTHEL bigger than a SNOW ALGA\n"
+	.string "A ALEVIN bigger than a SNOW ALGA\n"
 	.string "always wanted!$"
 

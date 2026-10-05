@@ -532,15 +532,15 @@ Route109_Text_WereGoingToMakeBigCastle:
 
 Route109_Text_ZigzagoonPicksUpLitter:
 	.string "The water around these parts is clean.\p"
-	.string "But, I get my AMOEBOID to pick up litter\n"
-	.string "from the shoreline at times.\p"
+	.string "But, I get my KINGFISHER to pick up\n"
+	.string "litter from the shoreline at times.\p"
 	.string "Dirty water becomes rain and joins our\n"
 	.string "rivers, which we drink from…\p"
 	.string "If we pollute the sea, it all comes\n"
 	.string "back to haunt us eventually.$"
 
 Route109_Text_ZigzagoonCry:
-	.string "AMOEBOID: Guguu?$"
+	.string "KINGFISHER: Guguu?$"
 
 Route109_Text_SeashoreHouseSign:
 	.string "SEASHORE HOUSE\p"

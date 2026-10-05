@@ -317,7 +317,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "Organisms, people… All life depends on\n"
 	.string "the sea.\p"
 	.string "So, TEAM RIPTIDE is dedicated to\n"
-	.string "the expansion of the sea.\p"
+	.string "letting the sea take back the land.\p"
 	.string "Don't you agree? What we are doing\n"
 	.string "is a magnificent undertaking.\p"
 	.string "Ah, fine…\n"

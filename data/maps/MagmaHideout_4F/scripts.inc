@@ -119,17 +119,18 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-	.string "I want to see SEQUOIA, too, but they\n"
-	.string "won't let me see even its tail…\p"
+	.string "I want to see SPIRITBEAR, too, but\n"
+	.string "they won't let me see even its tail…\p"
 	.string "It's got me feeling really frustrated.\p"
-	.string "Oh, no! I blabbed about SEQUOIA!$"
+	.string "Oh, no! I blabbed about SPIRITBEAR!$"
 
 MagmaHideout_4F_Text_Grunt11Defeat:
 	.string "I guess it's impossible to win if one\n"
 	.string "doesn't have a calm mind…$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
-	.string "I wonder if SEQUOIA even has a tail?$"
+	.string "I wonder if SPIRITBEAR even has a\n"
+	.string "tail?$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
 	.string "Fuhahaha!\n"
@@ -157,9 +158,9 @@ MagmaHideout_4F_Text_Grunt13PostBattle:
 MagmaHideout_4F_Text_TabithaIntro:
 	.string "Hehehe!\n"
 	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right! Up ahead, SEQUOIA is\n"
+	.string "That's right! Up ahead, SPIRITBEAR is\n"
 	.string "sleeping!\p"
-	.string "ASHBY went to SEQUOIA just\n"
+	.string "ASHBY went to SPIRITBEAR just\n"
 	.string "seconds ago!\p"
 	.string "It's going to awaken real soon!\n"
 	.string "Hehe! Hehehe!$"
@@ -171,12 +172,12 @@ MagmaHideout_4F_Text_TabithaDefeat:
 MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "…And while you wasted time with me,\n"
 	.string "ASHBY should have awakened\l"
-	.string "SEQUOIA…$"
+	.string "SPIRITBEAR…$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "ASHBY: SEQUOIA…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
+	.string "ASHBY: SPIRITBEAR…\p"
+	.string "Nothing could awaken you from your long\n"
+	.string "sleep in the rainforest…\p"
 	.string "This BLUE ORB is what you sought.\n"
 	.string "Wasn't it?\p"
 	.string "I have brought you the BLUE ORB.\n"
@@ -185,9 +186,9 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon:
 	.string "Show me the full extent of your power!$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "ASHBY: SEQUOIA! What's wrong?\p"
+	.string "ASHBY: SPIRITBEAR! What's wrong?\p"
 	.string "Wasn't the BLUE ORB the key?\p"
-	.string "SEQUOIA! Where have you gone…$"
+	.string "SPIRITBEAR! Where have you gone…$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
 	.string "ASHBY: Oh, so it was you?\p"
@@ -202,14 +203,15 @@ MagmaHideout_4F_Text_MaxieDefeat:
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
 	.string "ASHBY: There has to be some reason\n"
-	.string "why SEQUOIA fled…\p"
+	.string "why SPIRITBEAR fled…\p"
 	.string "That's what you're trying to say,\n"
 	.string "aren't you?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Humph…\n"
 	.string "You think I didn't know that?\p"
-	.string "With SEQUOIA gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after SEQUOIA, so this is\n"
-	.string "where we part!$"
+	.string "With SPIRITBEAR gone, there is no\n"
+	.string "longer any need for this blasted\l"
+	.string "volcano.\p"
+	.string "I am going after SPIRITBEAR, so this\n"
+	.string "is where we part!$"

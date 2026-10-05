@@ -153,18 +153,18 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
 	.string "Have you battled the SALON MAIDEN?\p"
 	.string "When she's measuring up her opponent,\n"
 	.string "she apparently uses these organisms:\p"
-	.string "OCTOPUS (AQUA & MIND), ELEPHANT (SOIL\n"
-	.string "& COMMON), and GUTBUDDY (COMMON &\l"
-	.string "CHARM).$"
+	.string "WOLFEEL (AQUA & MIND), STREP\n"
+	.string "(SOIL & COMMON), and ELEPHANT\l"
+	.string "(COMMON & CHARM).$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
 	.string "Have you battled the SALON MAIDEN\n"
 	.string "when she's serious?\p"
 	.string "When she's battling flat out, she\n"
 	.string "apparently uses these organisms:\p"
-	.string "KAKAPO (VERDANT & CHARM), GIANTSQUID\n"
-	.string "(AQUA & BRAWN), and GUTBUDDY (COMMON &\l"
-	.string "CHARM).$"
+	.string "ARGONAUT (VERDANT & CHARM),\n"
+	.string "SPOTTEDOWL (AQUA & BRAWN), and\l"
+	.string "ELEPHANT (COMMON & CHARM).$"
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere::
 	.string "Bet you didn't know this!\p"
@@ -177,18 +177,18 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "Have you battled the DOME ACE?\p"
 	.string "When he's treating the opponent\n"
 	.string "lightly, he uses these three organisms:\p"
-	.string "BURROWTOAD (SOIL & AQUA), SNAPPER\n"
-	.string "(AQUA & BRAWN), and TOUCAN (EMBER &\l"
-	.string "SKY).$"
+	.string "BEAVER (SOIL & AQUA),\n"
+	.string "SPERMWHALE (AQUA & BRAWN), and\l"
+	.string "PROTEA (EMBER & SKY).$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
 	.string "Have you battled the DOME ACE\n"
 	.string "when he's serious?\p"
 	.string "When he's demonstrating his strategy,\n"
 	.string "he uses these three organisms:\p"
-	.string "BURROWTOAD (SOIL & AQUA), GINKGO\n"
-	.string "(VERDANT & ARMOR), and TARDIGRADE\l"
-	.string "(AQUA & BRAWN).$"
+	.string "BEAVER (SOIL & AQUA),\n"
+	.string "DEVILSCLUB (VERDANT & ARMOR), and\l"
+	.string "MARMOT (AQUA & BRAWN).$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
 	.string "Bet you didn't know this!\p"
@@ -225,17 +225,18 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 	.string "before?\p"
 	.string "When she's in a good mood, they say she\n"
 	.string "uses these three organisms:\p"
-	.string "CORALSNAKE (TOXIN), VELVET ANT (CHITIN\n"
-	.string "& CHARM), and GREATWHITE (AQUA &\l"
-	.string "NIGHT).$"
+	.string "OSPREY (TOXIN), SCARAB\n"
+	.string "(CHITIN & CHARM), and HERON\l"
+	.string "(AQUA & NIGHT).$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
 	.string "Have you battled the PIKE QUEEN\n"
 	.string "when she's serious?\p"
 	.string "When she's seriously annoyed, they say\n"
 	.string "she uses these three organisms:\p"
-	.string "CORALSNAKE (TOXIN), ARMADILLO (SOIL &\n"
-	.string "ARMOR), and TUFTPUFFIN (AQUA & SKY).$"
+	.string "OSPREY (TOXIN), IRONCLAD\n"
+	.string "(SOIL & ARMOR), and ORCA (AQUA\l"
+	.string "& SKY).$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
 	.string "Bet you didn't know this!\p"
@@ -249,18 +250,18 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "before?\p"
 	.string "When she's assessing the foe's ability,\n"
 	.string "she supposedly uses these organisms:\p"
-	.string "MANTIS (CHITIN & BRAWN), TSETSE FLY\n"
-	.string "(CHITIN & NIGHT), and FACE MITE (CHITIN\l"
-	.string "& NIGHT).$"
+	.string "COUGAR (CHITIN & BRAWN),\n"
+	.string "MYXOBACTER (CHITIN & NIGHT), and\l"
+	.string "BULLKELP (CHITIN & NIGHT).$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Have you battled the ARENA TYCOON\n"
 	.string "when she's serious?\p"
 	.string "When she battles for keeps, she\n"
 	.string "supposedly uses these organisms:\p"
-	.string "TSETSE FLY (CHITIN & NIGHT), C. DIFF\n"
-	.string "(TOXIN & NIGHT), and HATTHROWER\l"
-	.string "(VERDANT & BRAWN).$"
+	.string "MYXOBACTER (CHITIN & NIGHT),\n"
+	.string "MONARCH (TOXIN & NIGHT), and\l"
+	.string "DOUGFIR (VERDANT & BRAWN).$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
 	.string "Bet you didn't know this!\p"
@@ -275,9 +276,9 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
 	.string "When he's testing the opponent's\n"
 	.string "spirit, he's said to use these\l"
 	.string "organisms:\p"
-	.string "VAMPIREBAT (TOXIN & SKY), FIN WHALE\n"
-	.string "(AQUA & COMMON), and POLAR BEAR (FROST\l"
-	.string "& AQUA).$"
+	.string "RUFOUS (TOXIN & SKY), FIN WHALE\n"
+	.string "(AQUA & COMMON), and PHANTOMJLY\l"
+	.string "(FROST & AQUA).$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "Have you battled the PALACE MAVEN\n"
@@ -285,9 +286,9 @@ BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "When he throws his entire might into\n"
 	.string "battle, he's said to use these\l"
 	.string "organisms:\p"
-	.string "POMPEIIWRM (EMBER & AQUA), FIN WHALE\n"
-	.string "(AQUA & COMMON), and MEGALODON (AQUA &\l"
-	.string "NIGHT).$"
+	.string "ORANGEMOLD (EMBER & AQUA), FIN WHALE\n"
+	.string "(AQUA & COMMON), and HORSESHOE (AQUA\l"
+	.string "& NIGHT).$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
 	.string "Bet you didn't know this!\p"
@@ -301,17 +302,18 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
 	.string "before?\p"
 	.string "When he's checking the foe's power, he\n"
 	.string "apparently uses these organisms:\p"
-	.string "T. REX (BRAWN & STONE), TUN (ARMOR &\n"
-	.string "FROST), and PUYA (VERDANT & FROST).$"
+	.string "MARRELLA (BRAWN & STONE),\n"
+	.string "PIKAIA (ARMOR & FROST), and\l"
+	.string "OPABINIA (VERDANT & FROST).$"
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
 	.string "Have you battled the PYRAMID KING\n"
 	.string "when he's serious?\p"
 	.string "When he's pumped with hot power, he\n"
 	.string "apparently uses these organisms:\p"
-	.string "SNOWLEOPRD (FROST & STONE),\n"
-	.string "FAIRYDILLO (CHARM & SOIL), and\l"
-	.string "HARPYEAGLE (BRAWN & SKY).$"
+	.string "GROUNDSEL (FROST & STONE),\n"
+	.string "PUFFIN (CHARM & SOIL), and\l"
+	.string "TUBE WORM (BRAWN & SKY).$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
 	.string "Sure, there are several places where\n"

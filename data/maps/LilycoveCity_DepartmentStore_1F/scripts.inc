@@ -150,11 +150,12 @@ LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
 	.string "nice furniture.$"
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
-	.string "I'm buying something for my OARFISH as\n"
-	.string "a reward for winning a CONTEST.$"
+	.string "I'm buying something for my\n"
+	.string "MOON JELLY as a reward for winning a\l"
+	.string "CONTEST.$"
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
-	.string "OARFISH: Maririroo!$"
+	.string "MOON JELLY: Maririroo!$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 	.string "1F: SERVICE COUNTER\n"

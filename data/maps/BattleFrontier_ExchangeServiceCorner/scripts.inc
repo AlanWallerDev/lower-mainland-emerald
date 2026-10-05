@@ -450,55 +450,55 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "You've chosen the LISTERIA DOLL. Is\n"
+	.string "You've chosen the WHITE-NOSE DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the HATCHLING DOLL. Is\n"
+	.string "You've chosen the ACNEBACTER DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the E. COLI DOLL. Is that\n"
-	.string "correct?$"
+	.string "You've chosen the MIMIVIRUS DOLL. Is\n"
+	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the ANGELGLOW DOLL. Is\n"
+	.string "You've chosen the OPOSSUM DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the VINEGARBAC DOLL. Is\n"
+	.string "You've chosen the YEAST DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the WEIZMANN DOLL. Is\n"
+	.string "You've chosen the SULFOLOBUS DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the TREEFROG DOLL. Is\n"
+	.string "You've chosen the LEAF FROG DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the STENTOR DOLL. Is\n"
+	.string "You've chosen the NEWT DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the POLAR BEAR DOLL. Is\n"
+	.string "You've chosen the PHANTOMJLY DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the GUTBUDDY DOLL. Is\n"
+	.string "You've chosen the ELEPHANT DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the KALANCHOE DOLL. Is\n"
+	.string "You've chosen the SEQUOIA DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the TOUCAN DOLL. Is that\n"
-	.string "correct?$"
+	.string "You've chosen the PROTEA DOLL. Is\n"
+	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the SCALYSNAIL DOLL. Is\n"
+	.string "You've chosen the MAN O' WAR DOLL. Is\n"
 	.string "that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
@@ -610,7 +610,7 @@ BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 	.string "I don't like you staring at my plush\n"
 	.string "doll like that.\p"
 	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, LISTERIA?$"
+	.string "Isn't that right, WHITE-NOSE?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 	.string "Did you know?\p"
@@ -619,43 +619,44 @@ BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 	.string "giving you more and more Battle Points.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "A large poster with a LISTERIA print.$"
+	.string "A large poster with a WHITE-NOSE\n"
+	.string "print.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "A LISTERIA cushion. Place it on a mat or\n"
-	.string "a desk.$"
+	.string "A WHITE-NOSE cushion. Place it on a\n"
+	.string "mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "A LISTERIA DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A WHITE-NOSE DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A HATCHLING DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A ACNEBACTER DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A E. COLI DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A MIMIVIRUS DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A ANGELGLOW DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A OPOSSUM DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A VINEGARBAC DOLL. Place it on a mat or\n"
+	.string "A YEAST DOLL. Place it on a mat or\n"
 	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A WEIZMANN DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A SULFOLOBUS DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A TREEFROG DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A LEAF FROG DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A STENTOR DOLL. Place it on a mat or a\n"
-	.string "desk.$"
+	.string "A NEWT DOLL. Place it on a mat or\n"
+	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
 	.string "A large DOLL.\n"

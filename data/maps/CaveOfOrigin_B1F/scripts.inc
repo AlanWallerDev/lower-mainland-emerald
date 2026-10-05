@@ -65,23 +65,24 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "FORTES with the GYM's operation.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "SEQUOIA and ORCA, the two organisms\n"
-	.string "wreaking havoc here, are considered to\l"
-	.string "be super-ancient organisms.\p"
+	.string "SPIRITBEAR and SPONGEREEF, the two\n"
+	.string "organisms wreaking havoc here, are\l"
+	.string "considered to be super-ancient\l"
+	.string "organisms.\p"
 	.string "But there aren't just two super-\n"
 	.string "ancient organisms.\p"
 	.string "There is one more somewhere.\p"
 	.string "Somewhere, there is a super- ancient\n"
-	.string "organism named BALD EAGLE.\p"
-	.string "It's said that it was BALD EAGLE that\n"
+	.string "organism named MURRELET.\p"
+	.string "It's said that it was MURRELET that\n"
 	.string "becalmed the two combatants in the\l"
 	.string "distant past.\p"
-	.string "But even I have no clue as to BALD\n"
-	.string "EAGLE's whereabouts…$"
+	.string "But even I have no clue as to\n"
+	.string "MURRELET's whereabouts…$"
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
 	.string "WALLACE: {PLAYER}{KUN}, do you perhaps know\n"
-	.string "where BALD EAGLE is now?\p"
+	.string "where MURRELET is now?\p"
 	.string "If you do, please tell me.$"
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
@@ -89,7 +90,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
 	.string "But that's right here!\n"
 	.string "I need you to do better than that!\p"
 	.string "Please, I need you to think about where\n"
-	.string "BALD EAGLE might be right now.$"
+	.string "MURRELET might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 	.string "WALLACE: MOUNTAIN VIEW?\p"
