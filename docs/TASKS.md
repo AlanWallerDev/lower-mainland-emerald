@@ -56,4 +56,5 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Overworld sprites for the story legendaries: bear, reef, murrelet (`atlas/make_legend_sprites.py`, `docs/legends.png`)
 - [x] Battle intros for the bear (amber paw print) and the reef (cyan glass-sponge lattice) (`atlas/make_transitions.py`, `docs/intros.png`)
 - [x] Learnsets: immobile organisms get body-appropriate moves
-- [ ] Playtest fixes
+- [x] Playtest from power-on to the first battle (`firstbattle.txt`); menu overflow fixes
+- [ ] Playtest further (rival battle, RICHMOND, first gym)

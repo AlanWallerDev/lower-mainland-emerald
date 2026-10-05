@@ -1,6 +1,6 @@
 #!/bin/sh
 # Run a harness script against the built ROM. Screenshots land in build/test/ as PNGs.
-# Usage: atlas/test/run.sh atlas/test/scripts/opening.txt
+# Usage: atlas/test/run.sh atlas/test/scripts/firstbattle.txt
 set -e
 cd "$(dirname "$0")/../.."
 OUT=build/test

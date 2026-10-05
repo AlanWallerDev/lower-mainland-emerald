@@ -1,0 +1,6 @@
+# Menu strings that used the narrow {PKMN} glyph and overflowed once it became PARTNER.
+Do what with this PARTNER?	Do what with this one?	gText_DoWhatWithPokemon
+BATTLE PARTNER	IN BATTLE	gText_BattleMon
+PARTNER FOR SWAP	FOR SWAP	gText_PkmnForSwap
+Can't select same PARTNER.	Can't pick the same one.	gText_CantSelectSamePkmn
+Same PARTNER in party already.	Already in your party.	gText_SamePkmnInPartyAlready

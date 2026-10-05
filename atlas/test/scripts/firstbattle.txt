@@ -1,5 +1,6 @@
-# Power-on to the first battle: options GAME SPEED 4x, new game, Nuzlocke YES, rival, starter (RED FOX), battle.
-# Run: atlas/test/run.sh atlas/test/scripts/opening.txt
+# Power-on to the first battle and through it: new game (4x speed, Nuzlocke on), set the clock, meet
+# the rival, RIVER ROAD, pick MORELSPORE from the bag, win the battle. Replaces the old opening.txt.
+# Run: atlas/test/run.sh atlas/test/scripts/firstbattle.txt
 wait 400
 press START
 wait 600
@@ -217,83 +218,136 @@ repeat B 25
 wait 100
 repeat B 25
 wait 100
-hold DOWN 4
-wait 8
-hold DOWN 4
-wait 8
-hold DOWN 4
-wait 8
-hold RIGHT 16
-wait 10
-press RIGHT
-press A
-wait 60
-repeat A 12
-wait 60
-repeat A 20
-wait 100
-hold LEFT 4
-wait 10
-press UP
-wait 6
-press A
-wait 60
-repeat A 15
-wait 60
-repeat A 25
-wait 100
-hold UP 8
-wait 10
-hold LEFT 20
-wait 10
-hold UP 12
-wait 30
-hold RIGHT 4
-wait 8
-hold UP 8
-wait 150
-repeat B 10
-wait 30
-hold DOWN 24
-wait 150
-repeat B 6
-hold DOWN 4
-wait 8
-hold LEFT 12
-wait 8
-hold UP 60
+shot $OUT/fb_bedroom.ppm
+hold LEFT 8
 wait 20
-repeat A 10
-repeat B 14
+press UP
+wait 20
+press A
 wait 60
-hold UP 40
+repeat A 2
 wait 60
-repeat B 8
-wait 60
-repeat B 12
-wait 60
-hold UP 4
-wait 8
-hold LEFT 12
-wait 8
-press LEFT
-wait 6
 press A
 wait 90
-repeat A 3
-wait 200
-repeat A 2
+press A
+wait 60
+press UP
+wait 20
+press A
+wait 120
+repeat A 12
+wait 120
+hold RIGHT 8
+wait 10
+hold UP 8
+wait 120
+repeat A 10
 wait 100
-press A
+repeat A 10
+wait 100
+repeat A 6
+wait 60
+shot $OUT/fb_downstairs.ppm
+hold DOWN 12
+wait 10
+hold RIGHT 16
+wait 10
+hold DOWN 16
+wait 150
+repeat B 6
+wait 60
+hold DOWN 4
+wait 10
+hold RIGHT 40
+wait 20
+hold LEFT 4
+wait 10
+hold UP 12
+wait 150
+repeat A 12
+wait 100
+shot $OUT/fb_rivalhouse.ppm
+repeat B 8
 wait 30
-shot $OUT/f1.ppm
-repeat A 4
+hold UP 28
+wait 150
+hold DOWN 8
+wait 10
+hold RIGHT 12
+wait 10
+press A
+wait 150
+repeat A 40
+wait 100
+repeat B 10
+wait 100
+shot $OUT/fb_metrival.ppm
+hold UP 8
+wait 6
+hold LEFT 12
+wait 6
+hold UP 4
+wait 150
+hold DOWN 28
+wait 150
+hold DOWN 4
+wait 10
+hold LEFT 12
+wait 6
+hold UP 40
+wait 150
+repeat B 12
 wait 60
-shot $OUT/f2.ppm
+hold UP 24
+wait 150
+repeat B 12
+wait 100
+shot $OUT/fb_route101.ppm
+hold UP 4
+wait 10
+hold LEFT 12
+wait 10
+press LEFT
+wait 10
+press A
+wait 120
+shot $OUT/fb_bag1.ppm
+repeat B 4
+wait 60
+shot $OUT/fb_bag2.ppm
+press A
+wait 90
+shot $OUT/fb_bag3.ppm
 press A
 wait 60
-shot $OUT/f3.ppm
+shot $OUT/fb_bag4.ppm
+wait 300
+shot $OUT/fb_bag5.ppm
 press A
+wait 200
+shot $OUT/fb_bag6.ppm
+press A
+wait 120
+shot $OUT/fb_bag7.ppm
+press DOWN
+wait 10
+press A
+wait 400
+shot $OUT/fb_battle1.ppm
+repeat B 4
 wait 60
-shot $OUT/f4.ppm
-savestate $OUT/battle.state
+press A
+wait 20
+press A
+wait 400
+shot $OUT/fb_battle2.ppm
+repeat B 4
+wait 60
+press A
+wait 20
+press A
+wait 400
+shot $OUT/fb_battle3.ppm
+repeat B 20
+wait 300
+shot $OUT/fb_battle4.ppm
