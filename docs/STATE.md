@@ -29,11 +29,13 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 - **Checks**: `node atlas/check_text.js` flags message lines over 208px and item description
   lines over 109px that differ from upstream; currently 0. `replace.js` rows can be scoped to one
   C variable.
+- **Title screen**: a marbled murrelet in flight replaces Rayquaza's silhouette, eye in the
+  pulsing marking colour (`atlas/make_title_bird.py`, `docs/title.png`).
 - **Post-game played**: `postgame.txt` (island tickets, `docs/postgame_desk.png`) and
   `survey.txt` (ISLAND CAVE survey note). Harness: `sb1poke`, `reset`, fresh save per run.
 
 **Known issues**
-- The DEEP COVE clash and title screen still use Groudon/Kyogre/Rayquaza shapes (P6 sprites).
+- The DEEP COVE clash still uses Groudon/Kyogre/Rayquaza overworld shapes (P6 sprites).
 - BATTLE FRONTIER, TRAINER HILL and TV text only had the automatic passes.
 - Learnsets are type-based, so a few organisms get odd moves (Morel Spore knows Tackle).
 - Elk, deer and caribou use the goat rig; sea lions and otters the seal rig (stand-ins).
@@ -41,9 +43,9 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 ## Next three tasks
 
-1. Title screen: replace the Rayquaza silhouette with the marbled murrelet.
-2. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
-3. P6: overworld sprites for the legendaries (bear, reef, murrelet) in the DEEP COVE clash.
+1. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
+2. P6: overworld sprites for the legendaries (bear, reef, murrelet) in the DEEP COVE clash.
+3. P4: BATTLE FRONTIER, TRAINER HILL and TV text pass.
 
 ## Waiting on the owner
 

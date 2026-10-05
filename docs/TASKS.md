@@ -12,7 +12,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Final Hoenn-to-BC place table in `atlas/locations.json` (towns, routes, landmarks)
 - [x] 202-entry BC roster list: slot, organism, habitat, life-stage lines (`docs/ROSTER.md`)
 - [x] Title chosen (Pokémon BC); new title logo
-- [ ] Title screen silhouette: Rayquaza to Marbled Murrelet
+- [x] Title screen silhouette: Marbled Murrelet in flight (`atlas/make_title_bird.py`, `docs/title.png`)
 
 ## P2 Roster
 - [x] `atlas/bc_species.json` (Living Atlas schema, `bc-` ids) for new BC species (148)
