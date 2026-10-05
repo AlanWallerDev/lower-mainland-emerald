@@ -1,0 +1,293 @@
+# New game to the bedroom, then mark the game cleared and continue at the VANCOUVER harbour desk.
+# Run: atlas/test/run.sh atlas/test/scripts/postgame.txt
+wait 400
+press START
+wait 600
+press START
+wait 400
+press DOWN
+wait 20
+press A
+wait 300
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press RIGHT
+press RIGHT
+wait 30
+press B
+wait 300
+press UP
+wait 20
+press A
+wait 400
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+wait 300
+repeat A 10
+wait 200
+press B
+wait 30
+hold RIGHT 12
+wait 10
+hold RIGHT 12
+wait 120
+repeat A 12
+wait 60
+repeat A 12
+wait 120
+repeat B 6
+hold UP 8
+hold RIGHT 8
+hold UP 16
+wait 30
+hold LEFT 6
+wait 10
+hold LEFT 4
+wait 10
+hold UP 8
+wait 150
+repeat A 6
+wait 60
+hold LEFT 4
+wait 8
+hold LEFT 4
+wait 8
+press UP
+wait 10
+press A
+wait 60
+repeat A 3
+wait 120
+press A
+wait 60
+press UP
+wait 10
+press A
+wait 150
+repeat A 8
+wait 100
+repeat B 8
+wait 200
+hold RIGHT 4
+wait 8
+hold RIGHT 4
+wait 8
+hold UP 8
+wait 150
+repeat B 20
+wait 100
+repeat B 20
+repeat B 10
+wait 60
+hold RIGHT 16
+wait 10
+hold DOWN 20
+wait 150
+repeat B 10
+wait 60
+hold DOWN 4
+wait 6
+hold RIGHT 40
+wait 10
+hold LEFT 4
+wait 8
+hold UP 12
+wait 150
+repeat B 15
+wait 100
+hold UP 16
+wait 20
+hold UP 12
+wait 150
+repeat B 25
+wait 100
+repeat B 25
+wait 100
+# Post-game: mark the game cleared and set the continue warp to the VANCOUVER harbour (Lilycove
+# Harbor, group 13 map 10, x 8 y 11, in front of the ferry desk), save, reset and continue.
+setflag @gSaveBlock1Ptr 2148
+sb1poke @gSaveBlock1Ptr c d
+sb1poke @gSaveBlock1Ptr d a
+sb1poke @gSaveBlock1Ptr e ff
+sb1poke @gSaveBlock1Ptr 10 8
+sb1poke @gSaveBlock1Ptr 11 0
+sb1poke @gSaveBlock1Ptr 12 b
+sb1poke @gSaveBlock1Ptr 13 0
+sb1poke @gSaveBlock2Ptr 9 1
+press START
+wait 30
+press DOWN
+wait 10
+press DOWN
+wait 10
+shot $OUT/pg_menu.ppm
+press A
+wait 60
+press A
+wait 300
+shot $OUT/pg_saved.ppm
+press A
+wait 60
+reset
+# Mash A through the intro, title and main menu (CONTINUE); A does nothing once in the field facing away.
+repeat A 60
+wait 120
+shot $OUT/pg_harbor.ppm
+press UP 2
+wait 30
+press A
+wait 90
+shot $OUT/pg_desk1.ppm
+press A
+wait 90
+shot $OUT/pg_desk2.ppm
+press A
+wait 90
+shot $OUT/pg_desk3.ppm
+press A
+wait 90
+shot $OUT/pg_desk4.ppm
+press A
+wait 90
+shot $OUT/pg_desk5.ppm
+press A
+wait 90
+shot $OUT/pg_desk6.ppm
+press A
+wait 90
+shot $OUT/pg_desk7.ppm
+press A
+wait 90
+shot $OUT/pg_desk8.ppm
+press A
+wait 90
+shot $OUT/pg_desk9.ppm
+press A
+wait 90
+shot $OUT/pg_desk10.ppm
+press A
+wait 90
+shot $OUT/pg_desk11.ppm
+press A
+wait 90
+shot $OUT/pg_desk12.ppm
+press A
+wait 90
+shot $OUT/pg_desk13.ppm
+press A
+wait 90
+shot $OUT/pg_desk14.ppm

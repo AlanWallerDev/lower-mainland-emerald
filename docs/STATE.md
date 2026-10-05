@@ -72,7 +72,9 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 - **Post-game islands**: after the credits, the VANCOUVER harbour desk gives the four island
   tickets once (stand-in line, `data/maps/LilycoveCity_Harbor/scripts.inc`), opening the islands of
-  Sasquatch, Caddy, Ogopogo and the roaming pair. Built, not yet played through a cleared save.
+  Sasquatch, Caddy, Ogopogo and the roaming pair. Played through: `atlas/test/scripts/postgame.txt`
+  marks the game cleared, saves with a continue warp into the harbour, resets and talks to the
+  desk; all four key items arrive, then the upstream Old Sea Map scene follows.
 - **Text pass, continued** (`13_text_fixes.tsv`): last upstream species names (whale watching in
   PRINCE RUPERT, Battle Pike, Mountain View), PRESIDENT DAWSON, TOFINO as a surf town, HOPE's
   founding, the granite STAWAMUS CHIEF; the braille puzzle follows the species map.
@@ -80,7 +82,11 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 - **Survey notes**: the Regi chambers (sealed chamber, desert ruins, island cave, ancient tomb)
   show [Stand-in] Burgess Shale survey notes as normal text instead of braille, with the same
   puzzle hints (`data/text/braille.inc`, `_Note` labels; braille alphabet panels stay as
-  decoration). Built; not yet played through.
+  decoration). Played: `survey.txt` reads the ISLAND CAVE note, which shows, waits and closes.
+- **Harness**: `sb1poke PTR OFF VAL` writes a byte through a save-block pointer (`@gSaveBlock1Ptr`,
+  `@gSaveBlock2Ptr`), `reset` restarts the console; each run starts with a fresh battery save.
+  Setting `continueGameWarp` (SaveBlock1 0x0C) and `specialSaveWarpFlags` bit 0 (SaveBlock2 0x09)
+  before saving puts the player anywhere on CONTINUE.
 
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly (e.g. HOPE's
@@ -96,7 +102,7 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 1. P4: dialogue area by area, starting with the opening and LADNER.
 2. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
-3. Play-test the post-game (island tickets, survey-note puzzles) with a cleared save.
+3. Title screen: replace the Rayquaza silhouette with the marbled murrelet.
 
 ## Waiting on the owner
 

@@ -39,7 +39,8 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Dialogue follows the species map (organism names tracked by `rename_text.js`)
 - [ ] Area-by-area dialogue rewrite, checked with mGBA scripts
 
-- [x] Regi braille inscriptions shown as Burgess Shale survey notes
+- [x] Regi braille inscriptions shown as Burgess Shale survey notes (played: `survey.txt`)
+- [x] Post-game island tickets at the VANCOUVER harbour desk (played: `postgame.txt`)
 
 ## P5 Signature maps
 - [ ] Burgess Shale dig (Yoho)
