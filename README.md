@@ -50,6 +50,7 @@ idempotent and works on the committed tree. The picker and the title step need t
 | `make_title.py` | Title logo: original wordmark plus a "BC" banner. |
 | `region_map.json`, `make_region_map.py` | The BC region map (TrailNav and Fly): terrain grid, section cells and landmark positions, drawn into the map tiles, tilemap, section grid and section positions. |
 | `recolor.json`, `recolor_tiles.py` | Overworld recolour: exact colours swapped in every tileset palette (mossy grass, conifer greens, Pacific water). |
+| `conifer_tiles.py` | Conifer trees: re-shades every tree tile in the general tileset into drooping tiers and points the standalone tree tops. |
 | `make_trailnav.py` | TRAILNAV header and BC MAP button in the device graphics. |
 | `make_headers.py` | Repaints baked-in menu text: "BC MAP" TrailNav header, "JOURNAL" search-screen wordmark. |
 | `theme_trainers.js` | Every trainer uses BC organisms; gym leaders, gym trainers, Elite Four and Champion get organisms of their gym's type. |

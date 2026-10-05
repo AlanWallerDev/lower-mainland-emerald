@@ -29,7 +29,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Place renames from the P1 table (towns, landmarks, routes)
 - [x] BC TrailNav region map (`atlas/region_map.json`, `make_region_map.py`; TRAILNAV header and BC MAP button by `make_trailnav.py`)
 - [x] Palette swap: coast greens, conifer greens, Pacific blue water (`atlas/recolor.json`)
-- [ ] Conifer tree art: redraw the 32x32 tree and its ~30 forest variants (tips, edges, overlaps)
+- [x] Conifer tree art: tiered conifer shading on all tree tiles, pointed tops (`atlas/conifer_tiles.py`)
 - [ ] New tiles: arbutus coast, sagebrush, cannery, float homes
 - [ ] Signs and landmark text
 

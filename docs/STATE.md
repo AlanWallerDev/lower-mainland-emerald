@@ -57,6 +57,10 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 - **Villain motives**: stand-in lines in `atlas/text/07_motives.tsv`: CINDER wants the old
   forests to burn so they renew; RIPTIDE wants the sea to take back the land. Owner to approve.
 
+- **Conifers**: `atlas/conifer_tiles.py` re-shades the 40 tiles of the tree and its forest variants
+  into tiered conifers and points the standalone tops; works on shared tiles, so all variants stay
+  consistent (`docs/overworld.png`).
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly, e.g. HOPE's
   founding or the KAMLOOPS ash. Wally's tutorial catch (Ralts slot) is now SAR11, a microbe.
@@ -68,8 +72,8 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 ## Next three tasks
 
-1. P3: conifer tree art (the tree block plus its forest variants), then new coast and Interior tiles.
-2. P4: dialogue area by area (Hoenn story beats that still read oddly), starting with the opening and LADNER.
+1. P4: dialogue area by area, starting with the opening and LADNER.
+2. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
 3. Cryptid islands reachable after the credits without event tickets.
 
 ## Waiting on the owner
