@@ -21,6 +21,7 @@ python3 atlas/make_transitions.py
 python3 atlas/make_headers.py
 python3 atlas/make_trailnav.py
 python3 atlas/make_zoom_text.py
+python3 atlas/make_journal_ui.py
 python3 atlas/make_region_map.py
 python3 atlas/recolor_tiles.py
 python3 atlas/conifer_tiles.py
