@@ -10,6 +10,7 @@ LilycoveCity_Harbor_EventScript_FerryAttendant::
 	lock
 	faceplayer
 	goto_if_unset FLAG_SYS_GAME_CLEAR, LilycoveCity_Harbor_EventScript_FerryUnavailable
+	call LilycoveCity_Harbor_EventScript_GiveCharterTickets @ Living Atlas: island tickets after the credits
 	call LilycoveCity_Harbor_EventScript_GetEonTicketState
 	call LilycoveCity_Harbor_EventScript_GetAuroraTicketState
 	call LilycoveCity_Harbor_EventScript_GetOldSeaMapState
@@ -95,6 +96,21 @@ LilycoveCity_Harbor_EventScript_GoToBattleFrontier::
 	waitstate
 	release
 	end
+
+@ Living Atlas: the event islands (Sasquatch, Caddy, Ogopogo, the roaming pair) open after the
+@ credits without event tickets. Gives all four once, the first time the desk is visited.
+LilycoveCity_Harbor_EventScript_GiveCharterTickets::
+	goto_if_set FLAG_ENABLE_SHIP_FARAWAY_ISLAND, Common_EventScript_NopReturn
+	msgbox LilycoveCity_Harbor_Text_CharterTickets, MSGBOX_DEFAULT
+	giveitem ITEM_EON_TICKET
+	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	giveitem ITEM_AURORA_TICKET
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+	giveitem ITEM_OLD_SEA_MAP
+	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
+	return
 
 LilycoveCity_Harbor_EventScript_GetEonTicketState::
 	setvar VAR_TEMP_E, 0
@@ -566,3 +582,11 @@ LilycoveCity_Harbor_Text_SailorFerryAvailable:
 	.string "The folks at the SHIPYARD in VICTORIA\n"
 	.string "must've worked extra hard.\p"
 	.string "Well, it's my turn to get busy now!$"
+
+@ [Stand-in] Living Atlas
+LilycoveCity_Harbor_Text_CharterTickets:
+	.string "Congratulations on becoming CHAMPION!\p"
+	.string "The province's field researchers asked\n"
+	.string "us to give you these. They're charter\l"
+	.string "passes to islands where rare sightings\l"
+	.string "have been reported.$"

@@ -70,6 +70,13 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   weather OBSERVATORY launching weather balloons; CINDER steals its hydrogen),
   `12_geography.tsv` (S.S. BEAVER wreck, DEEP COVE in a fjord, WHISTLER up the SEA TO SKY).
 
+- **Post-game islands**: after the credits, the VANCOUVER harbour desk gives the four island
+  tickets once (stand-in line, `data/maps/LilycoveCity_Harbor/scripts.inc`), opening the islands of
+  Sasquatch, Caddy, Ogopogo and the roaming pair. Built, not yet played through a cleared save.
+- **Text pass, continued** (`13_text_fixes.tsv`): last upstream species names (whale watching in
+  PRINCE RUPERT, Battle Pike, Mountain View), PRESIDENT DAWSON, TOFINO as a surf town, HOPE's
+  founding, the granite STAWAMUS CHIEF; the braille puzzle follows the species map.
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly (e.g. HOPE's
   founding). Pinned for the story: Wally's catch is a STELLER'S JAY (Ralts slot) and NORMAN lends a
@@ -84,7 +91,7 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 1. P4: dialogue area by area, starting with the opening and LADNER.
 2. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
-3. Cryptid islands reachable after the credits without event tickets.
+3. P5 prep: the Regi chambers' braille puzzles as Burgess Shale survey notes (Yoho dig).
 
 ## Waiting on the owner
 

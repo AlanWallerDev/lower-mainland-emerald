@@ -20,7 +20,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Run the picker with `--write` once `bc_species.json` fills the regional slots
 - [x] Starters Skunk Cabbage, Morel, American Beaver with three life stages each
 - [x] Legendaries and mythicals in their slots
-- [ ] Cryptid islands (Faraway, Navel Rock, Birth Island) reachable after the credits without tickets
+- [x] Cryptid islands (Faraway, Navel Rock, Birth Island, Southern Island) reachable after the credits: the VANCOUVER harbour desk gives all four tickets once the game is cleared (not yet tested in a cleared save)
 - [x] Sprite specs for every new organism
 - [x] Wild tables by real BC habitat per location (`bc_habitats` tags)
 - [x] Every trainer party uses BC organisms
