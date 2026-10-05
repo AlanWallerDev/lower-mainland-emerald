@@ -59,7 +59,10 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 - **Conifers**: `atlas/conifer_tiles.py` re-shades the 40 tiles of the tree and its forest variants
   into tiered conifers and points the standalone tops; works on shared tiles, so all variants stay
-  consistent (`docs/overworld.png`).
+  consistent (`docs/overworld.png`). In stacked columns the lower tree's point is drawn in front of
+  the trunk above (top-layer tip tiles 204/205), so nearer trees overlap farther ones.
+- TRAINER stays as the word for trainers in dialogue (owner decision); NATURALIST is not used
+  for new text.
 
 - **Text pass**: HOENN leftovers gone; DEVON is the fictional SUMMIT company (SUMMIT GOODS,
   SUMMIT SCOPE); STEVEN is DAWSON and MR. STONE is MR. DAWSON. Stand-in tables for owner review:
@@ -90,4 +93,3 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 - Review `docs/ROSTER.md` (my legendary change: Latios is the spotted owl, not a second marmot).
 - Villain leader and admin names are stand-ins (ASHBY, KENDALL, HOLLIS, MARINA, FINN): keep or replace.
 - Stand-in text tables `07_motives`, `09_signs`, `10-11_observatory`, `12_geography` in `atlas/text/`: approve or rewrite.
-- About 900 dialogue lines still say TRAINER (only 26 say NATURALIST): switch all to NATURALIST?

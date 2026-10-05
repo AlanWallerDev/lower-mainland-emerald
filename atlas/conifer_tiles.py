@@ -113,6 +113,24 @@ for m, xoff in TOPS.items():
                     px[y][x] = 4
         put(tid, px)
 
+# Tips of the tree below, drawn on the top layer of a tree's bottom metatile (0x1dc/0x1dd) so the
+# nearer, lower tree stands in front. Redraw them as the point of the conifer below (rows -8..-1
+# above that tree's crown); everything else is transparent so the upper tree's base shows through.
+for m, k in ((0x1dc, 7), (0x1dd, 6)):
+    v = entries(m)[k]
+    tid, hf = v & 0x3ff, v >> 10 & 1
+    x0 = (m % 2) * 16 + (k % 4 % 2) * 8
+    px = [[0] * 8 for _ in range(8)]
+    for y in range(8):
+        for x in range(8):
+            col = x0 + (7 - x if hf else x)
+            row = y - 8
+            half = 3 + row * 0.5         # rises ~6 px over the upper tree's base and trunk
+            d = abs(col - 15.5)
+            if d <= half:
+                px[y][x] = 4 if d > half - 1.2 else shade(col, row % 8)
+    put(tid, px)
+
 tiles.save(P(REL, 'tiles.png'))
 
 if '--preview' in sys.argv:
