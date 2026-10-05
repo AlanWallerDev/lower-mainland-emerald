@@ -200,7 +200,7 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "organisms.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"
-	.string "DAWSON STONE$"
+	.string "G. M. DAWSON$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
 	.string "It's a collection of rare rocks and\n"

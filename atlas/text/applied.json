@@ -11,7 +11,8 @@
 		"09_signs.tsv",
 		"10_observatory.tsv",
 		"11_observatory_fix.tsv",
-		"12_geography.tsv"
+		"12_geography.tsv",
+		"13_text_fixes.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

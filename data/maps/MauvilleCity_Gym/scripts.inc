@@ -315,8 +315,8 @@ MauvilleCity_Gym_Text_VivianDefeat:
 	.string "I'm shocked by your power!$"
 
 MauvilleCity_Gym_Text_VivianPostBattle:
-	.string "I've heard that HOPE was founded\n"
-	.string "by FRASER.\p"
+	.string "I've heard that FRASER has led HOPE GYM\n"
+	.string "since before HOPE was a city.\p"
 	.string "He was a TRAINER long before we\n"
 	.string "became TRAINERS.\l"
 	.string "He must know all sorts of things!$"

@@ -666,11 +666,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
 	.string "Now, now!\n"
-	.string "KIRLIA, stop that!$"
+	.string "GARTER, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
 	.string "Now, now!\n"
-	.string "DUSCLOPS, stop that!$"
+	.string "LYNX, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
 	.string "GARTER used TOXIC!$"

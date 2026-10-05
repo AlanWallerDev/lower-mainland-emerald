@@ -620,10 +620,9 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	end
 
 DewfordTown_Text_TinyIslandCommunity:
-	.string "TOFINO is a tiny island\n"
-	.string "community. If something gets trendy\l"
-	.string "here, everyone picks up on it right\l"
-	.string "away.$"
+	.string "TOFINO is a tiny surf town. If\n"
+	.string "something gets trendy here, everyone\l"
+	.string "picks up on it right away.$"
 
 DewfordTown_Text_TownSign:
 	.string "TOFINO\n"

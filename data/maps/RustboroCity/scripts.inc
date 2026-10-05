@@ -1164,8 +1164,8 @@ RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 	.string "Using the MATCH CALL feature, you can\n"
 	.string "chat with people who have been\l"
 	.string "registered in your TRAILNAV.\p"
-	.string "{PLAYER}, our PRESIDENT STONE should be\n"
-	.string "registered in your TRAILNAV.\p"
+	.string "{PLAYER}, our PRESIDENT DAWSON should\n"
+	.string "be registered in your TRAILNAV.\p"
 	.string "Test it out.\n"
 	.string "Please give our PRESIDENT a call.$"
 

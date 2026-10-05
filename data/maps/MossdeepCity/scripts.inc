@@ -322,11 +322,11 @@ MossdeepCity_Text_WhatToDoWithWeirdRock:
 
 MossdeepCity_Text_WailmerWatching:
 	.string "Around PRINCE RUPERT, you can see wild\n"
-	.string "WAILMER.\p"
+	.string "HUMPBACKS.\p"
 	.string "It's called, uh…\n"
 	.string "What was it now…\p"
-	.string "WAI, WAI, WAI…\p"
-	.string "WAILMER watching!$"
+	.string "WHA, WHA, WHA…\p"
+	.string "WHALE watching!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
 	.string "The island's OBSERVATORY has been\n"

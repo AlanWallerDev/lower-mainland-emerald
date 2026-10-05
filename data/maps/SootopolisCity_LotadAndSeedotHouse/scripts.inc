@@ -165,7 +165,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 	.string "{STR_VAR_2} inches!\n"
 	.string "Wow, that is big!\p"
 	.string "It might be even bigger than the huge\n"
-	.string "SEEDOT my big brother saw.\p"
+	.string "SNOW ALGA my big brother saw.\p"
 	.string "Thanks for showing me!\n"
 	.string "This is my thanks!$"
 

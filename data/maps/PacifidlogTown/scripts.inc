@@ -41,7 +41,7 @@ PacifidlogTown_Text_NeatHousesOnWater:
 PacifidlogTown_Text_SkyPillarTooScary:
 	.string "The STAWAMUS CHIEF?\p"
 	.string "…Oh, you must mean that tall, tall\n"
-	.string "tower a little further out.\p"
+	.string "granite tower a little further out.\p"
 	.string "If you asked me, I wouldn't climb it.\n"
 	.string "It's too scary to get up that high.\p"
 	.string "Life at sea level in ECHO BAY,\n"

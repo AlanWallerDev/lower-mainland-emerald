@@ -604,8 +604,8 @@ LilycoveCity_Text_ImFromKanto:
 	.string "only in this area?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "TEAM RIPTIDE's been training their\n"
-	.string "WAILMER in the cove.\p"
+	.string "TEAM RIPTIDE's been training their GRAY\n"
+	.string "WHALES in the cove.\p"
 	.string "We SAILORS can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
@@ -733,8 +733,8 @@ LilycoveCity_Text_ExplainBerryBlender:
 	.string "its condition will improve by a lot.$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
-	.string "I heard there's a tower somewhere out\n"
-	.string "on the sea routes.\p"
+	.string "I heard there's a great granite tower\n"
+	.string "out past the sea routes.\p"
 	.string "It's called the STAWAMUS CHIEF, I hear.$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
