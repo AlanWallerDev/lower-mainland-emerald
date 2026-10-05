@@ -96,6 +96,11 @@ for (const g of wild.wild_encounter_groups) {
 					if (kind === 'fish') chosen[i] = run[(i + 1) % run.length];
 				});
 			}
+			// Residents (e.g. the HECATE REEF animals): named organisms fill every table, varied per room.
+			if (area.residents) {
+				const res = area.residents.map((id) => pool.find((m) => m.id === id)).filter(Boolean).map((m) => m.slot);
+				if (res.length) distinct.forEach((_, i) => (chosen[i] = res[(hash(e.base_label + kind) + i) % res.length]));
+			}
 			const sub = Object.fromEntries(distinct.map((sp, i) => [sp, 'SPECIES_' + chosen[i]]));
 			e[field].mons = upMons.map((m) => ({ ...m, species: sub[m.species] }));
 		}

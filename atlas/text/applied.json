@@ -37,7 +37,9 @@
 		"35_fossils.tsv",
 		"36_scout.tsv",
 		"37_scout_lines.tsv",
-		"38_salmon_run.tsv"
+		"38_salmon_run.tsv",
+		"39_salmon_run_fix.tsv",
+		"40_fossil_books.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

@@ -1,5 +1,5 @@
 {
-	"_note": "Wild areas by habitat, used by atlas/apply_wild.js. Keys are wild_encounters.json base labels (a trailing * matches a prefix). Each value names the habitat for land (grass and caves), water (surfing and fishing) and rock smash. 'pool': 'national' areas use the worldwide organisms met after the credits; all others use the regional BC organisms. An area's 'run' names a life-stage line that takes over its water (the ADAMS RIVER sockeye run).",
+	"_note": "Wild areas by habitat, used by atlas/apply_wild.js. Keys are wild_encounters.json base labels (a trailing * matches a prefix). Each value names the habitat for land (grass and caves), water (surfing and fishing) and rock smash. 'pool': 'national' areas use the worldwide organisms met after the credits; all others use the regional BC organisms. An area's 'run' names a life-stage line that takes over its water (the ADAMS RIVER sockeye run); 'residents' lists organism ids that fill all its tables (the HECATE REEF animals).",
 	"areas": {
 		"gRoute101": { "land": "meadow" },
 		"gRoute102": { "land": "meadow", "water": "fresh" },
@@ -51,7 +51,7 @@
 		"gMeteorFalls*": { "land": "cave", "water": "fresh" },
 		"gJaggedPass": { "land": "mountain" },
 		"gNewMauville*": { "land": "urban" },
-		"gSeafloorCavern*": { "land": "deep", "water": "deep" },
+		"gSeafloorCavern*": { "land": "deep", "water": "deep", "residents": ["bc-105", "bc-102", "bc-103", "bc-116", "bc-117", "bc-109"] },
 		"gCaveOfOrigin*": { "land": "cave" },
 		"gShoalCave_LowTideIceRoom": { "land": "ice" },
 		"gShoalCave*": { "land": "coast", "water": "sea" },

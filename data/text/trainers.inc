@@ -1897,10 +1897,10 @@ Route114_Text_ClaudeDefeat:
 	.string "If we were fishing, I would've won…$"
 
 Route114_Text_ClaudePostBattle:
-	.string "I think I'll try my luck at landing\n"
-	.string "a big one at CASCADE FALLS.\p"
-	.string "There has to be something in there.\n"
-	.string "I just know it.$"
+	.string "When the sockeye run, this whole river\n"
+	.string "turns red.\p"
+	.string "You could almost walk across on their\n"
+	.string "backs!$"
 
 Route114_Text_NolanIntro:
 	.string "I like to fish. But I also like to\n"
@@ -1948,16 +1948,16 @@ Route114_Text_IvyNotEnoughMons:
 	.string "think it must feel lonesome.$"
 
 Route114_Text_KaiIntro:
-	.string "I landed a big one!\n"
-	.string "A huge one, I tell you!$"
+	.string "I landed a big one! A sockeye, red as a\n"
+	.string "fire truck!$"
 
 Route114_Text_KaiDefeat:
 	.string "What was that about?\n"
 	.string "Did mine lose in size?$"
 
 Route114_Text_KaiPostBattle:
-	.string "Okay!\n"
-	.string "I'll just fish me a bigger one!$"
+	.string "Okay! The run's still on. I'll just fish\n"
+	.string "me a bigger one!$"
 
 Route114_Text_CharlotteIntro:
 	.string "Me!\n"

@@ -46,9 +46,9 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Post-game island tickets at the VANCOUVER harbour desk (played: `postgame.txt`)
 
 ## P5 Signature maps
-- [ ] Burgess Shale dig (Yoho)
+- [ ] Burgess Shale dig (Yoho): needs a new map; for now the fossils, Regis, survey notes and the FOSSIL MANIAC's books carry it
 - [x] Adams River salmon run: the sockeye line fills ADAMS RIVER's water (habitats.json `run`), fishers talk about the run
-- [ ] Hecate sponge reef dive
+- [x] Hecate sponge reef: the HECATE REEF cavern holds the real reef animals (ratfish, lingcod, wolf eel, spot prawn, plumose anemone, sunflower star; habitats.json `residents`)
 
 ## P6 Polish
 - [x] Currency shown as \$ (`atlas/make_dollar.py`)

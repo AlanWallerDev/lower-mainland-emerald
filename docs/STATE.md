@@ -43,6 +43,8 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
   sponges), GROWTH or HARDEN at level 1, and no charging or body-contact moves (`atlas/lib/moves.js`).
 - **ADAMS RIVER salmon run**: surfing meets sockeye spawners, fishing brings up smolts, alevins and
   spawners (`atlas/habitats.json` `run`, `apply_wild.js`); fishers talk about the run.
+- **HECATE REEF** cavern holds the reef's real animals: spotted ratfish, lingcod, wolf eel, spot prawn,
+  plumose anemone and sunflower sea star (`habitats.json` `residents`).
 - **SCOUT** replaces the NINJA BOY trainer class and its lines.
 - **Post-game played**: `postgame.txt` (island tickets, `docs/postgame_desk.png`) and
   `survey.txt` (ISLAND CAVE survey note). Harness: `sb1poke`, `reset`, fresh save per run.
@@ -56,7 +58,7 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 ## Next three tasks
 
-1. P5: Burgess Shale dig and Hecate sponge reef dive (reuse existing maps where possible).
+1. P5: Burgess Shale dig as its own map (Yoho), reached from ROGERS PASS.
 2. P3: new coast and Interior tiles (need map edits; find where they would go first).
 3. Playtest pass through the early game with the harness.
 
