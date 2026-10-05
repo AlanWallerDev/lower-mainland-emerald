@@ -17,6 +17,7 @@ python3 atlas/body_colors.py
 python3 atlas/make_title.py
 python3 atlas/make_dollar.py
 python3 atlas/make_title_bird.py
+python3 atlas/make_transitions.py
 python3 atlas/make_headers.py
 python3 atlas/make_trailnav.py
 python3 atlas/make_region_map.py

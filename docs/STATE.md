@@ -35,6 +35,10 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
   Kyogre and Rayquaza in the hideouts, DEEP COVE and the STAWAMUS CHIEF, built from their battle
   sprites (`atlas/make_legend_sprites.py`; harness `murrelet.txt`, `reef.txt`, `docs/legends.png`).
   Harness command `clearflag`.
+- **Battle intros**: the bear's intro is a glowing amber paw print, the reef's a cyan glass-sponge
+  lattice, lit by the original palette cycling (`atlas/make_transitions.py`, `docs/intros.png`;
+  checked by rendering, not yet seen in a live legendary battle). Rayquaza's intro is abstract
+  ring markings and stays.
 - **Post-game played**: `postgame.txt` (island tickets, `docs/postgame_desk.png`) and
   `survey.txt` (ISLAND CAVE survey note). Harness: `sb1poke`, `reset`, fresh save per run.
 
@@ -46,9 +50,9 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 ## Next three tasks
 
-1. P3: new coast and Interior tiles (arbutus, sagebrush, cannery, float homes).
-2. P4: BATTLE FRONTIER, TRAINER HILL and TV text pass.
-3. P6: the battle transitions still flash Groudon/Kyogre/Rayquaza art (`graphics/battle_transitions`).
+1. P4: BATTLE FRONTIER, TRAINER HILL and TV text pass.
+2. P6: back sprites and move names.
+3. P3: new coast and Interior tiles need map edits; first find where they would go.
 
 ## Waiting on the owner
 

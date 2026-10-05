@@ -54,4 +54,5 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Currency shown as \$ (`atlas/make_dollar.py`)
 - [x] Text width checker for messages and item descriptions (`atlas/check_text.js`)
 - [x] Overworld sprites for the story legendaries: bear, reef, murrelet (`atlas/make_legend_sprites.py`, `docs/legends.png`)
+- [x] Battle intros for the bear (amber paw print) and the reef (cyan glass-sponge lattice) (`atlas/make_transitions.py`, `docs/intros.png`)
 - [ ] Other overworld creature sprites, back sprites, move names, playtest fixes

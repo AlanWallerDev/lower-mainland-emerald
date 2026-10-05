@@ -28,7 +28,7 @@ def read_pal(path):
 
 
 def write_pal(path, cols):
-    with open(P(path), 'w', newline='\r\n') as f:
+    with open(P(path), 'w', newline='\n') as f:
         f.write('JASC-PAL\n0100\n16\n' + ''.join('%d %d %d\n' % c for c in cols))
 
 
