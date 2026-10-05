@@ -67,9 +67,12 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 1. P5: Burgess Shale dig as its own map (Yoho), reached from ROGERS PASS.
 2. P3: new coast and Interior tiles (need map edits; find where they would go first).
-3. Extend the playtest: RICHMOND and DAD's gym, then the first gym in SQUAMISH.
+3. Fix issues from the owner's playtest reports.
 
 ## Waiting on the owner
+
+- Playtesting is the owner's (2026-10-05): Claude doesn't run long harness playthroughs; it fixes
+  reported issues and keeps the short harness scripts working.
 
 - Rename the GitHub repo (Settings > General > Repository name), then run
   `git remote set-url origin https://github.com/AlanWallerDev/<new-name>` locally.
