@@ -1668,8 +1668,8 @@ Route113_Text_LaoPostBattle:
 	.string "I bid thee farewell.$"
 
 Route113_Text_LaoRegister:
-	.string "Yiiyaah! Witness the ancient ninja\n"
-	.string "technique of TRAILNAV registration!$"
+	.string "Hup! Witness the ancient scouting skill\n"
+	.string "of TRAILNAV registration!$"
 
 Route113_Text_LaoRematchIntro:
 	.string "From out of the ashes I leap! Hiyah!\n"
@@ -2111,7 +2111,8 @@ Route115_Text_KyraPostBattle:
 	.string "I should take a run to calm down…$"
 
 Route115_Text_JaidenIntro:
-	.string "Take that! Ultra organism ninja attack!$"
+	.string "Take that! Ultra organism ambush from\n"
+	.string "the bushes!$"
 
 Route115_Text_JaidenDefeat:
 	.string "Waaah!\n"
@@ -3071,21 +3072,21 @@ Route120_Text_AngelicaPostBattle:
 	.string "get in your way.$"
 
 Route120_Text_KeigoIntro:
-	.string "I will adopt the movements of organisms\n"
-	.string "and create new ninja techniques.$"
+	.string "I will study the tracks of organisms\n"
+	.string "and learn to move as quietly as they do.$"
 
 Route120_Text_KeigoDefeat:
-	.string "The creation of new ninja techniques\n"
-	.string "is but a distant dream…$"
+	.string "Moving as quietly as a lynx is but a\n"
+	.string "distant dream…$"
 
 Route120_Text_KeigoPostBattle:
-	.string "Perhaps I ought to apprentice under\n"
-	.string "a ninja sensei.$"
+	.string "Perhaps I ought to learn from an old\n"
+	.string "tracker.$"
 
 Route120_Text_RileyIntro:
-	.string "We ninja conceal ourselves under our\n"
-	.string "camouflage cloaks.\l"
-	.string "I bet you didn't know where I was!$"
+	.string "We scouts conceal ourselves under our\n"
+	.string "camouflage cloaks. I bet you didn't\l"
+	.string "know where I was!$"
 
 Route120_Text_RileyDefeat:
 	.string "I lost!\n"
@@ -3550,8 +3551,8 @@ Route123_Text_JonasIntro:
 	.string "landed in my trap!$"
 
 Route123_Text_JonasDefeat:
-	.string "If you don't lose, how am I supposed\n"
-	.string "to have fun playing ninja?$"
+	.string "If you don't lose, how am I supposed to\n"
+	.string "have fun playing scout?$"
 
 Route123_Text_JonasPostBattle:
 	.string "I'm going to ambush a weaker-looking\n"

@@ -1299,7 +1299,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject::
 	.string "letdown.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro::
-	.string "I'm NINJA BOY {STR_VAR_1}!$"
+	.string "I'm SCOUT {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1::
 	.string "My team consists of one {STR_VAR_2}\n"

@@ -34,7 +34,9 @@
 		"32_endgame.tsv",
 		"33_articles.tsv",
 		"34_badlands.tsv",
-		"35_fossils.tsv"
+		"35_fossils.tsv",
+		"36_scout.tsv",
+		"37_scout_lines.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",
