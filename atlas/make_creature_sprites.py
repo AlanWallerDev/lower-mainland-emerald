@@ -48,6 +48,19 @@ SPRITES = {
     'lugia': ('lugia', 32, 32, 'lugia', True),
     'ho_oh': ('ho_oh', 32, 32, 'ho_oh', True),
 }
+# Dolls and cushions' doll objects (graphics/object_events/pics/dolls): single frames on an NPC palette.
+# The slot comes from the file name (big_wailmer_doll -> wailmer).
+DOLL_PALETTES = {
+    'npc_1': 'azurill baltoy big_blastoise big_lapras big_regirock clefairy jigglypuff marill mudkip skitty '
+             'swablu totodile wynaut unused_porygon2 unused_squirtle',
+    'npc_2': 'big_charizard meowth pichu pikachu torchic unused_pikachu',
+    'npc_3': 'big_regice big_venusaur chikorita gulpin kecleon lotad seedot togepi treecko unused_magnemite '
+             'unused_natu unused_wooper',
+    'npc_4': 'big_registeel big_rhydon big_snorlax big_wailmer cyndaquil ditto duskull smoochum',
+}
+# Decoration menu icons for the big dolls (graphics/decorations/*_doll.png, 24x24, own palette).
+ICONS = 'blastoise charizard lapras regice regirock registeel rhydon snorlax venusaur wailmer'
+
 # Sleeping views with their own palette: a grey version of the shared palette the pic is drawn for.
 ASLEEP = {'groudon': 'npc_3', 'kyogre': 'npc_4'}
 
@@ -148,6 +161,38 @@ for pic, (slot, fw, fh, palname, own) in SPRITES.items():
     strip.save(path)
     made.append(frame)
 
+def doll_slot(name):
+    return name.replace('unused_', '').replace('big_', '')
+
+
+def map_frame(slot, w, h, cols, pad=2):
+    spr = fit(battle_rgba(slot), w, h, pad)
+    greenish = lambda c: c[1] > c[0] + 30 and c[1] > c[2] + 30
+    sp = spr.load()
+    px = [sp[x, y][:3] for y in range(spr.height) for x in range(spr.width) if sp[x, y][3] >= 128]
+    pool = list(range(1, 16))
+    if sum(map(greenish, px)) < 0.25 * max(1, len(px)):
+        pool = [i for i in pool if not greenish(cols[i])]
+    return to_indexed(spr, cols, pool)
+
+
+dolls = 0
+for palname, names in DOLL_PALETTES.items():
+    cols = read_pal(palname)
+    for name in names.split():
+        path = P(OW, 'pics/dolls', name + '_doll.png')
+        w, h = Image.open(path).size
+        map_frame(doll_slot(name), w, h, cols, 1).save(path)
+        dolls += 1
+for name in ICONS.split():
+    path = P('graphics/decorations', name + '_doll.png')
+    old = Image.open(path)
+    key = tuple(old.getpalette()[:3])
+    spr = fit(battle_rgba(name), 24, 24, 1)
+    cols = own_palette(spr, key)
+    to_indexed(spr, cols, list(range(1, 16))).save(path)
+    dolls += 1
+
 for name, shared in ASLEEP.items():
     cols = read_pal(shared)
     grey = [cols[0]] + [(g, g, g) for g in (int(0.3 * r + 0.59 * gg + 0.11 * b) for r, gg, b in cols[1:])]
@@ -160,4 +205,4 @@ if '--preview' in sys.argv:
         prev.paste(m.convert('RGB').resize((m.width * 2, m.height * 2), Image.NEAREST) if m.width <= 32 else m.convert('RGB'),
                    ((i % 8) * 64, (i // 8) * 64))
     prev.resize((prev.width * 2, prev.height * 2), Image.NEAREST).save(sys.argv[sys.argv.index('--preview') + 1])
-print('creature sprites: %d overworld sprites written' % len(made))
+print('creature sprites: %d overworld sprites, %d dolls and doll icons written' % (len(made), dolls))
