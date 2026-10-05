@@ -46,7 +46,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Post-game island tickets at the VANCOUVER harbour desk (played: `postgame.txt`)
 
 ## P5 Signature maps
-- [ ] Burgess Shale dig (Yoho): needs a new map; for now the fossils, Regis, survey notes and the FOSSIL MANIAC's books carry it
+- [x] Burgess Shale dig (Yoho): ROGERS PASS's side cave (Hoenn's SCORCHED SLAB) is the BURGESS SHALE; a dig leader and a digger on the quarry bench above the tarn (harness `shale.txt`, `docs/burgess_shale.png`)
 - [x] Adams River salmon run: the sockeye line fills ADAMS RIVER's water (habitats.json `run`), fishers talk about the run
 - [x] Hecate sponge reef: the HECATE REEF cavern holds the real reef animals (ratfish, lingcod, wolf eel, spot prawn, plumose anemone, sunflower star; habitats.json `residents`)
 

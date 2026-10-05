@@ -24,6 +24,13 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   surf route stays open), sagebrush for every sand pebble on the COQUIHALLA, five arbutus trees on
   VICTORIA's shore grass (placed off events; a reachability check found no cut-off cells). Seen in
   game: harness `newtiles.txt`, `docs/new_tiles.png`.
+- **BURGESS SHALE dig**: ROGERS PASS's side cave (SCORCHED SLAB, never renamed until now) is the
+  BURGESS SHALE. Surf across the meltwater tarn to the quarry bench: the dig leader tells how mud
+  buried soft-bodied animals 500 million years ago and that CHARLES WALCOTT found the beds in 1909,
+  gives a HARD STONE ("a chip of the shale", `FLAG_RECEIVED_SHALE_HARD_STONE`, was unused flag
+  0x20), then points to HALLUCIGEN, ANOMALO and the sleeping MARRELLA, OPABINIA and PIKAIA (the
+  Regi puzzle); a digger says every fossil stays on the mountain. The TM ball moved to a corner.
+  Harness `shale.txt`, `docs/burgess_shale.png`.
 
 ## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)
 
@@ -87,9 +94,9 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 ## Next three tasks
 
-1. P5: Burgess Shale dig as its own map (Yoho), reached from ROGERS PASS.
-2. Fix issues from the owner's playtest reports.
-3. Optional: Rayquaza's battle intro as a murrelet; remaining learnset oddities.
+1. Fix issues from the owner's playtest reports.
+2. Optional: Rayquaza's battle intro as a murrelet; remaining learnset oddities.
+3. Optional: more BC tiles (arbutus on OAK BAY's bluffs, a cannery at PRINCE RUPERT).
 
 ## Waiting on the owner
 

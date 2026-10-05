@@ -1,0 +1,390 @@
+# Power-on to the lab, then a save-and-continue warp onto the BURGESS SHALE dig bench; the dig
+# leader's welcome and gift. Run: atlas/test/run.sh atlas/test/scripts/shale.txt
+wait 400
+press START
+wait 600
+press START
+wait 400
+press DOWN
+wait 20
+press A
+wait 300
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press RIGHT
+press RIGHT
+wait 30
+press B
+wait 300
+press UP
+wait 20
+press A
+wait 400
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+wait 300
+repeat A 10
+wait 200
+press B
+wait 30
+hold RIGHT 12
+wait 10
+hold RIGHT 12
+wait 120
+repeat A 12
+wait 60
+repeat A 12
+wait 120
+repeat B 6
+hold UP 8
+hold RIGHT 8
+hold UP 16
+wait 30
+hold LEFT 6
+wait 10
+hold LEFT 4
+wait 10
+hold UP 8
+wait 150
+repeat A 6
+wait 60
+hold LEFT 4
+wait 8
+hold LEFT 4
+wait 8
+press UP
+wait 10
+press A
+wait 60
+repeat A 3
+wait 120
+press A
+wait 60
+press UP
+wait 10
+press A
+wait 150
+repeat A 8
+wait 100
+repeat B 8
+wait 200
+hold RIGHT 4
+wait 8
+hold RIGHT 4
+wait 8
+hold UP 8
+wait 150
+repeat B 20
+wait 100
+repeat B 20
+repeat B 10
+wait 60
+hold RIGHT 16
+wait 10
+hold DOWN 20
+wait 150
+repeat B 10
+wait 60
+hold DOWN 4
+wait 6
+hold RIGHT 40
+wait 10
+hold LEFT 4
+wait 8
+hold UP 12
+wait 150
+repeat B 15
+wait 100
+hold UP 16
+wait 20
+hold UP 12
+wait 150
+repeat B 25
+wait 100
+repeat B 25
+wait 100
+hold LEFT 8
+wait 20
+press UP
+wait 20
+press A
+wait 60
+repeat A 2
+wait 60
+press A
+wait 90
+press A
+wait 60
+press UP
+wait 20
+press A
+wait 120
+repeat A 12
+wait 120
+hold RIGHT 8
+wait 10
+hold UP 8
+wait 120
+repeat A 10
+wait 100
+repeat A 10
+wait 100
+repeat A 6
+wait 60
+hold DOWN 12
+wait 10
+hold RIGHT 16
+wait 10
+hold DOWN 16
+wait 150
+repeat B 6
+wait 60
+hold DOWN 4
+wait 10
+hold RIGHT 40
+wait 20
+hold LEFT 4
+wait 10
+hold UP 12
+wait 150
+repeat A 12
+wait 100
+repeat B 8
+wait 30
+hold UP 28
+wait 150
+hold DOWN 8
+wait 10
+hold RIGHT 12
+wait 10
+press A
+wait 150
+repeat A 40
+wait 100
+repeat B 10
+wait 100
+hold UP 8
+wait 6
+hold LEFT 12
+wait 6
+hold UP 4
+wait 150
+hold DOWN 28
+wait 150
+hold DOWN 4
+wait 10
+hold LEFT 12
+wait 6
+hold UP 40
+wait 150
+repeat B 12
+wait 60
+hold UP 24
+wait 150
+repeat B 12
+wait 100
+hold UP 4
+wait 10
+hold LEFT 12
+wait 10
+press LEFT
+wait 10
+press A
+wait 120
+repeat B 4
+wait 60
+press A
+wait 90
+press A
+wait 60
+wait 300
+press A
+wait 200
+press A
+wait 120
+press DOWN
+wait 10
+press A
+wait 400
+repeat B 4
+wait 60
+press A
+wait 20
+press A
+wait 400
+repeat B 4
+wait 60
+press A
+wait 20
+press A
+wait 400
+repeat B 20
+wait 300
+repeat B 30
+wait 100
+press A
+wait 60
+repeat B 20
+wait 100
+sb1poke @gSaveBlock1Ptr c 18
+sb1poke @gSaveBlock1Ptr d 49
+sb1poke @gSaveBlock1Ptr e ff
+sb1poke @gSaveBlock1Ptr 10 6
+sb1poke @gSaveBlock1Ptr 11 0
+sb1poke @gSaveBlock1Ptr 12 6
+sb1poke @gSaveBlock1Ptr 13 0
+sb1poke @gSaveBlock2Ptr 9 1
+press START
+wait 30
+press DOWN
+wait 8
+press DOWN
+wait 8
+press DOWN
+wait 8
+press A
+wait 60
+press A
+wait 300
+press B
+wait 60
+reset
+repeat A 60
+wait 200
+shot $OUT/shale1.ppm
+press UP
+wait 20
+press A
+wait 60
+shot $OUT/shale2.ppm
+repeat A 12
+wait 200
+shot $OUT/shale3.ppm
+repeat A 6
+wait 100
+shot $OUT/shale4.ppm
+repeat A 8
+wait 100
+press RIGHT
+wait 20
+press RIGHT
+wait 20
+press UP
+wait 20
+press A
+wait 60
+shot $OUT/shale5.ppm
