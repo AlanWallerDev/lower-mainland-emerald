@@ -20,5 +20,6 @@ RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
 	.string "this building.$"
 
 RustboroCity_Flat2_1F_Text_Skitty:
-	.string "LOBSTERMSH: Gyaaaah!$"
+	.string "The LOBSTERMSH smells faintly of the\n"
+	.string "sea.$"
 

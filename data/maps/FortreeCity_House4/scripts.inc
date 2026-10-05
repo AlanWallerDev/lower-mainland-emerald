@@ -85,5 +85,5 @@ FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
 	.string "friends who live far away.$"
 
 FortreeCity_House4_Text_Wingull:
-	.string "TADPOLE: Pihyoh!$"
+	.string "The TADPOLE wriggles around its bowl.$"
 

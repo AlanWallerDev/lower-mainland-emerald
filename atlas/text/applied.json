@@ -19,7 +19,9 @@
 		"17_richmond.tsv",
 		"18_squamish.tsv",
 		"19_agreement.tsv",
-		"20_tofino.tsv"
+		"20_tofino.tsv",
+		"21_victoria.tsv",
+		"22_cries.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

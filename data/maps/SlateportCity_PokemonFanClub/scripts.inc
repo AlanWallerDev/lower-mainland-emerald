@@ -387,11 +387,12 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
 	.string "it some PROTEIN.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-	.string "LOBSTERMSH: Fffnyaaaah…$"
+	.string "The LOBSTERMSH sits very still. It is a\n"
+	.string "mushroom, after all.$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-	.string "RACCOON: Kyuuu…$"
+	.string "RACCOON: Purrr…$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
-	.string "MOON JELLY: Marimari?$"
+	.string "The MOON JELLY drifts in a slow circle.$"
 

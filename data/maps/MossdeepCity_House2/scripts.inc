@@ -62,5 +62,5 @@ MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
 	.string "apart.$"
 
 MossdeepCity_House2_Text_Wingull:
-	.string "TADPOLE: Pihyoh!$"
+	.string "The TADPOLE darts behind a pebble.$"
 

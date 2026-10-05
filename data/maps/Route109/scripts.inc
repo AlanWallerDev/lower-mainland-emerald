@@ -540,7 +540,7 @@ Route109_Text_ZigzagoonPicksUpLitter:
 	.string "back to haunt us eventually.$"
 
 Route109_Text_ZigzagoonCry:
-	.string "RACCOON: Guguu?$"
+	.string "RACCOON: Churr?$"
 
 Route109_Text_SeashoreHouseSign:
 	.string "SEASHORE HOUSE\p"

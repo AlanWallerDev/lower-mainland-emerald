@@ -582,7 +582,7 @@ gTV3CheersForPokeblocksText00::
 	.string "… … … … … …$"
 
 gTV3CheersForPokeblocksText01::
-	.string "CLOAKLARVA: Gubi! Gubii!\p"
+	.string "CLOAKLARVA: Munch! Munch!\p"
 	.string "MC: And the verdict is very {STR_VAR_1}!\n"
 	.string "CLOAKLARVA says it tastes\l"
 	.string "“{STR_VAR_2}!”\p"
@@ -595,7 +595,7 @@ gTV3CheersForPokeblocksText02::
 	.string "TREAT would be much tastier.$"
 
 gTV3CheersForPokeblocksText03::
-	.string "CLOAKLARVA: Gubi! Gubii!\p"
+	.string "CLOAKLARVA: Munch! Munch!\p"
 	.string "MC: Hmm… It's too {STR_VAR_1}.\n"
 	.string "CLOAKLARVA says it tastes\l"
 	.string "“{STR_VAR_2}!”\p"

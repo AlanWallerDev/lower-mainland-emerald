@@ -155,7 +155,8 @@ LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
 	.string "CONTEST.$"
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
-	.string "MOON JELLY: Maririroo!$"
+	.string "The MOON JELLY pulses slowly in its\n"
+	.string "tank.$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 	.string "1F: SERVICE COUNTER\n"

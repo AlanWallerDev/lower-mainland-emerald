@@ -69,7 +69,7 @@ FallarborTown_Text_MyPreciousAzurill:
 	.string "It's slick and smooth and plushy, too!$"
 
 FallarborTown_Text_Azurill:
-	.string "POLYP: Rooreelooo.$"
+	.string "The POLYP sways gently in its jar.$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "Have you already challenged CARR,\n"

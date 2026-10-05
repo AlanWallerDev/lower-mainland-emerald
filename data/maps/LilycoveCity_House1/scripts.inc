@@ -22,5 +22,5 @@ LilycoveCity_House1_Text_PokemonPartnersNotTools:
 	.string "who fail to understand that…$"
 
 LilycoveCity_House1_Text_Kecleon:
-	.string "BLACK BEAR: Ruroro?$"
+	.string "BLACK BEAR: Hrrmph?$"
 

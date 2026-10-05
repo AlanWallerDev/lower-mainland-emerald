@@ -350,7 +350,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"
 	.string "It reminded me of the SS BEAVER WRECK\n"
-	.string "near TOFINO…$"
+	.string "out in JUAN DE FUCA…$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
 	.string "Don't you dare run around inside\n"
@@ -385,8 +385,7 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
 	.string "“MODEL OF BC”\p"
-	.string "It's a miniature diorama of the\n"
-	.string "BC.\p"
+	.string "It's a miniature diorama of BC.\p"
 	.string "Where is LADNER on this?$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:

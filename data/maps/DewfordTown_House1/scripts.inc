@@ -32,5 +32,5 @@ DewfordTown_House1_Text_LifeGoesSlowlyOnIsland:
 	.string "Pacific--that's happiness, too.$"
 
 DewfordTown_House1_Text_Zigzagoon:
-	.string "RACCOON: Guguuh!$"
+	.string "RACCOON: Churr churr!$"
 
