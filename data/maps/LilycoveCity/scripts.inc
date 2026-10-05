@@ -595,7 +595,7 @@ LilycoveCity_Text_GoingToMoveDeleterForHMs:
 	.string "and make it forget HM moves.$"
 
 LilycoveCity_Text_ImFromKanto:
-	.string "I came from the INTERIOR.\p"
+	.string "I came from the PRAIRIES.\p"
 	.string "BC is beautiful with\n"
 	.string "all its water and verdant nature.\p"
 	.string "Hunh? Wait a second…\p"

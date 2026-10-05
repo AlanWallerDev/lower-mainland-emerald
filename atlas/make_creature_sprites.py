@@ -71,7 +71,7 @@ def read_pal(name):
 
 
 def write_pal(name, cols):
-    with open(P(OW, 'palettes', name + '.pal'), 'w', newline='\n') as f:
+    with open(P(OW, 'palettes', name + '.pal'), 'w', newline='\r\n') as f:
         f.write('JASC-PAL\n0100\n16\n' + ''.join('%d %d %d\n' % c for c in cols))
 
 

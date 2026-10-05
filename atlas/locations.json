@@ -80,7 +80,7 @@
 	},
 	"regions": {
 		"HOENN": "BC",
-		"KANTO": "INTERIOR",
+		"KANTO": "PRAIRIES",
 		"JOHTO": "ISLAND"
 	}
 }

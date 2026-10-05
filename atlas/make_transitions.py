@@ -138,7 +138,7 @@ def rehue(name, fn):
     for i in range(0, len(nums), 3):
         r, g, b = map(int, nums[i:i + 3])
         out.append('%d %d %d' % fn(max(r, g, b)))
-    with open(os.path.join(ROOT, REL, name), 'w', newline='\n') as f:
+    with open(os.path.join(ROOT, REL, name), 'w', newline='\r\n') as f:
         f.write('\n'.join(head + out) + '\n')
 
 
