@@ -15,28 +15,13 @@ echo.
 rem ---- 1. WSL ---------------------------------------------------------------------------------
 wsl -- true >nul 2>&1
 if errorlevel 1 goto :nowsl
-where wsl >nul 2>&1
-if errorlevel 1 (
-	echo WSL is not installed. Open PowerShell as administrator, run:  wsl --install
-	echo then restart and run this file again. Details: INSTALL.md, "Windows 10/11 WSL1".
-	pause
-	exit /b 1
-)
-echo WSL is installed but could not run a command. What WSL says:
-wsl -- echo ok
-echo.
-echo Installed Linux systems (the default has a *):
-wsl --list --verbose
-echo.
-echo To fix it, in PowerShell:
-echo   - No Ubuntu in the list:      wsl --install -d Ubuntu
-echo   - Ubuntu listed, not default: wsl --set-default Ubuntu
-echo   - Ubuntu never opened:        run  wsl -d Ubuntu  once and create a user name and password
-echo Then run this file again.
-pause
-exit /b 1
 
-:notools
+rem ---- 2. Build tools (offered once) ----------------------------------------------------------
+wsl -- sh -c "command -v arm-none-eabi-gcc && command -v make && test -e /usr/include/png.h" >nul 2>&1
+if not errorlevel 1 goto :update
+echo The build tools are not installed in WSL yet.
+choice /C YN /M "Install them now (asks for your WSL password)"
+if errorlevel 2 goto :notools
 wsl -- sh -c "sudo apt-get update && sudo apt-get install -y build-essential git gcc-arm-none-eabi binutils-arm-none-eabi libpng-dev"
 if errorlevel 1 goto :notools
 
@@ -82,9 +67,24 @@ pause
 exit /b 1
 
 :nowsl
-echo WSL is not set up on this computer. The game is built inside WSL.
-echo Open PowerShell as administrator, run:  wsl --install
-echo then restart and run this file again. Details: INSTALL.md, "Windows 10/11 (WSL1)".
+where wsl >nul 2>&1
+if errorlevel 1 (
+	echo WSL is not installed. Open PowerShell as administrator, run:  wsl --install
+	echo then restart and run this file again. Details: INSTALL.md, "Windows 10/11 WSL1".
+	pause
+	exit /b 1
+)
+echo WSL is installed but could not run a command. What WSL says:
+wsl -- echo ok
+echo.
+echo Installed Linux systems, the default has a *:
+wsl --list --verbose
+echo.
+echo To fix it, in PowerShell:
+echo   - No Ubuntu in the list:      wsl --install -d Ubuntu
+echo   - Ubuntu listed, not default: wsl --set-default Ubuntu
+echo   - Ubuntu never opened:        run  wsl -d Ubuntu  once and create a user name and password
+echo Then run this file again.
 pause
 exit /b 1
 
