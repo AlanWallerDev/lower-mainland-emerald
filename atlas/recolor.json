@@ -1,0 +1,21 @@
+{
+	"_note": "Overworld recolour for BC, applied by atlas/recolor_tiles.py to every tileset palette (data/tilesets/**/palettes/*.pal), starting from upstream. Each entry maps an exact upstream colour to a new one, so tiles from different tilesets still meet without seams.",
+	"colors": {
+		"_grass": "Hoenn's bright mint grass becomes a cooler, mossy coast green.",
+		"164,213,197": "156,200,156",
+		"115,197,164": "106,170,112",
+		"65,180,131": "74,148,90",
+		"24,164,106": "44,124,72",
+		"_trees": "Round lime tree crowns become darker conifer greens.",
+		"180,255,131": "152,214,120",
+		"131,197,98": "98,160,84",
+		"57,139,49": "44,108,58",
+		"57,82,0": "28,64,36",
+		"_water": "Tropical blue water becomes a deeper Pacific blue.",
+		"115,189,246": "110,170,208",
+		"98,172,238": "92,154,198",
+		"98,164,222": "84,144,188",
+		"82,139,197": "68,120,170",
+		"74,115,172": "58,100,150"
+	}
+}

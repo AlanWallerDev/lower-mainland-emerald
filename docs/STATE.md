@@ -40,6 +40,10 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   reads TRAILNAV and its menu button BC MAP (`atlas/make_trailnav.py`). Screenshot:
   `docs/region_map.png`. New harness command `setflag` and script `trailnav.txt`.
 
+- **Overworld recolour** (`atlas/recolor.json`, `atlas/recolor_tiles.py`): grass, tree and water
+  colours swapped in all 290 tileset palettes that use them (seam-free, since tilesets share
+  colours). Screenshot: `docs/overworld.png`; harness script `overworld.txt`.
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly, e.g. HOPE's
   founding or the KAMLOOPS ash. Wally's tutorial catch (Ralts slot) is now SAR11, a microbe.
@@ -51,7 +55,7 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 
 ## Next three tasks
 
-1. P3: tile palette swaps (conifers, snow, arbutus coast, sagebrush).
+1. P3: conifer tree art (the tree block plus its forest variants), then new coast and Interior tiles.
 2. P4: CINDER and RIPTIDE (names, grunts, leaders, hideouts), then dialogue area by area.
 3. Cryptid islands reachable after the credits without event tickets.
 

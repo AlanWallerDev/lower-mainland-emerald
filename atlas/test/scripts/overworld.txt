@@ -1,0 +1,281 @@
+# New game into LADNER and onto RIVER ROAD: overworld screenshots for tiles and palettes.
+# Run: atlas/test/run.sh atlas/test/scripts/overworld.txt
+wait 400
+press START
+wait 600
+press START
+wait 400
+press DOWN
+wait 20
+press A
+wait 300
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press RIGHT
+press RIGHT
+wait 30
+press B
+wait 300
+press UP
+wait 20
+press A
+wait 400
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+wait 300
+repeat A 10
+wait 200
+press B
+wait 30
+hold RIGHT 12
+wait 10
+hold RIGHT 12
+wait 120
+repeat A 12
+wait 60
+repeat A 12
+wait 120
+repeat B 6
+hold UP 8
+hold RIGHT 8
+hold UP 16
+wait 30
+hold LEFT 6
+wait 10
+hold LEFT 4
+wait 10
+hold UP 8
+wait 150
+repeat A 6
+wait 60
+hold LEFT 4
+wait 8
+hold LEFT 4
+wait 8
+press UP
+wait 10
+press A
+wait 60
+repeat A 3
+wait 120
+press A
+wait 60
+press UP
+wait 10
+press A
+wait 150
+repeat A 8
+wait 100
+repeat B 8
+wait 200
+hold RIGHT 4
+wait 8
+hold RIGHT 4
+wait 8
+hold UP 8
+wait 150
+repeat B 20
+wait 100
+repeat B 20
+repeat B 10
+wait 60
+hold RIGHT 16
+wait 10
+hold DOWN 20
+wait 150
+repeat B 10
+wait 60
+hold DOWN 4
+wait 6
+hold RIGHT 40
+wait 10
+hold LEFT 4
+wait 8
+hold UP 12
+wait 150
+repeat B 15
+wait 100
+hold UP 16
+wait 20
+hold UP 12
+wait 150
+repeat B 25
+wait 100
+repeat B 25
+wait 100
+hold DOWN 4
+wait 8
+hold DOWN 4
+wait 8
+hold DOWN 4
+wait 8
+hold RIGHT 16
+wait 10
+press RIGHT
+press A
+wait 60
+repeat A 12
+wait 60
+repeat A 20
+wait 100
+hold LEFT 4
+wait 10
+press UP
+wait 6
+press A
+wait 60
+repeat A 15
+wait 60
+repeat A 25
+wait 100
+hold UP 8
+wait 10
+hold LEFT 20
+wait 10
+hold UP 12
+wait 30
+hold RIGHT 4
+wait 8
+hold UP 8
+wait 150
+repeat B 10
+wait 30
+hold DOWN 24
+wait 150
+repeat B 6
+shot $OUT/town.ppm
+hold DOWN 4
+wait 8
+hold LEFT 12
+wait 8
+hold UP 60
+wait 20
+repeat A 10
+repeat B 14
+wait 60
+hold UP 40
+wait 60
+repeat B 8
+wait 60
+repeat B 12
+wait 60
+hold UP 4
+wait 8
+hold LEFT 12
+wait 8
+press LEFT
+shot $OUT/route.ppm
