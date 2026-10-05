@@ -892,8 +892,8 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these organisms did TEAM AQUA\n"
-	.string "use in RICHMOND FOREST?$"
+	.string "Which of these organisms did TEAM\n"
+	.string "RIPTIDE use in RICHMOND FOREST?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
 	.string "CLICKETY-CLACK…\n"

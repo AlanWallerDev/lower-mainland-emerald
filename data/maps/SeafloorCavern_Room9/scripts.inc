@@ -202,21 +202,21 @@ SeafloorCavern_Room9_Movement_Delay32:
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "ARCHIE: Hold it right there.$"
+	.string "HOLLIS: Hold it right there.$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "ARCHIE: Fufufu…\n"
+	.string "HOLLIS: Fufufu…\n"
 	.string "So it was you, after all.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "ARCHIE: Behold!\p"
+	.string "HOLLIS: Behold!\p"
 	.string "See how beautiful it is, the sleeping\n"
 	.string "form of the ancient ORCA!\p"
 	.string "I have waited so long for this day to\n"
 	.string "come…$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "ARCHIE: It surprises me, how you've\n"
+	.string "HOLLIS: It surprises me, how you've\n"
 	.string "managed to chase me here.\p"
 	.string "But that's all over now.\p"
 	.string "For the realization of my dream,\n"
@@ -227,7 +227,7 @@ SeafloorCavern_Room9_Text_ArchieDefeat:
 	.string "I lost to a mere child like you?!$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-	.string "ARCHIE: Fufufu…\p"
+	.string "HOLLIS: Fufufu…\p"
 	.string "I commend you. I must recognize that\n"
 	.string "you are truly gifted.\p"
 	.string "But!\n"
@@ -239,22 +239,22 @@ SeafloorCavern_Room9_Text_RedOrbShinesByItself:
 	.string "by itself!$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "ARCHIE: What?!\p"
+	.string "HOLLIS: What?!\p"
 	.string "I didn't do anything.\n"
 	.string "Why did the RED ORB…\p"
 	.string "Where did ORCA go?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "ARCHIE: Hm? It's a message from our\n"
+	.string "HOLLIS: Hm? It's a message from our\n"
 	.string "members outside…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "ARCHIE: Yes, what is it?\p"
+	.string "HOLLIS: Yes, what is it?\p"
 	.string "Hm…\n"
 	.string "It's raining heavily?\p"
 	.string "Good… That should have happened. That\n"
 	.string "is why we awakened ORCA, to realize\l"
-	.string "TEAM AQUA's vision of expanding the\l"
+	.string "TEAM RIPTIDE's vision of expanding the\l"
 	.string "sea.\p"
 	.string "What?!\p"
 	.string "It's raining far harder than we\n"
@@ -265,15 +265,15 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "the situation!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "ARCHIE: There's something wrong…\p"
+	.string "HOLLIS: There's something wrong…\p"
 	.string "The RED ORB is supposed to awaken and\n"
 	.string "control ORCA…\p"
 	.string "But… Why? Why did ORCA disappear?\p"
 	.string "Why?!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "MAXIE: What have you wrought?\p"
-	.string "ARCHIE… You've finally awoken ORCA,\n"
+	.string "ASHBY: What have you wrought?\p"
+	.string "HOLLIS… You've finally awoken ORCA,\n"
 	.string "haven't you?\p"
 	.string "What will happen to the world if this\n"
 	.string "downpour continues for all eternity?\p"
@@ -281,21 +281,21 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "the deepening sea…$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "ARCHIE: W-what?!\n"
+	.string "HOLLIS: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, TEAM MAGMA, that\n"
+	.string "Wasn't it you, TEAM CINDER, that\n"
 	.string "infuriated SEQUOIA?\p"
 	.string "So long as I have this RED ORB, I should\n"
 	.string "be able to control ORCA…\p"
 	.string "I should be able to control it…$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "MAXIE: We don't have the time to\n"
+	.string "ASHBY: We don't have the time to\n"
 	.string "argue about it here!\p"
 	.string "Get outside and see for yourself!\p"
 	.string "See if what you've wrought is the\n"
 	.string "world that we desired!$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "MAXIE: {PLAYER}, come on, you have\n"
+	.string "ASHBY: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"

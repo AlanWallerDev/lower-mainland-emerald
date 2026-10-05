@@ -141,7 +141,7 @@ MagmaHideout_4F_Text_Grunt12Defeat:
 	.string "I've come so far, but now this?$"
 
 MagmaHideout_4F_Text_Grunt12PostBattle:
-	.string "MAXIE, sir!\n"
+	.string "ASHBY, sir!\n"
 	.string "An intruder is headed your way!$"
 
 MagmaHideout_4F_Text_Grunt13Intro:
@@ -159,8 +159,8 @@ MagmaHideout_4F_Text_TabithaIntro:
 	.string "You made it this far, so I'll tell you!\p"
 	.string "That's right! Up ahead, SEQUOIA is\n"
 	.string "sleeping!\p"
-	.string "MAXIE went to SEQUOIA just seconds\n"
-	.string "ago!\p"
+	.string "ASHBY went to SEQUOIA just\n"
+	.string "seconds ago!\p"
 	.string "It's going to awaken real soon!\n"
 	.string "Hehe! Hehehe!$"
 
@@ -170,10 +170,11 @@ MagmaHideout_4F_Text_TabithaDefeat:
 
 MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened SEQUOIA…$"
+	.string "ASHBY should have awakened\l"
+	.string "SEQUOIA…$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "MAXIE: SEQUOIA…\p"
+	.string "ASHBY: SEQUOIA…\p"
 	.string "Nothing could awaken you from your\n"
 	.string "sleep bathed in magma…\p"
 	.string "This BLUE ORB is what you sought.\n"
@@ -184,12 +185,12 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon:
 	.string "Show me the full extent of your power!$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "MAXIE: SEQUOIA! What's wrong?\p"
+	.string "ASHBY: SEQUOIA! What's wrong?\p"
 	.string "Wasn't the BLUE ORB the key?\p"
 	.string "SEQUOIA! Where have you gone…$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "MAXIE: Oh, so it was you?\p"
+	.string "ASHBY: Oh, so it was you?\p"
 	.string "I've seen you poking around uninvited\n"
 	.string "here and there…\p"
 	.string "I get it now!\n"
@@ -200,8 +201,8 @@ MagmaHideout_4F_Text_MaxieDefeat:
 	.string "organisms?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "MAXIE: There has to be some reason why\n"
-	.string "SEQUOIA fled…\p"
+	.string "ASHBY: There has to be some reason\n"
+	.string "why SEQUOIA fled…\p"
 	.string "That's what you're trying to say,\n"
 	.string "aren't you?\p"
 	.string "… … … … … …\n"

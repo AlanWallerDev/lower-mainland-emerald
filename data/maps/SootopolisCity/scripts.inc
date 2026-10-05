@@ -1542,15 +1542,16 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "MAXIE: G… SEQUOIA… Please! Stop what\n"
-	.string "you're doing!\p"
+	.string "ASHBY: G… SEQUOIA… Please! Stop\n"
+	.string "what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all of BC, not just\n"
 	.string "DEEP COVE, will be utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
-	.string "MAXIE: So the super-ancient organisms\n"
-	.string "weren't only SEQUOIA and ORCA…\p"
+	.string "ASHBY: So the super-ancient\n"
+	.string "organisms weren't only SEQUOIA and\l"
+	.string "ORCA…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one organism's\l"
 	.string "simple action puts everything right\l"
@@ -1559,16 +1560,17 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fuhahaha…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "ARCHIE: ORCA! What's wrong?! Look over\n"
-	.string "here! It's the RED ORB! Calm down! ORCA!\p"
+	.string "HOLLIS: ORCA! What's wrong?! Look\n"
+	.string "over here! It's the RED ORB! Calm down!\l"
+	.string "ORCA!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "It's no good!\n"
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: ORCA and SEQUOIA both flew off\n"
-	.string "to who knows where.\p"
+	.string "HOLLIS: ORCA and SEQUOIA both flew\n"
+	.string "off to who knows where.\p"
 	.string "The weather in BC has\n"
 	.string "returned to its normal state…\p"
 	.string "Haha… Hahaha…\p"
@@ -1622,8 +1624,9 @@ SootopolisCity_Text_SoThatsRayquaza:
 	.string "organisms would flee from it in fear…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "STEVEN: It looks like both MAXIE and\n"
-	.string "ARCHIE have gone away somewhere.\p"
+	.string "STEVEN: It looks like both ASHBY\n"
+	.string "and HOLLIS have gone away\l"
+	.string "somewhere.\p"
 	.string "Perhaps they've gone to MOUNTAIN VIEW\n"
 	.string "to return those ORBS…$"
 
@@ -1637,8 +1640,8 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "The leaders of TEAM MAGMA and AQUA,\n"
-	.string "I don't think they meant harm.\p"
+	.string "The leaders of TEAM CINDER and\n"
+	.string "RIPTIDE, I don't think they meant harm.\p"
 	.string "It wouldn't hurt to hear what they\n"
 	.string "have to say for themselves.$"
 

@@ -1137,7 +1137,7 @@
     },
     {
       "id": "MAPSEC_AQUA_HIDEOUT",
-      "name": "AQUA HIDEOUT",
+      "name": "RIPTIDE HIDEOUT",
       "x": 9,
       "y": 11,
       "width": 1,
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "MAPSEC_MAGMA_HIDEOUT",
-      "name": "MAGMA HIDEOUT",
+      "name": "CINDER HIDEOUT",
       "x": 16,
       "y": 5,
       "width": 1,

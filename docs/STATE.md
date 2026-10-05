@@ -44,6 +44,12 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   colours swapped in all 290 tileset palettes that use them (seam-free, since tilesets share
   colours). Screenshot: `docs/overworld.png`; harness script `overworld.txt`.
 
+- **Villain teams (P4 start)**: TEAM MAGMA is TEAM CINDER and TEAM AQUA is TEAM RIPTIDE in all
+  text, trainer classes, hideouts and the emblem (`atlas/text/04-06`; bare AQUA stays where it is
+  the type). Leaders and admins have fictional stand-in names in `atlas/characters.json`:
+  ASHBY (Maxie), KENDALL (Tabitha), HOLLIS (Archie), MARINA (Shelly), FINN (Matt). The
+  {KYOGRE}/{GROUDON} placeholders follow the species map.
+
 **Known issues**
 - Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly, e.g. HOPE's
   founding or the KAMLOOPS ash. Wally's tutorial catch (Ralts slot) is now SAR11, a microbe.
@@ -56,7 +62,7 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 ## Next three tasks
 
 1. P3: conifer tree art (the tree block plus its forest variants), then new coast and Interior tiles.
-2. P4: CINDER and RIPTIDE (names, grunts, leaders, hideouts), then dialogue area by area.
+2. P4: CINDER and RIPTIDE motives (fire and flood) in their dialogue, then the rest area by area.
 3. Cryptid islands reachable after the credits without event tickets.
 
 ## Waiting on the owner
@@ -64,3 +70,4 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 - Rename the GitHub repo (Settings > General > Repository name), then run
   `git remote set-url origin https://github.com/AlanWallerDev/<new-name>` locally.
 - Review `docs/ROSTER.md` (my legendary change: Latios is the spotted owl, not a second marmot).
+- Villain leader and admin names are stand-ins (ASHBY, KENDALL, HOLLIS, MARINA, FINN): keep or replace.

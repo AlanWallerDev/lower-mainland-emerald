@@ -1543,7 +1543,7 @@ static const u8 sSapphireDesc[] = _(
 static const u8 sMagmaEmblemDesc[] = _(
     "A medal-like item in\n"
     "the same shape as\n"
-    "TEAM MAGMA's mark.");
+    "TEAM CINDER's mark.");
 
 static const u8 sOldSeaMapDesc[] = _(
     "A faded sea chart\n"

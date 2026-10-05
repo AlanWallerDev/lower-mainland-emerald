@@ -34,7 +34,8 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [ ] Signs and landmark text
 
 ## P4 Story
-- [ ] CINDER and RIPTIDE: names, grunts, leaders, hideouts
+- [x] CINDER and RIPTIDE: team names, leaders and admins (stand-in names in `atlas/characters.json`)
+- [ ] CINDER and RIPTIDE motives in dialogue (fire and flood instead of land and sea)
 - [ ] Area-by-area dialogue rewrite, checked with mGBA scripts
 
 ## P5 Signature maps

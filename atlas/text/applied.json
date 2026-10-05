@@ -2,7 +2,10 @@
 	"tables": [
 		"01_polish.tsv",
 		"02_type_text.tsv",
-		"03_title.tsv"
+		"03_title.tsv",
+		"04_teams.tsv",
+		"05_team_phrases.tsv",
+		"06_team_fix.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",
@@ -82,6 +85,11 @@
 		"characters.WINONA": "MACGILL",
 		"characters.JUAN": "FORTES",
 		"characters.SIDNEY": "SMITH",
-		"characters.DRAKE": "VANCOUVER"
+		"characters.DRAKE": "VANCOUVER",
+		"characters.MAXIE": "ASHBY",
+		"characters.TABITHA": "KENDALL",
+		"characters.ARCHIE": "HOLLIS",
+		"characters.SHELLY": "MARINA",
+		"characters.MATT": "FINN"
 	}
 }

@@ -285,4 +285,15 @@ for (const e of entries) {
 }
 C.write('src/data/pokemon/tutor_learnsets.h', tu);
 
+// ---- legendary name placeholders ({KYOGRE} and {GROUDON} in text) -------------------------------
+
+let str = C.read('src/strings.c');
+for (const slot of ['KYOGRE', 'GROUDON']) {
+	if (!bySlot[slot]) continue;
+	const nm = C.gameName(bySlot[slot].org, names);
+	const label = slot === 'KYOGRE' ? 'Kyogre' : 'Groudon';
+	str = str.replace(new RegExp(`(gText_ExpandedPlaceholder_${label}\\[\\] = _\\(")[^"]*`), `$1${nm}`);
+}
+C.write('src/strings.c', str);
+
 console.log(`apply_species: ${entries.length} organisms written, ${evo.length} evolutions`);

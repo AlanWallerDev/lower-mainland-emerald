@@ -52,7 +52,7 @@ AquaHideout_1F_EventScript_Grunt1Defeated::
 
 AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
+	.string "TEAM RIPTIDE?\p"
 	.string "Our BOSS isn't here! He's gone off to\n"
 	.string "snatch something important!\p"
 	.string "… …\n"
@@ -62,15 +62,15 @@ AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
 	.string "What? What?\n"
-	.string "Are you a TEAM MAGMA grunt?\p"
-	.string "I hear that TEAM MAGMA is trying to\n"
+	.string "Are you a TEAM CINDER grunt?\p"
+	.string "I hear that TEAM CINDER is trying to\n"
 	.string "awaken an awesome organism at their\l"
 	.string "HIDEOUT.\p"
 	.string "But where might their HIDEOUT be?$"
 
 AquaHideout_1F_Text_BossWentToJackASubmarine:
 	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
+	.string "TEAM RIPTIDE?\p"
 	.string "Our BOSS isn't here!\n"
 	.string "He's gone off to jack a submarine!\p"
 	.string "… …\n"
@@ -80,7 +80,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
 
 AquaHideout_1F_Text_BossIsOnRoute122:
 	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
+	.string "TEAM RIPTIDE?\p"
 	.string "Our BOSS isn't here! He's on his way to\n"
 	.string "MOUNTAIN VIEW on FALSE CREEK!\p"
 	.string "… …\n"
@@ -90,14 +90,14 @@ AquaHideout_1F_Text_BossIsOnRoute122:
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 	.string "What? What?\n"
-	.string "Are you a TEAM MAGMA grunt?\p"
-	.string "I hear that TEAM MAGMA is after an\n"
+	.string "Are you a TEAM CINDER grunt?\p"
+	.string "I hear that TEAM CINDER is after an\n"
 	.string "awesome organism at WELLS GRAY CONE.\p"
 	.string "But what is that organism like?$"
 
 AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "What? What? What do you want with\n"
-	.string "TEAM AQUA?\p"
+	.string "TEAM RIPTIDE?\p"
 	.string "Our BOSS isn't here!\n"
 	.string "He's on his way to VICTORIA!\p"
 	.string "… …\n"
