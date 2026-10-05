@@ -1,5 +1,5 @@
 {
-	"_note": "Wild areas by habitat, used by atlas/apply_wild.js. Keys are wild_encounters.json base labels (a trailing * matches a prefix). Each value names the habitat for land (grass and caves), water (surfing and fishing) and rock smash. 'pool': 'national' areas use the worldwide organisms met after the credits; all others use the regional BC organisms.",
+	"_note": "Wild areas by habitat, used by atlas/apply_wild.js. Keys are wild_encounters.json base labels (a trailing * matches a prefix). Each value names the habitat for land (grass and caves), water (surfing and fishing) and rock smash. 'pool': 'national' areas use the worldwide organisms met after the credits; all others use the regional BC organisms. An area's 'run' names a life-stage line that takes over its water (the ADAMS RIVER sockeye run).",
 	"areas": {
 		"gRoute101": { "land": "meadow" },
 		"gRoute102": { "land": "meadow", "water": "fresh" },
@@ -14,7 +14,7 @@
 		"gRoute111": { "land": "dry", "water": "fresh", "rock": "rock" },
 		"gRoute112": { "land": "mountain" },
 		"gRoute113": { "land": "burned" },
-		"gRoute114": { "land": "meadow", "water": "fresh", "rock": "rock" },
+		"gRoute114": { "land": "meadow", "water": "fresh", "rock": "rock", "run": "bc:sockeye" },
 		"gRoute115": { "land": "coast", "water": "sea" },
 		"gRoute116": { "land": "forest" },
 		"gRoute117": { "land": "meadow", "water": "fresh" },

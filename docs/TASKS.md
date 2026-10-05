@@ -47,7 +47,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 
 ## P5 Signature maps
 - [ ] Burgess Shale dig (Yoho)
-- [ ] Adams River salmon run
+- [x] Adams River salmon run: the sockeye line fills ADAMS RIVER's water (habitats.json `run`), fishers talk about the run
 - [ ] Hecate sponge reef dive
 
 ## P6 Polish

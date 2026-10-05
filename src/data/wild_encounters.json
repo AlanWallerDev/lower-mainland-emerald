@@ -1246,22 +1246,22 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_WALREIN"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 10,
                 "max_level": 20,
-                "species": "SPECIES_WALREIN"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_WALREIN"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_WALREIN"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 20,
@@ -1306,52 +1306,52 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_GOLDUCK"
+                "species": "SPECIES_LOMBRE"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
+                "species": "SPECIES_LOTAD"
+              },
+              {
+                "min_level": 10,
+                "max_level": 30,
+                "species": "SPECIES_LOMBRE"
+              },
+              {
+                "min_level": 10,
+                "max_level": 30,
+                "species": "SPECIES_LOTAD"
+              },
+              {
+                "min_level": 10,
+                "max_level": 30,
                 "species": "SPECIES_LUDICOLO"
-              },
-              {
-                "min_level": 10,
-                "max_level": 30,
-                "species": "SPECIES_GOLDUCK"
-              },
-              {
-                "min_level": 10,
-                "max_level": 30,
-                "species": "SPECIES_LUDICOLO"
-              },
-              {
-                "min_level": 10,
-                "max_level": 30,
-                "species": "SPECIES_CORPHISH"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_LUDICOLO"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_LUDICOLO"
               }
             ]
           }

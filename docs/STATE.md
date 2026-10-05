@@ -41,6 +41,8 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
   ring markings and stays.
 - **Learnsets**: immobile organisms get body-appropriate openers (ABSORB, ACID for microbes, BUBBLE for
   sponges), GROWTH or HARDEN at level 1, and no charging or body-contact moves (`atlas/lib/moves.js`).
+- **ADAMS RIVER salmon run**: surfing meets sockeye spawners, fishing brings up smolts, alevins and
+  spawners (`atlas/habitats.json` `run`, `apply_wild.js`); fishers talk about the run.
 - **SCOUT** replaces the NINJA BOY trainer class and its lines.
 - **Post-game played**: `postgame.txt` (island tickets, `docs/postgame_desk.png`) and
   `survey.txt` (ISLAND CAVE survey note). Harness: `sb1poke`, `reset`, fresh save per run.
@@ -54,9 +56,9 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 ## Next three tasks
 
-1. P3/P5: plan the new maps and tiles together (they need map edits).
-2. P5: signature maps (Burgess Shale dig, Adams River salmon run, Hecate sponge reef dive).
-3. P3: new coast and Interior tiles need map edits; first find where they would go.
+1. P5: Burgess Shale dig and Hecate sponge reef dive (reuse existing maps where possible).
+2. P3: new coast and Interior tiles (need map edits; find where they would go first).
+3. Playtest pass through the early game with the harness.
 
 ## Waiting on the owner
 

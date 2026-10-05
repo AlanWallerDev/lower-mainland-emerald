@@ -85,6 +85,17 @@ for (const g of wild.wild_encounter_groups) {
 			if (!ranked.length) continue;
 			const chosen = distinct.map((_, i) => ranked[i % ranked.length].m.slot);
 			chosen.forEach((s) => (uses[s] = (uses[s] || 0) + 1));
+			// A run (e.g. the ADAMS RIVER sockeye): one life-stage line takes over the water. Surfing
+			// meets the adults; fishing cycles through the stages. Applied after the use counts, so other
+			// areas keep their picks.
+			if (area.run && (kind === 'water' || kind === 'fish')) {
+				const run = pool.filter((m) => orgs[m.id].line === area.run)
+					.sort((a, b) => (orgs[b.id].stage_index || 0) - (orgs[a.id].stage_index || 0)).map((m) => m.slot);
+				if (run.length) distinct.forEach((_, i) => {
+					if (kind === 'water' && i < distinct.length - 1) chosen[i] = run[0];
+					if (kind === 'fish') chosen[i] = run[(i + 1) % run.length];
+				});
+			}
 			const sub = Object.fromEntries(distinct.map((sp, i) => [sp, 'SPECIES_' + chosen[i]]));
 			e[field].mons = upMons.map((m) => ({ ...m, species: sub[m.species] }));
 		}
