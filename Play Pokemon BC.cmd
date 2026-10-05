@@ -40,13 +40,6 @@ copy /Y "%CD%\pokeemerald_modern.gba" "%ROM%" >nul
 if errorlevel 1 goto :buildfail
 echo   Built: play\Pokemon BC.gba
 
-rem A copy for phones (Delta on iPhone opens it from the Files app) when iCloud for Windows is set up.
-set "PHONE=%USERPROFILE%\iCloudDrive"
-if exist "%PHONE%" (
-	if not exist "%PHONE%\Pokemon BC" mkdir "%PHONE%\Pokemon BC"
-	copy /Y "%ROM%" "%PHONE%\Pokemon BC\Pokemon BC.gba" >nul && echo   Copied to iCloud Drive\Pokemon BC for your phone.
-)
-
 rem ---- 5. Start mGBA --------------------------------------------------------------------------
 set "EMU="
 if defined MGBA if exist "%MGBA%" set "EMU=%MGBA%"

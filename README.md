@@ -31,13 +31,15 @@ First time only: WSL must be set up (`wsl --install` in an administrator PowerSh
 install mGBA if it can't find it (it looks in Program Files, an `mGBA` folder next to the launcher, the
 `MGBA` environment variable and the PATH). If the build fails, it shows the end of `build_log.txt`.
 
-### On iPhone (Delta)
+### On iPhone (Delta), over a USB cable
 
-If iCloud for Windows is installed, the launcher also copies the game to `iCloud Drive\Pokemon BC\`.
-In Delta tap **+**, choose **Files** and pick `Pokemon BC.gba` there. To carry a save between the PC
-and the phone, long-press the game in Delta and use **Import Save File** / **Export Save File** with
-`play\Pokemon BC.sav`. A rebuilt game shows up in Delta as a new game: export the save from the old
-one and import it into the new one.
+No cloud storage needed. Connect the iPhone to the PC and open the **Apple Devices** app (or iTunes),
+then the phone's **Files** (File Sharing) tab and pick **Delta**. Drag `play\Pokemon BC.gba` (and
+`play\Pokemon BC.sav` to bring your PC save) into Delta's folder. On the phone, in Delta tap **+** →
+**Files** → On My iPhone → Delta and pick the game; to load the PC save, long-press the game →
+**Import Save File**. To bring a phone save back, long-press → **Export Save File** into the Delta
+folder, then drag it out in Apple Devices to `play\Pokemon BC.sav` (with mGBA closed). A rebuilt game
+shows up in Delta as a new game: export the save from the old one and import it into the new one.
 
 ## Build
 
