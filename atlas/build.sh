@@ -12,6 +12,7 @@ python3 atlas/apply_types.py
 node atlas/apply_species.js
 node atlas/theme_trainers.js
 python3 atlas/make_sprites.py
+python3 atlas/make_legend_sprites.py
 python3 atlas/body_colors.py
 python3 atlas/make_title.py
 python3 atlas/make_dollar.py

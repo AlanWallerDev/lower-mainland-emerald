@@ -53,4 +53,5 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 ## P6 Polish
 - [x] Currency shown as \$ (`atlas/make_dollar.py`)
 - [x] Text width checker for messages and item descriptions (`atlas/check_text.js`)
-- [ ] Overworld creature sprites (the DEEP COVE clash still shows Groudon and Kyogre shapes), back sprites, move names, playtest fixes
+- [x] Overworld sprites for the story legendaries: bear, reef, murrelet (`atlas/make_legend_sprites.py`, `docs/legends.png`)
+- [ ] Other overworld creature sprites, back sprites, move names, playtest fixes

@@ -2,7 +2,7 @@
 // Build: cc -O2 -o build/harness atlas/test/harness.c -lmgba
 // Usage: build/harness rom.gba script.txt [save.sav]
 // Script lines:  wait N | press KEYS [N] | hold KEYS N | repeat KEYS N | shot file.ppm
-//                savestate file | loadstate file | peek HEXADDR [N] | setflag SB1PTR FLAG
+//                savestate file | loadstate file | peek HEXADDR [N] | setflag SB1PTR FLAG | clearflag SB1PTR FLAG
 //                sb1poke SB1PTR HEXOFF HEXVAL | reset | # comment
 // KEYS: A B SELECT START RIGHT LEFT UP DOWN R L joined with '+', e.g. press A, hold UP+B 30.
 #include <mgba/core/core.h>
@@ -116,6 +116,12 @@ int main(int argc, char **argv) {
 			unsigned ptrAddr = strtoul(arg, NULL, 16);
 			unsigned base = core->busRead32(core, ptrAddr) + 0x1270;
 			core->busWrite8(core, base + n / 8, core->busRead8(core, base + n / 8) | (1 << (n % 8)));
+		}
+		else if (!strcmp(cmd, "clearflag")) {
+			// clearflag SB1PTR FLAG: the reverse of setflag.
+			unsigned ptrAddr = strtoul(arg, NULL, 16);
+			unsigned base = core->busRead32(core, ptrAddr) + 0x1270;
+			core->busWrite8(core, base + n / 8, core->busRead8(core, base + n / 8) & ~(1 << (n % 8)));
 		}
 		else if (!strcmp(cmd, "repeat")) {
 			// repeat KEYS N: press KEYS N times (useful for mashing through text)
