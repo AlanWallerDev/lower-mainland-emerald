@@ -34,6 +34,13 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
 - **Cushions and posters**: the organism cushions are drawn from their battle sprites like the
   dolls, and named for them with the posters (BEE, FUNGUS, RACCOON, JELLY, GOOSE, LIZARD;
   `atlas/text/42_decor.tsv`). Poster art (secret base tiles) is unchanged.
+- **Movesets follow the body** (`atlas/lib/moves.js` `body()` and `GATES`, used by level-up, TM and
+  tutor lists): voice moves need a voice, tail moves a tail, fangs, claws, pincers, beaks, wings,
+  shells, silk, stingers, leaves, petals, spores and glow need the matching body part; kicks are for
+  hoofed animals, hoppers and primates, punches for primates; microbes get no charging moves;
+  bone throws and PAY DAY are gone. Each type's first move falls back when the body rules it out
+  (snakes open with ACID, not POISON STING), and organisms left with few moves get plain off-type
+  ones (BITE, ACID, WATER PULSE...). Checked by listing all 386 learnsets; `firstbattle.txt` plays.
 - **Move names** audited: plain English, no Pokemon names or terms; left as they are.
 
 ## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)
@@ -92,14 +99,14 @@ The owner delegated all details (story, dialogue, names) to Claude: decide, buil
 
 **Known issues**
 - BATTLE FRONTIER, TRAINER HILL and TV text only had the automatic passes.
-- Learnsets are type-based; immobile organisms (plants, fungi, sponges, microbes) now open with
-  ABSORB/ACID/BUBBLE and never learn charging or body-contact moves, but some picks are still odd.
+- Learnsets are still type-based within the body rules: a fire-adapted pine learns FLAMETHROWER
+  and a cactus RAZOR LEAF, by design of the types.
 - JOHTO's stand-in is "ISLAND". TrailNav town close-ups show the game's own town layouts (fine).
 
 ## Next three tasks
 
 1. Fix issues from the owner's playtest reports.
-2. Optional: Rayquaza's battle intro as a murrelet; remaining learnset oddities.
+2. Optional: Rayquaza's battle intro as a murrelet.
 3. Optional: more BC tiles (arbutus on OAK BAY's bluffs, a cannery at PRINCE RUPERT).
 
 ## Waiting on the owner
