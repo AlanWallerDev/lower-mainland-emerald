@@ -26,7 +26,9 @@
 		"24_hope_yale.tsv",
 		"25_types_desc.tsv",
 		"26_falconer.tsv",
-		"27_contest.tsv"
+		"27_contest.tsv",
+		"28_interior.tsv",
+		"29_leftover_names.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

@@ -2392,9 +2392,9 @@ MatchCall_Text_May9::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "I was thinking of going to the hot\n"
 	.string "spring in HARRISON.\p"
-	.string "But on the way, around JAGGED\n"
-	.string "PASS, I ran into some bad-looking\l"
-	.string "characters. The mood was ugly!$"
+	.string "But on the way, around CHEAM RIDGE, I\n"
+	.string "ran into some bad-looking characters.\l"
+	.string "The mood was ugly!$"
 
 MatchCall_Text_May10::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
@@ -2763,8 +2763,8 @@ MatchCall_Text_Steven1::
 	.string "already?\p"
 	.string "You should visit the BIKE SHOP\n"
 	.string "and get a MACH BIKE.\p"
-	.string "Then, try exploring the GRANITE\n"
-	.string "CAVE thoroughly.\p"
+	.string "Then, try exploring the HORNE LAKE\n"
+	.string "CAVES thoroughly.\p"
 	.string "You may make a new discovery\n"
 	.string "there.$"
 

@@ -200,8 +200,8 @@ VictoryRoad_1F_Text_QuincyPostBattle:
 	.string "Getting through here safely--that's\n"
 	.string "the final test for any TRAINER aiming\l"
 	.string "to become the CHAMPION.\p"
-	.string "That's why it's called the VICTORY\n"
-	.string "ROAD.$"
+	.string "The road climbs from the sea to the sky,\n"
+	.string "and so do the TRAINERS who finish it.$"
 
 VictoryRoad_1F_Text_KatelynnIntro:
 	.string "I have nothing to say to anyone\n"

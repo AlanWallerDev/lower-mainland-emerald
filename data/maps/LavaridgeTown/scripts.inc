@@ -273,9 +273,9 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "have this.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "MAY: With those GO-GOGGLES, you'll\n"
-	.string "have no trouble getting through the\l"
-	.string "desert near COQUIHALLA.\p"
+	.string "MAY: With those GO-GOGGLES, you'll have\n"
+	.string "no trouble getting through the\l"
+	.string "sandstorms on the COQUIHALLA.\p"
 	.string "But, wow, {PLAYER}{KUN}…\n"
 	.string "Challenging GYMS…\p"
 	.string "You're trying hard because you don't\n"
@@ -294,11 +294,11 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "BRENDAN: Keep those with you if you're\n"
-	.string "planning on going into that desert near\l"
-	.string "COQUIHALLA.\p"
-	.string "There should be some organisms that\n"
-	.string "are exclusively desert-dwellers. You\l"
-	.string "might look around for those.\p"
+	.string "planning on going into the sandy\l"
+	.string "badlands on the COQUIHALLA.\p"
+	.string "There should be some organisms found\n"
+	.string "only in the badlands. You might look\l"
+	.string "around for those.\p"
 	.string "As for me…\n"
 	.string "I'm considering challenging NORMAN,\l"
 	.string "the GYM LEADER of RICHMOND.\p"
@@ -344,10 +344,10 @@ LavaridgeTown_Text_HotSpringsNeverRunDry:
 	.string "We draw as much hot water as we need,\n"
 	.string "and yet the hot springs never run dry.\p"
 	.string "Isn't it magical?\p"
-	.string "These hot springs appear near active\n"
-	.string "volcanoes. Veins of water under the\l"
-	.string "ground are heated by magma to well up\l"
-	.string "as hot springs.$"
+	.string "Rain soaks deep into cracks in the\n"
+	.string "mountains, where the earth's heat warms\l"
+	.string "it. Then it wells back up here as hot\l"
+	.string "springs.$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
 	.string "Being buried in this hot sand is…\n"

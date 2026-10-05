@@ -103,7 +103,7 @@ FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
 	.string "of town will know.$"
 
 FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
-	.string "In the fields of KAMLOOPS, we plant\n"
-	.string "seedlings of hardy trees that thrive\l"
-	.string "even in volcanic ash.$"
+	.string "In the hills around KAMLOOPS, we plant\n"
+	.string "hardy pine seedlings after every\l"
+	.string "wildfire.$"
 

@@ -42,7 +42,7 @@ MeteorFalls_StevensCave_Text_StevenDefeat:
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "DAWSON: Come to think of it, ever\n"
 	.string "since our paths first crossed in\l"
-	.string "GRANITE CAVE in TOFINO, I had this\l"
+	.string "HORNE LAKE CAVES in TOFINO, I had this\l"
 	.string "feeling.\p"
 	.string "I thought that you would eventually\n"
 	.string "become the CHAMPION.\p"

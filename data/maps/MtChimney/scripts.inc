@@ -636,7 +636,8 @@ MtChimney_Text_DouseThemInFire:
 	.string "Douse them in fire!$"
 
 MtChimney_Text_KeepMakingMoreLand:
-	.string "We're going to keep making more land!$"
+	.string "We're going to bring back the great\n"
+	.string "fires!$"
 
 MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
@@ -675,8 +676,8 @@ MtChimney_Text_MagmaOutnumbersUs:
 	.string "We can't keep up with them!$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-	.string "If they expand the land, there'll be\n"
-	.string "less habitats for AQUA organisms!$"
+	.string "If the forests burn, the salmon streams\n"
+	.string "will choke with ash!$"
 
 MtChimney_Text_MagmasNameSimilar:
 	.string "We're TEAM RIPTIDE!\p"
@@ -688,7 +689,7 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are WELLS GRAY CONE's\n"
+	.string "NANAIMO BARS are WELLS GRAY CONE's\n"
 	.string "local specialty.\p"
 	.string "Try one. It's just ¥200.$"
 
@@ -726,7 +727,7 @@ MtChimney_Text_MachineMakesNoResponse:
 	.string "It makes no response whatsoever.$"
 
 MtChimney_Text_RouteSign:
-	.string "{DOWN_ARROW} JAGGED PATH\n"
+	.string "{DOWN_ARROW} CHEAM RIDGE\n"
 	.string "HARRISON AHEAD$"
 
 MtChimney_Text_ShelbyIntro:

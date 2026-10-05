@@ -182,8 +182,8 @@ static const u8 sMaxElixirDesc[] = _(
     "moves.");
 
 static const u8 sLavaCookieDesc[] = _(
-    "A local specialty\n"
-    "that heals all\n"
+    "WELLS GRAY CONE's\n"
+    "treat. Heals all\n"
     "status problems.");
 
 static const u8 sBlueFluteDesc[] = _(
