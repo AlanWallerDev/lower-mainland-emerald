@@ -437,7 +437,7 @@ static const u8 sHeartScaleDesc[] = _(
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A KINGFISHER-print\n"
+    "A RACCOON-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 
@@ -457,7 +457,7 @@ static const u8 sMechMailDesc[] = _(
     "a PARTY.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A HERRING-print\n"
+    "A PINKSALMON-print\n"
     "MAIL to be held by\n"
     "a PARTY.");
 

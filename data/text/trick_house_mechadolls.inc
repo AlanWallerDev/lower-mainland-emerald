@@ -26,13 +26,13 @@ gTrickHouse_Mechadoll_Nincada::
 	.string "NYMPH$"
 
 gTrickHouse_Mechadoll_Ralts::
-	.string "SAR11$"
+	.string "STELLERJAY$"
 
 gTrickHouse_Mechadoll_Zigzagoon::
-	.string "KINGFISHER$"
+	.string "RACCOON$"
 
 gTrickHouse_Mechadoll_Slakoth::
-	.string "HERRING$"
+	.string "PINKSALMON$"
 
 gTrickHouse_Mechadoll_Poochyena2::
 	.string "GHOST PIPE$"

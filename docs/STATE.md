@@ -68,8 +68,9 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   `12_geography.tsv` (S.S. BEAVER wreck, DEEP COVE in a fjord, WHISTLER up the SEA TO SKY).
 
 **Known issues**
-- Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly, e.g. HOPE's
-  founding or the KAMLOOPS ash. Wally's tutorial catch (Ralts slot) is now SAR11, a microbe.
+- Dialogue still tells Hoenn's story with BC names (P4), so some lines read oddly (e.g. HOPE's
+  founding). Pinned for the story: Wally's catch is a STELLER'S JAY (Ralts slot) and NORMAN lends a
+  RACCOON (Zigzagoon slot), in `atlas/picks.json`.
 - Learnsets are type-based, so a few organisms get odd moves (Morel Spore knows Tackle).
 - The title screen still shows Rayquaza. Town zoom maps in the TrailNav are still Hoenn town layouts.
 - Elk, deer and caribou use the goat rig; sea lions and otters the seal rig (stand-ins).

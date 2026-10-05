@@ -2053,7 +2053,7 @@ gTVWhatsNo1InHoennTodayText04::
 	.string "Toward the end, even {STR_VAR_1}\n"
 	.string "seemed to get dizzy.\p"
 	.string "The TRAINER appeared to totter around\n"
-	.string "like a RACCOON!$"
+	.string "like a GOOSE!$"
 
 gTVWhatsNo1InHoennTodayText05::
 	.string "In just one day, {STR_VAR_1} planted\n"

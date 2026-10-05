@@ -1156,7 +1156,7 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "WALLY, here, I'll loan you my partner.\p"
-	.string "WALLY received a KINGFISHER!$"
+	.string "WALLY received a RACCOON!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
 	.string "WALLY: Oh, wow! An organism!\p"

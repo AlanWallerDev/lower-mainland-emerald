@@ -3530,7 +3530,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 220,
     .lvl = 31,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HAZE, MOVE_ICY_WIND, MOVE_AIR_CUTTER, MOVE_WING_ATTACK}
     },
@@ -5229,7 +5229,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     },
     {
     .iv = 100,
@@ -8734,7 +8734,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ashley[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     },
     {
     .iv = 100,
@@ -10910,9 +10910,9 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_ZIGZAGOON,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_NEEDLE_ARM, MOVE_SYNTHESIS, MOVE_SLASH, MOVE_EXTREME_SPEED}
+    .moves = {MOVE_VICE_GRIP, MOVE_HEADBUTT, MOVE_CRUSH_CLAW, MOVE_SHADOW_BALL}
     },
     {
     .iv = 255,
@@ -10948,9 +10948,9 @@ static const struct TrainerMonItemCustomMoves sParty_Norman3[] = {
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_ZIGZAGOON,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_SYNTHESIS, MOVE_SLASH, MOVE_EXTREME_SPEED, MOVE_HYPER_FANG}
+    .moves = {MOVE_HEADBUTT, MOVE_CRUSH_CLAW, MOVE_SHADOW_BALL, MOVE_THRASH}
     },
     {
     .iv = 255,
@@ -10986,9 +10986,9 @@ static const struct TrainerMonItemCustomMoves sParty_Norman4[] = {
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_ZIGZAGOON,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_SLASH, MOVE_EXTREME_SPEED, MOVE_HYPER_FANG, MOVE_TAKE_DOWN}
+    .moves = {MOVE_CRUSH_CLAW, MOVE_SHADOW_BALL, MOVE_THRASH, MOVE_HYPER_VOICE}
     },
     {
     .iv = 255,
@@ -11024,9 +11024,9 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
     {
     .iv = 255,
     .lvl = 57,
-    .species = SPECIES_DODUO,
+    .species = SPECIES_ZIGZAGOON,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_SLASH, MOVE_EXTREME_SPEED, MOVE_HYPER_FANG, MOVE_TAKE_DOWN}
+    .moves = {MOVE_CRUSH_CLAW, MOVE_SHADOW_BALL, MOVE_THRASH, MOVE_HYPER_VOICE}
     },
     {
     .iv = 255,
@@ -11083,7 +11083,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_AIR_CUTTER, MOVE_WING_ATTACK, MOVE_SWIFT, MOVE_DRILL_PECK}
     },
@@ -11128,7 +11128,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WING_ATTACK, MOVE_SWIFT, MOVE_DRILL_PECK, MOVE_BOUNCE}
     },
@@ -11173,7 +11173,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SWIFT, MOVE_DRILL_PECK, MOVE_BOUNCE, MOVE_ICE_BEAM}
     },
@@ -11218,7 +11218,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_DODUO,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SWIFT, MOVE_DRILL_PECK, MOVE_BOUNCE, MOVE_ICE_BEAM}
     },

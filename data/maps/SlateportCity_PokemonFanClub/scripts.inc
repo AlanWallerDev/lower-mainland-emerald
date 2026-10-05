@@ -387,10 +387,10 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
 	.string "it some PROTEIN.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-	.string "PINKSALMON: Fffnyaaaah…$"
+	.string "LOBSTERMSH: Fffnyaaaah…$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-	.string "KINGFISHER: Kyuuu…$"
+	.string "RACCOON: Kyuuu…$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
 	.string "MOON JELLY: Marimari?$"

@@ -213,7 +213,7 @@ const u8 DecorDesc_ROUND_TV[] = _(
 const u8 DecorDesc_CUTE_TV[] = _(
     "A toy TV modeled\n"
         "in the image of a\n"
-        "PINKSALMON.");
+        "LOBSTERMSH.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
     "An odd mat that\n"
@@ -428,7 +428,7 @@ const u8 DecorDesc_DUSKULL_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "A LOBSTERMSH doll.\n"
+    "A BROOM doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -448,12 +448,12 @@ const u8 DecorDesc_AZURILL_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A PINKSALMON doll.\n"
+    "A LOBSTERMSH doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_SWABLU_DOLL[] = _(
-    "A CHICKADEE doll.\n"
+    "A HERRING doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -488,12 +488,12 @@ const u8 DecorDesc_KISS_CUSHION[] = _(
         "a mat or a desk.");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "A KINGFISHER\n"
+    "A RACCOON\n"
         "cushion. Place it on\n"
         "a mat or a desk.");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "A RACCOON cushion.\n"
+    "A GOOSE cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 

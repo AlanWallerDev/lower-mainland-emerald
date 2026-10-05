@@ -159,7 +159,9 @@
 		"REGICE": "fo-005",
 		"REGISTEEL": "fo-009",
 		"JIRACHI": "bc-015",
-		"LUGIA": "bc-018"
+		"LUGIA": "bc-018",
+		"RALTS": "bc-064",
+		"ZIGZAGOON": "na-133"
 	},
 	"regional_must": [
 		"na-149",

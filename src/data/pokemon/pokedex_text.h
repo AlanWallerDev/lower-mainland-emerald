@@ -445,10 +445,10 @@ const u8 gFarfetchdPokedexText[] = _(
     "together for warmth.");
 
 const u8 gDoduoPokedexText[] = _(
-    "It cuts green cones from the treetops\n"
-    "and buries thousands of them in piles\n"
-    "for winter. The cones it forgets can\n"
-    "sprout into new trees.");
+    "On cold nights it lets its body cool\n"
+    "to save energy. It hides thousands of\n"
+    "seeds in autumn and remembers where\n"
+    "they are.");
 
 const u8 gDodrioPokedexText[] = _(
     "It builds the largest nests of any\n"
@@ -1139,9 +1139,10 @@ const u8 gUrsaringPokedexText[] = _(
     "type causes typhoid fever.");
 
 const u8 gSlugmaPokedexText[] = _(
-    "Brought from Europe as a garden plant\n"
-    "in the 1850s, it now crowds out Garry\n"
-    "oak meadows.");
+    "It dives headfirst for fish from a\n"
+    "perch over the water. It nests at the\n"
+    "end of a long tunnel it digs into a\n"
+    "riverbank.");
 
 const u8 gMagcargoPokedexText[] = _(
     "It can hear a mouse squeak from 100\n"
@@ -1379,10 +1380,9 @@ const u8 gMightyenaPokedexText[] = _(
     "remember people who treated it badly.");
 
 const u8 gZigzagoonPokedexText[] = _(
-    "It dives headfirst for fish from a\n"
-    "perch over the water. It nests at the\n"
-    "end of a long tunnel it digs into a\n"
-    "riverbank.");
+    "Its front paws have extremely\n"
+    "sensitive fingertips, and wetting them\n"
+    "may make them even more sensitive.");
 
 const u8 gLinoonePokedexText[] = _(
     "Crows remember the faces of people who\n"
@@ -1390,9 +1390,10 @@ const u8 gLinoonePokedexText[] = _(
     "thousands fly to one roost in Burnaby.");
 
 const u8 gWurmplePokedexText[] = _(
-    "It breathes through its skin and pulls\n"
-    "fallen leaves down into its burrow at\n"
-    "night.");
+    "This tiny bacterium may be the most\n"
+    "abundant living thing on Earth. It\n"
+    "makes up about a quarter of all cells\n"
+    "in the ocean.");
 
 const u8 gSilcoonPokedexText[] = _(
     "It spends up to two years underwater\n"
@@ -1472,10 +1473,9 @@ const u8 gPelipperPokedexText[] = _(
     "heard in many films.");
 
 const u8 gRaltsPokedexText[] = _(
-    "This tiny bacterium may be the most\n"
-    "abundant living thing on Earth. It\n"
-    "makes up about a quarter of all cells\n"
-    "in the ocean.");
+    "BC's provincial bird. It mimics the\n"
+    "scream of a red-tailed hawk to scare\n"
+    "other birds away from food.");
 
 const u8 gKirliaPokedexText[] = _(
     "Some garter snakes can eat\n"
@@ -1484,9 +1484,9 @@ const u8 gKirliaPokedexText[] = _(
     "bodies resist the newt's poison.");
 
 const u8 gGardevoirPokedexText[] = _(
-    "The most common marine mammal in BC.\n"
-    "Its whiskers feel the wakes of fish\n"
-    "swimming by, even in dark water.");
+    "A small, fierce hunter of fish, frogs\n"
+    "and crabs. Like a skunk, it can spray\n"
+    "a strong-smelling musk.");
 
 const u8 gSurskitPokedexText[] = _(
     "It has a harmless horn at the end of\n"
@@ -1509,10 +1509,10 @@ const u8 gBreloomPokedexText[] = _(
     "about 66 metres tall.");
 
 const u8 gSlakothPokedexText[] = _(
-    "Each spring, herring spawn turns whole\n"
-    "BC bays milky white. Their eggs stick\n"
-    "to eelgrass and kelp and feed huge\n"
-    "numbers of birds and whales.");
+    "The most numerous Pacific salmon.\n"
+    "Spawning males grow a big hump on\n"
+    "their backs, and every pink salmon\n"
+    "lives exactly two years.");
 
 const u8 gVigorothPokedexText[] = _(
     "Coyotes have moved into cities across\n"
@@ -1537,10 +1537,9 @@ const u8 gNinjaskPokedexText[] = _(
     "place.");
 
 const u8 gShedinjaPokedexText[] = _(
-    "It can grow 25 cm in a day and reach\n"
-    "the surface in one summer. A\n"
-    "gas-filled bulb holds its blades up in\n"
-    "the sunlight.");
+    "It breathes through its skin and pulls\n"
+    "fallen leaves down into its burrow at\n"
+    "night.");
 
 const u8 gWhismurPokedexText[] = _(
     "It pushes its stomach out into a\n"
@@ -1549,10 +1548,10 @@ const u8 gWhismurPokedexText[] = _(
     "crowd out everything else.");
 
 const u8 gLoudredPokedexText[] = _(
-    "Flocks fly in a V shape and take turns\n"
-    "at the front to save energy. Pairs\n"
-    "usually mate for life and fiercely\n"
-    "defend their goslings.");
+    "It cuts green cones from the treetops\n"
+    "and buries thousands of them in piles\n"
+    "for winter. The cones it forgets can\n"
+    "sprout into new trees.");
 
 const u8 gExploudPokedexText[] = _(
     "It can smell food from miles away and\n"
@@ -1581,10 +1580,10 @@ const u8 gNosepassPokedexText[] = _(
     "eat through the winter.");
 
 const u8 gSkittyPokedexText[] = _(
-    "The most numerous Pacific salmon.\n"
-    "Spawning males grow a big hump on\n"
-    "their backs, and every pink salmon\n"
-    "lives exactly two years.");
+    "Not one mushroom but two: a red mould\n"
+    "takes over another mushroom and\n"
+    "reshapes it. The result looks and\n"
+    "smells a little like cooked lobster.");
 
 const u8 gDelcattyPokedexText[] = _(
     "This pack rat collects shiny objects\n"
@@ -1736,9 +1735,10 @@ const u8 gGrumpigPokedexText[] = _(
     "from a kill.");
 
 const u8 gSpindaPokedexText[] = _(
-    "Its front paws have extremely\n"
-    "sensitive fingertips, and wetting them\n"
-    "may make them even more sensitive.");
+    "Flocks fly in a V shape and take turns\n"
+    "at the front to save energy. Pairs\n"
+    "usually mate for life and fiercely\n"
+    "defend their goslings.");
 
 const u8 gTrapinchPokedexText[] = _(
     "Tall white anemones that can reach a\n"
@@ -1753,9 +1753,10 @@ const u8 gVibravaPokedexText[] = _(
     "its tunnels.");
 
 const u8 gFlygonPokedexText[] = _(
-    "A small, fierce hunter of fish, frogs\n"
-    "and crabs. Like a skunk, it can spray\n"
-    "a strong-smelling musk.");
+    "It can grow 25 cm in a day and reach\n"
+    "the surface in one summer. A\n"
+    "gas-filled bulb holds its blades up in\n"
+    "the sunlight.");
 
 const u8 gCacneaPokedexText[] = _(
     "Its leaves are covered with glistening\n"
@@ -1770,10 +1771,10 @@ const u8 gCacturnePokedexText[] = _(
     "metres, is the tallest tree in Canada.");
 
 const u8 gSwabluPokedexText[] = _(
-    "On cold nights it lets its body cool\n"
-    "to save energy. It hides thousands of\n"
-    "seeds in autumn and remembers where\n"
-    "they are.");
+    "Each spring, herring spawn turns whole\n"
+    "BC bays milky white. Their eggs stick\n"
+    "to eelgrass and kelp and feed huge\n"
+    "numbers of birds and whales.");
 
 const u8 gAltariaPokedexText[] = _(
     "It spread west across Canada in the\n"
@@ -1914,19 +1915,18 @@ const u8 gTropiusPokedexText[] = _(
     "the forest floor.");
 
 const u8 gChimechoPokedexText[] = _(
-    "BC's provincial bird. It mimics the\n"
-    "scream of a red-tailed hawk to scare\n"
-    "other birds away from food.");
+    "It races through the treetops after\n"
+    "squirrels. In winter it hunts voles in\n"
+    "tunnels under the snow.");
 
 const u8 gAbsolPokedexText[] = _(
     "It lives in family packs led by a\n"
     "breeding pair.");
 
 const u8 gWynautPokedexText[] = _(
-    "Not one mushroom but two: a red mould\n"
-    "takes over another mushroom and\n"
-    "reshapes it. The result looks and\n"
-    "smells a little like cooked lobster.");
+    "Brought from Europe as a garden plant\n"
+    "in the 1850s, it now crowds out Garry\n"
+    "oak meadows.");
 
 const u8 gSnoruntPokedexText[] = _(
     "Its coat turns from brown in summer to\n"
@@ -1989,9 +1989,9 @@ const u8 gBagonPokedexText[] = _(
     "like Burns Bog.");
 
 const u8 gShelgonPokedexText[] = _(
-    "It races through the treetops after\n"
-    "squirrels. In winter it hunts voles in\n"
-    "tunnels under the snow.");
+    "The most common marine mammal in BC.\n"
+    "Its whiskers feel the wakes of fish\n"
+    "swimming by, even in dark water.");
 
 const u8 gSalamencePokedexText[] = _(
     "It has the largest brain of any\n"

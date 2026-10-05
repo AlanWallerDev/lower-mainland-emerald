@@ -47,7 +47,7 @@ FallarborTown_Mart_EventScript_Skitty::
 
 FallarborTown_Mart_Text_DecidingSkittyEvolve:
 	.string "I'm having a hard time deciding if I\n"
-	.string "should make my PINKSALMON evolve or\l"
+	.string "should make my LOBSTERMSH evolve or\l"
 	.string "not.\p"
 	.string "I only have to use this MOON STONE,\n"
 	.string "but it's so hard to decide…\p"
@@ -56,7 +56,7 @@ FallarborTown_Mart_Text_DecidingSkittyEvolve:
 	.string "But it will look so different, too.$"
 
 FallarborTown_Mart_Text_Skitty:
-	.string "PINKSALMON: Miyao?$"
+	.string "LOBSTERMSH: Miyao?$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
 	.string "This NUGGET I found here…\n"

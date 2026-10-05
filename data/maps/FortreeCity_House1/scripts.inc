@@ -93,5 +93,5 @@ FortreeCity_House1_Text_TradingMemoriesWithOthers:
 	.string "memories with other people.$"
 
 FortreeCity_House1_Text_Zigzagoon:
-	.string "KINGFISHER: Gumomoh?$"
+	.string "RACCOON: Gumomoh?$"
 

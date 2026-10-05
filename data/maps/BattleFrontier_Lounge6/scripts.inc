@@ -70,5 +70,5 @@ BattleFrontier_Lounge6_Text_WellThatsFineToo:
 	.string "Please come visit us again.$"
 
 BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
-	.string "Giggle! A PINKSALMON is so much cuter\n"
+	.string "Giggle! A LOBSTERMSH is so much cuter\n"
 	.string "than I had imagined. I'm delighted!$"

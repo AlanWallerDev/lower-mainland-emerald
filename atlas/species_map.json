@@ -1406,13 +1406,13 @@
 	{
 		"dex": 84,
 		"slot": "DODUO",
-		"id": "bc-046",
-		"name": "Douglas Squirrel",
+		"id": "bc-079",
+		"name": "Black-capped Chickadee",
 		"types": [
-			"Common",
-			"Verdant"
+			"Sky",
+			"Frost"
 		],
-		"bst": 340,
+		"bst": 370,
 		"slot_types": [
 			"NORMAL",
 			"FLYING"
@@ -3678,13 +3678,13 @@
 	{
 		"dex": 218,
 		"slot": "SLUGMA",
-		"id": "bc-148",
-		"name": "Scotch Broom",
+		"id": "bc-085",
+		"name": "Belted Kingfisher",
 		"types": [
-			"Verdant",
-			"Toxin"
+			"Aqua",
+			"Sky"
 		],
-		"bst": 400,
+		"bst": 405,
 		"slot_types": [
 			"FIRE",
 			"FIRE"
@@ -4438,13 +4438,13 @@
 	{
 		"dex": 263,
 		"slot": "ZIGZAGOON",
-		"id": "bc-085",
-		"name": "Belted Kingfisher",
+		"id": "na-133",
+		"name": "Common Raccoon",
 		"types": [
-			"Aqua",
-			"Sky"
+			"Common",
+			"Night"
 		],
-		"bst": 405,
+		"bst": 360,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -4472,13 +4472,13 @@
 	{
 		"dex": 265,
 		"slot": "WURMPLE",
-		"id": "eu-074",
-		"name": "Common Earthworm",
+		"id": "mi-033",
+		"name": "SAR11",
 		"types": [
-			"Soil",
+			"Aqua",
 			"Common"
 		],
-		"bst": 220,
+		"bst": 200,
 		"slot_types": [
 			"BUG",
 			"BUG"
@@ -4724,13 +4724,13 @@
 	{
 		"dex": 280,
 		"slot": "RALTS",
-		"id": "mi-033",
-		"name": "SAR11",
+		"id": "bc-064",
+		"name": "Steller's Jay",
 		"types": [
-			"Aqua",
-			"Common"
+			"Sky",
+			"Mind"
 		],
-		"bst": 200,
+		"bst": 420,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -4758,13 +4758,13 @@
 	{
 		"dex": 282,
 		"slot": "GARDEVOIR",
-		"id": "bc-061",
-		"name": "Harbour Seal",
+		"id": "bc-050",
+		"name": "American Mink",
 		"types": [
 			"Aqua",
-			"Common"
+			"Night"
 		],
-		"bst": 415,
+		"bst": 410,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -4842,13 +4842,13 @@
 	{
 		"dex": 287,
 		"slot": "SLAKOTH",
-		"id": "bc-101",
-		"name": "Pacific Herring",
+		"id": "bc-097",
+		"name": "Pink Salmon",
 		"types": [
 			"Aqua",
 			"Common"
 		],
-		"bst": 370,
+		"bst": 410,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -4927,13 +4927,13 @@
 	{
 		"dex": 292,
 		"slot": "SHEDINJA",
-		"id": "bc-118",
-		"name": "Bull Kelp",
+		"id": "eu-074",
+		"name": "Common Earthworm",
 		"types": [
-			"Aqua",
-			"Verdant"
+			"Soil",
+			"Common"
 		],
-		"bst": 410,
+		"bst": 220,
 		"slot_types": [
 			"BUG",
 			"GHOST"
@@ -4961,13 +4961,13 @@
 	{
 		"dex": 294,
 		"slot": "LOUDRED",
-		"id": "na-127",
-		"name": "Canada Goose",
+		"id": "bc-046",
+		"name": "Douglas Squirrel",
 		"types": [
 			"Common",
-			"Sky"
+			"Verdant"
 		],
-		"bst": 370,
+		"bst": 340,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -5062,13 +5062,13 @@
 	{
 		"dex": 300,
 		"slot": "SKITTY",
-		"id": "bc-097",
-		"name": "Pink Salmon",
+		"id": "bc-143",
+		"name": "Lobster Mushroom",
 		"types": [
-			"Aqua",
-			"Common"
+			"Night",
+			"Verdant"
 		],
-		"bst": 410,
+		"bst": 390,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -5521,13 +5521,13 @@
 	{
 		"dex": 327,
 		"slot": "SPINDA",
-		"id": "na-133",
-		"name": "Common Raccoon",
+		"id": "na-127",
+		"name": "Canada Goose",
 		"types": [
 			"Common",
-			"Night"
+			"Sky"
 		],
-		"bst": 360,
+		"bst": 370,
 		"slot_types": [
 			"NORMAL",
 			"NORMAL"
@@ -5571,11 +5571,11 @@
 	{
 		"dex": 330,
 		"slot": "FLYGON",
-		"id": "bc-050",
-		"name": "American Mink",
+		"id": "bc-118",
+		"name": "Bull Kelp",
 		"types": [
 			"Aqua",
-			"Night"
+			"Verdant"
 		],
 		"bst": 410,
 		"slot_types": [
@@ -5622,11 +5622,11 @@
 	{
 		"dex": 333,
 		"slot": "SWABLU",
-		"id": "bc-079",
-		"name": "Black-capped Chickadee",
+		"id": "bc-101",
+		"name": "Pacific Herring",
 		"types": [
-			"Sky",
-			"Frost"
+			"Aqua",
+			"Common"
 		],
 		"bst": 370,
 		"slot_types": [
@@ -6044,13 +6044,13 @@
 	{
 		"dex": 358,
 		"slot": "CHIMECHO",
-		"id": "bc-064",
-		"name": "Steller's Jay",
+		"id": "bc-051",
+		"name": "Pacific Marten",
 		"types": [
-			"Sky",
-			"Mind"
+			"Night",
+			"Brawn"
 		],
-		"bst": 420,
+		"bst": 425,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -6077,13 +6077,13 @@
 	{
 		"dex": 360,
 		"slot": "WYNAUT",
-		"id": "bc-143",
-		"name": "Lobster Mushroom",
+		"id": "bc-148",
+		"name": "Scotch Broom",
 		"types": [
-			"Night",
-			"Verdant"
+			"Verdant",
+			"Toxin"
 		],
-		"bst": 390,
+		"bst": 400,
 		"slot_types": [
 			"PSYCHIC",
 			"PSYCHIC"
@@ -6281,13 +6281,13 @@
 	{
 		"dex": 372,
 		"slot": "SHELGON",
-		"id": "bc-051",
-		"name": "Pacific Marten",
+		"id": "bc-061",
+		"name": "Harbour Seal",
 		"types": [
-			"Night",
-			"Brawn"
+			"Aqua",
+			"Common"
 		],
-		"bst": 425,
+		"bst": 415,
 		"slot_types": [
 			"DRAGON",
 			"DRAGON"

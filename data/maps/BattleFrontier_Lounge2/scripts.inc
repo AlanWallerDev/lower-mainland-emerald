@@ -252,7 +252,7 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "she supposedly uses these organisms:\p"
 	.string "COUGAR (CHITIN & BRAWN),\n"
 	.string "MYXOBACTER (CHITIN & NIGHT), and\l"
-	.string "BULLKELP (CHITIN & NIGHT).$"
+	.string "EARTHWORM (CHITIN & NIGHT).$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Have you battled the ARENA TYCOON\n"

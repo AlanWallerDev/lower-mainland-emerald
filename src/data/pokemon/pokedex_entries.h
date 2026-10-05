@@ -1010,9 +1010,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_DODUO] =
     {
-        .categoryName = _("CONE HOARDE"),
-        .height = 2,
-        .weight = 3,
+        .categoryName = _("WINTER SPRI"),
+        .height = 1,
+        .weight = 1,
         .description = gDoduoPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
@@ -2618,9 +2618,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SLUGMA] =
     {
-        .categoryName = _("POPPING POD"),
-        .height = 20,
-        .weight = 45,
+        .categoryName = _("RATTLE DIVE"),
+        .height = 3,
+        .weight = 2,
         .description = gSlugmaPokedexText,
         .pokemonScale = 329,
         .pokemonOffset = 15,
@@ -3158,9 +3158,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ZIGZAGOON] =
     {
-        .categoryName = _("RATTLE DIVE"),
+        .categoryName = _("MASKED"),
         .height = 3,
-        .weight = 2,
+        .weight = 91,
         .description = gZigzagoonPokedexText,
         .pokemonScale = 560,
         .pokemonOffset = 22,
@@ -3182,8 +3182,8 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_WURMPLE] =
     {
-        .categoryName = _("NIGHTCRAWLE"),
-        .height = 2,
+        .categoryName = _("OCEAN MAJOR"),
+        .height = 1,
         .weight = 1,
         .description = gWurmplePokedexText,
         .pokemonScale = 711,
@@ -3362,8 +3362,8 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_RALTS] =
     {
-        .categoryName = _("OCEAN MAJOR"),
-        .height = 1,
+        .categoryName = _("MIMIC JAY"),
+        .height = 3,
         .weight = 1,
         .description = gRaltsPokedexText,
         .pokemonScale = 457,
@@ -3386,9 +3386,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GARDEVOIR] =
     {
-        .categoryName = _("HARBOUR SEA"),
-        .height = 15,
-        .weight = 998,
+        .categoryName = _("SHORE HUNTE"),
+        .height = 5,
+        .weight = 14,
         .description = gGardevoirPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
@@ -3446,9 +3446,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SLAKOTH] =
     {
-        .categoryName = _("SPAWN FISH"),
-        .height = 3,
-        .weight = 2,
+        .categoryName = _("HUMPBACK"),
+        .height = 5,
+        .weight = 18,
         .description = gSlakothPokedexText,
         .pokemonScale = 291,
         .pokemonOffset = 16,
@@ -3506,9 +3506,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SHEDINJA] =
     {
-        .categoryName = _("KELP FOREST"),
-        .height = 356,
-        .weight = 907,
+        .categoryName = _("NIGHTCRAWLE"),
+        .height = 2,
+        .weight = 1,
         .description = gShedinjaPokedexText,
         .pokemonScale = 372,
         .pokemonOffset = -8,
@@ -3530,9 +3530,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LOUDRED] =
     {
-        .categoryName = _("HONKER"),
-        .height = 10,
-        .weight = 45,
+        .categoryName = _("CONE HOARDE"),
+        .height = 2,
+        .weight = 3,
         .description = gLoudredPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 10,
@@ -3602,9 +3602,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SKITTY] =
     {
-        .categoryName = _("HUMPBACK"),
-        .height = 5,
-        .weight = 18,
+        .categoryName = _("BODY SNATCH"),
+        .height = 1,
+        .weight = 2,
         .description = gSkittyPokedexText,
         .pokemonScale = 492,
         .pokemonOffset = 19,
@@ -3926,9 +3926,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SPINDA] =
     {
-        .categoryName = _("MASKED"),
-        .height = 3,
-        .weight = 91,
+        .categoryName = _("HONKER"),
+        .height = 10,
+        .weight = 45,
         .description = gSpindaPokedexText,
         .pokemonScale = 321,
         .pokemonOffset = 4,
@@ -3962,9 +3962,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_FLYGON] =
     {
-        .categoryName = _("SHORE HUNTE"),
-        .height = 5,
-        .weight = 14,
+        .categoryName = _("KELP FOREST"),
+        .height = 356,
+        .weight = 907,
         .description = gFlygonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
@@ -3998,9 +3998,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SWABLU] =
     {
-        .categoryName = _("WINTER SPRI"),
-        .height = 1,
-        .weight = 1,
+        .categoryName = _("SPAWN FISH"),
+        .height = 3,
+        .weight = 2,
         .description = gSwabluPokedexText,
         .pokemonScale = 422,
         .pokemonOffset = -8,
@@ -4298,9 +4298,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CHIMECHO] =
     {
-        .categoryName = _("MIMIC JAY"),
-        .height = 3,
-        .weight = 1,
+        .categoryName = _("TREETOP HUN"),
+        .height = 6,
+        .weight = 14,
         .description = gChimechoPokedexText,
         .pokemonScale = 505,
         .pokemonOffset = 0,
@@ -4322,9 +4322,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_WYNAUT] =
     {
-        .categoryName = _("BODY SNATCH"),
-        .height = 1,
-        .weight = 2,
+        .categoryName = _("POPPING POD"),
+        .height = 20,
+        .weight = 45,
         .description = gWynautPokedexText,
         .pokemonScale = 484,
         .pokemonOffset = 19,
@@ -4466,9 +4466,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SHELGON] =
     {
-        .categoryName = _("TREETOP HUN"),
-        .height = 6,
-        .weight = 14,
+        .categoryName = _("HARBOUR SEA"),
+        .height = 15,
+        .weight = 998,
         .description = gShelgonPokedexText,
         .pokemonScale = 311,
         .pokemonOffset = 12,

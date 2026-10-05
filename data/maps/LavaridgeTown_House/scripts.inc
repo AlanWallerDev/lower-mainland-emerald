@@ -22,5 +22,5 @@ LavaridgeTown_House_Text_WifeWarmingEggInHotSprings:
 	.string "CARE. And they discovered that EGG!$"
 
 LavaridgeTown_House_Text_Zigzagoon:
-	.string "KINGFISHER: Pshoo!$"
+	.string "RACCOON: Pshoo!$"
 
