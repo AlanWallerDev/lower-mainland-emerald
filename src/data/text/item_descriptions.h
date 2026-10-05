@@ -29,8 +29,8 @@ static const u8 sSafariBallDesc[] = _(
 
 static const u8 sNetBallDesc[] = _(
     "A JAR that works\n"
-    "well on WATER- and\n"
-    "CHITIN-type organisms.");
+    "well on AQUA- and\n"
+    "CHITIN types.");
 
 static const u8 sDiveBallDesc[] = _(
     "A JAR that works\n"
@@ -776,7 +776,7 @@ static const u8 sCleanseTagDesc[] = _(
 static const u8 sSoulDewDesc[] = _(
     "Hold item: raises\n"
     "SP. ATK & SP. DEF of\n"
-    "SPOTTEDOWL & MARMOT.");
+    "SPOTTEDOWL, MARMOT.");
 
 static const u8 sDeepSeaToothDesc[] = _(
     "A hold item that\n"
@@ -825,7 +825,7 @@ static const u8 sLeftoversDesc[] = _(
 
 static const u8 sDragonScaleDesc[] = _(
     "A strange scale\n"
-    "held by DRAGON-\n"
+    "shed by SKY-\n"
     "type organisms.");
 
 static const u8 sLightBallDesc[] = _(
@@ -855,12 +855,12 @@ static const u8 sBlackGlassesDesc[] = _(
 
 static const u8 sBlackBeltDesc[] = _(
     "A hold item that\n"
-    "boosts FIGHTING-\n"
+    "boosts BRAWN-\n"
     "type moves.");
 
 static const u8 sMagnetDesc[] = _(
     "A hold item that\n"
-    "boosts ELECTRIC-\n"
+    "boosts CHARM-\n"
     "type moves.");
 
 static const u8 sMysticWaterDesc[] = _(
@@ -890,7 +890,7 @@ static const u8 sSpellTagDesc[] = _(
 
 static const u8 sTwistedSpoonDesc[] = _(
     "A hold item that\n"
-    "boosts PSYCHIC-\n"
+    "boosts MIND-\n"
     "type moves.");
 
 static const u8 sCharcoalDesc[] = _(
@@ -938,9 +938,9 @@ static const u8 sMetalPowderDesc[] = _(
     "DEFENSE.");
 
 static const u8 sThickClubDesc[] = _(
-    "A hold item that \n"
-    "raises STREPTOMYC or\n"
-    "ROADRUNNER's ATTACK.");
+    "Raises the ATTACK\n"
+    "of STREPTOMYC and\n"
+    "ROADRUNNER.");
 
 static const u8 sStickDesc[] = _(
     "A hold item that\n"
@@ -1517,12 +1517,12 @@ static const u8 sTeaDesc[] = _(
 static const u8 sMysticTicketDesc[] = _(
     "A ticket required\n"
     "to board the ship\n"
-    "to NAVEL ROCK.");
+    "to CADBORO ROCK.");
 
 static const u8 sAuroraTicketDesc[] = _(
     "A ticket required\n"
-    "to board the ship\n"
-    "to BIRTH ISLAND.");
+    "for the ship to\n"
+    "RATTLESNAKE ISLE.");
 
 static const u8 sPowderJarDesc[] = _(
     "Stores BERRY\n"

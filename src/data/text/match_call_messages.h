@@ -214,7 +214,7 @@ const u8 gText_MatchCallTriathlete_Pablo_Intro1[] = _("Training organisms is goo
 const u8 gText_MatchCallTriathlete_Pablo_Intro2[] = _("but don't neglect yourself.");
 
 const u8 gText_MatchCallDragonTamer_Nicolas_Strategy[] = _("It's about organism power!");
-const u8 gText_MatchCallDragonTamer_Nicolas_Pokemon[] = _("See the power of DRAGONS!");
+const u8 gText_MatchCallDragonTamer_Nicolas_Pokemon[] = _("See the power of my birds!");
 const u8 gText_MatchCallDragonTamer_Nicolas_Intro1[] = _("I'll become legendary as the");
 const u8 gText_MatchCallDragonTamer_Nicolas_Intro2[] = _("strongest one day!");
 
@@ -379,7 +379,7 @@ const u8 gText_MatchCallEliteFour_Glacia_Intro1[] = _("The FROST type can be bet
 const u8 gText_MatchCallEliteFour_Glacia_Intro2[] = _("trained in this hot land.");
 
 const u8 gText_MatchCallEliteFour_Drake_Strategy[] = _("Harness strong abilities.");
-const u8 gText_MatchCallEliteFour_Drake_Pokemon[] = _("The raw power of DRAGONS!");
+const u8 gText_MatchCallEliteFour_Drake_Pokemon[] = _("The raw power of the SKY!");
 const u8 gText_MatchCallEliteFour_Drake_Intro1[] = _("I dedicate myself to the");
 const u8 gText_MatchCallEliteFour_Drake_Intro2[] = _("Organisms that saved me.");
 

@@ -104,8 +104,7 @@ VerdanturfTown_Text_EasyToGetToRustboroNow:
 
 VerdanturfTown_Text_TownSign:
 	.string "YALE\p"
-	.string "“The windswept highlands with the\n"
-	.string "sweet fragrance of grass.”$"
+	.string "“Gold rush town in the FRASER CANYON.”$"
 
 VerdanturfTown_Text_WandasHouse:
 	.string "WANDA'S HOUSE$"

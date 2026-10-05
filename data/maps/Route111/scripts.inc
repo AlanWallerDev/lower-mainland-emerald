@@ -644,17 +644,17 @@ Route111_Text_TrainerTipsSpAtkSpDef:
 	.string "DEFENSE.”$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "There should be a tower made of sand\n"
-	.string "around here somewhere.\p"
+	.string "There should be a tall sandstone\n"
+	.string "hoodoo around here somewhere.\p"
 	.string "But for some reason, it can be seen\n"
 	.string "sometimes, and sometimes not.\p"
-	.string "That's why I call it the MIRAGE TOWER.$"
+	.string "That's why I call it the HOODOO SPIRE.$"
 
 Route111_Text_MirageTowerClearlyVisible:
 	.string "I see it!\n"
-	.string "The tower of sand!\p"
-	.string "The sand tower they called a mirage\n"
-	.string "is clearly visible!\p"
+	.string "The sandstone hoodoo!\p"
+	.string "The hoodoo they called a mirage is\n"
+	.string "clearly visible!\p"
 	.string "But it looks so fragile…\n"
 	.string "It could crumble away anytime…\p"
 	.string "I want to go inside it, but I can't\n"
@@ -669,10 +669,9 @@ Route111_Text_ThatWasShockingSandRainedDown:
 	.string "Were there sandy ghosts and such?$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-	.string "Since I spoke to you, the tower of sand\n"
-	.string "hasn't been seen.\p"
-	.string "Perhaps it really was\n"
-	.string "the MIRAGE TOWER…$"
+	.string "Since I spoke to you, the sandstone\n"
+	.string "hoodoo hasn't been seen.\p"
+	.string "Perhaps it really was a mirage…$"
 
 Route111_Text_ClawFossilDisappeared:
 	.string "The CLAW FOSSIL disappeared into\n"

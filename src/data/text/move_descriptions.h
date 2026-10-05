@@ -694,8 +694,8 @@ static const u8 sSnoreDescription[] = _(
     "used only while asleep.");
 
 static const u8 sCurseDescription[] = _(
-    "A move that functions\n"
-    "differently for GHOSTS.");
+    "Lowers SPEED, but\n"
+    "raises ATTACK & DEFENSE.");
 
 static const u8 sFlailDescription[] = _(
     "Inflicts more damage when\n"
@@ -958,11 +958,11 @@ static const u8 sTwisterDescription[] = _(
     "to tear at the foe.");
 
 static const u8 sRainDanceDescription[] = _(
-    "Boosts the power of WATER-\n"
+    "Boosts the power of AQUA-\n"
     "type moves for 5 turns.");
 
 static const u8 sSunnyDayDescription[] = _(
-    "Boosts the power of FIRE-\n"
+    "Boosts the power of EMBER-\n"
     "type moves for 5 turns.");
 
 static const u8 sCrunchDescription[] = _(

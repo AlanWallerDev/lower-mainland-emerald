@@ -2368,8 +2368,8 @@ MatchCall_Text_May5::
 
 MatchCall_Text_May6::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "Did you know about the MIRAGE\n"
-	.string "TOWER in the desert?\p"
+	.string "Did you know about the HOODOO SPIRE in\n"
+	.string "the desert?\p"
 	.string "They say, like a mirage, it seems\n"
 	.string "to mysteriously come and go.\p"
 	.string "I wish I could see it.$"
@@ -2493,8 +2493,8 @@ MatchCall_Text_Brendan5::
 
 MatchCall_Text_Brendan6::
 	.string "BRENDAN: Hey, {PLAYER}!\p"
-	.string "Did you know about the MIRAGE\n"
-	.string "TOWER in the desert?\p"
+	.string "Did you know about the HOODOO SPIRE in\n"
+	.string "the desert?\p"
 	.string "They say, like a mirage, it can be\n"
 	.string "seen only sometimes.\p"
 	.string "I'd like to see that!$"

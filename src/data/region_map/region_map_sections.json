@@ -659,7 +659,7 @@
     },
     {
       "id": "MAPSEC_DESERT_RUINS",
-      "name": "DESERT RUINS",
+      "name": "HOODOO RUINS",
       "x": 15,
       "y": 9,
       "width": 1,
@@ -667,7 +667,7 @@
     },
     {
       "id": "MAPSEC_ANCIENT_TOMB",
-      "name": "ANCIENT TOMB",
+      "name": "GLACIER VAULT",
       "x": 17,
       "y": 9,
       "width": 1,
@@ -887,7 +887,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POKéMON MANSION"
+      "name": "OLD MANSION"
     },
     {
       "id": "MAPSEC_KANTO_SAFARI_ZONE",
@@ -896,7 +896,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE"
+      "name": "NATURE LEAGUE"
     },
     {
       "id": "MAPSEC_ROCK_TUNNEL",
@@ -908,7 +908,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER"
+      "name": "MEMORIAL TOWER"
     },
     {
       "id": "MAPSEC_CERULEAN_CAVE",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": "MAPSEC_NAVEL_ROCK_FRLG",
-      "name": "NAVEL ROCK"
+      "name": "CADBORO ROCK"
     },
     {
       "id": "MAPSEC_MT_EMBER",
@@ -1097,7 +1097,7 @@
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND_FRLG",
-      "name": "BIRTH ISLAND"
+      "name": "RATTLESNAKE ISLE"
     },
     {
       "id": "MAPSEC_MONEAN_CHAMBER",
@@ -1153,7 +1153,7 @@
     },
     {
       "id": "MAPSEC_MIRAGE_TOWER",
-      "name": "MIRAGE TOWER",
+      "name": "HOODOO SPIRE",
       "x": 15,
       "y": 9,
       "width": 1,
@@ -1161,7 +1161,7 @@
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND",
-      "name": "BIRTH ISLAND"
+      "name": "RATTLESNAKE ISLE"
     },
     {
       "id": "MAPSEC_FARAWAY_ISLAND",
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "MAPSEC_DESERT_UNDERPASS",
-      "name": "DESERT UNDERPASS",
+      "name": "HOODOO UNDERPASS",
       "x": 15,
       "y": 9,
       "width": 1,
@@ -1229,7 +1229,7 @@
     },
     {
       "id": "MAPSEC_NAVEL_ROCK",
-      "name": "NAVEL ROCK"
+      "name": "CADBORO ROCK"
     },
     {
       "id": "MAPSEC_TRAINER_HILL",

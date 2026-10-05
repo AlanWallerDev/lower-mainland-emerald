@@ -1,0 +1,21 @@
+# Type words the type table missed (hyphenated at a C line end), Dragon and Ghost mentions (no such
+# types here), and item descriptions rewrapped to the 109px bag box. Labels scope rows to one C variable.
+well on WATER- and	well on AQUA- and	sNetBallDesc
+CHITIN-type organisms.	CHITIN types.	sNetBallDesc
+held by DRAGON-	shed by SKY-	sDragonScaleDesc
+boosts FIGHTING-	boosts BRAWN-
+boosts ELECTRIC-	boosts CHARM-
+boosts PSYCHIC-	boosts MIND-
+Boosts the power of WATER-	Boosts the power of AQUA-
+Boosts the power of FIRE-	Boosts the power of EMBER-
+A move that functions	Lowers SPEED, but	sCurseDescription
+differently for GHOSTS.	raises ATTACK & DEFENSE.	sCurseDescription
+SPOTTEDOWL & MARMOT.	SPOTTEDOWL, MARMOT.	sSoulDewDesc
+A hold item that 	Raises the ATTACK	sThickClubDesc
+raises STREPTOMYC or	of STREPTOMYC and	sThickClubDesc
+ROADRUNNER's ATTACK.	ROADRUNNER.	sThickClubDesc
+to board the ship	for the ship to	sAuroraTicketDesc
+to RATTLESNAKE ISLE.	RATTLESNAKE ISLE.	sAuroraTicketDesc
+See the power of DRAGONS!	See the power of my birds!
+The raw power of DRAGONS!	The raw power of the SKY!
+Perhaps it really was the HOODOO SPIRE…	Perhaps it really was a mirage…	Route111_Text_MirageTowerHasntBeenSeenSince

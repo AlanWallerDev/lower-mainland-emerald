@@ -38,5 +38,14 @@ for (const f of files) {
 		}
 	}
 }
-console.log(`check_text: ${hits} lines wider than ${T.BOX_WIDTH}px`);
+// Item descriptions: the bag's description window leaves 109px per line.
+const ITEM_WIDTH = 109;
+for (const line of C.read('src/data/text/item_descriptions.h').split('\n')) {
+	const m = line.match(/^\s+"(.*?)(?:\\n)?"\)?;?$/);
+	if (m && !m[1].includes('{') && T.measure(m[1]) > ITEM_WIDTH) {
+		hits++;
+		console.log(`item description: ${T.measure(m[1])}px "${m[1]}"`);
+	}
+}
+console.log(`check_text: ${hits} lines too wide (message box ${T.BOX_WIDTH}px, item descriptions ${ITEM_WIDTH}px)`);
 process.exitCode = hits ? 1 : 0;

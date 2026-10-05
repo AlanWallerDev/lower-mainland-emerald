@@ -90,14 +90,19 @@ function replaceScriptFile(src, rows, words) {
 	return { src: lines.join('\n'), changed };
 }
 
+/** C sources and JSON: strings are replaced in place. A row's label scopes it to one C variable (`const u8 NAME[]`). */
 function replaceLiteralFile(src, rows, words) {
 	let changed = 0;
-	const out = src.replace(/"((?:[^"\\\n]|\\.)*)"/g, (whole, s) => {
-		let t = s;
-		for (const { from, to, scope } of rows) if (!scope) t = t.replace(matcher(from, words, false), to);
-		if (t !== s) changed++;
-		return '"' + t + '"';
-	});
+	// Split before each declaration so every chunk knows the variable its strings belong to.
+	const out = src.split(/(?=^(?:static )?const u8 \w+\[)/m).map((chunk) => {
+		const label = (chunk.match(/^(?:static )?const u8 (\w+)\[/) || [])[1];
+		return chunk.replace(/"((?:[^"\\\n]|\\.)*)"/g, (whole, s) => {
+			let t = s;
+			for (const { from, to, scope } of rows) if (!scope || scope === label) t = t.replace(matcher(from, words, false), to);
+			if (t !== s) changed++;
+			return '"' + t + '"';
+		});
+	}).join('');
 	return { src: out, changed };
 }
 

@@ -21,7 +21,12 @@
 		"19_agreement.tsv",
 		"20_tofino.tsv",
 		"21_victoria.tsv",
-		"22_cries.tsv"
+		"22_cries.tsv",
+		"23_places.tsv",
+		"24_hope_yale.tsv",
+		"25_types_desc.tsv",
+		"26_falconer.tsv",
+		"27_contest.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",
@@ -56,6 +61,12 @@
 		"places.JAGGED PASS": "CHEAM RIDGE",
 		"places.FIERY PATH": "SULPHUR PASS",
 		"places.ABANDONED SHIP": "SS BEAVER WRECK",
+		"places.MIRAGE TOWER": "HOODOO SPIRE",
+		"places.DESERT RUINS": "HOODOO RUINS",
+		"places.DESERT UNDERPASS": "HOODOO UNDERPASS",
+		"places.ANCIENT TOMB": "GLACIER VAULT",
+		"places.NAVEL ROCK": "CADBORO ROCK",
+		"places.BIRTH ISLAND": "RATTLESNAKE ISLE",
 		"routes.101": "RIVER ROAD",
 		"routes.102": "DYKE TRAIL",
 		"routes.103": "BOUNDARY BAY",
