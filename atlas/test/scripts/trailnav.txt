@@ -1,0 +1,235 @@
+# New game to the bedroom, then give the TrailNav (FLAG_SYS_POKENAV_GET) and open its BC map.
+# Run: atlas/test/run.sh atlas/test/scripts/trailnav.txt
+wait 400
+press START
+wait 600
+press START
+wait 400
+press DOWN
+wait 20
+press A
+wait 300
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press DOWN
+press RIGHT
+press RIGHT
+wait 30
+press B
+wait 300
+press UP
+wait 20
+press A
+wait 400
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+press A
+wait 30
+wait 300
+repeat A 10
+wait 200
+press B
+wait 30
+hold RIGHT 12
+wait 10
+hold RIGHT 12
+wait 120
+repeat A 12
+wait 60
+repeat A 12
+wait 120
+repeat B 6
+hold UP 8
+hold RIGHT 8
+hold UP 16
+wait 30
+hold LEFT 6
+wait 10
+hold LEFT 4
+wait 10
+hold UP 8
+wait 150
+repeat A 6
+wait 60
+hold LEFT 4
+wait 8
+hold LEFT 4
+wait 8
+press UP
+wait 10
+press A
+wait 60
+repeat A 3
+wait 120
+press A
+wait 60
+press UP
+wait 10
+press A
+wait 150
+repeat A 8
+wait 100
+repeat B 8
+wait 200
+hold RIGHT 4
+wait 8
+hold RIGHT 4
+wait 8
+hold UP 8
+wait 150
+repeat B 20
+wait 100
+repeat B 20
+repeat B 10
+wait 60
+hold RIGHT 16
+wait 10
+hold DOWN 20
+wait 150
+repeat B 10
+wait 60
+hold DOWN 4
+wait 6
+hold RIGHT 40
+wait 10
+hold LEFT 4
+wait 8
+hold UP 12
+wait 150
+repeat B 15
+wait 100
+hold UP 16
+wait 20
+hold UP 12
+wait 150
+repeat B 25
+wait 100
+repeat B 25
+wait 100
+hold DOWN 4
+wait 60
+setflag @gSaveBlock1Ptr 2146
+press START
+wait 30
+press DOWN
+wait 10
+press A
+wait 120
+shot $OUT/nav_menu.ppm
+press A
+wait 120
+shot $OUT/nav_map.ppm
+press A
+wait 60
+shot $OUT/nav_zoom.ppm

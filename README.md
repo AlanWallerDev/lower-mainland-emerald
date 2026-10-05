@@ -48,12 +48,14 @@ idempotent and works on the committed tree. The picker and the title step need t
 | `apply_types.py` | Type names, chart, retyped moves, type icons. |
 | `make_sprites.py`, `sprites/` | Stand-in art: `sprites/engine.py` renderer, `rigs_*.py` body rigs, `specs_*.py` one entry per organism (rig, colours, markings). Preview: `python3 -m atlas.sprites.preview out.png all`. |
 | `make_title.py` | Title logo: original wordmark plus a "BC" banner. |
+| `region_map.json`, `make_region_map.py` | The BC region map (TrailNav and Fly): terrain grid, section cells and landmark positions, drawn into the map tiles, tilemap, section grid and section positions. |
+| `make_trailnav.py` | TRAILNAV header and BC MAP button in the device graphics. |
 | `make_headers.py` | Repaints baked-in menu text: "BC MAP" TrailNav header, "JOURNAL" search-screen wordmark. |
 | `theme_trainers.js` | Every trainer uses BC organisms; gym leaders, gym trainers, Elite Four and Champion get organisms of their gym's type. |
 | `apply_wild.js`, `habitats.json` | Wild encounters by habitat. Each area keeps upstream's levels and rarity pattern. |
 | `rename_text.js`, `locations.json`, `characters.json`, `text/` | Keeps game text in step: edit a name in `locations.json` or `characters.json`, or add a table to `text/`, and it is applied once everywhere (`text/applied.json` records what is applied). Phrases match across line breaks; overflowing lines are re-wrapped. |
 | `lib/text.js`, `lib/replace.js`, `lib/common.js` | Font widths and wrapping, find-and-replace across game text, shared data helpers. |
-| `test/harness.c`, `test/run.sh`, `test/scripts/` | Headless mGBA runner with scripted input and screenshots. |
+| `test/harness.c`, `test/run.sh`, `test/scripts/` | Headless mGBA runner with scripted input and screenshots (`setflag @gSaveBlock1Ptr FLAG` sets a save flag; `trailnav.txt` opens the BC map). |
 
 The original one-time passes that converted upstream text (terminology, character names, region
 name, type names) are not kept as scripts: they would corrupt the converted text if rerun. The

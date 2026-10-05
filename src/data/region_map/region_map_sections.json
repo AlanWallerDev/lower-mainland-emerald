@@ -3,16 +3,16 @@
     {
       "id": "MAPSEC_LITTLEROOT_TOWN",
       "name": "LADNER",
-      "x": 4,
-      "y": 11,
+      "x": 10,
+      "y": 14,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_OLDALE_TOWN",
       "name": "TSAWWASSEN",
-      "x": 4,
-      "y": 9,
+      "x": 8,
+      "y": 14,
       "width": 1,
       "height": 1
     },
@@ -20,150 +20,150 @@
       "id": "MAPSEC_DEWFORD_TOWN",
       "name": "TOFINO",
       "x": 2,
-      "y": 14,
+      "y": 11,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_LAVARIDGE_TOWN",
       "name": "HARRISON",
-      "x": 5,
-      "y": 3,
+      "x": 11,
+      "y": 10,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_FALLARBOR_TOWN",
       "name": "KAMLOOPS",
-      "x": 3,
-      "y": 0,
+      "x": 15,
+      "y": 5,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_VERDANTURF_TOWN",
       "name": "YALE",
-      "x": 4,
-      "y": 6,
+      "x": 12,
+      "y": 10,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_PACIFIDLOG_TOWN",
       "name": "ECHO BAY",
-      "x": 17,
-      "y": 10,
+      "x": 4,
+      "y": 8,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_PETALBURG_CITY",
       "name": "RICHMOND",
-      "x": 1,
-      "y": 9,
+      "x": 8,
+      "y": 12,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_SLATEPORT_CITY",
       "name": "VICTORIA",
-      "x": 8,
-      "y": 10,
+      "x": 5,
+      "y": 13,
       "width": 1,
       "height": 2
     },
     {
       "id": "MAPSEC_MAUVILLE_CITY",
       "name": "HOPE",
-      "x": 8,
-      "y": 6,
+      "x": 13,
+      "y": 12,
       "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_RUSTBORO_CITY",
       "name": "SQUAMISH",
-      "x": 0,
-      "y": 5,
+      "x": 8,
+      "y": 8,
       "width": 1,
       "height": 2
     },
     {
       "id": "MAPSEC_FORTREE_CITY",
       "name": "REVELSTOKE",
-      "x": 12,
-      "y": 0,
+      "x": 17,
+      "y": 6,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_LILYCOVE_CITY",
       "name": "VANCOUVER",
-      "x": 18,
-      "y": 3,
+      "x": 9,
+      "y": 11,
       "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_MOSSDEEP_CITY",
       "name": "PRINCE RUPERT",
-      "x": 24,
-      "y": 5,
+      "x": 4,
+      "y": 2,
       "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_SOOTOPOLIS_CITY",
       "name": "DEEP COVE",
-      "x": 21,
-      "y": 7,
+      "x": 10,
+      "y": 10,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_EVER_GRANDE_CITY",
       "name": "WHISTLER",
-      "x": 27,
-      "y": 8,
+      "x": 9,
+      "y": 6,
       "width": 1,
       "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_101",
       "name": "RIVER ROAD",
-      "x": 4,
-      "y": 10,
+      "x": 9,
+      "y": 14,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_102",
       "name": "DYKE TRAIL",
-      "x": 2,
-      "y": 9,
-      "width": 2,
+      "x": 8,
+      "y": 13,
+      "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_103",
       "name": "BOUNDARY BAY",
-      "x": 4,
-      "y": 8,
-      "width": 4,
+      "x": 7,
+      "y": 14,
+      "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_104",
       "name": "STURGEON BANK",
-      "x": 0,
-      "y": 7,
+      "x": 7,
+      "y": 10,
       "width": 1,
       "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_105",
       "name": "GEORGIA STRAIT",
-      "x": 0,
+      "x": 6,
       "y": 10,
       "width": 1,
       "height": 3
@@ -171,23 +171,23 @@
     {
       "id": "MAPSEC_ROUTE_106",
       "name": "CLAYOQUOT SOUND",
-      "x": 0,
-      "y": 13,
-      "width": 2,
-      "height": 1
+      "x": 1,
+      "y": 11,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_107",
       "name": "BARKLEY SOUND",
-      "x": 3,
-      "y": 14,
-      "width": 3,
-      "height": 1
+      "x": 2,
+      "y": 12,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_108",
       "name": "JUAN DE FUCA",
-      "x": 6,
+      "x": 3,
       "y": 14,
       "width": 2,
       "height": 1
@@ -195,209 +195,209 @@
     {
       "id": "MAPSEC_ROUTE_109",
       "name": "OAK BAY",
-      "x": 8,
-      "y": 12,
+      "x": 6,
+      "y": 14,
       "width": 1,
-      "height": 3
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_110",
       "name": "GALLOPING GOOSE",
-      "x": 8,
-      "y": 7,
+      "x": 4,
+      "y": 11,
       "width": 1,
       "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_111",
       "name": "COQUIHALLA",
-      "x": 8,
-      "y": 0,
-      "width": 1,
-      "height": 6
+      "x": 14,
+      "y": 8,
+      "width": 2,
+      "height": 4
     },
     {
       "id": "MAPSEC_ROUTE_112",
       "name": "YELLOWHEAD",
-      "x": 6,
-      "y": 3,
-      "width": 2,
+      "x": 16,
+      "y": 5,
+      "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_113",
       "name": "ASHCROFT",
-      "x": 4,
-      "y": 0,
-      "width": 4,
-      "height": 1
+      "x": 15,
+      "y": 6,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_114",
       "name": "ADAMS RIVER",
-      "x": 1,
-      "y": 0,
-      "width": 2,
-      "height": 3
+      "x": 7,
+      "y": 5,
+      "width": 8,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_115",
       "name": "HOWE SOUND",
-      "x": 0,
-      "y": 2,
+      "x": 7,
+      "y": 6,
       "width": 1,
       "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_116",
       "name": "ALICE LAKE",
-      "x": 1,
-      "y": 5,
+      "x": 9,
+      "y": 8,
       "width": 4,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_117",
       "name": "FRASER CANYON",
-      "x": 5,
-      "y": 6,
-      "width": 3,
+      "x": 12,
+      "y": 11,
+      "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_118",
       "name": "SKAGIT VALLEY",
-      "x": 10,
-      "y": 6,
+      "x": 15,
+      "y": 12,
       "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_119",
       "name": "EAGLE PASS",
-      "x": 11,
-      "y": 0,
+      "x": 17,
+      "y": 7,
       "width": 1,
       "height": 6
     },
     {
       "id": "MAPSEC_ROUTE_120",
       "name": "ROGERS PASS",
-      "x": 13,
-      "y": 0,
-      "width": 1,
-      "height": 4
+      "x": 18,
+      "y": 6,
+      "width": 3,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_121",
       "name": "HWY 1",
-      "x": 14,
-      "y": 3,
-      "width": 4,
-      "height": 1
+      "x": 11,
+      "y": 7,
+      "width": 10,
+      "height": 7
     },
     {
       "id": "MAPSEC_ROUTE_122",
       "name": "FALSE CREEK",
-      "x": 16,
-      "y": 4,
+      "x": 9,
+      "y": 12,
       "width": 1,
-      "height": 2
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_123",
       "name": "KING GEORGE",
-      "x": 12,
-      "y": 6,
-      "width": 5,
+      "x": 10,
+      "y": 12,
+      "width": 3,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_124",
       "name": "INSIDE PASSAGE",
-      "x": 20,
+      "x": 4,
       "y": 3,
-      "width": 4,
+      "width": 1,
       "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_125",
       "name": "CHATHAM SOUND",
-      "x": 24,
-      "y": 3,
-      "width": 2,
+      "x": 3,
+      "y": 2,
+      "width": 1,
       "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_126",
       "name": "INDIAN ARM",
-      "x": 20,
-      "y": 6,
-      "width": 3,
-      "height": 3
+      "x": 9,
+      "y": 9,
+      "width": 2,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_127",
       "name": "JOHNSTONE STRAIT",
-      "x": 23,
-      "y": 6,
-      "width": 3,
-      "height": 3
+      "x": 5,
+      "y": 8,
+      "width": 2,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_128",
       "name": "HECATE STRAIT",
-      "x": 23,
-      "y": 9,
-      "width": 4,
-      "height": 1
+      "x": 1,
+      "y": 4,
+      "width": 2,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_129",
       "name": "DIXON ENTRANCE",
-      "x": 24,
-      "y": 10,
-      "width": 2,
+      "x": 2,
+      "y": 1,
+      "width": 3,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_130",
       "name": "MILBANKE SOUND",
-      "x": 21,
-      "y": 10,
-      "width": 3,
-      "height": 1
+      "x": 2,
+      "y": 6,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_131",
       "name": "BROUGHTON STRAIT",
-      "x": 18,
-      "y": 10,
-      "width": 3,
-      "height": 1
+      "x": 3,
+      "y": 7,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_132",
       "name": "KNIGHT INLET",
-      "x": 15,
-      "y": 10,
+      "x": 4,
+      "y": 7,
       "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_133",
       "name": "FITZ HUGH SOUND",
-      "x": 12,
-      "y": 10,
-      "width": 3,
+      "x": 3,
+      "y": 6,
+      "width": 2,
       "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_134",
       "name": "DISCOVERY PASS",
-      "x": 9,
-      "y": 10,
-      "width": 3,
+      "x": 5,
+      "y": 9,
+      "width": 2,
       "height": 1
     },
     {
@@ -443,24 +443,24 @@
     {
       "id": "MAPSEC_GRANITE_CAVE",
       "name": "HORNE LAKE CAVES",
-      "x": 1,
-      "y": 13,
+      "x": 3,
+      "y": 10,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_MT_CHIMNEY",
       "name": "WELLS GRAY CONE",
-      "x": 6,
-      "y": 2,
-      "width": 1,
-      "height": 1
+      "x": 16,
+      "y": 3,
+      "width": 2,
+      "height": 2
     },
     {
       "id": "MAPSEC_SAFARI_ZONE",
       "name": "BURNS BOG",
-      "x": 16,
-      "y": 2,
+      "x": 10,
+      "y": 13,
       "width": 1,
       "height": 1
     },
@@ -475,16 +475,16 @@
     {
       "id": "MAPSEC_PETALBURG_WOODS",
       "name": "PACIFIC SPIRIT",
-      "x": 0,
-      "y": 8,
+      "x": 7,
+      "y": 11,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_RUSTURF_TUNNEL",
       "name": "OTHELLO TUNNELS",
-      "x": 2,
-      "y": 5,
+      "x": 12,
+      "y": 9,
       "width": 1,
       "height": 1
     },
@@ -492,23 +492,23 @@
       "id": "MAPSEC_ABANDONED_SHIP",
       "name": "SS BEAVER WRECK",
       "x": 6,
-      "y": 14,
+      "y": 11,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_NEW_MAUVILLE",
       "name": "RUSKIN DAM",
-      "x": 8,
-      "y": 7,
+      "x": 15,
+      "y": 12,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_METEOR_FALLS",
       "name": "CASCADE FALLS",
-      "x": 0,
-      "y": 3,
+      "x": 8,
+      "y": 5,
       "width": 1,
       "height": 1
     },
@@ -523,8 +523,8 @@
     {
       "id": "MAPSEC_MT_PYRE",
       "name": "MOUNTAIN VIEW",
-      "x": 16,
-      "y": 4,
+      "x": 9,
+      "y": 12,
       "width": 1,
       "height": 1
     },
@@ -540,16 +540,16 @@
     {
       "id": "MAPSEC_SHOAL_CAVE",
       "name": "SAND HEADS",
-      "x": 24,
-      "y": 4,
+      "x": 3,
+      "y": 3,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_SEAFLOOR_CAVERN",
       "name": "HECATE REEF",
-      "x": 24,
-      "y": 9,
+      "x": 1,
+      "y": 5,
       "width": 1,
       "height": 1
     },
@@ -564,8 +564,8 @@
     {
       "id": "MAPSEC_VICTORY_ROAD",
       "name": "SEA TO SKY",
-      "x": 27,
-      "y": 9,
+      "x": 9,
+      "y": 7,
       "width": 1,
       "height": 1
     },
@@ -580,24 +580,24 @@
     {
       "id": "MAPSEC_CAVE_OF_ORIGIN",
       "name": "CAVE OF ORIGIN",
-      "x": 21,
-      "y": 7,
+      "x": 10,
+      "y": 10,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_SOUTHERN_ISLAND",
       "name": "SIDNEY ISLAND",
-      "x": 12,
-      "y": 14,
+      "x": 6,
+      "y": 13,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_FIERY_PATH",
       "name": "SULPHUR PASS",
-      "x": 6,
-      "y": 3,
+      "x": 16,
+      "y": 5,
       "width": 1,
       "height": 1
     },
@@ -612,8 +612,8 @@
     {
       "id": "MAPSEC_JAGGED_PASS",
       "name": "CHEAM RIDGE",
-      "x": 6,
-      "y": 3,
+      "x": 16,
+      "y": 5,
       "width": 1,
       "height": 1
     },
@@ -628,8 +628,8 @@
     {
       "id": "MAPSEC_SEALED_CHAMBER",
       "name": "SEALED CHAMBER",
-      "x": 11,
-      "y": 10,
+      "x": 3,
+      "y": 6,
       "width": 1,
       "height": 1
     },
@@ -644,32 +644,32 @@
     {
       "id": "MAPSEC_SCORCHED_SLAB",
       "name": "SCORCHED SLAB",
-      "x": 13,
-      "y": 0,
+      "x": 17,
+      "y": 9,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ISLAND_CAVE",
       "name": "ISLAND CAVE",
-      "x": 0,
-      "y": 10,
+      "x": 3,
+      "y": 6,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_DESERT_RUINS",
       "name": "DESERT RUINS",
-      "x": 8,
-      "y": 3,
+      "x": 15,
+      "y": 9,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_ANCIENT_TOMB",
       "name": "ANCIENT TOMB",
-      "x": 13,
-      "y": 2,
+      "x": 17,
+      "y": 9,
       "width": 1,
       "height": 1
     },
@@ -680,8 +680,8 @@
     {
       "id": "MAPSEC_SKY_PILLAR",
       "name": "STAWAMUS CHIEF",
-      "x": 19,
-      "y": 10,
+      "x": 8,
+      "y": 8,
       "width": 1,
       "height": 1
     },
@@ -1138,24 +1138,24 @@
     {
       "id": "MAPSEC_AQUA_HIDEOUT",
       "name": "AQUA HIDEOUT",
-      "x": 19,
-      "y": 3,
+      "x": 9,
+      "y": 11,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_MAGMA_HIDEOUT",
       "name": "MAGMA HIDEOUT",
-      "x": 6,
-      "y": 3,
+      "x": 16,
+      "y": 5,
       "width": 1,
       "height": 1
     },
     {
       "id": "MAPSEC_MIRAGE_TOWER",
       "name": "MIRAGE TOWER",
-      "x": 8,
-      "y": 2,
+      "x": 15,
+      "y": 9,
       "width": 1,
       "height": 1
     },
@@ -1214,8 +1214,8 @@
     {
       "id": "MAPSEC_DESERT_UNDERPASS",
       "name": "DESERT UNDERPASS",
-      "x": 2,
-      "y": 0,
+      "x": 15,
+      "y": 9,
       "width": 1,
       "height": 1
     },

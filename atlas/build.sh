@@ -15,6 +15,8 @@ python3 atlas/make_sprites.py
 python3 atlas/body_colors.py
 python3 atlas/make_title.py
 python3 atlas/make_headers.py
+python3 atlas/make_trailnav.py
+python3 atlas/make_region_map.py
 node atlas/apply_wild.js
 node atlas/rename_text.js
 make modern -j"$(nproc)"
