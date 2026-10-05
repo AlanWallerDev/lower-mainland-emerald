@@ -18,7 +18,8 @@
 		"16_early_routes.tsv",
 		"17_richmond.tsv",
 		"18_squamish.tsv",
-		"19_agreement.tsv"
+		"19_agreement.tsv",
+		"20_tofino.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

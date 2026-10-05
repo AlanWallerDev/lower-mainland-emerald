@@ -20,16 +20,16 @@ DewfordTown_House1_EventScript_Zigzagoon::
 	end
 
 DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland:
-	.string "There's a lot to be said for living on a\n"
-	.string "small island like this in harmony with\l"
-	.string "organism and the family.$"
+	.string "There's a lot to be said for living out\n"
+	.string "here at the end of the road, in harmony\l"
+	.string "with organisms and the family.$"
 
 DewfordTown_House1_Text_LifeGoesSlowlyOnIsland:
-	.string "I left the major port of VICTORIA\n"
-	.string "CITY when I married my husband here.\p"
-	.string "Life goes by slowly on this little\n"
-	.string "island. But being surrounded by the\l"
-	.string "beautiful sea--that's happiness, too.$"
+	.string "I left the big city of VICTORIA when I\n"
+	.string "married my husband here.\p"
+	.string "Life goes by slowly out here on the\n"
+	.string "west coast. But waking up to the wild\l"
+	.string "Pacific--that's happiness, too.$"
 
 DewfordTown_House1_Text_Zigzagoon:
 	.string "RACCOON: Guguuh!$"

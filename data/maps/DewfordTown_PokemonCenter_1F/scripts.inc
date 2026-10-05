@@ -25,8 +25,8 @@ DewfordTown_PokemonCenter_1F_EventScript_Man::
 	end
 
 DewfordTown_PokemonCenter_1F_Text_StoneCavern:
-	.string "There's a stone cavern at the edge\n"
-	.string "of town.\p"
+	.string "There's a limestone cave at the edge of\n"
+	.string "town.\p"
 	.string "I've heard you can find rare stones\n"
 	.string "there.$"
 
