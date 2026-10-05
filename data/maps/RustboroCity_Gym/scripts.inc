@@ -180,7 +180,7 @@ RustboroCity_Gym_Text_RoxanneIntro:
 	.string "LEADER.\p"
 	.string "I became a GYM LEADER so that I might\n"
 	.string "apply what I learned at the\l"
-	.string "NATURALIST'S SCHOOL in battle.\p"
+	.string "TRAINER'S SCHOOL in battle.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which organism?$"
 

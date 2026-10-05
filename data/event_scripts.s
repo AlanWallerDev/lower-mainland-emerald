@@ -860,7 +860,7 @@ gText_SelectWithoutRegisteredItem::
 	.string "registered to SELECT for easy use.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from NATURALIST\n"
+	.string "There's an e-mail from TRAINER\n"
 	.string "SCHOOL.\p"
 	.string "… … … … … …\p"
 	.string "An organism may learn up to four moves.\p"

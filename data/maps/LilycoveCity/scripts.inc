@@ -701,7 +701,7 @@ LilycoveCity_Text_HarborSign:
 	.string "the ferry S.S. TIDAL.”$"
 
 LilycoveCity_Text_TrainerFanClubSign:
-	.string "NATURALIST FAN CLUB\p"
+	.string "TRAINER FAN CLUB\p"
 	.string "The names of TRAINERS are scribbled\n"
 	.string "all over the sign…$"
 

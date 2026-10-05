@@ -1,6 +1,6 @@
 Route102_Text_CalvinIntro:
 	.string "If you have organisms with you, then\n"
-	.string "you're an official NATURALIST! You\l"
+	.string "you're an official TRAINER! You\l"
 	.string "can't say no to my challenge!$"
 
 Route102_Text_CalvinDefeated:
@@ -4683,7 +4683,7 @@ Route134_Text_AlexPostBattle:
 	.string "after a long flight…$"
 
 Route134_Text_HitoshiIntro:
-	.string "You're a NATURALIST. No need for words.\n"
+	.string "You're a TRAINER. No need for words.\n"
 	.string "We battle now.$"
 
 Route134_Text_HitoshiDefeat:

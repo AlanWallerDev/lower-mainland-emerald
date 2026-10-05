@@ -71,7 +71,7 @@ RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
 	.string "PACIFIC SPIRIT.$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
-	.string "My organisms evolved. It has a lot of HP\n"
+	.string "My organism evolved. It has a lot of HP\n"
 	.string "now.\p"
 	.string "I should buy SUPER POTIONS for it\n"
 	.string "instead of ordinary POTIONS.$"

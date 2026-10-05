@@ -940,7 +940,7 @@ RustboroCity_Text_YoureNewAroundHere:
 	.string "Oh? Who might you be?\n"
 	.string "You're a new face around these parts.\p"
 	.string "Have you just transferred into the\n"
-	.string "NATURALIST'S SCHOOL?$"
+	.string "TRAINER'S SCHOOL?$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "I challenged the GYM LEADER, but…\p"
@@ -969,7 +969,7 @@ RustboroCity_Text_WowYouHavePokemon:
 	.string "places with organisms, too.$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
-	.string "NATURALIST'S SCHOOL!\p"
+	.string "TRAINER'S SCHOOL!\p"
 	.string "If I go to this school, will I be able to\n"
 	.string "catch rare organisms easily?$"
 
@@ -1143,7 +1143,7 @@ RustboroCity_Text_CitySign:
 	.string "“Where the granite meets the sound.”$"
 
 RustboroCity_Text_TrainersSchoolSign:
-	.string "NATURALIST'S SCHOOL\p"
+	.string "TRAINER'S SCHOOL\p"
 	.string "“We'll teach you anything about\n"
 	.string "organisms!”$"
 

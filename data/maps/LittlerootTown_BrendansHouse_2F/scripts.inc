@@ -267,7 +267,8 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "Good! Everything's put away neatly!\p"
 	.string "They finished moving everything in\n"
 	.string "downstairs, too.\p"
-	.string "Organisms movers are so convenient!\p"
+	.string "Movers with partners are so\n"
+	.string "convenient!\p"
 	.string "Oh, you should make sure that\n"
 	.string "everything's all there on your desk.$"
 

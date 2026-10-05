@@ -583,7 +583,7 @@ LilycoveCity_Harbor_Text_SailorFerryAvailable:
 	.string "must've worked extra hard.\p"
 	.string "Well, it's my turn to get busy now!$"
 
-@ [Stand-in] Living Atlas
+@ Living Atlas
 LilycoveCity_Harbor_Text_CharterTickets:
 	.string "Congratulations on becoming CHAMPION!\p"
 	.string "The province's field researchers asked\n"

@@ -234,7 +234,7 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "You were elegant, infuriatingly so.\l"
 	.string "And yet it was utterly glorious!\p"
 	.string "Kudos to you, {PLAYER}{KUN}!\p"
-	.string "You are a truly noble NATURALIST!$"
+	.string "You are a truly noble TRAINER!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "WALLACE: The organism you sent into\n"

@@ -277,7 +277,7 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "MAY: Let's see… The organism found on\n"
+	.string "MAY: Let's see… The organisms found on\n"
 	.string "BOUNDARY BAY include…$"
 
 Route103_Text_MayLetsBattle:
@@ -333,8 +333,8 @@ Route103_Text_ShouldHaveBroughtPotion:
 	.string "should have brought a POTION…$"
 
 Route103_Text_ShortcutToOldale:
-	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to TSAWWASSEN.\p"
+	.string "If you cross the bay from here, it'll be\n"
+	.string "a shortcut to TSAWWASSEN.\p"
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:

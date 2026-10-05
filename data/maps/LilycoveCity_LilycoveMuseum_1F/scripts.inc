@@ -173,7 +173,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
 
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
 	.string "Oh? I do believe that you seem to be a\n"
-	.string "NATURALIST.\p"
+	.string "TRAINER.\p"
 	.string "Have you an interest in paintings,\n"
 	.string "too?$"
 

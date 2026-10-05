@@ -519,7 +519,7 @@ SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory:
 
 gTVRecentHappeningsText00::
 	.string "Hello, it's time for RECENT HAPPENINGS.\p"
-	.string "For NATURALISTS, every day is a\n"
+	.string "For TRAINERS, every day is a\n"
 	.string "storybook tale.\p"
 	.string "What we want to do is to introduce you\n"
 	.string "to some of these organism tales.\p"
@@ -1174,7 +1174,7 @@ gTVWorldOfMastersText02::
 
 gTVTodaysRivalTrainerText00::
 	.string "TODAY'S RIVAL TRAINER!\p"
-	.string "Hello, fellow NATURALISTS! How are we\n"
+	.string "Hello, fellow TRAINERS! How are we\n"
 	.string "all doing today?\p"
 	.string "Today, like every other day,\n"
 	.string "we'll examine one of our rivals!$"

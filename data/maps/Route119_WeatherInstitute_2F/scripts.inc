@@ -208,7 +208,7 @@ Route119_WeatherInstitute_2F_Text_Grunt2Defeat:
 	.string "Our plan's being spoiled by a kid?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
-	.string "If the organisms they made here can\n"
+	.string "If the organism they made here can\n"
 	.string "control the weather freely, then we of\l"
 	.string "TEAM RIPTIDE definitely need it!$"
 

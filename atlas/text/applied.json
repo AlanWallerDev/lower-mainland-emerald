@@ -12,7 +12,13 @@
 		"10_observatory.tsv",
 		"11_observatory_fix.tsv",
 		"12_geography.tsv",
-		"13_text_fixes.tsv"
+		"13_text_fixes.tsv",
+		"14_trainer.tsv",
+		"15_ladner.tsv",
+		"16_early_routes.tsv",
+		"17_richmond.tsv",
+		"18_squamish.tsv",
+		"19_agreement.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

@@ -39,7 +39,7 @@ OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
 
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 	.string "That PC in the corner there is for any\n"
-	.string "NATURALIST to use.\p"
+	.string "TRAINER to use.\p"
 	.string "Naturally, that means you're welcome\n"
 	.string "to use it, too.$"
 

@@ -116,7 +116,7 @@ AncientTomb_Braille_ShineInTheMiddle:
 	.braille "WILL, SHINE\n"
 	.braille "IN THE MIDDLE.$"
 
-@ Living Atlas: [Stand-in] Burgess Shale survey notes shown instead of the braille inscriptions
+@ Living Atlas: Burgess Shale survey notes shown instead of the braille inscriptions
 @ (the braille alphabet panels in the outer room stay as wall decoration).
 Underwater_SealedChamber_Braille_GoUpHere_Note::
 	.string "Survey note, scratched into the rock:\n"

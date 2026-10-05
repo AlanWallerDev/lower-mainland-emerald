@@ -130,7 +130,7 @@ gText_ApprenticeLevelModeThanks1::
 gText_ApprenticePleaseTeach2::
 	.string "Um… Are you {PLAYER}?\n"
 	.string "My name is {STR_VAR_1}.\p"
-	.string "I want to become a NATURALIST, but I\n"
+	.string "I want to become a TRAINER, but I\n"
 	.string "don't know what to do…\p"
 	.string "So I thought maybe I could ask you for\n"
 	.string "advice because you're so famous.\p"
@@ -139,7 +139,7 @@ gText_ApprenticePleaseTeach2::
 gText_ApprenticeRejectTeaching2::
 	.string "Oh, but…\p"
 	.string "I sincerely want to become a\n"
-	.string "NATURALIST!\p"
+	.string "TRAINER!\p"
 	.string "Please, can you answer my questions?$"
 
 gText_ApprenticeWhichLevelMode2::
@@ -1145,7 +1145,7 @@ gText_ApprenticeThanksNoHeldItem13::
 
 gText_ApprenticeThanksHeldItem13::
 	.string "Hm, all right. That's one {STR_VAR_1}. My\n"
-	.string "organisms' arm is fine, so I'll make it\l"
+	.string "organism's arm is fine, so I'll make it\l"
 	.string "hold that item right away.\p"
 	.string "I hope I can keep hitting you up\n"
 	.string "for help like this.$"

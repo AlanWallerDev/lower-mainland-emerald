@@ -23,7 +23,7 @@ EWRAM_DATA bool8 gNuzlockeNewGameChoice = FALSE;
 static EWRAM_DATA bool8 sCanCatchThisBattle = TRUE;
 
 const u8 gText_Birch_Nuzlocke[] = _(
-    "One last thing. Some NATURALISTS\n"
+    "One last thing. Some TRAINERS\n"
     "follow the NUZLOCKE code.\p"
     "You may only catch the first organism\n"
     "you meet in each area.\p"

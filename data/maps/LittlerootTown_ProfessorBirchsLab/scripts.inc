@@ -714,8 +714,8 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "PROF. MACOUN: {RIVAL}?\n"
 	.string "Gone home, I think.\p"
-	.string "Or maybe that kid's scrabbling around\n"
-	.string "in tall grass again somewhere…\p"
+	.string "Or maybe that kid's out on the dykes\n"
+	.string "again, watching the snow geese…\p"
 	.string "If you or your partners get tired, you\n"
 	.string "should get some rest at home.$"
 

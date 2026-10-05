@@ -15,8 +15,8 @@ builds; the owner directs. Owner decisions are logged in the Living Atlas repo's
 ## Rules
 
 - Never commit ROMs.
-- No Pokémon terms in game text (organisms, partners, FIELD JOURNAL, NATURALIST, NATURE LEAGUE).
-- Story text is the owner's call; new lines are stand-ins until approved.
+- No Pokémon terms in game text (organisms, partners, FIELD JOURNAL, NATURE LEAGUE). Trainers stay TRAINERS.
+- Story, dialogue and naming are delegated to Claude (owner, 2026-10-05): decide, build and log; don't park details for review.
 - Villains stay fictional. Historical figures: deceased, heroic or neutral roles only.
 - Indigenous content: common place names only; no sacred figures, crests, art or stories. Cryptids use their common English names only.
 - C changes are marked with a `Living Atlas` comment.

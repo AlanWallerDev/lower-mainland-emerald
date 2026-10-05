@@ -1043,11 +1043,11 @@ Route104_Text_MrBrineysCottage:
 	.string "MR. BRINEY'S COTTAGE$"
 
 Route104_Text_RouteSignPetalburg:
-	.string "ROUTE 1O4\n"
+	.string "STURGEON BANK\n"
 	.string "{RIGHT_ARROW} RICHMOND$"
 
 Route104_Text_RouteSignRustboro:
-	.string "ROUTE 1O4\n"
+	.string "STURGEON BANK\n"
 	.string "{UP_ARROW} SQUAMISH$"
 
 Route104_Text_PrettyPetalFlowShop:

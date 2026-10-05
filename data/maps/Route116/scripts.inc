@@ -452,8 +452,8 @@ Route116_Text_TrainerTipsBToStopEvolution:
 	.string "TRAINER TIPS\p"
 	.string "If you want to stop an organism from\n"
 	.string "evolving, press the B Button while it is\l"
-	.string "trying to evolve. The startled\l"
-	.string "organisms will stop.\p"
+	.string "trying to evolve. The startled organism\l"
+	.string "will stop.\p"
 	.string "This is called an evolution cancel.$"
 
 Route116_Text_TrainerTipsBagHasPockets:

@@ -857,8 +857,9 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "Well, this is LADNER.\p"
 	.string "How do you like it?\n"
 	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
+	.string "It's a quiet fishing village out on the\n"
+	.string "delta, but it seems to be an easy place\l"
+	.string "to live, don't you think?\p"
 	.string "And, you get your own room, {PLAYER}!\n"
 	.string "Let's go inside.$"
 

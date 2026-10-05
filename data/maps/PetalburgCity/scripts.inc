@@ -686,7 +686,7 @@ PetalburgCity_Text_WhereIsWally:
 PetalburgCity_Text_AreYouRookieTrainer:
 	.string "Hiya! Are you maybe…\n"
 	.string "A rookie TRAINER?\p"
-	.string "Do you know what NATURALISTS do when\n"
+	.string "Do you know what TRAINERS do when\n"
 	.string "they reach a new town?\p"
 	.string "They first check what kind of GYM\n"
 	.string "is in the town.$"
@@ -725,7 +725,7 @@ PetalburgCity_Text_WallyHouseSign:
 PetalburgCity_Text_AreYouATrainer:
 	.string "Excuse me!\p"
 	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a NATURALIST?$"
+	.string "dressed, are you a TRAINER?$"
 
 PetalburgCity_Text_WellMaybeNot:
 	.string "… … … … … …\p"

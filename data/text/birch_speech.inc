@@ -20,7 +20,7 @@ gText_Birch_MainSpeech::
 	.string "to see.\p"
 	.string "Some people team up with them as\n"
 	.string "partners, and test their skills\l"
-	.string "against other NATURALISTS.\p"
+	.string "against other TRAINERS.\p"
 	.string "But for all our time together, we\n"
 	.string "still know so little about them.\p"
 	.string "Every rain-soaked forest and tide pool\n"
