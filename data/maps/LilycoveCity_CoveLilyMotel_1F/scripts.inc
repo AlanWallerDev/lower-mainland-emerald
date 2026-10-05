@@ -67,7 +67,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 	.string "Hm, so they doubled the guests by using\n"
 	.string "organisms as attractions?\p"
 	.string "Hm, well, maybe I should make a cute\n"
-	.string "organisms our inn's mascot.\p"
+	.string "organism our inn's mascot.\p"
 	.string "I wonder if that will attract more\n"
 	.string "guests to stay with us?$"
 
@@ -112,8 +112,8 @@ LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 	.string "I was too involved in watching TV.\p"
 	.string "Oh, yes. A big group of guests arrived\n"
 	.string "a little while ago.\p"
-	.string "They booked in as GAME FREAK,\n"
-	.string "so I guess they must make games.\p"
+	.string "They booked in as the LIVING ATLAS\n"
+	.string "crew, so I guess they must make games.\p"
 	.string "Uh-oh, I'd better get working on\n"
 	.string "their dinner!$"
 

@@ -86,9 +86,9 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-	.string "No one believes me, but I saw this\n"
-	.string "gigantic organism in the sky.\p"
-	.string "It seemed to squirm as it flew toward\n"
+	.string "No one believes me, but I saw a giant\n"
+	.string "seabird high in the sky.\p"
+	.string "It shot off like an arrow toward\n"
 	.string "BROUGHTON STRAIT.\p"
 	.string "By the way… Sniff…\n"
 	.string "Um… You, uh…smell singed.\p"
@@ -139,7 +139,7 @@ FortreeCity_Text_UsedDevonScopePokemonFled:
 	.string "{PLAYER} used the SUMMIT SCOPE.\p"
 	.string "An invisible organism became completely\n"
 	.string "visible!\p"
-	.string "The startled organisms fled!$"
+	.string "The startled organism fled!$"
 
 FortreeCity_Text_CitySign:
 	.string "REVELSTOKE “Treetop town in the inland\n"

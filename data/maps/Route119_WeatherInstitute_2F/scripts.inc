@@ -288,9 +288,9 @@ Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
 	.string "{PLAYER} received BLACKTAIL!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
-	.string "That organism changes shape according\n"
-	.string "to the weather conditions.\p"
-	.string "There're plenty of them in the\n"
+	.string "That BLACKTAIL wandered in out of a\n"
+	.string "storm and never left.\p"
+	.string "There are plenty of deer around the\n"
 	.string "INSTITUTE--go ahead and take it.$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:

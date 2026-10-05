@@ -382,7 +382,7 @@ Route120_Text_StevenUsedDevonScope:
 	.string "DAWSON used the SUMMIT SCOPE.\p"
 	.string "An invisible organism became completely\n"
 	.string "visible!\p"
-	.string "The startled organisms attacked!$"
+	.string "The startled organism attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
 	.string "DAWSON: I see…\n"
@@ -412,7 +412,7 @@ Kecleon_Text_UseDevonScopeMonAttacked:
 	.string "{PLAYER} used the SUMMIT SCOPE.\p"
 	.string "An invisible organism became completely\n"
 	.string "visible!\p"
-	.string "The startled organisms attacked!$"
+	.string "The startled organism attacked!$"
 
 Route120_Text_RouteSignFortree:
 	.string "ROGERS PASS\n"

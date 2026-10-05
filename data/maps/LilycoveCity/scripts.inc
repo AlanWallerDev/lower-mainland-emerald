@@ -444,7 +444,7 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 	.string "MAY: I'm thinking of going back to\n"
 	.string "LADNER soon.\p"
 	.string "I've caught a decent group of\n"
-	.string "organism, and my FIELD JOURNAL is\l"
+	.string "organisms, and my FIELD JOURNAL is\l"
 	.string "coming along, so I'm going home to show\l"
 	.string "my dad.$"
 
@@ -570,8 +570,7 @@ LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "place for organisms, too.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "There! DIPPER! Leap out of the\n"
-	.string "water now!$"
+	.string "There! GRAY WHALE! Breach now!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
 	.string "Hunh? What do you want?\p"
@@ -613,7 +612,7 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
 	.string "Someone punted TEAM RIPTIDE out of\n"
 	.string "the way for us!\p"
-	.string "That got the DIPPER out of the\n"
+	.string "That got the GRAY WHALES out of the\n"
 	.string "cove, so we can get our boats out again.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
@@ -624,7 +623,7 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 	.string "TEAM RIPTIDE? Is it TEAM RIPTIDE?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
-	.string "My missing organisms… It came back\n"
+	.string "My missing partner… It came back\n"
 	.string "without me noticing!$"
 
 LilycoveCity_Text_ImArtDealer:
