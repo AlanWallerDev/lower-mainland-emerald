@@ -31,6 +31,10 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   0x20), then points to HALLUCIGEN, ANOMALO and the sleeping MARRELLA, OPABINIA and PIKAIA (the
   Regi puzzle); a digger says every fossil stays on the mountain. The TM ball moved to a corner.
   Harness `shale.txt`, `docs/burgess_shale.png`.
+- **Cushions and posters**: the organism cushions are drawn from their battle sprites like the
+  dolls, and named for them with the posters (BEE, FUNGUS, RACCOON, JELLY, GOOSE, LIZARD;
+  `atlas/text/42_decor.tsv`). Poster art (secret base tiles) is unchanged.
+- **Move names** audited: plain English, no Pokemon names or terms; left as they are.
 
 ## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)
 

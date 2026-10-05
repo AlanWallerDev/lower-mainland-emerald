@@ -58,7 +58,7 @@ Phases come from `docs/BC_PLAN.md`. Keep each task finishable in one session.
 - [x] Learnsets: immobile organisms get body-appropriate moves
 - [x] Playtest from power-on to the first battle (`firstbattle.txt`); menu overflow fixes
 - [x] Playtest to the rival battle on BOUNDARY BAY (`rival.txt`)
-- [x] Overworld creature sprites, dolls and doll icons (`atlas/make_creature_sprites.py`)
+- [x] Overworld creature sprites, dolls, cushions and doll icons (`atlas/make_creature_sprites.py`); cushion and poster names (`42_decor.tsv`)
 - [x] Deer family and sea mammal rigs
 - [x] Baked-in text in graphics: TrailNav legend, Journal, type icons, PC menu
 - [ ] Playtest further (the owner's)
