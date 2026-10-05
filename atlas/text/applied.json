@@ -30,7 +30,9 @@
 		"28_interior.tsv",
 		"29_leftover_names.tsv",
 		"30_revelstoke.tsv",
-		"31_vancouver.tsv"
+		"31_vancouver.tsv",
+		"32_endgame.tsv",
+		"33_articles.tsv"
 	],
 	"names": {
 		"towns.LITTLEROOT": "LADNER",

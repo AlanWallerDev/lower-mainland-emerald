@@ -631,7 +631,7 @@ BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
 	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A ACNEBACTER DOLL. Place it on a mat or\n"
+	.string "An ACNEBACTER DOLL. Place it on a mat or\n"
 	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
@@ -639,7 +639,7 @@ BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
 	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A OPOSSUM DOLL. Place it on a mat or\n"
+	.string "An OPOSSUM DOLL. Place it on a mat or\n"
 	.string "a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::

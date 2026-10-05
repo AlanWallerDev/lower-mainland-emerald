@@ -147,7 +147,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 	.string "The biggest SNOW ALGA in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch giant!\p"
-	.string "A SNOW ALGA bigger than a ALEVIN\n"
+	.string "A SNOW ALGA bigger than an ALEVIN\n"
 	.string "always wanted!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
@@ -158,7 +158,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
 	.string "bigger.\p"
 	.string "But that's wrong! Everyone knows that\n"
 	.string "ALEVIN is a lot bigger.\p"
-	.string "Hunh? Do you have a ALEVIN?\n"
+	.string "Hunh? Do you have an ALEVIN?\n"
 	.string "P-p-please show me!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
@@ -196,6 +196,6 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
 	.string "The biggest ALEVIN in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch\l"
 	.string "colossus!\p"
-	.string "A ALEVIN bigger than a SNOW ALGA\n"
+	.string "An ALEVIN bigger than a SNOW ALGA\n"
 	.string "always wanted!$"
 

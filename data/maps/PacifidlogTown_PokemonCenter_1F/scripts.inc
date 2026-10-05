@@ -32,17 +32,15 @@ PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 	.string "Mine's copper!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "ECHO BAY floats on top of a\n"
-	.string "colony of LAMPREY.\p"
+	.string "ECHO BAY floats on top of a forest of\n"
+	.string "bull kelp.\p"
 	.string "If I told you that, would you believe\n"
 	.string "me?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
-	.string "The ancestors of the people in\n"
-	.string "ECHO BAY were said to have been\l"
-	.string "born on boats and then lived and died \l"
-	.string "aboard them.\p"
-	.string "I understand that they lived that way\n"
-	.string "because they were searching for\l"
-	.string "something.$"
+	.string "The first people of ECHO BAY's float\n"
+	.string "camps were loggers and fishers who\l"
+	.string "towed their homes from inlet to inlet.\p"
+	.string "Some folks say they were searching for\n"
+	.string "something out here.$"
 

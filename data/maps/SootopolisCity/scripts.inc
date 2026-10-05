@@ -1380,8 +1380,7 @@ SootopolisCity_Text_GiantPokemonSuddenlyAppeared:
 	.string "organisms?$"
 
 SootopolisCity_Text_WhatIsThatGreenPokemon:
-	.string "What? What? What? What is that green\n"
-	.string "organism?!$"
+	.string "What? What? What? What is that bird?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
 	.string "SPIRITBEAR and SPONGEREEF… Where\n"
@@ -1414,8 +1413,7 @@ SootopolisCity_Text_ThatWasWicked:
 	.string "That was wicked!$"
 
 SootopolisCity_Text_GoRedAndBlueMon:
-	.string "Go for it, red organism! Don't back off,\n"
-	.string "blue organism!$"
+	.string "Go for it, bear! Don't back off, reef!$"
 
 SootopolisCity_Text_DoYouKnowMonNames:
 	.string "… … … … … …\p"
@@ -1423,24 +1421,24 @@ SootopolisCity_Text_DoYouKnowMonNames:
 	.string "organisms fighting over there?$"
 
 SootopolisCity_Text_GreenOneSettlesThings:
-	.string "I was wondering which one would win,\n"
-	.string "the red one or the blue one, but, oh no,\l"
-	.string "it's the green one that settles things!\p"
+	.string "I was wondering which one would win, the\n"
+	.string "bear or the reef, but, oh no, it's the\l"
+	.string "little bird that settles things!\p"
 	.string "Talk about a huge turn of events!$"
 
 SootopolisCity_Text_SeeingLegendWithOwnEyes:
-	.string "There's an ancient legend that claims\n"
-	.string "the land and sea were shaped by a\l"
-	.string "colossal battle between organisms.\p"
+	.string "There's an ancient legend about a\n"
+	.string "colossal battle between the forest and\l"
+	.string "the sea.\p"
 	.string "Well, I'm seeing that happen with\n"
 	.string "my very own eyes!\p"
 	.string "Whoa! I never expected to be\n"
 	.string "witness to something this huge!$"
 
 SootopolisCity_Text_SawLegendWithOwnEyes:
-	.string "There's an ancient legend that claims\n"
-	.string "the land and sea were shaped by a\l"
-	.string "colossal battle between organisms.\p"
+	.string "There's an ancient legend about a\n"
+	.string "colossal battle between the forest and\l"
+	.string "the sea.\p"
 	.string "Well, I saw that happen with\n"
 	.string "my very own eyes!\p"
 	.string "Whoa! I never expected to be\n"
@@ -1542,7 +1540,7 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "ASHBY: G… SPIRITBEAR… Please! Stop\n"
+	.string "ASHBY: S… SPIRITBEAR… Please! Stop\n"
 	.string "what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all of BC, not just\n"
