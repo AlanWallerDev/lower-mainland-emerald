@@ -31,6 +31,13 @@ const u8 gText_Birch_Nuzlocke[] = _(
     "and every catch gets a nickname.\p"
     "Will you follow the NUZLOCKE code?");
 
+const u8 gText_Birch_NuzlockeConfirm[] = _(
+    "Are you sure? The NUZLOCKE code\n"
+    "can't be undone for this journey.\p"
+    "If every partner in your party falls,\n"
+    "your save file is erased.\p"
+    "Follow the NUZLOCKE code?");
+
 const u8 gText_NuzlockeReleased[] = _(
     "{STR_VAR_1} has fallen.\n"
     "It leaves your party for good…");

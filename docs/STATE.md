@@ -47,6 +47,10 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   one; egg and question-mark icons are remapped. Microbes sit in a magnifying glass (lens, dark rim,
   glint, handle) instead of a plain circle (`rigs_micro.py`, `engine.Art.shrink`, `Part.ring`), in
   battle, menus, dolls and overworld sprites. `docs/magnifier.png`.
+- **Nuzlocke confirmation**: answering YES at new game asks again ("Are you sure? ... If every
+  partner in your party falls, your save file is erased. Follow the NUZLOCKE code?"), cursor on NO;
+  NO returns to the first question, NO to the first question needs no confirmation. Harness scripts
+  that start a new game press UP on the confirmation.
 - **Move names** audited: plain English, no Pokemon names or terms; left as they are.
 
 ## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)

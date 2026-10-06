@@ -10,6 +10,7 @@
 
 extern bool8 gNuzlockeNewGameChoice;
 extern const u8 gText_Birch_Nuzlocke[];
+extern const u8 gText_Birch_NuzlockeConfirm[];
 extern const u8 gText_NuzlockeNoCatch[];
 extern const u8 gText_NuzlockeReleased[];
 extern const u8 gText_NuzlockeRunOver[];

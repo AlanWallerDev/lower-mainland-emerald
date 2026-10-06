@@ -233,6 +233,9 @@ static void Task_NewGameBirchSpeech_SlidePlatformAway2(u8);
 static void Task_NewGameBirchSpeech_AskNuzlocke(u8);
 static void Task_NewGameBirchSpeech_CreateNuzlockeYesNo(u8);
 static void Task_NewGameBirchSpeech_ProcessNuzlockeYesNo(u8);
+static void Task_NewGameBirchSpeech_CreateNuzlockeConfirm(u8);
+static void Task_NewGameBirchSpeech_ProcessNuzlockeConfirm(u8);
+static void NewGameBirchSpeech_FinishNuzlockeChoice(u8, bool8);
 static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8);
 static void Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter(u8);
 static void Task_NewGameBirchSpeech_AreYouReady(u8);
@@ -1667,7 +1670,45 @@ static void Task_NewGameBirchSpeech_ProcessNuzlockeYesNo(u8 taskId)
     if (input == MENU_NOTHING_CHOSEN)
         return;
     PlaySE(SE_SELECT);
-    gNuzlockeNewGameChoice = (input == 0);
+    if (input != 0)
+    {
+        NewGameBirchSpeech_FinishNuzlockeChoice(taskId, FALSE);
+        return;
+    }
+    // Living Atlas: YES asks once more, spelling out what the rules cost.
+    NewGameBirchSpeech_ClearWindow(0);
+    StringExpandPlaceholders(gStringVar4, gText_Birch_NuzlockeConfirm);
+    AddTextPrinterForMessage(TRUE);
+    gTasks[taskId].func = Task_NewGameBirchSpeech_CreateNuzlockeConfirm;
+}
+
+static void Task_NewGameBirchSpeech_CreateNuzlockeConfirm(u8 taskId)
+{
+    if (!RunTextPrintersAndIsPrinter0Active())
+    {
+        // Same box as the first question, but the cursor starts on NO.
+        struct WindowTemplate template = CreateWindowTemplate(0, 3, 2, 5, 4, 15, 0xDF);
+        CreateYesNoMenu(&template, 0xF3, 2, 1);
+        gTasks[taskId].func = Task_NewGameBirchSpeech_ProcessNuzlockeConfirm;
+    }
+}
+
+static void Task_NewGameBirchSpeech_ProcessNuzlockeConfirm(u8 taskId)
+{
+    s8 input = Menu_ProcessInputNoWrapClearOnChoose();
+
+    if (input == MENU_NOTHING_CHOSEN)
+        return;
+    PlaySE(SE_SELECT);
+    if (input == 0)
+        NewGameBirchSpeech_FinishNuzlockeChoice(taskId, TRUE);
+    else
+        gTasks[taskId].func = Task_NewGameBirchSpeech_AskNuzlocke; // NO or B: back to the first question
+}
+
+static void NewGameBirchSpeech_FinishNuzlockeChoice(u8 taskId, bool8 nuzlocke)
+{
+    gNuzlockeNewGameChoice = nuzlocke;
     NewGameBirchSpeech_ClearWindow(0);
     gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
     NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
