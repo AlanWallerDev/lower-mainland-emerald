@@ -14,6 +14,7 @@ node atlas/theme_trainers.js
 python3 atlas/make_sprites.py
 python3 atlas/make_creature_sprites.py
 python3 atlas/body_colors.py
+python3 atlas/make_icons.py
 python3 atlas/make_title.py
 python3 atlas/make_dollar.py
 python3 atlas/make_title_bird.py

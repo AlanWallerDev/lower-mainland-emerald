@@ -112,6 +112,12 @@ class Part:
             self.line([pts[i], pts[i + 1]], w0 + (w1 - w0) * t)
         return self
 
+    def ring(self, cx, cy, r, w):
+        """A circle outline of width w (lens rims)."""
+        self.circle(cx, cy, r)
+        self.d.ellipse([(cx - r + w) * S, (cy - r + w) * S, (cx + r - w) * S, (cy + r - w) * S], fill=0)
+        return self
+
     def rect(self, x0, y0, x1, y1):
         self.d.rectangle([x0 * S, y0 * S, x1 * S, y1 * S], fill=255)
         return self
@@ -132,6 +138,16 @@ class Art:
         p = Part(self, role, clip, line)
         self.parts.append(p)
         return p
+
+    def shrink(self, k, cx, cy):
+        """Scale everything drawn so far by k about the canvas centre and move that centre to (cx, cy)."""
+        size = int(round(N * S * k))
+        for p in self.parts:
+            small = p.mask.resize((size, size), Image.LANCZOS)
+            p.mask = Image.new('L', (N * S, N * S), 0)
+            p.mask.paste(small, (int(round((cx - N * k / 2) * S)), int(round((cy - N * k / 2) * S))))
+            p.d = ImageDraw.Draw(p.mask)
+        self.eyes = [(cx + (x - N / 2) * k, cy + (y - N / 2) * k, size_, st) for x, y, size_, st in self.eyes]
 
     def eye(self, x, y, size=1, style='dot'):
         """style: dot (black), big (black with highlight), red (E colour iris), white (W ring), pale."""

@@ -1,4 +1,5 @@
-"""Microscopic organisms, drawn inside a microscope field of view (C is the field colour).
+"""Microscopic organisms, drawn inside a magnifying glass (C is the lens's field colour): the view is
+drawn full size, then shrunk into the lens, which gets a dark rim, a glint and a handle.
 A main cell colour, B secondary (nucleus, shell, flagella), D detail, E glow/eyespot."""
 import math
 
@@ -19,6 +20,21 @@ def micro(a, sp, r):
     if f is None:
         raise KeyError(shape)
     f(a, sp, r)
+    _magnifier(a)
+
+
+LENS = (26, 26, 23.5)  # centre and radius of the lens after shrinking the 30-radius field
+
+
+def _magnifier(a):
+    cx, cy, rad = LENS
+    a.shrink(rad / 30, cx, cy)
+    a.part('K', line=False).ring(cx, cy, rad + 2.5, 3)
+    a.part('W', line=False).curve((cx - rad * .62, cy - rad * .05), (cx - rad * .62, cy - rad * .62),
+                                  (cx - rad * .05, cy - rad * .62), 1.6)
+    d = (rad + 2.5) / 2 ** .5
+    a.part('K').line([(cx + d, cy + d), (cx + d + 3, cy + d + 3)], 4.5)   # collar
+    a.part('D').line([(cx + d + 3, cy + d + 3), (61, 61)], 6)            # grip
 
 
 def _flagella(a, pts, role='B', w=.8):

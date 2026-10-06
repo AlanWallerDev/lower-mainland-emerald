@@ -41,6 +41,12 @@ Updated at the end of every session. Read this first, then `docs/TASKS.md` and `
   bone throws and PAY DAY are gone. Each type's first move falls back when the body rules it out
   (snakes open with ACID, not POISON STING), and organisms left with few moves get plain off-type
   ones (BITE, ACID, WATER PULSE...). Checked by listing all 386 learnsets; `firstbattle.txt` plays.
+- **Owner playtest notes (2026-10-06)**: menu icons were near-black silhouettes because upstream's
+  three shared icon palettes lack most organisms' colours. `atlas/make_icons.py` now fits the three
+  palettes to the organisms' own sprites (k-means per colour group) and gives each species the best
+  one; egg and question-mark icons are remapped. Microbes sit in a magnifying glass (lens, dark rim,
+  glint, handle) instead of a plain circle (`rigs_micro.py`, `engine.Art.shrink`, `Part.ring`), in
+  battle, menus, dolls and overworld sprites. `docs/magnifier.png`.
 - **Move names** audited: plain English, no Pokemon names or terms; left as they are.
 
 ## Earlier session: dialogue pass, LADNER to WHISTLER (2026-10-05)
